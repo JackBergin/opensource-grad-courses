@@ -1,0 +1,28 @@
+{
+  "name": "mba-sloan-scripts",
+  "version": "1.0.0",
+  "description": "Seeding and local assessment authoring scripts for the MBA Sloan learning platform",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "parse": "npx tsx parse-courses.ts",
+    "parse:assessments": "npx tsx local-assessments.ts",
+    "expand:assessments": "npx tsx expand-assessments.ts",
+    "check:assessment-coverage": "npx tsx assessment-coverage.ts",
+    "seed:content": "npx tsx seed-content.ts",
+    "seed:files": "npx tsx upload-files.ts",
+    "seed:quizzes": "npx tsx seed-quizzes.ts",
+    "seed:assessments": "npx tsx seed-assessments.ts",
+    "seed:all": "npm run seed:content && npm run seed:files",
+    "reset:content": "npx tsx reset-content.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.0",
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}

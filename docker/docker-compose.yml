@@ -1,0 +1,52 @@
+version: "3.9"
+
+# ─── MBA Sloan Application Stack ─────────────────────────────────────────────
+# This compose file covers the frontend + nginx layer only.
+#
+# For the Supabase self-host stack (Postgres, GoTrue, PostgREST, Kong, Storage,
+# Realtime, Studio), follow the official guide:
+#   https://supabase.com/docs/guides/self-hosting/docker
+# Clone the supabase/supabase repo, copy docker-compose.yml + .env, run it,
+# then point NEXT_PUBLIC_SUPABASE_URL to your Supabase Kong URL.
+#
+# ─────────────────────────────────────────────────────────────────────────────
+
+services:
+  # ── Next.js application ─────────────────────────────────────────────────────
+  app:
+    build:
+      context: ../frontend
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_SUPABASE_URL: ${NEXT_PUBLIC_SUPABASE_URL}
+        NEXT_PUBLIC_SUPABASE_ANON_KEY: ${NEXT_PUBLIC_SUPABASE_ANON_KEY}
+        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL}
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    expose:
+      - "3000"
+    networks:
+      - app-network
+
+  # ── nginx reverse proxy ──────────────────────────────────────────────────────
+  nginx:
+    image: nginx:1.27-alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ../nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ../nginx/conf.d:/etc/nginx/conf.d:ro
+      # Mount TLS certs here for production (e.g. from certbot/Let's Encrypt):
+      # - /etc/letsencrypt:/etc/letsencrypt:ro
+    depends_on:
+      - app
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

@@ -1,0 +1,37 @@
+# Course content (large, OCW data — seed locally from context/)
+context/
+
+# Environment secrets
+.env
+.env.local
+.env.*.local
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js
+frontend/.next/
+frontend/out/
+frontend/.env
+frontend/.env.local
+
+# Supabase
+supabase/.branches/
+supabase/.temp/
+
+# Quiz generation output (review before committing)
+supabase/scripts/generated/
+
+# Build outputs
+frontend/dist/
+docker/*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo

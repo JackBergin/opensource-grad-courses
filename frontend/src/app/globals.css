@@ -1,0 +1,286 @@
+@import "tailwindcss";
+
+/* ─── Editorial Ink — Design tokens ─────────────────────────────────────────
+   Style 03: A literary magazine in CSS.
+   Oversized serif display, generous margins, hairline rules, one ink-red accent.
+   Confident, quiet, intelligent.
+────────────────────────────────────────────────────────────────────────────── */
+
+@theme inline {
+  /* Palette */
+  --color-bg:     #FBFAF7;   /* paper white */
+  --color-ink:    #14110E;   /* dense black ink */
+  --color-muted:  #6B6256;   /* warm gray for captions / eyebrows */
+  --color-rule:   #DAD5CB;   /* hairline rule color */
+  --color-accent: #B3261E;   /* editor's red — use sparingly */
+
+  /* Semantic aliases for Tailwind utilities */
+  --color-background: var(--color-bg);
+  --color-foreground: var(--color-ink);
+
+  /* Typography */
+  --font-display: var(--font-fraunces), serif;
+  --font-body:    var(--font-inter), sans-serif;
+  --font-label:   var(--font-inter), sans-serif;
+
+  /* Border */
+  --border-hairline: 1px solid #DAD5CB;
+
+  /* No rounded corners by default */
+  --radius-DEFAULT: 0px;
+}
+
+/* ─── Base ───────────────────────────────────────────────────────────────────*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── Typography helpers ─────────────────────────────────────────────────────*/
+
+.eyebrow {
+  font-family: var(--font-label);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 12px;
+  color: var(--color-muted);
+}
+
+.headline {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(40px, 7vw, 80px);
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+}
+
+.lede {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.4;
+}
+
+.body {
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 68ch;
+}
+
+/* Drop cap — use on first paragraph of major sections */
+.dropcap::first-letter {
+  font-family: var(--font-display);
+  font-weight: 700;
+  float: left;
+  font-size: 4.2em;
+  line-height: 0.8;
+  padding: 6px 10px 0 0;
+  color: var(--color-accent);
+}
+
+/* Pull quote */
+.pull {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.35;
+  border-left: 2px solid var(--color-accent);
+  padding-left: 20px;
+}
+
+/* Hairline rule */
+.rule {
+  border: 0;
+  border-top: 1px solid var(--color-rule);
+}
+
+/* Links */
+.link {
+  color: var(--color-accent);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ─── Buttons ────────────────────────────────────────────────────────────────*/
+
+.btn {
+  display: inline-block;
+  background: var(--color-ink);
+  color: var(--color-bg);
+  border: 0;
+  padding: 14px 26px;
+  font-family: var(--font-label);
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 0;
+  transition: opacity 0.15s ease;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
+
+.btn--text {
+  background: none;
+  color: var(--color-accent);
+  padding: 0;
+  font-family: var(--font-label);
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* ─── Layout grid ────────────────────────────────────────────────────────────
+   12-col grid: body in cols 2-8, marginalia in cols 9-12.
+   Use with CSS grid or Tailwind grid utilities.
+────────────────────────────────────────────────────────────────────────────── */
+
+.layout-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: 1.5rem;
+}
+
+.col-body {
+  grid-column: 1 / -1;
+}
+
+@media (min-width: 1024px) {
+  .col-body {
+    grid-column: 2 / 9;
+  }
+
+  .col-marginalia {
+    grid-column: 9 / 13;
+  }
+}
+
+/* ─── Prose (OCW content HTML) ───────────────────────────────────────────────*/
+
+.prose-editorial {
+  max-width: 68ch;
+  font-family: var(--font-body);
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--color-ink);
+}
+
+.prose-editorial h1,
+.prose-editorial h2,
+.prose-editorial h3,
+.prose-editorial h4 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1.15;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose-editorial h1 { font-size: clamp(28px, 4vw, 52px); }
+.prose-editorial h2 { font-size: clamp(22px, 3vw, 32px); }
+.prose-editorial h3 { font-size: 22px; }
+.prose-editorial h4 { font-size: 18px; font-weight: 600; }
+
+.prose-editorial p { margin-bottom: 1.25rem; }
+
+.prose-editorial ul,
+.prose-editorial ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.prose-editorial li { margin-bottom: 0.4rem; }
+
+.prose-editorial a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+.prose-editorial strong { font-weight: 600; }
+
+.prose-editorial em { font-style: italic; }
+
+.prose-editorial table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  margin-bottom: 1.5rem;
+}
+
+.prose-editorial th {
+  font-family: var(--font-label);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+  color: var(--color-muted);
+  border-bottom: 1px solid var(--color-rule);
+  padding: 8px 12px;
+  text-align: left;
+}
+
+.prose-editorial td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--color-rule);
+  vertical-align: top;
+}
+
+.prose-editorial blockquote {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.4;
+  border-left: 2px solid var(--color-accent);
+  padding-left: 20px;
+  margin: 2rem 0;
+  color: var(--color-ink);
+}
+
+.prose-editorial code {
+  font-size: 0.9em;
+  background: var(--color-rule);
+  padding: 2px 5px;
+}
+
+.prose-editorial pre {
+  background: var(--color-rule);
+  padding: 1rem;
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+/* ─── Scrollbar (subtle) ─────────────────────────────────────────────────────*/
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-rule); }
+::-webkit-scrollbar-thumb:hover { background: var(--color-muted); }
