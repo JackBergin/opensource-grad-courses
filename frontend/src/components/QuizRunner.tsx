@@ -37,8 +37,8 @@ export default function QuizRunner({
   const [submitAttempted, setSubmitAttempted] = useState(false);
   const [activeQuestionId, setActiveQuestionId] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
-  const [startedAt] = useState(() => Date.now());
-  const supabase = createClient();
+  const [submitError, setSubmitError] = useState<string | null>(null);
+  const [startedAt, setStartedAt] = useState(() => Date.now());
 
   const handleAnswer = (questionId: string, value: string, type: string) => {
     if (submitted) return;
@@ -105,6 +105,7 @@ export default function QuizRunner({
     }
 
     setLoading(true);
+    setSubmitError(null);
 
     const correctCount = questions.filter((q) =>
       q.question_type !== "short_answer" && isCorrect(q, answers[q.id] ?? "")
@@ -113,40 +114,59 @@ export default function QuizRunner({
     const score = gradableCount > 0 ? (correctCount / gradableCount) * 100 : null;
     const timeTakenSeconds = Math.max(1, Math.round((Date.now() - startedAt) / 1000));
 
-    if (userId) {
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      const { data: attempt } = await (supabase.from("quiz_attempts") as any)
-        .insert({
-          user_id: userId,
-          quiz_id: quiz.id,
-          score,
-          total_q: questions.length,
-          correct_q: correctCount,
-          completed_at: new Date().toISOString(),
-          time_taken_s: timeTakenSeconds,
-        })
-        .select("id")
-        .single();
-
-      if (attempt) {
-        const att = attempt as { id: string };
-
-        const responses = questions.map((q) => ({
-          attempt_id: att.id,
-          question_id: q.id,
-          user_answer: answers[q.id] ?? null,
-          is_correct: q.question_type !== "short_answer"
-            ? isCorrect(q, answers[q.id] ?? "")
-            : null,
-        }));
+    try {
+      if (userId) {
+        const supabase = createClient();
+        if (!supabase) {
+          throw new Error("Supabase is not configured");
+        }
 
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        await (supabase.from("quiz_responses") as any).insert(responses);
-      }
-    }
+        const { data: attempt, error: attemptError } = await (supabase.from("quiz_attempts") as any)
+          .insert({
+            user_id: userId,
+            quiz_id: quiz.id,
+            score,
+            total_q: gradableCount,
+            correct_q: correctCount,
+            started_at: new Date(startedAt).toISOString(),
+            completed_at: new Date().toISOString(),
+            time_taken_s: timeTakenSeconds,
+          })
+          .select("id")
+          .single();
 
-    setSubmitted(true);
-    setLoading(false);
+        if (attemptError) {
+          throw attemptError;
+        }
+
+        if (attempt) {
+          const att = attempt as { id: string };
+
+          const responses = questions.map((q) => ({
+            attempt_id: att.id,
+            question_id: q.id,
+            user_answer: answers[q.id] ?? null,
+            is_correct: q.question_type !== "short_answer"
+              ? isCorrect(q, answers[q.id] ?? "")
+              : null,
+          }));
+
+          // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          const { error: responseError } = await (supabase.from("quiz_responses") as any).insert(responses);
+          if (responseError) {
+            throw responseError;
+          }
+        }
+      }
+    } catch {
+      setSubmitError(
+        "We couldn't save this attempt right now. Your score is shown below, but it wasn't added to your dashboard."
+      );
+    } finally {
+      setSubmitted(true);
+      setLoading(false);
+    }
   };
 
   const reviewState = buildQuizReviewState(questions, answers, submitted);
@@ -216,7 +236,9 @@ export default function QuizRunner({
             {correctCount} of {gradableCount} correct
           </p>
           <p className="text-[var(--color-muted)] text-sm mt-2">
-            {userId ? "This attempt was saved to your dashboard." : "Sign in to save attempts and track progress over time."}
+            {userId
+              ? submitError ?? "This attempt was saved to your dashboard."
+              : "Sign in to save attempts and track progress over time."}
           </p>
 
           {(incorrectGradableQuestions.length > 0 || reflectionQuestions.length > 0) && (
@@ -311,6 +333,8 @@ export default function QuizRunner({
                 setAnswers({});
                 setSubmitted(false);
                 setSubmitAttempted(false);
+                setSubmitError(null);
+                setStartedAt(Date.now());
               }}
               className="btn"
             >

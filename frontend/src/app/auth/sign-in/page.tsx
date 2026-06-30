@@ -18,12 +18,16 @@ function SignInForm() {
   const [magicSent, setMagicSent] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const supabase = createClient();
-
   const handlePasswordSignIn = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
     setLoading(true);
+    const supabase = createClient();
+    if (!supabase) {
+      setLoading(false);
+      setError("Supabase is not configured for this environment yet.");
+      return;
+    }
     const { error } = await supabase.auth.signInWithPassword({ email, password });
     setLoading(false);
     if (error) { setError(error.message); return; }
@@ -35,6 +39,12 @@ function SignInForm() {
     e.preventDefault();
     setError("");
     setLoading(true);
+    const supabase = createClient();
+    if (!supabase) {
+      setLoading(false);
+      setError("Supabase is not configured for this environment yet.");
+      return;
+    }
     const { error } = await supabase.auth.signInWithOtp({
       email,
       options: {

@@ -1,0 +1,782 @@
+{
+  "course_slug": "15-810-fall-2015",
+  "course_title": "Marketing Management: Analytics, Frameworks, and Applications",
+  "assessments": [
+    {
+      "title": "Marketing Management - Assignments Applied Homework",
+      "description": "Applied Homework for the Assignments section, covering Action learning, Analytics funnel, Customer acquisition, Marketing ROI.",
+      "kind": "homework",
+      "difficulty": "hard",
+      "generated_from": "assignments",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Assignments homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Action learning and Analytics funnel to produce a worked recommendation that ends in a go-to-market recommendation with customer economics and evidence behind the choice."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Action learning yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on optimizing a tactic without specifying the target segment or value proposition."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Assignments while turning a draft analysis into a defensible submission. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Action learning or Analytics funnel"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a worked recommendation that ends in a go-to-market recommendation with customer economics and evidence behind the choice"
+            },
+            {
+              "id": "d",
+              "text": "Strategic positioning"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Assignments in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Customer acquisition and Marketing ROI to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Assignments should land on after weighing Action learning, Analytics funnel, and Customer acquisition.",
+          "correct_answer": "It should end with a go-to-market recommendation with customer economics and evidence behind the choice, grounded in Action learning, Analytics funnel, Customer acquisition and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Marketing Management - Assignments Practice Quiz",
+      "description": "Practice Quiz for the Assignments section, covering Action learning, Analytics funnel, Customer acquisition, Marketing ROI.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "assignments",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Assignments section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Action learning, Analytics funnel, and Customer acquisition to connect customer insight, segmentation, positioning, pricing, and experimentation to growth choices."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape a go-to-market recommendation with customer economics and evidence behind the choice."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Action learning is studied separately from Analytics funnel."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Assignments is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Assignments while turning a draft analysis into a defensible submission, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Action learning to Analytics funnel instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Customer acquisition to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a worked recommendation that ends in a go-to-market recommendation with customer economics and evidence behind the choice"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Strategic positioning"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Assignments ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Assignments section should use evidence like Action learning, Analytics funnel, Customer acquisition and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Assignments while turning a draft analysis into a defensible submission?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Action learning, Analytics funnel, and Marketing ROI; test the assumptions; then connect the section to a go-to-market recommendation with customer economics and evidence behind the choice."
+            },
+            {
+              "id": "b",
+              "text": "Skim Action learning for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the marketing strategy and analytics reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits working through structured problems with assumptions made explicit."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Marketing Management - Lecture Notes Applied Homework",
+      "description": "Applied Homework for the Lecture Notes section, covering Strategic positioning, Pricing, Promotion, Customer analytics.",
+      "kind": "homework",
+      "difficulty": "medium",
+      "generated_from": "lecture-notes",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Lecture Notes homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Strategic positioning and Pricing to produce a synthesis of the lecture logic that supports a go-to-market recommendation with customer economics and evidence behind the choice."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Strategic positioning yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on optimizing a tactic without specifying the target segment or value proposition."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Lecture Notes while linking the section's teaching arc into one argument. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Strategic positioning or Pricing"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a synthesis of the lecture logic that supports a go-to-market recommendation with customer economics and evidence behind the choice"
+            },
+            {
+              "id": "d",
+              "text": "Action learning"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Lecture Notes in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Promotion and Customer analytics to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Lecture Notes should land on after weighing Strategic positioning, Pricing, and Promotion.",
+          "correct_answer": "It should end with a go-to-market recommendation with customer economics and evidence behind the choice, grounded in Strategic positioning, Pricing, Promotion and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Marketing Management - Lecture Notes Practice Quiz",
+      "description": "Practice Quiz for the Lecture Notes section, covering Strategic positioning, Pricing, Promotion, Customer analytics.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "lecture-notes",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Lecture Notes section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Strategic positioning, Pricing, and Promotion to connect customer insight, segmentation, positioning, pricing, and experimentation to growth choices."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape a go-to-market recommendation with customer economics and evidence behind the choice."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Strategic positioning is studied separately from Pricing."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Lecture Notes is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Lecture Notes while linking the section's teaching arc into one argument, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Strategic positioning to Pricing instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Promotion to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a synthesis of the lecture logic that supports a go-to-market recommendation with customer economics and evidence behind the choice"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Action learning"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Lecture Notes ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Lecture Notes section should use evidence like Strategic positioning, Pricing, Promotion and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Lecture Notes while linking the section's teaching arc into one argument?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Strategic positioning, Pricing, and Customer analytics; test the assumptions; then connect the section to a go-to-market recommendation with customer economics and evidence behind the choice."
+            },
+            {
+              "id": "b",
+              "text": "Skim Strategic positioning for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the marketing strategy and analytics reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits connecting the teaching sequence into one coherent logic chain."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Marketing Management - Readings Applied Homework",
+      "description": "Applied Homework for the Readings section, covering Strategic positioning, Consumer behavior, Conjoint analysis, Voice of the customer.",
+      "kind": "homework",
+      "difficulty": "medium",
+      "generated_from": "readings",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Readings homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Strategic positioning and Consumer behavior to produce a reading synthesis that sharpens a go-to-market recommendation with customer economics and evidence behind the choice."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Strategic positioning yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on optimizing a tactic without specifying the target segment or value proposition."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Readings while synthesizing several assigned sources into one position. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Strategic positioning or Consumer behavior"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a reading synthesis that sharpens a go-to-market recommendation with customer economics and evidence behind the choice"
+            },
+            {
+              "id": "d",
+              "text": "Action learning"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Readings in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Conjoint analysis and Voice of the customer to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Readings should land on after weighing Strategic positioning, Consumer behavior, and Conjoint analysis.",
+          "correct_answer": "It should end with a go-to-market recommendation with customer economics and evidence behind the choice, grounded in Strategic positioning, Consumer behavior, Conjoint analysis and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Marketing Management - Readings Practice Quiz",
+      "description": "Practice Quiz for the Readings section, covering Strategic positioning, Consumer behavior, Conjoint analysis, Voice of the customer.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "readings",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Readings section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Strategic positioning, Consumer behavior, and Conjoint analysis to connect customer insight, segmentation, positioning, pricing, and experimentation to growth choices."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape a go-to-market recommendation with customer economics and evidence behind the choice."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Strategic positioning is studied separately from Consumer behavior."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Readings is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Readings while synthesizing several assigned sources into one position, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Strategic positioning to Consumer behavior instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Conjoint analysis to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a reading synthesis that sharpens a go-to-market recommendation with customer economics and evidence behind the choice"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Action learning"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Readings ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Readings section should use evidence like Strategic positioning, Consumer behavior, Conjoint analysis and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Readings while synthesizing several assigned sources into one position?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Strategic positioning, Consumer behavior, and Voice of the customer; test the assumptions; then connect the section to a go-to-market recommendation with customer economics and evidence behind the choice."
+            },
+            {
+              "id": "b",
+              "text": "Skim Strategic positioning for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the marketing strategy and analytics reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits extracting the common managerial logic across the assigned materials."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Marketing Management - Tools Applied Homework",
+      "description": "Applied Homework for the Tools section, covering Conjoint analysis, Diffusion model, Analytics funnel, Customer response modeling.",
+      "kind": "homework",
+      "difficulty": "medium",
+      "generated_from": "tools",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Tools homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Conjoint analysis and Diffusion model to produce a tool choice and interpretation that support a go-to-market recommendation with customer economics and evidence behind the choice."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Conjoint analysis yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on optimizing a tactic without specifying the target segment or value proposition."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Tools while choosing the right model or instrument for a decision. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Conjoint analysis or Diffusion model"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a tool choice and interpretation that support a go-to-market recommendation with customer economics and evidence behind the choice"
+            },
+            {
+              "id": "d",
+              "text": "Action learning"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Tools in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Analytics funnel and Customer response modeling to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Tools should land on after weighing Conjoint analysis, Diffusion model, and Analytics funnel.",
+          "correct_answer": "It should end with a go-to-market recommendation with customer economics and evidence behind the choice, grounded in Conjoint analysis, Diffusion model, Analytics funnel and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Marketing Management - Tools Practice Quiz",
+      "description": "Practice Quiz for the Tools section, covering Conjoint analysis, Diffusion model, Analytics funnel, Customer response modeling.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "tools",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Tools section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Conjoint analysis, Diffusion model, and Analytics funnel to connect customer insight, segmentation, positioning, pricing, and experimentation to growth choices."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape a go-to-market recommendation with customer economics and evidence behind the choice."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Conjoint analysis is studied separately from Diffusion model."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Tools is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Tools while choosing the right model or instrument for a decision, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Conjoint analysis to Diffusion model instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Analytics funnel to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a tool choice and interpretation that support a go-to-market recommendation with customer economics and evidence behind the choice"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Action learning"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Tools ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Tools section should use evidence like Conjoint analysis, Diffusion model, Analytics funnel and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Tools while choosing the right model or instrument for a decision?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Conjoint analysis, Diffusion model, and Customer response modeling; test the assumptions; then connect the section to a go-to-market recommendation with customer economics and evidence behind the choice."
+            },
+            {
+              "id": "b",
+              "text": "Skim Conjoint analysis for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the marketing strategy and analytics reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits choosing the right framework or instrument for the job."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,782 @@
+{
+  "course_slug": "15-060-fall-2014",
+  "course_title": "Data, Models, and Decisions",
+  "assessments": [
+    {
+      "title": "Data, Models, and Decisions - Assignments Applied Homework",
+      "description": "Applied Homework for the Assignments section, covering Probability, Simulation, Regression, Decision trees.",
+      "kind": "homework",
+      "difficulty": "hard",
+      "generated_from": "assignments",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Assignments homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Probability and Simulation to produce a worked recommendation that ends in a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Probability yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on confusing a precise model output with a robust managerial recommendation."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Assignments while turning a draft analysis into a defensible submission. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Probability or Simulation"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a worked recommendation that ends in a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity"
+            },
+            {
+              "id": "d",
+              "text": "Kendall Crab and Lobster"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Assignments in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Regression and Decision trees to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Assignments should land on after weighing Probability, Simulation, and Regression.",
+          "correct_answer": "It should end with a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity, grounded in Probability, Simulation, Regression and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Data, Models, and Decisions - Assignments Practice Quiz",
+      "description": "Practice Quiz for the Assignments section, covering Probability, Simulation, Regression, Decision trees.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "assignments",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Assignments section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Probability, Simulation, and Regression to translate an ambiguous business choice into variables, uncertainty, constraints, and a defensible recommendation."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Probability is studied separately from Simulation."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Assignments is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Assignments while turning a draft analysis into a defensible submission, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Probability to Simulation instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Regression to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a worked recommendation that ends in a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Kendall Crab and Lobster"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Assignments ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Assignments section should use evidence like Probability, Simulation, Regression and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Assignments while turning a draft analysis into a defensible submission?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Probability, Simulation, and Decision trees; test the assumptions; then connect the section to a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+            },
+            {
+              "id": "b",
+              "text": "Skim Probability for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the decision modeling and analytics reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits working through structured problems with assumptions made explicit."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Data, Models, and Decisions - Case Learning Modules Applied Homework",
+      "description": "Applied Homework for the Case Learning Modules section, covering Kendall Crab and Lobster, Gentle Lentil Restaurant, Great Apps, Decision framing.",
+      "kind": "homework",
+      "difficulty": "medium",
+      "generated_from": "case-learning-modules",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Case Learning Modules homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Kendall Crab and Lobster and Gentle Lentil Restaurant to produce a case diagnosis that leads to a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Kendall Crab and Lobster yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on confusing a precise model output with a robust managerial recommendation."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Case Learning Modules while diagnosing a messy operating or strategic case. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Kendall Crab and Lobster or Gentle Lentil Restaurant"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a case diagnosis that leads to a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity"
+            },
+            {
+              "id": "d",
+              "text": "Probability"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Case Learning Modules in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Great Apps and Decision framing to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Case Learning Modules should land on after weighing Kendall Crab and Lobster, Gentle Lentil Restaurant, and Great Apps.",
+          "correct_answer": "It should end with a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity, grounded in Kendall Crab and Lobster, Gentle Lentil Restaurant, Great Apps and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Data, Models, and Decisions - Case Learning Modules Practice Quiz",
+      "description": "Practice Quiz for the Case Learning Modules section, covering Kendall Crab and Lobster, Gentle Lentil Restaurant, Great Apps, Decision framing.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "case-learning-modules",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Case Learning Modules section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Kendall Crab and Lobster, Gentle Lentil Restaurant, and Great Apps to translate an ambiguous business choice into variables, uncertainty, constraints, and a defensible recommendation."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Kendall Crab and Lobster is studied separately from Gentle Lentil Restaurant."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Case Learning Modules is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Case Learning Modules while diagnosing a messy operating or strategic case, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Kendall Crab and Lobster to Gentle Lentil Restaurant instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Great Apps to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a case diagnosis that leads to a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Probability"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Case Learning Modules ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Case Learning Modules section should use evidence like Kendall Crab and Lobster, Gentle Lentil Restaurant, Great Apps and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Case Learning Modules while diagnosing a messy operating or strategic case?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Kendall Crab and Lobster, Gentle Lentil Restaurant, and Decision framing; test the assumptions; then connect the section to a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+            },
+            {
+              "id": "b",
+              "text": "Skim Kendall Crab and Lobster for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the decision modeling and analytics reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits using the section to diagnose a live managerial situation."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Data, Models, and Decisions - Lecture Summaries Applied Homework",
+      "description": "Applied Homework for the Lecture Summaries section, covering Decision analysis, Optimization, Simulation logic, Regression insights.",
+      "kind": "homework",
+      "difficulty": "medium",
+      "generated_from": "lecture-summaries",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Lecture Summaries homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Decision analysis and Optimization to produce a synthesis of the lecture logic that supports a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Decision analysis yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on confusing a precise model output with a robust managerial recommendation."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Lecture Summaries while linking the section's teaching arc into one argument. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Decision analysis or Optimization"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a synthesis of the lecture logic that supports a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity"
+            },
+            {
+              "id": "d",
+              "text": "Probability"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Lecture Summaries in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Simulation logic and Regression insights to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Lecture Summaries should land on after weighing Decision analysis, Optimization, and Simulation logic.",
+          "correct_answer": "It should end with a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity, grounded in Decision analysis, Optimization, Simulation logic and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Data, Models, and Decisions - Lecture Summaries Practice Quiz",
+      "description": "Practice Quiz for the Lecture Summaries section, covering Decision analysis, Optimization, Simulation logic, Regression insights.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "lecture-summaries",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Lecture Summaries section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Decision analysis, Optimization, and Simulation logic to translate an ambiguous business choice into variables, uncertainty, constraints, and a defensible recommendation."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Decision analysis is studied separately from Optimization."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Lecture Summaries is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Lecture Summaries while linking the section's teaching arc into one argument, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Decision analysis to Optimization instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Simulation logic to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a synthesis of the lecture logic that supports a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Probability"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Lecture Summaries ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Lecture Summaries section should use evidence like Decision analysis, Optimization, Simulation logic and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Lecture Summaries while linking the section's teaching arc into one argument?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Decision analysis, Optimization, and Regression insights; test the assumptions; then connect the section to a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+            },
+            {
+              "id": "b",
+              "text": "Skim Decision analysis for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the decision modeling and analytics reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits connecting the teaching sequence into one coherent logic chain."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Data, Models, and Decisions - Readings Applied Homework",
+      "description": "Applied Homework for the Readings section, covering Probability models, Optimization methods, Regression analysis, Managerial decisions.",
+      "kind": "homework",
+      "difficulty": "medium",
+      "generated_from": "readings",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Readings homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Probability models and Optimization methods to produce a reading synthesis that sharpens a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Probability models yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on confusing a precise model output with a robust managerial recommendation."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Readings while synthesizing several assigned sources into one position. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Probability models or Optimization methods"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a reading synthesis that sharpens a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity"
+            },
+            {
+              "id": "d",
+              "text": "Probability"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Readings in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Regression analysis and Managerial decisions to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Readings should land on after weighing Probability models, Optimization methods, and Regression analysis.",
+          "correct_answer": "It should end with a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity, grounded in Probability models, Optimization methods, Regression analysis and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Data, Models, and Decisions - Readings Practice Quiz",
+      "description": "Practice Quiz for the Readings section, covering Probability models, Optimization methods, Regression analysis, Managerial decisions.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "readings",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Readings section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Probability models, Optimization methods, and Regression analysis to translate an ambiguous business choice into variables, uncertainty, constraints, and a defensible recommendation."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Probability models is studied separately from Optimization methods."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Readings is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Readings while synthesizing several assigned sources into one position, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Probability models to Optimization methods instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Regression analysis to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a reading synthesis that sharpens a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Probability"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Readings ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Readings section should use evidence like Probability models, Optimization methods, Regression analysis and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Readings while synthesizing several assigned sources into one position?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Probability models, Optimization methods, and Managerial decisions; test the assumptions; then connect the section to a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+            },
+            {
+              "id": "b",
+              "text": "Skim Probability models for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the decision modeling and analytics reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits extracting the common managerial logic across the assigned materials."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}

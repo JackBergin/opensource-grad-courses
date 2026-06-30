@@ -19,7 +19,11 @@ export const ASSESSMENT_CONTEXT_DIR = path.resolve(
   process.env.ASSESSMENT_CONTEXT_DIR ?? "context/assessments"
 );
 
-if (!SUPABASE_SERVICE_ROLE_KEY) {
-  console.error("❌  SUPABASE_SERVICE_ROLE_KEY is not set in .env");
-  process.exit(1);
+export function requireSupabaseServiceRoleKey(): string {
+  if (!SUPABASE_SERVICE_ROLE_KEY) {
+    console.error("❌  SUPABASE_SERVICE_ROLE_KEY is not set in .env");
+    process.exit(1);
+  }
+
+  return SUPABASE_SERVICE_ROLE_KEY;
 }

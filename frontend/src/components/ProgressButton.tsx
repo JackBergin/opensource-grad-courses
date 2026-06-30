@@ -6,16 +6,22 @@ import { createClient } from "@/lib/supabase/client";
 interface Props {
   courseId: string;
   pageId: string;
+  className?: string;
 }
 
-export default function ProgressButton({ courseId, pageId }: Props) {
+export default function ProgressButton({ courseId, pageId, className = "" }: Props) {
   const [completed, setCompleted] = useState(false);
   const [loading, setLoading] = useState(true);
   const [userId, setUserId] = useState<string | null>(null);
-  const supabase = createClient();
 
   useEffect(() => {
     async function init() {
+      const supabase = createClient();
+      if (!supabase) {
+        setLoading(false);
+        return;
+      }
+
       const { data: { user } } = await supabase.auth.getUser();
       if (!user) { setLoading(false); return; }
       setUserId(user.id);
@@ -32,11 +38,15 @@ export default function ProgressButton({ courseId, pageId }: Props) {
       setLoading(false);
     }
     init();
-  }, [supabase, pageId]);
+  }, [pageId]);
 
   const toggle = async () => {
     if (!userId) {
       window.location.href = "/auth/sign-in";
+      return;
+    }
+    const supabase = createClient();
+    if (!supabase) {
       return;
     }
     const next = !completed;
@@ -68,7 +78,7 @@ export default function ProgressButton({ courseId, pageId }: Props) {
   return (
     <button
       onClick={toggle}
-      className={`btn text-xs px-4 py-3 ${completed ? "bg-[var(--color-muted)]" : ""}`}
+      className={`btn text-xs px-4 py-3 ${completed ? "bg-[var(--color-muted)]" : ""} ${className}`.trim()}
     >
       {completed ? "✓ Completed" : "Mark complete"}
     </button>

@@ -1,0 +1,976 @@
+{
+  "course_slug": "15-010-fall-2004",
+  "course_title": "Economic Analysis for Business Decisions",
+  "assessments": [
+    {
+      "title": "Economic Analysis - Assignments Applied Homework",
+      "description": "Applied Homework for the Assignments section, covering Cost analysis, Pricing decisions, Market structure, Strategic interaction.",
+      "kind": "homework",
+      "difficulty": "hard",
+      "generated_from": "assignments",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Assignments homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Cost analysis and Pricing decisions to produce a worked recommendation that ends in a pricing, entry, or market-structure recommendation with assumptions stated clearly."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Cost analysis yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on treating accounting costs or average outcomes as the relevant economic benchmark."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Assignments while turning a draft analysis into a defensible submission. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Cost analysis or Pricing decisions"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a worked recommendation that ends in a pricing, entry, or market-structure recommendation with assumptions stated clearly"
+            },
+            {
+              "id": "d",
+              "text": "Demand analysis"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Assignments in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Market structure and Strategic interaction to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Assignments should land on after weighing Cost analysis, Pricing decisions, and Market structure.",
+          "correct_answer": "It should end with a pricing, entry, or market-structure recommendation with assumptions stated clearly, grounded in Cost analysis, Pricing decisions, Market structure and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Economic Analysis - Assignments Practice Quiz",
+      "description": "Practice Quiz for the Assignments section, covering Cost analysis, Pricing decisions, Market structure, Strategic interaction.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "assignments",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Assignments section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Cost analysis, Pricing decisions, and Market structure to connect incentives, costs, market structure, and demand behavior to a business decision."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape a pricing, entry, or market-structure recommendation with assumptions stated clearly."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Cost analysis is studied separately from Pricing decisions."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Assignments is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Assignments while turning a draft analysis into a defensible submission, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Cost analysis to Pricing decisions instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Market structure to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a worked recommendation that ends in a pricing, entry, or market-structure recommendation with assumptions stated clearly"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Demand analysis"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Assignments ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Assignments section should use evidence like Cost analysis, Pricing decisions, Market structure and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Assignments while turning a draft analysis into a defensible submission?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Cost analysis, Pricing decisions, and Strategic interaction; test the assumptions; then connect the section to a pricing, entry, or market-structure recommendation with assumptions stated clearly."
+            },
+            {
+              "id": "b",
+              "text": "Skim Cost analysis for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the managerial economics reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits working through structured problems with assumptions made explicit."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Economic Analysis - Exams Applied Homework",
+      "description": "Applied Homework for the Exams section, covering Demand analysis, Cost curves, Market power, Game theory.",
+      "kind": "homework",
+      "difficulty": "hard",
+      "generated_from": "exams",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Exams homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Demand analysis and Cost curves to produce a concise exam-ready argument that still leads to a pricing, entry, or market-structure recommendation with assumptions stated clearly."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Demand analysis yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on treating accounting costs or average outcomes as the relevant economic benchmark."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Exams while preparing for a timed cumulative check. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Demand analysis or Cost curves"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a concise exam-ready argument that still leads to a pricing, entry, or market-structure recommendation with assumptions stated clearly"
+            },
+            {
+              "id": "d",
+              "text": "Cost analysis"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Exams in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Market power and Game theory to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Exams should land on after weighing Demand analysis, Cost curves, and Market power.",
+          "correct_answer": "It should end with a pricing, entry, or market-structure recommendation with assumptions stated clearly, grounded in Demand analysis, Cost curves, Market power and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Economic Analysis - Exams Practice Quiz",
+      "description": "Practice Quiz for the Exams section, covering Demand analysis, Cost curves, Market power, Game theory.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "exams",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Exams section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Demand analysis, Cost curves, and Market power to connect incentives, costs, market structure, and demand behavior to a business decision."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape a pricing, entry, or market-structure recommendation with assumptions stated clearly."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Demand analysis is studied separately from Cost curves."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Exams is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Exams while preparing for a timed cumulative check, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Demand analysis to Cost curves instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Market power to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a concise exam-ready argument that still leads to a pricing, entry, or market-structure recommendation with assumptions stated clearly"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Cost analysis"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Exams ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Exams section should use evidence like Demand analysis, Cost curves, Market power and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Exams while preparing for a timed cumulative check?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Demand analysis, Cost curves, and Game theory; test the assumptions; then connect the section to a pricing, entry, or market-structure recommendation with assumptions stated clearly."
+            },
+            {
+              "id": "b",
+              "text": "Skim Demand analysis for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the managerial economics reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits synthesizing the full section under exam-style pressure."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Economic Analysis - Lecture Notes Applied Homework",
+      "description": "Applied Homework for the Lecture Notes section, covering Competition and market structure, Antitrust and monopoly, Asymmetric information, Elasticity and surplus.",
+      "kind": "homework",
+      "difficulty": "medium",
+      "generated_from": "lecture-notes",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Lecture Notes homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Competition and market structure and Antitrust and monopoly to produce a synthesis of the lecture logic that supports a pricing, entry, or market-structure recommendation with assumptions stated clearly."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Competition and market structure yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on treating accounting costs or average outcomes as the relevant economic benchmark."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Lecture Notes while linking the section's teaching arc into one argument. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Competition and market structure or Antitrust and monopoly"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a synthesis of the lecture logic that supports a pricing, entry, or market-structure recommendation with assumptions stated clearly"
+            },
+            {
+              "id": "d",
+              "text": "Cost analysis"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Lecture Notes in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Asymmetric information and Elasticity and surplus to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Lecture Notes should land on after weighing Competition and market structure, Antitrust and monopoly, and Asymmetric information.",
+          "correct_answer": "It should end with a pricing, entry, or market-structure recommendation with assumptions stated clearly, grounded in Competition and market structure, Antitrust and monopoly, Asymmetric information and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Economic Analysis - Lecture Notes Practice Quiz",
+      "description": "Practice Quiz for the Lecture Notes section, covering Competition and market structure, Antitrust and monopoly, Asymmetric information, Elasticity and surplus.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "lecture-notes",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Lecture Notes section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Competition and market structure, Antitrust and monopoly, and Asymmetric information to connect incentives, costs, market structure, and demand behavior to a business decision."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape a pricing, entry, or market-structure recommendation with assumptions stated clearly."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Competition and market structure is studied separately from Antitrust and monopoly."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Lecture Notes is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Lecture Notes while linking the section's teaching arc into one argument, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Competition and market structure to Antitrust and monopoly instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Asymmetric information to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a synthesis of the lecture logic that supports a pricing, entry, or market-structure recommendation with assumptions stated clearly"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Cost analysis"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Lecture Notes ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Lecture Notes section should use evidence like Competition and market structure, Antitrust and monopoly, Asymmetric information and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Lecture Notes while linking the section's teaching arc into one argument?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Competition and market structure, Antitrust and monopoly, and Elasticity and surplus; test the assumptions; then connect the section to a pricing, entry, or market-structure recommendation with assumptions stated clearly."
+            },
+            {
+              "id": "b",
+              "text": "Skim Competition and market structure for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the managerial economics reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits connecting the teaching sequence into one coherent logic chain."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Economic Analysis - Readings Applied Homework",
+      "description": "Applied Homework for the Readings section, covering Price theory, Demand estimation, Costs and production, Strategic behavior.",
+      "kind": "homework",
+      "difficulty": "medium",
+      "generated_from": "readings",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Readings homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Price theory and Demand estimation to produce a reading synthesis that sharpens a pricing, entry, or market-structure recommendation with assumptions stated clearly."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Price theory yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on treating accounting costs or average outcomes as the relevant economic benchmark."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Readings while synthesizing several assigned sources into one position. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Price theory or Demand estimation"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a reading synthesis that sharpens a pricing, entry, or market-structure recommendation with assumptions stated clearly"
+            },
+            {
+              "id": "d",
+              "text": "Cost analysis"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Readings in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Costs and production and Strategic behavior to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Readings should land on after weighing Price theory, Demand estimation, and Costs and production.",
+          "correct_answer": "It should end with a pricing, entry, or market-structure recommendation with assumptions stated clearly, grounded in Price theory, Demand estimation, Costs and production and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Economic Analysis - Readings Practice Quiz",
+      "description": "Practice Quiz for the Readings section, covering Price theory, Demand estimation, Costs and production, Strategic behavior.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "readings",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Readings section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Price theory, Demand estimation, and Costs and production to connect incentives, costs, market structure, and demand behavior to a business decision."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape a pricing, entry, or market-structure recommendation with assumptions stated clearly."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Price theory is studied separately from Demand estimation."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Readings is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Readings while synthesizing several assigned sources into one position, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Price theory to Demand estimation instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Costs and production to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a reading synthesis that sharpens a pricing, entry, or market-structure recommendation with assumptions stated clearly"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Cost analysis"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Readings ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Readings section should use evidence like Price theory, Demand estimation, Costs and production and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Readings while synthesizing several assigned sources into one position?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Price theory, Demand estimation, and Strategic behavior; test the assumptions; then connect the section to a pricing, entry, or market-structure recommendation with assumptions stated clearly."
+            },
+            {
+              "id": "b",
+              "text": "Skim Price theory for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the managerial economics reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits extracting the common managerial logic across the assigned materials."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Economic Analysis - Recitations Applied Homework",
+      "description": "Applied Homework for the Recitations section, covering Common property, Elasticity and surplus, Information asymmetry, Auctions.",
+      "kind": "homework",
+      "difficulty": "medium",
+      "generated_from": "recitations",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Recitations homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Common property and Elasticity and surplus to produce a corrected practice solution that reinforces a pricing, entry, or market-structure recommendation with assumptions stated clearly."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Common property yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on treating accounting costs or average outcomes as the relevant economic benchmark."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Recitations while stress-testing understanding in guided practice. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Common property or Elasticity and surplus"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a corrected practice solution that reinforces a pricing, entry, or market-structure recommendation with assumptions stated clearly"
+            },
+            {
+              "id": "d",
+              "text": "Cost analysis"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Recitations in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Information asymmetry and Auctions to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Recitations should land on after weighing Common property, Elasticity and surplus, and Information asymmetry.",
+          "correct_answer": "It should end with a pricing, entry, or market-structure recommendation with assumptions stated clearly, grounded in Common property, Elasticity and surplus, Information asymmetry and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Economic Analysis - Recitations Practice Quiz",
+      "description": "Practice Quiz for the Recitations section, covering Common property, Elasticity and surplus, Information asymmetry, Auctions.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "recitations",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Recitations section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Common property, Elasticity and surplus, and Information asymmetry to connect incentives, costs, market structure, and demand behavior to a business decision."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape a pricing, entry, or market-structure recommendation with assumptions stated clearly."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Common property is studied separately from Elasticity and surplus."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Recitations is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Recitations while stress-testing understanding in guided practice, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Common property to Elasticity and surplus instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Information asymmetry to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a corrected practice solution that reinforces a pricing, entry, or market-structure recommendation with assumptions stated clearly"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Cost analysis"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Recitations ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Recitations section should use evidence like Common property, Elasticity and surplus, Information asymmetry and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Recitations while stress-testing understanding in guided practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Common property, Elasticity and surplus, and Auctions; test the assumptions; then connect the section to a pricing, entry, or market-structure recommendation with assumptions stated clearly."
+            },
+            {
+              "id": "b",
+              "text": "Skim Common property for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the managerial economics reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits reinforcing the trickiest ideas through guided practice."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}

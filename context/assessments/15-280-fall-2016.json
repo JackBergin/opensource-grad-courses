@@ -1,0 +1,394 @@
+{
+  "course_slug": "15-280-fall-2016",
+  "course_title": "Communication for Managers",
+  "assessments": [
+    {
+      "title": "Communication for Managers - Assignments Applied Homework",
+      "description": "Applied Homework for the Assignments section, covering Persuasive writing, Argument structure, Evidence, Audience adaptation.",
+      "kind": "homework",
+      "difficulty": "hard",
+      "generated_from": "assignments",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Assignments homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Persuasive writing and Argument structure to produce a worked recommendation that ends in a concise recommendation, presentation, or written message tailored to a specific audience."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Persuasive writing yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on leading with process details before the audience understands the point and stakes."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Assignments while turning a draft analysis into a defensible submission. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Persuasive writing or Argument structure"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a worked recommendation that ends in a concise recommendation, presentation, or written message tailored to a specific audience"
+            },
+            {
+              "id": "d",
+              "text": "Executive writing"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Assignments in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Evidence and Audience adaptation to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Assignments should land on after weighing Persuasive writing, Argument structure, and Evidence.",
+          "correct_answer": "It should end with a concise recommendation, presentation, or written message tailored to a specific audience, grounded in Persuasive writing, Argument structure, Evidence and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Communication for Managers - Assignments Practice Quiz",
+      "description": "Practice Quiz for the Assignments section, covering Persuasive writing, Argument structure, Evidence, Audience adaptation.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "assignments",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Assignments section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Persuasive writing, Argument structure, and Evidence to shape a message around audience needs, evidence, and a clear requested action."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape a concise recommendation, presentation, or written message tailored to a specific audience."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Persuasive writing is studied separately from Argument structure."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Assignments is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Assignments while turning a draft analysis into a defensible submission, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Persuasive writing to Argument structure instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Evidence to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a worked recommendation that ends in a concise recommendation, presentation, or written message tailored to a specific audience"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Executive writing"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Assignments ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Assignments section should use evidence like Persuasive writing, Argument structure, Evidence and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Assignments while turning a draft analysis into a defensible submission?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Persuasive writing, Argument structure, and Audience adaptation; test the assumptions; then connect the section to a concise recommendation, presentation, or written message tailored to a specific audience."
+            },
+            {
+              "id": "b",
+              "text": "Skim Persuasive writing for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the managerial communication reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits working through structured problems with assumptions made explicit."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Communication for Managers - Readings Applied Homework",
+      "description": "Applied Homework for the Readings section, covering Audience analysis, Executive writing, Persuasion, Message design.",
+      "kind": "homework",
+      "difficulty": "medium",
+      "generated_from": "readings",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Readings homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Audience analysis and Executive writing to produce a reading synthesis that sharpens a concise recommendation, presentation, or written message tailored to a specific audience."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Audience analysis yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on leading with process details before the audience understands the point and stakes."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Readings while synthesizing several assigned sources into one position. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Audience analysis or Executive writing"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a reading synthesis that sharpens a concise recommendation, presentation, or written message tailored to a specific audience"
+            },
+            {
+              "id": "d",
+              "text": "Persuasive writing"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Readings in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Persuasion and Message design to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Readings should land on after weighing Audience analysis, Executive writing, and Persuasion.",
+          "correct_answer": "It should end with a concise recommendation, presentation, or written message tailored to a specific audience, grounded in Audience analysis, Executive writing, Persuasion and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Communication for Managers - Readings Practice Quiz",
+      "description": "Practice Quiz for the Readings section, covering Audience analysis, Executive writing, Persuasion, Message design.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "readings",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Readings section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Audience analysis, Executive writing, and Persuasion to shape a message around audience needs, evidence, and a clear requested action."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape a concise recommendation, presentation, or written message tailored to a specific audience."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Audience analysis is studied separately from Executive writing."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Readings is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Readings while synthesizing several assigned sources into one position, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Audience analysis to Executive writing instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Persuasion to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a reading synthesis that sharpens a concise recommendation, presentation, or written message tailored to a specific audience"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Persuasive writing"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Readings ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Readings section should use evidence like Audience analysis, Executive writing, Persuasion and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Readings while synthesizing several assigned sources into one position?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Audience analysis, Executive writing, and Message design; test the assumptions; then connect the section to a concise recommendation, presentation, or written message tailored to a specific audience."
+            },
+            {
+              "id": "b",
+              "text": "Skim Audience analysis for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the managerial communication reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits extracting the common managerial logic across the assigned materials."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}

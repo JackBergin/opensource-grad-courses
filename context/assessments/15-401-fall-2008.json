@@ -1,0 +1,976 @@
+{
+  "course_slug": "15-401-fall-2008",
+  "course_title": "Finance Theory I",
+  "assessments": [
+    {
+      "title": "Finance Theory I - Exams Applied Homework",
+      "description": "Applied Homework for the Exams section, covering Midterm review, Final review, Sample exams, Sample solutions.",
+      "kind": "homework",
+      "difficulty": "hard",
+      "generated_from": "exams",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Exams homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Midterm review and Final review to produce a concise exam-ready argument that still leads to a valuation or investment recommendation with cash-flow assumptions and risk logic."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Midterm review yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on using a rule of thumb without matching the discount rate or payoff structure to the risk."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Exams while preparing for a timed cumulative check. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Midterm review or Final review"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a concise exam-ready argument that still leads to a valuation or investment recommendation with cash-flow assumptions and risk logic"
+            },
+            {
+              "id": "d",
+              "text": "Present value relations"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Exams in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Sample exams and Sample solutions to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Exams should land on after weighing Midterm review, Final review, and Sample exams.",
+          "correct_answer": "It should end with a valuation or investment recommendation with cash-flow assumptions and risk logic, grounded in Midterm review, Final review, Sample exams and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Finance Theory I - Exams Practice Quiz",
+      "description": "Practice Quiz for the Exams section, covering Midterm review, Final review, Sample exams, Sample solutions.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "exams",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Exams section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Midterm review, Final review, and Sample exams to value risky cash flows and choose investments using opportunity cost of capital."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape a valuation or investment recommendation with cash-flow assumptions and risk logic."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Midterm review is studied separately from Final review."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Exams is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Exams while preparing for a timed cumulative check, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Midterm review to Final review instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Sample exams to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a concise exam-ready argument that still leads to a valuation or investment recommendation with cash-flow assumptions and risk logic"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Present value relations"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Exams ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Exams section should use evidence like Midterm review, Final review, Sample exams and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Exams while preparing for a timed cumulative check?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Midterm review, Final review, and Sample solutions; test the assumptions; then connect the section to a valuation or investment recommendation with cash-flow assumptions and risk logic."
+            },
+            {
+              "id": "b",
+              "text": "Skim Midterm review for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the corporate finance reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits synthesizing the full section under exam-style pressure."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Finance Theory I - Problem Sets Applied Homework",
+      "description": "Applied Homework for the Problem Sets section, covering Present value relations, Fixed-income securities, Equities, CAPM and APT.",
+      "kind": "homework",
+      "difficulty": "hard",
+      "generated_from": "problem-sets",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Problem Sets homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Present value relations and Fixed-income securities to produce a worked recommendation that ends in a valuation or investment recommendation with cash-flow assumptions and risk logic."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Present value relations yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on using a rule of thumb without matching the discount rate or payoff structure to the risk."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Problem Sets while turning a draft analysis into a defensible submission. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Present value relations or Fixed-income securities"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a worked recommendation that ends in a valuation or investment recommendation with cash-flow assumptions and risk logic"
+            },
+            {
+              "id": "d",
+              "text": "Midterm review"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Problem Sets in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Equities and CAPM and APT to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Problem Sets should land on after weighing Present value relations, Fixed-income securities, and Equities.",
+          "correct_answer": "It should end with a valuation or investment recommendation with cash-flow assumptions and risk logic, grounded in Present value relations, Fixed-income securities, Equities and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Finance Theory I - Problem Sets Practice Quiz",
+      "description": "Practice Quiz for the Problem Sets section, covering Present value relations, Fixed-income securities, Equities, CAPM and APT.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "problem-sets",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Problem Sets section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Present value relations, Fixed-income securities, and Equities to value risky cash flows and choose investments using opportunity cost of capital."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape a valuation or investment recommendation with cash-flow assumptions and risk logic."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Present value relations is studied separately from Fixed-income securities."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Problem Sets is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Problem Sets while turning a draft analysis into a defensible submission, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Present value relations to Fixed-income securities instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Equities to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a worked recommendation that ends in a valuation or investment recommendation with cash-flow assumptions and risk logic"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Midterm review"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Problem Sets ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Problem Sets section should use evidence like Present value relations, Fixed-income securities, Equities and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Problem Sets while turning a draft analysis into a defensible submission?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Present value relations, Fixed-income securities, and CAPM and APT; test the assumptions; then connect the section to a valuation or investment recommendation with cash-flow assumptions and risk logic."
+            },
+            {
+              "id": "b",
+              "text": "Skim Present value relations for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the corporate finance reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits working through structured problems with assumptions made explicit."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Finance Theory I - Readings Applied Homework",
+      "description": "Applied Homework for the Readings section, covering Corporate valuation, Discount rates, Capital budgeting, Asset pricing.",
+      "kind": "homework",
+      "difficulty": "medium",
+      "generated_from": "readings",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Readings homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Corporate valuation and Discount rates to produce a reading synthesis that sharpens a valuation or investment recommendation with cash-flow assumptions and risk logic."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Corporate valuation yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on using a rule of thumb without matching the discount rate or payoff structure to the risk."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Readings while synthesizing several assigned sources into one position. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Corporate valuation or Discount rates"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a reading synthesis that sharpens a valuation or investment recommendation with cash-flow assumptions and risk logic"
+            },
+            {
+              "id": "d",
+              "text": "Midterm review"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Readings in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Capital budgeting and Asset pricing to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Readings should land on after weighing Corporate valuation, Discount rates, and Capital budgeting.",
+          "correct_answer": "It should end with a valuation or investment recommendation with cash-flow assumptions and risk logic, grounded in Corporate valuation, Discount rates, Capital budgeting and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Finance Theory I - Readings Practice Quiz",
+      "description": "Practice Quiz for the Readings section, covering Corporate valuation, Discount rates, Capital budgeting, Asset pricing.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "readings",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Readings section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Corporate valuation, Discount rates, and Capital budgeting to value risky cash flows and choose investments using opportunity cost of capital."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape a valuation or investment recommendation with cash-flow assumptions and risk logic."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Corporate valuation is studied separately from Discount rates."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Readings is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Readings while synthesizing several assigned sources into one position, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Corporate valuation to Discount rates instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Capital budgeting to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a reading synthesis that sharpens a valuation or investment recommendation with cash-flow assumptions and risk logic"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Midterm review"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Readings ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Readings section should use evidence like Corporate valuation, Discount rates, Capital budgeting and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Readings while synthesizing several assigned sources into one position?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Corporate valuation, Discount rates, and Asset pricing; test the assumptions; then connect the section to a valuation or investment recommendation with cash-flow assumptions and risk logic."
+            },
+            {
+              "id": "b",
+              "text": "Skim Corporate valuation for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the corporate finance reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits extracting the common managerial logic across the assigned materials."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Finance Theory I - Recitations Applied Homework",
+      "description": "Applied Homework for the Recitations section, covering Capital Asset Pricing Model, Capital Budgeting, Equities, Forward and Futures Contracts.",
+      "kind": "homework",
+      "difficulty": "medium",
+      "generated_from": "recitations",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Recitations homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Capital Asset Pricing Model and Capital Budgeting to produce a corrected practice solution that reinforces a valuation or investment recommendation with cash-flow assumptions and risk logic."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Capital Asset Pricing Model yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on using a rule of thumb without matching the discount rate or payoff structure to the risk."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Recitations while stress-testing understanding in guided practice. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Capital Asset Pricing Model or Capital Budgeting"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a corrected practice solution that reinforces a valuation or investment recommendation with cash-flow assumptions and risk logic"
+            },
+            {
+              "id": "d",
+              "text": "Midterm review"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Recitations in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Equities and Forward and Futures Contracts to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Recitations should land on after weighing Capital Asset Pricing Model, Capital Budgeting, and Equities.",
+          "correct_answer": "It should end with a valuation or investment recommendation with cash-flow assumptions and risk logic, grounded in Capital Asset Pricing Model, Capital Budgeting, Equities and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Finance Theory I - Recitations Practice Quiz",
+      "description": "Practice Quiz for the Recitations section, covering Capital Asset Pricing Model, Capital Budgeting, Equities, Forward and Futures Contracts.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "recitations",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Recitations section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Capital Asset Pricing Model, Capital Budgeting, and Equities to value risky cash flows and choose investments using opportunity cost of capital."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape a valuation or investment recommendation with cash-flow assumptions and risk logic."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Capital Asset Pricing Model is studied separately from Capital Budgeting."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Recitations is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Recitations while stress-testing understanding in guided practice, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Capital Asset Pricing Model to Capital Budgeting instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Equities to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a corrected practice solution that reinforces a valuation or investment recommendation with cash-flow assumptions and risk logic"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Midterm review"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Recitations ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Recitations section should use evidence like Capital Asset Pricing Model, Capital Budgeting, Equities and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Recitations while stress-testing understanding in guided practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Capital Asset Pricing Model, Capital Budgeting, and Forward and Futures Contracts; test the assumptions; then connect the section to a valuation or investment recommendation with cash-flow assumptions and risk logic."
+            },
+            {
+              "id": "b",
+              "text": "Skim Capital Asset Pricing Model for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the corporate finance reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits reinforcing the trickiest ideas through guided practice."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Finance Theory I - Video Lectures and Slides Applied Homework",
+      "description": "Applied Homework for the Video Lectures and Slides section, covering Capital Budgeting, Efficient Markets, Portfolio Theory, Risk and Return.",
+      "kind": "homework",
+      "difficulty": "medium",
+      "generated_from": "video-lectures-and-slides",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Video Lectures and Slides homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Capital Budgeting and Efficient Markets to produce a synthesis of the lecture logic that supports a valuation or investment recommendation with cash-flow assumptions and risk logic."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Capital Budgeting yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on using a rule of thumb without matching the discount rate or payoff structure to the risk."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Video Lectures and Slides while linking the section's teaching arc into one argument. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Capital Budgeting or Efficient Markets"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a synthesis of the lecture logic that supports a valuation or investment recommendation with cash-flow assumptions and risk logic"
+            },
+            {
+              "id": "d",
+              "text": "Midterm review"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Video Lectures and Slides in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Portfolio Theory and Risk and Return to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Video Lectures and Slides should land on after weighing Capital Budgeting, Efficient Markets, and Portfolio Theory.",
+          "correct_answer": "It should end with a valuation or investment recommendation with cash-flow assumptions and risk logic, grounded in Capital Budgeting, Efficient Markets, Portfolio Theory and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Finance Theory I - Video Lectures and Slides Practice Quiz",
+      "description": "Practice Quiz for the Video Lectures and Slides section, covering Capital Budgeting, Efficient Markets, Portfolio Theory, Risk and Return.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "video-lectures-and-slides",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Video Lectures and Slides section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Capital Budgeting, Efficient Markets, and Portfolio Theory to value risky cash flows and choose investments using opportunity cost of capital."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape a valuation or investment recommendation with cash-flow assumptions and risk logic."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Capital Budgeting is studied separately from Efficient Markets."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Video Lectures and Slides is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Video Lectures and Slides while linking the section's teaching arc into one argument, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Capital Budgeting to Efficient Markets instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Portfolio Theory to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a synthesis of the lecture logic that supports a valuation or investment recommendation with cash-flow assumptions and risk logic"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Midterm review"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Video Lectures and Slides ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Video Lectures and Slides section should use evidence like Capital Budgeting, Efficient Markets, Portfolio Theory and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Video Lectures and Slides while linking the section's teaching arc into one argument?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Capital Budgeting, Efficient Markets, and Risk and Return; test the assumptions; then connect the section to a valuation or investment recommendation with cash-flow assumptions and risk logic."
+            },
+            {
+              "id": "b",
+              "text": "Skim Capital Budgeting for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the corporate finance reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits connecting the teaching sequence into one coherent logic chain."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}

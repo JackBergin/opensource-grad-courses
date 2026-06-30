@@ -128,9 +128,13 @@ This reads from `context/mba_sloan_first_semester_classes/` and populates the da
 ## 6. Build local assessments
 
 ```bash
+npm run parse:assessments
 npm run expand:assessments
 npm run seed:assessments
 ```
+
+The repo-owned assessment source lives in `context/assessments/`. Start with
+`context/assessments/README.md` before authoring or revising quiz content.
 
 ## 7. Start the frontend
 

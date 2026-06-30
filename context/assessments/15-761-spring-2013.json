@@ -1,0 +1,782 @@
+{
+  "course_slug": "15-761-spring-2013",
+  "course_title": "Introduction to Operations Management",
+  "assessments": [
+    {
+      "title": "Operations Management - Assignments Applied Homework",
+      "description": "Applied Homework for the Assignments section, covering Toyota, Zara and M&S, Process analysis, Capacity choices.",
+      "kind": "homework",
+      "difficulty": "hard",
+      "generated_from": "assignments",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Assignments homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Toyota and Zara and M&S to produce a worked recommendation that ends in an operating recommendation that identifies the constraint and expected service impact."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Toyota yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on improving a non-bottleneck activity and expecting system throughput to rise."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Assignments while turning a draft analysis into a defensible submission. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Toyota or Zara and M&S"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a worked recommendation that ends in an operating recommendation that identifies the constraint and expected service impact"
+            },
+            {
+              "id": "d",
+              "text": "McDonald's"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Assignments in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Process analysis and Capacity choices to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Assignments should land on after weighing Toyota, Zara and M&S, and Process analysis.",
+          "correct_answer": "It should end with an operating recommendation that identifies the constraint and expected service impact, grounded in Toyota, Zara and M&S, Process analysis and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Operations Management - Assignments Practice Quiz",
+      "description": "Practice Quiz for the Assignments section, covering Toyota, Zara and M&S, Process analysis, Capacity choices.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "assignments",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Assignments section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Toyota, Zara and M&S, and Process analysis to diagnose process performance using flow, capacity, variability, and bottleneck logic."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape an operating recommendation that identifies the constraint and expected service impact."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Toyota is studied separately from Zara and M&S."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Assignments is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Assignments while turning a draft analysis into a defensible submission, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Toyota to Zara and M&S instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Process analysis to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a worked recommendation that ends in an operating recommendation that identifies the constraint and expected service impact"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about McDonald's"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Assignments ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Assignments section should use evidence like Toyota, Zara and M&S, Process analysis and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Assignments while turning a draft analysis into a defensible submission?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Toyota, Zara and M&S, and Capacity choices; test the assumptions; then connect the section to an operating recommendation that identifies the constraint and expected service impact."
+            },
+            {
+              "id": "b",
+              "text": "Skim Toyota for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the operations and process design reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits working through structured problems with assumptions made explicit."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Operations Management - Case Preparation Questions Applied Homework",
+      "description": "Applied Homework for the Case Preparation Questions section, covering McDonald's, Toyota, Southwest Airlines, Littlefield Technologies.",
+      "kind": "homework",
+      "difficulty": "medium",
+      "generated_from": "case-preparation-questions",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Case Preparation Questions homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses McDonald's and Toyota to produce a case diagnosis that leads to an operating recommendation that identifies the constraint and expected service impact."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names McDonald's yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on improving a non-bottleneck activity and expecting system throughput to rise."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Case Preparation Questions while diagnosing a messy operating or strategic case. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from McDonald's or Toyota"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a case diagnosis that leads to an operating recommendation that identifies the constraint and expected service impact"
+            },
+            {
+              "id": "d",
+              "text": "Zara and M&S"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Case Preparation Questions in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Southwest Airlines and Littlefield Technologies to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Case Preparation Questions should land on after weighing McDonald's, Toyota, and Southwest Airlines.",
+          "correct_answer": "It should end with an operating recommendation that identifies the constraint and expected service impact, grounded in McDonald's, Toyota, Southwest Airlines and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Operations Management - Case Preparation Questions Practice Quiz",
+      "description": "Practice Quiz for the Case Preparation Questions section, covering McDonald's, Toyota, Southwest Airlines, Littlefield Technologies.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "case-preparation-questions",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Case Preparation Questions section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects McDonald's, Toyota, and Southwest Airlines to diagnose process performance using flow, capacity, variability, and bottleneck logic."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape an operating recommendation that identifies the constraint and expected service impact."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when McDonald's is studied separately from Toyota."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Case Preparation Questions is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Case Preparation Questions while diagnosing a messy operating or strategic case, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link McDonald's to Toyota instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Southwest Airlines to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a case diagnosis that leads to an operating recommendation that identifies the constraint and expected service impact"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Zara and M&S"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Case Preparation Questions ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Case Preparation Questions section should use evidence like McDonald's, Toyota, Southwest Airlines and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Case Preparation Questions while diagnosing a messy operating or strategic case?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare McDonald's, Toyota, and Littlefield Technologies; test the assumptions; then connect the section to an operating recommendation that identifies the constraint and expected service impact."
+            },
+            {
+              "id": "b",
+              "text": "Skim McDonald's for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the operations and process design reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits using the section to diagnose a live managerial situation."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Operations Management - Cases and Readings Applied Homework",
+      "description": "Applied Homework for the Cases and Readings section, covering Bottlenecks, Process flow, Inventory, Quality.",
+      "kind": "homework",
+      "difficulty": "medium",
+      "generated_from": "cases-and-readings",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Cases and Readings homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Bottlenecks and Process flow to produce a reading synthesis that sharpens an operating recommendation that identifies the constraint and expected service impact."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Bottlenecks yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on improving a non-bottleneck activity and expecting system throughput to rise."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Cases and Readings while synthesizing several assigned sources into one position. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Bottlenecks or Process flow"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a reading synthesis that sharpens an operating recommendation that identifies the constraint and expected service impact"
+            },
+            {
+              "id": "d",
+              "text": "Zara and M&S"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Cases and Readings in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Inventory and Quality to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Cases and Readings should land on after weighing Bottlenecks, Process flow, and Inventory.",
+          "correct_answer": "It should end with an operating recommendation that identifies the constraint and expected service impact, grounded in Bottlenecks, Process flow, Inventory and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Operations Management - Cases and Readings Practice Quiz",
+      "description": "Practice Quiz for the Cases and Readings section, covering Bottlenecks, Process flow, Inventory, Quality.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "cases-and-readings",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Cases and Readings section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Bottlenecks, Process flow, and Inventory to diagnose process performance using flow, capacity, variability, and bottleneck logic."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape an operating recommendation that identifies the constraint and expected service impact."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Bottlenecks is studied separately from Process flow."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Cases and Readings is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Cases and Readings while synthesizing several assigned sources into one position, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Bottlenecks to Process flow instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Inventory to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a reading synthesis that sharpens an operating recommendation that identifies the constraint and expected service impact"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Zara and M&S"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Cases and Readings ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Cases and Readings section should use evidence like Bottlenecks, Process flow, Inventory and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Cases and Readings while synthesizing several assigned sources into one position?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Bottlenecks, Process flow, and Quality; test the assumptions; then connect the section to an operating recommendation that identifies the constraint and expected service impact."
+            },
+            {
+              "id": "b",
+              "text": "Skim Bottlenecks for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the operations and process design reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits extracting the common managerial logic across the assigned materials."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Operations Management - Simulation Exercises Applied Homework",
+      "description": "Applied Homework for the Simulation Exercises section, covering Littlefield Technologies, Capacity management, Queueing, Inventory decisions.",
+      "kind": "homework",
+      "difficulty": "medium",
+      "generated_from": "simulation-exercises",
+      "time_limit_minutes": 35,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Simulation Exercises homework-style response, which draft sounds the most decision-ready?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A response that uses Littlefield Technologies and Capacity management to produce a case diagnosis that leads to an operating recommendation that identifies the constraint and expected service impact."
+            },
+            {
+              "id": "b",
+              "text": "A response that repeats section terminology but never commits to a recommendation."
+            },
+            {
+              "id": "c",
+              "text": "A response that names Littlefield Technologies yet skips assumptions and tradeoffs."
+            },
+            {
+              "id": "d",
+              "text": "A response built on improving a non-bottleneck activity and expecting system throughput to rise."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Suppose a manager is using Simulation Exercises while diagnosing a messy operating or strategic case. Which elements belong in the written answer?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evidence from Littlefield Technologies or Capacity management"
+            },
+            {
+              "id": "b",
+              "text": "The assumptions or constraints shaping the recommendation"
+            },
+            {
+              "id": "c",
+              "text": "A managerial implication tied to a case diagnosis that leads to an operating recommendation that identifies the constraint and expected service impact"
+            },
+            {
+              "id": "d",
+              "text": "Toyota"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which next step best shows that someone understands how to use Simulation Exercises in practice?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Use Queueing and Inventory decisions to frame the recommendation, then check whether it still holds when assumptions move."
+            },
+            {
+              "id": "b",
+              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+            },
+            {
+              "id": "c",
+              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+            },
+            {
+              "id": "d",
+              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "short_answer",
+          "question_text": "Name one sentence-level takeaway a strong answer from Simulation Exercises should land on after weighing Littlefield Technologies, Capacity management, and Queueing.",
+          "correct_answer": "It should end with an operating recommendation that identifies the constraint and expected service impact, grounded in Littlefield Technologies, Capacity management, Queueing and explicit assumptions.",
+          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Operations Management - Simulation Exercises Practice Quiz",
+      "description": "Practice Quiz for the Simulation Exercises section, covering Littlefield Technologies, Capacity management, Queueing, Inventory decisions.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "simulation-exercises",
+      "time_limit_minutes": 18,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A student says the Simulation Exercises section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No. The section connects Littlefield Technologies, Capacity management, and Queueing to diagnose process performance using flow, capacity, variability, and bottleneck logic."
+            },
+            {
+              "id": "b",
+              "text": "Yes. The main goal is to recall terms, even if they never shape an operating recommendation that identifies the constraint and expected service impact."
+            },
+            {
+              "id": "c",
+              "text": "Yes. The section works best when Littlefield Technologies is studied separately from Capacity management."
+            },
+            {
+              "id": "d",
+              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "Simulation Exercises is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When someone is reviewing Simulation Exercises while diagnosing a messy operating or strategic case, which moves usually strengthen the review?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Link Littlefield Technologies to Capacity management instead of treating them as separate facts"
+            },
+            {
+              "id": "b",
+              "text": "State the assumptions that connect Queueing to the decision"
+            },
+            {
+              "id": "c",
+              "text": "Explain how the section changes a case diagnosis that leads to an operating recommendation that identifies the constraint and expected service impact"
+            },
+            {
+              "id": "d",
+              "text": "Ignore tradeoffs and rely on the first plausible answer about Toyota"
+            }
+          ],
+          "correct_answer": [
+            "a",
+            "b",
+            "c"
+          ],
+          "explanation": "Good review work in Simulation Exercises ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A solid answer from the Simulation Exercises section should use evidence like Littlefield Technologies, Capacity management, Queueing and still make the tradeoffs explicit.",
+          "correct_answer": "true",
+          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which study plan would best prepare someone to use Simulation Exercises while diagnosing a messy operating or strategic case?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Compare Littlefield Technologies, Capacity management, and Inventory decisions; test the assumptions; then connect the section to an operating recommendation that identifies the constraint and expected service impact."
+            },
+            {
+              "id": "b",
+              "text": "Skim Littlefield Technologies for terminology, then answer from memory without naming the decision."
+            },
+            {
+              "id": "c",
+              "text": "Focus on polished wording first and postpone the operations and process design reasoning until the end."
+            },
+            {
+              "id": "d",
+              "text": "Pick the first familiar framework and ignore whether it fits using the section to diagnose a live managerial situation."
+            }
+          ],
+          "correct_answer": "a",
+          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}
