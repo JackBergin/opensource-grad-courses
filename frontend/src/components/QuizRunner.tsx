@@ -35,6 +35,7 @@ export default function QuizRunner({
   const [answers, setAnswers] = useState<Record<string, Answer>>({});
   const [submitted, setSubmitted] = useState(false);
   const [submitAttempted, setSubmitAttempted] = useState(false);
+  const [activeQuestionId, setActiveQuestionId] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [startedAt] = useState(() => Date.now());
   const supabase = createClient();
@@ -58,19 +59,35 @@ export default function QuizRunner({
     if (typeof window !== "undefined") {
       window.history.replaceState(null, "", getQuestionHash(questionId));
     }
+    setActiveQuestionId(questionId);
   };
 
   useEffect(() => {
     if (typeof window === "undefined") return;
-    const hash = window.location.hash;
-    if (!hash.startsWith("#question-")) return;
-    const id = hash.slice("#question-".length);
-    if (!id) return;
 
-    window.requestAnimationFrame(() => {
-      const el = document.getElementById(getQuestionElementId(id));
-      el?.scrollIntoView({ behavior: "smooth", block: "center" });
-    });
+    const syncFromHash = () => {
+      const hash = window.location.hash;
+      if (!hash.startsWith("#question-")) {
+        setActiveQuestionId(null);
+        return;
+      }
+
+      const id = hash.slice("#question-".length);
+      if (!id) {
+        setActiveQuestionId(null);
+        return;
+      }
+
+      setActiveQuestionId(id);
+      window.requestAnimationFrame(() => {
+        const el = document.getElementById(getQuestionElementId(id));
+        el?.scrollIntoView({ behavior: "smooth", block: "center" });
+      });
+    };
+
+    syncFromHash();
+    window.addEventListener("hashchange", syncFromHash);
+    return () => window.removeEventListener("hashchange", syncFromHash);
   }, []);
 
   const handleSubmit = async () => {
@@ -272,6 +289,7 @@ export default function QuizRunner({
             onAnswer={handleAnswer}
             submitted={submitted}
             submitAttempted={submitAttempted}
+            isActiveReviewTarget={activeQuestionId === q.id}
           />
         ))}
       </div>
@@ -323,6 +341,7 @@ function QuestionBlock({
   onAnswer,
   submitted,
   submitAttempted,
+  isActiveReviewTarget,
 }: {
   question: QuizQuestion;
   index: number;
@@ -330,6 +349,7 @@ function QuestionBlock({
   onAnswer: (id: string, value: string, type: string) => void;
   submitted: boolean;
   submitAttempted: boolean;
+  isActiveReviewTarget: boolean;
 }) {
   const hasAnswer = isAnswered(answer);
   const correct = submitted && question.question_type !== "short_answer"
@@ -339,13 +359,25 @@ function QuestionBlock({
     submitAttempted && !submitted && question.question_type !== "short_answer" && !hasAnswer;
 
   return (
-    <div id={getQuestionElementId(question.id)} className="scroll-mt-24">
+    <div
+      id={getQuestionElementId(question.id)}
+      className={`scroll-mt-24 border px-4 py-4 transition-colors ${
+        isActiveReviewTarget
+          ? "border-[var(--color-accent)] bg-[#FBF2F0]"
+          : "border-transparent"
+      }`}
+    >
       <div className="flex gap-4 mb-4">
         <span className="eyebrow text-[var(--color-accent)] shrink-0 pt-1">
           {String(index + 1).padStart(2, "0")}
         </span>
         <div>
           <p className="font-medium text-lg leading-snug">{question.question_text}</p>
+          {isActiveReviewTarget && submitted && (
+            <p className="eyebrow text-[10px] text-[var(--color-accent)] mt-2">
+              Review target
+            </p>
+          )}
           {showMissingState && (
             <p className="eyebrow text-[10px] text-[var(--color-accent)] mt-2">
               Required before scoring

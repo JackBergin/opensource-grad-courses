@@ -98,3 +98,16 @@ When a run ends, append a new entry in this format:
   1. Decide whether to suppress the Node module-type warning or accept it as-is for the lightweight test harness.
   2. Consider a final bounded quiz-review improvement before opening a PR.
   3. If the feature is complete, open the PR from `quiz-review-automation-flow`, merge into `develop`, and delete the branch.
+
+### 2026-06-29 20:16 EDT
+
+- Summary: Removed the lightweight test-harness module warning by declaring the frontend package as ESM and added a clearer active review state when jumping to a quiz question from the review summary.
+- Files changed: `frontend/package.json`, `frontend/src/components/QuizRunner.tsx`
+- Validation: `cd frontend && npm test` ✅, `cd frontend && npm run lint` ✅
+- Seeding status: source-only
+- Branch status: continued `quiz-review-automation-flow`; this branch is ready for PR unless you want another feature slice first
+- Blockers: no code blocker; PR creation depends on available GitHub tooling/auth in the local environment
+- Next up:
+  1. Open the PR from `quiz-review-automation-flow` into `develop` with the quiz-review scope description.
+  2. Merge into `develop` once reviewed, then delete the feature branch.
+  3. If review finds issues, continue this same branch for the follow-up fixes.
