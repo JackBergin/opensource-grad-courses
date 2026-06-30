@@ -32,6 +32,13 @@
 
 - Keep changes narrow and easy to review.
 - Prefer the smallest improvement that clearly moves the platform forward.
+- Follow this delivery sequence for autonomous feature work:
+  1. feature ideation
+  2. branch decision: continue the relevant WIP feature branch or create a new brief descriptive branch from `develop`
+  3. buildout
+  4. validation
+  5. open a PR when the slice is complete and the branch is ready for review, then delete the branch after it is merged back to `develop`
+  5b. if the slice is not complete, write precise next-session notes before stopping
 - Do not invent product requirements when the repo already implies them.
 - Do not remove or regenerate course content in `context/` unless the task explicitly calls for it.
 - Treat Supabase schema and seeded content as user data surfaces; validate assumptions before changing them.
@@ -68,12 +75,17 @@
 ## Autonomous Work Loop
 
 - Read `AUTONOMOUS_STATUS.md` before choosing the next task.
+- Check git state before choosing the task:
+  - if a relevant feature branch is already in progress, continue it
+  - if the previous feature is complete, branch from `develop` with a short descriptive name
 - Pick one bounded improvement per run unless multiple tiny changes are tightly coupled.
 - Update `AUTONOMOUS_STATUS.md` at the end of every run with:
   - what changed
   - what validation ran
+  - whether the current feature branch should be continued next run or whether a fresh branch should start from `develop`
   - blockers or uncertainties
   - the next 1-3 best follow-up tasks
+- If a slice is complete, prefer opening a PR before ending the run when the environment and permissions support it.
 - Stop and leave a crisp handoff instead of guessing when requirements, local data, or credentials are missing.
 - If the best next task is content seeding work rather than code, do the content work and still leave the same validation and handoff trail.
 

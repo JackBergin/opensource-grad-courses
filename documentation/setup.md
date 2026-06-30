@@ -21,6 +21,44 @@ cp .env.example .env
 
 Edit `.env` and fill in placeholder values. For local dev, the Supabase keys come from `supabase start` output (step 3).
 
+## Branch workflow
+
+The main local checkout should remain on `develop`. For normal development in this repo, create short-lived feature branches from `develop` or continue the current in-progress feature branch if that slice is not done yet.
+
+Typical flow:
+
+```bash
+# start from the main checkout on develop
+git checkout develop
+git pull
+git checkout -b quiz-review-summary
+
+# after validating on the feature branch
+# open a PR when the slice is complete
+git checkout develop
+git merge --no-ff quiz-review-summary
+
+# after the merge is safely on develop
+git branch -d quiz-review-summary
+```
+
+At the beginning of an autonomous run, check whether the relevant feature branch is already in progress. If it is, continue there. Only create a new branch when the previous slice is complete and ready to stay merged in `develop`.
+
+Recommended automation sequence:
+
+1. Identify the best bounded feature or follow-up slice.
+2. Decide whether to continue the current WIP feature branch or create a new brief descriptive branch from `develop`.
+3. Implement the slice end to end.
+4. Run the narrowest meaningful validation.
+5. If complete, open a PR and merge back into `develop`, then delete the feature branch.
+6. If not complete, leave exact next-session notes in `AUTONOMOUS_STATUS.md` so the next run can resume without rediscovery.
+
+## Ignored local inputs
+
+The repo-root `.env`, optional `frontend/.env.local`, and the `context/` source tree are required for realistic local validation but are ignored by Git.
+
+When you stay in the same checkout and switch feature branches, those local inputs stay available automatically. If you deliberately use a separate checkout or worktree anyway, copy those ignored inputs over before running seeds, tests, or the frontend.
+
 ## 2. Restore course context data
 
 The OCW course content is gitignored (too large for the repo). Place it at:
@@ -39,6 +77,8 @@ If you have the original `mba_sloan_first_semester_classes/` folder, just move i
 mkdir -p context
 mv mba_sloan_first_semester_classes context/
 ```
+
+If you are already working from a prepared checkout, the existing local `context/` tree can be reused directly across feature branches in that checkout.
 
 ## 3. Start local Supabase
 
