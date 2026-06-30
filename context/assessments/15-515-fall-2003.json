@@ -4,776 +4,995 @@
   "assessments": [
     {
       "title": "Financial Accounting - Assignments Applied Homework",
-      "description": "Applied Homework for the Assignments section, covering Revenue recognition, Working capital, Cash flow analysis, Ratio analysis.",
+      "description": "Applied Homework for the Assignments section, covering financial statement preparation, revenue recognition, working capital analysis, cash flow analysis, and ratio analysis.",
       "kind": "homework",
       "difficulty": "hard",
       "generated_from": "assignments",
-      "time_limit_minutes": 35,
+      "time_limit_minutes": 45,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "In the Assignments homework-style response, which draft sounds the most decision-ready?",
+          "question_text": "A company ships goods to a customer on December 28, but the customer has the right to return the goods within 30 days for a full refund. Under GAAP, when should the company recognize revenue?",
           "options": [
-            {
-              "id": "a",
-              "text": "A response that uses Revenue recognition and Working capital to produce a worked recommendation that ends in a statement analysis that connects accounting treatment to performance and risk."
-            },
-            {
-              "id": "b",
-              "text": "A response that repeats section terminology but never commits to a recommendation."
-            },
-            {
-              "id": "c",
-              "text": "A response that names Revenue recognition yet skips assumptions and tradeoffs."
-            },
-            {
-              "id": "d",
-              "text": "A response built on equating reported earnings with current-period cash generation."
-            }
+            { "id": "a", "text": "On December 28, when the goods are shipped" },
+            { "id": "b", "text": "On January 27, when the return period expires" },
+            { "id": "c", "text": "Revenue can be recognized at shipment only if the company can reasonably estimate returns and records an allowance" },
+            { "id": "d", "text": "Revenue is recognized when cash is received from the customer" }
           ],
-          "correct_answer": "a",
-          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "correct_answer": "c",
+          "explanation": "Under GAAP revenue recognition rules, revenue can be recognized at the point of sale (shipment) even when a right of return exists, provided the seller can reasonably estimate future returns and establishes an allowance for them. If returns cannot be estimated, recognition must be deferred until the return period lapses.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Under the indirect method of preparing the statement of cash flows, depreciation expense is added back to net income in the operating activities section because depreciation is a cash outflow that was already deducted from net income.",
+          "correct_answer": "false",
+          "explanation": "Depreciation is added back to net income not because it is a cash outflow, but precisely because it is NOT a cash outflow. Depreciation reduced net income as a non-cash expense, so it must be added back to reconcile net income to cash from operating activities.",
           "difficulty": "medium"
         },
         {
-          "question_type": "multi_select",
-          "question_text": "Suppose a manager is using Assignments while turning a draft analysis into a defensible submission. Which elements belong in the written answer?",
+          "question_type": "multiple_choice",
+          "question_text": "A company has current assets of $500,000 (including $200,000 of inventory) and current liabilities of $200,000. What is the company's quick ratio?",
           "options": [
-            {
-              "id": "a",
-              "text": "Evidence from Revenue recognition or Working capital"
-            },
-            {
-              "id": "b",
-              "text": "The assumptions or constraints shaping the recommendation"
-            },
-            {
-              "id": "c",
-              "text": "A managerial implication tied to a worked recommendation that ends in a statement analysis that connects accounting treatment to performance and risk"
-            },
-            {
-              "id": "d",
-              "text": "Course framework"
-            }
+            { "id": "a", "text": "2.5" },
+            { "id": "b", "text": "1.5" },
+            { "id": "c", "text": "1.0" },
+            { "id": "d", "text": "0.6" }
           ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
+          "correct_answer": "b",
+          "explanation": "The quick ratio (acid-test ratio) = (Current Assets - Inventory) / Current Liabilities = ($500,000 - $200,000) / $200,000 = $300,000 / $200,000 = 1.5. The quick ratio excludes inventory because it is typically the least liquid current asset.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following transactions would increase a company's operating cash flows under the indirect method? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "An increase in accounts payable" },
+            { "id": "b", "text": "An increase in accounts receivable" },
+            { "id": "c", "text": "Depreciation expense recorded for the period" },
+            { "id": "d", "text": "A decrease in inventory" },
+            { "id": "e", "text": "The purchase of new equipment" }
           ],
-          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "correct_answer": ["a", "c", "d"],
+          "explanation": "Under the indirect method: (a) an increase in accounts payable means the company received goods/services but has not yet paid cash, increasing operating cash flow; (c) depreciation is a non-cash charge added back; (d) a decrease in inventory means less cash was tied up in inventory than was expensed. An increase in A/R means revenue was recognized without cash collection (decrease), and equipment purchase is an investing activity.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "On January 1, a company issues a $1,000,000 bond with a 6% stated rate when the market rate is 8%. The bond pays interest semi-annually and matures in 10 years. How will this bond be reported on the balance sheet at issuance?",
+          "options": [
+            { "id": "a", "text": "At $1,000,000 (face value)" },
+            { "id": "b", "text": "At a premium above $1,000,000" },
+            { "id": "c", "text": "At a discount below $1,000,000" },
+            { "id": "d", "text": "At the total of all future cash payments" }
+          ],
+          "correct_answer": "c",
+          "explanation": "When the stated interest rate (6%) is below the market rate (8%), investors will pay less than face value for the bond because its coupon payments are below market rates. The bond is therefore issued at a discount. The carrying value at issuance equals the present value of all future cash flows (coupons and principal) discounted at the market rate of 8%.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: If a company's return on equity (ROE) is 15% and its return on assets (ROA) is 15%, the company has no financial leverage.",
+          "correct_answer": "true",
+          "explanation": "The DuPont decomposition shows ROE = ROA x Equity Multiplier (Assets/Equity). If ROE equals ROA, the equity multiplier must be 1.0, meaning Total Assets = Total Equity, which implies no debt (no financial leverage). Any leverage would cause ROE to differ from ROA.",
           "difficulty": "hard"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which next step best shows that someone understands how to use Assignments in practice?",
+          "question_text": "A company reports net income of $120,000 but its cash flow from operations is only $40,000. Which of the following scenarios best explains this discrepancy?",
           "options": [
-            {
-              "id": "a",
-              "text": "Use Cash flow analysis and Ratio analysis to frame the recommendation, then check whether it still holds when assumptions move."
-            },
-            {
-              "id": "b",
-              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
-            },
-            {
-              "id": "c",
-              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
-            },
-            {
-              "id": "d",
-              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
-            }
+            { "id": "a", "text": "The company made large capital expenditures during the period" },
+            { "id": "b", "text": "The company experienced a significant increase in accounts receivable" },
+            { "id": "c", "text": "The company repaid a long-term loan" },
+            { "id": "d", "text": "The company issued new shares of common stock" }
           ],
-          "correct_answer": "a",
-          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "correct_answer": "b",
+          "explanation": "A large increase in accounts receivable means the company recognized revenue (increasing net income) but did not collect the corresponding cash, reducing operating cash flow relative to net income. Capital expenditures affect investing activities, loan repayment affects financing activities, and stock issuance affects financing activities -- none of these would create the operating cash flow gap described.",
           "difficulty": "medium"
         },
         {
-          "question_type": "short_answer",
-          "question_text": "Name one sentence-level takeaway a strong answer from Assignments should land on after weighing Revenue recognition, Working capital, and Cash flow analysis.",
-          "correct_answer": "It should end with a statement analysis that connects accounting treatment to performance and risk, grounded in Revenue recognition, Working capital, Cash flow analysis and explicit assumptions.",
-          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
-          "difficulty": "hard"
+          "question_type": "multi_select",
+          "question_text": "Which of the following are classified as financing activities on the statement of cash flows? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Issuing common stock" },
+            { "id": "b", "text": "Paying dividends to shareholders" },
+            { "id": "c", "text": "Purchasing another company's bonds as an investment" },
+            { "id": "d", "text": "Repaying principal on a bank loan" },
+            { "id": "e", "text": "Collecting interest on a note receivable" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Financing activities involve transactions with the company's own creditors and owners: issuing stock (a), paying dividends (b), and repaying loan principal (d) are all financing activities. Purchasing another company's bonds (c) is an investing activity. Collecting interest on a note receivable (e) is an operating activity under GAAP.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Company X has an inventory turnover ratio of 12. Company Y in the same industry has an inventory turnover of 6. Assuming both use the same accounting methods, what does this comparison suggest?",
+          "options": [
+            { "id": "a", "text": "Company X holds inventory for approximately half as many days as Company Y" },
+            { "id": "b", "text": "Company X is likely overstating its cost of goods sold" },
+            { "id": "c", "text": "Company Y is more efficient at managing its inventory" },
+            { "id": "d", "text": "Company X has higher gross margins than Company Y" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Inventory turnover = COGS / Average Inventory. A turnover of 12 means inventory is sold and replaced 12 times per year (about every 30 days), while a turnover of 6 means every 60 days. Higher turnover generally suggests more efficient inventory management, meaning Company X holds inventory for roughly half the time that Company Y does.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A company that recognizes revenue using the percentage-of-completion method for a long-term construction contract will report higher total revenue over the life of the contract compared to a company using the completed-contract method for the same contract.",
+          "correct_answer": "false",
+          "explanation": "Both methods recognize the same total revenue over the life of the contract. The difference is timing: percentage-of-completion recognizes revenue proportionally as work progresses, while completed-contract recognizes all revenue upon completion. Total revenue and total profit are identical over the contract's full life under either method.",
+          "difficulty": "easy"
         }
       ]
     },
     {
       "title": "Financial Accounting - Assignments Practice Quiz",
-      "description": "Practice Quiz for the Assignments section, covering Revenue recognition, Working capital, Cash flow analysis, Ratio analysis.",
+      "description": "Practice Quiz for the Assignments section, covering revenue recognition, working capital, cash flow analysis, and ratio analysis.",
       "kind": "practice_quiz",
       "difficulty": "medium",
       "generated_from": "assignments",
-      "time_limit_minutes": 18,
+      "time_limit_minutes": 25,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "A student says the Assignments section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "question_text": "Which financial statement reports a company's financial position at a specific point in time?",
           "options": [
-            {
-              "id": "a",
-              "text": "No. The section connects Revenue recognition, Working capital, and Cash flow analysis to interpret transactions and statements through accrual accounting and economic substance."
-            },
-            {
-              "id": "b",
-              "text": "Yes. The main goal is to recall terms, even if they never shape a statement analysis that connects accounting treatment to performance and risk."
-            },
-            {
-              "id": "c",
-              "text": "Yes. The section works best when Revenue recognition is studied separately from Working capital."
-            },
-            {
-              "id": "d",
-              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
-            }
+            { "id": "a", "text": "Income statement" },
+            { "id": "b", "text": "Statement of cash flows" },
+            { "id": "c", "text": "Balance sheet" },
+            { "id": "d", "text": "Statement of retained earnings" }
           ],
-          "correct_answer": "a",
-          "explanation": "Assignments is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
-          "difficulty": "medium"
-        },
-        {
-          "question_type": "multi_select",
-          "question_text": "When someone is reviewing Assignments while turning a draft analysis into a defensible submission, which moves usually strengthen the review?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Link Revenue recognition to Working capital instead of treating them as separate facts"
-            },
-            {
-              "id": "b",
-              "text": "State the assumptions that connect Cash flow analysis to the decision"
-            },
-            {
-              "id": "c",
-              "text": "Explain how the section changes a worked recommendation that ends in a statement analysis that connects accounting treatment to performance and risk"
-            },
-            {
-              "id": "d",
-              "text": "Ignore tradeoffs and rely on the first plausible answer about Course framework"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "Good review work in Assignments ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "correct_answer": "c",
+          "explanation": "The balance sheet (statement of financial position) is a snapshot of a company's assets, liabilities, and equity at a specific point in time. The income statement, statement of cash flows, and statement of retained earnings all report activity over a period of time.",
           "difficulty": "easy"
         },
         {
           "question_type": "true_false",
-          "question_text": "True or false: A solid answer from the Assignments section should use evidence like Revenue recognition, Working capital, Cash flow analysis and still make the tradeoffs explicit.",
-          "correct_answer": "true",
-          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "question_text": "True or false: Under accrual accounting, expenses are recognized when cash is paid.",
+          "correct_answer": "false",
+          "explanation": "Under accrual accounting, expenses are recognized when incurred (when the economic benefit is consumed), regardless of when cash is paid. This is the matching principle -- expenses are matched to the revenues they help generate. Cash-basis accounting, not accrual accounting, recognizes expenses when cash is paid.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A company's current ratio is 3.0 and its quick ratio is 0.8. What does this most likely indicate?",
+          "options": [
+            { "id": "a", "text": "The company has excessive long-term debt" },
+            { "id": "b", "text": "A large proportion of the company's current assets is tied up in inventory" },
+            { "id": "c", "text": "The company has strong cash generation from operations" },
+            { "id": "d", "text": "The company's accounts receivable turnover is very high" }
+          ],
+          "correct_answer": "b",
+          "explanation": "The current ratio includes all current assets while the quick ratio excludes inventory. A high current ratio (3.0) combined with a low quick ratio (0.8) indicates that inventory comprises a very large portion of current assets. Without inventory, the company's liquid assets barely cover its current liabilities.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following items appear on the balance sheet as current assets? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Cash and cash equivalents" },
+            { "id": "b", "text": "Accounts receivable" },
+            { "id": "c", "text": "Prepaid expenses expected to be used within one year" },
+            { "id": "d", "text": "Goodwill" },
+            { "id": "e", "text": "Accumulated depreciation" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Current assets are those expected to be converted to cash, sold, or consumed within one year or the operating cycle. Cash, accounts receivable, and short-term prepaid expenses qualify. Goodwill is an intangible long-term asset. Accumulated depreciation is a contra-asset to long-lived assets, not a current asset.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to Pratt's Financial Accounting, what is the fundamental accounting equation?",
+          "options": [
+            { "id": "a", "text": "Revenue - Expenses = Net Income" },
+            { "id": "b", "text": "Assets = Liabilities + Shareholders' Equity" },
+            { "id": "c", "text": "Cash Inflows - Cash Outflows = Net Cash Flow" },
+            { "id": "d", "text": "Beginning Retained Earnings + Net Income - Dividends = Ending Retained Earnings" }
+          ],
+          "correct_answer": "b",
+          "explanation": "The fundamental accounting equation is Assets = Liabilities + Shareholders' Equity. This equation must always balance and is the foundation of the double-entry bookkeeping system. Every transaction affects at least two accounts while maintaining this equality.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A company with a debt-to-equity ratio of 2.0 has twice as much equity as debt.",
+          "correct_answer": "false",
+          "explanation": "The debt-to-equity ratio = Total Debt / Total Equity. A ratio of 2.0 means the company has twice as much debt as equity, not the reverse. For example, if equity is $100, then debt is $200.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which of the following would cause net income to exceed operating cash flow in a given period?",
+          "options": [
+            { "id": "a", "text": "Recording large depreciation charges" },
+            { "id": "b", "text": "Making credit sales that increase accounts receivable significantly" },
+            { "id": "c", "text": "Receiving customer prepayments for services not yet performed" },
+            { "id": "d", "text": "Paying down accounts payable from the prior period" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Credit sales increase revenue (and thus net income) without a corresponding cash inflow. The increase in accounts receivable is subtracted from net income in the indirect method. Depreciation (a) is a non-cash expense that reduces net income but not cash, so it causes cash flow to exceed net income. Customer prepayments (c) increase cash but not revenue. Paying down A/P (d) reduces cash but not net income.",
           "difficulty": "medium"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which study plan would best prepare someone to use Assignments while turning a draft analysis into a defensible submission?",
+          "question_text": "A company has net sales of $800,000 and average accounts receivable of $100,000. What is the accounts receivable turnover, and approximately how many days does it take to collect receivables?",
           "options": [
-            {
-              "id": "a",
-              "text": "Compare Revenue recognition, Working capital, and Ratio analysis; test the assumptions; then connect the section to a statement analysis that connects accounting treatment to performance and risk."
-            },
-            {
-              "id": "b",
-              "text": "Skim Revenue recognition for terminology, then answer from memory without naming the decision."
-            },
-            {
-              "id": "c",
-              "text": "Focus on polished wording first and postpone the financial reporting and analysis reasoning until the end."
-            },
-            {
-              "id": "d",
-              "text": "Pick the first familiar framework and ignore whether it fits working through structured problems with assumptions made explicit."
-            }
+            { "id": "a", "text": "Turnover of 8; approximately 46 days" },
+            { "id": "b", "text": "Turnover of 8; approximately 30 days" },
+            { "id": "c", "text": "Turnover of 4; approximately 91 days" },
+            { "id": "d", "text": "Turnover of 12.5; approximately 29 days" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "explanation": "A/R Turnover = Net Sales / Average A/R = $800,000 / $100,000 = 8. Days sales outstanding = 365 / 8 = approximately 45.6 days, which rounds to 46 days. This means the company collects its receivables on average about every 46 days.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following correctly describe the relationship between the three main financial statements? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Net income from the income statement flows into retained earnings on the balance sheet" },
+            { "id": "b", "text": "The ending cash balance on the statement of cash flows equals the cash reported on the balance sheet" },
+            { "id": "c", "text": "Depreciation expense on the income statement has no connection to any balance sheet account" },
+            { "id": "d", "text": "Dividends declared reduce retained earnings on the balance sheet" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "The three statements are interconnected: net income increases retained earnings (a), the cash flow statement reconciles to the balance sheet cash (b), and dividends reduce retained earnings (d). Option (c) is incorrect because depreciation expense on the income statement increases accumulated depreciation (a contra-asset) on the balance sheet.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Working capital is calculated as current assets minus current liabilities, and a negative working capital always indicates a company is in financial distress.",
+          "correct_answer": "false",
+          "explanation": "While working capital is indeed current assets minus current liabilities, negative working capital does not always indicate financial distress. Some businesses, particularly retailers and companies with strong bargaining power (like Amazon or Walmart), routinely operate with negative working capital because they collect cash from customers before paying suppliers. This can actually be a sign of operational efficiency.",
           "difficulty": "medium"
         }
       ]
     },
     {
       "title": "Financial Accounting - Lecture Notes Applied Homework",
-      "description": "Applied Homework for the Lecture Notes section, covering Course framework, Recognition and measurement, Accrual accounting, Statement analysis.",
+      "description": "Applied Homework for the Lecture Notes section, covering accounting principles, journal entries, adjusting entries, and accrual accounting mechanics.",
       "kind": "homework",
       "difficulty": "medium",
       "generated_from": "lecture-notes",
-      "time_limit_minutes": 35,
+      "time_limit_minutes": 45,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "In the Lecture Notes homework-style response, which draft sounds the most decision-ready?",
+          "question_text": "On December 1, a company pays $12,000 for a one-year insurance policy effective immediately. What adjusting entry is required on December 31?",
           "options": [
-            {
-              "id": "a",
-              "text": "A response that uses Course framework and Recognition and measurement to produce a synthesis of the lecture logic that supports a statement analysis that connects accounting treatment to performance and risk."
-            },
-            {
-              "id": "b",
-              "text": "A response that repeats section terminology but never commits to a recommendation."
-            },
-            {
-              "id": "c",
-              "text": "A response that names Course framework yet skips assumptions and tradeoffs."
-            },
-            {
-              "id": "d",
-              "text": "A response built on equating reported earnings with current-period cash generation."
-            }
+            { "id": "a", "text": "Debit Insurance Expense $12,000; Credit Prepaid Insurance $12,000" },
+            { "id": "b", "text": "Debit Insurance Expense $1,000; Credit Prepaid Insurance $1,000" },
+            { "id": "c", "text": "Debit Prepaid Insurance $11,000; Credit Insurance Expense $11,000" },
+            { "id": "d", "text": "No adjusting entry is needed until the policy expires" }
           ],
-          "correct_answer": "a",
-          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
-          "difficulty": "medium"
+          "correct_answer": "b",
+          "explanation": "One month of the 12-month policy has been consumed by December 31, so $12,000 / 12 = $1,000 of insurance expense should be recognized. The adjusting entry debits Insurance Expense and credits Prepaid Insurance for $1,000, leaving $11,000 as a prepaid asset.",
+          "difficulty": "easy"
         },
         {
-          "question_type": "multi_select",
-          "question_text": "Suppose a manager is using Lecture Notes while linking the section's teaching arc into one argument. Which elements belong in the written answer?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Evidence from Course framework or Recognition and measurement"
-            },
-            {
-              "id": "b",
-              "text": "The assumptions or constraints shaping the recommendation"
-            },
-            {
-              "id": "c",
-              "text": "A managerial implication tied to a synthesis of the lecture logic that supports a statement analysis that connects accounting treatment to performance and risk"
-            },
-            {
-              "id": "d",
-              "text": "Revenue recognition"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
-          "difficulty": "hard"
+          "question_type": "true_false",
+          "question_text": "True or false: Under double-entry bookkeeping, every transaction must have equal total debits and credits, and debits always mean increases.",
+          "correct_answer": "false",
+          "explanation": "While it is true that every transaction must have equal debits and credits, debits do NOT always mean increases. Debits increase asset and expense accounts but decrease liability, equity, and revenue accounts. The effect of a debit depends on the type of account.",
+          "difficulty": "easy"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which next step best shows that someone understands how to use Lecture Notes in practice?",
+          "question_text": "A company performs services for a client in December but does not send an invoice until January 15 and receives payment on February 1. Under accrual accounting, in which period should the revenue be recognized?",
           "options": [
-            {
-              "id": "a",
-              "text": "Use Accrual accounting and Statement analysis to frame the recommendation, then check whether it still holds when assumptions move."
-            },
-            {
-              "id": "b",
-              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
-            },
-            {
-              "id": "c",
-              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
-            },
-            {
-              "id": "d",
-              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
-            }
+            { "id": "a", "text": "January, when the invoice is sent" },
+            { "id": "b", "text": "February, when cash is received" },
+            { "id": "c", "text": "December, when the services are performed" },
+            { "id": "d", "text": "Split equally between December, January, and February" }
           ],
-          "correct_answer": "a",
-          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "correct_answer": "c",
+          "explanation": "Under accrual accounting, revenue is recognized when earned, which is when the service is performed and the performance obligation is satisfied. In this case, the services were performed in December, so revenue should be recognized in December regardless of when the invoice is sent or payment is received.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are examples of adjusting entries that would typically be made at the end of an accounting period? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Recognizing accrued wages owed to employees but not yet paid" },
+            { "id": "b", "text": "Recording depreciation on a building" },
+            { "id": "c", "text": "Purchasing inventory from a supplier on credit" },
+            { "id": "d", "text": "Recognizing the earned portion of unearned revenue" },
+            { "id": "e", "text": "Recording accrued interest expense on a note payable" }
+          ],
+          "correct_answer": ["a", "b", "d", "e"],
+          "explanation": "Adjusting entries are made to ensure revenues and expenses are recorded in the proper period. Accrued wages (a), depreciation (b), earned portion of unearned revenue (d), and accrued interest (e) are all typical adjusting entries. Purchasing inventory on credit (c) is a regular transaction, not an adjusting entry.",
           "difficulty": "medium"
         },
         {
-          "question_type": "short_answer",
-          "question_text": "Name one sentence-level takeaway a strong answer from Lecture Notes should land on after weighing Course framework, Recognition and measurement, and Accrual accounting.",
-          "correct_answer": "It should end with a statement analysis that connects accounting treatment to performance and risk, grounded in Course framework, Recognition and measurement, Accrual accounting and explicit assumptions.",
-          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "question_type": "multiple_choice",
+          "question_text": "As discussed in the lecture notes on the accounting cycle, which step comes immediately after preparing the adjusted trial balance?",
+          "options": [
+            { "id": "a", "text": "Recording journal entries" },
+            { "id": "b", "text": "Posting to the ledger" },
+            { "id": "c", "text": "Preparing financial statements" },
+            { "id": "d", "text": "Making closing entries" }
+          ],
+          "correct_answer": "c",
+          "explanation": "The accounting cycle proceeds: analyze transactions, record journal entries, post to ledger, prepare unadjusted trial balance, record adjusting entries, prepare adjusted trial balance, prepare financial statements, make closing entries, and prepare post-closing trial balance. Financial statements come immediately after the adjusted trial balance.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A credit to Unearned Revenue increases a liability account because the company has received cash for services it has not yet performed.",
+          "correct_answer": "true",
+          "explanation": "Unearned Revenue is a liability account representing the company's obligation to deliver goods or services in the future. When a company receives payment before performing services, it credits (increases) Unearned Revenue because it now owes a performance obligation. As services are performed, the liability is reduced (debited) and revenue is recognized.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A company records the following journal entry: Debit Accounts Receivable $5,000; Credit Service Revenue $5,000. Which of the following best describes this transaction?",
+          "options": [
+            { "id": "a", "text": "The company collected $5,000 cash for services" },
+            { "id": "b", "text": "The company performed $5,000 of services on account (on credit)" },
+            { "id": "c", "text": "The company received a $5,000 prepayment from a customer" },
+            { "id": "d", "text": "The company wrote off a $5,000 bad debt" }
+          ],
+          "correct_answer": "b",
+          "explanation": "This entry increases Accounts Receivable (an asset, debited) and recognizes Service Revenue (credited). This means the company performed services for $5,000 but has not yet collected cash -- the customer owes the company. If cash were collected, Cash would be debited instead of Accounts Receivable.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following statements about closing entries are correct? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Revenue accounts are closed by debiting them" },
+            { "id": "b", "text": "Expense accounts are closed by crediting them" },
+            { "id": "c", "text": "Asset accounts are closed at the end of each period" },
+            { "id": "d", "text": "The net effect of closing entries flows into Retained Earnings" },
+            { "id": "e", "text": "Closing entries reset temporary accounts to zero for the next period" }
+          ],
+          "correct_answer": ["a", "b", "d", "e"],
+          "explanation": "Closing entries reset temporary accounts (revenues, expenses, dividends) to zero. Revenue accounts (which have credit balances) are closed by debiting them (a). Expense accounts (which have debit balances) are closed by crediting them (b). The net amount flows into Retained Earnings (d), and this process resets temporary accounts for the next period (e). Asset accounts (c) are permanent accounts and are NOT closed.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "On March 1, a company borrows $100,000 from a bank with a 6% annual interest rate, with interest payable semi-annually. What adjusting entry is required on March 31 for interest expense?",
+          "options": [
+            { "id": "a", "text": "Debit Interest Expense $500; Credit Interest Payable $500" },
+            { "id": "b", "text": "Debit Interest Expense $3,000; Credit Interest Payable $3,000" },
+            { "id": "c", "text": "Debit Interest Expense $6,000; Credit Interest Payable $6,000" },
+            { "id": "d", "text": "No entry is needed until the interest payment date" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Interest must be accrued as it is incurred. One month of interest = $100,000 x 6% x (1/12) = $500. Even though the interest is not due until the semi-annual payment date, accrual accounting requires recognizing the expense and corresponding liability as time passes.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the lecture notes on the matching principle, the cost of a three-year equipment warranty should be entirely expensed in the year the warranty claim is filed, not in the year of the related product sale.",
+          "correct_answer": "false",
+          "explanation": "The matching principle requires that expenses be recognized in the same period as the revenues they help generate. Warranty expense should be estimated and recognized in the period of the sale (when the revenue is earned), not when the warranty claim is filed. Companies record warranty expense and a warranty liability at the time of sale based on estimated future claims.",
           "difficulty": "hard"
         }
       ]
     },
     {
       "title": "Financial Accounting - Lecture Notes Practice Quiz",
-      "description": "Practice Quiz for the Lecture Notes section, covering Course framework, Recognition and measurement, Accrual accounting, Statement analysis.",
+      "description": "Practice Quiz for the Lecture Notes section, covering accounting principles, journal entries, and the accrual basis of accounting.",
       "kind": "practice_quiz",
       "difficulty": "medium",
       "generated_from": "lecture-notes",
-      "time_limit_minutes": 18,
+      "time_limit_minutes": 25,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "A student says the Lecture Notes section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "question_text": "Which accounting principle requires that expenses be recorded in the same period as the revenues they help generate?",
           "options": [
-            {
-              "id": "a",
-              "text": "No. The section connects Course framework, Recognition and measurement, and Accrual accounting to interpret transactions and statements through accrual accounting and economic substance."
-            },
-            {
-              "id": "b",
-              "text": "Yes. The main goal is to recall terms, even if they never shape a statement analysis that connects accounting treatment to performance and risk."
-            },
-            {
-              "id": "c",
-              "text": "Yes. The section works best when Course framework is studied separately from Recognition and measurement."
-            },
-            {
-              "id": "d",
-              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
-            }
+            { "id": "a", "text": "Going concern assumption" },
+            { "id": "b", "text": "Revenue recognition principle" },
+            { "id": "c", "text": "Matching principle (expense recognition)" },
+            { "id": "d", "text": "Historical cost principle" }
           ],
-          "correct_answer": "a",
-          "explanation": "Lecture Notes is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
-          "difficulty": "medium"
-        },
-        {
-          "question_type": "multi_select",
-          "question_text": "When someone is reviewing Lecture Notes while linking the section's teaching arc into one argument, which moves usually strengthen the review?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Link Course framework to Recognition and measurement instead of treating them as separate facts"
-            },
-            {
-              "id": "b",
-              "text": "State the assumptions that connect Accrual accounting to the decision"
-            },
-            {
-              "id": "c",
-              "text": "Explain how the section changes a synthesis of the lecture logic that supports a statement analysis that connects accounting treatment to performance and risk"
-            },
-            {
-              "id": "d",
-              "text": "Ignore tradeoffs and rely on the first plausible answer about Revenue recognition"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "Good review work in Lecture Notes ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "correct_answer": "c",
+          "explanation": "The matching principle (also called expense recognition) requires companies to record expenses in the same period as the revenues to which they relate. For example, the cost of goods sold is recognized in the same period as the related sales revenue.",
           "difficulty": "easy"
         },
         {
           "question_type": "true_false",
-          "question_text": "True or false: A solid answer from the Lecture Notes section should use evidence like Course framework, Recognition and measurement, Accrual accounting and still make the tradeoffs explicit.",
-          "correct_answer": "true",
-          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "question_text": "True or false: Accounts Receivable is increased with a credit entry.",
+          "correct_answer": "false",
+          "explanation": "Accounts Receivable is an asset account. Asset accounts are increased with debit entries and decreased with credit entries. When a company makes a sale on credit, it debits Accounts Receivable to increase it.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A company receives $6,000 on April 1 for a six-month service contract. What is the correct journal entry on April 1?",
+          "options": [
+            { "id": "a", "text": "Debit Cash $6,000; Credit Service Revenue $6,000" },
+            { "id": "b", "text": "Debit Cash $6,000; Credit Unearned Revenue $6,000" },
+            { "id": "c", "text": "Debit Unearned Revenue $6,000; Credit Cash $6,000" },
+            { "id": "d", "text": "Debit Accounts Receivable $6,000; Credit Service Revenue $6,000" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Cash is received (debit to increase the asset), but since the services have not yet been performed, revenue cannot be recognized. Instead, Unearned Revenue (a liability) is credited because the company has an obligation to perform services in the future. Revenue will be recognized over the six-month period as services are performed.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are considered permanent (real) accounts that are NOT closed at the end of the accounting period? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Retained Earnings" },
+            { "id": "b", "text": "Service Revenue" },
+            { "id": "c", "text": "Equipment" },
+            { "id": "d", "text": "Salaries Expense" },
+            { "id": "e", "text": "Accounts Payable" }
+          ],
+          "correct_answer": ["a", "c", "e"],
+          "explanation": "Permanent (real) accounts -- assets, liabilities, and equity accounts -- carry their balances forward from period to period. Retained Earnings (equity), Equipment (asset), and Accounts Payable (liability) are permanent. Service Revenue and Salaries Expense are temporary accounts that are closed to Retained Earnings at the end of each period.",
           "difficulty": "medium"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which study plan would best prepare someone to use Lecture Notes while linking the section's teaching arc into one argument?",
+          "question_text": "What is the effect on the accounting equation when a company purchases equipment for $20,000 by paying $5,000 cash and signing a $15,000 note payable?",
           "options": [
-            {
-              "id": "a",
-              "text": "Compare Course framework, Recognition and measurement, and Statement analysis; test the assumptions; then connect the section to a statement analysis that connects accounting treatment to performance and risk."
-            },
-            {
-              "id": "b",
-              "text": "Skim Course framework for terminology, then answer from memory without naming the decision."
-            },
-            {
-              "id": "c",
-              "text": "Focus on polished wording first and postpone the financial reporting and analysis reasoning until the end."
-            },
-            {
-              "id": "d",
-              "text": "Pick the first familiar framework and ignore whether it fits connecting the teaching sequence into one coherent logic chain."
-            }
+            { "id": "a", "text": "Assets increase by $20,000; Liabilities increase by $15,000; no change to Equity" },
+            { "id": "b", "text": "Assets increase by $15,000; Liabilities increase by $15,000; no change to Equity" },
+            { "id": "c", "text": "Assets increase by $20,000; Liabilities increase by $20,000; no change to Equity" },
+            { "id": "d", "text": "Assets increase by $15,000; Liabilities increase by $15,000; Equity decreases by $5,000" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Equipment (asset) increases by $20,000, but Cash (asset) decreases by $5,000, so net assets increase by $15,000. Notes Payable (liability) increases by $15,000. The equation stays balanced: +$15,000 assets = +$15,000 liabilities. There is no effect on equity because this is a balance sheet transaction, not a revenue or expense event.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Under the conservatism principle, accountants should anticipate no profits and provide for all possible losses.",
+          "correct_answer": "true",
+          "explanation": "The conservatism (prudence) principle holds that when in doubt, accountants should choose the method that is least likely to overstate assets or income. This means anticipated losses should be recognized immediately (e.g., writing down impaired assets), while gains should not be recognized until realized. The classic formulation is to 'anticipate no profits and provide for all possible losses.'",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which of the following best describes accrued expenses?",
+          "options": [
+            { "id": "a", "text": "Expenses that have been paid in cash but not yet incurred" },
+            { "id": "b", "text": "Expenses that have been incurred but not yet paid in cash" },
+            { "id": "c", "text": "Expenses that will never require a cash payment" },
+            { "id": "d", "text": "Expenses recorded only when the related invoice is received" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Accrued expenses are expenses that have been incurred (the economic event has occurred) but have not yet been paid. Examples include accrued wages (employees have worked but not yet been paid) and accrued interest (interest has accumulated on a loan but payment is not yet due). An adjusting entry is needed to record the expense and the corresponding liability.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "A company records the following adjusting entry at year-end: Debit Depreciation Expense $10,000; Credit Accumulated Depreciation $10,000. Which of the following effects does this entry have? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Total assets decrease" },
+            { "id": "b", "text": "Total liabilities increase" },
+            { "id": "c", "text": "Net income decreases" },
+            { "id": "d", "text": "Cash decreases" },
+            { "id": "e", "text": "Total shareholders' equity decreases" }
+          ],
+          "correct_answer": ["a", "c", "e"],
+          "explanation": "Depreciation Expense reduces net income (c), which in turn reduces shareholders' equity through retained earnings (e). Accumulated Depreciation is a contra-asset that increases, thereby reducing net assets (a). Depreciation is a non-cash expense, so cash is NOT affected (d is incorrect). Liabilities are not affected (b is incorrect).",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to the lecture notes, which of the following correctly describes the difference between cash-basis and accrual-basis accounting?",
+          "options": [
+            { "id": "a", "text": "Cash-basis records transactions when cash changes hands; accrual-basis records transactions when economic events occur" },
+            { "id": "b", "text": "Both methods produce the same net income over any given period" },
+            { "id": "c", "text": "Cash-basis is required under GAAP for public companies" },
+            { "id": "d", "text": "Accrual-basis always produces higher net income than cash-basis" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "explanation": "Cash-basis accounting records revenues when cash is received and expenses when cash is paid. Accrual-basis accounting records revenues when earned and expenses when incurred, regardless of cash timing. GAAP requires accrual-basis accounting for public companies because it provides a more accurate picture of a company's financial performance.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: An increase in an expense account is recorded as a debit because expenses decrease shareholders' equity, and decreases in equity are recorded as debits.",
+          "correct_answer": "true",
+          "explanation": "This follows the logic of the accounting equation. Expenses reduce net income, which reduces retained earnings (a component of shareholders' equity). Since decreases in equity accounts are recorded as debits, and expenses have the effect of decreasing equity, increases in expense accounts are recorded as debits.",
           "difficulty": "medium"
         }
       ]
     },
     {
       "title": "Financial Accounting - Readings Applied Homework",
-      "description": "Applied Homework for the Readings section, covering Financial accounting and economic context, Recognition, Measurement, Analysis.",
+      "description": "Applied Homework for the Readings section, covering accounting standards, conceptual framework, inventory methods, and long-lived asset accounting from Pratt's textbook.",
       "kind": "homework",
       "difficulty": "medium",
       "generated_from": "readings",
-      "time_limit_minutes": 35,
+      "time_limit_minutes": 45,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "In the Readings homework-style response, which draft sounds the most decision-ready?",
+          "question_text": "During a period of consistently rising inventory purchase prices, which inventory method will result in the highest cost of goods sold?",
           "options": [
-            {
-              "id": "a",
-              "text": "A response that uses Financial accounting and economic context and Recognition to produce a reading synthesis that sharpens a statement analysis that connects accounting treatment to performance and risk."
-            },
-            {
-              "id": "b",
-              "text": "A response that repeats section terminology but never commits to a recommendation."
-            },
-            {
-              "id": "c",
-              "text": "A response that names Financial accounting and economic context yet skips assumptions and tradeoffs."
-            },
-            {
-              "id": "d",
-              "text": "A response built on equating reported earnings with current-period cash generation."
-            }
+            { "id": "a", "text": "FIFO (First-In, First-Out)" },
+            { "id": "b", "text": "LIFO (Last-In, First-Out)" },
+            { "id": "c", "text": "Weighted average cost" },
+            { "id": "d", "text": "Specific identification" }
           ],
-          "correct_answer": "a",
-          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "correct_answer": "b",
+          "explanation": "Under LIFO, the most recently purchased (and therefore most expensive, during rising prices) inventory is assumed to be sold first. This assigns the highest costs to COGS, resulting in lower ending inventory, lower gross profit, and lower taxable income compared to FIFO. FIFO assigns the oldest, cheapest costs to COGS. Weighted average falls between the two.",
           "difficulty": "medium"
         },
         {
-          "question_type": "multi_select",
-          "question_text": "Suppose a manager is using Readings while synthesizing several assigned sources into one position. Which elements belong in the written answer?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Evidence from Financial accounting and economic context or Recognition"
-            },
-            {
-              "id": "b",
-              "text": "The assumptions or constraints shaping the recommendation"
-            },
-            {
-              "id": "c",
-              "text": "A managerial implication tied to a reading synthesis that sharpens a statement analysis that connects accounting treatment to performance and risk"
-            },
-            {
-              "id": "d",
-              "text": "Revenue recognition"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "question_type": "true_false",
+          "question_text": "True or false: Under GAAP, the lower-of-cost-or-market (LCM) rule requires companies to write down inventory when its market value falls below its cost, but companies are prohibited from writing inventory back up if market value subsequently recovers.",
+          "correct_answer": "true",
+          "explanation": "The lower-of-cost-or-market rule is an application of conservatism. Under GAAP, once inventory is written down, the reduced value becomes the new cost basis and cannot be written back up. This differs from IFRS, which does permit reversal of inventory write-downs. The LCM rule ensures assets are not overstated on the balance sheet.",
           "difficulty": "hard"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which next step best shows that someone understands how to use Readings in practice?",
+          "question_text": "A company purchases a machine for $100,000 with an estimated useful life of 10 years and a salvage value of $10,000. Using straight-line depreciation, what is the annual depreciation expense?",
           "options": [
-            {
-              "id": "a",
-              "text": "Use Measurement and Analysis to frame the recommendation, then check whether it still holds when assumptions move."
-            },
-            {
-              "id": "b",
-              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
-            },
-            {
-              "id": "c",
-              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
-            },
-            {
-              "id": "d",
-              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
-            }
+            { "id": "a", "text": "$10,000" },
+            { "id": "b", "text": "$9,000" },
+            { "id": "c", "text": "$12,000" },
+            { "id": "d", "text": "$8,000" }
           ],
-          "correct_answer": "a",
-          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "correct_answer": "b",
+          "explanation": "Straight-line depreciation = (Cost - Salvage Value) / Useful Life = ($100,000 - $10,000) / 10 = $9,000 per year. The depreciable base is the cost minus the estimated salvage (residual) value, and this amount is allocated evenly over the asset's useful life.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the readings in Pratt, which of the following costs should be capitalized (recorded as assets) rather than immediately expensed when acquiring property, plant, and equipment? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Purchase price of the equipment" },
+            { "id": "b", "text": "Shipping and installation costs to get the equipment ready for use" },
+            { "id": "c", "text": "Routine maintenance costs incurred after the equipment is placed in service" },
+            { "id": "d", "text": "Sales tax on the purchase" },
+            { "id": "e", "text": "Training costs for employees to operate the equipment" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Capitalized costs include all expenditures necessary to acquire the asset and prepare it for its intended use: purchase price (a), shipping and installation (b), and sales tax (d). Routine maintenance (c) is an ordinary expense that maintains but does not extend the asset's useful life. Employee training costs (e) are expensed as incurred under GAAP because they benefit the employees, not the asset itself.",
           "difficulty": "medium"
         },
         {
-          "question_type": "short_answer",
-          "question_text": "Name one sentence-level takeaway a strong answer from Readings should land on after weighing Financial accounting and economic context, Recognition, and Measurement.",
-          "correct_answer": "It should end with a statement analysis that connects accounting treatment to performance and risk, grounded in Financial accounting and economic context, Recognition, Measurement and explicit assumptions.",
-          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "question_type": "multiple_choice",
+          "question_text": "A company using FIFO has beginning inventory of 100 units at $10 each and purchases 200 units at $15 each. If 150 units are sold, what is the cost of goods sold?",
+          "options": [
+            { "id": "a", "text": "$1,750" },
+            { "id": "b", "text": "$2,250" },
+            { "id": "c", "text": "$1,500" },
+            { "id": "d", "text": "$2,000" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Under FIFO, the first units purchased are assumed to be the first sold. Of the 150 units sold: the first 100 come from beginning inventory at $10 each ($1,000), and the next 50 come from the purchase at $15 each ($750). Total COGS = $1,000 + $750 = $1,750.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Goodwill is amortized over its estimated useful life under current U.S. GAAP.",
+          "correct_answer": "false",
+          "explanation": "Under current U.S. GAAP (ASC 350), goodwill is NOT amortized. Instead, it is tested for impairment at least annually. If the carrying value of a reporting unit exceeds its fair value, the goodwill is written down (impaired). This differs from many other intangible assets that have finite lives and are amortized. Note that private companies may elect to amortize goodwill, but the default rule for public companies is impairment testing only.",
           "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "As discussed in the Pratt readings on the conceptual framework, which qualitative characteristic of accounting information means that the information is capable of making a difference in a decision?",
+          "options": [
+            { "id": "a", "text": "Faithful representation" },
+            { "id": "b", "text": "Relevance" },
+            { "id": "c", "text": "Comparability" },
+            { "id": "d", "text": "Verifiability" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Relevance means that information is capable of making a difference in a decision by helping users predict future events (predictive value) or confirm prior expectations (confirmatory value). Faithful representation means the information accurately depicts economic events. Comparability and verifiability are enhancing qualitative characteristics.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following statements about accelerated depreciation methods (such as double-declining balance) compared to straight-line depreciation are correct? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Accelerated methods produce higher depreciation expense in the early years of an asset's life" },
+            { "id": "b", "text": "Accelerated methods result in higher total depreciation over the asset's entire useful life" },
+            { "id": "c", "text": "Accelerated methods result in lower net income in the early years compared to straight-line" },
+            { "id": "d", "text": "Accelerated methods produce a lower book value of the asset in the early years" }
+          ],
+          "correct_answer": ["a", "c", "d"],
+          "explanation": "Accelerated methods front-load depreciation, producing higher expense (a) and therefore lower net income (c) in early years, with correspondingly lower book values (d). However, total depreciation over the asset's entire life is the same under both methods (b is incorrect) -- both depreciate the asset from cost down to salvage value; only the timing differs.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A company has the following inventory data: Beginning inventory: 500 units at $20; Purchase 1: 300 units at $22; Purchase 2: 200 units at $25. Under the weighted average cost method, what is the cost per unit?",
+          "options": [
+            { "id": "a", "text": "$21.60" },
+            { "id": "b", "text": "$22.33" },
+            { "id": "c", "text": "$22.00" },
+            { "id": "d", "text": "$21.00" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Weighted average cost per unit = Total Cost / Total Units = [(500 x $20) + (300 x $22) + (200 x $25)] / (500 + 300 + 200) = ($10,000 + $6,600 + $5,000) / 1,000 = $21,600 / 1,000 = $21.60 per unit.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the readings, research and development (R&D) costs are generally capitalized as intangible assets under U.S. GAAP.",
+          "correct_answer": "false",
+          "explanation": "Under U.S. GAAP, research and development costs are generally expensed as incurred because the future economic benefits are too uncertain to justify capitalization. There are limited exceptions (such as software development costs after technological feasibility is established), but the general rule is to expense R&D. This treatment is considered conservative and differs from IFRS, which allows capitalization of development costs that meet specific criteria.",
+          "difficulty": "medium"
         }
       ]
     },
     {
       "title": "Financial Accounting - Readings Practice Quiz",
-      "description": "Practice Quiz for the Readings section, covering Financial accounting and economic context, Recognition, Measurement, Analysis.",
+      "description": "Practice Quiz for the Readings section, covering inventory accounting, long-lived assets, and the conceptual framework from Pratt's textbook.",
       "kind": "practice_quiz",
       "difficulty": "medium",
       "generated_from": "readings",
-      "time_limit_minutes": 18,
+      "time_limit_minutes": 25,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "A student says the Readings section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "question_text": "Which inventory costing method assumes that the oldest inventory items are sold first?",
           "options": [
-            {
-              "id": "a",
-              "text": "No. The section connects Financial accounting and economic context, Recognition, and Measurement to interpret transactions and statements through accrual accounting and economic substance."
-            },
-            {
-              "id": "b",
-              "text": "Yes. The main goal is to recall terms, even if they never shape a statement analysis that connects accounting treatment to performance and risk."
-            },
-            {
-              "id": "c",
-              "text": "Yes. The section works best when Financial accounting and economic context is studied separately from Recognition."
-            },
-            {
-              "id": "d",
-              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
-            }
+            { "id": "a", "text": "LIFO" },
+            { "id": "b", "text": "FIFO" },
+            { "id": "c", "text": "Weighted average" },
+            { "id": "d", "text": "Specific identification" }
           ],
-          "correct_answer": "a",
-          "explanation": "Readings is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
-          "difficulty": "medium"
-        },
-        {
-          "question_type": "multi_select",
-          "question_text": "When someone is reviewing Readings while synthesizing several assigned sources into one position, which moves usually strengthen the review?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Link Financial accounting and economic context to Recognition instead of treating them as separate facts"
-            },
-            {
-              "id": "b",
-              "text": "State the assumptions that connect Measurement to the decision"
-            },
-            {
-              "id": "c",
-              "text": "Explain how the section changes a reading synthesis that sharpens a statement analysis that connects accounting treatment to performance and risk"
-            },
-            {
-              "id": "d",
-              "text": "Ignore tradeoffs and rely on the first plausible answer about Revenue recognition"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "Good review work in Readings ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "correct_answer": "b",
+          "explanation": "FIFO (First-In, First-Out) assumes that the first items purchased (oldest) are the first items sold. This means ending inventory reflects the cost of the most recent purchases, while cost of goods sold reflects the cost of older purchases.",
           "difficulty": "easy"
         },
         {
           "question_type": "true_false",
-          "question_text": "True or false: A solid answer from the Readings section should use evidence like Financial accounting and economic context, Recognition, Measurement and still make the tradeoffs explicit.",
+          "question_text": "True or false: LIFO inventory accounting results in higher cost of goods sold during periods of rising prices compared to FIFO.",
           "correct_answer": "true",
-          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "explanation": "When prices are rising, LIFO assumes the most recently purchased (most expensive) items are sold first, resulting in higher COGS. FIFO assigns the older, lower costs to COGS. This LIFO effect also produces lower reported inventory on the balance sheet, lower gross profit, and lower taxable income.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which of the following depreciation methods allocates a higher proportion of an asset's cost to the early years of its useful life?",
+          "options": [
+            { "id": "a", "text": "Straight-line method" },
+            { "id": "b", "text": "Units-of-production method" },
+            { "id": "c", "text": "Double-declining balance method" },
+            { "id": "d", "text": "All methods allocate the same amount each year" }
+          ],
+          "correct_answer": "c",
+          "explanation": "The double-declining balance method is an accelerated depreciation method that applies a rate of 2/useful life to the declining book value each year. This produces higher depreciation expense in early years and lower expense in later years. Straight-line allocates evenly, and units-of-production allocates based on actual usage.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are intangible assets? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Patents" },
+            { "id": "b", "text": "Trademarks" },
+            { "id": "c", "text": "Land" },
+            { "id": "d", "text": "Goodwill" },
+            { "id": "e", "text": "Accounts receivable" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Intangible assets lack physical substance but have economic value. Patents (a), trademarks (b), and goodwill (d) are intangible assets. Land (c) is a tangible fixed asset. Accounts receivable (e) is a current asset representing amounts owed by customers, not an intangible asset.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A company sells equipment with an original cost of $50,000 and accumulated depreciation of $35,000 for $20,000 cash. What gain or loss should be recognized?",
+          "options": [
+            { "id": "a", "text": "Gain of $5,000" },
+            { "id": "b", "text": "Loss of $30,000" },
+            { "id": "c", "text": "Gain of $20,000" },
+            { "id": "d", "text": "Loss of $15,000" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Book value = Original Cost - Accumulated Depreciation = $50,000 - $35,000 = $15,000. Sale price = $20,000. Gain = Sale Price - Book Value = $20,000 - $15,000 = $5,000. The company received more than the book value, resulting in a gain on disposal.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Land is depreciated over its estimated useful life, just like buildings and equipment.",
+          "correct_answer": "false",
+          "explanation": "Land is NOT depreciated because it is considered to have an unlimited useful life. Unlike buildings, equipment, and other tangible assets that wear out or become obsolete, land is not consumed through use. However, land improvements (parking lots, fencing, landscaping) ARE depreciated.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The LIFO conformity rule under U.S. tax law requires that:",
+          "options": [
+            { "id": "a", "text": "Companies must use LIFO for all inventory if they use it for any inventory" },
+            { "id": "b", "text": "Companies that use LIFO for tax purposes must also use LIFO for financial reporting" },
+            { "id": "c", "text": "Companies must switch from LIFO to FIFO every five years" },
+            { "id": "d", "text": "Companies using LIFO must disclose the FIFO cost of inventory in the footnotes" }
+          ],
+          "correct_answer": "b",
+          "explanation": "The LIFO conformity rule requires that if a company uses LIFO for income tax purposes, it must also use LIFO for financial reporting. This is unusual because most other accounting choices allow different methods for tax and financial reporting. Companies using LIFO must also disclose the LIFO reserve (difference between LIFO and FIFO inventory values) in their footnotes.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the readings, which of the following are effects of choosing LIFO over FIFO during periods of rising prices? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Lower reported net income" },
+            { "id": "b", "text": "Lower income tax expense" },
+            { "id": "c", "text": "Higher ending inventory on the balance sheet" },
+            { "id": "d", "text": "Higher cash flow from operations due to tax savings" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "During rising prices, LIFO produces higher COGS, leading to lower net income (a) and lower income taxes (b). The tax savings increase cash flow from operations (d). However, LIFO results in LOWER ending inventory (c is incorrect) because the balance sheet reflects the oldest, cheapest costs.",
           "difficulty": "medium"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which study plan would best prepare someone to use Readings while synthesizing several assigned sources into one position?",
+          "question_text": "An asset impairment should be recorded when:",
           "options": [
-            {
-              "id": "a",
-              "text": "Compare Financial accounting and economic context, Recognition, and Analysis; test the assumptions; then connect the section to a statement analysis that connects accounting treatment to performance and risk."
-            },
-            {
-              "id": "b",
-              "text": "Skim Financial accounting and economic context for terminology, then answer from memory without naming the decision."
-            },
-            {
-              "id": "c",
-              "text": "Focus on polished wording first and postpone the financial reporting and analysis reasoning until the end."
-            },
-            {
-              "id": "d",
-              "text": "Pick the first familiar framework and ignore whether it fits extracting the common managerial logic across the assigned materials."
-            }
+            { "id": "a", "text": "The asset's market value temporarily declines below its book value" },
+            { "id": "b", "text": "The undiscounted future cash flows expected from the asset are less than its carrying value" },
+            { "id": "c", "text": "The asset's depreciation schedule is changed" },
+            { "id": "d", "text": "The asset requires significant maintenance" }
           ],
-          "correct_answer": "a",
-          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "correct_answer": "b",
+          "explanation": "Under U.S. GAAP, a long-lived asset is impaired when the undiscounted expected future cash flows from the asset are less than its carrying (book) value. Once impairment is indicated, the asset is written down to its fair value. Temporary market declines alone do not trigger impairment; the test is based on recoverability of the carrying amount through future cash flows.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Under GAAP, a company may choose to revalue its property, plant, and equipment upward to fair market value if the market value increases above historical cost.",
+          "correct_answer": "false",
+          "explanation": "U.S. GAAP follows the historical cost principle and does not permit upward revaluation of PP&E. Assets are recorded at their acquisition cost and systematically depreciated. Write-downs for impairment are required, but write-ups above cost are not allowed. IFRS, in contrast, permits the revaluation model where PP&E can be carried at fair value.",
           "difficulty": "medium"
         }
       ]
     },
     {
       "title": "Financial Accounting - Recitations Applied Homework",
-      "description": "Applied Homework for the Recitations section, covering Review sessions, Statement mechanics, Cash flow adjustments, Exam review.",
+      "description": "Applied Homework for the Recitations section, covering problem-solving with financial statements, cash flow adjustments, ratio calculations, and case analysis.",
       "kind": "homework",
       "difficulty": "medium",
       "generated_from": "recitations",
-      "time_limit_minutes": 35,
+      "time_limit_minutes": 45,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "In the Recitations homework-style response, which draft sounds the most decision-ready?",
+          "question_text": "In the recitation covering leases, a company signs a 5-year lease for equipment with a fair value of $200,000. The present value of lease payments is $185,000. Under the new lease accounting standard (ASC 842), how should this lease be initially recorded if classified as a finance lease?",
           "options": [
-            {
-              "id": "a",
-              "text": "A response that uses Review sessions and Statement mechanics to produce a corrected practice solution that reinforces a statement analysis that connects accounting treatment to performance and risk."
-            },
-            {
-              "id": "b",
-              "text": "A response that repeats section terminology but never commits to a recommendation."
-            },
-            {
-              "id": "c",
-              "text": "A response that names Review sessions yet skips assumptions and tradeoffs."
-            },
-            {
-              "id": "d",
-              "text": "A response built on equating reported earnings with current-period cash generation."
-            }
+            { "id": "a", "text": "No asset or liability is recorded; lease payments are expensed as incurred" },
+            { "id": "b", "text": "A right-of-use asset and lease liability of $185,000 are recorded" },
+            { "id": "c", "text": "A leased asset of $200,000 and a lease liability of $200,000 are recorded" },
+            { "id": "d", "text": "Only a lease liability of $185,000 is recorded; no asset is recognized" }
           ],
-          "correct_answer": "a",
-          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
-          "difficulty": "medium"
+          "correct_answer": "b",
+          "explanation": "Under ASC 842, a finance lease requires the lessee to recognize a right-of-use asset and a lease liability, both measured at the present value of future lease payments ($185,000). The right-of-use asset is subsequently amortized, and the lease liability is reduced as payments are made, with interest expense recognized on the liability.",
+          "difficulty": "hard"
         },
         {
-          "question_type": "multi_select",
-          "question_text": "Suppose a manager is using Recitations while stress-testing understanding in guided practice. Which elements belong in the written answer?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Evidence from Review sessions or Statement mechanics"
-            },
-            {
-              "id": "b",
-              "text": "The assumptions or constraints shaping the recommendation"
-            },
-            {
-              "id": "c",
-              "text": "A managerial implication tied to a corrected practice solution that reinforces a statement analysis that connects accounting treatment to performance and risk"
-            },
-            {
-              "id": "d",
-              "text": "Revenue recognition"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "question_type": "true_false",
+          "question_text": "True or false: Deferred tax liabilities arise when taxable income is temporarily less than book income, meaning the company will owe more tax in future periods.",
+          "correct_answer": "true",
+          "explanation": "Deferred tax liabilities arise from temporary differences where taxable income is currently lower than book income (e.g., accelerated depreciation for tax vs. straight-line for books). The company pays less tax now but will pay more in future periods when the temporary difference reverses. The deferred tax liability represents the future tax obligation.",
           "difficulty": "hard"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which next step best shows that someone understands how to use Recitations in practice?",
+          "question_text": "During a recitation problem, you are given: Net Income = $50,000; Beginning Total Equity = $400,000; Ending Total Equity = $420,000. No new stock was issued and no treasury stock was purchased. What were the dividends paid during the period?",
           "options": [
-            {
-              "id": "a",
-              "text": "Use Cash flow adjustments and Exam review to frame the recommendation, then check whether it still holds when assumptions move."
-            },
-            {
-              "id": "b",
-              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
-            },
-            {
-              "id": "c",
-              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
-            },
-            {
-              "id": "d",
-              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
-            }
+            { "id": "a", "text": "$20,000" },
+            { "id": "b", "text": "$30,000" },
+            { "id": "c", "text": "$50,000" },
+            { "id": "d", "text": "$70,000" }
           ],
-          "correct_answer": "a",
-          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "correct_answer": "b",
+          "explanation": "Ending Equity = Beginning Equity + Net Income - Dividends (assuming no other equity changes). $420,000 = $400,000 + $50,000 - Dividends. Dividends = $400,000 + $50,000 - $420,000 = $30,000.",
           "difficulty": "medium"
         },
         {
-          "question_type": "short_answer",
-          "question_text": "Name one sentence-level takeaway a strong answer from Recitations should land on after weighing Review sessions, Statement mechanics, and Cash flow adjustments.",
-          "correct_answer": "It should end with a statement analysis that connects accounting treatment to performance and risk, grounded in Review sessions, Statement mechanics, Cash flow adjustments and explicit assumptions.",
-          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "question_type": "multi_select",
+          "question_text": "In the recitation on financial statement analysis, which of the following ratios measure a company's profitability? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Gross profit margin" },
+            { "id": "b", "text": "Current ratio" },
+            { "id": "c", "text": "Return on assets (ROA)" },
+            { "id": "d", "text": "Debt-to-equity ratio" },
+            { "id": "e", "text": "Return on equity (ROE)" }
+          ],
+          "correct_answer": ["a", "c", "e"],
+          "explanation": "Profitability ratios measure a company's ability to generate earnings. Gross profit margin (a), ROA (c), and ROE (e) are all profitability ratios. The current ratio (b) measures liquidity (ability to pay short-term obligations). The debt-to-equity ratio (d) measures financial leverage (solvency).",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A company reports the following for the year: Sales $1,000,000; COGS $600,000; Operating Expenses $200,000; Interest Expense $50,000; Tax Rate 30%. What is the company's net income?",
+          "options": [
+            { "id": "a", "text": "$105,000" },
+            { "id": "b", "text": "$140,000" },
+            { "id": "c", "text": "$150,000" },
+            { "id": "d", "text": "$200,000" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Income before tax = Sales - COGS - Operating Expenses - Interest Expense = $1,000,000 - $600,000 - $200,000 - $50,000 = $150,000. Income tax = $150,000 x 30% = $45,000. Net Income = $150,000 - $45,000 = $105,000.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In the DuPont decomposition, ROE can be broken down into profit margin, asset turnover, and the equity multiplier.",
+          "correct_answer": "true",
+          "explanation": "The DuPont framework decomposes ROE into three components: Profit Margin (Net Income/Sales) x Asset Turnover (Sales/Total Assets) x Equity Multiplier (Total Assets/Shareholders' Equity) = ROE (Net Income/Shareholders' Equity). This decomposition helps analysts identify the sources of a company's return on equity.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In a recitation case, a pension plan has a projected benefit obligation (PBO) of $5 million and plan assets with a fair value of $4.2 million. What is the funded status, and where is it reported?",
+          "options": [
+            { "id": "a", "text": "Underfunded by $800,000; reported as a net liability on the balance sheet" },
+            { "id": "b", "text": "Overfunded by $800,000; reported as a net asset on the balance sheet" },
+            { "id": "c", "text": "Underfunded by $800,000; reported only in the footnotes" },
+            { "id": "d", "text": "Neither overfunded nor underfunded; the difference is amortized over time" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Funded status = Fair Value of Plan Assets - PBO = $4.2M - $5.0M = -$800,000 (underfunded). Under ASC 715, the funded status must be recognized on the balance sheet. An underfunded plan is reported as a net pension liability. An overfunded plan would be reported as a net pension asset.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following would be considered non-cash investing and financing activities that are disclosed in supplemental schedules but NOT reported in the body of the statement of cash flows? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Converting bonds payable into common stock" },
+            { "id": "b", "text": "Acquiring equipment by issuing a note payable directly to the seller" },
+            { "id": "c", "text": "Paying cash dividends to shareholders" },
+            { "id": "d", "text": "Declaring a stock dividend" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Non-cash investing and financing activities do not involve cash flows and are excluded from the cash flow statement body but must be disclosed in supplemental schedules. Bond conversion to stock (a), equipment acquired through a note payable (b), and stock dividends (d) are all non-cash transactions. Cash dividends (c) involve cash outflows and appear in financing activities.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A company has total assets of $1,000,000, total liabilities of $600,000, net income of $80,000, and sales of $500,000. What is the company's return on equity (ROE)?",
+          "options": [
+            { "id": "a", "text": "8%" },
+            { "id": "b", "text": "16%" },
+            { "id": "c", "text": "20%" },
+            { "id": "d", "text": "13.3%" }
+          ],
+          "correct_answer": "c",
+          "explanation": "Total Equity = Total Assets - Total Liabilities = $1,000,000 - $600,000 = $400,000. ROE = Net Income / Total Equity = $80,000 / $400,000 = 0.20 = 20%. Note: ROA would be 8% ($80,000/$1,000,000), and the equity multiplier is 2.5.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: An operating lease under ASC 842 results in the same total expense over the lease term as a finance lease, but the pattern of expense recognition differs.",
+          "correct_answer": "true",
+          "explanation": "Both operating and finance leases recognize the same total expense over the lease term (total lease payments). However, operating leases recognize a straight-line lease expense, while finance leases front-load expense because they separately recognize depreciation on the right-of-use asset and interest expense on the lease liability (interest is higher in early periods when the liability balance is larger).",
           "difficulty": "hard"
         }
       ]
     },
     {
       "title": "Financial Accounting - Recitations Practice Quiz",
-      "description": "Practice Quiz for the Recitations section, covering Review sessions, Statement mechanics, Cash flow adjustments, Exam review.",
+      "description": "Practice Quiz for the Recitations section, covering financial statement mechanics, cash flow adjustments, and exam review problems.",
       "kind": "practice_quiz",
       "difficulty": "medium",
       "generated_from": "recitations",
-      "time_limit_minutes": 18,
+      "time_limit_minutes": 25,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "A student says the Recitations section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "question_text": "In a recitation exercise, a company reports retained earnings of $150,000 at the beginning of the year and $180,000 at the end of the year. Net income for the year was $50,000. How much in dividends were declared?",
           "options": [
-            {
-              "id": "a",
-              "text": "No. The section connects Review sessions, Statement mechanics, and Cash flow adjustments to interpret transactions and statements through accrual accounting and economic substance."
-            },
-            {
-              "id": "b",
-              "text": "Yes. The main goal is to recall terms, even if they never shape a statement analysis that connects accounting treatment to performance and risk."
-            },
-            {
-              "id": "c",
-              "text": "Yes. The section works best when Review sessions is studied separately from Statement mechanics."
-            },
-            {
-              "id": "d",
-              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
-            }
+            { "id": "a", "text": "$30,000" },
+            { "id": "b", "text": "$20,000" },
+            { "id": "c", "text": "$50,000" },
+            { "id": "d", "text": "$0" }
           ],
-          "correct_answer": "a",
-          "explanation": "Recitations is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
-          "difficulty": "medium"
-        },
-        {
-          "question_type": "multi_select",
-          "question_text": "When someone is reviewing Recitations while stress-testing understanding in guided practice, which moves usually strengthen the review?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Link Review sessions to Statement mechanics instead of treating them as separate facts"
-            },
-            {
-              "id": "b",
-              "text": "State the assumptions that connect Cash flow adjustments to the decision"
-            },
-            {
-              "id": "c",
-              "text": "Explain how the section changes a corrected practice solution that reinforces a statement analysis that connects accounting treatment to performance and risk"
-            },
-            {
-              "id": "d",
-              "text": "Ignore tradeoffs and rely on the first plausible answer about Revenue recognition"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "Good review work in Recitations ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "correct_answer": "b",
+          "explanation": "Ending Retained Earnings = Beginning Retained Earnings + Net Income - Dividends. $180,000 = $150,000 + $50,000 - Dividends. Dividends = $150,000 + $50,000 - $180,000 = $20,000.",
           "difficulty": "easy"
         },
         {
           "question_type": "true_false",
-          "question_text": "True or false: A solid answer from the Recitations section should use evidence like Review sessions, Statement mechanics, Cash flow adjustments and still make the tradeoffs explicit.",
+          "question_text": "True or false: When a company issues stock at a price above par value, the excess over par is recorded in the Additional Paid-In Capital (APIC) account.",
           "correct_answer": "true",
-          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
-          "difficulty": "medium"
+          "explanation": "When stock is issued above par value, the par value portion is recorded in the Common Stock account, and the excess (issue price minus par value) is recorded in Additional Paid-In Capital. For example, if 1,000 shares with $1 par are issued at $25, $1,000 goes to Common Stock and $24,000 goes to APIC.",
+          "difficulty": "easy"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which study plan would best prepare someone to use Recitations while stress-testing understanding in guided practice?",
+          "question_text": "Which of the following transactions would decrease shareholders' equity?",
           "options": [
-            {
-              "id": "a",
-              "text": "Compare Review sessions, Statement mechanics, and Exam review; test the assumptions; then connect the section to a statement analysis that connects accounting treatment to performance and risk."
-            },
-            {
-              "id": "b",
-              "text": "Skim Review sessions for terminology, then answer from memory without naming the decision."
-            },
-            {
-              "id": "c",
-              "text": "Focus on polished wording first and postpone the financial reporting and analysis reasoning until the end."
-            },
-            {
-              "id": "d",
-              "text": "Pick the first familiar framework and ignore whether it fits reinforcing the trickiest ideas through guided practice."
-            }
+            { "id": "a", "text": "Issuing common stock for cash" },
+            { "id": "b", "text": "Declaring a cash dividend" },
+            { "id": "c", "text": "Receiving cash from customers on account" },
+            { "id": "d", "text": "Recording revenue earned on a service contract" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Declaring a cash dividend reduces retained earnings (a component of shareholders' equity) and creates a liability (Dividends Payable). Issuing stock (a) increases equity. Collecting from customers (c) is an asset swap (A/R to Cash) with no equity effect. Recognizing revenue (d) increases equity through net income.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Based on the recitation covering shareholders' equity, which of the following would appear in the equity section of the balance sheet? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Common stock at par value" },
+            { "id": "b", "text": "Additional paid-in capital" },
+            { "id": "c", "text": "Retained earnings" },
+            { "id": "d", "text": "Treasury stock (shown as a deduction)" },
+            { "id": "e", "text": "Bonds payable" }
+          ],
+          "correct_answer": ["a", "b", "c", "d"],
+          "explanation": "The shareholders' equity section includes: Common Stock at par value (a), Additional Paid-In Capital (b), Retained Earnings (c), and Treasury Stock as a deduction (d). Bonds payable (e) is a liability, not an equity item.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A company has the following data: Net Income $60,000; Depreciation $15,000; Increase in Accounts Receivable $8,000; Decrease in Accounts Payable $5,000; Increase in Inventory $3,000. Using the indirect method, what is cash flow from operations?",
+          "options": [
+            { "id": "a", "text": "$59,000" },
+            { "id": "b", "text": "$91,000" },
+            { "id": "c", "text": "$69,000" },
+            { "id": "d", "text": "$75,000" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "explanation": "Starting with Net Income $60,000: Add back Depreciation +$15,000 (non-cash expense); Subtract Increase in A/R -$8,000 (revenue earned but not collected); Subtract Decrease in A/P -$5,000 (cash paid to reduce liability); Subtract Increase in Inventory -$3,000 (cash spent on inventory). CFO = $60,000 + $15,000 - $8,000 - $5,000 - $3,000 = $59,000.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Treasury stock represents shares that a company has repurchased from the market and are held by the company, and these shares have voting rights and receive dividends.",
+          "correct_answer": "false",
+          "explanation": "Treasury stock consists of shares that a company has repurchased from the open market. These shares are held by the company itself and do NOT have voting rights, do NOT receive dividends, and are not considered outstanding shares. Treasury stock is reported as a contra-equity account, reducing total shareholders' equity.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In a recitation problem on stock splits, a company has 100,000 shares of $10 par value stock outstanding and declares a 2-for-1 stock split. After the split, how many shares are outstanding and what is the par value per share?",
+          "options": [
+            { "id": "a", "text": "200,000 shares at $10 par value" },
+            { "id": "b", "text": "200,000 shares at $5 par value" },
+            { "id": "c", "text": "100,000 shares at $5 par value" },
+            { "id": "d", "text": "200,000 shares at $20 par value" }
+          ],
+          "correct_answer": "b",
+          "explanation": "A 2-for-1 stock split doubles the number of shares outstanding (100,000 x 2 = 200,000) and halves the par value ($10 / 2 = $5). The total par value of all shares remains unchanged: 100,000 x $10 = 200,000 x $5 = $1,000,000. No journal entry is required for a stock split; only a memo entry is made.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following events would be reported as other comprehensive income (OCI) rather than as part of net income? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Unrealized gains on available-for-sale debt securities" },
+            { "id": "b", "text": "Foreign currency translation adjustments" },
+            { "id": "c", "text": "Gain on sale of equipment" },
+            { "id": "d", "text": "Changes in the funded status of pension plans not yet recognized in net periodic pension cost" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Other comprehensive income includes items that bypass the income statement: unrealized gains/losses on available-for-sale debt securities (a), foreign currency translation adjustments (b), and certain pension adjustments (d). Gain on sale of equipment (c) is a realized gain reported on the income statement as part of net income.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A company's earnings per share (EPS) is $3.00 and its stock price is $45.00. What is the price-to-earnings (P/E) ratio, and what does a high P/E ratio generally suggest?",
+          "options": [
+            { "id": "a", "text": "P/E = 15; investors expect high future earnings growth" },
+            { "id": "b", "text": "P/E = 15; the stock is undervalued" },
+            { "id": "c", "text": "P/E = 0.067; the company has strong current earnings" },
+            { "id": "d", "text": "P/E = 15; the company has low risk and slow growth" }
+          ],
+          "correct_answer": "a",
+          "explanation": "P/E Ratio = Stock Price / EPS = $45 / $3 = 15. A P/E of 15 is moderate. Generally, a high P/E ratio indicates that investors expect higher earnings growth in the future and are willing to pay more per dollar of current earnings. A low P/E may indicate the opposite or that the stock is undervalued.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Comprehensive income equals net income plus (or minus) other comprehensive income items, and it represents the total change in equity from non-owner sources during a period.",
+          "correct_answer": "true",
+          "explanation": "Comprehensive income = Net Income + Other Comprehensive Income (OCI). It captures all changes in equity during a period except those resulting from investments by owners and distributions to owners (dividends, stock issuances, treasury stock transactions). It provides a broader measure of financial performance than net income alone.",
           "difficulty": "medium"
         }
       ]

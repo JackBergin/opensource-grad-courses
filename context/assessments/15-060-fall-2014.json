@@ -4,777 +4,1683 @@
   "assessments": [
     {
       "title": "Data, Models, and Decisions - Assignments Applied Homework",
-      "description": "Applied Homework for the Assignments section, covering Probability, Simulation, Regression, Decision trees.",
+      "description": "Applied Homework covering probability, simulation, regression, and optimization from homework assignments.",
       "kind": "homework",
       "difficulty": "hard",
       "generated_from": "assignments",
-      "time_limit_minutes": 35,
+      "time_limit_minutes": 45,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "In the Assignments homework-style response, which draft sounds the most decision-ready?",
+          "question_text": "In a Monte Carlo simulation, increasing the number of trials will:",
           "options": [
             {
               "id": "a",
-              "text": "A response that uses Probability and Simulation to produce a worked recommendation that ends in a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+              "text": "Change the underlying probability distribution of the inputs"
             },
             {
               "id": "b",
-              "text": "A response that repeats section terminology but never commits to a recommendation."
+              "text": "Reduce the standard error of the estimated output statistics, providing more precise estimates"
             },
             {
               "id": "c",
-              "text": "A response that names Probability yet skips assumptions and tradeoffs."
+              "text": "Guarantee that the simulation output exactly matches the true expected value"
             },
             {
               "id": "d",
-              "text": "A response built on confusing a precise model output with a robust managerial recommendation."
+              "text": "Eliminate all uncertainty from the model"
             }
           ],
-          "correct_answer": "a",
-          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "correct_answer": "b",
+          "explanation": "Increasing the number of simulation trials reduces sampling variability (standard error decreases proportionally to 1/sqrt(n)), giving more precise estimates of output statistics like the mean. However, it does not change the underlying distributions, guarantee exact results, or eliminate the inherent uncertainty being modeled. This is a fundamental concept from HW2 on simulation.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In multiple regression, a high R-squared value guarantees that the model has no omitted variable bias.",
+          "correct_answer": "false",
+          "explanation": "A high R-squared indicates that the model explains a large proportion of the variance in the dependent variable, but it says nothing about whether important variables have been omitted. Omitted variable bias occurs when a relevant predictor is left out and is correlated with both an included predictor and the dependent variable, causing biased coefficient estimates. A model can have high R-squared and still suffer from omitted variable bias. This is a key concept from HW3 and HW4 on regression.",
           "difficulty": "medium"
         },
         {
           "question_type": "multi_select",
-          "question_text": "Suppose a manager is using Assignments while turning a draft analysis into a defensible submission. Which elements belong in the written answer?",
+          "question_text": "Which of the following are assumptions required for ordinary least squares (OLS) regression to produce unbiased and efficient estimates? (Select all that apply)",
           "options": [
             {
               "id": "a",
-              "text": "Evidence from Probability or Simulation"
+              "text": "The relationship between independent and dependent variables is linear in the parameters"
             },
             {
               "id": "b",
-              "text": "The assumptions or constraints shaping the recommendation"
+              "text": "The error terms have constant variance (homoscedasticity)"
             },
             {
               "id": "c",
-              "text": "A managerial implication tied to a worked recommendation that ends in a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity"
+              "text": "The dependent variable must follow a uniform distribution"
             },
             {
               "id": "d",
-              "text": "Kendall Crab and Lobster"
+              "text": "The error terms are independent of each other (no autocorrelation)"
+            },
+            {
+              "id": "e",
+              "text": "All independent variables must be measured on the same scale"
             }
           ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "The classical OLS assumptions include linearity in parameters, homoscedasticity (constant error variance), independence of errors, and that errors have zero mean. The dependent variable does not need to follow a uniform distribution, and independent variables can be measured on different scales. Violating these assumptions can lead to biased, inefficient, or inconsistent estimates. These assumptions are covered extensively in the regression homework assignments (HW3, HW4).",
           "difficulty": "hard"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which next step best shows that someone understands how to use Assignments in practice?",
+          "question_text": "A linear programming problem is infeasible when:",
           "options": [
             {
               "id": "a",
-              "text": "Use Regression and Decision trees to frame the recommendation, then check whether it still holds when assumptions move."
+              "text": "The objective function is nonlinear"
             },
             {
               "id": "b",
-              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+              "text": "There is no point that simultaneously satisfies all constraints"
             },
             {
               "id": "c",
-              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+              "text": "The optimal solution is at a corner point of the feasible region"
             },
             {
               "id": "d",
-              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+              "text": "The objective function can be improved indefinitely"
             }
           ],
-          "correct_answer": "a",
-          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "correct_answer": "b",
+          "explanation": "Infeasibility occurs when the constraints are mutually contradictory — no solution exists that satisfies all of them simultaneously. Option D describes an unbounded problem (not infeasible), option C describes normal LP behavior (optimal solutions occur at vertices), and option A would make it not a linear program at all. This concept is central to HW5 on linear optimization.",
           "difficulty": "medium"
         },
         {
-          "question_type": "short_answer",
-          "question_text": "Name one sentence-level takeaway a strong answer from Assignments should land on after weighing Probability, Simulation, and Regression.",
-          "correct_answer": "It should end with a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity, grounded in Probability, Simulation, Regression and explicit assumptions.",
-          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "question_type": "multiple_choice",
+          "question_text": "In the EXEC-PAY regression dataset from HW3, if the coefficient on 'years of experience' is 12,500 with a p-value of 0.003, which interpretation is correct?",
+          "options": [
+            {
+              "id": "a",
+              "text": "There is a 0.3% chance that years of experience affects pay"
+            },
+            {
+              "id": "b",
+              "text": "Holding other variables constant, each additional year of experience is associated with a $12,500 increase in pay, and this relationship is statistically significant at the 1% level"
+            },
+            {
+              "id": "c",
+              "text": "Each additional year of experience causes exactly $12,500 more in pay"
+            },
+            {
+              "id": "d",
+              "text": "The model explains 12,500% of the variance in pay"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "The coefficient represents the estimated change in the dependent variable for a one-unit increase in the independent variable, holding other predictors constant. The p-value of 0.003 means that if the true coefficient were zero, there would be only a 0.3% probability of observing a coefficient this large or larger by chance — making it significant at the 1% level. Note this is an association, not necessarily a causal claim. This is the type of interpretation required in the regression assignments.",
           "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In a linear programming problem, if a feasible solution exists, the optimal solution will always be found at a vertex (corner point) of the feasible region.",
+          "correct_answer": "true",
+          "explanation": "This is the Fundamental Theorem of Linear Programming. Because the objective function is linear and the feasible region is a convex polyhedron, the maximum (or minimum) of the objective function over the feasible region must occur at a vertex. There may be multiple optimal vertices (when the objective function is parallel to a constraint), but at least one optimal solution is always at a vertex. This theorem underlies the simplex method discussed in HW5.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When building a Monte Carlo simulation model (as in HW2), which of the following are important steps? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "Identifying which input variables are uncertain and assigning appropriate probability distributions to them"
+            },
+            {
+              "id": "b",
+              "text": "Running exactly 10 trials to get a definitive answer"
+            },
+            {
+              "id": "c",
+              "text": "Analyzing the distribution of outputs to understand the range of possible outcomes"
+            },
+            {
+              "id": "d",
+              "text": "Performing sensitivity analysis to determine which inputs most affect the output"
+            }
+          ],
+          "correct_answer": ["a", "c", "d"],
+          "explanation": "Building a simulation model requires identifying uncertain inputs and modeling them with appropriate distributions, running enough trials to get stable results (far more than 10 — typically thousands or more), analyzing the output distribution (not just the mean, but also spread and tail risks), and conducting sensitivity analysis to understand which input assumptions drive the results. These steps are the core of the simulation homework.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the context of HW6 on production management, what is the primary purpose of capacity planning?",
+          "options": [
+            {
+              "id": "a",
+              "text": "To maximize inventory levels at all times"
+            },
+            {
+              "id": "b",
+              "text": "To determine the optimal level of resources (labor, equipment, facilities) needed to meet expected demand while balancing costs"
+            },
+            {
+              "id": "c",
+              "text": "To eliminate all variability from the production process"
+            },
+            {
+              "id": "d",
+              "text": "To ensure production always exceeds demand by the maximum possible margin"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "Capacity planning involves determining the right level of productive resources to meet anticipated demand. It is an optimization problem: too little capacity leads to lost sales and unmet demand, while too much capacity wastes money on idle resources. The goal is to find the balance that minimizes total costs (or maximizes profit) given demand forecasts and uncertainty. This is the central challenge in the production management homework.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What distinguishes integer programming (HW7) from standard linear programming?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Integer programming allows nonlinear objective functions"
+            },
+            {
+              "id": "b",
+              "text": "Integer programming requires some or all decision variables to take on whole-number values"
+            },
+            {
+              "id": "c",
+              "text": "Integer programming does not use constraints"
+            },
+            {
+              "id": "d",
+              "text": "Integer programming is always faster to solve than linear programming"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "Integer programming (IP) adds the constraint that some or all decision variables must be integers (whole numbers). This is essential for modeling real-world decisions where fractional values are meaningless — you cannot build 2.7 factories or hire 3.4 employees. IP problems are generally much harder to solve than LP problems (NP-hard in general), not easier. The objective function and constraints remain linear in linear integer programming.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Adding a new constraint to a linear programming problem can never improve the optimal objective value.",
+          "correct_answer": "true",
+          "explanation": "Adding a constraint can only shrink the feasible region (or leave it unchanged if the constraint is redundant). A smaller feasible region means fewer options, so the optimal value can only stay the same or get worse (lower for maximization, higher for minimization). It can never improve because the original optimal solution was already available in the larger feasible region. This is an important theoretical property covered in the optimization assignments.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When interpreting regression output (as in HW3 and HW4), which of the following statistics help assess overall model fit? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "R-squared (coefficient of determination)"
+            },
+            {
+              "id": "b",
+              "text": "The F-statistic for overall model significance"
+            },
+            {
+              "id": "c",
+              "text": "The intercept value"
+            },
+            {
+              "id": "d",
+              "text": "Adjusted R-squared"
+            }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "R-squared measures the proportion of variance explained by the model, adjusted R-squared penalizes for additional predictors (preventing overfitting), and the F-statistic tests whether the model as a whole explains a significant amount of variance compared to a model with no predictors. The intercept value tells you the predicted Y when all Xs are zero — it does not assess model fit. These are core regression diagnostics from the homework.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In probability (HW1), two events A and B are independent if and only if:",
+          "options": [
+            {
+              "id": "a",
+              "text": "P(A and B) = P(A) + P(B)"
+            },
+            {
+              "id": "b",
+              "text": "P(A and B) = P(A) * P(B)"
+            },
+            {
+              "id": "c",
+              "text": "P(A or B) = P(A) * P(B)"
+            },
+            {
+              "id": "d",
+              "text": "P(A) = P(B)"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "Two events are independent when the occurrence of one does not affect the probability of the other. Mathematically, this means P(A and B) = P(A) * P(B), or equivalently, P(A|B) = P(A). Option A is the addition rule for mutually exclusive events, not independence. Option D says the events have the same probability, which has nothing to do with independence. This is a foundational probability concept from HW1.",
+          "difficulty": "easy"
         }
       ]
     },
     {
       "title": "Data, Models, and Decisions - Assignments Practice Quiz",
-      "description": "Practice Quiz for the Assignments section, covering Probability, Simulation, Regression, Decision trees.",
+      "description": "Practice Quiz covering probability, simulation, regression, and optimization fundamentals.",
       "kind": "practice_quiz",
       "difficulty": "medium",
       "generated_from": "assignments",
-      "time_limit_minutes": 18,
+      "time_limit_minutes": 25,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "A student says the Assignments section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "question_text": "The coefficient of determination (R-squared) represents:",
           "options": [
             {
               "id": "a",
-              "text": "No. The section connects Probability, Simulation, and Regression to translate an ambiguous business choice into variables, uncertainty, constraints, and a defensible recommendation."
+              "text": "The probability that the regression model is correct"
             },
             {
               "id": "b",
-              "text": "Yes. The main goal is to recall terms, even if they never shape a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+              "text": "The proportion of variance in the dependent variable that is explained by the independent variable(s)"
             },
             {
               "id": "c",
-              "text": "Yes. The section works best when Probability is studied separately from Simulation."
+              "text": "The slope of the regression line"
             },
             {
               "id": "d",
-              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+              "text": "The number of observations in the dataset"
             }
           ],
-          "correct_answer": "a",
-          "explanation": "Assignments is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
-          "difficulty": "medium"
-        },
-        {
-          "question_type": "multi_select",
-          "question_text": "When someone is reviewing Assignments while turning a draft analysis into a defensible submission, which moves usually strengthen the review?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Link Probability to Simulation instead of treating them as separate facts"
-            },
-            {
-              "id": "b",
-              "text": "State the assumptions that connect Regression to the decision"
-            },
-            {
-              "id": "c",
-              "text": "Explain how the section changes a worked recommendation that ends in a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity"
-            },
-            {
-              "id": "d",
-              "text": "Ignore tradeoffs and rely on the first plausible answer about Kendall Crab and Lobster"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "Good review work in Assignments ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "correct_answer": "b",
+          "explanation": "R-squared (R2) measures the fraction of total variance in the dependent variable (Y) that is accounted for by the regression model. An R2 of 0.75 means the model explains 75% of the variability in Y. It ranges from 0 to 1, where higher values indicate better fit, though a high R2 alone does not confirm the model is correctly specified.",
           "difficulty": "easy"
         },
         {
           "question_type": "true_false",
-          "question_text": "True or false: A solid answer from the Assignments section should use evidence like Probability, Simulation, Regression and still make the tradeoffs explicit.",
+          "question_text": "True or false: Bayes' theorem allows you to update the probability of an event based on new evidence or information.",
           "correct_answer": "true",
-          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "explanation": "Bayes' theorem is a fundamental tool in probability (HW1) that provides a way to revise prior probabilities in light of new data. It states that P(A|B) = P(B|A) * P(A) / P(B). This is essential for decision analysis under uncertainty, where initial beliefs (prior probabilities) are updated as new information becomes available.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In a decision tree, the expected monetary value (EMV) at a chance node is calculated by:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Taking the maximum payoff among all branches"
+            },
+            {
+              "id": "b",
+              "text": "Taking the weighted average of the payoffs, where the weights are the probabilities of each outcome"
+            },
+            {
+              "id": "c",
+              "text": "Summing all payoffs without regard to probability"
+            },
+            {
+              "id": "d",
+              "text": "Taking the minimum payoff to be conservative"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "At a chance node (circle) in a decision tree, the EMV is the probability-weighted average of the payoffs from all branches emanating from that node. Each outcome's payoff is multiplied by its probability, and these products are summed. At decision nodes (squares), you choose the branch with the highest EMV. This 'rolling back' procedure is fundamental to decision tree analysis.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are advantages of simulation modeling over analytical (closed-form) solutions? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "Simulation can handle complex systems with many interacting random variables"
+            },
+            {
+              "id": "b",
+              "text": "Simulation always provides the exact optimal solution"
+            },
+            {
+              "id": "c",
+              "text": "Simulation can model non-standard probability distributions and nonlinear relationships"
+            },
+            {
+              "id": "d",
+              "text": "Simulation provides the full distribution of possible outcomes, not just a single point estimate"
+            }
+          ],
+          "correct_answer": ["a", "c", "d"],
+          "explanation": "Simulation is powerful because it can model complex systems that defy analytical solutions, accommodate any probability distribution, capture nonlinear interactions, and produce full output distributions (showing risk and variability). However, simulation provides estimates, not exact solutions — results are subject to sampling error and are not guaranteed to be optimal. These advantages are why simulation is widely used in managerial decision-making.",
           "difficulty": "medium"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which study plan would best prepare someone to use Assignments while turning a draft analysis into a defensible submission?",
+          "question_text": "In a linear programming model, what is a 'shadow price' (dual value)?",
           "options": [
             {
               "id": "a",
-              "text": "Compare Probability, Simulation, and Decision trees; test the assumptions; then connect the section to a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+              "text": "The market price of the product being optimized"
             },
             {
               "id": "b",
-              "text": "Skim Probability for terminology, then answer from memory without naming the decision."
+              "text": "The amount the optimal objective value would change per unit increase in the right-hand side of a binding constraint"
             },
             {
               "id": "c",
-              "text": "Focus on polished wording first and postpone the decision modeling and analytics reasoning until the end."
+              "text": "The cost of the cheapest input in the model"
             },
             {
               "id": "d",
-              "text": "Pick the first familiar framework and ignore whether it fits working through structured problems with assumptions made explicit."
+              "text": "The penalty for violating a constraint"
             }
           ],
-          "correct_answer": "a",
-          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "correct_answer": "b",
+          "explanation": "The shadow price (or dual value) of a constraint tells you the marginal value of relaxing that constraint by one unit. For a binding constraint, it indicates how much the optimal objective function value would improve if you had one additional unit of that resource. Shadow prices are zero for non-binding constraints (which already have slack). This concept is critical for sensitivity analysis in linear optimization.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Multicollinearity in a regression model causes the coefficient estimates to be biased.",
+          "correct_answer": "false",
+          "explanation": "Multicollinearity (high correlation among independent variables) does not cause bias in OLS estimates — the coefficients remain unbiased. However, it inflates the standard errors of the coefficients, making them less precise and making it harder to determine which individual predictors are statistically significant. The model's overall predictive ability may be unaffected, but interpreting individual coefficients becomes unreliable.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A company can invest in Project A (expected return $100K, standard deviation $50K) or Project B (expected return $100K, standard deviation $20K). For a risk-averse decision maker, which project is preferred and why?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Project A, because higher variability means higher potential upside"
+            },
+            {
+              "id": "b",
+              "text": "Project B, because it has the same expected return but lower risk"
+            },
+            {
+              "id": "c",
+              "text": "Either project, because they have the same expected return"
+            },
+            {
+              "id": "d",
+              "text": "Neither project, because both are too risky"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "A risk-averse decision maker prefers less risk for the same expected return. Since both projects have an expected return of $100K, but Project B has a much lower standard deviation ($20K vs. $50K), Project B dominates for any risk-averse individual. This illustrates the concept of stochastic dominance and the risk-return tradeoff central to the course's treatment of decision analysis under uncertainty.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What does a p-value of 0.04 on a regression coefficient mean?",
+          "options": [
+            {
+              "id": "a",
+              "text": "There is a 4% probability that the independent variable has no effect on the dependent variable"
+            },
+            {
+              "id": "b",
+              "text": "If the true coefficient were zero, there would be a 4% probability of observing a test statistic as extreme as (or more extreme than) the one computed from the sample"
+            },
+            {
+              "id": "c",
+              "text": "The coefficient explains 4% of the variance"
+            },
+            {
+              "id": "d",
+              "text": "There is a 96% probability that the coefficient is correct"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "The p-value is the probability of observing data as extreme as (or more extreme than) what was observed, assuming the null hypothesis (coefficient = 0) is true. A p-value of 0.04 means there is only a 4% chance of seeing this result under the null hypothesis, which is typically considered statistically significant at the 5% level. It is NOT the probability that the null hypothesis is true — that is a common misinterpretation.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In a feasible linear programming problem, if the objective function is parallel to one of the binding constraints, there may be infinitely many optimal solutions.",
+          "correct_answer": "true",
+          "explanation": "When the objective function is parallel to a binding constraint, all points along the edge of the feasible region defined by that constraint achieve the same optimal objective value. This creates infinitely many optimal solutions (any convex combination of the two endpoint vertices is also optimal). This is the case of 'alternative optima' in linear programming.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are common pitfalls when interpreting regression results? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "Confusing correlation with causation"
+            },
+            {
+              "id": "b",
+              "text": "Extrapolating the model far beyond the range of observed data"
+            },
+            {
+              "id": "c",
+              "text": "Looking at both the coefficients and the p-values together"
+            },
+            {
+              "id": "d",
+              "text": "Ignoring the possibility of omitted variable bias"
+            }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Common regression pitfalls include inferring causation from correlation (regression shows association only), extrapolating beyond the data range (the relationship may not hold), and ignoring omitted variables (which can bias coefficient estimates). Looking at both coefficients and p-values together is actually correct practice, not a pitfall — you need both the magnitude and the statistical significance of each estimate.",
           "difficulty": "medium"
         }
       ]
     },
     {
       "title": "Data, Models, and Decisions - Case Learning Modules Applied Homework",
-      "description": "Applied Homework for the Case Learning Modules section, covering Kendall Crab and Lobster, Gentle Lentil Restaurant, Great Apps, Decision framing.",
+      "description": "Applied Homework covering case-based decision analysis including the Kendall Crab and Lobster, Gentle Lentil Restaurant, and Great Apps cases.",
       "kind": "homework",
       "difficulty": "medium",
       "generated_from": "case-learning-modules",
-      "time_limit_minutes": 35,
+      "time_limit_minutes": 45,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "In the Case Learning Modules homework-style response, which draft sounds the most decision-ready?",
+          "question_text": "In the Kendall Crab and Lobster case, the newsvendor model is used to determine the optimal order quantity. Which of the following best describes the core tradeoff in this model?",
           "options": [
             {
               "id": "a",
-              "text": "A response that uses Kendall Crab and Lobster and Gentle Lentil Restaurant to produce a case diagnosis that leads to a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+              "text": "Minimizing transportation costs versus delivery speed"
             },
             {
               "id": "b",
-              "text": "A response that repeats section terminology but never commits to a recommendation."
+              "text": "Balancing the cost of ordering too much (overage/spoilage cost) against the cost of ordering too little (underage/lost profit)"
             },
             {
               "id": "c",
-              "text": "A response that names Kendall Crab and Lobster yet skips assumptions and tradeoffs."
+              "text": "Choosing between multiple suppliers based on price alone"
             },
             {
               "id": "d",
-              "text": "A response built on confusing a precise model output with a robust managerial recommendation."
+              "text": "Maximizing revenue without any consideration of cost"
             }
           ],
-          "correct_answer": "a",
-          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "correct_answer": "b",
+          "explanation": "The Kendall Crab and Lobster case is a classic application of the newsvendor model, where perishable goods must be ordered before demand is known. The key tradeoff is between overage cost (loss from unsold perishable inventory) and underage cost (lost profit from unmet demand). The optimal order quantity balances these two costs, accounting for the probability distribution of demand.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In the newsvendor problem, the optimal solution always involves ordering enough inventory to satisfy the maximum possible demand.",
+          "correct_answer": "false",
+          "explanation": "Ordering to meet maximum possible demand would be optimal only if the cost of unsold inventory were zero, which is rarely the case for perishable goods. The optimal order quantity depends on the critical ratio (underage cost / (underage cost + overage cost)). When overage costs are significant (as with perishable seafood), it is usually optimal to order less than maximum possible demand, accepting some probability of stockout.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The Gentle Lentil Restaurant case primarily illustrates which analytical concept?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Linear regression for predicting restaurant revenue"
+            },
+            {
+              "id": "b",
+              "text": "Simulation to model the impact of uncertainty in customer arrivals and service times on restaurant performance"
+            },
+            {
+              "id": "c",
+              "text": "Integer programming to determine the optimal menu"
+            },
+            {
+              "id": "d",
+              "text": "Hypothesis testing to determine if the restaurant should close"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "The Gentle Lentil case uses simulation to model the restaurant's operations under uncertainty. Random customer arrivals, variable service times, and limited seating create a queuing system where analytical solutions are difficult. Simulation allows managers to test different scenarios (staffing levels, table configurations) and see how they affect key performance metrics like wait times, table turnover, and revenue.",
           "difficulty": "medium"
         },
         {
           "question_type": "multi_select",
-          "question_text": "Suppose a manager is using Case Learning Modules while diagnosing a messy operating or strategic case. Which elements belong in the written answer?",
+          "question_text": "In the Great Apps case, which of the following decision analysis tools are relevant? (Select all that apply)",
           "options": [
             {
               "id": "a",
-              "text": "Evidence from Kendall Crab and Lobster or Gentle Lentil Restaurant"
+              "text": "Decision trees to map out sequential decisions and uncertain outcomes"
             },
             {
               "id": "b",
-              "text": "The assumptions or constraints shaping the recommendation"
+              "text": "Expected monetary value (EMV) calculations to compare alternatives"
             },
             {
               "id": "c",
-              "text": "A managerial implication tied to a case diagnosis that leads to a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity"
+              "text": "Sensitivity analysis to determine how changes in key assumptions affect the optimal decision"
             },
             {
               "id": "d",
-              "text": "Probability"
+              "text": "Simple linear regression to predict app store rankings"
             }
           ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "The Great Apps case involves sequential decisions under uncertainty — precisely the setting where decision trees, EMV calculations, and sensitivity analysis are most valuable. Decision trees structure the problem, EMV calculations identify the best expected-value option, and sensitivity analysis reveals how robust the decision is to changes in probability estimates or payoff assumptions. Regression is not the primary tool for this type of decision framing problem.",
           "difficulty": "hard"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which next step best shows that someone understands how to use Case Learning Modules in practice?",
+          "question_text": "When framing a decision problem, which of the following should be identified FIRST?",
           "options": [
             {
               "id": "a",
-              "text": "Use Great Apps and Decision framing to frame the recommendation, then check whether it still holds when assumptions move."
+              "text": "The mathematical optimization technique to use"
             },
             {
               "id": "b",
-              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+              "text": "The decision alternatives, uncertain events, and objectives"
             },
             {
               "id": "c",
-              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+              "text": "The software package for the analysis"
             },
             {
               "id": "d",
-              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+              "text": "The number of decimal places for the final answer"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "Decision framing is the critical first step in any decision analysis. Before choosing a methodology or tool, you must clearly identify what decisions are being made (alternatives), what uncertainties exist (chance events and their probabilities), and what objectives matter (maximize profit, minimize risk, etc.). Poor framing leads to solving the wrong problem, regardless of how sophisticated the analysis technique is.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The value of perfect information (VPI) can never exceed the expected monetary value (EMV) of the best alternative.",
+          "correct_answer": "true",
+          "explanation": "The value of perfect information is the maximum amount a decision maker should pay to learn the true state of the world before making a decision. It is calculated as the difference between the expected value with perfect information (EVPI) and the EMV of the best decision without additional information. Since the EVPI represents a weighted average of the best payoffs across each possible state, VPI is bounded by the EMV of the best alternative.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Kendall Crab and Lobster case, if the critical ratio (Cu / (Cu + Co)) equals 0.7, what does this imply about the optimal order quantity?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Order at the 70th percentile of the demand distribution"
+            },
+            {
+              "id": "b",
+              "text": "Order at the 30th percentile of the demand distribution"
+            },
+            {
+              "id": "c",
+              "text": "Order exactly the mean of the demand distribution"
+            },
+            {
+              "id": "d",
+              "text": "Order 70% of the maximum possible demand"
             }
           ],
           "correct_answer": "a",
-          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "explanation": "The newsvendor model's optimal order quantity Q* satisfies P(Demand <= Q*) = Cu / (Cu + Co), where Cu is the underage cost and Co is the overage cost. A critical ratio of 0.7 means you should order at the 70th percentile of the demand distribution — the quantity such that there is a 70% probability demand will be at or below that level. This balances the asymmetric costs of ordering too much versus too little.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are legitimate uses of sensitivity analysis in case-based decision problems? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "Determining which input assumptions the decision is most sensitive to"
+            },
+            {
+              "id": "b",
+              "text": "Identifying the range of values for a key parameter over which the current decision remains optimal"
+            },
+            {
+              "id": "c",
+              "text": "Eliminating all uncertainty from the problem"
+            },
+            {
+              "id": "d",
+              "text": "Communicating to stakeholders which assumptions matter most and where additional information would be most valuable"
+            }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Sensitivity analysis helps managers understand how robust their decisions are. It identifies critical assumptions (tornado diagrams), shows breakeven thresholds for key parameters, and helps prioritize information gathering. However, it cannot eliminate uncertainty — it can only characterize it and guide decisions about how to manage it. These applications are central to the case learning modules.",
           "difficulty": "medium"
         },
         {
-          "question_type": "short_answer",
-          "question_text": "Name one sentence-level takeaway a strong answer from Case Learning Modules should land on after weighing Kendall Crab and Lobster, Gentle Lentil Restaurant, and Great Apps.",
-          "correct_answer": "It should end with a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity, grounded in Kendall Crab and Lobster, Gentle Lentil Restaurant, Great Apps and explicit assumptions.",
-          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
-          "difficulty": "hard"
+          "question_type": "multiple_choice",
+          "question_text": "A manager is deciding whether to launch a new product. The decision tree shows that launching has an EMV of $2M, while not launching has an EMV of $0. However, the launch scenario includes a 20% chance of losing $5M. What additional analysis would be most valuable?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No additional analysis — always choose the higher EMV"
+            },
+            {
+              "id": "b",
+              "text": "Risk profile analysis to understand the full distribution of outcomes, not just the expected value"
+            },
+            {
+              "id": "c",
+              "text": "Recalculate EMV using different interest rates"
+            },
+            {
+              "id": "d",
+              "text": "Ask a different manager to make the decision"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "While EMV is a useful starting point, it reduces a complex distribution to a single number. A risk-averse manager or a company with limited capital might find a 20% chance of losing $5M unacceptable even if the expected value is positive. Risk profile analysis shows the full distribution of possible outcomes, helping decision makers understand not just the average case but also the downside scenarios and their probabilities.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In the Gentle Lentil simulation, increasing the number of servers always improves profitability.",
+          "correct_answer": "false",
+          "explanation": "Adding servers reduces wait times and can increase throughput, but each additional server also increases labor costs. At some point, the marginal revenue from serving additional customers is less than the marginal cost of the additional server. The simulation helps identify the optimal staffing level where the tradeoff is most favorable — demonstrating that more resources do not always mean better profitability.",
+          "difficulty": "medium"
         }
       ]
     },
     {
       "title": "Data, Models, and Decisions - Case Learning Modules Practice Quiz",
-      "description": "Practice Quiz for the Case Learning Modules section, covering Kendall Crab and Lobster, Gentle Lentil Restaurant, Great Apps, Decision framing.",
+      "description": "Practice Quiz covering case-based decision analysis concepts and frameworks.",
       "kind": "practice_quiz",
       "difficulty": "medium",
       "generated_from": "case-learning-modules",
-      "time_limit_minutes": 18,
+      "time_limit_minutes": 25,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "A student says the Case Learning Modules section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "question_text": "In a decision tree, what is the difference between a decision node and a chance node?",
           "options": [
             {
               "id": "a",
-              "text": "No. The section connects Kendall Crab and Lobster, Gentle Lentil Restaurant, and Great Apps to translate an ambiguous business choice into variables, uncertainty, constraints, and a defensible recommendation."
+              "text": "Decision nodes are represented by circles and chance nodes by squares"
             },
             {
               "id": "b",
-              "text": "Yes. The main goal is to recall terms, even if they never shape a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+              "text": "Decision nodes represent choices the decision maker controls; chance nodes represent uncertain outcomes beyond the decision maker's control"
             },
             {
               "id": "c",
-              "text": "Yes. The section works best when Kendall Crab and Lobster is studied separately from Gentle Lentil Restaurant."
+              "text": "Decision nodes always come after chance nodes"
             },
             {
               "id": "d",
-              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+              "text": "There is no difference; both terms refer to the same concept"
             }
           ],
-          "correct_answer": "a",
-          "explanation": "Case Learning Modules is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
-          "difficulty": "medium"
-        },
-        {
-          "question_type": "multi_select",
-          "question_text": "When someone is reviewing Case Learning Modules while diagnosing a messy operating or strategic case, which moves usually strengthen the review?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Link Kendall Crab and Lobster to Gentle Lentil Restaurant instead of treating them as separate facts"
-            },
-            {
-              "id": "b",
-              "text": "State the assumptions that connect Great Apps to the decision"
-            },
-            {
-              "id": "c",
-              "text": "Explain how the section changes a case diagnosis that leads to a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity"
-            },
-            {
-              "id": "d",
-              "text": "Ignore tradeoffs and rely on the first plausible answer about Probability"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "Good review work in Case Learning Modules ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "correct_answer": "b",
+          "explanation": "Decision nodes (typically drawn as squares) represent points where the decision maker actively chooses among alternatives. Chance nodes (typically drawn as circles) represent uncertain events whose outcomes are determined by probability, not by the decision maker's choice. At decision nodes you choose the best option; at chance nodes you calculate the expected value across all possible outcomes.",
           "difficulty": "easy"
         },
         {
           "question_type": "true_false",
-          "question_text": "True or false: A solid answer from the Case Learning Modules section should use evidence like Kendall Crab and Lobster, Gentle Lentil Restaurant, Great Apps and still make the tradeoffs explicit.",
-          "correct_answer": "true",
-          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "question_text": "True or false: When solving a decision tree, you work from left to right (from the initial decision toward the end outcomes).",
+          "correct_answer": "false",
+          "explanation": "Decision trees are solved by 'rolling back' from right to left — starting at the terminal nodes (end outcomes) and working backward toward the initial decision. At each chance node, you calculate the expected value; at each decision node, you select the alternative with the best expected value. This backward induction ensures that each decision accounts for all subsequent decisions and uncertainties.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The 'value of perfect information' (VPI) in a decision problem represents:",
+          "options": [
+            {
+              "id": "a",
+              "text": "The total revenue if the project succeeds"
+            },
+            {
+              "id": "b",
+              "text": "The maximum amount you should pay to learn the true state of the world before making your decision"
+            },
+            {
+              "id": "c",
+              "text": "The minimum cost of conducting market research"
+            },
+            {
+              "id": "d",
+              "text": "The profit margin on the best-selling product"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "VPI measures how much better you could do if you knew the outcome of uncertain events before deciding. It is calculated as the difference between the expected payoff with perfect information (where you can tailor your decision to each state of the world) and the expected payoff of the best decision without additional information. VPI sets an upper bound on how much you should spend on any type of information gathering.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are characteristics of a well-framed decision problem? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "The decision alternatives are clearly specified and mutually exclusive"
+            },
+            {
+              "id": "b",
+              "text": "The uncertainties are identified and their probabilities estimated"
+            },
+            {
+              "id": "c",
+              "text": "The analysis produces a definitive answer with no remaining uncertainty"
+            },
+            {
+              "id": "d",
+              "text": "The objective (what you are trying to maximize or minimize) is explicit"
+            }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Good decision framing requires clear alternatives (what choices do I have?), identified uncertainties with probability estimates (what could happen?), and an explicit objective (what am I optimizing?). The goal of decision analysis is NOT to eliminate uncertainty but to make the best decision given the uncertainty that exists. A well-framed problem enables better decisions, even though the outcomes remain uncertain.",
           "difficulty": "medium"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which study plan would best prepare someone to use Case Learning Modules while diagnosing a messy operating or strategic case?",
+          "question_text": "In the newsvendor model (as applied in the Kendall Crab and Lobster case), what happens to the optimal order quantity if the selling price increases while all other costs remain the same?",
           "options": [
             {
               "id": "a",
-              "text": "Compare Kendall Crab and Lobster, Gentle Lentil Restaurant, and Decision framing; test the assumptions; then connect the section to a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+              "text": "The optimal order quantity decreases"
             },
             {
               "id": "b",
-              "text": "Skim Kendall Crab and Lobster for terminology, then answer from memory without naming the decision."
+              "text": "The optimal order quantity increases because the cost of understocking rises"
             },
             {
               "id": "c",
-              "text": "Focus on polished wording first and postpone the decision modeling and analytics reasoning until the end."
+              "text": "The optimal order quantity stays the same"
             },
             {
               "id": "d",
-              "text": "Pick the first familiar framework and ignore whether it fits using the section to diagnose a live managerial situation."
+              "text": "The model becomes infeasible"
             }
           ],
-          "correct_answer": "a",
-          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "correct_answer": "b",
+          "explanation": "When the selling price increases, the underage cost (Cu = selling price - cost) increases, making the critical ratio Cu/(Cu+Co) larger. A larger critical ratio means you should order at a higher percentile of the demand distribution, resulting in a higher optimal order quantity. Intuitively, lost sales become more costly relative to spoilage, so it makes sense to carry more inventory.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A risk-neutral decision maker should always choose the alternative with the highest expected monetary value (EMV).",
+          "correct_answer": "true",
+          "explanation": "By definition, a risk-neutral decision maker values outcomes at their expected value, without regard to risk or the spread of possible outcomes. For such a decision maker, the EMV criterion is the correct decision rule. Risk-averse or risk-seeking decision makers, however, may prefer alternatives with different risk profiles, even if the EMV is not the highest.",
           "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What is the purpose of a tornado diagram in decision analysis?",
+          "options": [
+            {
+              "id": "a",
+              "text": "To show the chronological order of events"
+            },
+            {
+              "id": "b",
+              "text": "To visually rank input variables by how much they affect the output, showing which assumptions matter most"
+            },
+            {
+              "id": "c",
+              "text": "To display the probability distribution of a single variable"
+            },
+            {
+              "id": "d",
+              "text": "To map the geographic distribution of customers"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "A tornado diagram displays horizontal bars for each input variable, showing the range of the output when each input is varied individually between its low and high estimates. Variables are ordered from most impact (top) to least impact (bottom), creating a tornado shape. This quickly identifies which assumptions are critical to the decision and where additional research or data collection would be most valuable.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "In simulation-based case analyses (like the Gentle Lentil), which of the following output metrics are commonly examined? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "The mean (average) outcome across all simulation trials"
+            },
+            {
+              "id": "b",
+              "text": "The standard deviation of outcomes to understand variability"
+            },
+            {
+              "id": "c",
+              "text": "Percentile values (e.g., 5th percentile for worst-case scenarios)"
+            },
+            {
+              "id": "d",
+              "text": "Only the single best outcome from all trials"
+            }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Simulation output analysis typically examines multiple statistics: the mean gives the expected outcome, the standard deviation quantifies risk/variability, and percentile values characterize the tails of the distribution (e.g., the 5th percentile helps assess downside risk). Looking only at the best single outcome would be extremely misleading, as it represents an outlier rather than what the manager can reasonably expect.",
+          "difficulty": "easy"
         }
       ]
     },
     {
       "title": "Data, Models, and Decisions - Lecture Summaries Applied Homework",
-      "description": "Applied Homework for the Lecture Summaries section, covering Decision analysis, Optimization, Simulation logic, Regression insights.",
+      "description": "Applied Homework covering key concepts from lectures on decision analysis, optimization, simulation, and regression.",
       "kind": "homework",
       "difficulty": "medium",
       "generated_from": "lecture-summaries",
-      "time_limit_minutes": 35,
+      "time_limit_minutes": 45,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "In the Lecture Summaries homework-style response, which draft sounds the most decision-ready?",
+          "question_text": "In the context of decision analysis under uncertainty, what is the difference between 'risk' and 'uncertainty'?",
           "options": [
             {
               "id": "a",
-              "text": "A response that uses Decision analysis and Optimization to produce a synthesis of the lecture logic that supports a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+              "text": "They are identical concepts with no meaningful distinction"
             },
             {
               "id": "b",
-              "text": "A response that repeats section terminology but never commits to a recommendation."
+              "text": "Risk refers to situations where probabilities can be estimated; uncertainty refers to situations where probabilities are unknown or unknowable"
             },
             {
               "id": "c",
-              "text": "A response that names Decision analysis yet skips assumptions and tradeoffs."
+              "text": "Risk applies only to financial losses; uncertainty applies only to gains"
             },
             {
               "id": "d",
-              "text": "A response built on confusing a precise model output with a robust managerial recommendation."
+              "text": "Risk is always worse than uncertainty"
             }
           ],
-          "correct_answer": "a",
-          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "correct_answer": "b",
+          "explanation": "This distinction, attributed to economist Frank Knight, is foundational in the course. Under 'risk,' the decision maker knows (or can reasonably estimate) the probability distribution of outcomes — enabling tools like EMV and decision trees. Under 'uncertainty,' probabilities cannot be reliably estimated, requiring different approaches (scenario analysis, robust decision-making). Most real-world decisions involve some mix of both.",
           "difficulty": "medium"
         },
         {
+          "question_type": "true_false",
+          "question_text": "True or false: In simple linear regression, the slope coefficient represents the predicted change in Y for a one-unit change in X.",
+          "correct_answer": "true",
+          "explanation": "In the simple linear regression equation Y = a + bX, the slope coefficient b represents the predicted change in the dependent variable (Y) for each one-unit increase in the independent variable (X). This is a fundamental concept from the regression lectures. In multiple regression, this interpretation requires the additional caveat 'holding all other variables constant.'",
+          "difficulty": "easy"
+        },
+        {
           "question_type": "multi_select",
-          "question_text": "Suppose a manager is using Lecture Summaries while linking the section's teaching arc into one argument. Which elements belong in the written answer?",
+          "question_text": "According to the lectures, which of the following are limitations of using expected monetary value (EMV) as the sole decision criterion? (Select all that apply)",
           "options": [
             {
               "id": "a",
-              "text": "Evidence from Decision analysis or Optimization"
+              "text": "EMV ignores the decision maker's risk preferences"
             },
             {
               "id": "b",
-              "text": "The assumptions or constraints shaping the recommendation"
+              "text": "EMV provides no information about the variability or spread of outcomes"
             },
             {
               "id": "c",
-              "text": "A managerial implication tied to a synthesis of the lecture logic that supports a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity"
+              "text": "EMV cannot be calculated for decision trees"
             },
             {
               "id": "d",
-              "text": "Probability"
+              "text": "EMV may lead to poor decisions when outcomes are catastrophic and the decision is made once (not repeated)"
             }
           ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "EMV is a long-run average that works well for repeated decisions but can be misleading for one-time high-stakes decisions. It does not account for risk aversion (a manager might reject a positive-EMV gamble that could bankrupt the company), and it collapses the entire distribution into a single number. EMV is routinely calculated for decision trees (option C is incorrect) — that is one of its primary applications.",
           "difficulty": "hard"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which next step best shows that someone understands how to use Lecture Summaries in practice?",
+          "question_text": "In optimization, what is the 'feasible region'?",
           "options": [
             {
               "id": "a",
-              "text": "Use Simulation logic and Regression insights to frame the recommendation, then check whether it still holds when assumptions move."
+              "text": "The set of all possible values of the objective function"
             },
             {
               "id": "b",
-              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+              "text": "The set of all solutions that satisfy all constraints simultaneously"
             },
             {
               "id": "c",
-              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+              "text": "The region where the objective function is negative"
             },
             {
               "id": "d",
-              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+              "text": "The area on a map where the company can build factories"
             }
           ],
-          "correct_answer": "a",
-          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "correct_answer": "b",
+          "explanation": "The feasible region (or feasible set) is the collection of all points that satisfy every constraint in the optimization problem. In a two-variable LP, it is a polygon on a graph. The optimal solution is the point within the feasible region that maximizes (or minimizes) the objective function. If the feasible region is empty, the problem is infeasible.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The lecture on simulation emphasized that the law of large numbers implies:",
+          "options": [
+            {
+              "id": "a",
+              "text": "After a series of bad outcomes, good outcomes must follow to balance things out"
+            },
+            {
+              "id": "b",
+              "text": "As the number of independent trials increases, the sample average converges to the expected value"
+            },
+            {
+              "id": "c",
+              "text": "Large datasets always produce accurate models"
+            },
+            {
+              "id": "d",
+              "text": "The probability of any event approaches 1.0 with enough trials"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "The law of large numbers states that as the number of independent, identically distributed trials increases, the sample mean converges to the population expected value. This is the theoretical foundation for Monte Carlo simulation — by running enough trials, simulation estimates become arbitrarily precise. Option A is the 'gambler's fallacy,' which is a common misconception that the law of large numbers does NOT support.",
           "difficulty": "medium"
         },
         {
-          "question_type": "short_answer",
-          "question_text": "Name one sentence-level takeaway a strong answer from Lecture Summaries should land on after weighing Decision analysis, Optimization, and Simulation logic.",
-          "correct_answer": "It should end with a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity, grounded in Decision analysis, Optimization, Simulation logic and explicit assumptions.",
-          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "question_type": "true_false",
+          "question_text": "True or false: In multiple regression, adding more independent variables to the model will always increase R-squared.",
+          "correct_answer": "true",
+          "explanation": "R-squared can only increase (or stay the same) when additional variables are added, because the model has more flexibility to fit the data. This is why adjusted R-squared was developed — it penalizes for additional variables, decreasing when a new variable does not improve the model enough to justify its inclusion. The lectures emphasize using adjusted R-squared rather than R-squared when comparing models with different numbers of predictors.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the optimization lectures, which of the following are necessary components of a linear programming formulation? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "Decision variables that represent the choices to be made"
+            },
+            {
+              "id": "b",
+              "text": "An objective function to maximize or minimize"
+            },
+            {
+              "id": "c",
+              "text": "At least one nonlinear constraint"
+            },
+            {
+              "id": "d",
+              "text": "Constraints that define the feasible set of solutions"
+            },
+            {
+              "id": "e",
+              "text": "Non-negativity restrictions on decision variables (in most cases)"
+            }
+          ],
+          "correct_answer": ["a", "b", "d", "e"],
+          "explanation": "A linear programming formulation requires decision variables (what you are choosing), a linear objective function (what you are optimizing), constraints (limitations on resources, requirements, etc.), and typically non-negativity constraints (you cannot produce negative quantities). All functions must be linear — having a nonlinear constraint would make it a nonlinear programming problem, not an LP.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The lecture on regression diagnostics explained that heteroscedasticity (non-constant variance of residuals) primarily affects:",
+          "options": [
+            {
+              "id": "a",
+              "text": "The unbiasedness of the coefficient estimates"
+            },
+            {
+              "id": "b",
+              "text": "The reliability of the standard errors and hypothesis tests (t-tests, F-tests)"
+            },
+            {
+              "id": "c",
+              "text": "The number of observations in the dataset"
+            },
+            {
+              "id": "d",
+              "text": "The value of the dependent variable"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "When residuals have non-constant variance (heteroscedasticity), the OLS coefficient estimates remain unbiased but the standard errors become unreliable. This means hypothesis tests and confidence intervals based on these standard errors may be misleading — you might conclude a variable is significant when it is not, or vice versa. The fix involves using robust standard errors or weighted least squares.",
           "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A dummy variable (indicator variable) in regression is used to include categorical information in a quantitative model.",
+          "correct_answer": "true",
+          "explanation": "Dummy variables (also called indicator variables) take values of 0 or 1 to represent categorical data in regression models. For example, a dummy variable for gender might be 1 for female and 0 for male. For a categorical variable with k categories, k-1 dummy variables are needed (the omitted category becomes the reference group). This is a standard technique covered in the regression lectures.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to the lectures, what is the key advantage of spreadsheet modeling in managerial decision-making?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Spreadsheets always produce the correct answer"
+            },
+            {
+              "id": "b",
+              "text": "Spreadsheets make the model's logic transparent and allow rapid what-if analysis by changing input assumptions"
+            },
+            {
+              "id": "c",
+              "text": "Spreadsheets eliminate the need for understanding the underlying mathematics"
+            },
+            {
+              "id": "d",
+              "text": "Spreadsheets are the only software that can solve optimization problems"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "The course emphasizes spreadsheet modeling because it makes the logic of a model visible and accessible to managers. By changing input cells and immediately seeing the effect on outputs, managers can quickly perform sensitivity analysis and what-if scenarios. However, spreadsheets are not infallible (they can contain errors), they do not replace the need for understanding the math, and they are one of many tools available for optimization.",
+          "difficulty": "easy"
         }
       ]
     },
     {
       "title": "Data, Models, and Decisions - Lecture Summaries Practice Quiz",
-      "description": "Practice Quiz for the Lecture Summaries section, covering Decision analysis, Optimization, Simulation logic, Regression insights.",
+      "description": "Practice Quiz covering key lecture concepts in probability, regression, simulation, and optimization.",
       "kind": "practice_quiz",
       "difficulty": "medium",
       "generated_from": "lecture-summaries",
-      "time_limit_minutes": 18,
+      "time_limit_minutes": 25,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "A student says the Lecture Summaries section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "question_text": "What does the term 'expected value' mean in probability?",
           "options": [
             {
               "id": "a",
-              "text": "No. The section connects Decision analysis, Optimization, and Simulation logic to translate an ambiguous business choice into variables, uncertainty, constraints, and a defensible recommendation."
+              "text": "The most likely outcome"
             },
             {
               "id": "b",
-              "text": "Yes. The main goal is to recall terms, even if they never shape a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+              "text": "The probability-weighted average of all possible outcomes"
             },
             {
               "id": "c",
-              "text": "Yes. The section works best when Decision analysis is studied separately from Optimization."
+              "text": "The maximum possible outcome"
             },
             {
               "id": "d",
-              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+              "text": "The outcome that occurred most recently"
             }
           ],
-          "correct_answer": "a",
-          "explanation": "Lecture Summaries is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
-          "difficulty": "medium"
-        },
-        {
-          "question_type": "multi_select",
-          "question_text": "When someone is reviewing Lecture Summaries while linking the section's teaching arc into one argument, which moves usually strengthen the review?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Link Decision analysis to Optimization instead of treating them as separate facts"
-            },
-            {
-              "id": "b",
-              "text": "State the assumptions that connect Simulation logic to the decision"
-            },
-            {
-              "id": "c",
-              "text": "Explain how the section changes a synthesis of the lecture logic that supports a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity"
-            },
-            {
-              "id": "d",
-              "text": "Ignore tradeoffs and rely on the first plausible answer about Probability"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "Good review work in Lecture Summaries ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "correct_answer": "b",
+          "explanation": "The expected value (E[X]) is the sum of each possible outcome multiplied by its probability. It represents the long-run average if the random process were repeated many times. Note that the expected value may not even be a possible outcome — for example, the expected value of a fair die is 3.5, which cannot actually be rolled. It is a measure of central tendency for probability distributions.",
           "difficulty": "easy"
         },
         {
           "question_type": "true_false",
-          "question_text": "True or false: A solid answer from the Lecture Summaries section should use evidence like Decision analysis, Optimization, Simulation logic and still make the tradeoffs explicit.",
-          "correct_answer": "true",
-          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "question_text": "True or false: Correlation between two variables implies that one causes the other.",
+          "correct_answer": "false",
+          "explanation": "Correlation measures the strength and direction of a linear relationship between two variables, but it does not establish causation. Two variables may be correlated because of a third confounding variable, reverse causation, or coincidence. The lectures repeatedly emphasize this distinction, as regression analysis reveals associations that may or may not be causal depending on the study design.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the context of optimization lectures, what does it mean for a constraint to be 'binding'?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The constraint is violated by the optimal solution"
+            },
+            {
+              "id": "b",
+              "text": "The constraint is satisfied with equality at the optimal solution (no slack)"
+            },
+            {
+              "id": "c",
+              "text": "The constraint is irrelevant to the problem"
+            },
+            {
+              "id": "d",
+              "text": "The constraint has been removed from the model"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "A binding constraint is one that holds with equality at the optimal solution — all of that resource is used up, or that limit is exactly met. Binding constraints are the ones that actively limit the objective function; relaxing them (increasing the right-hand side for a <= constraint) would improve the optimal value. Non-binding constraints have slack and their shadow prices are zero.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following statements about probability distributions are correct? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "The normal distribution is symmetric and bell-shaped"
+            },
+            {
+              "id": "b",
+              "text": "The uniform distribution assigns equal probability to all outcomes in its range"
+            },
+            {
+              "id": "c",
+              "text": "All probability distributions must sum (or integrate) to 1.0"
+            },
+            {
+              "id": "d",
+              "text": "The exponential distribution is commonly used to model the time between events in a Poisson process"
+            }
+          ],
+          "correct_answer": ["a", "b", "c", "d"],
+          "explanation": "All four statements are correct. The normal distribution is symmetric and bell-shaped; the uniform distribution assigns equal probability across its range; all valid probability distributions must have total probability of 1.0; and the exponential distribution models inter-arrival times in a Poisson process (commonly used in simulation models like queuing). Understanding these distributions is essential for simulation and probability assignments.",
           "difficulty": "medium"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which study plan would best prepare someone to use Lecture Summaries while linking the section's teaching arc into one argument?",
+          "question_text": "The adjusted R-squared differs from R-squared because it:",
           "options": [
             {
               "id": "a",
-              "text": "Compare Decision analysis, Optimization, and Regression insights; test the assumptions; then connect the section to a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+              "text": "Is always higher than R-squared"
             },
             {
               "id": "b",
-              "text": "Skim Decision analysis for terminology, then answer from memory without naming the decision."
+              "text": "Penalizes for adding variables that do not sufficiently improve the model, and can decrease when unhelpful variables are added"
             },
             {
               "id": "c",
-              "text": "Focus on polished wording first and postpone the decision modeling and analytics reasoning until the end."
+              "text": "Measures the slope of the regression line"
             },
             {
               "id": "d",
-              "text": "Pick the first familiar framework and ignore whether it fits connecting the teaching sequence into one coherent logic chain."
+              "text": "Is only used for simple linear regression"
             }
           ],
-          "correct_answer": "a",
-          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "correct_answer": "b",
+          "explanation": "Adjusted R-squared adjusts for the number of predictors in the model. While R-squared always increases (or stays the same) with additional predictors, adjusted R-squared can decrease if a new variable does not improve the model enough to offset the penalty for added complexity. This makes it a better metric for comparing models with different numbers of predictors and helps guard against overfitting.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In a Monte Carlo simulation, each trial uses randomly generated values from the specified input distributions.",
+          "correct_answer": "true",
+          "explanation": "Monte Carlo simulation works by repeatedly sampling random values from the specified probability distributions for each uncertain input, running the model with those sampled values, and recording the output. Over many trials (typically thousands or more), the collection of outputs forms an empirical distribution that approximates the true output distribution. This random sampling is the defining feature of Monte Carlo methods.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to the lecture on hypothesis testing, a Type I error occurs when:",
+          "options": [
+            {
+              "id": "a",
+              "text": "You fail to reject a false null hypothesis"
+            },
+            {
+              "id": "b",
+              "text": "You reject a true null hypothesis (a 'false positive')"
+            },
+            {
+              "id": "c",
+              "text": "The sample size is too small"
+            },
+            {
+              "id": "d",
+              "text": "The data contains outliers"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "A Type I error (false positive) occurs when you reject the null hypothesis even though it is actually true — concluding there is an effect when there is none. The probability of a Type I error is the significance level (alpha), typically set at 0.05 or 0.01. A Type II error (false negative) is failing to reject a false null hypothesis. Understanding these error types is crucial for interpreting regression results and hypothesis tests.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the lectures, which of the following are valid ways to detect multicollinearity in a regression model? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "Examining the correlation matrix among independent variables for high pairwise correlations"
+            },
+            {
+              "id": "b",
+              "text": "Checking for high Variance Inflation Factors (VIF)"
+            },
+            {
+              "id": "c",
+              "text": "Observing that individual coefficients are not significant even though the overall F-test is significant"
+            },
+            {
+              "id": "d",
+              "text": "Checking whether R-squared equals exactly 1.0"
+            }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "High pairwise correlations among predictors (option A) and high VIF values (option B, typically VIF > 5 or 10 is concerning) are direct indicators of multicollinearity. A symptomatic sign (option C) is when the model as a whole is significant (F-test) but individual predictors are not (t-tests), because multicollinearity inflates standard errors of individual coefficients. R-squared of exactly 1.0 would indicate perfect fit, not multicollinearity specifically.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: An unbounded linear programming problem occurs when the objective function can be improved indefinitely without violating any constraints.",
+          "correct_answer": "true",
+          "explanation": "A linear programming problem is unbounded when the feasible region extends infinitely in the direction of improvement of the objective function. In practice, unbounded problems usually indicate a modeling error — such as a missing constraint — since real-world problems always have finite resources. Unboundedness means no finite optimal solution exists.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The lecture on regression warned against overfitting. Overfitting occurs when:",
+          "options": [
+            {
+              "id": "a",
+              "text": "The model is too simple to capture the underlying relationship"
+            },
+            {
+              "id": "b",
+              "text": "The model fits the training data extremely well but performs poorly on new, unseen data because it has captured noise rather than the true signal"
+            },
+            {
+              "id": "c",
+              "text": "The R-squared value is too low"
+            },
+            {
+              "id": "d",
+              "text": "All the coefficients are statistically significant"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "Overfitting happens when a model is too complex relative to the amount of data — it learns the noise and idiosyncrasies of the training data rather than the underlying pattern. Such models have high R-squared on training data but poor predictive performance on new data. Adding too many variables relative to the sample size is a common cause. The lectures recommend using adjusted R-squared, cross-validation, and parsimony to guard against overfitting.",
           "difficulty": "medium"
         }
       ]
     },
     {
       "title": "Data, Models, and Decisions - Readings Applied Homework",
-      "description": "Applied Homework for the Readings section, covering Probability models, Optimization methods, Regression analysis, Managerial decisions.",
+      "description": "Applied Homework covering quantitative methods theory from textbook readings on probability, optimization, regression, and decision analysis.",
       "kind": "homework",
       "difficulty": "medium",
       "generated_from": "readings",
-      "time_limit_minutes": 35,
+      "time_limit_minutes": 45,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "In the Readings homework-style response, which draft sounds the most decision-ready?",
+          "question_text": "According to the readings on probability, which of the following correctly states the addition rule for two events A and B that are NOT mutually exclusive?",
           "options": [
             {
               "id": "a",
-              "text": "A response that uses Probability models and Optimization methods to produce a reading synthesis that sharpens a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+              "text": "P(A or B) = P(A) + P(B)"
             },
             {
               "id": "b",
-              "text": "A response that repeats section terminology but never commits to a recommendation."
+              "text": "P(A or B) = P(A) * P(B)"
             },
             {
               "id": "c",
-              "text": "A response that names Probability models yet skips assumptions and tradeoffs."
+              "text": "P(A or B) = P(A) + P(B) - P(A and B)"
             },
             {
               "id": "d",
-              "text": "A response built on confusing a precise model output with a robust managerial recommendation."
+              "text": "P(A or B) = P(A) - P(B)"
             }
           ],
-          "correct_answer": "a",
-          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
-          "difficulty": "medium"
+          "correct_answer": "c",
+          "explanation": "For events that are not mutually exclusive (they can occur simultaneously), you must subtract the intersection P(A and B) to avoid double-counting the outcomes where both events occur. Option A is only correct for mutually exclusive events where P(A and B) = 0. This is a fundamental probability rule from the textbook readings.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the readings, the dual of a linear programming problem provides information about the economic value of resources (constraints) in the primal problem.",
+          "correct_answer": "true",
+          "explanation": "The duality theory in linear programming establishes a relationship between the primal problem (the original) and its dual. The dual variables correspond to the constraints of the primal problem and represent the marginal value (shadow price) of each constraint. This is economically meaningful: the dual variable tells you how much the optimal objective value would improve if you had one more unit of that resource.",
+          "difficulty": "hard"
         },
         {
           "question_type": "multi_select",
-          "question_text": "Suppose a manager is using Readings while synthesizing several assigned sources into one position. Which elements belong in the written answer?",
+          "question_text": "According to the readings on regression analysis, which diagnostic plots are useful for assessing whether regression assumptions are satisfied? (Select all that apply)",
           "options": [
             {
               "id": "a",
-              "text": "Evidence from Probability models or Optimization methods"
+              "text": "Residual vs. fitted values plot (to check for heteroscedasticity and nonlinearity)"
             },
             {
               "id": "b",
-              "text": "The assumptions or constraints shaping the recommendation"
+              "text": "Normal Q-Q plot of residuals (to check for normality of errors)"
             },
             {
               "id": "c",
-              "text": "A managerial implication tied to a reading synthesis that sharpens a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity"
+              "text": "Pie chart of the dependent variable"
             },
             {
               "id": "d",
-              "text": "Probability"
+              "text": "Residual vs. independent variable plot (to check for patterns suggesting model misspecification)"
             }
           ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Residual plots are the primary diagnostic tools for regression. Plotting residuals against fitted values reveals heteroscedasticity (fan or funnel shapes) and nonlinearity (curved patterns). Q-Q plots assess whether residuals follow a normal distribution (needed for valid inference). Residuals plotted against individual predictors can reveal nonlinear relationships or other model misspecification. Pie charts are not used for regression diagnostics.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The readings on optimization describe the concept of 'reduced cost' for a non-basic variable in a linear program. A non-basic variable with a reduced cost of -3 in a minimization problem means:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Increasing this variable by one unit would increase the objective by 3"
+            },
+            {
+              "id": "b",
+              "text": "This variable is currently at its upper bound"
+            },
+            {
+              "id": "c",
+              "text": "Increasing this variable by one unit would decrease the objective by 3 (improving it in a minimization)"
+            },
+            {
+              "id": "d",
+              "text": "This variable should be removed from the model"
+            }
           ],
-          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "correct_answer": "c",
+          "explanation": "The reduced cost of a non-basic variable indicates how much the objective function would change per unit increase in that variable. In a minimization problem, a negative reduced cost means introducing this variable would decrease (improve) the objective. This signals that the current solution is not optimal if this variable could be increased. Reduced costs are key to understanding the simplex method's optimality conditions.",
           "difficulty": "hard"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which next step best shows that someone understands how to use Readings in practice?",
+          "question_text": "According to the readings on simulation, a 'pseudo-random number generator' is used in Monte Carlo simulation because:",
           "options": [
             {
               "id": "a",
-              "text": "Use Regression analysis and Managerial decisions to frame the recommendation, then check whether it still holds when assumptions move."
+              "text": "True randomness is too expensive to generate"
             },
             {
               "id": "b",
-              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
+              "text": "Algorithmic generators produce sequences that are deterministic but statistically indistinguishable from random, allowing reproducibility of results"
             },
             {
               "id": "c",
-              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
+              "text": "Pseudo-random numbers are more random than true random numbers"
             },
             {
               "id": "d",
-              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
+              "text": "Computers cannot generate any kind of random numbers"
             }
           ],
-          "correct_answer": "a",
-          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "correct_answer": "b",
+          "explanation": "Pseudo-random number generators (PRNGs) use deterministic algorithms to produce sequences that pass statistical tests for randomness. A key advantage is reproducibility: using the same 'seed' produces the same sequence, allowing results to be verified and compared. While not truly random, well-designed PRNGs are sufficient for simulation purposes and are standard in all spreadsheet and programming-based simulation tools.",
           "difficulty": "medium"
         },
         {
-          "question_type": "short_answer",
-          "question_text": "Name one sentence-level takeaway a strong answer from Readings should land on after weighing Probability models, Optimization methods, and Regression analysis.",
-          "correct_answer": "It should end with a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity, grounded in Probability models, Optimization methods, Regression analysis and explicit assumptions.",
-          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "question_type": "true_false",
+          "question_text": "True or false: According to the readings, the central limit theorem states that the sampling distribution of the sample mean approaches a normal distribution as the sample size increases, regardless of the population distribution.",
+          "correct_answer": "true",
+          "explanation": "The Central Limit Theorem (CLT) is one of the most important results in statistics. It states that for sufficiently large sample sizes, the distribution of sample means will be approximately normal, regardless of the shape of the underlying population distribution. This theorem justifies the use of normal-distribution-based inference (confidence intervals, hypothesis tests) even when the data itself is not normally distributed, provided the sample is large enough.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the readings on decision analysis, which of the following are advantages of using decision trees? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "They provide a visual representation of sequential decisions and uncertainties"
+            },
+            {
+              "id": "b",
+              "text": "They force the decision maker to explicitly state probabilities and payoffs"
+            },
+            {
+              "id": "c",
+              "text": "They guarantee the decision maker will make a profit"
+            },
+            {
+              "id": "d",
+              "text": "They allow systematic evaluation of all possible decision strategies"
+            }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Decision trees are valuable because they visually lay out the structure of a decision problem, require explicit quantification of probabilities and outcomes (which disciplines thinking), and enable systematic evaluation of all strategies through backward induction. They do not guarantee profits — they help make better decisions given the available information, but outcomes remain uncertain.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The readings on regression discuss the problem of autocorrelation in residuals. Autocorrelation is most likely to be a concern when:",
+          "options": [
+            {
+              "id": "a",
+              "text": "The dataset is a random sample of individuals at a single point in time"
+            },
+            {
+              "id": "b",
+              "text": "The data is collected over time (time series data) and consecutive observations may be related"
+            },
+            {
+              "id": "c",
+              "text": "The model has only one independent variable"
+            },
+            {
+              "id": "d",
+              "text": "The sample size is very large"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "Autocorrelation (serial correlation) occurs when residuals from one observation are correlated with residuals from adjacent observations. This is most common in time series data, where factors not captured in the model may persist across time periods. For example, an economic shock in one quarter may carry over to the next. The Durbin-Watson test is commonly used to detect autocorrelation in regression residuals.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the readings, in integer programming, rounding the LP relaxation solution to the nearest integer always produces the optimal integer solution.",
+          "correct_answer": "false",
+          "explanation": "Simply rounding the LP relaxation solution is a common heuristic but does NOT guarantee optimality for integer programs. The rounded solution may not even be feasible, and even when feasible, it may be far from optimal. Proper IP solution methods (branch and bound, cutting planes) are required to find the true optimum. The readings emphasize this as a key distinction between LP and IP — the integrality constraint fundamentally changes the problem's difficulty.",
           "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to the readings on managerial decision-making, the concept of 'satisficing' (as opposed to optimizing) means:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Always choosing the mathematically optimal solution"
+            },
+            {
+              "id": "b",
+              "text": "Choosing a solution that meets an acceptable threshold of performance, even if it may not be the theoretical optimum"
+            },
+            {
+              "id": "c",
+              "text": "Randomly selecting among alternatives"
+            },
+            {
+              "id": "d",
+              "text": "Avoiding making any decision at all"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "Herbert Simon's concept of 'satisficing' recognizes that in practice, managers often lack the time, information, or cognitive capacity to find the true optimum. Instead, they seek solutions that are 'good enough' — meeting some aspiration level. The readings discuss this as a bridge between the mathematical optimization models taught in the course and real-world decision-making, where perfect information and unlimited computational resources are rarely available.",
+          "difficulty": "medium"
         }
       ]
     },
     {
       "title": "Data, Models, and Decisions - Readings Practice Quiz",
-      "description": "Practice Quiz for the Readings section, covering Probability models, Optimization methods, Regression analysis, Managerial decisions.",
+      "description": "Practice Quiz covering quantitative methods theory from textbook readings.",
       "kind": "practice_quiz",
       "difficulty": "medium",
       "generated_from": "readings",
-      "time_limit_minutes": 18,
+      "time_limit_minutes": 25,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "A student says the Readings section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "question_text": "According to the readings, conditional probability P(A|B) is defined as:",
           "options": [
             {
               "id": "a",
-              "text": "No. The section connects Probability models, Optimization methods, and Regression analysis to translate an ambiguous business choice into variables, uncertainty, constraints, and a defensible recommendation."
+              "text": "P(A) + P(B)"
             },
             {
               "id": "b",
-              "text": "Yes. The main goal is to recall terms, even if they never shape a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+              "text": "P(A and B) / P(B), provided P(B) > 0"
             },
             {
               "id": "c",
-              "text": "Yes. The section works best when Probability models is studied separately from Optimization methods."
+              "text": "P(A) * P(B)"
             },
             {
               "id": "d",
-              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
+              "text": "P(A) / P(A and B)"
             }
           ],
-          "correct_answer": "a",
-          "explanation": "Readings is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
-          "difficulty": "medium"
-        },
-        {
-          "question_type": "multi_select",
-          "question_text": "When someone is reviewing Readings while synthesizing several assigned sources into one position, which moves usually strengthen the review?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Link Probability models to Optimization methods instead of treating them as separate facts"
-            },
-            {
-              "id": "b",
-              "text": "State the assumptions that connect Regression analysis to the decision"
-            },
-            {
-              "id": "c",
-              "text": "Explain how the section changes a reading synthesis that sharpens a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity"
-            },
-            {
-              "id": "d",
-              "text": "Ignore tradeoffs and rely on the first plausible answer about Probability"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "Good review work in Readings ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "correct_answer": "b",
+          "explanation": "Conditional probability P(A|B) represents the probability of event A occurring given that event B has occurred. It is calculated by dividing the probability of both events occurring by the probability of the conditioning event. This formula is the foundation for Bayes' theorem and is fundamental to all probability-based decision analysis in the course.",
           "difficulty": "easy"
         },
         {
           "question_type": "true_false",
-          "question_text": "True or false: A solid answer from the Readings section should use evidence like Probability models, Optimization methods, Regression analysis and still make the tradeoffs explicit.",
-          "correct_answer": "true",
-          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "question_text": "True or false: According to the readings, a confidence interval provides a range of values that is guaranteed to contain the true population parameter.",
+          "correct_answer": "false",
+          "explanation": "A 95% confidence interval does NOT guarantee that the true parameter lies within it. Rather, if you were to repeat the sampling process many times and construct a confidence interval each time, approximately 95% of those intervals would contain the true parameter. Any single interval either contains the true value or it does not — we just do not know which. This is a subtle but important distinction emphasized in the readings.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the readings on optimization, which of the following real-world problems can be formulated as linear programs? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "Minimizing transportation costs for shipping goods from warehouses to stores"
+            },
+            {
+              "id": "b",
+              "text": "Determining the optimal product mix given limited resources"
+            },
+            {
+              "id": "c",
+              "text": "Portfolio allocation to minimize risk for a target return"
+            },
+            {
+              "id": "d",
+              "text": "Scheduling workers to minimize labor cost while meeting coverage requirements"
+            }
+          ],
+          "correct_answer": ["a", "b", "c", "d"],
+          "explanation": "All four are classic applications of linear programming discussed in the readings. Transportation problems minimize shipping costs subject to supply and demand constraints. Product mix problems maximize profit subject to resource constraints. Portfolio allocation (with linear objectives) minimizes risk subject to return targets. Workforce scheduling minimizes labor costs subject to coverage requirements. LP is one of the most widely applied optimization techniques in management.",
           "difficulty": "medium"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which study plan would best prepare someone to use Readings while synthesizing several assigned sources into one position?",
+          "question_text": "The readings explain that the standard error of a regression coefficient measures:",
           "options": [
             {
               "id": "a",
-              "text": "Compare Probability models, Optimization methods, and Managerial decisions; test the assumptions; then connect the section to a model-backed decision memo that explains assumptions, tradeoffs, and sensitivity."
+              "text": "The average value of the coefficient across all samples"
             },
             {
               "id": "b",
-              "text": "Skim Probability models for terminology, then answer from memory without naming the decision."
+              "text": "The precision of the coefficient estimate — how much it would vary across repeated samples"
             },
             {
               "id": "c",
-              "text": "Focus on polished wording first and postpone the decision modeling and analytics reasoning until the end."
+              "text": "The maximum possible value of the coefficient"
             },
             {
               "id": "d",
-              "text": "Pick the first familiar framework and ignore whether it fits extracting the common managerial logic across the assigned materials."
+              "text": "The correlation between the coefficient and the dependent variable"
             }
           ],
-          "correct_answer": "a",
-          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "correct_answer": "b",
+          "explanation": "The standard error of a regression coefficient estimates the standard deviation of the sampling distribution of that coefficient. Smaller standard errors indicate more precise estimates — the coefficient would not change much if you drew a different sample. The t-statistic for testing significance is the coefficient divided by its standard error, so understanding standard errors is essential for interpreting regression output.",
           "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the readings, the simplex method for solving linear programs always terminates in a finite number of steps.",
+          "correct_answer": "true",
+          "explanation": "The simplex method moves from vertex to vertex of the feasible region, improving the objective function at each step. Since a polyhedron has a finite number of vertices, the simplex method terminates in a finite number of iterations (with proper anti-cycling rules like Bland's rule). In practice, the simplex method is remarkably efficient, typically requiring far fewer iterations than the total number of vertices.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to the readings, what is the relationship between the standard deviation and the variance of a probability distribution?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The standard deviation is twice the variance"
+            },
+            {
+              "id": "b",
+              "text": "The standard deviation is the square root of the variance"
+            },
+            {
+              "id": "c",
+              "text": "The variance is the square root of the standard deviation"
+            },
+            {
+              "id": "d",
+              "text": "They are the same value expressed in different units"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "The variance measures the average squared deviation from the mean, while the standard deviation is the square root of the variance. The standard deviation is expressed in the same units as the original data, making it more interpretable. For example, if data is in dollars, the standard deviation is in dollars, while the variance is in squared dollars. Both measure the spread or dispersion of a distribution.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the readings, what are the key steps in building an effective spreadsheet model? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "Separating input assumptions from calculations and outputs"
+            },
+            {
+              "id": "b",
+              "text": "Making the model as complex as possible to capture every possible detail"
+            },
+            {
+              "id": "c",
+              "text": "Documenting assumptions and formulas for transparency"
+            },
+            {
+              "id": "d",
+              "text": "Testing the model with known cases to verify correctness"
+            }
+          ],
+          "correct_answer": ["a", "c", "d"],
+          "explanation": "Good spreadsheet modeling practice includes clear separation of inputs, calculations, and outputs (for easy what-if analysis), thorough documentation (so others can understand and audit the model), and validation with known test cases (to catch errors). Making models unnecessarily complex is counterproductive — the readings advocate for parsimony, building the simplest model that captures the essential features of the problem.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The readings describe the concept of 'sensitivity analysis' in optimization. Which of the following best characterizes its purpose?",
+          "options": [
+            {
+              "id": "a",
+              "text": "To find the optimal solution to the original problem"
+            },
+            {
+              "id": "b",
+              "text": "To understand how changes in the model's parameters (objective function coefficients, constraint right-hand sides) affect the optimal solution"
+            },
+            {
+              "id": "c",
+              "text": "To convert a nonlinear problem into a linear one"
+            },
+            {
+              "id": "d",
+              "text": "To increase the number of constraints in the model"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "Sensitivity analysis examines how the optimal solution changes when model parameters are varied. It answers questions like: How much can a coefficient in the objective function change before the optimal basis changes? What is the value of additional resources (shadow prices)? Over what range are the shadow prices valid? This analysis is often more valuable to managers than the optimal solution itself, because it reveals which assumptions are critical.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the readings, Bayes' theorem can be derived directly from the definition of conditional probability.",
+          "correct_answer": "true",
+          "explanation": "Bayes' theorem follows directly from the definition of conditional probability. Since P(A|B) = P(A and B) / P(B) and P(B|A) = P(A and B) / P(A), you can solve both for P(A and B) and set them equal, yielding P(A|B) = P(B|A) * P(A) / P(B). This derivation is presented in the readings as a way to update prior beliefs with new evidence, which is the foundation of Bayesian decision analysis.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to the readings on managerial decision-making, what role does a model play in the decision-making process?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A model replaces the need for managerial judgment"
+            },
+            {
+              "id": "b",
+              "text": "A model is a simplified representation of reality that helps structure thinking, but managerial judgment is still required to interpret and apply the results"
+            },
+            {
+              "id": "c",
+              "text": "Models are only useful for theoretical exercises and have no practical value"
+            },
+            {
+              "id": "d",
+              "text": "A model should capture every detail of the real situation to be useful"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "The readings consistently emphasize that models are tools to aid decision-making, not substitutes for it. A good model simplifies reality to its essential elements, helping managers think more clearly about tradeoffs and uncertainties. But models involve assumptions and simplifications, so their results must be interpreted with judgment — understanding what the model captures, what it misses, and how sensitive the conclusions are to the assumptions.",
+          "difficulty": "easy"
         }
       ]
     }

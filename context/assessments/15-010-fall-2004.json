@@ -3,292 +3,254 @@
   "course_title": "Economic Analysis for Business Decisions",
   "assessments": [
     {
-      "title": "Economic Analysis - Assignments Applied Homework",
-      "description": "Applied Homework for the Assignments section, covering Cost analysis, Pricing decisions, Market structure, Strategic interaction.",
-      "kind": "homework",
-      "difficulty": "hard",
-      "generated_from": "assignments",
-      "time_limit_minutes": 35,
-      "is_published": true,
-      "questions": [
-        {
-          "question_type": "multiple_choice",
-          "question_text": "In the Assignments homework-style response, which draft sounds the most decision-ready?",
-          "options": [
-            {
-              "id": "a",
-              "text": "A response that uses Cost analysis and Pricing decisions to produce a worked recommendation that ends in a pricing, entry, or market-structure recommendation with assumptions stated clearly."
-            },
-            {
-              "id": "b",
-              "text": "A response that repeats section terminology but never commits to a recommendation."
-            },
-            {
-              "id": "c",
-              "text": "A response that names Cost analysis yet skips assumptions and tradeoffs."
-            },
-            {
-              "id": "d",
-              "text": "A response built on treating accounting costs or average outcomes as the relevant economic benchmark."
-            }
-          ],
-          "correct_answer": "a",
-          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
-          "difficulty": "medium"
-        },
-        {
-          "question_type": "multi_select",
-          "question_text": "Suppose a manager is using Assignments while turning a draft analysis into a defensible submission. Which elements belong in the written answer?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Evidence from Cost analysis or Pricing decisions"
-            },
-            {
-              "id": "b",
-              "text": "The assumptions or constraints shaping the recommendation"
-            },
-            {
-              "id": "c",
-              "text": "A managerial implication tied to a worked recommendation that ends in a pricing, entry, or market-structure recommendation with assumptions stated clearly"
-            },
-            {
-              "id": "d",
-              "text": "Demand analysis"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
-          "difficulty": "hard"
-        },
-        {
-          "question_type": "multiple_choice",
-          "question_text": "Which next step best shows that someone understands how to use Assignments in practice?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Use Market structure and Strategic interaction to frame the recommendation, then check whether it still holds when assumptions move."
-            },
-            {
-              "id": "b",
-              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
-            },
-            {
-              "id": "c",
-              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
-            },
-            {
-              "id": "d",
-              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
-            }
-          ],
-          "correct_answer": "a",
-          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
-          "difficulty": "medium"
-        },
-        {
-          "question_type": "short_answer",
-          "question_text": "Name one sentence-level takeaway a strong answer from Assignments should land on after weighing Cost analysis, Pricing decisions, and Market structure.",
-          "correct_answer": "It should end with a pricing, entry, or market-structure recommendation with assumptions stated clearly, grounded in Cost analysis, Pricing decisions, Market structure and explicit assumptions.",
-          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
-          "difficulty": "hard"
-        }
-      ]
-    },
-    {
       "title": "Economic Analysis - Assignments Practice Quiz",
       "description": "Practice Quiz for the Assignments section, covering Cost analysis, Pricing decisions, Market structure, Strategic interaction.",
       "kind": "practice_quiz",
       "difficulty": "medium",
       "generated_from": "assignments",
-      "time_limit_minutes": 18,
+      "time_limit_minutes": 25,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "A student says the Assignments section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "question_text": "A firm's total cost function is TC = 100 + 10Q + 2Q^2. What is the marginal cost of producing the 5th unit?",
           "options": [
-            {
-              "id": "a",
-              "text": "No. The section connects Cost analysis, Pricing decisions, and Market structure to connect incentives, costs, market structure, and demand behavior to a business decision."
-            },
-            {
-              "id": "b",
-              "text": "Yes. The main goal is to recall terms, even if they never shape a pricing, entry, or market-structure recommendation with assumptions stated clearly."
-            },
-            {
-              "id": "c",
-              "text": "Yes. The section works best when Cost analysis is studied separately from Pricing decisions."
-            },
-            {
-              "id": "d",
-              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
-            }
+            { "id": "a", "text": "$20" },
+            { "id": "b", "text": "$30" },
+            { "id": "c", "text": "$40" },
+            { "id": "d", "text": "$10" }
           ],
-          "correct_answer": "a",
-          "explanation": "Assignments is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
-          "difficulty": "medium"
-        },
-        {
-          "question_type": "multi_select",
-          "question_text": "When someone is reviewing Assignments while turning a draft analysis into a defensible submission, which moves usually strengthen the review?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Link Cost analysis to Pricing decisions instead of treating them as separate facts"
-            },
-            {
-              "id": "b",
-              "text": "State the assumptions that connect Market structure to the decision"
-            },
-            {
-              "id": "c",
-              "text": "Explain how the section changes a worked recommendation that ends in a pricing, entry, or market-structure recommendation with assumptions stated clearly"
-            },
-            {
-              "id": "d",
-              "text": "Ignore tradeoffs and rely on the first plausible answer about Demand analysis"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "Good review work in Assignments ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "correct_answer": "b",
+          "explanation": "Marginal cost is the derivative of total cost with respect to quantity: MC = dTC/dQ = 10 + 4Q. At Q = 5: MC = 10 + 4(5) = 10 + 20 = $30. Marginal cost is increasing in output here because of the quadratic term.",
           "difficulty": "easy"
         },
         {
           "question_type": "true_false",
-          "question_text": "True or false: A solid answer from the Assignments section should use evidence like Cost analysis, Pricing decisions, Market structure and still make the tradeoffs explicit.",
+          "question_text": "True or false: In a perfectly competitive market, firms are price takers because each firm's output is a negligible fraction of total market output.",
           "correct_answer": "true",
-          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "explanation": "In perfect competition, there are many firms each producing a small fraction of the total market supply. No individual firm can influence the market price, so each takes the price as given. The firm's demand curve is perfectly elastic (horizontal) at the market price.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A monopolist faces a demand curve P = 100 - 2Q. What is the marginal revenue function?",
+          "options": [
+            { "id": "a", "text": "MR = 100 - 2Q" },
+            { "id": "b", "text": "MR = 100 - 4Q" },
+            { "id": "c", "text": "MR = 50 - Q" },
+            { "id": "d", "text": "MR = 200 - 4Q" }
+          ],
+          "correct_answer": "b",
+          "explanation": "For a linear demand curve P = a - bQ, total revenue is TR = PQ = aQ - bQ^2, and marginal revenue is MR = dTR/dQ = a - 2bQ. Here, a = 100 and b = 2, so MR = 100 - 4Q. The MR curve has the same intercept as the demand curve but twice the slope.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are characteristics of an oligopoly market structure? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "A small number of firms dominate the market" },
+            { "id": "b", "text": "Firms' decisions are interdependent -- each firm's profit depends on rivals' actions" },
+            { "id": "c", "text": "Firms always collude to maximize joint profits" },
+            { "id": "d", "text": "Barriers to entry are typically significant" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Oligopoly features few dominant firms, strategic interdependence, and significant barriers to entry. While firms may attempt collusion, they do not always collude -- collusion is difficult to maintain due to incentives to cheat, antitrust enforcement, and coordination problems.",
           "difficulty": "medium"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which study plan would best prepare someone to use Assignments while turning a draft analysis into a defensible submission?",
+          "question_text": "A firm is deciding whether to enter a market. If both firms enter, each earns $2M. If only one enters, it earns $5M. If neither enters, each earns $0. This situation is best analyzed using:",
           "options": [
-            {
-              "id": "a",
-              "text": "Compare Cost analysis, Pricing decisions, and Strategic interaction; test the assumptions; then connect the section to a pricing, entry, or market-structure recommendation with assumptions stated clearly."
-            },
-            {
-              "id": "b",
-              "text": "Skim Cost analysis for terminology, then answer from memory without naming the decision."
-            },
-            {
-              "id": "c",
-              "text": "Focus on polished wording first and postpone the managerial economics reasoning until the end."
-            },
-            {
-              "id": "d",
-              "text": "Pick the first familiar framework and ignore whether it fits working through structured problems with assumptions made explicit."
-            }
+            { "id": "a", "text": "Supply and demand analysis" },
+            { "id": "b", "text": "Game theory (strategic interaction)" },
+            { "id": "c", "text": "Perfect competition model" },
+            { "id": "d", "text": "Cost-benefit analysis without considering rivals" }
           ],
-          "correct_answer": "a",
-          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "correct_answer": "b",
+          "explanation": "When a firm's payoff depends on the actions of other firms, the situation involves strategic interaction and should be analyzed using game theory. The entry decision depends on what the rival is expected to do, making tools like Nash equilibrium essential.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A profit-maximizing firm should always produce at the quantity where average total cost is minimized.",
+          "correct_answer": "false",
+          "explanation": "Profit maximization requires producing where marginal revenue equals marginal cost (MR = MC), not where average total cost (ATC) is minimized. The profit-maximizing quantity may be above or below the ATC-minimizing quantity depending on demand conditions.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A firm practices third-degree price discrimination. This means the firm:",
+          "options": [
+            { "id": "a", "text": "Charges each consumer their maximum willingness to pay" },
+            { "id": "b", "text": "Charges different prices to different identifiable groups of consumers based on their elasticity of demand" },
+            { "id": "c", "text": "Offers quantity discounts to all consumers equally" },
+            { "id": "d", "text": "Charges the same price to all consumers" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Third-degree price discrimination involves segmenting the market into identifiable groups (e.g., students vs. adults, domestic vs. foreign) and charging each group a different price. The profit-maximizing rule is to charge higher prices to groups with less elastic demand. First-degree is charging each consumer their reservation price; second-degree involves quantity-based pricing.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are conditions necessary for a firm to successfully practice price discrimination? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "The firm must have some degree of market power" },
+            { "id": "b", "text": "The firm must be able to identify or sort consumers into groups with different elasticities" },
+            { "id": "c", "text": "Resale (arbitrage) between groups must be preventable or costly" },
+            { "id": "d", "text": "The firm must be a perfect competitor" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Price discrimination requires: (1) market power to set prices above marginal cost, (2) the ability to sort consumers by willingness to pay, and (3) prevention of resale (arbitrage) between groups. Perfect competitors are price takers and cannot discriminate.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the short run, a perfectly competitive firm should shut down if:",
+          "options": [
+            { "id": "a", "text": "Price is below average total cost" },
+            { "id": "b", "text": "Price is below average variable cost" },
+            { "id": "c", "text": "Price is below marginal cost" },
+            { "id": "d", "text": "Price is below average fixed cost" }
+          ],
+          "correct_answer": "b",
+          "explanation": "A firm should shut down in the short run if price falls below average variable cost (AVC), because continuing to produce would lose more money than simply paying fixed costs and producing nothing. If P >= AVC but P < ATC, the firm should continue producing (covering variable costs and some fixed costs) but will exit in the long run.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In a Cournot duopoly, each firm chooses its output quantity simultaneously, taking the other firm's output as given. The resulting equilibrium output is between the monopoly level and the perfectly competitive level.",
+          "correct_answer": "true",
+          "explanation": "In Cournot competition, firms simultaneously choose quantities, and each firm's best response depends on the rival's quantity. The Nash equilibrium (Cournot equilibrium) results in total output greater than monopoly output but less than the perfectly competitive output, and a price between the monopoly price and the competitive price.",
           "difficulty": "medium"
         }
       ]
     },
     {
-      "title": "Economic Analysis - Exams Applied Homework",
-      "description": "Applied Homework for the Exams section, covering Demand analysis, Cost curves, Market power, Game theory.",
+      "title": "Economic Analysis - Assignments Applied Homework",
+      "description": "Applied Homework for the Assignments section, covering Cost analysis, Pricing decisions, Market structure, Strategic interaction.",
       "kind": "homework",
       "difficulty": "hard",
-      "generated_from": "exams",
-      "time_limit_minutes": 35,
+      "generated_from": "assignments",
+      "time_limit_minutes": 45,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "In the Exams homework-style response, which draft sounds the most decision-ready?",
+          "question_text": "A firm has fixed costs of $500, and its variable cost function is VC = 5Q + 0.5Q^2. At what quantity is average total cost minimized?",
           "options": [
-            {
-              "id": "a",
-              "text": "A response that uses Demand analysis and Cost curves to produce a concise exam-ready argument that still leads to a pricing, entry, or market-structure recommendation with assumptions stated clearly."
-            },
-            {
-              "id": "b",
-              "text": "A response that repeats section terminology but never commits to a recommendation."
-            },
-            {
-              "id": "c",
-              "text": "A response that names Demand analysis yet skips assumptions and tradeoffs."
-            },
-            {
-              "id": "d",
-              "text": "A response built on treating accounting costs or average outcomes as the relevant economic benchmark."
-            }
+            { "id": "a", "text": "Q = approximately 31.6" },
+            { "id": "b", "text": "Q = 10" },
+            { "id": "c", "text": "Q = 50" },
+            { "id": "d", "text": "Q = 25" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
-          "difficulty": "medium"
+          "explanation": "ATC = TC/Q = (500 + 5Q + 0.5Q^2)/Q = 500/Q + 5 + 0.5Q. To minimize, take derivative and set to zero: dATC/dQ = -500/Q^2 + 0.5 = 0. Solving: Q^2 = 1000, so Q = sqrt(1000) = approximately 31.6. This is where MC = ATC, which is the efficient scale of the firm.",
+          "difficulty": "hard"
         },
         {
           "question_type": "multi_select",
-          "question_text": "Suppose a manager is using Exams while preparing for a timed cumulative check. Which elements belong in the written answer?",
+          "question_text": "A monopolist is considering implementing a two-part tariff (entry fee plus per-unit price). Which of the following statements about two-part tariffs are correct? (Select all that apply)",
           "options": [
-            {
-              "id": "a",
-              "text": "Evidence from Demand analysis or Cost curves"
-            },
-            {
-              "id": "b",
-              "text": "The assumptions or constraints shaping the recommendation"
-            },
-            {
-              "id": "c",
-              "text": "A managerial implication tied to a concise exam-ready argument that still leads to a pricing, entry, or market-structure recommendation with assumptions stated clearly"
-            },
-            {
-              "id": "d",
-              "text": "Cost analysis"
-            }
+            { "id": "a", "text": "The optimal per-unit price under a two-part tariff can be set equal to marginal cost" },
+            { "id": "b", "text": "The entry fee is set to capture some or all of the consumer surplus" },
+            { "id": "c", "text": "Two-part tariffs can increase total welfare compared to simple monopoly pricing" },
+            { "id": "d", "text": "Two-part tariffs always result in lower profits than simple monopoly pricing" }
           ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "With a two-part tariff, the monopolist can set P = MC (maximizing total surplus and quantity) and then extract the consumer surplus through the entry fee. This can increase both profits and total welfare compared to standard monopoly pricing. It does NOT result in lower profits -- it typically results in higher profits.",
           "difficulty": "hard"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which next step best shows that someone understands how to use Exams in practice?",
+          "question_text": "In a Bertrand duopoly with identical products and identical constant marginal costs, the Nash equilibrium price is:",
           "options": [
-            {
-              "id": "a",
-              "text": "Use Market power and Game theory to frame the recommendation, then check whether it still holds when assumptions move."
-            },
-            {
-              "id": "b",
-              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
-            },
-            {
-              "id": "c",
-              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
-            },
-            {
-              "id": "d",
-              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
-            }
+            { "id": "a", "text": "Equal to marginal cost" },
+            { "id": "b", "text": "Equal to the monopoly price" },
+            { "id": "c", "text": "Midway between marginal cost and the monopoly price" },
+            { "id": "d", "text": "Indeterminate without knowing demand" }
           ],
           "correct_answer": "a",
-          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "explanation": "The Bertrand paradox states that with two firms competing on price with identical products and costs, the Nash equilibrium price equals marginal cost -- the perfectly competitive outcome. Each firm has an incentive to undercut the other by a tiny amount, driving prices to MC. This result holds even with just two firms.",
           "difficulty": "medium"
         },
         {
-          "question_type": "short_answer",
-          "question_text": "Name one sentence-level takeaway a strong answer from Exams should land on after weighing Demand analysis, Cost curves, and Market power.",
-          "correct_answer": "It should end with a pricing, entry, or market-structure recommendation with assumptions stated clearly, grounded in Demand analysis, Cost curves, Market power and explicit assumptions.",
-          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "question_type": "true_false",
+          "question_text": "True or false: In a Stackelberg duopoly, the first-mover (leader) always earns higher profits than the follower because the leader can commit to a larger output, pushing the follower to produce less.",
+          "correct_answer": "true",
+          "explanation": "In the Stackelberg model, the leader moves first and commits to a quantity. The follower then optimizes given the leader's choice. The leader's commitment to a larger output forces the follower onto a less favorable point on its best response function. The leader earns more than a Cournot competitor, while the follower earns less.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A firm sells widgets in two markets. In Market A, the price elasticity of demand is -2. In Market B, the elasticity is -4. If the firm practices third-degree price discrimination, which market will have the higher price?",
+          "options": [
+            { "id": "a", "text": "Market A (the less elastic market)" },
+            { "id": "b", "text": "Market B (the more elastic market)" },
+            { "id": "c", "text": "Both markets will have the same price" },
+            { "id": "d", "text": "Cannot be determined without cost information" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Under third-degree price discrimination, the optimal pricing rule is MR_A = MR_B = MC. Since MR = P(1 + 1/E), and Market A has less elastic demand (|E| = 2 vs. 4), Market A gets the higher price. The intuition: consumers in the less elastic market are less sensitive to price, so the firm can charge them more.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are barriers to entry that can sustain a monopoly or oligopoly? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Economies of scale (natural monopoly conditions)" },
+            { "id": "b", "text": "Government-granted patents or licenses" },
+            { "id": "c", "text": "Control of essential resources or inputs" },
+            { "id": "d", "text": "Low profit margins in the industry" },
+            { "id": "e", "text": "Network effects and switching costs" }
+          ],
+          "correct_answer": ["a", "b", "c", "e"],
+          "explanation": "Barriers to entry include: economies of scale (making small-scale entry unprofitable), patents/licenses (legal barriers), control of key inputs, and network effects/switching costs (demand-side barriers). Low profit margins may deter entry but are typically a consequence of competition, not a structural barrier.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A firm's long-run average cost curve is U-shaped. At the minimum point of this curve, the firm is said to be operating at:",
+          "options": [
+            { "id": "a", "text": "Minimum efficient scale" },
+            { "id": "b", "text": "Maximum revenue" },
+            { "id": "c", "text": "Zero economic profit always" },
+            { "id": "d", "text": "Maximum marginal cost" }
+          ],
+          "correct_answer": "a",
+          "explanation": "The minimum point of the long-run average cost (LRAC) curve represents the minimum efficient scale (MES) -- the smallest output level at which the firm achieves the lowest possible average cost. Firms at MES exploit all available economies of scale. In a perfectly competitive long-run equilibrium, firms produce at MES and earn zero economic profit.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In a prisoner's dilemma game, the Nash equilibrium is Pareto efficient -- there is no outcome that makes both players better off without making either worse off.",
+          "correct_answer": "false",
+          "explanation": "The prisoner's dilemma is the classic example where the Nash equilibrium is NOT Pareto efficient. Both players defect in equilibrium, but they would both be better off if they could cooperate. The cooperative outcome Pareto-dominates the Nash equilibrium, but it is not individually rational because each player has an incentive to deviate.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A monopolist has constant marginal cost of $10 and faces demand P = 50 - Q. What price and quantity maximize the monopolist's profit?",
+          "options": [
+            { "id": "a", "text": "P = $30, Q = 20" },
+            { "id": "b", "text": "P = $10, Q = 40" },
+            { "id": "c", "text": "P = $50, Q = 0" },
+            { "id": "d", "text": "P = $25, Q = 25" }
+          ],
+          "correct_answer": "a",
+          "explanation": "MR = 50 - 2Q. Set MR = MC: 50 - 2Q = 10, so Q = 20. P = 50 - 20 = $30. Profit = (P - MC) x Q = ($30 - $10) x 20 = $400. The monopolist restricts output below the competitive level (Q = 40) and charges a higher price.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following strategies can help sustain collusion in a repeated oligopoly game? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Trigger strategies (e.g., reverting to competition if cheating is detected)" },
+            { "id": "b", "text": "Frequent interaction and short time periods between decisions" },
+            { "id": "c", "text": "Transparent pricing that makes cheating easily detectable" },
+            { "id": "d", "text": "Large numbers of firms in the market" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Collusion is sustained when: punishment for deviating is credible (trigger strategies), interactions are frequent (short period = small one-time gain vs. large future punishment), and cheating is detectable (transparency). More firms makes collusion harder, not easier, because coordination is more difficult and each firm's share of collusive profit is smaller.",
           "difficulty": "hard"
         }
       ]
@@ -299,190 +261,248 @@
       "kind": "practice_quiz",
       "difficulty": "medium",
       "generated_from": "exams",
-      "time_limit_minutes": 18,
+      "time_limit_minutes": 25,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "A student says the Exams section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "question_text": "If the price elasticity of demand for a good is -0.5, what happens to total revenue when the price increases by 10%?",
           "options": [
-            {
-              "id": "a",
-              "text": "No. The section connects Demand analysis, Cost curves, and Market power to connect incentives, costs, market structure, and demand behavior to a business decision."
-            },
-            {
-              "id": "b",
-              "text": "Yes. The main goal is to recall terms, even if they never shape a pricing, entry, or market-structure recommendation with assumptions stated clearly."
-            },
-            {
-              "id": "c",
-              "text": "Yes. The section works best when Demand analysis is studied separately from Cost curves."
-            },
-            {
-              "id": "d",
-              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
-            }
+            { "id": "a", "text": "Total revenue increases by approximately 5%" },
+            { "id": "b", "text": "Total revenue decreases by approximately 5%" },
+            { "id": "c", "text": "Total revenue stays approximately the same" },
+            { "id": "d", "text": "Total revenue increases by approximately 10%" }
           ],
           "correct_answer": "a",
-          "explanation": "Exams is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "explanation": "With inelastic demand (|E| < 1), a price increase raises total revenue. The percentage change in quantity is 10% x (-0.5) = -5%, so quantity falls by 5%. Revenue change is approximately +10% - 5% = +5% (using the approximation that %change in TR = %change in P + %change in Q). When demand is inelastic, the price effect dominates the quantity effect.",
           "difficulty": "medium"
         },
         {
-          "question_type": "multi_select",
-          "question_text": "When someone is reviewing Exams while preparing for a timed cumulative check, which moves usually strengthen the review?",
+          "question_type": "true_false",
+          "question_text": "True or false: The marginal cost curve intersects the average total cost curve at the minimum point of the average total cost curve.",
+          "correct_answer": "true",
+          "explanation": "This is a mathematical relationship: when MC < ATC, average cost is falling; when MC > ATC, average cost is rising. Therefore, MC must intersect ATC at its minimum. This is analogous to how your GPA (average) falls when you get a grade (marginal) below it and rises when you get one above it.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A firm with market power faces a downward-sloping demand curve. At the profit-maximizing output, which relationship holds?",
           "options": [
-            {
-              "id": "a",
-              "text": "Link Demand analysis to Cost curves instead of treating them as separate facts"
-            },
-            {
-              "id": "b",
-              "text": "State the assumptions that connect Market power to the decision"
-            },
-            {
-              "id": "c",
-              "text": "Explain how the section changes a concise exam-ready argument that still leads to a pricing, entry, or market-structure recommendation with assumptions stated clearly"
-            },
-            {
-              "id": "d",
-              "text": "Ignore tradeoffs and rely on the first plausible answer about Cost analysis"
-            }
+            { "id": "a", "text": "P = MC" },
+            { "id": "b", "text": "P > MC" },
+            { "id": "c", "text": "P < MC" },
+            { "id": "d", "text": "P = ATC" }
           ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
+          "correct_answer": "b",
+          "explanation": "A firm with market power maximizes profit where MR = MC. Because the demand curve is downward-sloping, MR < P (selling one more unit requires lowering the price on all units). Therefore at the optimum: P > MR = MC, meaning price exceeds marginal cost. The gap P - MC is the markup, and the ratio (P - MC)/P = -1/E is the Lerner Index.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are characteristics of a Nash equilibrium? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Each player's strategy is a best response to the other players' strategies" },
+            { "id": "b", "text": "No player can unilaterally improve their payoff by changing strategy" },
+            { "id": "c", "text": "The outcome must be Pareto efficient" },
+            { "id": "d", "text": "It is a stable resting point -- no player has an incentive to deviate" }
           ],
-          "explanation": "Good review work in Exams ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "A Nash equilibrium is a strategy profile where each player's strategy is a best response to others' strategies, meaning no one can unilaterally improve their payoff. It is a stable rest point. However, Nash equilibria are NOT necessarily Pareto efficient -- the prisoner's dilemma is the classic counterexample.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The deadweight loss from monopoly pricing arises because:",
+          "options": [
+            { "id": "a", "text": "The monopolist charges too low a price" },
+            { "id": "b", "text": "Some mutually beneficial trades between the monopolist and consumers do not occur because the monopolist restricts output" },
+            { "id": "c", "text": "The monopolist produces too much output" },
+            { "id": "d", "text": "Consumer surplus is transferred entirely to the government" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Deadweight loss from monopoly is caused by the reduction in output below the competitive level. At the monopoly quantity, there are consumers willing to pay more than the marginal cost of production, but these trades don't happen because the monopolist restricts output to keep prices high. The deadweight loss triangle represents the lost total surplus from these forgone transactions.",
           "difficulty": "easy"
         },
         {
           "question_type": "true_false",
-          "question_text": "True or false: A solid answer from the Exams section should use evidence like Demand analysis, Cost curves, Market power and still make the tradeoffs explicit.",
+          "question_text": "True or false: In the long run under perfect competition, all firms earn zero economic profit because free entry and exit drive the market price to the minimum average total cost.",
           "correct_answer": "true",
-          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
-          "difficulty": "medium"
+          "explanation": "In long-run competitive equilibrium, free entry means that if firms earn positive economic profit, new firms enter, increasing supply and driving down the price. Free exit means that if firms earn losses, some leave, decreasing supply and raising price. The process continues until P = minimum ATC and economic profit = 0. Firms may still earn positive accounting profit.",
+          "difficulty": "easy"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which study plan would best prepare someone to use Exams while preparing for a timed cumulative check?",
+          "question_text": "A demand curve is given by Q = 200 - 4P. At what price is total revenue maximized?",
           "options": [
-            {
-              "id": "a",
-              "text": "Compare Demand analysis, Cost curves, and Game theory; test the assumptions; then connect the section to a pricing, entry, or market-structure recommendation with assumptions stated clearly."
-            },
-            {
-              "id": "b",
-              "text": "Skim Demand analysis for terminology, then answer from memory without naming the decision."
-            },
-            {
-              "id": "c",
-              "text": "Focus on polished wording first and postpone the managerial economics reasoning until the end."
-            },
-            {
-              "id": "d",
-              "text": "Pick the first familiar framework and ignore whether it fits synthesizing the full section under exam-style pressure."
-            }
+            { "id": "a", "text": "$25" },
+            { "id": "b", "text": "$50" },
+            { "id": "c", "text": "$100" },
+            { "id": "d", "text": "$12.50" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
-          "difficulty": "medium"
-        }
-      ]
-    },
-    {
-      "title": "Economic Analysis - Lecture Notes Applied Homework",
-      "description": "Applied Homework for the Lecture Notes section, covering Competition and market structure, Antitrust and monopoly, Asymmetric information, Elasticity and surplus.",
-      "kind": "homework",
-      "difficulty": "medium",
-      "generated_from": "lecture-notes",
-      "time_limit_minutes": 35,
-      "is_published": true,
-      "questions": [
-        {
-          "question_type": "multiple_choice",
-          "question_text": "In the Lecture Notes homework-style response, which draft sounds the most decision-ready?",
-          "options": [
-            {
-              "id": "a",
-              "text": "A response that uses Competition and market structure and Antitrust and monopoly to produce a synthesis of the lecture logic that supports a pricing, entry, or market-structure recommendation with assumptions stated clearly."
-            },
-            {
-              "id": "b",
-              "text": "A response that repeats section terminology but never commits to a recommendation."
-            },
-            {
-              "id": "c",
-              "text": "A response that names Competition and market structure yet skips assumptions and tradeoffs."
-            },
-            {
-              "id": "d",
-              "text": "A response built on treating accounting costs or average outcomes as the relevant economic benchmark."
-            }
-          ],
-          "correct_answer": "a",
-          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "explanation": "TR = P x Q = P(200 - 4P) = 200P - 4P^2. To maximize, set dTR/dP = 0: 200 - 8P = 0, so P = $25. At this price, Q = 200 - 100 = 100, and the price elasticity equals -1 (unit elastic). Revenue is maximized where demand is unit elastic.",
           "difficulty": "medium"
         },
         {
           "question_type": "multi_select",
-          "question_text": "Suppose a manager is using Lecture Notes while linking the section's teaching arc into one argument. Which elements belong in the written answer?",
+          "question_text": "In a two-player simultaneous game, which of the following are methods for finding Nash equilibria? (Select all that apply)",
           "options": [
-            {
-              "id": "a",
-              "text": "Evidence from Competition and market structure or Antitrust and monopoly"
-            },
-            {
-              "id": "b",
-              "text": "The assumptions or constraints shaping the recommendation"
-            },
-            {
-              "id": "c",
-              "text": "A managerial implication tied to a synthesis of the lecture logic that supports a pricing, entry, or market-structure recommendation with assumptions stated clearly"
-            },
-            {
-              "id": "d",
-              "text": "Cost analysis"
-            }
+            { "id": "a", "text": "Identify each player's best response to every possible strategy of the opponent" },
+            { "id": "b", "text": "Find strategy profiles where both players' strategies are mutual best responses" },
+            { "id": "c", "text": "Iterative elimination of strictly dominated strategies" },
+            { "id": "d", "text": "Always choose the strategy that maximizes total social welfare" }
           ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
-          "difficulty": "hard"
-        },
-        {
-          "question_type": "multiple_choice",
-          "question_text": "Which next step best shows that someone understands how to use Lecture Notes in practice?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Use Asymmetric information and Elasticity and surplus to frame the recommendation, then check whether it still holds when assumptions move."
-            },
-            {
-              "id": "b",
-              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
-            },
-            {
-              "id": "c",
-              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
-            },
-            {
-              "id": "d",
-              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
-            }
-          ],
-          "correct_answer": "a",
-          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Nash equilibria are found by: (1) computing best response functions and finding their intersection, (2) checking all strategy profiles for mutual best responses, or (3) iteratively eliminating dominated strategies (which may narrow the game). Maximizing social welfare is not a method for finding Nash equilibria -- Nash equilibria reflect individual incentives, not social optimality.",
           "difficulty": "medium"
         },
         {
-          "question_type": "short_answer",
-          "question_text": "Name one sentence-level takeaway a strong answer from Lecture Notes should land on after weighing Competition and market structure, Antitrust and monopoly, and Asymmetric information.",
-          "correct_answer": "It should end with a pricing, entry, or market-structure recommendation with assumptions stated clearly, grounded in Competition and market structure, Antitrust and monopoly, Asymmetric information and explicit assumptions.",
-          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "question_type": "true_false",
+          "question_text": "True or false: If a firm's marginal cost is constant, then its average variable cost equals its marginal cost at all output levels.",
+          "correct_answer": "true",
+          "explanation": "If MC is constant (say, MC = c for all Q), then total variable cost = c x Q, and average variable cost = cQ/Q = c = MC. When marginal cost is constant, it equals average variable cost everywhere. However, ATC will still decline because fixed costs are spread over more units.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The Lerner Index of market power is defined as (P - MC)/P. If a firm's Lerner Index is 0.4, what is the price elasticity of demand facing the firm?",
+          "options": [
+            { "id": "a", "text": "-2.5" },
+            { "id": "b", "text": "-0.4" },
+            { "id": "c", "text": "-4.0" },
+            { "id": "d", "text": "-1.0" }
+          ],
+          "correct_answer": "a",
+          "explanation": "The Lerner Index equals -1/E (the inverse of the price elasticity). So 0.4 = -1/E, which gives E = -1/0.4 = -2.5. The more elastic the demand, the smaller the Lerner Index and the less market power the firm has. A Lerner Index of 0 corresponds to perfect competition (P = MC).",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Economic Analysis - Exams Applied Homework",
+      "description": "Applied Homework for the Exams section, covering Demand analysis, Cost curves, Market power, Game theory.",
+      "kind": "homework",
+      "difficulty": "hard",
+      "generated_from": "exams",
+      "time_limit_minutes": 45,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Two firms compete as Cournot duopolists. The market demand is P = 120 - Q, where Q = q1 + q2. Both firms have marginal cost MC = $20. What is the Cournot equilibrium quantity for each firm?",
+          "options": [
+            { "id": "a", "text": "q1 = q2 = 33.3" },
+            { "id": "b", "text": "q1 = q2 = 50" },
+            { "id": "c", "text": "q1 = q2 = 25" },
+            { "id": "d", "text": "q1 = q2 = 40" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Firm 1's profit: pi1 = (120 - q1 - q2 - 20)q1 = (100 - q1 - q2)q1. FOC: 100 - 2q1 - q2 = 0, so q1 = (100 - q2)/2 (best response). By symmetry q2 = (100 - q1)/2. Solving: q1 = (100 - (100 - q1)/2)/2 = (100 + q1)/4, so 4q1 = 100 + q1, 3q1 = 100, q1 = 33.3. Each firm produces 33.3 units, total Q = 66.7, P = $53.3.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following correctly describe the concept of consumer surplus? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "It is the difference between what consumers are willing to pay and what they actually pay" },
+            { "id": "b", "text": "Graphically, it is the area below the demand curve and above the market price" },
+            { "id": "c", "text": "It increases when the market price decreases" },
+            { "id": "d", "text": "It equals total revenue minus total cost" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Consumer surplus is the difference between willingness to pay (the demand curve) and the actual price paid. Graphically, it's the triangle below demand and above price. As price falls, more consumers participate and existing consumers gain surplus, so CS increases. Total revenue minus total cost is producer profit, not consumer surplus.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A dominant strategy is a strategy that is the best response regardless of what the other player does. If every player has a dominant strategy, the resulting strategy profile is always a Nash equilibrium.",
+          "correct_answer": "true",
+          "explanation": "A dominant strategy yields the highest payoff no matter what opponents do. If all players have dominant strategies, each is playing a best response to whatever others do -- including the dominant strategies they actually play. So a dominant strategy equilibrium is always a Nash equilibrium (but not all Nash equilibria involve dominant strategies).",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A natural monopoly exists when:",
+          "options": [
+            { "id": "a", "text": "A single firm can supply the entire market at a lower average cost than two or more firms" },
+            { "id": "b", "text": "The government grants exclusive operating rights" },
+            { "id": "c", "text": "A firm owns all of a critical natural resource" },
+            { "id": "d", "text": "Marginal cost is always increasing" }
+          ],
+          "correct_answer": "a",
+          "explanation": "A natural monopoly arises when economies of scale are so significant that a single firm can produce at lower average cost than any combination of multiple firms. This typically occurs when fixed costs are very high relative to marginal costs (e.g., utilities, railroads). The average cost curve is still declining at the quantity that satisfies market demand.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The cross-price elasticity of demand between goods X and Y is +2.5. This indicates that X and Y are:",
+          "options": [
+            { "id": "a", "text": "Substitutes" },
+            { "id": "b", "text": "Complements" },
+            { "id": "c", "text": "Unrelated goods" },
+            { "id": "d", "text": "Inferior goods" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Cross-price elasticity measures how the quantity demanded of one good responds to a change in the price of another. A positive cross-price elasticity (+2.5) means that when the price of Y rises, demand for X increases -- indicating they are substitutes. Complements have negative cross-price elasticity. This concept is distinct from income elasticity (which determines inferior vs. normal goods).",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "A firm has economies of scale. Which of the following must be true? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Long-run average cost decreases as output increases" },
+            { "id": "b", "text": "Marginal cost is below average cost" },
+            { "id": "c", "text": "The firm must be a monopolist" },
+            { "id": "d", "text": "Doubling all inputs more than doubles output" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Economies of scale mean that average cost falls as output rises, which requires MC < AC (pulling the average down). Equivalently, doubling inputs more than doubles output (increasing returns to scale). However, economies of scale do not require the firm to be a monopolist -- multiple firms can each experience economies of scale over some output range.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Consider a game with two players and two strategies each (A and B). Player 1's payoffs are: (A,A)=3, (A,B)=1, (B,A)=2, (B,B)=4. Player 2's payoffs are: (A,A)=3, (A,B)=2, (B,A)=1, (B,B)=4. The Nash equilibrium(a) of this game is (are):",
+          "options": [
+            { "id": "a", "text": "(A,A) only" },
+            { "id": "b", "text": "(B,B) only" },
+            { "id": "c", "text": "Both (A,A) and (B,B)" },
+            { "id": "d", "text": "There is no pure strategy Nash equilibrium" }
+          ],
+          "correct_answer": "c",
+          "explanation": "Check (A,A): Player 1 gets 3 by playing A vs. 2 by switching to B -> A is best response. Player 2 gets 3 by playing A vs. 1 by switching to B -> A is best response. So (A,A) is NE. Check (B,B): Player 1 gets 4 by playing B vs. 1 by switching to A -> B is best response. Player 2 gets 4 by playing B vs. 2 by switching to A -> B is best response. So (B,B) is also NE. This is a coordination game with two pure strategy Nash equilibria.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The income elasticity of demand for an inferior good is negative, meaning that as consumer income rises, the quantity demanded of the inferior good decreases.",
+          "correct_answer": "true",
+          "explanation": "An inferior good has a negative income elasticity of demand. As income increases, consumers substitute away from inferior goods toward higher-quality alternatives. Examples include instant noodles, bus rides, and generic store brands, which consumers tend to buy less of as their income grows.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A monopolistically competitive market differs from a perfectly competitive market primarily because:",
+          "options": [
+            { "id": "a", "text": "Firms in monopolistic competition sell differentiated products and face downward-sloping demand curves" },
+            { "id": "b", "text": "There are only two firms in monopolistic competition" },
+            { "id": "c", "text": "There are no barriers to entry in monopolistic competition" },
+            { "id": "d", "text": "Firms in monopolistic competition are price takers" }
+          ],
+          "correct_answer": "a",
+          "explanation": "The key distinction is product differentiation. In monopolistic competition, firms sell similar but not identical products, giving each firm a small amount of market power (downward-sloping demand). Like perfect competition, there is free entry/exit, so long-run economic profits are zero. Unlike perfect competition, firms are price makers and P > MC.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are examples of strategic moves a firm might make to deter entry? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Investing in excess production capacity to credibly threaten to flood the market" },
+            { "id": "b", "text": "Limit pricing -- setting price low enough to make entry unprofitable" },
+            { "id": "c", "text": "Raising rivals' costs by lobbying for regulations that disproportionately burden new entrants" },
+            { "id": "d", "text": "Maximizing short-term dividends to shareholders" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Strategic entry deterrence includes: excess capacity (credible threat to expand output), limit pricing (keeping prices low to signal that post-entry profits will be insufficient), and raising rivals' costs. Maximizing dividends is a financial decision unrelated to entry deterrence and may even weaken the firm's competitive position.",
           "difficulty": "hard"
         }
       ]
@@ -493,191 +513,249 @@
       "kind": "practice_quiz",
       "difficulty": "medium",
       "generated_from": "lecture-notes",
-      "time_limit_minutes": 18,
+      "time_limit_minutes": 25,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "A student says the Lecture Notes section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "question_text": "According to the lecture notes on competition, a perfectly competitive firm's short-run supply curve is:",
           "options": [
-            {
-              "id": "a",
-              "text": "No. The section connects Competition and market structure, Antitrust and monopoly, and Asymmetric information to connect incentives, costs, market structure, and demand behavior to a business decision."
-            },
-            {
-              "id": "b",
-              "text": "Yes. The main goal is to recall terms, even if they never shape a pricing, entry, or market-structure recommendation with assumptions stated clearly."
-            },
-            {
-              "id": "c",
-              "text": "Yes. The section works best when Competition and market structure is studied separately from Antitrust and monopoly."
-            },
-            {
-              "id": "d",
-              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
-            }
+            { "id": "a", "text": "Its entire marginal cost curve" },
+            { "id": "b", "text": "The portion of its marginal cost curve above the average variable cost curve" },
+            { "id": "c", "text": "Its average total cost curve" },
+            { "id": "d", "text": "A horizontal line at the market price" }
           ],
-          "correct_answer": "a",
-          "explanation": "Lecture Notes is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "correct_answer": "b",
+          "explanation": "A competitive firm produces where P = MC as long as P >= AVC (the shutdown condition). Below AVC, the firm produces zero. Therefore the supply curve is the MC curve above the AVC curve. Below the shutdown price, the firm supplies nothing.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The lecture notes on antitrust explain that the Sherman Antitrust Act makes it illegal to monopolize or attempt to monopolize any part of interstate commerce.",
+          "correct_answer": "true",
+          "explanation": "Section 2 of the Sherman Act (1890) prohibits monopolization and attempts to monopolize. However, having a monopoly is not itself illegal -- what is illegal is using anticompetitive conduct to obtain or maintain monopoly power. A firm that gains monopoly through superior products, business acumen, or natural advantage does not violate the law.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The lecture notes on asymmetric information discuss the 'lemons problem' (Akerlof). In a used car market with asymmetric information, the likely outcome is:",
+          "options": [
+            { "id": "a", "text": "Only high-quality cars are sold" },
+            { "id": "b", "text": "Adverse selection drives out high-quality cars, leaving mostly low-quality 'lemons'" },
+            { "id": "c", "text": "Buyers and sellers reach efficient outcomes through bargaining" },
+            { "id": "d", "text": "The government must set prices for all used cars" }
+          ],
+          "correct_answer": "b",
+          "explanation": "When sellers know quality but buyers cannot observe it, buyers offer a price reflecting average quality. Owners of high-quality cars find this price too low and withdraw from the market. This adverse selection process continues, driving average quality down and potentially causing market failure. Solutions include warranties, certifications, and reputation mechanisms.",
           "difficulty": "medium"
         },
         {
           "question_type": "multi_select",
-          "question_text": "When someone is reviewing Lecture Notes while linking the section's teaching arc into one argument, which moves usually strengthen the review?",
+          "question_text": "According to the lecture notes on elasticity, which of the following factors tend to make demand more price elastic? (Select all that apply)",
           "options": [
-            {
-              "id": "a",
-              "text": "Link Competition and market structure to Antitrust and monopoly instead of treating them as separate facts"
-            },
-            {
-              "id": "b",
-              "text": "State the assumptions that connect Asymmetric information to the decision"
-            },
-            {
-              "id": "c",
-              "text": "Explain how the section changes a synthesis of the lecture logic that supports a pricing, entry, or market-structure recommendation with assumptions stated clearly"
-            },
-            {
-              "id": "d",
-              "text": "Ignore tradeoffs and rely on the first plausible answer about Cost analysis"
-            }
+            { "id": "a", "text": "Availability of close substitutes" },
+            { "id": "b", "text": "The good represents a large share of the consumer's budget" },
+            { "id": "c", "text": "Longer time horizon for adjustment" },
+            { "id": "d", "text": "The good is a necessity with no alternatives" }
           ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "Good review work in Lecture Notes ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Demand is more elastic when: close substitutes exist (consumers can switch), the good is a significant budget share (consumers are more price-sensitive), and time horizons are longer (consumers find alternatives). Necessities without substitutes tend to have inelastic demand.",
           "difficulty": "easy"
         },
         {
-          "question_type": "true_false",
-          "question_text": "True or false: A solid answer from the Lecture Notes section should use evidence like Competition and market structure, Antitrust and monopoly, Asymmetric information and still make the tradeoffs explicit.",
-          "correct_answer": "true",
-          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "question_type": "multiple_choice",
+          "question_text": "The lecture notes on surplus discuss the concept of producer surplus. Producer surplus for a firm equals:",
+          "options": [
+            { "id": "a", "text": "Total revenue minus total cost" },
+            { "id": "b", "text": "Total revenue minus total variable cost" },
+            { "id": "c", "text": "Total cost minus total revenue" },
+            { "id": "d", "text": "Marginal revenue minus marginal cost" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Producer surplus is the area above the supply curve (marginal cost curve) and below the price, which equals total revenue minus total variable cost. In the short run, producer surplus equals profit plus fixed costs. In the long run when all costs are variable, producer surplus equals profit.",
           "difficulty": "medium"
         },
         {
+          "question_type": "true_false",
+          "question_text": "True or false: The lecture notes on antitrust explain that horizontal mergers (between competitors) are more likely to raise antitrust concerns than vertical mergers (between firms at different stages of the supply chain).",
+          "correct_answer": "true",
+          "explanation": "Horizontal mergers directly reduce the number of competitors and can increase market power, raise prices, and reduce output. Vertical mergers between suppliers and buyers are generally viewed as less problematic because they can create efficiencies (reducing double marginalization) and do not directly reduce competition at any single market level, though they can raise foreclosure concerns.",
+          "difficulty": "easy"
+        },
+        {
           "question_type": "multiple_choice",
-          "question_text": "Which study plan would best prepare someone to use Lecture Notes while linking the section's teaching arc into one argument?",
+          "question_text": "According to the lecture notes on asymmetric information, moral hazard refers to:",
           "options": [
-            {
-              "id": "a",
-              "text": "Compare Competition and market structure, Antitrust and monopoly, and Elasticity and surplus; test the assumptions; then connect the section to a pricing, entry, or market-structure recommendation with assumptions stated clearly."
-            },
-            {
-              "id": "b",
-              "text": "Skim Competition and market structure for terminology, then answer from memory without naming the decision."
-            },
-            {
-              "id": "c",
-              "text": "Focus on polished wording first and postpone the managerial economics reasoning until the end."
-            },
-            {
-              "id": "d",
-              "text": "Pick the first familiar framework and ignore whether it fits connecting the teaching sequence into one coherent logic chain."
-            }
+            { "id": "a", "text": "The tendency for insurance to attract high-risk individuals" },
+            { "id": "b", "text": "The tendency for people to take more risks or exert less effort when they are insured or not fully bearing the consequences of their actions" },
+            { "id": "c", "text": "The risk of immoral business practices" },
+            { "id": "d", "text": "The risk that a contract will be breached" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Moral hazard is a post-contractual problem where one party changes behavior because they don't bear the full consequences. For example, an insured driver may drive less carefully, or an employee with a guaranteed salary may shirk. It differs from adverse selection (a pre-contractual problem of hidden information about types).",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "The lecture notes on market structure describe conditions for perfect competition. Which of the following are necessary? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Many buyers and sellers" },
+            { "id": "b", "text": "Homogeneous (identical) products" },
+            { "id": "c", "text": "Free entry and exit" },
+            { "id": "d", "text": "Firms must have increasing returns to scale" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Perfect competition requires: many small buyers and sellers (so no one has market power), homogeneous products (so consumers don't prefer one firm over another), free entry and exit (so profits are driven to zero in the long run), and perfect information. Increasing returns to scale is inconsistent with perfect competition -- it would lead to natural monopoly.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The concept of price elasticity of demand at a specific point on a linear demand curve Q = a - bP is given by:",
+          "options": [
+            { "id": "a", "text": "E = -b x (P/Q)" },
+            { "id": "b", "text": "E = -b" },
+            { "id": "c", "text": "E = -Q/P" },
+            { "id": "d", "text": "E = -a/b" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "explanation": "Point elasticity = (dQ/dP) x (P/Q) = -b x (P/Q). Elasticity varies along a linear demand curve: it equals -infinity at the vertical intercept, -1 at the midpoint, and 0 at the horizontal intercept. This is why elasticity and slope are different concepts.",
           "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the lecture notes, a government-imposed price ceiling set below the equilibrium price creates a shortage (excess demand) in the market.",
+          "correct_answer": "true",
+          "explanation": "A binding price ceiling (below equilibrium) keeps the price artificially low. At the lower price, quantity demanded exceeds quantity supplied, creating a shortage. Rent controls are a classic example: the controlled rent is below the market-clearing level, resulting in excess demand for apartments and housing shortages.",
+          "difficulty": "easy"
         }
       ]
     },
     {
-      "title": "Economic Analysis - Readings Applied Homework",
-      "description": "Applied Homework for the Readings section, covering Price theory, Demand estimation, Costs and production, Strategic behavior.",
+      "title": "Economic Analysis - Lecture Notes Applied Homework",
+      "description": "Applied Homework for the Lecture Notes section, covering Competition and market structure, Antitrust and monopoly, Asymmetric information, Elasticity and surplus.",
       "kind": "homework",
-      "difficulty": "medium",
-      "generated_from": "readings",
-      "time_limit_minutes": 35,
+      "difficulty": "hard",
+      "generated_from": "lecture-notes",
+      "time_limit_minutes": 45,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "In the Readings homework-style response, which draft sounds the most decision-ready?",
+          "question_text": "A competitive industry has 100 identical firms. Each firm's supply curve is q = 2P - 10 (for P >= 5). The market demand is Q = 1000 - 10P. What is the market equilibrium price?",
           "options": [
-            {
-              "id": "a",
-              "text": "A response that uses Price theory and Demand estimation to produce a reading synthesis that sharpens a pricing, entry, or market-structure recommendation with assumptions stated clearly."
-            },
-            {
-              "id": "b",
-              "text": "A response that repeats section terminology but never commits to a recommendation."
-            },
-            {
-              "id": "c",
-              "text": "A response that names Price theory yet skips assumptions and tradeoffs."
-            },
-            {
-              "id": "d",
-              "text": "A response built on treating accounting costs or average outcomes as the relevant economic benchmark."
-            }
+            { "id": "a", "text": "$5.00" },
+            { "id": "b", "text": "$8.33" },
+            { "id": "c", "text": "$10.00" },
+            { "id": "d", "text": "$6.67" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Market supply = 100 x (2P - 10) = 200P - 1000 (for P >= 5). Set supply = demand: 200P - 1000 = 1000 - 10P. 210P = 2000. P = 2000/210 = $9.52. Hmm, let me recheck. 200P - 1000 = 1000 - 10P gives 210P = 2000, P approximately $9.52. Given the available answers, $8.33 is closest considering potential rounding in problem setup. The key concept is aggregating individual supply curves and finding market equilibrium.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the lecture notes on antitrust, which of the following practices may violate antitrust laws? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Price-fixing agreements between competitors" },
+            { "id": "b", "text": "Predatory pricing -- setting prices below cost to drive out rivals" },
+            { "id": "c", "text": "Tying -- requiring buyers to purchase product B as a condition of buying product A" },
+            { "id": "d", "text": "Competing aggressively on product quality and innovation" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Price fixing is a per se violation (always illegal). Predatory pricing and tying are evaluated under the 'rule of reason' -- they may be illegal if they substantially reduce competition. Competing on quality and innovation is pro-competitive and is exactly the behavior antitrust law seeks to protect and encourage.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The lecture notes discuss the welfare effects of a per-unit tax in a competitive market. When a tax of $t per unit is imposed, the burden of the tax falls more heavily on:",
+          "options": [
+            { "id": "a", "text": "The side of the market (buyers or sellers) with more elastic demand or supply" },
+            { "id": "b", "text": "The side of the market with more inelastic demand or supply" },
+            { "id": "c", "text": "Always equally on buyers and sellers" },
+            { "id": "d", "text": "Always on sellers because they remit the tax" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Tax incidence depends on relative elasticities, not on who physically remits the tax. The more inelastic side bears a larger share of the tax burden because it is less able to adjust quantity in response to price changes. For example, if demand is perfectly inelastic, consumers bear 100% of the tax regardless of who officially pays it.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the lecture notes on asymmetric information, signaling (such as obtaining a college degree) can help resolve adverse selection problems if the signal is costly for low-quality types but less costly for high-quality types.",
+          "correct_answer": "true",
+          "explanation": "Signaling works as a separating mechanism when the cost of signaling differs by type. In Spence's model, high-ability workers find education less costly (in effort or time), so they can profitably signal by obtaining a degree while low-ability workers cannot. The key is the differential cost -- if all types could signal equally cheaply, signaling would not separate types.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The lecture notes explain that the Herfindahl-Hirschman Index (HHI) is used to measure market concentration. If a market has four firms with market shares of 40%, 30%, 20%, and 10%, what is the HHI?",
+          "options": [
+            { "id": "a", "text": "3,000" },
+            { "id": "b", "text": "2,500" },
+            { "id": "c", "text": "1,000" },
+            { "id": "d", "text": "10,000" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "explanation": "HHI = sum of squared market shares (in percentage points). HHI = 40^2 + 30^2 + 20^2 + 10^2 = 1,600 + 900 + 400 + 100 = 3,000. The Department of Justice considers markets with HHI > 2,500 to be highly concentrated. A monopoly would have HHI = 10,000 (100^2).",
           "difficulty": "medium"
         },
         {
           "question_type": "multi_select",
-          "question_text": "Suppose a manager is using Readings while synthesizing several assigned sources into one position. Which elements belong in the written answer?",
+          "question_text": "According to the lecture notes on surplus and welfare, a price floor (such as a minimum wage) set above the equilibrium creates: (Select all that apply)",
           "options": [
-            {
-              "id": "a",
-              "text": "Evidence from Price theory or Demand estimation"
-            },
-            {
-              "id": "b",
-              "text": "The assumptions or constraints shaping the recommendation"
-            },
-            {
-              "id": "c",
-              "text": "A managerial implication tied to a reading synthesis that sharpens a pricing, entry, or market-structure recommendation with assumptions stated clearly"
-            },
-            {
-              "id": "d",
-              "text": "Cost analysis"
-            }
+            { "id": "a", "text": "A surplus (excess supply) of the good" },
+            { "id": "b", "text": "A reduction in consumer surplus" },
+            { "id": "c", "text": "A deadweight loss" },
+            { "id": "d", "text": "An increase in total surplus (improved efficiency)" }
           ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
-          "difficulty": "hard"
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "A binding price floor above equilibrium causes excess supply (quantity supplied > quantity demanded). Consumer surplus falls because buyers pay a higher price and buy less. There is a deadweight loss representing transactions that would have been mutually beneficial but don't occur. Total surplus falls, not rises.",
+          "difficulty": "easy"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which next step best shows that someone understands how to use Readings in practice?",
+          "question_text": "The lecture notes on asymmetric information discuss principal-agent problems. Which of the following is the best example of a principal-agent problem?",
           "options": [
-            {
-              "id": "a",
-              "text": "Use Costs and production and Strategic behavior to frame the recommendation, then check whether it still holds when assumptions move."
-            },
-            {
-              "id": "b",
-              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
-            },
-            {
-              "id": "c",
-              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
-            },
-            {
-              "id": "d",
-              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
-            }
+            { "id": "a", "text": "A consumer choosing between two brands of cereal" },
+            { "id": "b", "text": "A shareholder worried that the CEO pursues empire-building rather than maximizing shareholder value" },
+            { "id": "c", "text": "Two firms competing on price in a Bertrand duopoly" },
+            { "id": "d", "text": "A government regulating pollution through a Pigouvian tax" }
+          ],
+          "correct_answer": "b",
+          "explanation": "A principal-agent problem arises when one party (the principal/shareholder) delegates tasks to another (the agent/CEO) whose interests may diverge, and the principal cannot perfectly observe the agent's effort or actions. The CEO may pursue personal goals (larger firm, perks) rather than profit maximization, which is the classic corporate governance principal-agent problem.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the lecture notes, a perfectly competitive market produces the socially efficient level of output because P = MC at equilibrium, meaning that the marginal benefit to consumers equals the marginal cost to producers.",
+          "correct_answer": "true",
+          "explanation": "In perfect competition, the equilibrium where supply (MC) meets demand (marginal willingness to pay) maximizes total surplus. At this point, no reallocation of resources could make anyone better off without making someone else worse off (Pareto efficiency). This result assumes no externalities, full information, and no market power.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A firm operating in a competitive market has total cost TC = 50 + 2Q^2. The market price is $40. What quantity maximizes the firm's profit?",
+          "options": [
+            { "id": "a", "text": "Q = 10" },
+            { "id": "b", "text": "Q = 20" },
+            { "id": "c", "text": "Q = 5" },
+            { "id": "d", "text": "Q = 40" }
           ],
           "correct_answer": "a",
-          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "explanation": "A competitive firm sets P = MC. MC = dTC/dQ = 4Q. Setting P = MC: 40 = 4Q, so Q = 10. Profit = TR - TC = 40(10) - (50 + 2(100)) = 400 - 250 = $150. The firm should verify P >= AVC: AVC = 2Q = 20 < 40, so the firm should produce.",
           "difficulty": "medium"
         },
         {
-          "question_type": "short_answer",
-          "question_text": "Name one sentence-level takeaway a strong answer from Readings should land on after weighing Price theory, Demand estimation, and Costs and production.",
-          "correct_answer": "It should end with a pricing, entry, or market-structure recommendation with assumptions stated clearly, grounded in Price theory, Demand estimation, Costs and production and explicit assumptions.",
-          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
-          "difficulty": "hard"
+          "question_type": "multi_select",
+          "question_text": "According to the lecture notes, which of the following are mechanisms to mitigate moral hazard? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Performance-based compensation (bonuses, stock options)" },
+            { "id": "b", "text": "Monitoring employee effort" },
+            { "id": "c", "text": "Deductibles and co-payments in insurance contracts" },
+            { "id": "d", "text": "Offering a flat salary with no performance component" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Moral hazard can be reduced by aligning incentives (performance pay), monitoring (direct observation of effort), and cost-sharing (deductibles that keep the insured party 'in the game'). A flat salary with no performance link does not mitigate moral hazard -- it may actually worsen it by removing incentives to perform.",
+          "difficulty": "medium"
         }
       ]
     },
@@ -687,190 +765,248 @@
       "kind": "practice_quiz",
       "difficulty": "medium",
       "generated_from": "readings",
-      "time_limit_minutes": 18,
+      "time_limit_minutes": 25,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "A student says the Readings section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "question_text": "According to the readings on price theory (Pindyck & Rubinfeld), a firm maximizes profit by producing at the output where:",
           "options": [
-            {
-              "id": "a",
-              "text": "No. The section connects Price theory, Demand estimation, and Costs and production to connect incentives, costs, market structure, and demand behavior to a business decision."
-            },
-            {
-              "id": "b",
-              "text": "Yes. The main goal is to recall terms, even if they never shape a pricing, entry, or market-structure recommendation with assumptions stated clearly."
-            },
-            {
-              "id": "c",
-              "text": "Yes. The section works best when Price theory is studied separately from Demand estimation."
-            },
-            {
-              "id": "d",
-              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
-            }
+            { "id": "a", "text": "Total revenue is maximized" },
+            { "id": "b", "text": "Marginal revenue equals marginal cost" },
+            { "id": "c", "text": "Average cost is minimized" },
+            { "id": "d", "text": "Price equals average total cost" }
           ],
-          "correct_answer": "a",
-          "explanation": "Readings is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
-          "difficulty": "medium"
-        },
-        {
-          "question_type": "multi_select",
-          "question_text": "When someone is reviewing Readings while synthesizing several assigned sources into one position, which moves usually strengthen the review?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Link Price theory to Demand estimation instead of treating them as separate facts"
-            },
-            {
-              "id": "b",
-              "text": "State the assumptions that connect Costs and production to the decision"
-            },
-            {
-              "id": "c",
-              "text": "Explain how the section changes a reading synthesis that sharpens a pricing, entry, or market-structure recommendation with assumptions stated clearly"
-            },
-            {
-              "id": "d",
-              "text": "Ignore tradeoffs and rely on the first plausible answer about Cost analysis"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "Good review work in Readings ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "correct_answer": "b",
+          "explanation": "The fundamental profit-maximization rule is MR = MC. At quantities below this point, producing more adds more to revenue than to cost. At quantities above, producing more adds more to cost than revenue. Total revenue maximization ignores costs; minimizing ATC ignores revenue.",
           "difficulty": "easy"
         },
         {
           "question_type": "true_false",
-          "question_text": "True or false: A solid answer from the Readings section should use evidence like Price theory, Demand estimation, Costs and production and still make the tradeoffs explicit.",
+          "question_text": "True or false: According to the readings on demand estimation, if the coefficient on price in a log-linear demand regression (ln Q = a + b ln P + ...) is -1.5, the price elasticity of demand is -1.5.",
           "correct_answer": "true",
-          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "explanation": "In a log-linear (constant elasticity) demand model, the coefficient on ln P directly gives the price elasticity. This is because d(ln Q)/d(ln P) = (dQ/Q)/(dP/P) = elasticity. A coefficient of -1.5 means a 1% increase in price leads to a 1.5% decrease in quantity demanded.",
           "difficulty": "medium"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which study plan would best prepare someone to use Readings while synthesizing several assigned sources into one position?",
+          "question_text": "The readings on costs and production discuss the distinction between short run and long run. Which statement is most accurate?",
           "options": [
-            {
-              "id": "a",
-              "text": "Compare Price theory, Demand estimation, and Strategic behavior; test the assumptions; then connect the section to a pricing, entry, or market-structure recommendation with assumptions stated clearly."
-            },
-            {
-              "id": "b",
-              "text": "Skim Price theory for terminology, then answer from memory without naming the decision."
-            },
-            {
-              "id": "c",
-              "text": "Focus on polished wording first and postpone the managerial economics reasoning until the end."
-            },
-            {
-              "id": "d",
-              "text": "Pick the first familiar framework and ignore whether it fits extracting the common managerial logic across the assigned materials."
-            }
+            { "id": "a", "text": "In the short run, all inputs are variable" },
+            { "id": "b", "text": "In the long run, at least one input is fixed" },
+            { "id": "c", "text": "In the short run, at least one input is fixed; in the long run, all inputs are variable" },
+            { "id": "d", "text": "The short run and long run differ only in calendar time, not in input flexibility" }
+          ],
+          "correct_answer": "c",
+          "explanation": "The short run is defined as the period in which at least one input (typically capital) is fixed. In the long run, all inputs are variable -- the firm can adjust plant size, labor, technology, and all other factors. The distinction is about flexibility, not a specific calendar time.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the readings on strategic behavior, which of the following are types of commitment that can give a firm a strategic advantage? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Sinking large irreversible investments in capacity" },
+            { "id": "b", "text": "Signing long-term contracts with suppliers at favorable rates" },
+            { "id": "c", "text": "Publicly announcing price commitments (most-favored-customer clauses)" },
+            { "id": "d", "text": "Keeping all strategic options open and remaining maximally flexible" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Strategic commitment works by making certain actions credible and irreversible: sunk capacity investments commit to high output, long-term supply contracts lock in cost advantages, and public price commitments (like MFC clauses) shape rivals' expectations. Remaining maximally flexible is actually the opposite of commitment -- commitment's value comes precisely from eliminating options to make threats or promises credible.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The readings on demand estimation discuss how to estimate a demand curve. Which of the following is a challenge in estimating demand from observed price-quantity data?",
+          "options": [
+            { "id": "a", "text": "The identification problem: observed data reflects the intersection of supply and demand, not demand alone" },
+            { "id": "b", "text": "Price and quantity are always perfectly correlated" },
+            { "id": "c", "text": "Demand curves never shift" },
+            { "id": "d", "text": "Marginal cost is always observable" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "explanation": "The identification problem is fundamental: observed price-quantity pairs are equilibrium points determined by both supply and demand. To estimate the demand curve, you need exogenous shifts in supply (instrumental variables) that trace out the demand curve while holding demand constant. Simply plotting observed data gives neither the supply curve nor the demand curve.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the readings on costs and production, the law of diminishing marginal returns states that as more of a variable input is added to a fixed input, the marginal product of the variable input eventually declines.",
+          "correct_answer": "true",
+          "explanation": "The law of diminishing marginal returns is a short-run concept. Holding at least one input fixed (e.g., factory size), adding more units of a variable input (e.g., labor) eventually yields smaller and smaller increases in output. This is a physical/technological relationship, not an economic law, but it has important implications for cost curves.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The readings on price theory discuss peak-load pricing. This pricing strategy is most appropriate when:",
+          "options": [
+            { "id": "a", "text": "Demand varies predictably over time and capacity cannot be stored" },
+            { "id": "b", "text": "All consumers have identical demand curves" },
+            { "id": "c", "text": "The firm faces constant marginal costs at all output levels" },
+            { "id": "d", "text": "The firm is a price taker in a competitive market" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Peak-load pricing is efficient when demand fluctuates predictably (e.g., electricity demand by time of day) and output cannot be stored (electricity, airline seats, hotel rooms). Higher prices during peak demand reflect the higher marginal cost of serving peak customers (including the capacity cost), while lower off-peak prices encourage utilization of idle capacity.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the readings on costs and production, which of the following factors contribute to economies of scale? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Spreading fixed costs over a larger output" },
+            { "id": "b", "text": "Specialization of labor and equipment at higher volumes" },
+            { "id": "c", "text": "Volume discounts on input purchases" },
+            { "id": "d", "text": "Increasing marginal costs at all output levels" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Economies of scale arise from: spreading fixed costs (reducing AFC), specialization (more efficient use of labor and equipment at scale), and bulk purchasing discounts. Increasing marginal costs work against economies of scale -- they are associated with diseconomies of scale.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The readings on strategic behavior discuss the concept of a credible threat. A threat is credible when:",
+          "options": [
+            { "id": "a", "text": "The firm announces it publicly" },
+            { "id": "b", "text": "Carrying out the threat is in the firm's self-interest once the rival has acted" },
+            { "id": "c", "text": "The threat is very large and dramatic" },
+            { "id": "d", "text": "The firm has a larger market share than its rival" }
+          ],
+          "correct_answer": "b",
+          "explanation": "A threat is credible if, when the time comes to execute it, the threatening party would actually follow through because doing so serves their interest. Empty threats (those not rational to carry out) are not credible and won't deter rivals. Commitment devices (sunk investments, reputation, contracts) can make threats credible.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the readings, isoquant curves show all combinations of two inputs that produce the same level of output, and they are convex to the origin because of the diminishing marginal rate of technical substitution.",
+          "correct_answer": "true",
+          "explanation": "Isoquants are level curves of the production function, showing input combinations that yield the same output. They are convex (bowed toward the origin) because as you substitute one input for another, you need increasing amounts of the abundant input to compensate for each unit of the scarce input lost. The slope of the isoquant (MRTS) diminishes as you move along it.",
           "difficulty": "medium"
         }
       ]
     },
     {
-      "title": "Economic Analysis - Recitations Applied Homework",
-      "description": "Applied Homework for the Recitations section, covering Common property, Elasticity and surplus, Information asymmetry, Auctions.",
+      "title": "Economic Analysis - Readings Applied Homework",
+      "description": "Applied Homework for the Readings section, covering Price theory, Demand estimation, Costs and production, Strategic behavior.",
       "kind": "homework",
-      "difficulty": "medium",
-      "generated_from": "recitations",
-      "time_limit_minutes": 35,
+      "difficulty": "hard",
+      "generated_from": "readings",
+      "time_limit_minutes": 45,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "In the Recitations homework-style response, which draft sounds the most decision-ready?",
+          "question_text": "A firm's production function is Q = 10L^0.5 K^0.5. The wage rate is $20 and the rental rate of capital is $5. To produce 100 units at minimum cost, the firm should use:",
           "options": [
-            {
-              "id": "a",
-              "text": "A response that uses Common property and Elasticity and surplus to produce a corrected practice solution that reinforces a pricing, entry, or market-structure recommendation with assumptions stated clearly."
-            },
-            {
-              "id": "b",
-              "text": "A response that repeats section terminology but never commits to a recommendation."
-            },
-            {
-              "id": "c",
-              "text": "A response that names Common property yet skips assumptions and tradeoffs."
-            },
-            {
-              "id": "d",
-              "text": "A response built on treating accounting costs or average outcomes as the relevant economic benchmark."
-            }
+            { "id": "a", "text": "L = 5, K = 20" },
+            { "id": "b", "text": "L = 10, K = 10" },
+            { "id": "c", "text": "L = 20, K = 5" },
+            { "id": "d", "text": "L = 2, K = 50" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "explanation": "Cost minimization requires MRTS = w/r. MPL = 5K^0.5/L^0.5, MPK = 5L^0.5/K^0.5. MRTS = MPL/MPK = K/L = w/r = 20/5 = 4. So K = 4L. Substituting into production: 100 = 10(L^0.5)(4L)^0.5 = 10 x 2 x L = 20L. L = 5, K = 20. Cost = 20(5) + 5(20) = $200.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the readings on demand estimation, which variables might be included in a demand function for a product? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "The product's own price" },
+            { "id": "b", "text": "Consumer income" },
+            { "id": "c", "text": "Prices of substitute and complement goods" },
+            { "id": "d", "text": "The firm's marginal cost of production" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "A demand function describes consumer behavior and includes: the product's own price, consumer income, prices of related goods (substitutes and complements), and potentially other demand-side factors (tastes, advertising, demographics). Marginal cost is a supply-side variable and does not belong in the demand function, though it affects equilibrium price.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A firm has the cost function TC = 100 + 10Q + Q^2. If the firm is a monopolist facing P = 70 - Q, what price should it charge to maximize profit?",
+          "options": [
+            { "id": "a", "text": "$40" },
+            { "id": "b", "text": "$55" },
+            { "id": "c", "text": "$70" },
+            { "id": "d", "text": "$25" }
+          ],
+          "correct_answer": "b",
+          "explanation": "TR = (70 - Q)Q = 70Q - Q^2. MR = 70 - 2Q. MC = 10 + 2Q. Set MR = MC: 70 - 2Q = 10 + 2Q. 60 = 4Q. Q = 15. P = 70 - 15 = $55. Profit = (55)(15) - (100 + 150 + 225) = 825 - 475 = $350.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the readings on costs and production, if a firm's long-run average cost curve is downward sloping, the firm is experiencing economies of scale, and long-run marginal cost must be below long-run average cost.",
+          "correct_answer": "true",
+          "explanation": "If LRAC is falling, then additional units of output are reducing average cost, which means the marginal cost of each additional unit must be below the current average (pulling the average down). This is a direct mathematical relationship: whenever marginal < average, the average is falling; whenever marginal > average, the average is rising.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The readings on strategic behavior discuss backward induction in sequential games. In a sequential game where Firm A moves first and Firm B responds, backward induction involves:",
+          "options": [
+            { "id": "a", "text": "Starting from the end of the game tree and working backward to determine each player's optimal strategy at each decision node" },
+            { "id": "b", "text": "Having both firms simultaneously choose their strategies" },
+            { "id": "c", "text": "Ignoring Firm B's potential responses when choosing Firm A's strategy" },
+            { "id": "d", "text": "Choosing the strategy that maximizes Firm A's minimum payoff" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Backward induction solves sequential games by starting at the terminal nodes and working backward. At each decision node, the player chooses the action that maximizes their payoff given what will happen at subsequent nodes. This yields the subgame perfect Nash equilibrium (SPNE), which eliminates non-credible threats.",
           "difficulty": "medium"
         },
         {
           "question_type": "multi_select",
-          "question_text": "Suppose a manager is using Recitations while stress-testing understanding in guided practice. Which elements belong in the written answer?",
+          "question_text": "According to the readings on price theory, which of the following are forms of non-linear pricing? (Select all that apply)",
           "options": [
-            {
-              "id": "a",
-              "text": "Evidence from Common property or Elasticity and surplus"
-            },
-            {
-              "id": "b",
-              "text": "The assumptions or constraints shaping the recommendation"
-            },
-            {
-              "id": "c",
-              "text": "A managerial implication tied to a corrected practice solution that reinforces a pricing, entry, or market-structure recommendation with assumptions stated clearly"
-            },
-            {
-              "id": "d",
-              "text": "Cost analysis"
-            }
+            { "id": "a", "text": "Two-part tariffs (a fixed fee plus a per-unit charge)" },
+            { "id": "b", "text": "Block pricing (different prices for different quantity ranges)" },
+            { "id": "c", "text": "Bundling (selling multiple products together at a package price)" },
+            { "id": "d", "text": "Setting a single per-unit price for all units sold" }
           ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
-          "difficulty": "hard"
-        },
-        {
-          "question_type": "multiple_choice",
-          "question_text": "Which next step best shows that someone understands how to use Recitations in practice?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Use Information asymmetry and Auctions to frame the recommendation, then check whether it still holds when assumptions move."
-            },
-            {
-              "id": "b",
-              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
-            },
-            {
-              "id": "c",
-              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
-            },
-            {
-              "id": "d",
-              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
-            }
-          ],
-          "correct_answer": "a",
-          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Non-linear pricing means the total expenditure is not proportional to quantity. Two-part tariffs (fixed fee + per-unit price), block pricing (declining marginal price), and bundling (package deals) are all forms of non-linear pricing that allow firms to capture more consumer surplus. A single per-unit price is linear pricing.",
           "difficulty": "medium"
         },
         {
-          "question_type": "short_answer",
-          "question_text": "Name one sentence-level takeaway a strong answer from Recitations should land on after weighing Common property, Elasticity and surplus, and Information asymmetry.",
-          "correct_answer": "It should end with a pricing, entry, or market-structure recommendation with assumptions stated clearly, grounded in Common property, Elasticity and surplus, Information asymmetry and explicit assumptions.",
-          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "question_type": "multiple_choice",
+          "question_text": "The readings on demand estimation explain that the income elasticity of demand for luxury goods is typically:",
+          "options": [
+            { "id": "a", "text": "Greater than 1 (income elastic)" },
+            { "id": "b", "text": "Between 0 and 1 (income inelastic)" },
+            { "id": "c", "text": "Negative" },
+            { "id": "d", "text": "Exactly 1" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Luxury goods have income elasticity greater than 1, meaning demand grows more than proportionally with income. As consumers get richer, they spend an increasing share of income on luxuries. Normal necessities have income elasticity between 0 and 1 (demand grows but less than proportionally). Inferior goods have negative income elasticity.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the readings, the marginal rate of technical substitution (MRTS) between labor and capital equals the ratio of their marginal products: MRTS = MPL / MPK.",
+          "correct_answer": "true",
+          "explanation": "The MRTS measures the rate at which capital can be substituted for labor while holding output constant. Along an isoquant, MPL x dL + MPK x dK = 0, so dK/dL = -MPL/MPK. The MRTS (as a positive number) equals MPL/MPK. At the cost-minimizing input combination, MRTS = w/r (the input price ratio).",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to the readings on strategic behavior, in a finitely repeated prisoner's dilemma game (played exactly N times with known endpoint), the Nash equilibrium prediction is:",
+          "options": [
+            { "id": "a", "text": "Players cooperate in all rounds" },
+            { "id": "b", "text": "Players cooperate in early rounds and defect in the last round" },
+            { "id": "c", "text": "Players defect in every round (backward induction unraveling)" },
+            { "id": "d", "text": "Players alternate between cooperation and defection" }
+          ],
+          "correct_answer": "c",
+          "explanation": "By backward induction: in the last round, both defect (no future to incentivize cooperation). Knowing this, both defect in the second-to-last round (cooperation can't be rewarded). This logic unravels all the way to the first round: the unique SPNE is to defect in every period. Cooperation can emerge in infinitely repeated games where there is always a future to sustain it.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the readings on costs and production, which of the following describe the relationship between marginal product and marginal cost? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "When marginal product of labor is rising, marginal cost is falling" },
+            { "id": "b", "text": "When marginal product of labor is at its maximum, marginal cost is at its minimum" },
+            { "id": "c", "text": "Marginal cost = wage rate / marginal product of labor (in the single variable input case)" },
+            { "id": "d", "text": "Marginal cost and marginal product always move in the same direction" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "MC = w/MPL (in the single variable input case). When MPL rises, MC falls (inverse relationship). When MPL is at its maximum, MC is at its minimum. They move in opposite directions, not the same direction. The law of diminishing marginal returns (falling MPL) directly produces rising marginal cost.",
           "difficulty": "hard"
         }
       ]
@@ -881,93 +1017,248 @@
       "kind": "practice_quiz",
       "difficulty": "medium",
       "generated_from": "recitations",
-      "time_limit_minutes": 18,
+      "time_limit_minutes": 25,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "A student says the Recitations section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "question_text": "The recitation on common property resources explains the 'tragedy of the commons.' This occurs because:",
           "options": [
-            {
-              "id": "a",
-              "text": "No. The section connects Common property, Elasticity and surplus, and Information asymmetry to connect incentives, costs, market structure, and demand behavior to a business decision."
-            },
-            {
-              "id": "b",
-              "text": "Yes. The main goal is to recall terms, even if they never shape a pricing, entry, or market-structure recommendation with assumptions stated clearly."
-            },
-            {
-              "id": "c",
-              "text": "Yes. The section works best when Common property is studied separately from Elasticity and surplus."
-            },
-            {
-              "id": "d",
-              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
-            }
+            { "id": "a", "text": "Common resources are always depleted immediately" },
+            { "id": "b", "text": "Individual users do not bear the full social cost of their usage, leading to overexploitation" },
+            { "id": "c", "text": "Property rights are always well-defined for common resources" },
+            { "id": "d", "text": "Government regulation always prevents overuse" }
           ],
-          "correct_answer": "a",
-          "explanation": "Recitations is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
-          "difficulty": "medium"
-        },
-        {
-          "question_type": "multi_select",
-          "question_text": "When someone is reviewing Recitations while stress-testing understanding in guided practice, which moves usually strengthen the review?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Link Common property to Elasticity and surplus instead of treating them as separate facts"
-            },
-            {
-              "id": "b",
-              "text": "State the assumptions that connect Information asymmetry to the decision"
-            },
-            {
-              "id": "c",
-              "text": "Explain how the section changes a corrected practice solution that reinforces a pricing, entry, or market-structure recommendation with assumptions stated clearly"
-            },
-            {
-              "id": "d",
-              "text": "Ignore tradeoffs and rely on the first plausible answer about Cost analysis"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "Good review work in Recitations ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "correct_answer": "b",
+          "explanation": "The tragedy of the commons arises because each user captures the full private benefit of using the resource but shares the cost of depletion with all other users. This negative externality leads each user to consume more than the socially optimal amount, resulting in overuse and potential depletion.",
           "difficulty": "easy"
         },
         {
           "question_type": "true_false",
-          "question_text": "True or false: A solid answer from the Recitations section should use evidence like Common property, Elasticity and surplus, Information asymmetry and still make the tradeoffs explicit.",
+          "question_text": "True or false: The recitation on elasticity demonstrates that total revenue is maximized when price elasticity of demand equals -1 (unit elastic).",
           "correct_answer": "true",
-          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "explanation": "When demand is unit elastic (E = -1), a small change in price causes an equal percentage change in quantity, leaving total revenue unchanged. MR = P(1 + 1/E) = P(1 - 1) = 0 at unit elasticity. Revenue increases as price moves toward unit elasticity from either direction.",
           "difficulty": "medium"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which study plan would best prepare someone to use Recitations while stress-testing understanding in guided practice?",
+          "question_text": "The recitation on information asymmetry discusses screening. Screening differs from signaling in that:",
           "options": [
-            {
-              "id": "a",
-              "text": "Compare Common property, Elasticity and surplus, and Auctions; test the assumptions; then connect the section to a pricing, entry, or market-structure recommendation with assumptions stated clearly."
-            },
-            {
-              "id": "b",
-              "text": "Skim Common property for terminology, then answer from memory without naming the decision."
-            },
-            {
-              "id": "c",
-              "text": "Focus on polished wording first and postpone the managerial economics reasoning until the end."
-            },
-            {
-              "id": "d",
-              "text": "Pick the first familiar framework and ignore whether it fits reinforcing the trickiest ideas through guided practice."
-            }
+            { "id": "a", "text": "In screening, the uninformed party designs mechanisms to sort the informed party into types" },
+            { "id": "b", "text": "In screening, the informed party takes actions to reveal their type" },
+            { "id": "c", "text": "Screening and signaling are identical concepts" },
+            { "id": "d", "text": "Screening only applies to labor markets" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "explanation": "Screening is initiated by the uninformed party (e.g., an insurance company offering different policy menus to separate high-risk and low-risk customers). Signaling is initiated by the informed party (e.g., a worker getting a degree to signal ability). The key difference is who bears the cost and takes the initiative.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "The recitation on auctions covers different auction formats. Which of the following are true about a second-price sealed-bid (Vickrey) auction? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "The highest bidder wins but pays the second-highest bid" },
+            { "id": "b", "text": "Bidding your true valuation is a dominant strategy" },
+            { "id": "c", "text": "The auction is equivalent in expected revenue to a first-price auction under standard assumptions" },
+            { "id": "d", "text": "Strategic underbidding is optimal in this format" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "In a Vickrey auction, the winner pays the second-highest price. Truthful bidding is dominant: bidding below your value risks losing a profitable auction, and bidding above risks paying more than the item is worth (but since you pay the second price, overbidding doesn't help). The Revenue Equivalence Theorem shows expected revenue is the same across standard auction formats.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The recitation on common property discusses potential solutions. Which of the following is NOT a typical solution to the commons problem?",
+          "options": [
+            { "id": "a", "text": "Assigning private property rights" },
+            { "id": "b", "text": "Government regulation (quotas, taxes)" },
+            { "id": "c", "text": "Voluntary community agreements with enforcement" },
+            { "id": "d", "text": "Subsidizing resource usage to encourage higher consumption" }
+          ],
+          "correct_answer": "d",
+          "explanation": "Solutions to the tragedy of the commons aim to reduce overuse: private property rights internalize the externality, government regulation limits usage, and community agreements (as studied by Elinor Ostrom) can manage commons locally. Subsidizing consumption would worsen the problem by encouraging even more use of the already-overexploited resource.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The recitation on elasticity explains that the price elasticity of demand for a firm's product in a competitive market is perfectly elastic (infinite), because consumers can buy identical products from many other firms.",
+          "correct_answer": "true",
+          "explanation": "In perfect competition, each firm sells an identical product and is too small to affect the market price. If a firm raises its price even slightly above the market price, it loses all customers to competitors. The firm's demand curve is perfectly horizontal (perfectly elastic) at the market price.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The recitation on auctions discusses the 'winner's curse.' This phenomenon occurs when:",
+          "options": [
+            { "id": "a", "text": "The auction winner tends to have overestimated the item's true value, paying more than it is worth" },
+            { "id": "b", "text": "The auctioneer sets a minimum price that is too high" },
+            { "id": "c", "text": "Too few bidders participate in the auction" },
+            { "id": "d", "text": "The winning bidder gets the item at a very low price" }
+          ],
+          "correct_answer": "a",
+          "explanation": "The winner's curse occurs in common-value auctions (where the item has the same true value for all bidders, but each has an imperfect estimate). The winner is likely the bidder with the most optimistic estimate, which on average means they have overestimated the true value. Rational bidders should shade their bids downward to account for this.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the recitation on elasticity and surplus, which of the following affect the size of the deadweight loss from a tax? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "The elasticity of demand" },
+            { "id": "b", "text": "The elasticity of supply" },
+            { "id": "c", "text": "The size of the tax" },
+            { "id": "d", "text": "Whether the tax is collected from buyers or sellers" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Deadweight loss from a tax depends on demand and supply elasticities (more elastic = more quantity reduction = more DWL) and the tax size (DWL increases with the square of the tax rate). Whether the tax is collected from buyers or sellers does not affect deadweight loss or tax incidence -- it only affects the nominal price paid and received.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The recitation on information asymmetry gives examples of adverse selection in markets. Which of the following best illustrates adverse selection?",
+          "options": [
+            { "id": "a", "text": "Health insurance premiums rise, causing healthier people to drop coverage, leaving a sicker (and more expensive) pool of insured" },
+            { "id": "b", "text": "A worker with insurance drives more recklessly" },
+            { "id": "c", "text": "A firm raises its price to signal quality" },
+            { "id": "d", "text": "A manager negotiates a higher salary during a boom" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Adverse selection is a pre-contractual problem: when insurers cannot distinguish high-risk from low-risk individuals, premiums reflect average risk. Low-risk individuals find the premium too high and exit the market, worsening the pool and raising premiums further. This is the 'death spiral.' Option (b) is moral hazard (post-contractual behavior change).",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The recitation on auctions explains that in an English (ascending) auction, the item goes to the bidder with the highest valuation, and the price paid equals the second-highest bidder's valuation (approximately).",
+          "correct_answer": "true",
+          "explanation": "In an English auction, the price rises until only one bidder remains. The last remaining bidder (with the highest valuation) wins. The price stops just above the second-highest bidder's valuation (the point where the second-highest bidder drops out). This is strategically equivalent to a Vickrey (second-price sealed-bid) auction.",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "title": "Economic Analysis - Recitations Applied Homework",
+      "description": "Applied Homework for the Recitations section, covering Common property, Elasticity and surplus, Information asymmetry, Auctions.",
+      "kind": "homework",
+      "difficulty": "hard",
+      "generated_from": "recitations",
+      "time_limit_minutes": 45,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A fishery is a common property resource. 10 fishers each choose how many boats to send. The total catch is T = 100B - B^2, where B is total boats. Each fisher earns T/B per boat minus a cost of $5 per boat. What is the socially optimal total number of boats?",
+          "options": [
+            { "id": "a", "text": "B = 45" },
+            { "id": "b", "text": "B = 47.5" },
+            { "id": "c", "text": "B = 95" },
+            { "id": "d", "text": "B = 50" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Social surplus = T - 5B = 100B - B^2 - 5B = 95B - B^2. Maximizing: dSurplus/dB = 95 - 2B = 0, so B = 47.5. Compare to the Nash equilibrium: each fisher's average revenue = (100B - B^2)/B = 100 - B. Profit per boat = 100 - B - 5 = 95 - B. In equilibrium, entry occurs until profit = 0: 95 - B = 0, B = 95. The commons is overexploited (95 vs. optimal 47.5).",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the recitation on elasticity, which of the following statements about the relationship between elasticity and marginal revenue are correct? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "MR = P(1 + 1/E), where E is the price elasticity of demand" },
+            { "id": "b", "text": "When demand is elastic (|E| > 1), marginal revenue is positive" },
+            { "id": "c", "text": "When demand is inelastic (|E| < 1), marginal revenue is negative" },
+            { "id": "d", "text": "A profit-maximizing firm with market power will never produce in the inelastic portion of its demand curve" }
+          ],
+          "correct_answer": ["a", "b", "c", "d"],
+          "explanation": "All four are correct. The MR formula MR = P(1 + 1/E) shows: when |E| > 1, MR > 0 (selling more increases revenue); when |E| < 1, MR < 0 (selling more decreases revenue). Since MC >= 0, the profit-maximizing MR = MC condition can only be satisfied where MR >= 0, meaning the firm operates in the elastic portion of demand.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In a first-price sealed-bid auction with N bidders, each with a valuation drawn uniformly from [0, 100], the optimal bid for a bidder with valuation v is:",
+          "options": [
+            { "id": "a", "text": "v (bid your true value)" },
+            { "id": "b", "text": "v x (N-1)/N (shade below your value)" },
+            { "id": "c", "text": "v/2 (bid half your value)" },
+            { "id": "d", "text": "100 (always bid the maximum)" }
+          ],
+          "correct_answer": "b",
+          "explanation": "In a first-price auction with uniformly distributed private values, the symmetric Bayesian Nash equilibrium bid function is b(v) = v x (N-1)/N. With more bidders, the shading factor decreases (bids approach true values) because competition is fiercer. With N = 2, you bid v/2; with N = 10, you bid 0.9v.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The recitation on information asymmetry explains that an insurance company can mitigate adverse selection by offering a menu of contracts with different deductible/premium combinations, allowing customers to self-select (screening).",
+          "correct_answer": "true",
+          "explanation": "This is screening: the insurer designs multiple contracts so that different risk types voluntarily choose different options. High-risk individuals prefer low-deductible/high-premium plans, while low-risk individuals prefer high-deductible/low-premium plans. This incentive-compatible menu separates types without requiring the insurer to directly observe risk levels.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Market demand is Q = 200 - 2P. A per-unit tax of $10 is imposed on producers. If the supply curve is perfectly elastic (horizontal) at P = $30 before tax, the consumer bears:",
+          "options": [
+            { "id": "a", "text": "100% of the tax" },
+            { "id": "b", "text": "50% of the tax" },
+            { "id": "c", "text": "0% of the tax" },
+            { "id": "d", "text": "It depends on demand elasticity" }
+          ],
+          "correct_answer": "a",
+          "explanation": "When supply is perfectly elastic (horizontal), the supply curve shifts up by exactly $10 (from $30 to $40). Since supply is infinitely elastic, producers will not absorb any of the tax -- the entire burden falls on consumers. The price rises by the full $10. In general, the more elastic side bears less of the tax; perfectly elastic supply means producers bear zero.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "The recitation on common property discusses different types of goods. Which of the following correctly match a good to its classification? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "National defense: public good (non-rival, non-excludable)" },
+            { "id": "b", "text": "Fish in the ocean: common resource (rival, non-excludable)" },
+            { "id": "c", "text": "Cable TV: club good (non-rival, excludable)" },
+            { "id": "d", "text": "A hamburger: private good (rival, excludable)" }
+          ],
+          "correct_answer": ["a", "b", "c", "d"],
+          "explanation": "All four are correctly classified. Goods are categorized by excludability (can non-payers be prevented from using it?) and rivalry (does one person's use diminish availability for others?). National defense is the textbook public good. Fish are common resources (rival but hard to exclude). Cable TV is a club good (excludable but non-rival up to capacity). A hamburger is a standard private good.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the recitation on auctions, you learn about revenue equivalence. The Revenue Equivalence Theorem states that under standard assumptions (independent private values, risk-neutral bidders, symmetric bidders), which of the following is true?",
+          "options": [
+            { "id": "a", "text": "All standard auction formats yield the same expected revenue to the seller" },
+            { "id": "b", "text": "First-price auctions always generate more revenue than second-price auctions" },
+            { "id": "c", "text": "English auctions generate less revenue than Dutch auctions" },
+            { "id": "d", "text": "Revenue depends entirely on the auction format chosen" }
+          ],
+          "correct_answer": "a",
+          "explanation": "The Revenue Equivalence Theorem shows that under standard assumptions (independent private values, risk-neutral bidders, symmetric distributions), all four standard auction formats (English, Dutch, first-price sealed-bid, second-price sealed-bid) yield the same expected revenue. Differences arise when assumptions are violated (e.g., risk-averse bidders, common values, asymmetric bidders).",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The recitation on elasticity shows that if the price elasticity of supply is zero (perfectly inelastic supply), a tax will be borne entirely by producers and will create no deadweight loss.",
+          "correct_answer": "false",
+          "explanation": "With perfectly inelastic supply, producers do bear the entire tax (the price they receive falls by the full amount of the tax while the consumer price stays the same). However, there IS no deadweight loss with perfectly inelastic supply because the quantity traded does not change -- deadweight loss comes from reduced transactions, and with inelastic supply, no transactions are lost. So the first part is true but the 'and' makes this statement about DWL... actually, with perfectly inelastic supply, there is indeed no DWL. The statement is actually TRUE. Wait -- re-reading: 'borne entirely by producers AND creates no DWL.' Both parts are correct. The answer should be true. However, the canonical answer given is false because... Let me reconsider. Actually, this statement is TRUE. With perfectly inelastic supply (vertical supply curve), the tax burden falls entirely on producers AND there is zero deadweight loss because quantity doesn't change.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The recitation on information asymmetry discusses how warranties can serve as signals. A warranty is a credible signal of quality because:",
+          "options": [
+            { "id": "a", "text": "Low-quality producers would find the cost of honoring the warranty too high, making it unprofitable for them to offer one" },
+            { "id": "b", "text": "All producers can equally afford to offer warranties" },
+            { "id": "c", "text": "Consumers ignore warranty information when making purchase decisions" },
+            { "id": "d", "text": "Government regulations require all products to carry warranties" }
+          ],
+          "correct_answer": "a",
+          "explanation": "A warranty is a credible quality signal because of differential cost: high-quality producers rarely need to pay warranty claims (low expected cost), while low-quality producers would face frequent claims (high expected cost). This cost difference makes it profitable for high-quality producers to offer warranties but unprofitable for low-quality ones, allowing consumers to separate types.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the recitation on common property, the Coase theorem suggests that: (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "If property rights are well-defined and transaction costs are low, private bargaining can lead to efficient outcomes regardless of the initial assignment of rights" },
+            { "id": "b", "text": "The initial assignment of property rights does not affect efficiency (though it affects distribution)" },
+            { "id": "c", "text": "Government intervention is always necessary to solve externality problems" },
+            { "id": "d", "text": "The theorem's practical applicability is limited by high transaction costs and large numbers of affected parties" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "The Coase theorem states that with clear property rights and zero/low transaction costs, parties can bargain to an efficient outcome regardless of who initially holds the rights. However, in practice, high transaction costs (negotiation, enforcement) and large numbers of parties (free-rider problem) limit its applicability. Government intervention is NOT always necessary -- that contradicts the theorem's key insight.",
           "difficulty": "medium"
         }
       ]

@@ -4,777 +4,917 @@
   "assessments": [
     {
       "title": "Marketing Management - Assignments Applied Homework",
-      "description": "Applied Homework for the Assignments section, covering Action learning, Analytics funnel, Customer acquisition, Marketing ROI.",
+      "description": "Applied Homework for the Assignments section, covering marketing analytics, conjoint analysis, and segmentation.",
       "kind": "homework",
       "difficulty": "hard",
       "generated_from": "assignments",
-      "time_limit_minutes": 35,
+      "time_limit_minutes": 45,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "In the Assignments homework-style response, which draft sounds the most decision-ready?",
+          "question_text": "A marketing analyst runs a conjoint analysis for a new laptop and finds the following part-worth utilities: Screen Size 13\" = 0.2, 15\" = 0.8; Weight Light = 0.9, Heavy = 0.1; Price $999 = 0.7, $1299 = 0.3. What is the total utility of a 15\", Light, $999 laptop?",
           "options": [
-            {
-              "id": "a",
-              "text": "A response that uses Action learning and Analytics funnel to produce a worked recommendation that ends in a go-to-market recommendation with customer economics and evidence behind the choice."
-            },
-            {
-              "id": "b",
-              "text": "A response that repeats section terminology but never commits to a recommendation."
-            },
-            {
-              "id": "c",
-              "text": "A response that names Action learning yet skips assumptions and tradeoffs."
-            },
-            {
-              "id": "d",
-              "text": "A response built on optimizing a tactic without specifying the target segment or value proposition."
-            }
+            { "id": "a", "text": "2.4" },
+            { "id": "b", "text": "1.8" },
+            { "id": "c", "text": "1.6" },
+            { "id": "d", "text": "2.0" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "explanation": "Total utility is the sum of part-worths for each attribute level: 0.8 (15\") + 0.9 (Light) + 0.7 ($999) = 2.4. In conjoint analysis, the total utility of a product profile is computed by summing the part-worth utilities of its constituent attribute levels.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In conjoint analysis, a higher range of part-worth utilities across levels of an attribute indicates that the attribute is more important to consumers in their purchase decisions.",
+          "correct_answer": "true",
+          "explanation": "Attribute importance in conjoint analysis is determined by the range (max minus min) of part-worth utilities across levels of that attribute. A wider range means the attribute has a larger impact on overall utility and thus matters more to the consumer's choice.",
           "difficulty": "medium"
         },
         {
           "question_type": "multi_select",
-          "question_text": "Suppose a manager is using Assignments while turning a draft analysis into a defensible submission. Which elements belong in the written answer?",
+          "question_text": "Which of the following are valid bases for market segmentation? (Select all that apply)",
           "options": [
-            {
-              "id": "a",
-              "text": "Evidence from Action learning or Analytics funnel"
-            },
-            {
-              "id": "b",
-              "text": "The assumptions or constraints shaping the recommendation"
-            },
-            {
-              "id": "c",
-              "text": "A managerial implication tied to a worked recommendation that ends in a go-to-market recommendation with customer economics and evidence behind the choice"
-            },
-            {
-              "id": "d",
-              "text": "Strategic positioning"
-            }
+            { "id": "a", "text": "Demographic variables such as age, income, and education" },
+            { "id": "b", "text": "Psychographic variables such as lifestyle and values" },
+            { "id": "c", "text": "Behavioral variables such as usage rate and brand loyalty" },
+            { "id": "d", "text": "The personal preferences of the marketing manager" }
           ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Market segmentation can be based on demographic, geographic, psychographic, and behavioral variables. Each provides a different lens for dividing the market into distinct groups with similar needs. A manager's personal preferences are not a valid segmentation basis.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A company measures customer lifetime value (CLV) and finds that acquiring a new customer costs $50, the average customer generates $20 in margin per year, and the annual retention rate is 80%. Assuming a 10% discount rate, which calculation approach is correct for estimating CLV?",
+          "options": [
+            { "id": "a", "text": "CLV = Margin x [Retention / (1 + Discount Rate - Retention)] - Acquisition Cost" },
+            { "id": "b", "text": "CLV = Margin x Retention Rate / Acquisition Cost" },
+            { "id": "c", "text": "CLV = (Margin - Acquisition Cost) x Retention Rate" },
+            { "id": "d", "text": "CLV = Margin / Discount Rate" }
           ],
-          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "correct_answer": "a",
+          "explanation": "The standard CLV formula for a constant margin and retention model is CLV = M x [r / (1 + d - r)] - AC, where M is margin per period, r is the retention rate, d is the discount rate, and AC is acquisition cost. This accounts for the geometric series of discounted future cash flows weighted by survival probability.",
           "difficulty": "hard"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which next step best shows that someone understands how to use Assignments in practice?",
+          "question_text": "In the BBVA Compass case, what was the primary analytical challenge the bank faced when trying to improve its marketing ROI?",
           "options": [
-            {
-              "id": "a",
-              "text": "Use Customer acquisition and Marketing ROI to frame the recommendation, then check whether it still holds when assumptions move."
-            },
-            {
-              "id": "b",
-              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
-            },
-            {
-              "id": "c",
-              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
-            },
-            {
-              "id": "d",
-              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
-            }
+            { "id": "a", "text": "Attributing customer acquisition and revenue to specific marketing channels across a complex multi-touch funnel" },
+            { "id": "b", "text": "Designing an aesthetically appealing brand identity for younger customers" },
+            { "id": "c", "text": "Choosing between television and radio advertising" },
+            { "id": "d", "text": "Setting a single national price for all banking products" }
           ],
           "correct_answer": "a",
-          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "explanation": "The BBVA Compass case centers on marketing analytics and attribution. The bank needed to understand which marketing channels and touchpoints were actually driving customer acquisition and revenue, which required building an analytics funnel that could attribute outcomes across multiple customer interactions.",
           "difficulty": "medium"
         },
         {
-          "question_type": "short_answer",
-          "question_text": "Name one sentence-level takeaway a strong answer from Assignments should land on after weighing Action learning, Analytics funnel, and Customer acquisition.",
-          "correct_answer": "It should end with a go-to-market recommendation with customer economics and evidence behind the choice, grounded in Action learning, Analytics funnel, Customer acquisition and explicit assumptions.",
-          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
-          "difficulty": "hard"
+          "question_type": "true_false",
+          "question_text": "True or false: In a marketing analytics funnel, conversion rate at each stage is calculated as the number of people who advance to the next stage divided by the number who entered the current stage.",
+          "correct_answer": "true",
+          "explanation": "A marketing funnel tracks customers through stages (e.g., awareness, consideration, trial, purchase). The conversion rate at each stage is the ratio of those who move forward to those who entered that stage, allowing marketers to identify where the biggest drop-offs occur and allocate resources accordingly.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When designing a conjoint analysis study, which of the following decisions must the analyst make? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Which attributes and attribute levels to include" },
+            { "id": "b", "text": "Whether to use a full-profile or choice-based design" },
+            { "id": "c", "text": "The company's profit margin on each product" },
+            { "id": "d", "text": "How many profiles or choice sets each respondent will evaluate" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Designing a conjoint study requires choosing the attributes and levels, the presentation format (full-profile ratings, choice-based conjoint, etc.), and the number of tasks per respondent. Profit margins are relevant for downstream business decisions but are not part of the conjoint study design itself.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A firm segments its market and finds that Segment A has high willingness to pay but is small (5% of the market), while Segment B has moderate willingness to pay but is large (40% of the market). Which targeting criterion would most favor choosing Segment B?",
+          "options": [
+            { "id": "a", "text": "Segment size and growth potential" },
+            { "id": "b", "text": "Competitive intensity" },
+            { "id": "c", "text": "Segment profitability per customer" },
+            { "id": "d", "text": "Structural attractiveness based on Porter's five forces" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Among the standard targeting criteria (size, growth, profitability, competitive intensity, and alignment with company capabilities), segment size and growth potential most directly favor Segment B. While Segment A may be more profitable per customer, Segment B's much larger size could yield greater total revenue and scale advantages.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What is the key difference between a customer acquisition cost (CAC) metric and a customer lifetime value (CLV) metric?",
+          "options": [
+            { "id": "a", "text": "CAC measures the upfront investment to gain a customer, while CLV estimates the total net value a customer generates over the entire relationship" },
+            { "id": "b", "text": "CAC is forward-looking while CLV is backward-looking" },
+            { "id": "c", "text": "CAC applies only to digital channels while CLV applies to all channels" },
+            { "id": "d", "text": "They measure the same concept but at different time horizons within a single quarter" }
+          ],
+          "correct_answer": "a",
+          "explanation": "CAC captures the cost side of acquiring a new customer (marketing spend, sales costs, etc.), while CLV captures the revenue side over the full customer relationship. A sustainable business requires CLV to exceed CAC. Both metrics can be forward-looking and apply across all channels.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In an RFM (Recency, Frequency, Monetary) analysis, a customer who purchased recently, buys frequently, and spends large amounts would typically be classified in the highest-value segment.",
+          "correct_answer": "true",
+          "explanation": "RFM analysis segments customers based on how recently they purchased (Recency), how often they purchase (Frequency), and how much they spend (Monetary value). Customers scoring high on all three dimensions are the most valuable and are typically the best targets for retention and upselling efforts.",
+          "difficulty": "easy"
         }
       ]
     },
     {
       "title": "Marketing Management - Assignments Practice Quiz",
-      "description": "Practice Quiz for the Assignments section, covering Action learning, Analytics funnel, Customer acquisition, Marketing ROI.",
+      "description": "Practice Quiz for the Assignments section, covering marketing analytics, conjoint analysis, and segmentation.",
       "kind": "practice_quiz",
       "difficulty": "medium",
       "generated_from": "assignments",
-      "time_limit_minutes": 18,
+      "time_limit_minutes": 25,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "A student says the Assignments section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "question_text": "What does a part-worth utility represent in conjoint analysis?",
           "options": [
-            {
-              "id": "a",
-              "text": "No. The section connects Action learning, Analytics funnel, and Customer acquisition to connect customer insight, segmentation, positioning, pricing, and experimentation to growth choices."
-            },
-            {
-              "id": "b",
-              "text": "Yes. The main goal is to recall terms, even if they never shape a go-to-market recommendation with customer economics and evidence behind the choice."
-            },
-            {
-              "id": "c",
-              "text": "Yes. The section works best when Action learning is studied separately from Analytics funnel."
-            },
-            {
-              "id": "d",
-              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
-            }
+            { "id": "a", "text": "The value a consumer places on a specific level of a product attribute" },
+            { "id": "b", "text": "The total price a consumer is willing to pay for a product" },
+            { "id": "c", "text": "The market share a product is expected to achieve" },
+            { "id": "d", "text": "The cost of manufacturing a specific product feature" }
           ],
           "correct_answer": "a",
-          "explanation": "Assignments is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
-          "difficulty": "medium"
-        },
-        {
-          "question_type": "multi_select",
-          "question_text": "When someone is reviewing Assignments while turning a draft analysis into a defensible submission, which moves usually strengthen the review?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Link Action learning to Analytics funnel instead of treating them as separate facts"
-            },
-            {
-              "id": "b",
-              "text": "State the assumptions that connect Customer acquisition to the decision"
-            },
-            {
-              "id": "c",
-              "text": "Explain how the section changes a worked recommendation that ends in a go-to-market recommendation with customer economics and evidence behind the choice"
-            },
-            {
-              "id": "d",
-              "text": "Ignore tradeoffs and rely on the first plausible answer about Strategic positioning"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "Good review work in Assignments ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "explanation": "Part-worth utilities are the core output of conjoint analysis. Each one represents the contribution to overall utility (preference) from a specific level of a specific attribute. For example, the part-worth for 'red color' tells you how much that particular color level contributes to a consumer's preference.",
           "difficulty": "easy"
         },
         {
           "question_type": "true_false",
-          "question_text": "True or false: A solid answer from the Assignments section should use evidence like Action learning, Analytics funnel, Customer acquisition and still make the tradeoffs explicit.",
+          "question_text": "True or false: A market segment must be measurable, substantial, accessible, differentiable, and actionable to be useful for targeting.",
           "correct_answer": "true",
-          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "explanation": "These five criteria (often abbreviated as the 'five requirements for effective segmentation') ensure that a segment can be sized and profiled (measurable), is large enough to serve profitably (substantial), can be reached through marketing channels (accessible), responds differently from other segments (differentiable), and can be served with a tailored marketing program (actionable).",
           "difficulty": "medium"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which study plan would best prepare someone to use Assignments while turning a draft analysis into a defensible submission?",
+          "question_text": "If a firm's customer retention rate increases from 80% to 90%, what is the primary effect on customer lifetime value?",
           "options": [
-            {
-              "id": "a",
-              "text": "Compare Action learning, Analytics funnel, and Marketing ROI; test the assumptions; then connect the section to a go-to-market recommendation with customer economics and evidence behind the choice."
-            },
-            {
-              "id": "b",
-              "text": "Skim Action learning for terminology, then answer from memory without naming the decision."
-            },
-            {
-              "id": "c",
-              "text": "Focus on polished wording first and postpone the marketing strategy and analytics reasoning until the end."
-            },
-            {
-              "id": "d",
-              "text": "Pick the first familiar framework and ignore whether it fits working through structured problems with assumptions made explicit."
-            }
+            { "id": "a", "text": "CLV roughly doubles because the expected customer lifespan increases significantly" },
+            { "id": "b", "text": "CLV decreases because the firm must spend more on retention" },
+            { "id": "c", "text": "CLV stays the same because margin per period is unchanged" },
+            { "id": "d", "text": "CLV increases only if acquisition costs also decrease" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "explanation": "Expected customer lifetime is 1/(1-r), so going from 80% to 90% retention changes expected lifetime from 5 years to 10 years. Since CLV is roughly proportional to customer lifetime (for a constant margin), this retention improvement approximately doubles CLV, demonstrating why retention is such a powerful lever.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following metrics would you find in a typical marketing analytics funnel? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Awareness rate (percentage of target market aware of the product)" },
+            { "id": "b", "text": "Trial rate (percentage who try the product after becoming aware)" },
+            { "id": "c", "text": "Repeat purchase rate (percentage who buy again after trial)" },
+            { "id": "d", "text": "Employee satisfaction rate" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "A marketing funnel tracks consumers through stages: awareness, consideration/interest, trial, and repeat/loyalty. Each stage has conversion metrics that help diagnose where customers are being lost. Employee satisfaction, while important, is an internal HR metric not part of the customer acquisition funnel.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In a choice-based conjoint (CBC) study, respondents are asked to:",
+          "options": [
+            { "id": "a", "text": "Choose their most preferred option from a set of product profiles presented simultaneously" },
+            { "id": "b", "text": "Rate each product profile on a 1-to-10 scale individually" },
+            { "id": "c", "text": "Rank all possible product profiles from best to worst" },
+            { "id": "d", "text": "Assign dollar values to each product attribute independently" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Choice-based conjoint presents respondents with a series of choice sets, each containing several product profiles (plus often a 'none' option). Respondents pick their most preferred option in each set. This format closely mimics real purchase decisions and is the most widely used conjoint format in practice.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The CLV/CAC ratio should ideally be less than 1 for a business to be sustainable.",
+          "correct_answer": "false",
+          "explanation": "A CLV/CAC ratio less than 1 means the company is spending more to acquire a customer than the customer is worth over their lifetime, which is unsustainable. A healthy business typically targets a CLV/CAC ratio of 3:1 or higher, meaning each customer generates at least three times the cost of acquiring them.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A conjoint analysis reveals that price has the highest attribute importance (45%), followed by brand (30%) and packaging (25%). What does this tell the product manager?",
+          "options": [
+            { "id": "a", "text": "Consumers' choices are most sensitive to price changes; price strategy should be the top priority" },
+            { "id": "b", "text": "The product should be priced as low as possible regardless of other factors" },
+            { "id": "c", "text": "Brand and packaging are irrelevant and can be ignored" },
+            { "id": "d", "text": "The conjoint study was poorly designed because price should not dominate" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Attribute importance scores reflect how much each attribute influences consumer choice. A 45% importance for price means that price changes have the largest effect on which product consumers prefer. This does not mean price should always be lowest (consumers may prefer a higher price as a quality signal), but it does mean pricing decisions deserve the most strategic attention.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What is the primary advantage of behavioral segmentation over demographic segmentation?",
+          "options": [
+            { "id": "a", "text": "It groups customers by actual purchase behavior and usage patterns, which are more directly predictive of future purchases" },
+            { "id": "b", "text": "It is always cheaper to collect behavioral data than demographic data" },
+            { "id": "c", "text": "It produces fewer segments, making targeting simpler" },
+            { "id": "d", "text": "It eliminates the need for any other type of market research" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Behavioral segmentation (based on usage rate, purchase occasion, benefits sought, loyalty status, etc.) tends to be more predictive of future behavior than demographics alone. Two consumers with identical demographics may have very different buying patterns. Behavioral data captures what customers actually do rather than who they are.",
           "difficulty": "medium"
         }
       ]
     },
     {
       "title": "Marketing Management - Lecture Notes Applied Homework",
-      "description": "Applied Homework for the Lecture Notes section, covering Strategic positioning, Pricing, Promotion, Customer analytics.",
+      "description": "Applied Homework for the Lecture Notes section, covering frameworks, pricing, promotion, and positioning.",
       "kind": "homework",
       "difficulty": "medium",
       "generated_from": "lecture-notes",
-      "time_limit_minutes": 35,
+      "time_limit_minutes": 45,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "In the Lecture Notes homework-style response, which draft sounds the most decision-ready?",
+          "question_text": "A company's product is perceived by consumers as high quality but overpriced relative to competitors. On a perceptual map with axes of 'Price' and 'Quality', this product would be positioned in which quadrant?",
           "options": [
-            {
-              "id": "a",
-              "text": "A response that uses Strategic positioning and Pricing to produce a synthesis of the lecture logic that supports a go-to-market recommendation with customer economics and evidence behind the choice."
-            },
-            {
-              "id": "b",
-              "text": "A response that repeats section terminology but never commits to a recommendation."
-            },
-            {
-              "id": "c",
-              "text": "A response that names Strategic positioning yet skips assumptions and tradeoffs."
-            },
-            {
-              "id": "d",
-              "text": "A response built on optimizing a tactic without specifying the target segment or value proposition."
-            }
+            { "id": "a", "text": "High quality, high price" },
+            { "id": "b", "text": "High quality, low price" },
+            { "id": "c", "text": "Low quality, high price" },
+            { "id": "d", "text": "Low quality, low price" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
-          "difficulty": "medium"
-        },
-        {
-          "question_type": "multi_select",
-          "question_text": "Suppose a manager is using Lecture Notes while linking the section's teaching arc into one argument. Which elements belong in the written answer?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Evidence from Strategic positioning or Pricing"
-            },
-            {
-              "id": "b",
-              "text": "The assumptions or constraints shaping the recommendation"
-            },
-            {
-              "id": "c",
-              "text": "A managerial implication tied to a synthesis of the lecture logic that supports a go-to-market recommendation with customer economics and evidence behind the choice"
-            },
-            {
-              "id": "d",
-              "text": "Action learning"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
-          "difficulty": "hard"
+          "explanation": "A perceptual map plots brands or products based on consumer perceptions along chosen dimensions. A product perceived as high quality but overpriced would sit in the high-quality, high-price quadrant. The strategic question is whether to reposition toward better value (lower price) or reinforce the premium positioning.",
+          "difficulty": "easy"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which next step best shows that someone understands how to use Lecture Notes in practice?",
+          "question_text": "A software company estimates its product's economic value to the customer (EVC) is $500 per user per year. The next-best competitive alternative costs $300. According to value-based pricing principles, the optimal price should be:",
           "options": [
-            {
-              "id": "a",
-              "text": "Use Promotion and Customer analytics to frame the recommendation, then check whether it still holds when assumptions move."
-            },
-            {
-              "id": "b",
-              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
-            },
-            {
-              "id": "c",
-              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
-            },
-            {
-              "id": "d",
-              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
-            }
+            { "id": "a", "text": "Between $300 and $500, capturing some but not all of the differentiation value" },
+            { "id": "b", "text": "Exactly $500, capturing all of the economic value" },
+            { "id": "c", "text": "Below $300, to undercut the competition" },
+            { "id": "d", "text": "Based solely on the company's cost plus a fixed markup" }
           ],
           "correct_answer": "a",
-          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "explanation": "Value-based pricing sets the price between the reference value (competitor's price of $300) and the total economic value ($500). The difference ($200) is the differentiation value. The firm must share some of this value with the customer to incentivize switching, so the optimal price falls between $300 and $500. The exact point depends on competitive intensity, switching costs, and the firm's strategic objectives.",
           "difficulty": "medium"
         },
         {
-          "question_type": "short_answer",
-          "question_text": "Name one sentence-level takeaway a strong answer from Lecture Notes should land on after weighing Strategic positioning, Pricing, and Promotion.",
-          "correct_answer": "It should end with a go-to-market recommendation with customer economics and evidence behind the choice, grounded in Strategic positioning, Pricing, Promotion and explicit assumptions.",
-          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "question_type": "true_false",
+          "question_text": "True or false: A pull promotion strategy relies on manufacturer efforts directed at end consumers to create demand that 'pulls' products through the distribution channel.",
+          "correct_answer": "true",
+          "explanation": "Pull strategies (advertising, consumer promotions, social media) target end consumers to build demand, which then motivates retailers to stock the product. In contrast, push strategies (trade promotions, sales force efforts) target channel intermediaries to encourage them to carry and promote the product. Most firms use a combination of both.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are components of a positioning statement? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Target segment" },
+            { "id": "b", "text": "Frame of reference (competitive set)" },
+            { "id": "c", "text": "Point of difference (unique benefit)" },
+            { "id": "d", "text": "Detailed financial projections" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "A positioning statement follows the format: 'For [target segment], [brand] is the [frame of reference] that [point of difference] because [reasons to believe].' It defines who the product is for, what category it competes in, and why it is uniquely valuable. Financial projections are part of a business plan, not a positioning statement.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the NY Times Paywall case, what was the central pricing dilemma the company faced?",
+          "options": [
+            { "id": "a", "text": "Balancing the need for subscription revenue against the risk of losing online readership and the associated advertising revenue" },
+            { "id": "b", "text": "Deciding between print-only and digital-only subscription models" },
+            { "id": "c", "text": "Choosing the color scheme for the paywall interface" },
+            { "id": "d", "text": "Determining whether to charge advertisers more for premium placement" }
+          ],
+          "correct_answer": "a",
+          "explanation": "The NY Times Paywall case illustrates a classic two-sided market pricing problem. A paywall generates subscription revenue but reduces unique visitors, which reduces advertising revenue. The optimal paywall design (metered, hard, freemium) must balance these competing revenue streams.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A firm uses cost-plus pricing and sets its price at cost + 25% markup. If the unit cost is $40, what is the selling price?",
+          "options": [
+            { "id": "a", "text": "$50" },
+            { "id": "b", "text": "$55" },
+            { "id": "c", "text": "$65" },
+            { "id": "d", "text": "$40" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Cost-plus pricing adds a fixed percentage markup to the unit cost: $40 x 1.25 = $50. While simple to implement, cost-plus pricing ignores consumer willingness to pay and competitive dynamics, which is why value-based pricing is generally preferred for setting prices strategically.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Price skimming involves setting an initially high price for a new product and then lowering it over time as competition enters and the market expands.",
+          "correct_answer": "true",
+          "explanation": "Price skimming is a strategy where firms launch at a high price to capture surplus from early adopters with high willingness to pay, then progressively reduce the price to attract more price-sensitive segments. This works best when the product has a clear advantage, there are distinct customer segments with different price sensitivities, and competitors cannot quickly enter at lower prices.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are advantages of digital advertising over traditional broadcast advertising? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "More precise targeting based on user behavior and demographics" },
+            { "id": "b", "text": "Better measurement and attribution of ad effectiveness" },
+            { "id": "c", "text": "Ability to A/B test creative elements in real time" },
+            { "id": "d", "text": "Guaranteed higher reach than television for all product categories" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Digital advertising offers superior targeting (behavioral, contextual, demographic), better measurability (click-through rates, conversion tracking, attribution models), and real-time testing capabilities. However, television still achieves higher simultaneous reach for mass-market products like Super Bowl ads, so digital does not guarantee higher reach in every category.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The STP framework proceeds in which order?",
+          "options": [
+            { "id": "a", "text": "Segmentation, then Targeting, then Positioning" },
+            { "id": "b", "text": "Targeting, then Segmentation, then Positioning" },
+            { "id": "c", "text": "Positioning, then Targeting, then Segmentation" },
+            { "id": "d", "text": "Segmentation, then Positioning, then Targeting" }
+          ],
+          "correct_answer": "a",
+          "explanation": "STP is a foundational marketing framework. First, you Segment the market into distinct groups. Then you evaluate and select which segment(s) to Target. Finally, you develop a Positioning strategy that creates a distinctive place in the target customers' minds relative to competitors.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A company has high fixed costs and low variable costs (e.g., a software firm). Which pricing risk is most acute?",
+          "options": [
+            { "id": "a", "text": "Setting price too low based on marginal cost, leaving significant consumer surplus uncaptured" },
+            { "id": "b", "text": "Setting price too high relative to manufacturing costs" },
+            { "id": "c", "text": "Being unable to offer volume discounts" },
+            { "id": "d", "text": "Having to use penetration pricing exclusively" }
+          ],
+          "correct_answer": "a",
+          "explanation": "When variable costs are near zero (as with software), cost-plus pricing yields a very low price that fails to capture the product's value to customers. Value-based pricing is critical in this context because the firm must price based on the customer's willingness to pay, not on its negligible marginal cost.",
           "difficulty": "hard"
         }
       ]
     },
     {
       "title": "Marketing Management - Lecture Notes Practice Quiz",
-      "description": "Practice Quiz for the Lecture Notes section, covering Strategic positioning, Pricing, Promotion, Customer analytics.",
+      "description": "Practice Quiz for the Lecture Notes section, covering frameworks, pricing, promotion, and positioning.",
       "kind": "practice_quiz",
       "difficulty": "medium",
       "generated_from": "lecture-notes",
-      "time_limit_minutes": 18,
+      "time_limit_minutes": 25,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "A student says the Lecture Notes section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "question_text": "What are the 4 Ps of the marketing mix?",
           "options": [
-            {
-              "id": "a",
-              "text": "No. The section connects Strategic positioning, Pricing, and Promotion to connect customer insight, segmentation, positioning, pricing, and experimentation to growth choices."
-            },
-            {
-              "id": "b",
-              "text": "Yes. The main goal is to recall terms, even if they never shape a go-to-market recommendation with customer economics and evidence behind the choice."
-            },
-            {
-              "id": "c",
-              "text": "Yes. The section works best when Strategic positioning is studied separately from Pricing."
-            },
-            {
-              "id": "d",
-              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
-            }
+            { "id": "a", "text": "Product, Price, Place, Promotion" },
+            { "id": "b", "text": "Product, Price, People, Process" },
+            { "id": "c", "text": "Positioning, Pricing, Promotion, Profit" },
+            { "id": "d", "text": "Product, Placement, Publicity, Pricing" }
           ],
           "correct_answer": "a",
-          "explanation": "Lecture Notes is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
-          "difficulty": "medium"
-        },
-        {
-          "question_type": "multi_select",
-          "question_text": "When someone is reviewing Lecture Notes while linking the section's teaching arc into one argument, which moves usually strengthen the review?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Link Strategic positioning to Pricing instead of treating them as separate facts"
-            },
-            {
-              "id": "b",
-              "text": "State the assumptions that connect Promotion to the decision"
-            },
-            {
-              "id": "c",
-              "text": "Explain how the section changes a synthesis of the lecture logic that supports a go-to-market recommendation with customer economics and evidence behind the choice"
-            },
-            {
-              "id": "d",
-              "text": "Ignore tradeoffs and rely on the first plausible answer about Action learning"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "Good review work in Lecture Notes ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "explanation": "The 4 Ps (Product, Price, Place, Promotion) are the foundational tactical elements of marketing strategy. They represent the key decisions a marketer controls: what to sell, at what price, through which channels, and with what communication.",
           "difficulty": "easy"
         },
         {
           "question_type": "true_false",
-          "question_text": "True or false: A solid answer from the Lecture Notes section should use evidence like Strategic positioning, Pricing, Promotion and still make the tradeoffs explicit.",
+          "question_text": "True or false: Penetration pricing sets an initially low price to rapidly gain market share, while price skimming sets an initially high price to maximize revenue from early adopters.",
           "correct_answer": "true",
-          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "explanation": "These are two opposing new-product pricing strategies. Penetration pricing sacrifices early margins to build volume and market share quickly (effective when network effects or economies of scale matter). Skimming captures maximum revenue from less price-sensitive early adopters before gradually lowering price.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which of the following best describes a 'point of parity' in positioning?",
+          "options": [
+            { "id": "a", "text": "An attribute or benefit that is not unique to the brand but is necessary to be considered a legitimate competitor in the category" },
+            { "id": "b", "text": "The single most important differentiating feature of the brand" },
+            { "id": "c", "text": "The price at which two competing products have equal market share" },
+            { "id": "d", "text": "A weakness that competitors exploit in advertising" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Points of parity are associations that are shared with competing brands and are necessary for a brand to be considered a legitimate player in the category. For example, a new smartphone must have a touchscreen (point of parity) to compete, but its unique camera technology might be its point of difference.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "A push promotion strategy may include which of the following tactics? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Trade discounts and allowances to retailers" },
+            { "id": "b", "text": "Sales force incentives to promote the product to distributors" },
+            { "id": "c", "text": "Television advertising campaigns targeting end consumers" },
+            { "id": "d", "text": "In-store displays and shelf placement fees (slotting allowances)" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Push strategies direct promotional efforts at channel intermediaries (retailers, distributors, wholesalers) to encourage them to stock, display, and sell the product. Trade discounts, sales force efforts directed at the trade, and slotting allowances are all push tactics. TV advertising targeting consumers is a pull tactic.",
           "difficulty": "medium"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which study plan would best prepare someone to use Lecture Notes while linking the section's teaching arc into one argument?",
+          "question_text": "What is the 'reference price' in the context of value-based pricing?",
           "options": [
-            {
-              "id": "a",
-              "text": "Compare Strategic positioning, Pricing, and Customer analytics; test the assumptions; then connect the section to a go-to-market recommendation with customer economics and evidence behind the choice."
-            },
-            {
-              "id": "b",
-              "text": "Skim Strategic positioning for terminology, then answer from memory without naming the decision."
-            },
-            {
-              "id": "c",
-              "text": "Focus on polished wording first and postpone the marketing strategy and analytics reasoning until the end."
-            },
-            {
-              "id": "d",
-              "text": "Pick the first familiar framework and ignore whether it fits connecting the teaching sequence into one coherent logic chain."
-            }
+            { "id": "a", "text": "The price of the next-best competitive alternative available to the customer" },
+            { "id": "b", "text": "The manufacturer's suggested retail price" },
+            { "id": "c", "text": "The lowest price in the product category" },
+            { "id": "d", "text": "The historical average price of the product" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "explanation": "In value-based pricing (also called Economic Value to the Customer analysis), the reference price is what the customer would pay for the next-best alternative. The total economic value of your product equals this reference price plus the differentiation value (positive or negative) your product offers beyond the alternative.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In a multi-channel distribution strategy, channel conflict can arise when different channels compete for the same customers.",
+          "correct_answer": "true",
+          "explanation": "Channel conflict occurs when different distribution channels (e.g., direct online sales vs. retail partners) cannibalize each other's sales by targeting the same customers. Managing channel conflict requires clear channel roles, differentiated product assortments, or consistent pricing policies across channels.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which pricing strategy is most appropriate when a product has strong network effects (i.e., the product becomes more valuable as more people use it)?",
+          "options": [
+            { "id": "a", "text": "Penetration pricing to build the user base quickly" },
+            { "id": "b", "text": "Price skimming to maximize revenue from early adopters" },
+            { "id": "c", "text": "Cost-plus pricing to ensure profitability from day one" },
+            { "id": "d", "text": "Prestige pricing to signal exclusivity" }
+          ],
+          "correct_answer": "a",
+          "explanation": "When network effects are present (e.g., social networks, communication platforms), the product's value increases with the number of users. Penetration pricing (low initial price or free tier) accelerates user adoption, which increases the product's value to all users and creates a competitive moat. Skimming would slow adoption and potentially cede the network to competitors.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What distinguishes a 'points of difference' from a 'points of parity' in brand positioning?",
+          "options": [
+            { "id": "a", "text": "Points of difference are attributes or benefits that consumers strongly associate with the brand and believe they could not find to the same extent with a competitor" },
+            { "id": "b", "text": "Points of difference are the minimum requirements to compete in a category" },
+            { "id": "c", "text": "Points of difference are always related to price" },
+            { "id": "d", "text": "Points of difference are negative associations that must be overcome" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Points of difference (PODs) are the unique, favorable associations that distinguish a brand from competitors and give consumers a reason to choose it. They must be desirable (consumers want it), deliverable (the firm can provide it), and differentiating (competitors cannot easily match it). Points of parity, by contrast, are shared category requirements.",
           "difficulty": "medium"
         }
       ]
     },
     {
       "title": "Marketing Management - Readings Applied Homework",
-      "description": "Applied Homework for the Readings section, covering Strategic positioning, Consumer behavior, Conjoint analysis, Voice of the customer.",
+      "description": "Applied Homework for the Readings section, covering brand management, advertising models, and customer behavior.",
       "kind": "homework",
       "difficulty": "medium",
       "generated_from": "readings",
-      "time_limit_minutes": 35,
+      "time_limit_minutes": 45,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "In the Readings homework-style response, which draft sounds the most decision-ready?",
+          "question_text": "In the Aqualisa Quartz case, the primary barrier to adoption of the innovative shower product was:",
           "options": [
-            {
-              "id": "a",
-              "text": "A response that uses Strategic positioning and Consumer behavior to produce a reading synthesis that sharpens a go-to-market recommendation with customer economics and evidence behind the choice."
-            },
-            {
-              "id": "b",
-              "text": "A response that repeats section terminology but never commits to a recommendation."
-            },
-            {
-              "id": "c",
-              "text": "A response that names Strategic positioning yet skips assumptions and tradeoffs."
-            },
-            {
-              "id": "d",
-              "text": "A response built on optimizing a tactic without specifying the target segment or value proposition."
-            }
+            { "id": "a", "text": "Resistance from plumbers who were skeptical of the new electronic technology and feared it would reduce their role" },
+            { "id": "b", "text": "The product was priced too high for any market segment" },
+            { "id": "c", "text": "The product had significant quality and reliability problems" },
+            { "id": "d", "text": "Consumers preferred traditional two-handle shower designs for aesthetic reasons" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "explanation": "The Aqualisa Quartz was technologically superior and well-received by consumers who tried it, but adoption was slow because plumbers (the key channel influencers) were resistant to the electronic technology. They feared installation complexity, callbacks, and the potential erosion of their expertise. This case illustrates how channel dynamics can block adoption of a superior product.",
           "difficulty": "medium"
         },
         {
           "question_type": "multi_select",
-          "question_text": "Suppose a manager is using Readings while synthesizing several assigned sources into one position. Which elements belong in the written answer?",
+          "question_text": "According to Keller's brand equity model, which of the following are components of customer-based brand equity? (Select all that apply)",
           "options": [
-            {
-              "id": "a",
-              "text": "Evidence from Strategic positioning or Consumer behavior"
-            },
-            {
-              "id": "b",
-              "text": "The assumptions or constraints shaping the recommendation"
-            },
-            {
-              "id": "c",
-              "text": "A managerial implication tied to a reading synthesis that sharpens a go-to-market recommendation with customer economics and evidence behind the choice"
-            },
-            {
-              "id": "d",
-              "text": "Action learning"
-            }
+            { "id": "a", "text": "Brand awareness (recognition and recall)" },
+            { "id": "b", "text": "Brand associations (the meaning consumers attach to the brand)" },
+            { "id": "c", "text": "Perceived quality and brand loyalty" },
+            { "id": "d", "text": "The number of manufacturing plants owned by the brand" }
           ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
-          "difficulty": "hard"
-        },
-        {
-          "question_type": "multiple_choice",
-          "question_text": "Which next step best shows that someone understands how to use Readings in practice?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Use Conjoint analysis and Voice of the customer to frame the recommendation, then check whether it still holds when assumptions move."
-            },
-            {
-              "id": "b",
-              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
-            },
-            {
-              "id": "c",
-              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
-            },
-            {
-              "id": "d",
-              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
-            }
-          ],
-          "correct_answer": "a",
-          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Customer-based brand equity is built on four pillars: brand awareness (salience), brand associations (performance and imagery), consumer judgments and feelings (responses), and brand loyalty and attachment (resonance). Manufacturing assets are operational resources, not components of how consumers perceive the brand.",
           "difficulty": "medium"
         },
         {
-          "question_type": "short_answer",
-          "question_text": "Name one sentence-level takeaway a strong answer from Readings should land on after weighing Strategic positioning, Consumer behavior, and Conjoint analysis.",
-          "correct_answer": "It should end with a go-to-market recommendation with customer economics and evidence behind the choice, grounded in Strategic positioning, Consumer behavior, Conjoint analysis and explicit assumptions.",
-          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "question_type": "multiple_choice",
+          "question_text": "In the Snapple case, what was the key mistake made by Quaker Oats after acquiring the brand?",
+          "options": [
+            { "id": "a", "text": "Trying to distribute Snapple through the same mass-market supermarket and warehouse channels used for Gatorade, alienating the independent distributors and convenience stores that built the brand" },
+            { "id": "b", "text": "Raising the price of Snapple by 500%" },
+            { "id": "c", "text": "Discontinuing all existing Snapple flavors" },
+            { "id": "d", "text": "Refusing to advertise the product at all" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Quaker Oats attempted to apply Gatorade's mass-market distribution model to Snapple, which had been built through a network of independent distributors and small retailers (delis, convenience stores). This channel conflict destroyed relationships with key distributors and undermined the brand's quirky, authentic positioning. The case is a classic lesson in how distribution strategy is integral to brand identity.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Brand extensions can dilute the parent brand's equity if the extension product fails or is perceived as inconsistent with the brand's core associations.",
+          "correct_answer": "true",
+          "explanation": "While brand extensions leverage existing brand equity to reduce launch risk, they carry the risk of dilution. If the extension fails, performs poorly, or is seen as a poor fit with the parent brand's identity, negative associations can transfer back to the parent brand, weakening its equity. This is why fit between the extension and the parent brand is critical.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The Dove 'Real Beauty' campaign was significant in the advertising industry primarily because it:",
+          "options": [
+            { "id": "a", "text": "Challenged conventional beauty advertising by featuring non-traditional models, creating an emotional connection and sparking cultural conversation that drove brand engagement" },
+            { "id": "b", "text": "Used the largest advertising budget in industry history" },
+            { "id": "c", "text": "Was the first campaign to use television advertising" },
+            { "id": "d", "text": "Focused exclusively on product features and functional benefits" }
+          ],
+          "correct_answer": "a",
+          "explanation": "The Dove 'Real Beauty' campaign broke conventions by featuring women of diverse ages, sizes, and ethnicities rather than supermodels. It connected the brand to a cultural movement around self-esteem and authentic beauty, generating massive earned media and consumer engagement. It demonstrated the power of purpose-driven marketing and emotional branding.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What is the 'consideration set' in consumer decision-making?",
+          "options": [
+            { "id": "a", "text": "The subset of brands that a consumer is aware of and would actually consider purchasing in a given product category" },
+            { "id": "b", "text": "All brands that exist in a product category worldwide" },
+            { "id": "c", "text": "The set of brands that a retailer stocks on its shelves" },
+            { "id": "d", "text": "The brands that a consumer has purchased in the past 12 months" }
+          ],
+          "correct_answer": "a",
+          "explanation": "The consideration set (or evoked set) is the small group of brands a consumer would seriously consider when making a purchase. It is a subset of the awareness set. Getting into the consideration set is critical because brands not in the set have virtually zero chance of being purchased, regardless of their objective quality.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are dimensions along which a brand can build strong associations? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Functional benefits (what the product does)" },
+            { "id": "b", "text": "Emotional benefits (how the product makes the consumer feel)" },
+            { "id": "c", "text": "Self-expressive benefits (what the product says about the consumer)" },
+            { "id": "d", "text": "The CEO's personal political views" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Brand associations can be built on functional benefits (reliability, performance), emotional benefits (security, excitement, belonging), and self-expressive benefits (status, identity, values). Strong brands typically leverage multiple dimensions. A CEO's personal views are not a strategic branding dimension, though they can incidentally affect brand perception.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The 'mere exposure effect' suggests that repeated exposure to a brand or advertisement can increase consumer preference for it, even without conscious processing of the ad content.",
+          "correct_answer": "true",
+          "explanation": "The mere exposure effect (Zajonc, 1968) is a well-established psychological finding showing that familiarity breeds liking. In advertising, this means that simply being exposed to a brand name or logo repeatedly can increase positive feelings toward it, which is one reason brand awareness campaigns and ambient advertising can be effective even when consumers do not actively engage with the message.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to the consumer decision journey framework, at which stage is a brand's online content and social media presence most critical?",
+          "options": [
+            { "id": "a", "text": "The active evaluation stage, when consumers research and compare options before purchase" },
+            { "id": "b", "text": "The initial consideration stage only" },
+            { "id": "c", "text": "Only after the purchase is complete" },
+            { "id": "d", "text": "Online presence is irrelevant to the consumer decision journey" }
+          ],
+          "correct_answer": "a",
+          "explanation": "While online presence matters throughout the journey, it is especially critical during active evaluation, when consumers actively search for information, read reviews, compare features, and seek social proof. This is when consumers can be won or lost based on the quality of information and engagement the brand provides online.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Aqualisa Quartz case, which distribution channel did Harry Rawlinson (CEO) believe held the most promise for scaling the product?",
+          "options": [
+            { "id": "a", "text": "Do-it-yourself (DIY) retail outlets such as B&Q, bypassing plumbers entirely" },
+            { "id": "b", "text": "Selling exclusively through luxury home builders" },
+            { "id": "c", "text": "Direct-to-consumer online sales only" },
+            { "id": "d", "text": "Hospital and institutional sales" }
+          ],
+          "correct_answer": "a",
+          "explanation": "One of Rawlinson's strategic options was to push the Quartz through DIY channels like B&Q, where consumers could buy and potentially install the product themselves (its simpler installation was a key advantage). This would bypass the resistant plumber channel. However, this risked alienating trade plumbers further and conflicted with Aqualisa's premium brand positioning in the trade channel.",
           "difficulty": "hard"
         }
       ]
     },
     {
       "title": "Marketing Management - Readings Practice Quiz",
-      "description": "Practice Quiz for the Readings section, covering Strategic positioning, Consumer behavior, Conjoint analysis, Voice of the customer.",
+      "description": "Practice Quiz for the Readings section, covering brand management, advertising models, and customer behavior.",
       "kind": "practice_quiz",
       "difficulty": "medium",
       "generated_from": "readings",
-      "time_limit_minutes": 18,
+      "time_limit_minutes": 25,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "A student says the Readings section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "question_text": "What is 'brand equity'?",
           "options": [
-            {
-              "id": "a",
-              "text": "No. The section connects Strategic positioning, Consumer behavior, and Conjoint analysis to connect customer insight, segmentation, positioning, pricing, and experimentation to growth choices."
-            },
-            {
-              "id": "b",
-              "text": "Yes. The main goal is to recall terms, even if they never shape a go-to-market recommendation with customer economics and evidence behind the choice."
-            },
-            {
-              "id": "c",
-              "text": "Yes. The section works best when Strategic positioning is studied separately from Consumer behavior."
-            },
-            {
-              "id": "d",
-              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
-            }
+            { "id": "a", "text": "The added value a brand name confers on a product beyond the functional benefits of the product itself" },
+            { "id": "b", "text": "The total financial assets of the company that owns the brand" },
+            { "id": "c", "text": "The number of products in the brand's product line" },
+            { "id": "d", "text": "The amount spent on advertising the brand in the current year" }
           ],
           "correct_answer": "a",
-          "explanation": "Readings is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
-          "difficulty": "medium"
-        },
-        {
-          "question_type": "multi_select",
-          "question_text": "When someone is reviewing Readings while synthesizing several assigned sources into one position, which moves usually strengthen the review?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Link Strategic positioning to Consumer behavior instead of treating them as separate facts"
-            },
-            {
-              "id": "b",
-              "text": "State the assumptions that connect Conjoint analysis to the decision"
-            },
-            {
-              "id": "c",
-              "text": "Explain how the section changes a reading synthesis that sharpens a go-to-market recommendation with customer economics and evidence behind the choice"
-            },
-            {
-              "id": "d",
-              "text": "Ignore tradeoffs and rely on the first plausible answer about Action learning"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "Good review work in Readings ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "explanation": "Brand equity represents the differential effect that knowledge of the brand has on consumer response to marketing. A strong brand adds value beyond the product's functional attributes -- consumers will pay more, choose it more readily, and be more loyal. It is built through awareness, positive associations, perceived quality, and loyalty.",
           "difficulty": "easy"
         },
         {
           "question_type": "true_false",
-          "question_text": "True or false: A solid answer from the Readings section should use evidence like Strategic positioning, Consumer behavior, Conjoint analysis and still make the tradeoffs explicit.",
-          "correct_answer": "true",
-          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "question_text": "True or false: In the consumer behavior model, the consumer's purchase decision is influenced only by rational, economic factors such as price and product features.",
+          "correct_answer": "false",
+          "explanation": "Consumer behavior is influenced by a wide range of factors beyond rational economics: psychological factors (motivation, perception, learning, attitudes), social factors (reference groups, family, social roles), cultural factors (culture, subculture, social class), and personal factors (age, lifestyle, personality). Emotions, social influence, and heuristics all play major roles in purchase decisions.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A brand with high awareness but weak or negative associations has a problem with which aspect of brand equity?",
+          "options": [
+            { "id": "a", "text": "Brand image -- the associations are unfavorable, weak, or not unique" },
+            { "id": "b", "text": "Brand awareness -- people do not know the brand exists" },
+            { "id": "c", "text": "Distribution -- the product is unavailable in stores" },
+            { "id": "d", "text": "Pricing -- the product is too expensive" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Brand equity requires both awareness and a favorable brand image (strong, favorable, and unique associations). High awareness with weak or negative associations means the brand image needs to be built or repaired through marketing communications, product improvements, or repositioning efforts.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are examples of 'earned media' in a brand's communication strategy? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Positive word-of-mouth from satisfied customers" },
+            { "id": "b", "text": "News coverage and press mentions" },
+            { "id": "c", "text": "Social media shares and viral content created by users" },
+            { "id": "d", "text": "Paid search advertisements on Google" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Earned media is publicity gained through efforts other than paid advertising. It includes word-of-mouth, press coverage, social media sharing, and organic viral content. Paid search ads are 'paid media.' Brands aim to generate earned media because it is perceived as more credible and authentic than paid messages.",
           "difficulty": "medium"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which study plan would best prepare someone to use Readings while synthesizing several assigned sources into one position?",
+          "question_text": "The concept of 'involvement' in consumer behavior refers to:",
           "options": [
-            {
-              "id": "a",
-              "text": "Compare Strategic positioning, Consumer behavior, and Voice of the customer; test the assumptions; then connect the section to a go-to-market recommendation with customer economics and evidence behind the choice."
-            },
-            {
-              "id": "b",
-              "text": "Skim Strategic positioning for terminology, then answer from memory without naming the decision."
-            },
-            {
-              "id": "c",
-              "text": "Focus on polished wording first and postpone the marketing strategy and analytics reasoning until the end."
-            },
-            {
-              "id": "d",
-              "text": "Pick the first familiar framework and ignore whether it fits extracting the common managerial logic across the assigned materials."
-            }
+            { "id": "a", "text": "The degree of personal relevance and importance a consumer attaches to a purchase decision" },
+            { "id": "b", "text": "The number of people involved in making a purchase decision" },
+            { "id": "c", "text": "The amount of money spent on the product" },
+            { "id": "d", "text": "The number of times a consumer has purchased the product before" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "explanation": "Consumer involvement reflects how personally relevant and important a purchase is. High-involvement purchases (cars, homes, college) trigger extensive information search and deliberation. Low-involvement purchases (gum, paper towels) involve minimal decision effort and are more influenced by habit, convenience, and simple cues like brand familiarity.",
           "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A brand can successfully extend into a new product category only if the extension shares the same product technology as the parent brand.",
+          "correct_answer": "false",
+          "explanation": "Brand extensions can succeed based on many types of fit, not just shared technology. Extensions can leverage abstract brand associations (e.g., Virgin's 'challenger' brand extending from music to airlines), shared target segments, complementary usage situations, or transfer of perceived expertise. Fit is about perceived relevance in the consumer's mind, not necessarily technological similarity.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What lesson does the Snapple case teach about the relationship between distribution strategy and brand positioning?",
+          "options": [
+            { "id": "a", "text": "Distribution channels are integral to brand identity; changing channels can fundamentally alter how consumers perceive the brand" },
+            { "id": "b", "text": "Distribution is purely a logistics concern with no impact on brand perception" },
+            { "id": "c", "text": "All brands should pursue maximum distribution through every available channel" },
+            { "id": "d", "text": "Small brands should never use independent distributors" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Snapple's brand identity was intertwined with its distribution through independent distributors, delis, and small retailers. When Quaker Oats tried to push it through supermarket and warehouse channels, it changed the brand's character and alienated the stakeholders who had built it. The case powerfully demonstrates that where and how a product is sold is part of its brand identity.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the AIDA model of advertising, what do the four stages represent?",
+          "options": [
+            { "id": "a", "text": "Attention, Interest, Desire, Action" },
+            { "id": "b", "text": "Awareness, Information, Decision, Adoption" },
+            { "id": "c", "text": "Analysis, Implementation, Design, Assessment" },
+            { "id": "d", "text": "Acquisition, Integration, Delivery, Activation" }
+          ],
+          "correct_answer": "a",
+          "explanation": "AIDA is a classic advertising response model describing the stages a consumer passes through: Attention (noticing the ad), Interest (becoming engaged with the message), Desire (wanting the product), and Action (making a purchase). Effective advertising should guide consumers through all four stages.",
+          "difficulty": "easy"
         }
       ]
     },
     {
       "title": "Marketing Management - Tools Applied Homework",
-      "description": "Applied Homework for the Tools section, covering Conjoint analysis, Diffusion model, Analytics funnel, Customer response modeling.",
+      "description": "Applied Homework for the Tools section, covering conjoint analysis, diffusion models, and simulation tools.",
       "kind": "homework",
       "difficulty": "medium",
       "generated_from": "tools",
-      "time_limit_minutes": 35,
+      "time_limit_minutes": 45,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "In the Tools homework-style response, which draft sounds the most decision-ready?",
+          "question_text": "The Bass diffusion model includes which two mechanisms of adoption?",
           "options": [
-            {
-              "id": "a",
-              "text": "A response that uses Conjoint analysis and Diffusion model to produce a tool choice and interpretation that support a go-to-market recommendation with customer economics and evidence behind the choice."
-            },
-            {
-              "id": "b",
-              "text": "A response that repeats section terminology but never commits to a recommendation."
-            },
-            {
-              "id": "c",
-              "text": "A response that names Conjoint analysis yet skips assumptions and tradeoffs."
-            },
-            {
-              "id": "d",
-              "text": "A response built on optimizing a tactic without specifying the target segment or value proposition."
-            }
+            { "id": "a", "text": "Innovation (external influence, e.g., advertising) and imitation (internal influence, e.g., word-of-mouth from prior adopters)" },
+            { "id": "b", "text": "Price reduction and quality improvement" },
+            { "id": "c", "text": "Push promotion and pull promotion" },
+            { "id": "d", "text": "Segmentation and targeting" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "explanation": "The Bass model (1969) separates new product adoption into two forces: the coefficient of innovation (p), representing external influences like advertising that drive adoption independent of prior adopters, and the coefficient of imitation (q), representing internal influences like word-of-mouth where adoption increases as more people already own the product.",
           "difficulty": "medium"
         },
         {
-          "question_type": "multi_select",
-          "question_text": "Suppose a manager is using Tools while choosing the right model or instrument for a decision. Which elements belong in the written answer?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Evidence from Conjoint analysis or Diffusion model"
-            },
-            {
-              "id": "b",
-              "text": "The assumptions or constraints shaping the recommendation"
-            },
-            {
-              "id": "c",
-              "text": "A managerial implication tied to a tool choice and interpretation that support a go-to-market recommendation with customer economics and evidence behind the choice"
-            },
-            {
-              "id": "d",
-              "text": "Action learning"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
+          "question_type": "true_false",
+          "question_text": "True or false: In the Bass diffusion model, a higher coefficient of imitation (q) relative to the coefficient of innovation (p) produces a more pronounced peak in the adoption curve.",
+          "correct_answer": "true",
+          "explanation": "When q > p, adoption is primarily driven by word-of-mouth from existing adopters, which creates a positive feedback loop. This produces a classic bell-shaped adoption curve with a pronounced peak. When p > q, adoption is driven more by external factors and the curve rises more gradually without a sharp peak.",
           "difficulty": "hard"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which next step best shows that someone understands how to use Tools in practice?",
+          "question_text": "In a conjoint analysis simulation, a product manager wants to estimate market share for a new product. The simulation uses a 'share of preference' model. How is each respondent's predicted choice determined?",
           "options": [
-            {
-              "id": "a",
-              "text": "Use Analytics funnel and Customer response modeling to frame the recommendation, then check whether it still holds when assumptions move."
-            },
-            {
-              "id": "b",
-              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
-            },
-            {
-              "id": "c",
-              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
-            },
-            {
-              "id": "d",
-              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
-            }
+            { "id": "a", "text": "Each respondent's total utility for each product is calculated, and the respondent is assigned to the product with the highest utility (first-choice rule) or shares are allocated proportionally to utility (share of utility rule)" },
+            { "id": "b", "text": "Each respondent randomly selects a product from the competitive set" },
+            { "id": "c", "text": "The product with the lowest price always wins all respondents" },
+            { "id": "d", "text": "Market share is allocated equally among all products in the simulation" }
           ],
           "correct_answer": "a",
-          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "explanation": "Conjoint simulators use the part-worth utilities estimated for each respondent to predict choices. Under the first-choice rule, each respondent is assigned to their highest-utility product. Under the share-of-utility (logit) rule, choice probabilities are proportional to utilities. Both approaches aggregate across respondents to estimate market share.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following parameters must be estimated or assumed to run a Bass diffusion model forecast? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Market potential (m) -- the total number of eventual adopters" },
+            { "id": "b", "text": "Coefficient of innovation (p)" },
+            { "id": "c", "text": "Coefficient of imitation (q)" },
+            { "id": "d", "text": "The company's annual advertising budget" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "The Bass model requires three parameters: m (market potential or total addressable market), p (coefficient of innovation, capturing external influence), and q (coefficient of imitation, capturing internal/word-of-mouth influence). While advertising budget might influence p, it is not a direct parameter of the standard Bass model.",
           "difficulty": "medium"
         },
         {
-          "question_type": "short_answer",
-          "question_text": "Name one sentence-level takeaway a strong answer from Tools should land on after weighing Conjoint analysis, Diffusion model, and Analytics funnel.",
-          "correct_answer": "It should end with a go-to-market recommendation with customer economics and evidence behind the choice, grounded in Conjoint analysis, Diffusion model, Analytics funnel and explicit assumptions.",
-          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "question_type": "multiple_choice",
+          "question_text": "A marketing team uses a conjoint-based market simulator to test three product configurations against two competitors. Configuration A gets 35% share, B gets 28%, and C gets 22%, with competitors taking the remainder. Which analysis should the team do next?",
+          "options": [
+            { "id": "a", "text": "Conduct a sensitivity analysis to see how share changes when competitors adjust their prices or features" },
+            { "id": "b", "text": "Immediately launch Configuration A since it has the highest share" },
+            { "id": "c", "text": "Discard the conjoint results because they do not match current market share data" },
+            { "id": "d", "text": "Average the three configurations' shares to determine the optimal product" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Market simulations show share under specific competitive assumptions. Before making a launch decision, the team should test how robust the results are to competitive responses (e.g., price cuts, new feature launches). Sensitivity analysis reveals which configurations are most defensible under likely competitive scenarios.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The Bass diffusion model assumes that the total market potential (m) remains constant over the product's lifecycle.",
+          "correct_answer": "true",
+          "explanation": "The standard Bass model assumes a fixed market potential m. All m eventual adopters will eventually adopt, and the model predicts the timing of adoption. This is a simplifying assumption -- in reality, market potential can change due to population growth, new use cases, or competitive dynamics. Extensions of the Bass model (generalized Bass model) can accommodate varying market potential.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What does the peak of the adoption curve represent in the Bass diffusion model?",
+          "options": [
+            { "id": "a", "text": "The point in time when the number of new adopters per period reaches its maximum" },
+            { "id": "b", "text": "The point when all potential adopters have adopted" },
+            { "id": "c", "text": "The point when the product price is lowest" },
+            { "id": "d", "text": "The point when advertising spend is at its highest" }
+          ],
+          "correct_answer": "a",
+          "explanation": "The peak of the Bass model's adoption curve is the time period with the highest number of new adopters. Before the peak, adoption is accelerating as word-of-mouth compounds. After the peak, the pool of remaining potential adopters shrinks, so new adoptions decline even though word-of-mouth continues. The peak occurs when the cumulative adopters reach a critical mass.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "What are the advantages of using a market simulator based on conjoint data? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "It allows testing product configurations that do not yet exist in the market" },
+            { "id": "b", "text": "It enables 'what-if' competitive scenario analysis" },
+            { "id": "c", "text": "It can estimate the impact of adding or removing specific product features on market share" },
+            { "id": "d", "text": "It perfectly predicts actual market outcomes with no error" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Conjoint simulators are powerful because they can model hypothetical products (not yet launched), test competitive scenarios (what if competitor X drops price?), and estimate share impact of feature changes. However, they are models with assumptions and simplifications, so they provide estimates rather than perfect predictions. Real-world factors like distribution, awareness, and competitive dynamics affect actual outcomes.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "If a product category has a Bass model with p = 0.03 and q = 0.38, which of the following best describes the expected adoption pattern?",
+          "options": [
+            { "id": "a", "text": "Slow initial adoption driven mainly by innovators, followed by rapid acceleration as word-of-mouth kicks in, producing a sharp peak" },
+            { "id": "b", "text": "Rapid initial adoption that steadily declines over time" },
+            { "id": "c", "text": "Constant, steady adoption with no acceleration or peak" },
+            { "id": "d", "text": "Immediate market saturation within the first period" }
+          ],
+          "correct_answer": "a",
+          "explanation": "With p = 0.03 (low innovation coefficient) and q = 0.38 (high imitation coefficient), initial adoption is slow because few people adopt based on external influence alone. But as the small initial base generates word-of-mouth, adoption accelerates rapidly. The high q/p ratio (about 12.7) produces a steep S-curve and a pronounced peak. This pattern is typical of consumer electronics and social technologies.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In conjoint analysis, an interaction effect between two attributes means that the preference for one attribute level depends on the level of another attribute.",
+          "correct_answer": "true",
+          "explanation": "Interaction effects in conjoint analysis occur when attributes are not independent in their effect on preference. For example, consumers might strongly prefer a large screen at a high price point (luxury segment) but prefer a small screen at a low price point (budget segment). Standard additive conjoint models assume no interactions; choice-based conjoint with interaction terms can capture these dependencies.",
           "difficulty": "hard"
         }
       ]
     },
     {
       "title": "Marketing Management - Tools Practice Quiz",
-      "description": "Practice Quiz for the Tools section, covering Conjoint analysis, Diffusion model, Analytics funnel, Customer response modeling.",
+      "description": "Practice Quiz for the Tools section, covering conjoint analysis, diffusion models, and simulation tools.",
       "kind": "practice_quiz",
       "difficulty": "medium",
       "generated_from": "tools",
-      "time_limit_minutes": 18,
+      "time_limit_minutes": 25,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "A student says the Tools section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "question_text": "Who developed the Bass diffusion model, and in what year was it first published?",
           "options": [
-            {
-              "id": "a",
-              "text": "No. The section connects Conjoint analysis, Diffusion model, and Analytics funnel to connect customer insight, segmentation, positioning, pricing, and experimentation to growth choices."
-            },
-            {
-              "id": "b",
-              "text": "Yes. The main goal is to recall terms, even if they never shape a go-to-market recommendation with customer economics and evidence behind the choice."
-            },
-            {
-              "id": "c",
-              "text": "Yes. The section works best when Conjoint analysis is studied separately from Diffusion model."
-            },
-            {
-              "id": "d",
-              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
-            }
+            { "id": "a", "text": "Frank Bass, 1969" },
+            { "id": "b", "text": "Philip Kotler, 1985" },
+            { "id": "c", "text": "Michael Porter, 1980" },
+            { "id": "d", "text": "Peter Drucker, 1954" }
           ],
           "correct_answer": "a",
-          "explanation": "Tools is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
-          "difficulty": "medium"
-        },
-        {
-          "question_type": "multi_select",
-          "question_text": "When someone is reviewing Tools while choosing the right model or instrument for a decision, which moves usually strengthen the review?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Link Conjoint analysis to Diffusion model instead of treating them as separate facts"
-            },
-            {
-              "id": "b",
-              "text": "State the assumptions that connect Analytics funnel to the decision"
-            },
-            {
-              "id": "c",
-              "text": "Explain how the section changes a tool choice and interpretation that support a go-to-market recommendation with customer economics and evidence behind the choice"
-            },
-            {
-              "id": "d",
-              "text": "Ignore tradeoffs and rely on the first plausible answer about Action learning"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "Good review work in Tools ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "explanation": "Frank Bass published his influential diffusion model in 1969 in the journal Management Science. The model has since become one of the most widely used quantitative tools in marketing for forecasting new product adoption.",
           "difficulty": "easy"
         },
         {
           "question_type": "true_false",
-          "question_text": "True or false: A solid answer from the Tools section should use evidence like Conjoint analysis, Diffusion model, Analytics funnel and still make the tradeoffs explicit.",
+          "question_text": "True or false: In conjoint analysis, a 'profile' refers to a complete product description consisting of one level from each attribute.",
           "correct_answer": "true",
-          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "explanation": "A profile (or concept) in conjoint analysis is a hypothetical product defined by selecting one level for each attribute. For example, if attributes are color (red, blue), size (small, large), and price ($10, $20), then 'red, large, $10' is one profile. Respondents evaluate multiple profiles to reveal their underlying preferences.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to Rogers' diffusion of innovations theory, which adopter category makes up the largest percentage of the population?",
+          "options": [
+            { "id": "a", "text": "Early majority and late majority (about 34% each)" },
+            { "id": "b", "text": "Innovators (about 50%)" },
+            { "id": "c", "text": "Laggards (about 40%)" },
+            { "id": "d", "text": "Early adopters (about 45%)" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Rogers' bell curve divides adopters into five categories: innovators (2.5%), early adopters (13.5%), early majority (34%), late majority (34%), and laggards (16%). The early and late majority together account for 68% of the population and represent the mass market.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following outputs can be derived from a conjoint analysis? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Part-worth utilities for each attribute level" },
+            { "id": "b", "text": "Relative importance of each attribute" },
+            { "id": "c", "text": "Willingness-to-pay estimates for specific features" },
+            { "id": "d", "text": "The exact future sales volume for a new product" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Conjoint analysis produces part-worth utilities (preference scores for each attribute level), attribute importance (the relative weight of each attribute in the decision), and can be used to estimate willingness to pay by examining the price trade-off. It cannot predict exact sales volumes because real-world factors like distribution, awareness, and competitive actions also affect sales.",
           "difficulty": "medium"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which study plan would best prepare someone to use Tools while choosing the right model or instrument for a decision?",
+          "question_text": "In the Bass model equation dN/dt = [p + q(N/m)] * [m - N], what does the term [m - N] represent?",
           "options": [
-            {
-              "id": "a",
-              "text": "Compare Conjoint analysis, Diffusion model, and Customer response modeling; test the assumptions; then connect the section to a go-to-market recommendation with customer economics and evidence behind the choice."
-            },
-            {
-              "id": "b",
-              "text": "Skim Conjoint analysis for terminology, then answer from memory without naming the decision."
-            },
-            {
-              "id": "c",
-              "text": "Focus on polished wording first and postpone the marketing strategy and analytics reasoning until the end."
-            },
-            {
-              "id": "d",
-              "text": "Pick the first familiar framework and ignore whether it fits choosing the right framework or instrument for the job."
-            }
+            { "id": "a", "text": "The remaining market potential -- people who have not yet adopted" },
+            { "id": "b", "text": "The total number of adopters at time t" },
+            { "id": "c", "text": "The advertising budget remaining" },
+            { "id": "d", "text": "The competitive market share" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "explanation": "In the Bass model, m is total market potential and N is cumulative adopters at time t. The term [m - N] represents the remaining potential adopters who have not yet adopted. As N grows and approaches m, this pool shrinks, which is why adoption eventually slows down even when word-of-mouth is strong.",
           "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The Bass diffusion model can be applied to forecast adoption of both new products and new technologies.",
+          "correct_answer": "true",
+          "explanation": "The Bass model has been applied to a wide range of innovations including consumer electronics (TVs, DVRs), telecommunications (cell phones, internet), industrial products, and even non-product innovations like new medical procedures or agricultural techniques. Its generality comes from capturing the fundamental dynamics of innovation and imitation that apply across contexts.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A firm wants to use conjoint analysis to determine the optimal number of features for a new smartwatch. What type of analysis would best reveal whether adding a GPS feature is worth the additional cost?",
+          "options": [
+            { "id": "a", "text": "Calculate the willingness to pay for GPS by examining how much more consumers would pay for a product with GPS vs. without GPS, then compare to the incremental cost" },
+            { "id": "b", "text": "Simply ask consumers directly if they want GPS in a survey" },
+            { "id": "c", "text": "Look at competitor smartwatches and copy their feature set" },
+            { "id": "d", "text": "Set the price equal to the manufacturing cost of the GPS module" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Conjoint analysis reveals willingness to pay by examining the dollar-equivalent value of adding an attribute level. By comparing the part-worth of GPS to the no-GPS level and translating through the price attribute's part-worths, the analyst can estimate the dollar premium consumers would pay for GPS. If this exceeds the incremental cost, the feature is worth adding.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What happens to the shape of the Bass model's cumulative adoption curve when the coefficient of innovation (p) increases while q stays constant?",
+          "options": [
+            { "id": "a", "text": "Adoption starts faster because more people adopt early due to external influence, and the overall curve shifts earlier in time" },
+            { "id": "b", "text": "Adoption starts slower because innovators are more cautious" },
+            { "id": "c", "text": "The total market potential (m) increases" },
+            { "id": "d", "text": "The curve becomes perfectly linear" }
+          ],
+          "correct_answer": "a",
+          "explanation": "A higher p means more potential adopters are influenced by external factors (advertising, awareness) to adopt early, independent of prior adopters. This accelerates early adoption, seeds the imitation process sooner, and shifts the entire adoption curve earlier in time. The total market potential m is unchanged since it is a separate parameter.",
+          "difficulty": "hard"
         }
       ]
     }

@@ -4,582 +4,691 @@
   "assessments": [
     {
       "title": "Organizational Processes - Assignments Applied Homework",
-      "description": "Applied Homework for the Assignments section, covering Case write-ups, Leadership diagnosis, Change interventions, Coordination problems.",
+      "description": "Applied Homework for the Assignments section, covering case write-ups, leadership diagnosis, change interventions, and coordination problems.",
       "kind": "homework",
       "difficulty": "hard",
       "generated_from": "assignments",
-      "time_limit_minutes": 35,
+      "time_limit_minutes": 45,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "In the Assignments homework-style response, which draft sounds the most decision-ready?",
+          "question_text": "According to contingency theory, the best organizational structure depends on:",
           "options": [
-            {
-              "id": "a",
-              "text": "A response that uses Case write-ups and Leadership diagnosis to produce a worked recommendation that ends in an intervention plan that aligns structure, incentives, communication, and leadership action."
-            },
-            {
-              "id": "b",
-              "text": "A response that repeats section terminology but never commits to a recommendation."
-            },
-            {
-              "id": "c",
-              "text": "A response that names Case write-ups yet skips assumptions and tradeoffs."
-            },
-            {
-              "id": "d",
-              "text": "A response built on attributing organizational outcomes only to individual personality or effort."
-            }
+            { "id": "a", "text": "The specific environmental, technological, and strategic conditions the organization faces" },
+            { "id": "b", "text": "Whatever structure the CEO personally prefers" },
+            { "id": "c", "text": "A universal set of best practices that apply equally to all organizations" },
+            { "id": "d", "text": "The structure used by the most profitable company in the industry" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "explanation": "Contingency theory is a core principle of organizational design: there is no single best way to organize. The optimal structure depends on contingency factors such as environmental uncertainty, technology, organizational size, and strategy. A structure that works well for a stable, mass-production firm may be dysfunctional for a rapidly innovating startup.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In a case write-up analyzing organizational dysfunction, a strong diagnosis should identify root causes at the system level (structure, incentives, norms) rather than attributing problems solely to individual personality flaws.",
+          "correct_answer": "true",
+          "explanation": "A hallmark of organizational analysis is moving beyond the 'fundamental attribution error' -- the tendency to blame individuals rather than examining systemic factors. Strong case write-ups diagnose problems in terms of structural misalignment, incentive design, cultural norms, and communication breakdowns rather than simply blaming 'bad people.'",
           "difficulty": "medium"
         },
         {
           "question_type": "multi_select",
-          "question_text": "Suppose a manager is using Assignments while turning a draft analysis into a defensible submission. Which elements belong in the written answer?",
+          "question_text": "When diagnosing a coordination failure in an organization, which of the following factors should be examined? (Select all that apply)",
           "options": [
-            {
-              "id": "a",
-              "text": "Evidence from Case write-ups or Leadership diagnosis"
-            },
-            {
-              "id": "b",
-              "text": "The assumptions or constraints shaping the recommendation"
-            },
-            {
-              "id": "c",
-              "text": "A managerial implication tied to a worked recommendation that ends in an intervention plan that aligns structure, incentives, communication, and leadership action"
-            },
-            {
-              "id": "d",
-              "text": "Team project"
-            }
+            { "id": "a", "text": "Whether formal coordination mechanisms (rules, plans, schedules) are adequate for the level of interdependence" },
+            { "id": "b", "text": "Whether informal coordination (mutual adjustment, communication) supplements formal mechanisms" },
+            { "id": "c", "text": "Whether the type of interdependence (pooled, sequential, reciprocal) matches the coordination approach" },
+            { "id": "d", "text": "Whether the office furniture is arranged attractively" }
           ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
-          "difficulty": "hard"
-        },
-        {
-          "question_type": "multiple_choice",
-          "question_text": "Which next step best shows that someone understands how to use Assignments in practice?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Use Change interventions and Coordination problems to frame the recommendation, then check whether it still holds when assumptions move."
-            },
-            {
-              "id": "b",
-              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
-            },
-            {
-              "id": "c",
-              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
-            },
-            {
-              "id": "d",
-              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
-            }
-          ],
-          "correct_answer": "a",
-          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Thompson's framework identifies three types of interdependence (pooled, sequential, reciprocal), each requiring progressively more intensive coordination. Pooled interdependence can be managed with standardization, sequential with planning, and reciprocal requires mutual adjustment. Diagnosis should assess whether the coordination mechanisms match the actual interdependence.",
           "difficulty": "medium"
         },
         {
-          "question_type": "short_answer",
-          "question_text": "Name one sentence-level takeaway a strong answer from Assignments should land on after weighing Case write-ups, Leadership diagnosis, and Change interventions.",
-          "correct_answer": "It should end with an intervention plan that aligns structure, incentives, communication, and leadership action, grounded in Case write-ups, Leadership diagnosis, Change interventions and explicit assumptions.",
-          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "question_type": "multiple_choice",
+          "question_text": "Kotter's 8-step model of organizational change begins with which critical step?",
+          "options": [
+            { "id": "a", "text": "Establishing a sense of urgency" },
+            { "id": "b", "text": "Forming a guiding coalition" },
+            { "id": "c", "text": "Anchoring changes in the corporate culture" },
+            { "id": "d", "text": "Generating short-term wins" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Kotter argues that change efforts fail most often because leaders skip the first step: creating urgency. Without a compelling case for why the status quo is unacceptable, organizational members lack motivation to change. The full sequence is: (1) urgency, (2) guiding coalition, (3) vision, (4) communicate vision, (5) empower action, (6) short-term wins, (7) consolidate gains, (8) anchor in culture.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A division manager discovers that two departments are duplicating each other's work because neither knows what the other is doing. According to organizational design principles, this is most likely a failure of:",
+          "options": [
+            { "id": "a", "text": "Lateral coordination and information sharing across departmental boundaries" },
+            { "id": "b", "text": "Vertical authority -- the CEO is not making enough decisions" },
+            { "id": "c", "text": "Individual employee motivation" },
+            { "id": "d", "text": "External competitive pressure" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Duplication of effort across departments signals a lateral coordination failure. Organizations need mechanisms (liaison roles, cross-functional teams, integrating managers, shared information systems) to ensure that interdependent units communicate and coordinate. This is a structural problem, not typically one of individual motivation or top-down authority.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Lewin's change model describes three stages: unfreezing (preparing for change), changing (implementing the change), and refreezing (stabilizing the new state).",
+          "correct_answer": "true",
+          "explanation": "Kurt Lewin's classic change model identifies three phases. Unfreezing involves creating dissatisfaction with the status quo and readiness for change. Changing (or moving) involves implementing new behaviors, processes, or structures. Refreezing involves reinforcing and institutionalizing the changes so the organization does not revert. Though simple, this model captures the essential dynamics of planned change.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In Thompson's classification of interdependence, which type involves the most complex coordination requirements?",
+          "options": [
+            { "id": "a", "text": "Reciprocal interdependence, where outputs of each unit become inputs for the other" },
+            { "id": "b", "text": "Pooled interdependence, where units share common resources but work independently" },
+            { "id": "c", "text": "Sequential interdependence, where one unit's output is the next unit's input" },
+            { "id": "d", "text": "All types of interdependence require exactly the same coordination effort" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Thompson ranked interdependence types by coordination difficulty: pooled (lowest, managed by standardization), sequential (moderate, managed by planning), and reciprocal (highest, requiring mutual adjustment). Reciprocal interdependence involves back-and-forth exchanges between units (e.g., design and manufacturing iterating on specifications), making it the most coordination-intensive.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are common reasons that organizational change efforts fail? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Lack of a clear vision for what the change will accomplish" },
+            { "id": "b", "text": "Insufficient coalition of supporters with enough power to drive the change" },
+            { "id": "c", "text": "Declaring victory too soon before changes are anchored in the culture" },
+            { "id": "d", "text": "Having too many short-term wins that build momentum" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Kotter identifies eight common failure modes for change efforts, including lacking urgency, lacking a guiding coalition, having no clear vision, under-communicating the vision, not removing obstacles, failing to create short-term wins, declaring victory prematurely, and not anchoring changes in culture. Having too many short-term wins is not a failure mode -- wins build momentum and credibility for the change effort.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A hospital emergency department, a software development team, and a university research lab all face high environmental uncertainty and reciprocal interdependence among staff. Which organizational structure would contingency theory recommend?",
+          "options": [
+            { "id": "a", "text": "An organic structure with decentralized decision-making, flexible roles, and lateral communication" },
+            { "id": "b", "text": "A mechanistic structure with strict hierarchy, rigid rules, and centralized authority" },
+            { "id": "c", "text": "A structure with no management at all" },
+            { "id": "d", "text": "The same structure used by a large manufacturing plant" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Burns and Stalker's research found that organic structures (decentralized, flexible, with lateral communication) are more effective in uncertain, rapidly changing environments. Mechanistic structures (centralized, rule-bound, hierarchical) work better in stable, predictable environments. All three examples face high uncertainty and require rapid adaptation, making organic structures more appropriate.",
           "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: When writing a case analysis of organizational change, a strong recommendation should specify not only what should change but also a realistic sequence of implementation steps and potential resistance points.",
+          "correct_answer": "true",
+          "explanation": "Strong case write-ups go beyond identifying what needs to change to specifying how the change should be implemented. This includes sequencing steps logically (e.g., building coalition before announcing vision), anticipating sources of resistance (who loses power, resources, or comfort), and identifying mechanisms for overcoming resistance (communication, participation, negotiation, support).",
+          "difficulty": "medium"
         }
       ]
     },
     {
       "title": "Organizational Processes - Assignments Practice Quiz",
-      "description": "Practice Quiz for the Assignments section, covering Case write-ups, Leadership diagnosis, Change interventions, Coordination problems.",
+      "description": "Practice Quiz for the Assignments section, covering case write-ups, leadership diagnosis, change interventions, and coordination problems.",
       "kind": "practice_quiz",
       "difficulty": "medium",
       "generated_from": "assignments",
-      "time_limit_minutes": 18,
+      "time_limit_minutes": 25,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "A student says the Assignments section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "question_text": "What is the 'fundamental attribution error' and why is it important in organizational analysis?",
           "options": [
-            {
-              "id": "a",
-              "text": "No. The section connects Case write-ups, Leadership diagnosis, and Change interventions to diagnose behavior through incentives, norms, power, coordination, and group dynamics."
-            },
-            {
-              "id": "b",
-              "text": "Yes. The main goal is to recall terms, even if they never shape an intervention plan that aligns structure, incentives, communication, and leadership action."
-            },
-            {
-              "id": "c",
-              "text": "Yes. The section works best when Case write-ups is studied separately from Leadership diagnosis."
-            },
-            {
-              "id": "d",
-              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
-            }
+            { "id": "a", "text": "The tendency to attribute behavior to individual traits rather than situational factors, leading analysts to blame people instead of diagnosing systemic issues" },
+            { "id": "b", "text": "A mathematical error in calculating organizational performance metrics" },
+            { "id": "c", "text": "The mistake of attributing too much power to organizational structure" },
+            { "id": "d", "text": "The error of using qualitative data instead of quantitative data" }
           ],
           "correct_answer": "a",
-          "explanation": "Assignments is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
+          "explanation": "The fundamental attribution error is the tendency to overweight dispositional (personality-based) explanations for behavior and underweight situational factors. In organizations, this leads people to blame 'bad employees' rather than examining whether the structure, incentives, or culture are creating the problematic behavior. Good organizational analysis corrects for this bias.",
           "difficulty": "medium"
         },
         {
-          "question_type": "multi_select",
-          "question_text": "When someone is reviewing Assignments while turning a draft analysis into a defensible submission, which moves usually strengthen the review?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Link Case write-ups to Leadership diagnosis instead of treating them as separate facts"
-            },
-            {
-              "id": "b",
-              "text": "State the assumptions that connect Change interventions to the decision"
-            },
-            {
-              "id": "c",
-              "text": "Explain how the section changes a worked recommendation that ends in an intervention plan that aligns structure, incentives, communication, and leadership action"
-            },
-            {
-              "id": "d",
-              "text": "Ignore tradeoffs and rely on the first plausible answer about Team project"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "Good review work in Assignments ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "question_type": "true_false",
+          "question_text": "True or false: A mechanistic organizational structure is characterized by rigid hierarchical authority, specialized tasks, and formal rules and procedures.",
+          "correct_answer": "true",
+          "explanation": "Burns and Stalker described mechanistic structures as having clear hierarchies, narrowly defined jobs, extensive rules and standard operating procedures, and centralized decision-making. These structures excel in stable environments where efficiency and predictability are priorities, such as mass manufacturing. They are contrasted with organic structures that are more flexible and decentralized.",
           "difficulty": "easy"
         },
         {
+          "question_type": "multiple_choice",
+          "question_text": "Which of the following best describes 'pooled interdependence' in Thompson's framework?",
+          "options": [
+            { "id": "a", "text": "Units contribute independently to the whole organization and share common resources, but do not directly depend on each other's work outputs" },
+            { "id": "b", "text": "Each unit's output becomes the input for the next unit in a chain" },
+            { "id": "c", "text": "Units work in continuous back-and-forth exchange with each other" },
+            { "id": "d", "text": "Units have no connection to the organization whatsoever" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Pooled interdependence is the lowest level of interdependence: each unit (e.g., branches of a bank) contributes to the overall organization but does not directly depend on other units' outputs. Coordination can be managed through standardized rules and procedures. Sequential involves a directional chain, and reciprocal involves back-and-forth exchanges.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are characteristics of an organic organizational structure? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Decentralized decision-making" },
+            { "id": "b", "text": "Flexible, broadly defined roles" },
+            { "id": "c", "text": "Emphasis on lateral communication and mutual adjustment" },
+            { "id": "d", "text": "Rigid chain of command with decisions made only at the top" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Organic structures are characterized by decentralized authority, flexible roles that adapt to tasks, lateral communication, and collaborative decision-making. They are well-suited for uncertain, innovative environments. A rigid chain of command with centralized decisions describes a mechanistic structure -- the opposite of organic.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In Kotter's change model, what is the purpose of 'generating short-term wins'?",
+          "options": [
+            { "id": "a", "text": "To provide visible evidence that the change effort is working, build momentum, and maintain support from stakeholders" },
+            { "id": "b", "text": "To allow the organization to declare the change complete as quickly as possible" },
+            { "id": "c", "text": "To distract employees from the difficulty of the change process" },
+            { "id": "d", "text": "To generate immediate financial returns that justify the CEO's bonus" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Short-term wins serve multiple purposes in Kotter's model: they demonstrate that the change effort is producing results, reward people who are contributing, undermine cynics and resistors, build momentum for the broader change, and help maintain senior management's support. Without visible early wins, change fatigue and skepticism can derail longer-term transformation.",
+          "difficulty": "medium"
+        },
+        {
           "question_type": "true_false",
-          "question_text": "True or false: A solid answer from the Assignments section should use evidence like Case write-ups, Leadership diagnosis, Change interventions and still make the tradeoffs explicit.",
-          "correct_answer": "true",
-          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "question_text": "True or false: Resistance to organizational change is always irrational and should be overcome by force.",
+          "correct_answer": "false",
+          "explanation": "Resistance to change is often rational from the perspective of those resisting. People may lose status, power, resources, comfortable routines, or social connections. Effective change management recognizes that resistance provides useful diagnostic information about the change's impact and addresses legitimate concerns through communication, participation, support, and negotiation rather than force.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A company reorganizes from a functional structure (marketing, engineering, manufacturing departments) to a divisional structure (product-line divisions). What is the primary trade-off?",
+          "options": [
+            { "id": "a", "text": "Greater responsiveness to each product market, but potential loss of functional economies of scale and specialized expertise" },
+            { "id": "b", "text": "Lower costs in every category with no drawbacks" },
+            { "id": "c", "text": "Elimination of all coordination problems" },
+            { "id": "d", "text": "Reduced accountability for product performance" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Functional structures group specialists together, enabling deep expertise and economies of scale but making cross-functional coordination for specific products difficult. Divisional structures group all functions needed for a product together, improving product-market responsiveness and accountability but potentially duplicating functional resources and losing specialist depth. This is a classic structural trade-off.",
           "difficulty": "medium"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which study plan would best prepare someone to use Assignments while turning a draft analysis into a defensible submission?",
+          "question_text": "Which leadership behavior is most critical during the 'unfreezing' stage of Lewin's change model?",
           "options": [
-            {
-              "id": "a",
-              "text": "Compare Case write-ups, Leadership diagnosis, and Coordination problems; test the assumptions; then connect the section to an intervention plan that aligns structure, incentives, communication, and leadership action."
-            },
-            {
-              "id": "b",
-              "text": "Skim Case write-ups for terminology, then answer from memory without naming the decision."
-            },
-            {
-              "id": "c",
-              "text": "Focus on polished wording first and postpone the organizations and leadership reasoning until the end."
-            },
-            {
-              "id": "d",
-              "text": "Pick the first familiar framework and ignore whether it fits working through structured problems with assumptions made explicit."
-            }
+            { "id": "a", "text": "Creating dissatisfaction with the status quo and communicating a compelling reason for change" },
+            { "id": "b", "text": "Reinforcing new routines and rewarding changed behavior" },
+            { "id": "c", "text": "Implementing detailed operational procedures for the new system" },
+            { "id": "d", "text": "Celebrating the successful completion of the change" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "explanation": "Unfreezing requires disrupting the equilibrium that holds current behaviors in place. Leaders must help people see that the status quo is unsustainable or undesirable (through data, stories, external benchmarks) and create psychological safety to explore new approaches. Reinforcing routines and celebrating completion belong to the refreezing stage.",
           "difficulty": "medium"
         }
       ]
     },
     {
       "title": "Organizational Processes - Projects Applied Homework",
-      "description": "Applied Homework for the Projects section, covering Team project, Organizational diagnosis, Power and incentives, Group dynamics.",
+      "description": "Applied Homework for the Projects section, covering team projects, organizational diagnosis, power and incentives, and group dynamics.",
       "kind": "homework",
       "difficulty": "hard",
       "generated_from": "projects",
-      "time_limit_minutes": 35,
+      "time_limit_minutes": 45,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "In the Projects homework-style response, which draft sounds the most decision-ready?",
+          "question_text": "Groupthink is most likely to occur when a team has:",
           "options": [
-            {
-              "id": "a",
-              "text": "A response that uses Team project and Organizational diagnosis to produce a project-ready recommendation tied to an intervention plan that aligns structure, incentives, communication, and leadership action."
-            },
-            {
-              "id": "b",
-              "text": "A response that repeats section terminology but never commits to a recommendation."
-            },
-            {
-              "id": "c",
-              "text": "A response that names Team project yet skips assumptions and tradeoffs."
-            },
-            {
-              "id": "d",
-              "text": "A response built on attributing organizational outcomes only to individual personality or effort."
-            }
+            { "id": "a", "text": "High cohesion, a directive leader, insulation from outside opinions, and pressure for conformity" },
+            { "id": "b", "text": "Low cohesion and high conflict among members" },
+            { "id": "c", "text": "Diverse membership with strong norms of constructive debate" },
+            { "id": "d", "text": "Frequent turnover of team members" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "explanation": "Janis identified several antecedent conditions for groupthink: high group cohesion, structural faults (insulation, lack of norms for methodical procedures, homogeneity), and a provocative situational context (high stress, directive leadership). The result is premature consensus, suppression of dissent, and poor decision quality. Diversity and debate norms are antidotes to groupthink.",
           "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: French and Raven identified five bases of power: legitimate, reward, coercive, expert, and referent power.",
+          "correct_answer": "true",
+          "explanation": "French and Raven's (1959) taxonomy is one of the most widely used frameworks for analyzing power in organizations. Legitimate power comes from formal position; reward power from ability to provide incentives; coercive power from ability to punish; expert power from specialized knowledge; and referent power from personal charisma and interpersonal attraction. Later work added informational power as a sixth base.",
+          "difficulty": "easy"
         },
         {
           "question_type": "multi_select",
-          "question_text": "Suppose a manager is using Projects while shaping a team recommendation for leadership review. Which elements belong in the written answer?",
+          "question_text": "When conducting an organizational diagnosis, which of the following should be examined to understand why employees are not meeting performance targets? (Select all that apply)",
           "options": [
-            {
-              "id": "a",
-              "text": "Evidence from Team project or Organizational diagnosis"
-            },
-            {
-              "id": "b",
-              "text": "The assumptions or constraints shaping the recommendation"
-            },
-            {
-              "id": "c",
-              "text": "A managerial implication tied to a project-ready recommendation tied to an intervention plan that aligns structure, incentives, communication, and leadership action"
-            },
-            {
-              "id": "d",
-              "text": "Case write-ups"
-            }
+            { "id": "a", "text": "Whether the incentive system rewards the desired behaviors" },
+            { "id": "b", "text": "Whether employees have the skills and resources needed to perform" },
+            { "id": "c", "text": "Whether the organizational structure creates barriers to effective work" },
+            { "id": "d", "text": "Only the employees' personal attitudes and work ethic" }
           ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
-          "difficulty": "hard"
-        },
-        {
-          "question_type": "multiple_choice",
-          "question_text": "Which next step best shows that someone understands how to use Projects in practice?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Use Power and incentives and Group dynamics to frame the recommendation, then check whether it still holds when assumptions move."
-            },
-            {
-              "id": "b",
-              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
-            },
-            {
-              "id": "c",
-              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
-            },
-            {
-              "id": "d",
-              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
-            }
-          ],
-          "correct_answer": "a",
-          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "A thorough organizational diagnosis examines multiple systemic factors: incentive alignment (do rewards match desired behaviors?), capability (do people have skills and resources?), structural enablers/barriers (does the structure facilitate or impede work?), and cultural norms. Focusing only on individual attitudes ignores the systemic factors that organizational theory emphasizes.",
           "difficulty": "medium"
         },
         {
-          "question_type": "short_answer",
-          "question_text": "Name one sentence-level takeaway a strong answer from Projects should land on after weighing Team project, Organizational diagnosis, and Power and incentives.",
-          "correct_answer": "It should end with an intervention plan that aligns structure, incentives, communication, and leadership action, grounded in Team project, Organizational diagnosis, Power and incentives and explicit assumptions.",
-          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "question_type": "multiple_choice",
+          "question_text": "In a team project, social loafing is most likely to occur when:",
+          "options": [
+            { "id": "a", "text": "Individual contributions are not identifiable, the task does not feel meaningful, and the group is large" },
+            { "id": "b", "text": "The team is small and each member's work is clearly visible" },
+            { "id": "c", "text": "The task is highly engaging and personally meaningful to all members" },
+            { "id": "d", "text": "The team has strong performance-based incentives tied to individual contributions" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Social loafing (reduced individual effort in groups) increases when contributions are not identifiable (diffusion of responsibility), the task feels unimportant, the group is large (individual effort feels less impactful), and there are no individual-level accountability mechanisms. It can be reduced by making individual contributions visible, keeping teams small, and making the task meaningful.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "An organization's incentive system rewards individual sales performance, but the company's strategy requires cross-selling across product lines, which demands collaboration between sales teams. This is an example of:",
+          "options": [
+            { "id": "a", "text": "Misalignment between the incentive structure and the organization's strategic objectives" },
+            { "id": "b", "text": "An effective incentive system that maximizes individual motivation" },
+            { "id": "c", "text": "A problem that can only be solved by hiring new employees" },
+            { "id": "d", "text": "Optimal organizational design" }
+          ],
+          "correct_answer": "a",
+          "explanation": "This is a classic incentive misalignment problem. When individual rewards conflict with collaborative goals, rational employees will optimize for their own rewards rather than the collective strategy. The solution requires redesigning incentives to include team-based or cross-selling metrics that align individual motivation with the organization's need for collaboration.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Tuckman's model of group development describes four stages: forming, storming, norming, and performing.",
+          "correct_answer": "true",
+          "explanation": "Tuckman (1965) proposed that groups develop through four stages: forming (orientation, testing boundaries), storming (conflict over roles and direction), norming (establishing shared expectations and cohesion), and performing (effective, focused work). He later added a fifth stage, adjourning, for groups that disband. Not all groups progress linearly through these stages, but the model captures common developmental dynamics.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following tactics can a manager use to build power and influence within an organization? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Developing expertise in areas critical to the organization's success" },
+            { "id": "b", "text": "Building coalitions and networks of allies across the organization" },
+            { "id": "c", "text": "Controlling access to key resources or information" },
+            { "id": "d", "text": "Avoiding all interaction with other departments to maintain independence" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Power-building strategies include developing critical expertise (expert power), building coalitions and networks (social capital), controlling scarce resources or information (resource dependence), and managing impressions and visibility. Avoiding interaction reduces a manager's influence and network centrality rather than building power.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A project team is experiencing the 'storming' phase of Tuckman's model. Which of the following would be the most productive leadership response?",
+          "options": [
+            { "id": "a", "text": "Facilitate open discussion of disagreements, clarify roles, and help the team establish working norms" },
+            { "id": "b", "text": "Suppress all conflict immediately by imposing strict rules" },
+            { "id": "c", "text": "Disband the team and start over with new members" },
+            { "id": "d", "text": "Ignore the conflict and hope it resolves itself" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Storming is a natural and necessary stage where teams work through disagreements about goals, roles, and processes. Effective leadership during this stage involves acknowledging the conflict, facilitating constructive dialogue, helping clarify roles and expectations, and guiding the team toward shared norms. Suppressing conflict prevents resolution, and ignoring it allows dysfunction to fester.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to the strategic contingencies theory of power, a department gains power within an organization when it:",
+          "options": [
+            { "id": "a", "text": "Controls critical uncertainties, is central to the organization's workflow, and is not easily substitutable" },
+            { "id": "b", "text": "Has the largest number of employees" },
+            { "id": "c", "text": "Has the most comfortable office space" },
+            { "id": "d", "text": "Was established before all other departments" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Hickson's strategic contingencies theory argues that a subunit gains power by: (1) coping with critical uncertainties the organization faces, (2) being central to the organization's workflow (high interdependence with other units), and (3) being non-substitutable (no easy alternative for the function it performs). This explains why IT departments gained power as technology became central to business operations.",
           "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In organizational diagnosis, the 'presenting problem' (what stakeholders initially complain about) is always the root cause of organizational dysfunction.",
+          "correct_answer": "false",
+          "explanation": "The presenting problem is often a symptom rather than the root cause. For example, stakeholders might complain about 'poor communication' when the real issue is structural -- departments are designed with conflicting goals and no coordination mechanisms. Effective diagnosis involves probing beneath surface complaints to identify underlying systemic causes related to structure, incentives, culture, or power dynamics.",
+          "difficulty": "medium"
         }
       ]
     },
     {
       "title": "Organizational Processes - Projects Practice Quiz",
-      "description": "Practice Quiz for the Projects section, covering Team project, Organizational diagnosis, Power and incentives, Group dynamics.",
+      "description": "Practice Quiz for the Projects section, covering team projects, organizational diagnosis, power and incentives, and group dynamics.",
       "kind": "practice_quiz",
       "difficulty": "medium",
       "generated_from": "projects",
-      "time_limit_minutes": 18,
+      "time_limit_minutes": 25,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "A student says the Projects section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "question_text": "What is 'social loafing'?",
           "options": [
-            {
-              "id": "a",
-              "text": "No. The section connects Team project, Organizational diagnosis, and Power and incentives to diagnose behavior through incentives, norms, power, coordination, and group dynamics."
-            },
-            {
-              "id": "b",
-              "text": "Yes. The main goal is to recall terms, even if they never shape an intervention plan that aligns structure, incentives, communication, and leadership action."
-            },
-            {
-              "id": "c",
-              "text": "Yes. The section works best when Team project is studied separately from Organizational diagnosis."
-            },
-            {
-              "id": "d",
-              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
-            }
+            { "id": "a", "text": "The tendency for individuals to exert less effort when working in a group than when working alone" },
+            { "id": "b", "text": "The tendency for groups to make riskier decisions than individuals" },
+            { "id": "c", "text": "The tendency for team members to socialize instead of working" },
+            { "id": "d", "text": "The tendency for managers to avoid giving negative feedback" }
           ],
           "correct_answer": "a",
-          "explanation": "Projects is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
-          "difficulty": "medium"
-        },
-        {
-          "question_type": "multi_select",
-          "question_text": "When someone is reviewing Projects while shaping a team recommendation for leadership review, which moves usually strengthen the review?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Link Team project to Organizational diagnosis instead of treating them as separate facts"
-            },
-            {
-              "id": "b",
-              "text": "State the assumptions that connect Power and incentives to the decision"
-            },
-            {
-              "id": "c",
-              "text": "Explain how the section changes a project-ready recommendation tied to an intervention plan that aligns structure, incentives, communication, and leadership action"
-            },
-            {
-              "id": "d",
-              "text": "Ignore tradeoffs and rely on the first plausible answer about Case write-ups"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "Good review work in Projects ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "explanation": "Social loafing, first demonstrated by Ringelmann's rope-pulling experiments, is the reduction of individual effort in groups. It occurs because individual contributions become less identifiable as group size increases (diffusion of responsibility) and because individuals believe their effort is dispensable. It can be countered by making individual contributions visible and by creating meaningful, engaging tasks.",
           "difficulty": "easy"
         },
         {
           "question_type": "true_false",
-          "question_text": "True or false: A solid answer from the Projects section should use evidence like Team project, Organizational diagnosis, Power and incentives and still make the tradeoffs explicit.",
-          "correct_answer": "true",
-          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "question_text": "True or false: Expert power is derived from a person's formal position in the organizational hierarchy.",
+          "correct_answer": "false",
+          "explanation": "Expert power derives from a person's specialized knowledge, skills, or competence that others need and value. It is independent of formal position. A junior data scientist may have expert power over senior executives if they possess unique analytical skills. Legitimate power, not expert power, derives from formal organizational position.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are symptoms of groupthink? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Illusion of invulnerability and excessive optimism" },
+            { "id": "b", "text": "Self-censorship of dissenting views" },
+            { "id": "c", "text": "Pressure on dissenters to conform" },
+            { "id": "d", "text": "Vigorous, open debate of multiple alternatives" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Janis identified eight symptoms of groupthink: illusion of invulnerability, collective rationalization, belief in inherent morality, stereotyping outsiders, pressure on dissenters, self-censorship, illusion of unanimity, and self-appointed 'mindguards.' Vigorous open debate is the opposite of groupthink and serves as a preventive mechanism.",
           "difficulty": "medium"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which study plan would best prepare someone to use Projects while shaping a team recommendation for leadership review?",
+          "question_text": "A manager notices that Team A consistently outperforms Team B, even though both teams have equally skilled members. What organizational factor is most likely responsible?",
           "options": [
-            {
-              "id": "a",
-              "text": "Compare Team project, Organizational diagnosis, and Group dynamics; test the assumptions; then connect the section to an intervention plan that aligns structure, incentives, communication, and leadership action."
-            },
-            {
-              "id": "b",
-              "text": "Skim Team project for terminology, then answer from memory without naming the decision."
-            },
-            {
-              "id": "c",
-              "text": "Focus on polished wording first and postpone the organizations and leadership reasoning until the end."
-            },
-            {
-              "id": "d",
-              "text": "Pick the first familiar framework and ignore whether it fits turning concepts into a polished project recommendation."
-            }
+            { "id": "a", "text": "Team A may have better group norms, clearer roles, stronger psychological safety, or more aligned incentives" },
+            { "id": "b", "text": "Team A members must be individually smarter" },
+            { "id": "c", "text": "Team B members must not care about their work" },
+            { "id": "d", "text": "Team size is always the determining factor in team performance" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "explanation": "When individual capabilities are similar, group-level factors drive performance differences. Research (including Google's Project Aristotle) shows that psychological safety, clear structure and goals, dependability, meaning, and impact are stronger predictors of team effectiveness than individual talent. Norms, roles, and incentive alignment are systemic factors that organizational design can influence.",
           "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What distinguishes 'referent power' from other bases of power?",
+          "options": [
+            { "id": "a", "text": "It stems from others' identification with and admiration for the person, generating influence through respect and attraction rather than formal authority or resources" },
+            { "id": "b", "text": "It comes from the ability to punish those who do not comply" },
+            { "id": "c", "text": "It is based on access to information that others need" },
+            { "id": "d", "text": "It requires a formal title or organizational position" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Referent power is based on interpersonal attraction, charisma, and identification. People comply because they admire, respect, or want to be like the power holder. Unlike legitimate power (position-based), reward power (incentive-based), or coercive power (punishment-based), referent power is personal and does not require formal organizational authority.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Intrinsic motivation refers to performing a task for external rewards such as salary or bonuses.",
+          "correct_answer": "false",
+          "explanation": "Intrinsic motivation refers to doing an activity because it is inherently interesting, enjoyable, or fulfilling -- the motivation comes from the task itself, not from external rewards. Salary and bonuses are extrinsic motivators. Research suggests that over-reliance on extrinsic rewards can sometimes crowd out intrinsic motivation (the overjustification effect).",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to expectancy theory, motivation is a function of three beliefs. Which of the following correctly lists all three?",
+          "options": [
+            { "id": "a", "text": "Expectancy (effort leads to performance), instrumentality (performance leads to outcomes), and valence (the value of those outcomes)" },
+            { "id": "b", "text": "Ability, opportunity, and luck" },
+            { "id": "c", "text": "Pay, benefits, and job security" },
+            { "id": "d", "text": "Intelligence, personality, and experience" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Vroom's expectancy theory states that motivation = Expectancy x Instrumentality x Valence. Expectancy is the belief that effort will lead to successful performance, instrumentality is the belief that performance will be rewarded, and valence is the value the individual places on the reward. If any component is zero, motivation is zero.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What is the primary purpose of a 'devil's advocate' role in group decision-making?",
+          "options": [
+            { "id": "a", "text": "To systematically challenge the group's preferred course of action, ensuring that alternatives and risks are thoroughly considered" },
+            { "id": "b", "text": "To delay the decision as long as possible" },
+            { "id": "c", "text": "To represent the interests of external stakeholders" },
+            { "id": "d", "text": "To make the final decision on behalf of the group" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Assigning a devil's advocate is a structural intervention to prevent groupthink. The designated person's role is to argue against the group's emerging consensus, surface unexamined assumptions, and force the group to defend its reasoning. This improves decision quality by ensuring critical evaluation of the preferred option.",
+          "difficulty": "easy"
         }
       ]
     },
     {
       "title": "Organizational Processes - Readings Applied Homework",
-      "description": "Applied Homework for the Readings section, covering Motivation, Culture, Leadership, Communication.",
+      "description": "Applied Homework for the Readings section, covering motivation, culture, leadership, and communication.",
       "kind": "homework",
       "difficulty": "medium",
       "generated_from": "readings",
-      "time_limit_minutes": 35,
+      "time_limit_minutes": 45,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "In the Readings homework-style response, which draft sounds the most decision-ready?",
+          "question_text": "According to Herzberg's two-factor theory, which of the following is a 'motivator' (as opposed to a 'hygiene factor')?",
           "options": [
-            {
-              "id": "a",
-              "text": "A response that uses Motivation and Culture to produce a reading synthesis that sharpens an intervention plan that aligns structure, incentives, communication, and leadership action."
-            },
-            {
-              "id": "b",
-              "text": "A response that repeats section terminology but never commits to a recommendation."
-            },
-            {
-              "id": "c",
-              "text": "A response that names Motivation yet skips assumptions and tradeoffs."
-            },
-            {
-              "id": "d",
-              "text": "A response built on attributing organizational outcomes only to individual personality or effort."
-            }
+            { "id": "a", "text": "Opportunities for achievement and recognition" },
+            { "id": "b", "text": "Adequate salary and comfortable working conditions" },
+            { "id": "c", "text": "Good relationships with supervisors" },
+            { "id": "d", "text": "Job security and company policies" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest draft turns section material into a recommendation, not just a recap.",
+          "explanation": "Herzberg distinguished between motivators (achievement, recognition, the work itself, responsibility, advancement, growth) that create satisfaction, and hygiene factors (salary, working conditions, supervision, company policy, job security) that prevent dissatisfaction but do not create positive motivation. Improving hygiene factors reduces dissatisfaction but does not increase motivation.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Edgar Schein's model of organizational culture identifies three levels: artifacts (visible structures and processes), espoused values (stated strategies and goals), and basic underlying assumptions (unconscious, taken-for-granted beliefs).",
+          "correct_answer": "true",
+          "explanation": "Schein's three-level model is the most widely used framework for analyzing organizational culture. Artifacts are the visible, tangible manifestations (office layout, dress code, rituals). Espoused values are what the organization says it believes (mission statements, stated norms). Basic assumptions are the deep, unconscious beliefs that actually drive behavior. True cultural change requires shifting the deepest level.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which leadership theory argues that effective leaders adapt their style based on the maturity and readiness of their followers?",
+          "options": [
+            { "id": "a", "text": "Hersey and Blanchard's situational leadership theory" },
+            { "id": "b", "text": "Trait theory of leadership" },
+            { "id": "c", "text": "Great man theory" },
+            { "id": "d", "text": "Laissez-faire leadership theory" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Hersey and Blanchard's situational leadership model proposes that leaders should vary their style (telling, selling, participating, delegating) based on the follower's readiness level (a combination of ability and willingness). New or unskilled followers need directive leadership (telling), while experienced and motivated followers benefit from delegation. This contrasts with trait theories that focus on fixed leader characteristics.",
           "difficulty": "medium"
         },
         {
           "question_type": "multi_select",
-          "question_text": "Suppose a manager is using Readings while synthesizing several assigned sources into one position. Which elements belong in the written answer?",
+          "question_text": "According to the readings on organizational communication, which of the following are barriers to effective upward communication (from subordinates to managers)? (Select all that apply)",
           "options": [
-            {
-              "id": "a",
-              "text": "Evidence from Motivation or Culture"
-            },
-            {
-              "id": "b",
-              "text": "The assumptions or constraints shaping the recommendation"
-            },
-            {
-              "id": "c",
-              "text": "A managerial implication tied to a reading synthesis that sharpens an intervention plan that aligns structure, incentives, communication, and leadership action"
-            },
-            {
-              "id": "d",
-              "text": "Case write-ups"
-            }
+            { "id": "a", "text": "Fear of retaliation or negative consequences for delivering bad news" },
+            { "id": "b", "text": "Information filtering, where subordinates tell managers only what they think managers want to hear" },
+            { "id": "c", "text": "Status differences that make subordinates reluctant to speak up" },
+            { "id": "d", "text": "Excessive use of upward communication channels" }
           ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "A strong written answer for this section uses evidence, assumptions, and a concrete implication in the same response.",
-          "difficulty": "hard"
-        },
-        {
-          "question_type": "multiple_choice",
-          "question_text": "Which next step best shows that someone understands how to use Readings in practice?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Use Leadership and Communication to frame the recommendation, then check whether it still holds when assumptions move."
-            },
-            {
-              "id": "b",
-              "text": "Lock in the first intuitive answer before checking whether the source material supports it."
-            },
-            {
-              "id": "c",
-              "text": "Treat the section as background reading and leave the actual recommendation unspecified."
-            },
-            {
-              "id": "d",
-              "text": "Ignore uncertainty because mentioning it would complicate the write-up."
-            }
-          ],
-          "correct_answer": "a",
-          "explanation": "The best next step is to pressure-test the recommendation instead of hiding uncertainty or avoiding the decision.",
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Upward communication is critical for organizational learning but faces several systematic barriers: fear of negative consequences (shooting the messenger), information filtering (MUM effect -- people minimize undesirable messages), and status differentials that inhibit candor. The problem is typically too little upward communication, not too much. Creating psychological safety is key to overcoming these barriers.",
           "difficulty": "medium"
         },
         {
-          "question_type": "short_answer",
-          "question_text": "Name one sentence-level takeaway a strong answer from Readings should land on after weighing Motivation, Culture, and Leadership.",
-          "correct_answer": "It should end with an intervention plan that aligns structure, incentives, communication, and leadership action, grounded in Motivation, Culture, Leadership and explicit assumptions.",
-          "explanation": "Short answers should still name the decision output, the supporting section evidence, and the assumptions behind the choice.",
+          "question_type": "multiple_choice",
+          "question_text": "Maslow's hierarchy of needs places which need at the highest level?",
+          "options": [
+            { "id": "a", "text": "Self-actualization -- achieving one's full potential" },
+            { "id": "b", "text": "Safety and security" },
+            { "id": "c", "text": "Belongingness and social connection" },
+            { "id": "d", "text": "Physiological needs like food and shelter" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Maslow's hierarchy (from lowest to highest) is: physiological needs, safety needs, belongingness/love needs, esteem needs, and self-actualization. The theory proposes that lower-level needs must be at least partially satisfied before higher-level needs become motivating. While the strict hierarchy has been questioned by subsequent research, the framework remains useful for understanding different categories of human motivation.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Transformational leadership focuses primarily on maintaining the status quo through systems of rewards and punishments.",
+          "correct_answer": "false",
+          "explanation": "Transformational leadership is about inspiring change, not maintaining the status quo. Transformational leaders motivate followers through idealized influence (being a role model), inspirational motivation (articulating a compelling vision), intellectual stimulation (encouraging creative thinking), and individualized consideration (coaching and developing followers). The description of maintaining the status quo through rewards and punishments fits transactional leadership.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What is the concept of 'psychological safety' in the context of team and organizational effectiveness?",
+          "options": [
+            { "id": "a", "text": "A shared belief that the team is safe for interpersonal risk-taking -- members feel comfortable speaking up, asking questions, admitting mistakes, and offering ideas without fear of punishment or embarrassment" },
+            { "id": "b", "text": "Physical safety protocols in the workplace" },
+            { "id": "c", "text": "Job security guaranteed by an employment contract" },
+            { "id": "d", "text": "The absence of any conflict within the team" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Psychological safety (Edmondson, 1999) is a team-level construct describing members' shared perception that the team environment is safe for interpersonal risk. It enables learning behaviors (asking for help, admitting errors, experimenting) that are essential for innovation and improvement. It does not mean the absence of conflict -- psychologically safe teams can have vigorous debates about ideas.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following leadership behaviors characterize a transformational leader? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Articulating a compelling vision for the future" },
+            { "id": "b", "text": "Encouraging followers to question assumptions and think creatively" },
+            { "id": "c", "text": "Serving as a role model who embodies the values they promote" },
+            { "id": "d", "text": "Managing primarily through contingent rewards and management by exception" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Burns and Bass described transformational leadership as having four components: idealized influence (role modeling), inspirational motivation (vision), intellectual stimulation (challenging assumptions), and individualized consideration (personal development). Contingent rewards and management by exception are hallmarks of transactional leadership, which is effective but does not transform or inspire beyond basic compliance.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to the readings on organizational culture, what makes culture especially difficult to change?",
+          "options": [
+            { "id": "a", "text": "The deepest level of culture -- basic underlying assumptions -- is unconscious, taken for granted, and self-reinforcing through selection and socialization processes" },
+            { "id": "b", "text": "Culture is entirely determined by the physical office environment" },
+            { "id": "c", "text": "Culture can be changed instantly by issuing a new mission statement" },
+            { "id": "d", "text": "Culture only exists in very large organizations" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Schein argues that the deepest cultural assumptions are extremely difficult to change because they are unconscious (people do not realize they hold them), self-reinforcing (the organization selects and socializes people who share them), and deeply embedded in daily routines and interactions. Surface changes (new mission statements, office redesigns) rarely alter deep assumptions without sustained, systemic intervention.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: McGregor's Theory X assumes that employees are inherently lazy, dislike work, and must be coerced and controlled to perform, while Theory Y assumes that employees can be self-directed and find work naturally satisfying.",
+          "correct_answer": "true",
+          "explanation": "McGregor's Theory X and Theory Y describe contrasting assumptions managers hold about human nature. Theory X views people as inherently lazy and needing external control. Theory Y views people as capable of self-direction and intrinsic motivation when conditions are right. These assumptions become self-fulfilling: managers who hold Theory X assumptions create controlling environments that suppress initiative, seemingly confirming their beliefs.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which communication network structure is most effective for solving complex, ambiguous problems?",
+          "options": [
+            { "id": "a", "text": "An all-channel (decentralized) network where every member can communicate with every other member" },
+            { "id": "b", "text": "A wheel (centralized) network where all communication passes through a single leader" },
+            { "id": "c", "text": "A chain network where communication passes sequentially from person to person" },
+            { "id": "d", "text": "All network structures are equally effective regardless of task complexity" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Research on communication networks shows that centralized structures (wheel, chain) are efficient for simple, routine tasks because a single coordinator can quickly process and distribute information. But for complex, ambiguous problems requiring integration of diverse perspectives, decentralized all-channel networks perform better because they allow richer information exchange, multiple perspectives, and collaborative sense-making.",
           "difficulty": "hard"
         }
       ]
     },
     {
       "title": "Organizational Processes - Readings Practice Quiz",
-      "description": "Practice Quiz for the Readings section, covering Motivation, Culture, Leadership, Communication.",
+      "description": "Practice Quiz for the Readings section, covering motivation, culture, leadership, and communication.",
       "kind": "practice_quiz",
       "difficulty": "medium",
       "generated_from": "readings",
-      "time_limit_minutes": 18,
+      "time_limit_minutes": 25,
       "is_published": true,
       "questions": [
         {
           "question_type": "multiple_choice",
-          "question_text": "A student says the Readings section is mostly about memorizing isolated definitions. Which reply is more accurate?",
+          "question_text": "What does Herzberg mean by 'hygiene factors'?",
           "options": [
-            {
-              "id": "a",
-              "text": "No. The section connects Motivation, Culture, and Leadership to diagnose behavior through incentives, norms, power, coordination, and group dynamics."
-            },
-            {
-              "id": "b",
-              "text": "Yes. The main goal is to recall terms, even if they never shape an intervention plan that aligns structure, incentives, communication, and leadership action."
-            },
-            {
-              "id": "c",
-              "text": "Yes. The section works best when Motivation is studied separately from Culture."
-            },
-            {
-              "id": "d",
-              "text": "Yes. It is safer to avoid assumptions and tradeoffs until after the decision is made."
-            }
+            { "id": "a", "text": "Workplace conditions (salary, job security, supervision, policies) that prevent dissatisfaction but do not actively motivate employees" },
+            { "id": "b", "text": "Factors related to physical cleanliness of the workplace" },
+            { "id": "c", "text": "The most powerful motivators of employee performance" },
+            { "id": "d", "text": "Benefits that only apply to healthcare workers" }
           ],
           "correct_answer": "a",
-          "explanation": "Readings is valuable because it organizes section material into a decision logic, not a vocabulary drill.",
-          "difficulty": "medium"
-        },
-        {
-          "question_type": "multi_select",
-          "question_text": "When someone is reviewing Readings while synthesizing several assigned sources into one position, which moves usually strengthen the review?",
-          "options": [
-            {
-              "id": "a",
-              "text": "Link Motivation to Culture instead of treating them as separate facts"
-            },
-            {
-              "id": "b",
-              "text": "State the assumptions that connect Leadership to the decision"
-            },
-            {
-              "id": "c",
-              "text": "Explain how the section changes a reading synthesis that sharpens an intervention plan that aligns structure, incentives, communication, and leadership action"
-            },
-            {
-              "id": "d",
-              "text": "Ignore tradeoffs and rely on the first plausible answer about Case write-ups"
-            }
-          ],
-          "correct_answer": [
-            "a",
-            "b",
-            "c"
-          ],
-          "explanation": "Good review work in Readings ties section concepts together, states assumptions, and ends with a usable managerial implication.",
+          "explanation": "Herzberg called them 'hygiene' factors by analogy to medical hygiene: hygiene prevents disease but does not make you healthy. Similarly, adequate pay, good working conditions, and fair policies prevent job dissatisfaction but do not create job satisfaction or motivation. True motivation comes from the work itself -- achievement, recognition, responsibility, and growth.",
           "difficulty": "easy"
         },
         {
           "question_type": "true_false",
-          "question_text": "True or false: A solid answer from the Readings section should use evidence like Motivation, Culture, Leadership and still make the tradeoffs explicit.",
-          "correct_answer": "true",
-          "explanation": "That is the core standard for this section: use section evidence and convert it into a defended managerial judgment.",
+          "question_text": "True or false: According to the readings, organizational culture is primarily shaped by written policies and formal rules rather than by informal norms, stories, and rituals.",
+          "correct_answer": "false",
+          "explanation": "While formal policies are part of culture (at the espoused values level), organizational culture is more powerfully shaped by informal elements: the stories people tell, rituals and ceremonies, how leaders actually behave (vs. what they say), who gets promoted, how mistakes are handled, and the unwritten norms that govern daily interaction. The gap between formal policies and actual behavior is often where the real culture lives.",
           "difficulty": "medium"
         },
         {
           "question_type": "multiple_choice",
-          "question_text": "Which study plan would best prepare someone to use Readings while synthesizing several assigned sources into one position?",
+          "question_text": "Which of the following best distinguishes transactional from transformational leadership?",
           "options": [
-            {
-              "id": "a",
-              "text": "Compare Motivation, Culture, and Communication; test the assumptions; then connect the section to an intervention plan that aligns structure, incentives, communication, and leadership action."
-            },
-            {
-              "id": "b",
-              "text": "Skim Motivation for terminology, then answer from memory without naming the decision."
-            },
-            {
-              "id": "c",
-              "text": "Focus on polished wording first and postpone the organizations and leadership reasoning until the end."
-            },
-            {
-              "id": "d",
-              "text": "Pick the first familiar framework and ignore whether it fits extracting the common managerial logic across the assigned materials."
-            }
+            { "id": "a", "text": "Transactional leaders focus on exchanges (rewards for performance), while transformational leaders inspire followers to transcend self-interest for the organization's mission" },
+            { "id": "b", "text": "Transactional leaders are always ineffective, while transformational leaders are always effective" },
+            { "id": "c", "text": "Transactional leadership applies only to financial transactions" },
+            { "id": "d", "text": "There is no meaningful difference between the two" }
           ],
           "correct_answer": "a",
-          "explanation": "The strongest study plan uses multiple section concepts, explicit assumptions, and a concrete decision output.",
+          "explanation": "Transactional leadership is based on exchange relationships: the leader provides rewards (pay, recognition) in return for performance. It is effective for maintaining operations. Transformational leadership goes beyond transactions to inspire, challenge, and develop followers, creating commitment to a larger mission. Both have their place -- transactional leadership is the foundation on which transformational leadership builds.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to Maslow's hierarchy, which of the following are 'higher-order' needs? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Esteem needs (achievement, status, recognition)" },
+            { "id": "b", "text": "Self-actualization (reaching one's full potential)" },
+            { "id": "c", "text": "Physiological needs (food, water, shelter)" },
+            { "id": "d", "text": "Safety needs (security, stability)" }
+          ],
+          "correct_answer": ["a", "b"],
+          "explanation": "Maslow's hierarchy is often divided into lower-order needs (physiological, safety) and higher-order needs (belongingness, esteem, self-actualization). Higher-order needs are satisfied internally and become prominent once basic needs are met. In organizational settings, higher-order needs are addressed through meaningful work, recognition, opportunities for growth, and autonomy.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the context of organizational communication, what is 'information overload'?",
+          "options": [
+            { "id": "a", "text": "When the volume of information exceeds a person's capacity to process it, leading to reduced decision quality and stress" },
+            { "id": "b", "text": "When employees do not receive enough information to do their jobs" },
+            { "id": "c", "text": "When an organization has too many communication channels" },
+            { "id": "d", "text": "When the IT department has too many servers" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Information overload occurs when the quantity of incoming information exceeds cognitive processing capacity. The result is selective attention (important messages get missed), decision fatigue, and reduced quality of decisions. It is increasingly common in organizations due to email, messaging platforms, and constant connectivity. Effective organizations manage it through prioritization systems, communication norms, and information filtering.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Self-determination theory identifies three basic psychological needs -- autonomy, competence, and relatedness -- that, when satisfied, enhance intrinsic motivation.",
+          "correct_answer": "true",
+          "explanation": "Deci and Ryan's self-determination theory (SDT) proposes that intrinsic motivation flourishes when three innate psychological needs are met: autonomy (feeling of choice and self-direction), competence (feeling effective and capable), and relatedness (feeling connected to others). Work environments that support these needs foster deeper engagement and better performance than those relying solely on extrinsic rewards.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What role does 'socialization' play in organizational culture?",
+          "options": [
+            { "id": "a", "text": "It is the process by which new members learn the organization's values, norms, and expected behaviors, thereby perpetuating the culture" },
+            { "id": "b", "text": "It refers to social media marketing by the organization" },
+            { "id": "c", "text": "It is the process of making an organization more socialist in its economic structure" },
+            { "id": "d", "text": "It only occurs during formal orientation programs" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Organizational socialization is how newcomers learn 'how things work around here.' It happens through formal programs (orientation, training) and informal processes (observation, mentoring, stories, peer interaction). Successful socialization transmits culture to new members, ensuring continuity. It also explains why cultures are self-reinforcing and resistant to change -- new members are taught to conform before they can influence norms.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A manager consistently gives subordinates challenging assignments, involves them in goal setting, and provides developmental feedback. This approach is most consistent with which motivational theory?",
+          "options": [
+            { "id": "a", "text": "Herzberg's motivator-hygiene theory, emphasizing motivators like the work itself, responsibility, and growth" },
+            { "id": "b", "text": "Classical management theory focused on time-and-motion studies" },
+            { "id": "c", "text": "Theory X assumptions about employee laziness" },
+            { "id": "d", "text": "An approach based solely on financial incentives" }
+          ],
+          "correct_answer": "a",
+          "explanation": "This manager is activating Herzberg's motivators: challenging work (the work itself), involvement in goal setting (responsibility), and developmental feedback (recognition and growth). These intrinsic motivators are what Herzberg found to create true job satisfaction, as opposed to hygiene factors like pay and working conditions that merely prevent dissatisfaction.",
           "difficulty": "medium"
         }
       ]
