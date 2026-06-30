@@ -58,7 +58,7 @@ export default async function CourseDetailPage({
   const quizzes = (quizzesData ?? []) as unknown as Pick<Quiz, "id" | "title" | "kind" | "difficulty" | "is_published">[];
 
   let completedPageIds = new Set<string>();
-  let quizStats = new Map<string, { attempts: number; latestScore: number | null; bestScore: number | null }>();
+  const quizStats = new Map<string, { attempts: number; latestScore: number | null; bestScore: number | null }>();
 
   if (user) {
     const { data: progressData } = await supabase

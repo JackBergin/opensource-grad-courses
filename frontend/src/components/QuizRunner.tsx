@@ -1,9 +1,17 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
 import type { Quiz, QuizQuestion, QuizOption } from "@/types/database";
+import {
+  buildQuizReviewState,
+  getQuestionElementId,
+  getQuestionHash,
+  isAnswered,
+  isCorrect,
+  type Answer,
+} from "@/lib/quiz-review";
 
 interface Props {
   quiz: Quiz;
@@ -13,18 +21,6 @@ interface Props {
   previousAttemptCount?: number;
   bestScore?: number | null;
   latestScore?: number | null;
-}
-
-type Answer = string | string[];
-
-function isCorrect(question: QuizQuestion, answer: Answer): boolean {
-  const correct = question.correct_answer;
-  if (question.question_type === "multi_select") {
-    const ca = Array.isArray(correct) ? [...correct].sort() : [];
-    const ua = Array.isArray(answer) ? [...answer].sort() : [];
-    return JSON.stringify(ca) === JSON.stringify(ua);
-  }
-  return String(correct) === String(answer);
 }
 
 export default function QuizRunner({
@@ -38,6 +34,8 @@ export default function QuizRunner({
 }: Props) {
   const [answers, setAnswers] = useState<Record<string, Answer>>({});
   const [submitted, setSubmitted] = useState(false);
+  const [submitAttempted, setSubmitAttempted] = useState(false);
+  const [activeQuestionId, setActiveQuestionId] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [startedAt] = useState(() => Date.now());
   const supabase = createClient();
@@ -55,8 +53,57 @@ export default function QuizRunner({
     }
   };
 
+  const scrollToQuestion = (questionId: string) => {
+    const el = document.getElementById(getQuestionElementId(questionId));
+    el?.scrollIntoView({ behavior: "smooth", block: "center" });
+    if (typeof window !== "undefined") {
+      window.history.replaceState(null, "", getQuestionHash(questionId));
+    }
+    setActiveQuestionId(questionId);
+  };
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+
+    const syncFromHash = () => {
+      const hash = window.location.hash;
+      if (!hash.startsWith("#question-")) {
+        setActiveQuestionId(null);
+        return;
+      }
+
+      const id = hash.slice("#question-".length);
+      if (!id) {
+        setActiveQuestionId(null);
+        return;
+      }
+
+      setActiveQuestionId(id);
+      window.requestAnimationFrame(() => {
+        const el = document.getElementById(getQuestionElementId(id));
+        el?.scrollIntoView({ behavior: "smooth", block: "center" });
+      });
+    };
+
+    syncFromHash();
+    window.addEventListener("hashchange", syncFromHash);
+    return () => window.removeEventListener("hashchange", syncFromHash);
+  }, []);
+
   const handleSubmit = async () => {
     if (loading) return;
+    setSubmitAttempted(true);
+
+    const unansweredGradableQuestions = questions.filter(
+      (q) => q.question_type !== "short_answer" && !isAnswered(answers[q.id])
+    );
+
+    if (unansweredGradableQuestions.length > 0) {
+      const firstUnanswered = unansweredGradableQuestions[0];
+      scrollToQuestion(firstUnanswered.id);
+      return;
+    }
+
     setLoading(true);
 
     const correctCount = questions.filter((q) =>
@@ -102,20 +149,17 @@ export default function QuizRunner({
     setLoading(false);
   };
 
-  const gradableQs = questions.filter((q) => q.question_type !== "short_answer");
-  const answeredCount = questions.filter((q) => {
-    const answer = answers[q.id];
-    if (Array.isArray(answer)) return answer.length > 0;
-    return String(answer ?? "").trim().length > 0;
-  }).length;
-  const score =
-    submitted && gradableQs.length > 0
-      ? Math.round(
-          (gradableQs.filter((q) => isCorrect(q, answers[q.id] ?? "")).length /
-            gradableQs.length) *
-            100
-        )
-      : null;
+  const reviewState = buildQuizReviewState(questions, answers, submitted);
+  const {
+    answeredCount,
+    gradableCount,
+    reflectionCount,
+    unansweredGradableQuestions,
+    incorrectGradableQuestions,
+    reflectionQuestions,
+    correctCount,
+    score,
+  } = reviewState;
 
   return (
     <div>
@@ -125,6 +169,12 @@ export default function QuizRunner({
             <p className="eyebrow mb-2">Assessment progress</p>
             <p className="text-sm text-[var(--color-muted)]">
               Answered {answeredCount} of {questions.length} questions
+            </p>
+            <p className="text-sm text-[var(--color-muted)] mt-1">
+              {gradableCount} auto-graded question{gradableCount !== 1 ? "s" : ""}
+              {reflectionCount > 0
+                ? ` · ${reflectionCount} self-reflection prompt${reflectionCount !== 1 ? "s" : ""}`
+                : ""}
             </p>
             <div className="mt-3 h-[2px] w-64 max-w-full bg-[var(--color-rule)]">
               <div
@@ -144,6 +194,16 @@ export default function QuizRunner({
         </div>
       </div>
 
+      {!submitted && submitAttempted && unansweredGradableQuestions.length > 0 && (
+        <div className="border border-[var(--color-accent)] bg-[#FBF2F0] p-5 mb-10">
+          <p className="eyebrow mb-2 text-[var(--color-accent)]">Finish before submitting</p>
+          <p className="text-sm text-[var(--color-muted)] leading-relaxed">
+            Answer the remaining {unansweredGradableQuestions.length} auto-graded question
+            {unansweredGradableQuestions.length !== 1 ? "s" : ""} before this attempt is scored.
+          </p>
+        </div>
+      )}
+
       {/* Score banner (after submission) */}
       {submitted && score !== null && (
         <div className="border border-[var(--color-ink)] p-6 mb-10">
@@ -153,12 +213,68 @@ export default function QuizRunner({
             <span className="text-2xl font-medium text-[var(--color-muted)]">%</span>
           </p>
           <p className="text-[var(--color-muted)] text-sm">
-            {gradableQs.filter((q) => isCorrect(q, answers[q.id] ?? "")).length} of{" "}
-            {gradableQs.length} correct
+            {correctCount} of {gradableCount} correct
           </p>
           <p className="text-[var(--color-muted)] text-sm mt-2">
             {userId ? "This attempt was saved to your dashboard." : "Sign in to save attempts and track progress over time."}
           </p>
+
+          {(incorrectGradableQuestions.length > 0 || reflectionQuestions.length > 0) && (
+            <div className="mt-6 border-t border-[var(--color-rule)] pt-5">
+              <p className="eyebrow mb-3">Review next</p>
+              {incorrectGradableQuestions.length > 0 ? (
+                <div className="mb-4">
+                  <p className="text-sm text-[var(--color-muted)] leading-relaxed">
+                    Revisit {incorrectGradableQuestions.length} missed auto-graded question
+                    {incorrectGradableQuestions.length !== 1 ? "s" : ""}.
+                  </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {incorrectGradableQuestions.map((question) => {
+                      const questionIndex = questions.findIndex((q) => q.id === question.id) + 1;
+                      return (
+                        <button
+                          key={question.id}
+                          type="button"
+                          onClick={() => scrollToQuestion(question.id)}
+                          className="border border-[var(--color-rule)] px-3 py-2 text-xs font-semibold tracking-[0.12em] uppercase hover:border-[var(--color-ink)]"
+                        >
+                          Question {questionIndex}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              ) : (
+                <p className="text-sm text-[var(--color-muted)] leading-relaxed mb-4">
+                  You answered every auto-graded question correctly.
+                </p>
+              )}
+
+              {reflectionQuestions.length > 0 && (
+                <div>
+                  <p className="text-sm text-[var(--color-muted)] leading-relaxed">
+                    Compare your response to the expected answer for the reflection prompt
+                    {reflectionQuestions.length !== 1 ? "s" : ""}.
+                  </p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {reflectionQuestions.map((question) => {
+                      const questionIndex = questions.findIndex((q) => q.id === question.id) + 1;
+                      return (
+                        <button
+                          key={question.id}
+                          type="button"
+                          onClick={() => scrollToQuestion(question.id)}
+                          className="border border-[var(--color-rule)] px-3 py-2 text-xs font-semibold tracking-[0.12em] uppercase hover:border-[var(--color-ink)]"
+                        >
+                          Question {questionIndex}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
         </div>
       )}
 
@@ -172,6 +288,8 @@ export default function QuizRunner({
             answer={answers[q.id]}
             onAnswer={handleAnswer}
             submitted={submitted}
+            submitAttempted={submitAttempted}
+            isActiveReviewTarget={activeQuestionId === q.id}
           />
         ))}
       </div>
@@ -192,6 +310,7 @@ export default function QuizRunner({
               onClick={() => {
                 setAnswers({});
                 setSubmitted(false);
+                setSubmitAttempted(false);
               }}
               className="btn"
             >
@@ -221,24 +340,50 @@ function QuestionBlock({
   answer,
   onAnswer,
   submitted,
+  submitAttempted,
+  isActiveReviewTarget,
 }: {
   question: QuizQuestion;
   index: number;
   answer: Answer | undefined;
   onAnswer: (id: string, value: string, type: string) => void;
   submitted: boolean;
+  submitAttempted: boolean;
+  isActiveReviewTarget: boolean;
 }) {
+  const hasAnswer = isAnswered(answer);
   const correct = submitted && question.question_type !== "short_answer"
     ? isCorrect(question, answer ?? "")
     : null;
+  const showMissingState =
+    submitAttempted && !submitted && question.question_type !== "short_answer" && !hasAnswer;
 
   return (
-    <div>
+    <div
+      id={getQuestionElementId(question.id)}
+      className={`scroll-mt-24 border px-4 py-4 transition-colors ${
+        isActiveReviewTarget
+          ? "border-[var(--color-accent)] bg-[#FBF2F0]"
+          : "border-transparent"
+      }`}
+    >
       <div className="flex gap-4 mb-4">
         <span className="eyebrow text-[var(--color-accent)] shrink-0 pt-1">
           {String(index + 1).padStart(2, "0")}
         </span>
-        <p className="font-medium text-lg leading-snug">{question.question_text}</p>
+        <div>
+          <p className="font-medium text-lg leading-snug">{question.question_text}</p>
+          {isActiveReviewTarget && submitted && (
+            <p className="eyebrow text-[10px] text-[var(--color-accent)] mt-2">
+              Review target
+            </p>
+          )}
+          {showMissingState && (
+            <p className="eyebrow text-[10px] text-[var(--color-accent)] mt-2">
+              Required before scoring
+            </p>
+          )}
+        </div>
       </div>
 
       {/* Multiple choice / True-False */}
