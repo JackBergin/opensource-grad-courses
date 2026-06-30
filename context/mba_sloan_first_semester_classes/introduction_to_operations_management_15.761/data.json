@@ -1,0 +1,81 @@
+{
+  "course_description": "This course provides students with concepts, techniques and tools to design, analyze, and improve core operational capabilities, and apply them to a broad range of application domains and industries. It emphasizes the effect of uncertainty in decision-making, as well as the interplay between high-level financial objectives and operational capabilities. Topics covered include production control, risk pooling, quality management, process design, and revenue management. Also included are case studies, guest lectures, and simulation games which demonstrate central concepts.\n",
+  "course_description_html": "This course provides students with concepts, techniques and tools to design, analyze, and improve core operational capabilities, and apply them to a broad range of application domains and industries. It emphasizes the effect of uncertainty in decision-making, as well as the interplay between high-level financial objectives and operational capabilities. Topics covered include production control, risk pooling, quality management, process design, and revenue management. Also included are case studies, guest lectures, and simulation games which demonstrate central concepts.",
+  "course_image": {
+    "content": "829292a0-a3d3-86fa-f7dc-e7250049abd1",
+    "website": "15-761-introduction-to-operations-management-spring-2013"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "Wal-Mart's response to Hurricane Katrina showed how quickly a privately-owned business could mobilize its resources during a disaster. (Image courtesy of Dennis Sylvester Hurd on Flickr.)",
+    "draft": false,
+    "file": "/courses/15-761-introduction-to-operations-management-spring-2013/829292a0a3d386faf7dce7250049abd1_15-761s13.jpg",
+    "file_size": 21117,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "Wal-Mart's response to Hurricane Katrina showed how quickly a privately-owned business could mobilize its resources during a disaster. (Image courtesy of {{% resource_link \"07313dd4-48f7-4524-b332-9679870dda61\" \"Dennis Sylvester Hurd\" %}} on Flickr.)",
+      "credit": "Image courtesy of Dennis Sylvester Hurd on Flickr.",
+      "image-alt": "A small blue car is parked in front of a Wal-Mart entrance."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "A small blue car is parked in front of a Wal-Mart entrance",
+    "uid": "829292a0-a3d3-86fa-f7dc-e7250049abd1"
+  },
+  "course_image_thumbnail": {
+    "content": "fa222486-cf6f-3d1c-82dd-629bc63de31c",
+    "website": "15-761-introduction-to-operations-management-spring-2013"
+  },
+  "course_title": "Introduction to Operations Management",
+  "department_numbers": [
+    "15"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/829292a0a3d386faf7dce7250049abd1_15-761s13.jpg",
+  "instructors": [
+    {
+      "first_name": "Charles",
+      "last_name": "Fine",
+      "middle_initial": "H.",
+      "salutation": "Prof.",
+      "title": "Prof. Charles H. Fine",
+      "uid": "284bc262-a1df-8a5b-6f48-64f0ae21244f",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Charles+H.+Fine"
+    },
+    {
+      "first_name": "Tauhid",
+      "last_name": "Zaman",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Tauhid Zaman",
+      "uid": "70dea363-141a-e2a7-97d3-a7dc46d1962d",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Tauhid+Zaman"
+    }
+  ],
+  "learning_resource_types": [],
+  "legacy_uid": "b12ebe0a-489d-35cd-9482-b0c604363ab9",
+  "level": [
+    "Graduate"
+  ],
+  "primary_course_number": "15.761",
+  "site_short_id": "15.761-spring-2013",
+  "site_uid": "e587189c-4781-49fc-a773-889ad9f67c70",
+  "site_url_path": "courses/15-761-introduction-to-operations-management-spring-2013",
+  "term": "Spring",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Business"
+    ],
+    [
+      "Mathematics"
+    ],
+    [
+      "Social Science"
+    ]
+  ],
+  "year": "2013"
+}

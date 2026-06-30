@@ -1,0 +1,78 @@
+{
+  "course_description": "In this course, students develop and polish communication strategies and methods through discussion, examples, and practice with an emphasizes on writing and speaking skills necessary for effective leaders. The course includes several oral and written assignments which are integrated with other subjects, and with career development activities, when possible.\n\nThis course is part of the MBA core and is restricted to first-year Sloan graduate students. Find out more about {{% resource_link \"6573d2af-5246-458d-992a-ede259fbb6c4\" \"the Sloan MBA core on OCW\" %}}.\n",
+  "course_description_html": "<p>In this course, students develop and polish communication strategies and methods through discussion, examples, and practice with an emphasizes on writing and speaking skills necessary for effective leaders. The course includes several oral and written assignments which are integrated with other subjects, and with career development activities, when possible.</p>\n<p>This course is part of the MBA core and is restricted to first-year Sloan graduate students. Find out more about <a   class=\"external-link \"   target=\"_blank\"   href=\"http://mitopencourseware.wordpress.com/2014/05/29/ocw-presents-the-sloan-mba-first-semester-core/\"  aria-label=\"the Sloan MBA core on OCW (opens in a new tab)\"  >the Sloan MBA core on OCW</a>.</p>\n",
+  "course_image": {
+    "content": "701c4ab5-9ec6-56e6-97a3-09ae50a1cbee",
+    "website": "15-280-communication-for-managers-fall-2016"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "Sheryl Sandberg, Facebook COO, and author of the book Lean In. ",
+    "draft": false,
+    "file": "/courses/15-280-communication-for-managers-fall-2016/701c4ab59ec656e697a309ae50a1cbee_15-280f16.jpg",
+    "file_size": 17593,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "Sheryl Sandberg, Facebook COO, and author of the book _Lean In_. (Courtesy of {{% resource_link \"5929cc78-38b7-447f-9b8d-15c9e2f94ac2\" \"JD Lasica/Socialmedia.biz\" %}} on Flickr.)",
+      "credit": "Courtesy of JD Lasica/Socialmedia.biz on Flickr. License CC BY-NC. https://www.flickr.com/photos/jdlasica/4036278964/",
+      "image-alt": "Sheryl Sandberg speaking onstage at the 2009 Web 2.0 Summit."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "15-280f16.jpg",
+    "uid": "701c4ab5-9ec6-56e6-97a3-09ae50a1cbee"
+  },
+  "course_image_thumbnail": {
+    "content": "4848fb05-8d7b-4a59-3820-e875c7b34d66",
+    "website": "15-280-communication-for-managers-fall-2016"
+  },
+  "course_title": "Communication for Managers",
+  "department_numbers": [
+    "15"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/701c4ab59ec656e697a309ae50a1cbee_15-280f16.jpg",
+  "instructors": [
+    {
+      "first_name": "Neal",
+      "last_name": "Hartman",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Neal Hartman",
+      "uid": "cc089706-f9e4-344e-b797-712067c6b377",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Neal+Hartman"
+    }
+  ],
+  "learning_resource_types": [
+    "Presentation Assignments",
+    "Written Assignments"
+  ],
+  "legacy_uid": "e22109b8-5b57-3371-f585-110f3b53dfd5",
+  "level": [
+    "Graduate"
+  ],
+  "primary_course_number": "15.280",
+  "site_short_id": "15.280-fall-2016",
+  "site_uid": "a9fede55-b36f-4ca8-9d71-ecb85eb87875",
+  "site_url_path": "courses/15-280-communication-for-managers-fall-2016",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Business",
+      "Leadership"
+    ],
+    [
+      "Business",
+      "Management"
+    ],
+    [
+      "Social Science",
+      "Communication"
+    ]
+  ],
+  "year": "2016"
+}

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Videos on MIT OpenCourseWare</title>
+    <link>/resources/lecture-videos/</link>
+    <description>Recent content in Lecture Videos on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Capital Budgeting</title>
+      <link>/pages/video-lectures-and-slides/capital-budgeting/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/video-lectures-and-slides/capital-budgeting/data.json</guid>
+      <description>&lt;h3 id=&#34;video-lectures&#34;&gt;Video Lectures&lt;/h3&gt;&#xA;&#xA;&#xA;    &lt;h4 id=&#34;capital-budgeting-i&#34;&gt;Capital Budgeting I&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/part-iii-of-the-capm-and-apt-1/index.html&#34;&gt;Part I of Capital Budgeting&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This video lecture focuses on making financial decisions as a manager, including applying the NPV rule and calculating project cash flows. Another example presented incorporates discount rates over time and NPV in the context of project decisions.&lt;/p&gt;&#xA;&#xA;    &lt;h4 id=&#34;capital-budgeting-ii&#34;&gt;Capital Budgeting II&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/part-ii-of-capital-budgeting/index.html&#34;&gt;Part II of Capital Budgeting&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This video lecture presents applications of the NPV rule and project financing, as well as alternatives to NPV. Concepts presented include the profitability index, internal rate of return, and capital rationing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Course Summary</title>
+      <link>/pages/video-lectures-and-slides/course-summary/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/video-lectures-and-slides/course-summary/data.json</guid>
+      <description>&lt;h3 id=&#34;video-lecture&#34;&gt;Video Lecture&lt;/h3&gt;&#xA;&#xA;&#xA;    &lt;h4 id=&#34;course-summary&#34;&gt;Course Summary&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/course-summary/index.html&#34;&gt;Course Summary&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This video lecture summarizes the entire course, and serves as a review of the key concepts relevant to each of the topics covered in the course.&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/mit15_401f08_summary/index.html&#34;&gt;Course Summary Slides 1–16 (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Video for Course Summary covers slides 1–16&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../../pages/video-lectures-and-slides/efficient-markets/index.html&#34;&gt;« Previous&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Course Summary</title>
+      <link>/resources/course-summary/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/course-summary/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Efficient Markets</title>
+      <link>/pages/video-lectures-and-slides/efficient-markets/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/video-lectures-and-slides/efficient-markets/data.json</guid>
+      <description>&lt;h3 id=&#34;video-lectures&#34;&gt;Video Lectures&lt;/h3&gt;&#xA;&#xA;&#xA;    &lt;h4 id=&#34;efficient-markets-i&#34;&gt;Efficient Markets I&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/part-i-of-efficient-markets/index.html&#34;&gt;Part I of Efficient Markets&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This video lecture presents an overview of the theory of market efficiency and an example of the Space Shuttle Challenger disaster.&lt;/p&gt;&#xA;&#xA;    &lt;h4 id=&#34;efficient-markets-ii&#34;&gt;Efficient Markets II&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/part-ii-of-efficient-markets/index.html&#34;&gt;Part II of Efficient Markets&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This video lecture explores behavioral finance, why people avoid uncertainty, the link between rationality and human emotion, and human preferences for decision-making. Discussion and simulations frame the adaptive markets hypothesis and its implications.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Equities</title>
+      <link>/pages/video-lectures-and-slides/equities/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/video-lectures-and-slides/equities/data.json</guid>
+      <description>&lt;h3 id=&#34;video-lecture&#34;&gt;Video Lecture&lt;/h3&gt;&#xA;&#xA;&#xA;    &lt;h4 id=&#34;equities&#34;&gt;Equities&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/equities/index.html&#34;&gt;Equities&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This video lecture provides an overview of equities and models for pricing equities, with a focus on using the dividend discount model.&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/mit15_401f08_lec07/index.html&#34;&gt;Equities Slides 1–23 (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Video for Equities covers slides 1–9&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Please note that slides 10–23 are not covered in the video lectures but can be reviewed independently. These slides present examples involving the dividend discount model, earnings-per-share and price-earnings ratios, and growth stocks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Equities</title>
+      <link>/resources/equities/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/equities/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fixed-Income Securities</title>
+      <link>/pages/video-lectures-and-slides/fixed-income-securities/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/video-lectures-and-slides/fixed-income-securities/data.json</guid>
+      <description>&lt;h3 id=&#34;video-lectures&#34;&gt;Video Lectures&lt;/h3&gt;&#xA;&#xA;&#xA;    &lt;h4 id=&#34;fixed-income-securities-i&#34;&gt;Fixed-Income Securities I&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/part-i-of-fixed-income-securities/index.html&#34;&gt;Part I of Fixed-Income Securities&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This video lecture introduces fixed-income securities along with examples of securities and market participants, and an industry overview. Trading frequency and the framework for valuation are presented by use of an example involving a coupon bond.&lt;/p&gt;&#xA;&#xA;    &lt;h4 id=&#34;fixed-income-securities-ii&#34;&gt;Fixed-Income Securities II&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/part-ii-of-fixed-income-securities/index.html&#34;&gt;Part II of Fixed-Income Securities&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This video lecture introduces spot rates and forward rates in the context of yield curves and interest rate forecasts, and models for term structure interest rates. Examples are given through lecture and with data from U.S. Treasury Securities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Forward and Futures Contracts</title>
+      <link>/pages/video-lectures-and-slides/forward-and-futures-contracts/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/video-lectures-and-slides/forward-and-futures-contracts/data.json</guid>
+      <description>&lt;h3 id=&#34;video-lectures&#34;&gt;Video Lectures&lt;/h3&gt;&#xA;&#xA;&#xA;    &lt;h4 id=&#34;forward-and-futures-contracts-i&#34;&gt;Forward and Futures Contracts I&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/part-i-of-forward-and-futures-contracts/index.html&#34;&gt;Part I of Forward and Futures Contracts&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This video lecture covers the motivation, definition, features, and examples of forward and futures contracts in light of the uncertainty of exchange rates, illiquidity, and counterparty risk.&lt;/p&gt;&#xA;&#xA;    &lt;h4 id=&#34;forward-and-futures-contracts-ii&#34;&gt;Forward and Futures Contracts II&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/part-ii-of-forward-and-futures-contracts/index.html&#34;&gt;Part II of Forward and Futures Contracts&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This video lecture includes examples for calculating payoff, and pricing forward and futures contracts. Applications and qualifications for forwards and futures are also given.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction and Course Overview</title>
+      <link>/pages/video-lectures-and-slides/introduction-and-course-overview/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/video-lectures-and-slides/introduction-and-course-overview/data.json</guid>
+      <description>&lt;h3 id=&#34;video-lecture&#34;&gt;Video Lecture&lt;/h3&gt;&#xA;&#xA;&#xA;    &lt;h4 id=&#34;introduction-and-course-overview&#34;&gt;Introduction and Course Overview&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/introduction-and-course-overview/index.html&#34;&gt;Introduction and Course Overview&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This video lecture introduces the framework of financial analysis, the flow model of the economy, the factors that affect financial decisions, and the fundamental principles of finance.&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;slides&#34;&gt;Slides&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/mit15_401f08_lec01/index.html&#34;&gt;Introduction and Course Overview Slides 1–20 (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Video for Introduction and Course Overview covers slides 1–20&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../../pages/video-lectures-and-slides/index.html&#34;&gt;« Previous&lt;/a&gt; | &lt;a href=&#34;../../../pages/video-lectures-and-slides/present-value-relations/index.html&#34;&gt;Next »&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction and Course Overview</title>
+      <link>/resources/introduction-and-course-overview/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/introduction-and-course-overview/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Options</title>
+      <link>/pages/video-lectures-and-slides/options/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/video-lectures-and-slides/options/data.json</guid>
+      <description>&lt;h3 id=&#34;video-lectures&#34;&gt;Video Lectures&lt;/h3&gt;&#xA;&#xA;&#xA;    &lt;h4 id=&#34;options-i&#34;&gt;Options I&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/part-ii-of-forward-and-futures-contracts-1/index.html&#34;&gt;Part I of Options&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This video lecture presents options, a derivative, as another kind of security. The two different kinds of options, calls and puts, and key terms used in describing options are defined.&lt;/p&gt;&#xA;&#xA;    &lt;h4 id=&#34;options-ii&#34;&gt;Options II&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/part-ii-of-options/index.html&#34;&gt;Part II of Options&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This video lecture covers interpreting payoff diagrams of call and put options and how to use the diagrams in option strategizing and betting on volatility. A brief historical background for option-pricing theory is also given.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Part I of Capital Budgeting</title>
+      <link>/resources/part-iii-of-the-capm-and-apt-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-iii-of-the-capm-and-apt-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part I of Efficient Markets</title>
+      <link>/resources/part-i-of-efficient-markets/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-i-of-efficient-markets/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part I of Fixed-Income Securities</title>
+      <link>/resources/part-i-of-fixed-income-securities/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-i-of-fixed-income-securities/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part I of Forward and Futures Contracts</title>
+      <link>/resources/part-i-of-forward-and-futures-contracts/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-i-of-forward-and-futures-contracts/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part I of Options</title>
+      <link>/resources/part-ii-of-forward-and-futures-contracts-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-ii-of-forward-and-futures-contracts-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part I of Portfolio Theory</title>
+      <link>/resources/part-ii-of-risk-and-return-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-ii-of-risk-and-return-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part I of Present Value Relations</title>
+      <link>/resources/part-i-of-present-value-relations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-i-of-present-value-relations/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part I of Risk and Return</title>
+      <link>/resources/part-i-of-risk-and-return/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-i-of-risk-and-return/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part I of The CAPM and APT</title>
+      <link>/resources/part-iii-of-portfolio-theory-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-iii-of-portfolio-theory-1/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part II of Capital Budgeting</title>
+      <link>/resources/part-ii-of-capital-budgeting/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-ii-of-capital-budgeting/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part II of Efficient Markets</title>
+      <link>/resources/part-ii-of-efficient-markets/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-ii-of-efficient-markets/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part II of Fixed-Income Securities</title>
+      <link>/resources/part-ii-of-fixed-income-securities/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-ii-of-fixed-income-securities/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part II of Forward and Futures Contracts</title>
+      <link>/resources/part-ii-of-forward-and-futures-contracts/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-ii-of-forward-and-futures-contracts/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part II of Options</title>
+      <link>/resources/part-ii-of-options/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-ii-of-options/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part II of Portfolio Theory</title>
+      <link>/resources/part-ii-of-portfolio-theory/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-ii-of-portfolio-theory/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part II of Present Value Relations</title>
+      <link>/resources/part-ii-of-present-value-relations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-ii-of-present-value-relations/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part II of Risk and Return</title>
+      <link>/resources/part-ii-of-risk-and-return/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-ii-of-risk-and-return/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part II of The CAPM and APT</title>
+      <link>/resources/part-ii-of-the-capm-and-apt/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-ii-of-the-capm-and-apt/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part III of Efficient Markets</title>
+      <link>/resources/part-iii-of-efficient-markets/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-iii-of-efficient-markets/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part III of Fixed-Income Securities</title>
+      <link>/resources/part-iii-of-fixed-income-securities/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-iii-of-fixed-income-securities/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part III of Options</title>
+      <link>/resources/part-iii-of-options/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-iii-of-options/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part III of Portfolio Theory</title>
+      <link>/resources/part-iii-of-portfolio-theory/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-iii-of-portfolio-theory/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part III of Present Value Relations</title>
+      <link>/resources/part-iii-of-present-value-relations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-iii-of-present-value-relations/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part III of The CAPM and APT</title>
+      <link>/resources/part-iii-of-the-capm-and-apt/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-iii-of-the-capm-and-apt/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Part IV of Fixed-Income Securities</title>
+      <link>/resources/part-iv-of-fixed-income-securities/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/part-iv-of-fixed-income-securities/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Portfolio Theory</title>
+      <link>/pages/video-lectures-and-slides/portfolio-theory/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/video-lectures-and-slides/portfolio-theory/data.json</guid>
+      <description>&lt;h3 id=&#34;video-lectures&#34;&gt;Video Lectures&lt;/h3&gt;&#xA;&#xA;&#xA;    &lt;h4 id=&#34;portfolio-theory-i&#34;&gt;Portfolio Theory I&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/part-ii-of-risk-and-return-1/index.html&#34;&gt;Part I of Portfolio Theory&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This video lecture introduces the portfolio as a combination of securities and offers guidelines for what constitutes a good portfolio. With regard to measuring risk and reward, a number of assumptions are set forth for the remainder of the course. A brief introduction to mean-variance analysis is presented.&lt;/p&gt;&#xA;&#xA;    &lt;h4 id=&#34;portfolio-theory-ii&#34;&gt;Portfolio Theory II&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/part-ii-of-portfolio-theory/index.html&#34;&gt;Part II of Portfolio Theory&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This video lecture walks through calculating properties of mean and variance for portfolio returns. Mean, standard deviation, and correlation are used as measures in portfolio analysis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Present Value Relations</title>
+      <link>/pages/video-lectures-and-slides/present-value-relations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/video-lectures-and-slides/present-value-relations/data.json</guid>
+      <description>&lt;h3 id=&#34;video-lectures&#34;&gt;Video Lectures&lt;/h3&gt;&#xA;&#xA;&#xA;    &lt;h4 id=&#34;present-value-relations-i&#34;&gt;Present Value Relations I&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/part-i-of-present-value-relations/index.html&#34;&gt;Part I of Present Value Relations&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This video lecture presents the definition of an asset as a sequence of current and future cash flows, and the implications of that definition. Valuation of cash flows is presented in the context of time, certainty, and the present value operator.&lt;/p&gt;&#xA;&#xA;    &lt;h4 id=&#34;present-value-relations-ii&#34;&gt;Present Value Relations II&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/part-ii-of-present-value-relations/index.html&#34;&gt;Part II of Present Value Relations&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This video lecture covers examples on calculating net present value, comparing perpetuities and annuities, and conventions for compounding.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Risk and Return</title>
+      <link>/pages/video-lectures-and-slides/risk-and-return/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/video-lectures-and-slides/risk-and-return/data.json</guid>
+      <description>&lt;h3 id=&#34;video-lectures&#34;&gt;Video Lectures&lt;/h3&gt;&#xA;&#xA;&#xA;    &lt;h4 id=&#34;risk-and-return-i&#34;&gt;Risk and Return I&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/part-i-of-risk-and-return/index.html&#34;&gt;Part I of Risk and Return&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This video lecture gives statistical background and context in preparation for dealing with risk and return. The empirical properties of stock returns are briefly introduced.&lt;/p&gt;&#xA;&#xA;    &lt;h4 id=&#34;risk-and-return-ii&#34;&gt;Risk and Return II&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/part-ii-of-risk-and-return/index.html&#34;&gt;Part II of Risk and Return&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This video lecture covers empirical properties of stocks and bonds, patterns of returns, and statistical measures of risk of a security. At the very end, stock market anomalies such as the size effect, the value premium, and momentum are presented.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The CAPM and APT</title>
+      <link>/pages/video-lectures-and-slides/the-capm-and-apt/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/video-lectures-and-slides/the-capm-and-apt/data.json</guid>
+      <description>&lt;h3 id=&#34;video-lectures&#34;&gt;Video Lectures&lt;/h3&gt;&#xA;&#xA;&#xA;    &lt;h4 id=&#34;the-capm-and-apt-i&#34;&gt;The CAPM and APT I&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/part-iii-of-portfolio-theory-1/index.html&#34;&gt;Part I of The CAPM and APT&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This video lecture begins with a review of portfolio theory and presents the expected return of efficient portfolios as in the capital asset pricing model. The significance and implications of the Sharpe-Lintner CAPM are then discussed.&lt;/p&gt;&#xA;&#xA;    &lt;h4 id=&#34;the-capm-and-apt-ii&#34;&gt;The CAPM and APT II&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../../resources/part-ii-of-the-capm-and-apt/index.html&#34;&gt;Part II of The CAPM and APT&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt; This video lecture covers how to calculate a proper discount rate, the application of CAPM, and performance evaluation using the security market line.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Video Lectures and Slides</title>
+      <link>/pages/video-lectures-and-slides/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/video-lectures-and-slides/data.json</guid>
+      <description>&lt;p&gt;The following is a list of topics covered in the course. Each topic links to a page containing the relevant video lectures and accompanying slides.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../pages/video-lectures-and-slides/introduction-and-course-overview/index.html&#34;&gt;Introduction and Course Overview&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../pages/video-lectures-and-slides/present-value-relations/index.html&#34;&gt;Present Value (PV) Relations&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../pages/video-lectures-and-slides/fixed-income-securities/index.html&#34;&gt;Fixed-Income Securities&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../pages/video-lectures-and-slides/equities/index.html&#34;&gt;Equities&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../pages/video-lectures-and-slides/forward-and-futures-contracts/index.html&#34;&gt;Forward and Futures Contracts&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../pages/video-lectures-and-slides/options/index.html&#34;&gt;Options&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../pages/video-lectures-and-slides/risk-and-return/index.html&#34;&gt;Risk and Return&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../pages/video-lectures-and-slides/portfolio-theory/index.html&#34;&gt;Portfolio Theory&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../pages/video-lectures-and-slides/the-capm-and-apt/index.html&#34;&gt;The CAPM and APT&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../pages/video-lectures-and-slides/capital-budgeting/index.html&#34;&gt;Capital Budgeting&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../pages/video-lectures-and-slides/efficient-markets/index.html&#34;&gt;Efficient Markets&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../pages/video-lectures-and-slides/course-summary/index.html&#34;&gt;Course Summary&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+{
+  "content": "<p>Sheryl Sandberg, Facebook COO, and author of the book Lean In.</p>\n",
+  "content_type": "resource",
+  "description": "Sheryl Sandberg, Facebook COO, and author of the book Lean In. ",
+  "draft": false,
+  "file": "/courses/15-280-communication-for-managers-fall-2016/701c4ab59ec656e697a309ae50a1cbee_15-280f16.jpg",
+  "file_size": 17593,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Sheryl Sandberg, Facebook COO, and author of the book _Lean In_. (Courtesy of {{% resource_link \"5929cc78-38b7-447f-9b8d-15c9e2f94ac2\" \"JD Lasica/Socialmedia.biz\" %}} on Flickr.)",
+    "credit": "Courtesy of JD Lasica/Socialmedia.biz on Flickr. License CC BY-NC. https://www.flickr.com/photos/jdlasica/4036278964/",
+    "image-alt": "Sheryl Sandberg speaking onstage at the 2009 Web 2.0 Summit."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "15-280f16.jpg",
+  "uid": "701c4ab5-9ec6-56e6-97a3-09ae50a1cbee"
+}

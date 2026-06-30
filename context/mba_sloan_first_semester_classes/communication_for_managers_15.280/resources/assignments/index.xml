@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on MIT OpenCourseWare</title>
+    <link>/resources/assignments/</link>
+    <description>Recent content in Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignments</title>
+      <link>/pages/assignments/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/assignments/data.json</guid>
+      <description>&lt;h3 id=&#34;class-assignments&#34;&gt;Class Assignments&lt;/h3&gt;&#xA;&#xA;&#xA;    &lt;h4 id=&#34;persuasive-writing&#34;&gt;Persuasive Writing&lt;/h4&gt;&#xA;&#xA;&lt;p&gt;Building on your &amp;lsquo;Argument Draft / Outline,&amp;rsquo; you have been have asked by the senior decision‐making leader to write a companion for the presentation that will make your case to potential audience member(s) who will not be able to attend in a written document of up to 2000 words. In writing your persuasive argument do include your main recommendation / proposal; cultural context; and concrete, relevant evidence to support your strategy and counter opposing executive perspectives. Evidence should be properly sourced and may include data presented visually. Your proposed strategy should have a logical opening, body, and close that identifies exactly what you want senior leaders to believe / do. Your language will be clear, concise and motivate leader / reader to want to follow your recommendation. To guide leader through your written persuasive strategy consider using typography and headings to increase readability and highlight the structure of your written argument.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

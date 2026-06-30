@@ -1,0 +1,21 @@
+{
+  "content": "<p>New image Upload</p>\n",
+  "content_type": "resource",
+  "description": "New image Upload",
+  "draft": false,
+  "file": "/courses/15-010-economic-analysis-for-business-decisions-fall-2004/a56476d8c8471eef7da1fe4ccd70d8e2_15-010f04-th.jpg",
+  "file_size": 8296,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "But what is a market, really? A place? A product or service? Which sellers? Which buyers? (Graphic by Professors Stoker, Doyle, Chapman, and Berndt.)",
+    "credit": "",
+    "image-alt": "Buyers and sellers interact through exchange at the price/terms of trade."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "15-010f04-th.jpg",
+  "uid": "a56476d8-c847-1eef-7da1-fe4ccd70d8e2"
+}

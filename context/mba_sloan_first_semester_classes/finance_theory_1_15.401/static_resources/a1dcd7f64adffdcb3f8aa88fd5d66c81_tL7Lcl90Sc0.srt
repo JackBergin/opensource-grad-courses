@@ -1,0 +1,7642 @@
+1
+00:00:00,090 --> 00:00:02,430
+The following content is
+provided under a Creative
+
+2
+00:00:02,430 --> 00:00:03,850
+Commons license.
+
+3
+00:00:03,850 --> 00:00:06,060
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:06,060 --> 00:00:10,150
+continue to offer high quality
+educational resources for free.
+
+5
+00:00:10,150 --> 00:00:12,690
+To make a donation or to
+view additional materials
+
+6
+00:00:12,690 --> 00:00:16,620
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:16,620 --> 00:00:17,860
+at ocw.mit.edu.
+
+8
+00:00:26,184 --> 00:00:27,600
+PROFESSOR: What I
+want to do today
+
+9
+00:00:27,600 --> 00:00:30,300
+is to continue where
+we left off last time
+
+10
+00:00:30,300 --> 00:00:37,080
+in talking about the empirical
+properties of stocks and bonds.
+
+11
+00:00:37,080 --> 00:00:39,660
+I want you to
+develop an intuition
+
+12
+00:00:39,660 --> 00:00:43,050
+for how to think about markets.
+
+13
+00:00:43,050 --> 00:00:47,790
+We've already done that over the
+course of the last few lectures
+
+14
+00:00:47,790 --> 00:00:52,890
+by looking at market
+prices and understanding
+
+15
+00:00:52,890 --> 00:00:55,590
+how to price them,
+but I'd like you
+
+16
+00:00:55,590 --> 00:00:58,080
+to get some kind of a
+historical perspective
+
+17
+00:00:58,080 --> 00:01:01,260
+now on specific asset classes.
+
+18
+00:01:01,260 --> 00:01:04,319
+Because we're going to be
+relying on market prices
+
+19
+00:01:04,319 --> 00:01:07,470
+to make inferences about
+other kinds of securities
+
+20
+00:01:07,470 --> 00:01:09,407
+and other decisions
+you're going to make.
+
+21
+00:01:09,407 --> 00:01:11,490
+As I told you at the very
+beginning of the course,
+
+22
+00:01:11,490 --> 00:01:14,520
+we're going to rely on
+markets for information,
+
+23
+00:01:14,520 --> 00:01:17,850
+because it's the wisdom of
+crowds that really gets us
+
+24
+00:01:17,850 --> 00:01:20,340
+the information we
+need in order to make
+
+25
+00:01:20,340 --> 00:01:22,000
+good financial decisions.
+
+26
+00:01:22,000 --> 00:01:25,290
+So I want to begin that
+process of now giving you
+
+27
+00:01:25,290 --> 00:01:27,960
+the intuition about
+the wisdom of crowds
+
+28
+00:01:27,960 --> 00:01:32,160
+by looking at the historical
+performance of stocks
+
+29
+00:01:32,160 --> 00:01:33,097
+and bonds.
+
+30
+00:01:33,097 --> 00:01:34,680
+And then we're going
+to talk about how
+
+31
+00:01:34,680 --> 00:01:38,760
+to quantify risk
+more analytically
+
+32
+00:01:38,760 --> 00:01:43,620
+and put it all together in the
+very basics of modern portfolio
+
+33
+00:01:43,620 --> 00:01:45,160
+theory.
+
+34
+00:01:45,160 --> 00:01:48,180
+So I want to start by
+asking the question, first
+
+35
+00:01:48,180 --> 00:01:53,020
+of all, what characterizes
+US equity returns?
+
+36
+00:01:53,020 --> 00:01:57,690
+How do we get our arms around
+the behavior of that asset
+
+37
+00:01:57,690 --> 00:01:59,022
+class?
+
+38
+00:01:59,022 --> 00:02:00,480
+And the way I'm
+going to do that is
+
+39
+00:02:00,480 --> 00:02:03,270
+to give you some
+performance statistics
+
+40
+00:02:03,270 --> 00:02:09,150
+about the volatility, about
+the average return, about how
+
+41
+00:02:09,150 --> 00:02:13,620
+predictable they are,
+and also patterns
+
+42
+00:02:13,620 --> 00:02:18,580
+of returns across
+different kinds of stocks.
+
+43
+00:02:18,580 --> 00:02:22,260
+So we're going to look at
+some empirical anomalies
+
+44
+00:02:22,260 --> 00:02:25,710
+before actually turning to
+the analytical work of trying
+
+45
+00:02:25,710 --> 00:02:29,880
+to figure out how to make
+sense of this from a more
+
+46
+00:02:29,880 --> 00:02:33,090
+formal mathematical framework.
+
+47
+00:02:33,090 --> 00:02:36,300
+Before I do that, let me ask
+you to think about the following
+
+48
+00:02:36,300 --> 00:02:44,070
+question, which is, if you are
+designing a market for stocks,
+
+49
+00:02:44,070 --> 00:02:47,910
+what properties would you
+want that market to have?
+
+50
+00:02:47,910 --> 00:02:50,460
+And I'm going to
+argue that there
+
+51
+00:02:50,460 --> 00:02:53,340
+are a few properties
+that all of us, I think,
+
+52
+00:02:53,340 --> 00:02:58,390
+can recognize as being good
+properties for stock prices.
+
+53
+00:02:58,390 --> 00:03:02,730
+So the first is that
+stock market prices
+
+54
+00:03:02,730 --> 00:03:06,030
+are random and unpredictable.
+
+55
+00:03:06,030 --> 00:03:08,460
+Now, that might seem a
+little counterintuitive,
+
+56
+00:03:08,460 --> 00:03:10,860
+and certainly I think
+you would acknowledge
+
+57
+00:03:10,860 --> 00:03:13,470
+that over the last
+several weeks markets have
+
+58
+00:03:13,470 --> 00:03:15,340
+been supremely unpredictable.
+
+59
+00:03:15,340 --> 00:03:16,590
+And that doesn't feel so good.
+
+60
+00:03:16,590 --> 00:03:19,270
+It doesn't seem like
+that's a good thing.
+
+61
+00:03:19,270 --> 00:03:21,240
+But in a minute,
+I'm going to try
+
+62
+00:03:21,240 --> 00:03:23,850
+to make that a little
+bit more clear by looking
+
+63
+00:03:23,850 --> 00:03:27,000
+at the alternative
+of predictable--
+
+64
+00:03:27,000 --> 00:03:29,050
+or unpredictable,
+which is predictable.
+
+65
+00:03:29,050 --> 00:03:30,900
+So let me come
+back to that point.
+
+66
+00:03:30,900 --> 00:03:33,780
+The second property that
+I think you'll agree
+
+67
+00:03:33,780 --> 00:03:35,670
+is a reasonable one
+for us to expect
+
+68
+00:03:35,670 --> 00:03:43,760
+is that prices should react
+quickly to new information.
+
+69
+00:03:43,760 --> 00:03:47,330
+It should adjust
+to new information
+
+70
+00:03:47,330 --> 00:03:50,180
+really without
+any kind of delay.
+
+71
+00:03:50,180 --> 00:03:55,280
+And finally, we'd like to
+see that investors shouldn't
+
+72
+00:03:55,280 --> 00:04:01,050
+be able to earn abnormal returns
+after you adjust for risk.
+
+73
+00:04:01,050 --> 00:04:03,170
+So in other words,
+once risk adjustment
+
+74
+00:04:03,170 --> 00:04:05,480
+is taken into account,
+there shouldn't
+
+75
+00:04:05,480 --> 00:04:08,360
+be any additional
+return left over.
+
+76
+00:04:08,360 --> 00:04:12,161
+That's what we think of as
+a well-functioning market.
+
+77
+00:04:12,161 --> 00:04:13,910
+Another way of putting
+it is that a market
+
+78
+00:04:13,910 --> 00:04:15,320
+is highly competitive.
+
+79
+00:04:15,320 --> 00:04:19,040
+It's hard to make
+money in those markets.
+
+80
+00:04:19,040 --> 00:04:21,800
+Now, they may not be markets
+that you would enjoy trading
+
+81
+00:04:21,800 --> 00:04:23,460
+in, but that's not the question.
+
+82
+00:04:23,460 --> 00:04:26,420
+The question is, what
+would be a good market,
+
+83
+00:04:26,420 --> 00:04:29,240
+an efficient market?
+
+84
+00:04:29,240 --> 00:04:31,550
+So let me talk about
+predictability for a minute,
+
+85
+00:04:31,550 --> 00:04:33,950
+because I said that it seems
+a little counterintuitive
+
+86
+00:04:33,950 --> 00:04:37,650
+that a good market is one
+that's not predictable.
+
+87
+00:04:37,650 --> 00:04:41,240
+So let's pretend that
+this is the stock market.
+
+88
+00:04:41,240 --> 00:04:43,220
+This is the S&P 500.
+
+89
+00:04:43,220 --> 00:04:48,200
+That looks nice-- a
+nice, regular curve.
+
+90
+00:04:48,200 --> 00:04:51,050
+Anybody come up with
+a prediction for this?
+
+91
+00:04:51,050 --> 00:04:53,870
+How would you go about
+predicting the behavior
+
+92
+00:04:53,870 --> 00:04:57,600
+of this kind of a stock market?
+
+93
+00:04:57,600 --> 00:04:58,170
+What's that?
+
+94
+00:04:58,170 --> 00:04:58,920
+STUDENT: Cyclical.
+
+95
+00:04:58,920 --> 00:04:59,753
+PROFESSOR: Cyclical.
+
+96
+00:04:59,753 --> 00:05:01,659
+What kind of curve
+would you fit to this?
+
+97
+00:05:01,659 --> 00:05:02,450
+STUDENT: Sine wave.
+
+98
+00:05:02,450 --> 00:05:03,574
+PROFESSOR: Yeah, sine wave.
+
+99
+00:05:03,574 --> 00:05:05,730
+In fact, that's how
+I generated this.
+
+100
+00:05:05,730 --> 00:05:09,420
+I used a sine wave, and
+then I add a little noise.
+
+101
+00:05:09,420 --> 00:05:14,130
+Now, why might this not be
+a good model for a market?
+
+102
+00:05:14,130 --> 00:05:17,520
+If this were the stock
+market, what would you do?
+
+103
+00:05:17,520 --> 00:05:18,227
+Yeah?
+
+104
+00:05:18,227 --> 00:05:20,283
+STUDENT: Everybody
+would buy on the low
+
+105
+00:05:20,283 --> 00:05:22,800
+and sell them high
+[INAUDIBLE] the other end.
+
+106
+00:05:22,800 --> 00:05:23,910
+PROFESSOR: Exactly.
+
+107
+00:05:23,910 --> 00:05:29,490
+After a few of these cycles,
+you sort of get the idea.
+
+108
+00:05:29,490 --> 00:05:32,610
+And if you're down here, you're
+going to think, well, gee,
+
+109
+00:05:32,610 --> 00:05:34,560
+I think it's likely
+to go back up so I'm
+
+110
+00:05:34,560 --> 00:05:36,272
+going to buy a ton over here.
+
+111
+00:05:36,272 --> 00:05:38,730
+And when you get right up there,
+you'll say, gee, you know,
+
+112
+00:05:38,730 --> 00:05:40,877
+I think it's time
+for me to sell a ton.
+
+113
+00:05:40,877 --> 00:05:42,960
+And you don't have to go
+through too many of these
+
+114
+00:05:42,960 --> 00:05:45,600
+before you get richer
+than your wildest dreams.
+
+115
+00:05:45,600 --> 00:05:46,361
+Yeah?
+
+116
+00:05:46,361 --> 00:05:49,798
+STUDENT: I would think that
+[INAUDIBLE] regular market
+
+117
+00:05:49,798 --> 00:05:53,480
+like that is not
+true, because as soon
+
+118
+00:05:53,480 --> 00:05:56,181
+as you want it to raise,
+it's going to collapse
+
+119
+00:05:56,181 --> 00:05:58,977
+at 50, 10 points below.
+
+120
+00:05:58,977 --> 00:06:00,310
+PROFESSOR: That's exactly right.
+
+121
+00:06:00,310 --> 00:06:03,030
+So as soon as you
+start doing this,
+
+122
+00:06:03,030 --> 00:06:07,620
+as soon as you try to do this,
+what happens to the pattern?
+
+123
+00:06:07,620 --> 00:06:09,982
+The pattern
+disappears-- exactly.
+
+124
+00:06:09,982 --> 00:06:11,440
+You see, this is
+one of the reasons
+
+125
+00:06:11,440 --> 00:06:14,770
+why finance is a lot more
+challenging than physics.
+
+126
+00:06:14,770 --> 00:06:18,019
+In physics, if you try to drop
+a ball in a gravitational field,
+
+127
+00:06:18,019 --> 00:06:19,560
+it won't change its
+mind and say gee,
+
+128
+00:06:19,560 --> 00:06:21,935
+now I'm going to change the
+gravitational constant on you
+
+129
+00:06:21,935 --> 00:06:23,860
+just because you're testing me.
+
+130
+00:06:23,860 --> 00:06:26,050
+But in financial
+markets, the moment
+
+131
+00:06:26,050 --> 00:06:28,900
+you try to take advantage
+of this pattern, the pattern
+
+132
+00:06:28,900 --> 00:06:29,540
+changes.
+
+133
+00:06:29,540 --> 00:06:31,390
+In fact, the more
+you try to take
+
+134
+00:06:31,390 --> 00:06:35,150
+advantage of it, the more
+quickly the pattern changes.
+
+135
+00:06:35,150 --> 00:06:38,230
+In fact, if you do this a lot--
+
+136
+00:06:38,230 --> 00:06:43,060
+if there are a lot of people
+trying to predict patterns--
+
+137
+00:06:43,060 --> 00:06:45,700
+then you know what you get?
+
+138
+00:06:45,700 --> 00:06:47,110
+You get no pattern.
+
+139
+00:06:47,110 --> 00:06:48,730
+You get randomness.
+
+140
+00:06:48,730 --> 00:06:53,950
+That's the idea behind an
+efficient market being random.
+
+141
+00:06:53,950 --> 00:06:57,430
+If it were not random,
+then that means
+
+142
+00:06:57,430 --> 00:06:59,620
+that there aren't
+enough people who
+
+143
+00:06:59,620 --> 00:07:02,740
+are bothering to try
+to forecast the price
+
+144
+00:07:02,740 --> 00:07:07,010
+and incorporate
+information into the price.
+
+145
+00:07:07,010 --> 00:07:10,180
+Now, I said two things that
+at first seemed different,
+
+146
+00:07:10,180 --> 00:07:13,480
+but in fact they're opposite
+sides of the same coin.
+
+147
+00:07:13,480 --> 00:07:17,050
+When you are forecasting
+market prices,
+
+148
+00:07:17,050 --> 00:07:18,250
+you know what you're doing?
+
+149
+00:07:18,250 --> 00:07:21,130
+You're actually
+helping markets become
+
+150
+00:07:21,130 --> 00:07:25,970
+more efficient by incorporating
+information into that price.
+
+151
+00:07:25,970 --> 00:07:26,810
+How do you do that?
+
+152
+00:07:26,810 --> 00:07:30,100
+Well, if, for example,
+you think that having
+
+153
+00:07:30,100 --> 00:07:33,760
+a presidential election
+will cause volatility
+
+154
+00:07:33,760 --> 00:07:36,520
+to decline, then if
+you know that there's
+
+155
+00:07:36,520 --> 00:07:38,440
+a presidential
+election coming up,
+
+156
+00:07:38,440 --> 00:07:42,370
+you will start trading in a way
+that will ultimately be betting
+
+157
+00:07:42,370 --> 00:07:44,170
+on volatility declining.
+
+158
+00:07:44,170 --> 00:07:48,160
+As you start that trading, you
+force that volatility index
+
+159
+00:07:48,160 --> 00:07:49,700
+to go down.
+
+160
+00:07:49,700 --> 00:07:51,760
+So the fact that
+you've got information
+
+161
+00:07:51,760 --> 00:07:54,664
+and you think you
+can forecast prices,
+
+162
+00:07:54,664 --> 00:07:56,080
+when you use the
+information, what
+
+163
+00:07:56,080 --> 00:07:57,610
+does it mean to
+use the information
+
+164
+00:07:57,610 --> 00:08:00,790
+when you buy or sell
+securities on the basis
+
+165
+00:08:00,790 --> 00:08:02,140
+of that information?
+
+166
+00:08:02,140 --> 00:08:05,200
+Then the price of the
+security ultimately
+
+167
+00:08:05,200 --> 00:08:08,410
+reflects the information, right?
+
+168
+00:08:08,410 --> 00:08:13,210
+So an efficient market is one
+where you don't have this.
+
+169
+00:08:13,210 --> 00:08:17,140
+You don't have a very
+strong predictability.
+
+170
+00:08:17,140 --> 00:08:20,800
+If it is strongly
+predictable, then most likely
+
+171
+00:08:20,800 --> 00:08:25,370
+either the market is rigged,
+or there aren't enough people
+
+172
+00:08:25,370 --> 00:08:29,780
+that are trading in order to
+make prices fully reflective
+
+173
+00:08:29,780 --> 00:08:32,299
+of all available information.
+
+174
+00:08:32,299 --> 00:08:35,690
+Now, this is the way
+markets really look.
+
+175
+00:08:35,690 --> 00:08:39,020
+These are random
+walks with drift,
+
+176
+00:08:39,020 --> 00:08:42,860
+drift meaning there's a positive
+trend or, in some cases,
+
+177
+00:08:42,860 --> 00:08:44,570
+a negative trend.
+
+178
+00:08:44,570 --> 00:08:48,540
+But otherwise, it's
+random around that trend.
+
+179
+00:08:48,540 --> 00:08:51,890
+So you can't really
+easily forecast it.
+
+180
+00:08:51,890 --> 00:08:55,280
+And you can see that
+prices go up, they go down.
+
+181
+00:08:55,280 --> 00:08:57,440
+There are long periods
+where they go up,
+
+182
+00:08:57,440 --> 00:09:00,230
+but there are also, for other
+stocks, long periods where
+
+183
+00:09:00,230 --> 00:09:01,310
+they go down.
+
+184
+00:09:01,310 --> 00:09:04,200
+And you don't know what's
+going to happen next.
+
+185
+00:09:04,200 --> 00:09:09,276
+This is a sign of a
+very efficient market.
+
+186
+00:09:09,276 --> 00:09:13,100
+A while ago, there
+was an academic study
+
+187
+00:09:13,100 --> 00:09:15,560
+that was done to try
+to test for efficiency,
+
+188
+00:09:15,560 --> 00:09:20,540
+and one of the tests was
+that if the underlying price
+
+189
+00:09:20,540 --> 00:09:26,090
+series was not very
+volatile, that was
+
+190
+00:09:26,090 --> 00:09:29,024
+considered an efficient market.
+
+191
+00:09:29,024 --> 00:09:30,440
+But it turned out
+that was roundly
+
+192
+00:09:30,440 --> 00:09:35,000
+criticized because of the point
+that just because a market is
+
+193
+00:09:35,000 --> 00:09:38,570
+not volatile, it doesn't
+mean that it's working well.
+
+194
+00:09:38,570 --> 00:09:40,170
+And an example
+was, at the time--
+
+195
+00:09:40,170 --> 00:09:43,490
+this was, like, 20 or 30 years
+ago-- the Chinese stock market,
+
+196
+00:09:43,490 --> 00:09:44,840
+the Shanghai Stock Exchange.
+
+197
+00:09:44,840 --> 00:09:48,955
+It was a relatively young
+market, and at that time,
+
+198
+00:09:48,955 --> 00:09:50,830
+there were only two
+stocks that traded on it.
+
+199
+00:09:50,830 --> 00:09:54,350
+It was the National Railroad
+Company and the Bank of China.
+
+200
+00:09:54,350 --> 00:09:56,990
+And at that time,
+which is, again,
+
+201
+00:09:56,990 --> 00:10:00,740
+about 15 or 20 years
+ago, it was considered
+
+202
+00:10:00,740 --> 00:10:04,910
+unpatriotic to sell the
+security if you had bought it.
+
+203
+00:10:04,910 --> 00:10:07,310
+So you could buy it, but you
+weren't allowed to sell it.
+
+204
+00:10:07,310 --> 00:10:10,010
+And so the price went
+way up and up and up,
+
+205
+00:10:10,010 --> 00:10:13,910
+and that's not an example
+of an efficient market.
+
+206
+00:10:13,910 --> 00:10:15,920
+It was not at all volatile.
+
+207
+00:10:15,920 --> 00:10:18,980
+But as a result, there
+was no real information
+
+208
+00:10:18,980 --> 00:10:21,190
+reflected in that price.
+
+209
+00:10:21,190 --> 00:10:21,972
+Yeah?
+
+210
+00:10:21,972 --> 00:10:23,805
+STUDENT: India is talking
+about getting out.
+
+211
+00:10:23,805 --> 00:10:26,391
+It looks like somebody's doing
+one of those roller coaster
+
+212
+00:10:26,391 --> 00:10:28,224
+rides that goes up and
+down and up and down.
+
+213
+00:10:28,224 --> 00:10:30,680
+So is volatility a sign of [?
+inefficient ?] [INAUDIBLE]?
+
+214
+00:10:30,680 --> 00:10:33,680
+PROFESSOR: Well, it's not
+volatility, per se, but rather
+
+215
+00:10:33,680 --> 00:10:37,580
+the combination of the
+predictability per unit
+
+216
+00:10:37,580 --> 00:10:38,390
+volatility.
+
+217
+00:10:38,390 --> 00:10:40,070
+That's really what
+you want to focus on.
+
+218
+00:10:40,070 --> 00:10:42,611
+We're going to come back to that
+when we talk about portfolio
+
+219
+00:10:42,611 --> 00:10:44,900
+theory and look at this
+trade-off between risk
+
+220
+00:10:44,900 --> 00:10:46,310
+and expected return.
+
+221
+00:10:46,310 --> 00:10:49,050
+But no, I wouldn't say that the
+Indian market is inefficient.
+
+222
+00:10:49,050 --> 00:10:52,430
+It's undergoing some
+pretty significant changes,
+
+223
+00:10:52,430 --> 00:10:55,179
+as is the US and
+as is the world.
+
+224
+00:10:55,179 --> 00:10:56,720
+But that's because
+the global economy
+
+225
+00:10:56,720 --> 00:10:58,220
+is contracting as
+we know it because
+
+226
+00:10:58,220 --> 00:10:59,940
+of this financial crisis.
+
+227
+00:10:59,940 --> 00:11:03,980
+So I wouldn't characterize it
+as inefficient at this point,
+
+228
+00:11:03,980 --> 00:11:06,230
+but that remains to be seen.
+
+229
+00:11:06,230 --> 00:11:07,130
+Yeah?
+
+230
+00:11:07,130 --> 00:11:10,190
+STUDENT: [INAUDIBLE] down
+the road [INAUDIBLE] market
+
+231
+00:11:10,190 --> 00:11:13,130
+[INAUDIBLE]?
+
+232
+00:11:13,130 --> 00:11:16,700
+PROFESSOR: There isn't any
+hard and fast rule, no.
+
+233
+00:11:16,700 --> 00:11:19,820
+But if you take a look
+at the trade-off of risk
+
+234
+00:11:19,820 --> 00:11:22,730
+to reward, in other
+words that ratio
+
+235
+00:11:22,730 --> 00:11:24,920
+of expected return
+to volatility,
+
+236
+00:11:24,920 --> 00:11:26,810
+you can come up
+with rules of thumb
+
+237
+00:11:26,810 --> 00:11:29,240
+that will give you a sense
+of whether or not a market is
+
+238
+00:11:29,240 --> 00:11:30,360
+efficient or inefficient.
+
+239
+00:11:30,360 --> 00:11:31,860
+So we're going to
+come back to that.
+
+240
+00:11:31,860 --> 00:11:33,734
+In fact, we'll look at
+that in just a minute.
+
+241
+00:11:33,734 --> 00:11:35,510
+Let me turn to some
+data now, and then we
+
+242
+00:11:35,510 --> 00:11:38,965
+can see exactly what those
+trade-offs look like.
+
+243
+00:11:38,965 --> 00:11:41,090
+Now, what's going to be
+interesting about this part
+
+244
+00:11:41,090 --> 00:11:44,190
+of the talk is that when I
+tell you about these numbers,
+
+245
+00:11:44,190 --> 00:11:46,790
+these numbers are
+based upon data from
+
+246
+00:11:46,790 --> 00:11:49,910
+I think it was 1946 to 2001.
+
+247
+00:11:49,910 --> 00:11:53,870
+In fact, a lot of the data
+that has been collected
+
+248
+00:11:53,870 --> 00:11:57,140
+over the last year is very,
+very different from this,
+
+249
+00:11:57,140 --> 00:12:01,850
+so it will be interesting
+to sort of compare the two.
+
+250
+00:12:01,850 --> 00:12:04,430
+So there are four
+empirical facts
+
+251
+00:12:04,430 --> 00:12:08,310
+that I want you to take with
+you about the US stock market.
+
+252
+00:12:08,310 --> 00:12:13,040
+The first is that interest
+rates, in general,
+
+253
+00:12:13,040 --> 00:12:16,700
+have been slightly positive
+on average, but not by much.
+
+254
+00:12:16,700 --> 00:12:18,590
+In other words, the
+real interest rate,
+
+255
+00:12:18,590 --> 00:12:21,110
+the nominal interest rate
+minus inflation rate,
+
+256
+00:12:21,110 --> 00:12:26,880
+has been pretty low over
+the course of history.
+
+257
+00:12:26,880 --> 00:12:29,420
+So the first fact
+is that real rates
+
+258
+00:12:29,420 --> 00:12:31,610
+have been slightly positive.
+
+259
+00:12:31,610 --> 00:12:35,150
+So you can see, for example,
+the average rate of return
+
+260
+00:12:35,150 --> 00:12:39,530
+for the one-year T-bill
+is about 38 basis
+
+261
+00:12:39,530 --> 00:12:42,314
+points on a monthly basis.
+
+262
+00:12:42,314 --> 00:12:42,980
+This is monthly.
+
+263
+00:12:42,980 --> 00:12:44,806
+I haven't annualized it.
+
+264
+00:12:44,806 --> 00:12:47,690
+But inflation over
+that same period
+
+265
+00:12:47,690 --> 00:12:49,760
+is about 32 basis points.
+
+266
+00:12:49,760 --> 00:12:51,260
+So when you subtract
+the two, you're
+
+267
+00:12:51,260 --> 00:12:54,020
+going to get six basis
+points on a monthly basis
+
+268
+00:12:54,020 --> 00:12:57,830
+as the real rate of interest.
+
+269
+00:12:57,830 --> 00:13:02,490
+On the other hand, if you take
+a look at the stock market,
+
+270
+00:13:02,490 --> 00:13:05,500
+which is represented
+by VW stock index--
+
+271
+00:13:05,500 --> 00:13:08,570
+VW doesn't mean
+Volkswagen. VW stands
+
+272
+00:13:08,570 --> 00:13:10,280
+for the value weighted index.
+
+273
+00:13:10,280 --> 00:13:13,010
+It's an index of all
+the stocks on the NYSE,
+
+274
+00:13:13,010 --> 00:13:14,840
+Amex, and NASDAQ
+weighted according
+
+275
+00:13:14,840 --> 00:13:19,370
+to their outstanding
+market capitalization.
+
+276
+00:13:19,370 --> 00:13:22,430
+And you can see that
+the valuated stock
+
+277
+00:13:22,430 --> 00:13:26,780
+market over this period
+is about 1% per month.
+
+278
+00:13:26,780 --> 00:13:29,720
+The equal weighted
+stock market, EW,
+
+279
+00:13:29,720 --> 00:13:32,450
+is a little bit higher, 1.18.
+
+280
+00:13:32,450 --> 00:13:38,690
+And Motorola over this period
+had an expected rate of return
+
+281
+00:13:38,690 --> 00:13:42,750
+of about 1.66% per month.
+
+282
+00:13:42,750 --> 00:13:47,570
+So the return has been
+higher for these indexes.
+
+283
+00:13:47,570 --> 00:13:51,530
+And if you want to get a
+sense of why that might be,
+
+284
+00:13:51,530 --> 00:13:53,270
+take a look at the
+next column, which
+
+285
+00:13:53,270 --> 00:13:54,740
+is the standard deviation.
+
+286
+00:13:54,740 --> 00:13:59,510
+This, remember, is a measure of
+the riskiness of the security.
+
+287
+00:13:59,510 --> 00:14:01,700
+It's a measure of
+the fluctuations.
+
+288
+00:14:01,700 --> 00:14:03,890
+And if you take a look
+at the equal weighted
+
+289
+00:14:03,890 --> 00:14:07,140
+and the valuated,
+the volatility is--
+
+290
+00:14:07,140 --> 00:14:10,910
+they're both a lot
+higher than for T-bills.
+
+291
+00:14:10,910 --> 00:14:15,920
+So this is one of the reasons
+we got the idea in finance
+
+292
+00:14:15,920 --> 00:14:18,710
+that there's a
+risk-reward trade-off.
+
+293
+00:14:18,710 --> 00:14:22,430
+The more risky, the higher
+the expected rate of return.
+
+294
+00:14:22,430 --> 00:14:25,820
+And if you look at Motorola,
+the riskiness of Motorola
+
+295
+00:14:25,820 --> 00:14:29,690
+is much larger than that of
+any of the stock indexes.
+
+296
+00:14:29,690 --> 00:14:32,450
+Instead of a 5% monthly
+standard deviation,
+
+297
+00:14:32,450 --> 00:14:34,850
+you're looking at
+double, or 10%,
+
+298
+00:14:34,850 --> 00:14:36,169
+the monthly standard deviation.
+
+299
+00:14:36,169 --> 00:14:37,460
+But look at the rate of return.
+
+300
+00:14:37,460 --> 00:14:39,950
+The rate of return is
+commensurately higher.
+
+301
+00:14:39,950 --> 00:14:40,759
+Yeah, Remi?
+
+302
+00:14:40,759 --> 00:14:43,693
+STUDENT: Professor, why
+[INAUDIBLE] standard deviation
+
+303
+00:14:43,693 --> 00:14:44,671
+greater than zero?
+
+304
+00:14:44,671 --> 00:14:46,140
+Isn't that [INAUDIBLE]?
+
+305
+00:14:46,140 --> 00:14:49,000
+PROFESSOR: Oh, because it
+fluctuates from month to month.
+
+306
+00:14:49,000 --> 00:14:51,960
+So the idea is if you're buying
+a T-bill and you're holding it,
+
+307
+00:14:51,960 --> 00:14:53,660
+it still has price fluctuation.
+
+308
+00:14:57,970 --> 00:14:59,860
+The other thing that
+I want you to see
+
+309
+00:14:59,860 --> 00:15:05,600
+is something along the lines
+of the minimum and the maximum.
+
+310
+00:15:05,600 --> 00:15:07,810
+This is another
+way of representing
+
+311
+00:15:07,810 --> 00:15:10,870
+the riskiness of the security.
+
+312
+00:15:10,870 --> 00:15:17,200
+So T-bills are bounded
+between 0.03 and 1.34 in terms
+
+313
+00:15:17,200 --> 00:15:18,220
+of their return--
+
+314
+00:15:18,220 --> 00:15:20,500
+very narrow band.
+
+315
+00:15:20,500 --> 00:15:24,100
+Treasury notes, which
+are 10-year instruments,
+
+316
+00:15:24,100 --> 00:15:27,790
+obviously are going to be
+swinging around much more, more
+
+317
+00:15:27,790 --> 00:15:29,210
+than a one year T-bill.
+
+318
+00:15:29,210 --> 00:15:34,390
+So the longer the maturity,
+the longer the duration,
+
+319
+00:15:34,390 --> 00:15:37,390
+the riskier is the instrument.
+
+320
+00:15:37,390 --> 00:15:40,840
+But if you take a look
+at the valuated return
+
+321
+00:15:40,840 --> 00:15:44,050
+and the equal weighted
+return and then Motorola,
+
+322
+00:15:44,050 --> 00:15:49,480
+you can see progressively
+more and more risk involved
+
+323
+00:15:49,480 --> 00:15:52,840
+in these kinds of securities.
+
+324
+00:15:52,840 --> 00:15:56,320
+Now, if you look at their
+compound growth rates,
+
+325
+00:15:56,320 --> 00:16:00,130
+you get what you pay for,
+in the sense that you're
+
+326
+00:16:00,130 --> 00:16:03,220
+looking at T-bills down here.
+
+327
+00:16:03,220 --> 00:16:06,010
+So $1 invested in
+one of these guys
+
+328
+00:16:06,010 --> 00:16:11,170
+will give you maybe
+$10 at the end of 2001,
+
+329
+00:16:11,170 --> 00:16:14,140
+but you're looking at a
+much, much larger return
+
+330
+00:16:14,140 --> 00:16:18,460
+for either the valuated
+or equal weighted indexes.
+
+331
+00:16:18,460 --> 00:16:22,360
+More risk, more
+expected return--
+
+332
+00:16:22,360 --> 00:16:25,660
+that's the message that you get
+from looking at the basic data
+
+333
+00:16:25,660 --> 00:16:27,280
+here.
+
+334
+00:16:27,280 --> 00:16:29,200
+Now, that's just to give
+you a sense of where
+
+335
+00:16:29,200 --> 00:16:30,241
+interest rates have been.
+
+336
+00:16:30,241 --> 00:16:32,560
+I think we discussed this
+when we did fixed income.
+
+337
+00:16:32,560 --> 00:16:34,900
+Interest rates have really
+been all over the map.
+
+338
+00:16:34,900 --> 00:16:36,670
+There was a point
+in our history,
+
+339
+00:16:36,670 --> 00:16:40,570
+not that long ago, where
+the short-term interest
+
+340
+00:16:40,570 --> 00:16:45,460
+rate, the one year T-bill,
+was something like 16% to 17%
+
+341
+00:16:45,460 --> 00:16:46,600
+per year.
+
+342
+00:16:46,600 --> 00:16:48,640
+That's the one-year T-bill.
+
+343
+00:16:48,640 --> 00:16:50,500
+It's astonishing.
+
+344
+00:16:50,500 --> 00:16:51,970
+But that was a
+period where there
+
+345
+00:16:51,970 --> 00:16:56,170
+was a large amount of
+inflation in the United States.
+
+346
+00:16:56,170 --> 00:16:59,410
+On the other hand, if you take a
+look at the more recent period,
+
+347
+00:16:59,410 --> 00:17:01,828
+interest rates have
+been extremely low,
+
+348
+00:17:01,828 --> 00:17:04,119
+and that's part of the reason
+we're in a credit crisis,
+
+349
+00:17:04,119 --> 00:17:07,010
+is because credit is very cheap.
+
+350
+00:17:07,010 --> 00:17:09,400
+So you can get yourself
+into a lot of trouble
+
+351
+00:17:09,400 --> 00:17:12,099
+when it's relatively
+easy for you to borrow,
+
+352
+00:17:12,099 --> 00:17:17,250
+and it doesn't cost you that
+much in terms of the payments.
+
+353
+00:17:17,250 --> 00:17:19,349
+Now, let me show you what
+the total returns look
+
+354
+00:17:19,349 --> 00:17:21,089
+like for these
+different asset classes.
+
+355
+00:17:21,089 --> 00:17:23,819
+By total returns, I mean if you
+bought one of these instruments
+
+356
+00:17:23,819 --> 00:17:25,770
+and you held it
+a month at a time
+
+357
+00:17:25,770 --> 00:17:29,280
+and you computed the return
+for holding that instrument.
+
+358
+00:17:29,280 --> 00:17:32,150
+So for a bond, it includes
+whatever coupons get paid,
+
+359
+00:17:32,150 --> 00:17:34,360
+plus the price fluctuations.
+
+360
+00:17:34,360 --> 00:17:36,060
+It's the total return.
+
+361
+00:17:36,060 --> 00:17:38,820
+For stocks, it'll include
+the dividends that got paid
+
+362
+00:17:38,820 --> 00:17:40,830
+as well as the
+price fluctuations.
+
+363
+00:17:40,830 --> 00:17:43,860
+And I'm going to do this
+on the exact same scale,
+
+364
+00:17:43,860 --> 00:17:47,280
+from minus 25% to 25%.
+
+365
+00:17:47,280 --> 00:17:50,520
+So these are monthly
+returns now that I'm
+
+366
+00:17:50,520 --> 00:17:53,990
+plotting from 1946 to 2001.
+
+367
+00:17:53,990 --> 00:17:58,200
+And so you can see that
+the total return for the US
+
+368
+00:17:58,200 --> 00:18:02,730
+10-year bond actually has
+different periods where,
+
+369
+00:18:02,730 --> 00:18:06,540
+in some cases, it's not very
+risky but in other cases
+
+370
+00:18:06,540 --> 00:18:08,250
+it bounces around a great deal.
+
+371
+00:18:08,250 --> 00:18:11,190
+When there's a fair amount
+of interest rate uncertainty,
+
+372
+00:18:11,190 --> 00:18:14,250
+you get a lot of volatility,
+but when markets are not
+
+373
+00:18:14,250 --> 00:18:17,310
+moving around that much
+on the interest rate side,
+
+374
+00:18:17,310 --> 00:18:21,940
+you get periods that
+are relatively calm.
+
+375
+00:18:21,940 --> 00:18:23,208
+Yes?
+
+376
+00:18:23,208 --> 00:18:26,701
+STUDENT: In the previous
+slide, that interest rate
+
+377
+00:18:26,701 --> 00:18:28,170
+are the yield to
+maturities, right?
+
+378
+00:18:28,170 --> 00:18:29,420
+PROFESSOR: Yeah, that's right.
+
+379
+00:18:29,420 --> 00:18:30,300
+That's right.
+
+380
+00:18:30,300 --> 00:18:30,860
+Correct.
+
+381
+00:18:30,860 --> 00:18:34,480
+These are yields to maturity.
+
+382
+00:18:34,480 --> 00:18:36,470
+These are total returns, though.
+
+383
+00:18:36,470 --> 00:18:39,290
+These are what you
+get as an investor.
+
+384
+00:18:39,290 --> 00:18:42,920
+This is what you get if you
+hold a particular security
+
+385
+00:18:42,920 --> 00:18:44,240
+to maturity.
+
+386
+00:18:44,240 --> 00:18:49,130
+Basically, on a given day,
+you will get these spot rates.
+
+387
+00:18:51,860 --> 00:18:53,396
+You have a question?
+
+388
+00:18:53,396 --> 00:18:55,886
+STUDENT: [INAUDIBLE] 10 year.
+
+389
+00:18:55,886 --> 00:19:00,368
+So in '81 and '82,
+you could buy any bond
+
+390
+00:19:00,368 --> 00:19:02,870
+from the year '86 [INAUDIBLE].
+
+391
+00:19:02,870 --> 00:19:03,758
+PROFESSOR: Yeah.
+
+392
+00:19:03,758 --> 00:19:08,638
+STUDENT: So [INAUDIBLE] that
+incorporates future [INAUDIBLE]
+
+393
+00:19:08,638 --> 00:19:09,620
+interest rates, right?
+
+394
+00:19:09,620 --> 00:19:11,030
+PROFESSOR: Well,
+and also inflation.
+
+395
+00:19:11,030 --> 00:19:13,196
+STUDENT: And that inflation--
+was it people thinking
+
+396
+00:19:13,196 --> 00:19:18,454
+that inflation was going to be
+[INAUDIBLE] 10% of the year,
+
+397
+00:19:18,454 --> 00:19:19,430
+the 10 years out?
+
+398
+00:19:19,430 --> 00:19:20,990
+PROFESSOR: Either
+that, or they felt
+
+399
+00:19:20,990 --> 00:19:24,405
+that that, plus whatever
+interest rate expectations,
+
+400
+00:19:24,405 --> 00:19:25,780
+was going to be
+what you're going
+
+401
+00:19:25,780 --> 00:19:27,040
+to get over a 10-year period.
+
+402
+00:19:27,040 --> 00:19:28,190
+Yep.
+
+403
+00:19:28,190 --> 00:19:30,412
+That's right.
+
+404
+00:19:30,412 --> 00:19:33,875
+STUDENT: And mentally, people
+think that stock [INAUDIBLE]
+
+405
+00:19:33,875 --> 00:19:36,904
+[? upon ?] [? death.
+?] [INAUDIBLE].
+
+406
+00:19:36,904 --> 00:19:37,820
+PROFESSOR: Apparently.
+
+407
+00:19:37,820 --> 00:19:40,770
+And there was a time, in fact,
+when the stock market did yield
+
+408
+00:19:40,770 --> 00:19:42,710
+that for quite a bit of time.
+
+409
+00:19:42,710 --> 00:19:45,662
+Absolutely.
+
+410
+00:19:45,662 --> 00:19:47,870
+On the other hand, let me
+turn it around and ask you,
+
+411
+00:19:47,870 --> 00:19:50,600
+now that interest rates are at--
+
+412
+00:19:50,600 --> 00:19:54,410
+I don't know, the 10-year I
+think is at-- or the 30 year is
+
+413
+00:19:54,410 --> 00:19:56,880
+at 4.17 this morning--
+
+414
+00:19:56,880 --> 00:19:59,600
+do you think for the
+next 40 years or 30 years
+
+415
+00:19:59,600 --> 00:20:04,560
+that treasury bills are only
+going to return 4% a year?
+
+416
+00:20:04,560 --> 00:20:06,780
+Is that realistic?
+
+417
+00:20:06,780 --> 00:20:09,690
+I mean, it's not so
+easy to say, is it?
+
+418
+00:20:09,690 --> 00:20:12,300
+When you're in the midst of
+it, it's not so easy to say.
+
+419
+00:20:12,300 --> 00:20:14,010
+Based upon historical
+evidence, it
+
+420
+00:20:14,010 --> 00:20:16,170
+seems crazy to think
+that we could possibly
+
+421
+00:20:16,170 --> 00:20:19,590
+be in such a low interest rate
+environment over the next 30
+
+422
+00:20:19,590 --> 00:20:22,470
+years, especially given
+that we're printing money
+
+423
+00:20:22,470 --> 00:20:24,190
+like it's going
+out of style now.
+
+424
+00:20:24,190 --> 00:20:26,815
+And we're going to be doing that
+over the next couple of years.
+
+425
+00:20:26,815 --> 00:20:28,470
+We've got to, because
+somebody's got
+
+426
+00:20:28,470 --> 00:20:32,140
+to pay for all of
+these rescue packages.
+
+427
+00:20:32,140 --> 00:20:36,840
+And so we basically
+have to engage
+
+428
+00:20:36,840 --> 00:20:41,040
+in some kind of inflationary
+monetary and fiscal policy.
+
+429
+00:20:41,040 --> 00:20:44,790
+But it's still saying
+4.17 as of this morning.
+
+430
+00:20:44,790 --> 00:20:50,610
+So the market does the best
+it can, given the data,
+
+431
+00:20:50,610 --> 00:20:52,200
+but it's hard to forecast.
+
+432
+00:20:52,200 --> 00:20:54,990
+And we just said at the
+beginning of this class
+
+433
+00:20:54,990 --> 00:20:57,120
+that it better be
+hard to forecast,
+
+434
+00:20:57,120 --> 00:20:59,040
+because if it's not
+hard to forecast,
+
+435
+00:20:59,040 --> 00:21:00,720
+then something's wrong.
+
+436
+00:21:00,720 --> 00:21:02,820
+Then it means that
+it's not reflecting
+
+437
+00:21:02,820 --> 00:21:04,817
+all available information.
+
+438
+00:21:04,817 --> 00:21:05,316
+Yeah?
+
+439
+00:21:05,316 --> 00:21:08,238
+STUDENT: When you showed that
+graph in the previous slide
+
+440
+00:21:08,238 --> 00:21:10,809
+of the stocks going way up,
+I'm wondering how much of that
+
+441
+00:21:10,809 --> 00:21:13,225
+is due to the fact that this
+was just a really good period
+
+442
+00:21:13,225 --> 00:21:16,908
+of the United States and if
+you compare to other countries
+
+443
+00:21:16,908 --> 00:21:17,820
+at other times.
+
+444
+00:21:17,820 --> 00:21:20,170
+PROFESSOR: Yeah, that
+is definitely a factor.
+
+445
+00:21:20,170 --> 00:21:22,800
+So I'm not trying to
+explain the numbers,
+
+446
+00:21:22,800 --> 00:21:24,480
+and I'm not trying
+to justify them.
+
+447
+00:21:24,480 --> 00:21:25,510
+You're absolutely right.
+
+448
+00:21:25,510 --> 00:21:30,270
+This is a very special country
+in a very special time.
+
+449
+00:21:30,270 --> 00:21:33,490
+So you can either thank your
+good fortune that you're here,
+
+450
+00:21:33,490 --> 00:21:36,210
+or you can argue that, well,
+it's not going to persist
+
+451
+00:21:36,210 --> 00:21:40,782
+and time to move to wherever.
+
+452
+00:21:40,782 --> 00:21:41,490
+But I don't know.
+
+453
+00:21:41,490 --> 00:21:44,060
+I don't know which that is.
+
+454
+00:21:44,060 --> 00:21:45,150
+But it is very unusual.
+
+455
+00:21:45,150 --> 00:21:46,530
+If you look at other
+countries, there
+
+456
+00:21:46,530 --> 00:21:48,190
+are other countries that
+are having difficulties
+
+457
+00:21:48,190 --> 00:21:50,640
+during this time period, but
+there are other countries
+
+458
+00:21:50,640 --> 00:21:53,530
+that are growing even faster.
+
+459
+00:21:53,530 --> 00:21:55,890
+If you look at China
+over the last 10 years,
+
+460
+00:21:55,890 --> 00:21:58,440
+the growth rate of
+the Chinese economy
+
+461
+00:21:58,440 --> 00:22:01,260
+is double to triple
+what the US economy.
+
+462
+00:22:01,260 --> 00:22:03,345
+Now, it was a smaller
+economy, but still
+
+463
+00:22:03,345 --> 00:22:04,845
+over an extended
+period of time it's
+
+464
+00:22:04,845 --> 00:22:07,380
+got tremendous growth rate.
+
+465
+00:22:07,380 --> 00:22:09,540
+So that really is
+the challenge, is
+
+466
+00:22:09,540 --> 00:22:11,760
+to try to understand
+what's going
+
+467
+00:22:11,760 --> 00:22:17,190
+on in the context of where we're
+living and how we're living.
+
+468
+00:22:17,190 --> 00:22:19,410
+So let me go through and
+show you some more numbers,
+
+469
+00:22:19,410 --> 00:22:21,840
+and then we can talk about
+some of the interpretations.
+
+470
+00:22:21,840 --> 00:22:25,110
+So this is the total
+return for the US 10-year.
+
+471
+00:22:25,110 --> 00:22:26,880
+You've get a sense
+of the scale--
+
+472
+00:22:26,880 --> 00:22:28,710
+minus 25 to 25.
+
+473
+00:22:28,710 --> 00:22:31,950
+Now, this is the
+return of the US stock
+
+474
+00:22:31,950 --> 00:22:35,400
+market during that same
+period using that same scale--
+
+475
+00:22:35,400 --> 00:22:36,990
+more risky.
+
+476
+00:22:36,990 --> 00:22:41,020
+So you can see the
+difference in fluctuations.
+
+477
+00:22:41,020 --> 00:22:46,050
+And if this weren't
+exciting enough for you,
+
+478
+00:22:46,050 --> 00:22:48,650
+this is Motorola.
+
+479
+00:22:48,650 --> 00:22:52,130
+And there are many
+stocks like Motorola.
+
+480
+00:22:52,130 --> 00:22:55,370
+So when you invest in
+an individual stock,
+
+481
+00:22:55,370 --> 00:22:58,160
+you're getting not just the
+fluctuations of the economy,
+
+482
+00:22:58,160 --> 00:23:00,530
+but you're getting
+the fluctuations that
+
+483
+00:23:00,530 --> 00:23:03,650
+affect that specific company.
+
+484
+00:23:03,650 --> 00:23:07,700
+So you should expect, if
+you're taking on more risk,
+
+485
+00:23:07,700 --> 00:23:10,160
+that you're going to be getting
+a reward for these kinds
+
+486
+00:23:10,160 --> 00:23:12,140
+of incredible bouncing around.
+
+487
+00:23:12,140 --> 00:23:13,340
+And in fact, you do.
+
+488
+00:23:13,340 --> 00:23:16,790
+The average return of
+Motorola is quite a bit higher
+
+489
+00:23:16,790 --> 00:23:19,370
+than that of the market.
+
+490
+00:23:19,370 --> 00:23:22,370
+Now let me show you a little
+bit about predictability.
+
+491
+00:23:22,370 --> 00:23:26,190
+We talked about a market
+that's random as one that
+
+492
+00:23:26,190 --> 00:23:29,000
+is a good or efficient market.
+
+493
+00:23:29,000 --> 00:23:33,800
+This plots the return
+today versus tomorrow,
+
+494
+00:23:33,800 --> 00:23:36,680
+or yesterday versus today if
+you want to think about that--
+
+495
+00:23:36,680 --> 00:23:43,160
+pairs of returns for the
+aggregate stock market.
+
+496
+00:23:43,160 --> 00:23:48,000
+And this is done
+on a daily basis.
+
+497
+00:23:48,000 --> 00:23:53,940
+Now, if you look at it on
+a monthly basis for the S&P
+
+498
+00:23:53,940 --> 00:23:59,460
+500 from 1926 to 1997,
+you've got something that
+
+499
+00:23:59,460 --> 00:24:02,400
+also looks kind of random--
+
+500
+00:24:02,400 --> 00:24:07,300
+so not much predictability here,
+not much predictability there.
+
+501
+00:24:07,300 --> 00:24:13,960
+But suppose we were to graph
+the return of General Motors
+
+502
+00:24:13,960 --> 00:24:16,460
+against the S&P 500.
+
+503
+00:24:16,460 --> 00:24:19,450
+Well, now, all of a sudden,
+it looks like there's
+
+504
+00:24:19,450 --> 00:24:20,920
+a little bit of a pattern--
+
+505
+00:24:20,920 --> 00:24:22,310
+not totally random.
+
+506
+00:24:22,310 --> 00:24:26,140
+Sort of looks like there
+is kind of a line that goes
+
+507
+00:24:26,140 --> 00:24:30,830
+through that scatter of points.
+
+508
+00:24:30,830 --> 00:24:33,690
+There is a
+relationship on a given
+
+509
+00:24:33,690 --> 00:24:38,850
+day between General Motors
+and the broad market index.
+
+510
+00:24:38,850 --> 00:24:43,230
+But over the course of
+two days or two months,
+
+511
+00:24:43,230 --> 00:24:46,860
+there's very little
+predictability.
+
+512
+00:24:46,860 --> 00:24:48,960
+Now let me talk
+about volatility.
+
+513
+00:24:48,960 --> 00:24:50,356
+Your question?
+
+514
+00:24:50,356 --> 00:24:54,080
+STUDENT: So on the last graph,
+GM is included in there, right?
+
+515
+00:24:54,080 --> 00:24:55,080
+PROFESSOR: That's right.
+
+516
+00:24:55,080 --> 00:24:58,290
+GM is one of the
+stocks in the S&P 500.
+
+517
+00:24:58,290 --> 00:25:01,676
+STUDENT: So would you still
+see that relationship if it was
+
+518
+00:25:01,676 --> 00:25:03,417
+everything but GM in the S&P?
+
+519
+00:25:03,417 --> 00:25:04,500
+PROFESSOR: Oh, absolutely.
+
+520
+00:25:04,500 --> 00:25:06,900
+In other words, it's
+not any one stock
+
+521
+00:25:06,900 --> 00:25:10,186
+that gives this random
+scatter of points.
+
+522
+00:25:10,186 --> 00:25:12,060
+In other words, this
+random scatter of points
+
+523
+00:25:12,060 --> 00:25:16,260
+is really all 500 stocks
+put into a portfolio.
+
+524
+00:25:16,260 --> 00:25:18,400
+But remember, we're asking
+a different question.
+
+525
+00:25:18,400 --> 00:25:21,030
+This is a question about the
+relationship between the S&P
+
+526
+00:25:21,030 --> 00:25:24,090
+500 last month
+versus this month.
+
+527
+00:25:24,090 --> 00:25:25,920
+There's no real relationship.
+
+528
+00:25:25,920 --> 00:25:29,250
+This, on the other
+hand, is a question
+
+529
+00:25:29,250 --> 00:25:32,190
+about the relationship
+between S&P this month
+
+530
+00:25:32,190 --> 00:25:34,650
+and GM this month,
+the same month.
+
+531
+00:25:37,520 --> 00:25:42,140
+Now, you're right that S&P has
+GM as one of the components,
+
+532
+00:25:42,140 --> 00:25:43,940
+but it's only one of them.
+
+533
+00:25:43,940 --> 00:25:47,000
+If it weren't in there, you
+would actually still see
+
+534
+00:25:47,000 --> 00:25:48,518
+this kind of a relationship.
+
+535
+00:25:48,518 --> 00:25:49,922
+Yeah?
+
+536
+00:25:49,922 --> 00:25:52,028
+STUDENT: On slide
+16, you showed us
+
+537
+00:25:52,028 --> 00:25:55,316
+the one-year and
+10-year interest rate.
+
+538
+00:25:55,316 --> 00:25:59,694
+What does it mean when the
+two figures cross each other?
+
+539
+00:25:59,694 --> 00:26:01,610
+PROFESSOR: There's no
+particular significance.
+
+540
+00:26:01,610 --> 00:26:05,150
+It just means that that
+one-year rate happens
+
+541
+00:26:05,150 --> 00:26:07,730
+to be identical to
+the 10-year rate,
+
+542
+00:26:07,730 --> 00:26:10,460
+so people are just assuming that
+that rate is going to continue
+
+543
+00:26:10,460 --> 00:26:12,380
+over a period of time.
+
+544
+00:26:12,380 --> 00:26:14,390
+So there's no particular
+economic significance
+
+545
+00:26:14,390 --> 00:26:15,830
+to when they cross.
+
+546
+00:26:15,830 --> 00:26:17,450
+These are all
+annualized, remember.
+
+547
+00:26:17,450 --> 00:26:20,972
+So you're asking the question,
+over a 10-year period what
+
+548
+00:26:20,972 --> 00:26:22,430
+is the average
+interest rate you're
+
+549
+00:26:22,430 --> 00:26:24,410
+going to get paid by
+the US Government,
+
+550
+00:26:24,410 --> 00:26:25,827
+versus over a one
+year period what
+
+551
+00:26:25,827 --> 00:26:28,118
+is the interest rate you're
+going to get paid by the US
+
+552
+00:26:28,118 --> 00:26:28,670
+Government?
+
+553
+00:26:28,670 --> 00:26:29,170
+That's all.
+
+554
+00:26:31,760 --> 00:26:34,810
+Now let me talk
+about volatility.
+
+555
+00:26:34,810 --> 00:26:38,340
+These are monthly estimates
+of US Stock Market
+
+556
+00:26:38,340 --> 00:26:40,800
+daily volatility
+from 1926 to 1997.
+
+557
+00:26:40,800 --> 00:26:44,850
+So every month I've
+got 20 days or 21 days.
+
+558
+00:26:44,850 --> 00:26:46,525
+I'm going to take
+the daily returns
+
+559
+00:26:46,525 --> 00:26:49,020
+and calculate the
+standard deviation
+
+560
+00:26:49,020 --> 00:26:53,190
+for those daily returns, and I
+plot it and it looks like this.
+
+561
+00:26:53,190 --> 00:26:55,620
+Now, these are monthly, so
+if you want to annualize it
+
+562
+00:26:55,620 --> 00:26:58,170
+you have to multiply it
+by the square root of 12
+
+563
+00:26:58,170 --> 00:27:00,690
+to get the annualized
+volatility.
+
+564
+00:27:00,690 --> 00:27:04,650
+But the point of this is that
+there are periods of time where
+
+565
+00:27:04,650 --> 00:27:07,200
+the market is
+extremely volatile,
+
+566
+00:27:07,200 --> 00:27:10,390
+and there are periods of time
+where it's relatively quiet.
+
+567
+00:27:10,390 --> 00:27:13,710
+And if I would have extended
+this to the most recent period,
+
+568
+00:27:13,710 --> 00:27:16,890
+you would see that within
+the last several weeks
+
+569
+00:27:16,890 --> 00:27:21,600
+we had a spike that was about
+as big as this spike over here.
+
+570
+00:27:21,600 --> 00:27:23,894
+Anybody know what this spike is?
+
+571
+00:27:23,894 --> 00:27:24,810
+You can sort of guess.
+
+572
+00:27:24,810 --> 00:27:27,240
+Yeah, October 1987.
+
+573
+00:27:27,240 --> 00:27:29,910
+That was the big stock
+market crash that
+
+574
+00:27:29,910 --> 00:27:32,430
+occurred during that month.
+
+575
+00:27:32,430 --> 00:27:35,490
+Volatility shot way up during
+that month-- lots of risk.
+
+576
+00:27:35,490 --> 00:27:37,680
+And right now we're
+in a situation where
+
+577
+00:27:37,680 --> 00:27:41,550
+there is lots of risk as well.
+
+578
+00:27:41,550 --> 00:27:44,910
+Now, I'm going to just
+conclude my overview
+
+579
+00:27:44,910 --> 00:27:49,380
+with a few interesting anomalies
+that I want to tease you with
+
+580
+00:27:49,380 --> 00:27:51,120
+to get you to think
+a little bit more
+
+581
+00:27:51,120 --> 00:27:54,150
+carefully about stock markets.
+
+582
+00:27:54,150 --> 00:27:55,680
+What I'm going to
+show you are just
+
+583
+00:27:55,680 --> 00:27:59,970
+a bunch of factoids, factoids
+meaning that they are
+
+584
+00:27:59,970 --> 00:28:02,110
+empirical facts in the data.
+
+585
+00:28:02,110 --> 00:28:06,990
+But if you change some of
+the assumptions or the sample
+
+586
+00:28:06,990 --> 00:28:10,320
+that you use, these
+facts could change.
+
+587
+00:28:10,320 --> 00:28:13,140
+So these are not
+universal constants
+
+588
+00:28:13,140 --> 00:28:15,990
+that, for some theoretical
+reason, has to be true.
+
+589
+00:28:15,990 --> 00:28:18,870
+This is just
+properties of the data.
+
+590
+00:28:18,870 --> 00:28:21,390
+What I've done here is
+to take all the stocks
+
+591
+00:28:21,390 --> 00:28:27,420
+in the NYSE, Amex, and
+NASDAQ from 1964 to 2004.
+
+592
+00:28:27,420 --> 00:28:30,420
+And on a monthly
+basis, I'm going
+
+593
+00:28:30,420 --> 00:28:34,080
+to rank them by
+market capitalization,
+
+594
+00:28:34,080 --> 00:28:40,230
+break them up into 10 equal
+numbers of securities,
+
+595
+00:28:40,230 --> 00:28:46,680
+and then average the
+returns in those deciles
+
+596
+00:28:46,680 --> 00:28:49,410
+and then compute it
+over time and then
+
+597
+00:28:49,410 --> 00:28:53,220
+average those decile returns.
+
+598
+00:28:53,220 --> 00:28:55,260
+That sounds a
+little complicated,
+
+599
+00:28:55,260 --> 00:28:56,850
+but pretty straightforward.
+
+600
+00:28:56,850 --> 00:28:59,790
+Let me tell you, for example,
+what this means here.
+
+601
+00:28:59,790 --> 00:29:05,250
+This particular bin
+over here is the bin
+
+602
+00:29:05,250 --> 00:29:10,740
+of all stocks that
+have the largest market
+
+603
+00:29:10,740 --> 00:29:17,150
+capitalizations among all
+of the stocks in my sample.
+
+604
+00:29:17,150 --> 00:29:19,020
+I've divided them up
+into 10 equal groups.
+
+605
+00:29:19,020 --> 00:29:21,540
+This is the largest
+10th, and I'm
+
+606
+00:29:21,540 --> 00:29:25,680
+going to compute the
+returns monthly for that bin
+
+607
+00:29:25,680 --> 00:29:28,890
+and then average that
+across my entire sample.
+
+608
+00:29:28,890 --> 00:29:33,390
+And I get an annual
+return of close to 10%.
+
+609
+00:29:33,390 --> 00:29:34,950
+This is annualized now.
+
+610
+00:29:34,950 --> 00:29:37,080
+It's not monthly-- annualized.
+
+611
+00:29:40,520 --> 00:29:43,940
+If I now compute that
+same rate of return
+
+612
+00:29:43,940 --> 00:29:47,360
+for the smallest
+stocks, the stocks
+
+613
+00:29:47,360 --> 00:29:50,870
+that are the smallest
+part of my sample--
+
+614
+00:29:50,870 --> 00:29:52,910
+that's down here--
+
+615
+00:29:52,910 --> 00:29:57,260
+I get a return of something
+like 15% per year.
+
+616
+00:29:59,960 --> 00:30:04,730
+15% versus 10%, that's
+a huge difference.
+
+617
+00:30:04,730 --> 00:30:07,260
+That's like a 6 percentage
+point difference.
+
+618
+00:30:07,260 --> 00:30:12,280
+No, it's more like 9%
+versus 15%-plus something.
+
+619
+00:30:12,280 --> 00:30:15,600
+Five percentage points,
+500 basis points a year--
+
+620
+00:30:15,600 --> 00:30:20,630
+that's the gap between small
+stocks and large stocks.
+
+621
+00:30:20,630 --> 00:30:26,510
+This is known as the size
+effect or the size premium.
+
+622
+00:30:26,510 --> 00:30:30,020
+Small stocks seem to do
+better than large stocks.
+
+623
+00:30:30,020 --> 00:30:32,930
+Now, there are lots of stories
+you could tell about why.
+
+624
+00:30:32,930 --> 00:30:34,580
+I'm not going to
+tell those stories,
+
+625
+00:30:34,580 --> 00:30:37,760
+but I just want you
+to see the data.
+
+626
+00:30:37,760 --> 00:30:40,160
+Now, you want to know
+what's weird about this?
+
+627
+00:30:40,160 --> 00:30:41,660
+What's weird about
+this picture is
+
+628
+00:30:41,660 --> 00:30:46,260
+that I'm going to change
+the sample ever so slightly.
+
+629
+00:30:46,260 --> 00:30:48,710
+What I'm going to
+do is I'm going
+
+630
+00:30:48,710 --> 00:30:55,700
+to compute this graph only
+for the month of January
+
+631
+00:30:55,700 --> 00:30:59,495
+and then for all the other
+months outside of January.
+
+632
+00:31:01,744 --> 00:31:03,035
+And I'll show you what happens.
+
+633
+00:31:07,120 --> 00:31:13,690
+The yellow bars-- those
+are the January returns,
+
+634
+00:31:13,690 --> 00:31:18,850
+and the blue bars are all
+of the non-January returns.
+
+635
+00:31:18,850 --> 00:31:22,060
+So I don't really think there's
+that much of a size effect
+
+636
+00:31:22,060 --> 00:31:24,610
+once you delete the Januarys.
+
+637
+00:31:24,610 --> 00:31:27,700
+You get a little bit of a
+difference between the biggest
+
+638
+00:31:27,700 --> 00:31:29,590
+and the smallest,
+but the difference
+
+639
+00:31:29,590 --> 00:31:34,640
+that we're talking
+about now is very small.
+
+640
+00:31:34,640 --> 00:31:37,820
+But look at the January effect.
+
+641
+00:31:37,820 --> 00:31:39,830
+That's big.
+
+642
+00:31:39,830 --> 00:31:46,040
+And it turns out that this
+seems to be a phenomenon that
+
+643
+00:31:46,040 --> 00:31:50,120
+has become a little bit
+less pronounced recently,
+
+644
+00:31:50,120 --> 00:31:54,650
+but for many years it was
+quite strong and reliable.
+
+645
+00:31:54,650 --> 00:31:58,760
+And people actually traded
+on this particular pattern,
+
+646
+00:31:58,760 --> 00:32:04,160
+buying stocks in January,
+holding them in December,
+
+647
+00:32:04,160 --> 00:32:08,300
+and holding them until January,
+or doing a spread where you
+
+648
+00:32:08,300 --> 00:32:10,370
+basically tried to go long--
+
+649
+00:32:10,370 --> 00:32:16,190
+small stocks in December
+and large stocks in December
+
+650
+00:32:16,190 --> 00:32:17,180
+and hold that spread.
+
+651
+00:32:17,180 --> 00:32:18,620
+And then it widened.
+
+652
+00:32:18,620 --> 00:32:22,670
+So this is a really
+puzzling anomaly.
+
+653
+00:32:22,670 --> 00:32:25,144
+Again, you can come up
+with explanations for this.
+
+654
+00:32:25,144 --> 00:32:26,810
+I'm not going to tell
+you what they are.
+
+655
+00:32:26,810 --> 00:32:30,920
+You can think about them and
+possibly even trade on them
+
+656
+00:32:30,920 --> 00:32:32,240
+over the next month or so.
+
+657
+00:32:34,940 --> 00:32:38,630
+Now, the second anomaly that
+I want you to be aware of--
+
+658
+00:32:38,630 --> 00:32:41,270
+and this, depending
+on who you speak to,
+
+659
+00:32:41,270 --> 00:32:43,010
+may not be considered
+an anomaly.
+
+660
+00:32:43,010 --> 00:32:44,480
+For example, Warren
+Buffett would
+
+661
+00:32:44,480 --> 00:32:48,890
+call this genius and fact.
+
+662
+00:32:48,890 --> 00:32:50,990
+This is the value premium.
+
+663
+00:32:50,990 --> 00:32:55,130
+What this suggests is that
+there are certain stocks that,
+
+664
+00:32:55,130 --> 00:32:59,150
+for whatever reason, are
+just simply undervalued
+
+665
+00:32:59,150 --> 00:33:01,340
+systematically--
+or, alternatively,
+
+666
+00:33:01,340 --> 00:33:05,720
+other stocks that are
+systematically overvalued.
+
+667
+00:33:05,720 --> 00:33:09,230
+The value premium is where
+you take the same universe
+
+668
+00:33:09,230 --> 00:33:11,330
+of stocks that I showed
+you before, but instead
+
+669
+00:33:11,330 --> 00:33:13,280
+of sorting according to
+market capitalization,
+
+670
+00:33:13,280 --> 00:33:15,810
+you sort it according to
+another characteristic.
+
+671
+00:33:15,810 --> 00:33:19,340
+And the characteristic is
+the price-equity ratio,
+
+672
+00:33:19,340 --> 00:33:22,340
+or the reverse of that is
+what you usually hear about,
+
+673
+00:33:22,340 --> 00:33:23,720
+book-to-market--
+
+674
+00:33:23,720 --> 00:33:26,610
+book value divided
+by market value.
+
+675
+00:33:26,610 --> 00:33:29,480
+Now, you all know what
+that difference is by now.
+
+676
+00:33:29,480 --> 00:33:33,500
+Book value is the
+value of the company
+
+677
+00:33:33,500 --> 00:33:38,990
+as it was initially formed
+and as it accrues either cash
+
+678
+00:33:38,990 --> 00:33:44,240
+or profitability, but based
+upon its accounting book value.
+
+679
+00:33:44,240 --> 00:33:47,240
+Whereas the market value
+is what the market thinks
+
+680
+00:33:47,240 --> 00:33:48,830
+the company is worth.
+
+681
+00:33:48,830 --> 00:33:50,990
+And in many cases,
+with technology stocks
+
+682
+00:33:50,990 --> 00:33:53,090
+and other growth
+stocks, the price
+
+683
+00:33:53,090 --> 00:33:58,700
+gets way, way ahead of the
+value of the company's assets.
+
+684
+00:33:58,700 --> 00:34:00,680
+And so those are
+situations where
+
+685
+00:34:00,680 --> 00:34:04,640
+you've got a very large
+price-to-book ratio.
+
+686
+00:34:04,640 --> 00:34:06,944
+If you have a very large
+price-to-book ratio,
+
+687
+00:34:06,944 --> 00:34:08,360
+that means that
+you're going to be
+
+688
+00:34:08,360 --> 00:34:12,080
+on the right hand
+of this spectrum.
+
+689
+00:34:12,080 --> 00:34:14,360
+And that says,
+according to this chart,
+
+690
+00:34:14,360 --> 00:34:18,989
+that the expected rate of
+return is generally pretty low.
+
+691
+00:34:18,989 --> 00:34:21,770
+On the other hand, low
+book-to-market or high
+
+692
+00:34:21,770 --> 00:34:23,750
+book-to-price--
+
+693
+00:34:23,750 --> 00:34:26,639
+sorry, the other way around--
+
+694
+00:34:26,639 --> 00:34:29,900
+high book-to-market,
+low price-to-book
+
+695
+00:34:29,900 --> 00:34:32,460
+is on the left-hand side.
+
+696
+00:34:32,460 --> 00:34:35,420
+These are what Warren
+Buffett and Graham and Dodd
+
+697
+00:34:35,420 --> 00:34:37,040
+would call "value stocks."
+
+698
+00:34:37,040 --> 00:34:41,270
+These are stocks where you've
+got lots of good book value,
+
+699
+00:34:41,270 --> 00:34:43,850
+but somehow the market
+doesn't really appreciate it.
+
+700
+00:34:43,850 --> 00:34:47,489
+And so the price is low
+relative to the book value.
+
+701
+00:34:47,489 --> 00:34:51,050
+In other words, the
+price-to-book ratio is low.
+
+702
+00:34:51,050 --> 00:34:52,880
+And look at the returns there.
+
+703
+00:34:52,880 --> 00:34:55,370
+The value premium
+is the difference
+
+704
+00:34:55,370 --> 00:35:00,350
+between the high price-to-book
+and the low price-to-book,
+
+705
+00:35:00,350 --> 00:35:04,610
+and you're looking at a premium
+of about 600 to 700 basis
+
+706
+00:35:04,610 --> 00:35:07,010
+points, on an annualized basis.
+
+707
+00:35:07,010 --> 00:35:11,840
+That's a big difference,
+because in both of these bins
+
+708
+00:35:11,840 --> 00:35:16,310
+it turns out the risks are
+actually roughly comparable.
+
+709
+00:35:16,310 --> 00:35:18,890
+So it's not as if the
+stocks on the left
+
+710
+00:35:18,890 --> 00:35:21,680
+are way more risky than
+the stocks on the right.
+
+711
+00:35:21,680 --> 00:35:25,190
+That actually is true of the
+market capitalization effect.
+
+712
+00:35:25,190 --> 00:35:27,890
+Small stocks actually
+have higher volatility
+
+713
+00:35:27,890 --> 00:35:29,630
+than large stocks.
+
+714
+00:35:29,630 --> 00:35:32,480
+But that's not true
+of value and growth.
+
+715
+00:35:32,480 --> 00:35:36,570
+So that's another puzzle, or,
+depending on who you talk to,
+
+716
+00:35:36,570 --> 00:35:39,640
+this is a way to invest.
+
+717
+00:35:39,640 --> 00:35:44,300
+Momentum-- this is something
+that academics discovered maybe
+
+718
+00:35:44,300 --> 00:35:48,260
+10 or 15 years ago, which
+is also really anomalous.
+
+719
+00:35:48,260 --> 00:35:55,760
+By momentum, we mean
+simply last year's return.
+
+720
+00:35:55,760 --> 00:36:00,470
+If that's positive, does it
+tend to persist over the next 12
+
+721
+00:36:00,470 --> 00:36:01,650
+months?
+
+722
+00:36:01,650 --> 00:36:07,040
+So the stocks with low
+momentum on the left-hand side
+
+723
+00:36:07,040 --> 00:36:12,590
+seem to do worse than the
+stocks that have high momentum.
+
+724
+00:36:12,590 --> 00:36:15,380
+So the momentum effect
+seems to be really strong.
+
+725
+00:36:15,380 --> 00:36:17,180
+And again, look at
+that difference.
+
+726
+00:36:17,180 --> 00:36:20,510
+That difference is something
+on the order of a 15% spread,
+
+727
+00:36:20,510 --> 00:36:21,770
+if not more.
+
+728
+00:36:21,770 --> 00:36:24,080
+It's a very, very big spread.
+
+729
+00:36:24,080 --> 00:36:26,660
+So this might lead you to
+try to construct a trading
+
+730
+00:36:26,660 --> 00:36:28,890
+strategy based upon this.
+
+731
+00:36:28,890 --> 00:36:30,710
+And there are a bunch
+of other anomalies
+
+732
+00:36:30,710 --> 00:36:33,240
+that have been reported in
+the academic literature.
+
+733
+00:36:33,240 --> 00:36:36,290
+In fact, for a while,
+certain academic journals
+
+734
+00:36:36,290 --> 00:36:39,980
+were accused of never meeting an
+anomaly that they didn't love,
+
+735
+00:36:39,980 --> 00:36:42,980
+because they just kept
+publishing one after another.
+
+736
+00:36:42,980 --> 00:36:48,590
+And in a way, you have to be
+a bit skeptical about this,
+
+737
+00:36:48,590 --> 00:36:51,410
+because there are so many
+different ways of looking
+
+738
+00:36:51,410 --> 00:36:53,660
+at stocks, so many
+characteristics.
+
+739
+00:36:53,660 --> 00:36:59,360
+And you know that in a sample
+of 100 random variables,
+
+740
+00:36:59,360 --> 00:37:05,030
+5% of them are going to be
+statistically significant, even
+
+741
+00:37:05,030 --> 00:37:09,410
+if none of them are in
+terms of being significantly
+
+742
+00:37:09,410 --> 00:37:11,032
+different from zero.
+
+743
+00:37:11,032 --> 00:37:13,490
+So you've got to take these
+anomalies with a grain of salt,
+
+744
+00:37:13,490 --> 00:37:15,230
+but what I've
+presented to you are
+
+745
+00:37:15,230 --> 00:37:17,000
+the ones that seem
+to be the most
+
+746
+00:37:17,000 --> 00:37:19,640
+persistent, the ones that
+people spin stories about,
+
+747
+00:37:19,640 --> 00:37:22,640
+the ones that people
+construct mutual funds around.
+
+748
+00:37:22,640 --> 00:37:25,580
+And so you'll have to think a
+little bit about whether or not
+
+749
+00:37:25,580 --> 00:37:27,710
+you believe any of
+these anomalies,
+
+750
+00:37:27,710 --> 00:37:29,930
+but I wanted to make you
+aware that they're there.
+
+751
+00:37:29,930 --> 00:37:34,430
+And if you take
+15433, investments,
+
+752
+00:37:34,430 --> 00:37:36,882
+you'd actually end up spending
+a fair bit of time digging
+
+753
+00:37:36,882 --> 00:37:38,840
+through each one of these
+to see whether or not
+
+754
+00:37:38,840 --> 00:37:40,730
+there's something in
+there that you could
+
+755
+00:37:40,730 --> 00:37:42,320
+use for investment purposes.
+
+756
+00:37:45,850 --> 00:37:49,750
+The last thing I want to mention
+with this introductory lecture
+
+757
+00:37:49,750 --> 00:37:52,620
+is mutual funds.
+
+758
+00:37:52,620 --> 00:37:58,050
+These anomalies were
+obviously very, very exciting
+
+759
+00:37:58,050 --> 00:38:00,810
+from the perspective of
+active portfolio management,
+
+760
+00:38:00,810 --> 00:38:02,951
+because once you identify
+one of these anomalies
+
+761
+00:38:02,951 --> 00:38:04,950
+you could argue, I want
+to take advantage of it.
+
+762
+00:38:04,950 --> 00:38:07,710
+Of course, then the argument
+that was raised earlier
+
+763
+00:38:07,710 --> 00:38:08,550
+comes into play.
+
+764
+00:38:08,550 --> 00:38:10,216
+If you're going to
+take advantage of it,
+
+765
+00:38:10,216 --> 00:38:12,160
+isn't that going to disappear?
+
+766
+00:38:12,160 --> 00:38:15,300
+And the answer is, in
+general, yes, it will,
+
+767
+00:38:15,300 --> 00:38:16,410
+but it may take a while.
+
+768
+00:38:16,410 --> 00:38:20,010
+And along the way,
+you'll do quite well.
+
+769
+00:38:20,010 --> 00:38:22,920
+So the question was
+asked, well, if that's
+
+770
+00:38:22,920 --> 00:38:25,140
+the case, if there are
+all these anomalies
+
+771
+00:38:25,140 --> 00:38:27,530
+and if you can take
+advantage of them,
+
+772
+00:38:27,530 --> 00:38:30,270
+well, then mutual
+fund managers ought
+
+773
+00:38:30,270 --> 00:38:34,560
+to be able to outperform
+simple buy and hold strategies.
+
+774
+00:38:34,560 --> 00:38:38,880
+Because they can take
+advantage of these anomalies.
+
+775
+00:38:38,880 --> 00:38:44,340
+If you do a histogram
+of mutual fund returns
+
+776
+00:38:44,340 --> 00:38:48,240
+that are in excess
+of their risks--
+
+777
+00:38:48,240 --> 00:38:52,080
+so if you make some kind
+of a simple risk adjustment
+
+778
+00:38:52,080 --> 00:38:55,530
+and you look at the mutual
+funds' additional value added
+
+779
+00:38:55,530 --> 00:38:58,470
+above and beyond those
+risk adjustments--
+
+780
+00:38:58,470 --> 00:39:01,650
+those excess returns are
+given by this histogram.
+
+781
+00:39:01,650 --> 00:39:07,950
+For data from 1972 to 1991,
+the histogram of excess returns
+
+782
+00:39:07,950 --> 00:39:11,700
+has basically this
+kind of a distribution.
+
+783
+00:39:11,700 --> 00:39:15,540
+You've got some positives,
+you've got some negatives,
+
+784
+00:39:15,540 --> 00:39:17,760
+you've got more
+negatives than positives,
+
+785
+00:39:17,760 --> 00:39:22,720
+and on average it's
+actually less than zero.
+
+786
+00:39:22,720 --> 00:39:28,780
+Mutual funds net of fees are
+actually losing money for you
+
+787
+00:39:28,780 --> 00:39:29,440
+on average.
+
+788
+00:39:29,440 --> 00:39:33,640
+That was the conclusion by these
+academics as of a few years
+
+789
+00:39:33,640 --> 00:39:34,300
+ago.
+
+790
+00:39:34,300 --> 00:39:35,442
+Yeah?
+
+791
+00:39:35,442 --> 00:39:38,117
+STUDENT: In defense
+of the big ones,
+
+792
+00:39:38,117 --> 00:39:40,820
+isn't part of the
+purpose to lower
+
+793
+00:39:40,820 --> 00:39:43,850
+your risk of your portfolio
+to lower the volatility?
+
+794
+00:39:43,850 --> 00:39:49,310
+For example, you might be able
+to get the return plus zero.
+
+795
+00:39:49,310 --> 00:39:51,289
+But then the next
+year you might be
+
+796
+00:39:51,289 --> 00:39:52,705
+able to get the
+return minus five.
+
+797
+00:39:52,705 --> 00:39:55,130
+Well, I think
+mutual fund managers
+
+798
+00:39:55,130 --> 00:40:01,360
+aim to get you steady terms
+that are [? being ?] exactly
+
+799
+00:40:01,360 --> 00:40:02,620
+the term, plus zero.
+
+800
+00:40:02,620 --> 00:40:05,260
+PROFESSOR: Well, so first of
+all, that's not necessarily
+
+801
+00:40:05,260 --> 00:40:06,850
+the objective of
+every mutual fund
+
+802
+00:40:06,850 --> 00:40:09,760
+right there are mutual
+funds that are not
+
+803
+00:40:09,760 --> 00:40:11,260
+trying to give you
+lower volatility,
+
+804
+00:40:11,260 --> 00:40:13,180
+but rather they're
+trying to give you access
+
+805
+00:40:13,180 --> 00:40:16,960
+to broader investment
+vehicles and instruments.
+
+806
+00:40:16,960 --> 00:40:19,570
+So the original index
+fund that was set up
+
+807
+00:40:19,570 --> 00:40:22,210
+by Wells Fargo in the 1970s--
+
+808
+00:40:22,210 --> 00:40:24,820
+the purpose was to
+allow an investor
+
+809
+00:40:24,820 --> 00:40:29,530
+to get access to 100 securities
+without having to actually go
+
+810
+00:40:29,530 --> 00:40:31,589
+out and buy 100 securities.
+
+811
+00:40:31,589 --> 00:40:33,130
+STUDENT: Thereby
+diversifying, right?
+
+812
+00:40:33,130 --> 00:40:34,810
+PROFESSOR: Right,
+by diversifying.
+
+813
+00:40:34,810 --> 00:40:37,210
+But it doesn't lower
+the volatility,
+
+814
+00:40:37,210 --> 00:40:39,514
+except through diversification.
+
+815
+00:40:39,514 --> 00:40:40,180
+So you're right.
+
+816
+00:40:40,180 --> 00:40:43,630
+Diversification will lower
+it, versus buying Motorola.
+
+817
+00:40:43,630 --> 00:40:45,400
+But the question
+is, how does this
+
+818
+00:40:45,400 --> 00:40:50,860
+do versus buying 100
+stocks, or rather buying
+
+819
+00:40:50,860 --> 00:40:54,790
+a mutual fund like
+Vanguard, the Vanguard 500
+
+820
+00:40:54,790 --> 00:40:56,470
+Index Trust, where
+you're not trying
+
+821
+00:40:56,470 --> 00:41:01,150
+to outperform the market you're
+trying to match the market?
+
+822
+00:41:01,150 --> 00:41:04,120
+And the argument is that the
+mutual funds that have been
+
+823
+00:41:04,120 --> 00:41:09,944
+trying to beat the market,
+on average they don't.
+
+824
+00:41:09,944 --> 00:41:11,150
+They don't beat the market.
+
+825
+00:41:11,150 --> 00:41:12,650
+Some of them do;
+some of them don't.
+
+826
+00:41:12,650 --> 00:41:14,950
+But as a group, they
+don't add any extra value.
+
+827
+00:41:14,950 --> 00:41:17,180
+That's the argument
+that was made.
+
+828
+00:41:17,180 --> 00:41:19,610
+Now, that's not to say that
+there aren't good mutual funds
+
+829
+00:41:19,610 --> 00:41:21,460
+and there aren't
+bad mutual funds.
+
+830
+00:41:21,460 --> 00:41:22,600
+There may be.
+
+831
+00:41:22,600 --> 00:41:26,350
+So somewhere in here is
+Peter Lynch's Magellan Fund--
+
+832
+00:41:26,350 --> 00:41:29,800
+terrific fund, very
+talented portfolio manager.
+
+833
+00:41:29,800 --> 00:41:31,600
+But on the other
+hand, if you can't
+
+834
+00:41:31,600 --> 00:41:35,770
+tell in advance who is going
+to be the next Peter Lynch
+
+835
+00:41:35,770 --> 00:41:37,780
+and who's going to be the next--
+
+836
+00:41:37,780 --> 00:41:41,020
+I don't know who; I won't
+cast any aspersions.
+
+837
+00:41:41,020 --> 00:41:44,110
+But if you can't tell in
+advance who's going to do bad,
+
+838
+00:41:44,110 --> 00:41:48,530
+then you're essentially throwing
+a dart at this histogram.
+
+839
+00:41:48,530 --> 00:41:50,960
+You may be lucky and you'll
+get on the right side,
+
+840
+00:41:50,960 --> 00:41:53,270
+or you may be unlucky
+and hit the left side.
+
+841
+00:41:53,270 --> 00:41:56,270
+But on average, you
+should do better
+
+842
+00:41:56,270 --> 00:41:58,950
+by putting your money
+in a passive index fund.
+
+843
+00:41:58,950 --> 00:42:02,300
+Now, that's the
+argument of Vanguard
+
+844
+00:42:02,300 --> 00:42:06,374
+and all of the passive
+investment vehicles.
+
+845
+00:42:06,374 --> 00:42:08,540
+I'm not going to take a
+stand on that, because we're
+
+846
+00:42:08,540 --> 00:42:10,373
+going to come back and
+talk a bit about that
+
+847
+00:42:10,373 --> 00:42:11,480
+at the end of the course.
+
+848
+00:42:11,480 --> 00:42:13,105
+And then as part of
+investments, you're
+
+849
+00:42:13,105 --> 00:42:14,400
+going to re-look into that.
+
+850
+00:42:14,400 --> 00:42:17,390
+I just want you to get a feeling
+for the data that's out there.
+
+851
+00:42:17,390 --> 00:42:18,980
+And the data that's
+out there says
+
+852
+00:42:18,980 --> 00:42:21,350
+it's very hard to
+tell whether or not
+
+853
+00:42:21,350 --> 00:42:26,020
+mutual funds, as an aggregate,
+are adding any value.
+
+854
+00:42:26,020 --> 00:42:28,900
+By the way, you realize
+that there are actually
+
+855
+00:42:28,900 --> 00:42:33,220
+more mutual funds out there
+than there are stocks.
+
+856
+00:42:33,220 --> 00:42:34,730
+You know that?
+
+857
+00:42:34,730 --> 00:42:37,130
+Yeah, there are about
+10,000 mutual funds.
+
+858
+00:42:37,130 --> 00:42:39,200
+There are about 8,000
+stocks out there,
+
+859
+00:42:39,200 --> 00:42:42,520
+including the penny stocks
+and pink sheet stocks.
+
+860
+00:42:42,520 --> 00:42:44,650
+There are probably only
+4,000 or 5,000 stocks
+
+861
+00:42:44,650 --> 00:42:48,700
+that you would actually ever
+invest in as a retail investor
+
+862
+00:42:48,700 --> 00:42:49,940
+yourself.
+
+863
+00:42:49,940 --> 00:42:51,880
+And so the number
+of mutual funds
+
+864
+00:42:51,880 --> 00:42:54,910
+far exceeds the
+number of stocks.
+
+865
+00:42:54,910 --> 00:42:57,550
+The way that mutual
+fund managers
+
+866
+00:42:57,550 --> 00:42:59,800
+justify that is by
+saying, look, there
+
+867
+00:42:59,800 --> 00:43:02,800
+are 31 flavors of
+Baskin Robbins and so we
+
+868
+00:43:02,800 --> 00:43:04,600
+want to provide
+investors with lots
+
+869
+00:43:04,600 --> 00:43:06,520
+of different possibilities.
+
+870
+00:43:06,520 --> 00:43:08,320
+Not everybody wants the S&P 500.
+
+871
+00:43:08,320 --> 00:43:10,180
+Some people want the S&P 100.
+
+872
+00:43:10,180 --> 00:43:12,340
+Some people want the S&P 250.
+
+873
+00:43:12,340 --> 00:43:14,770
+Some people want the S&P 385.
+
+874
+00:43:14,770 --> 00:43:18,400
+And so I'm going to construct a
+fund for every clientele that's
+
+875
+00:43:18,400 --> 00:43:19,440
+out there.
+
+876
+00:43:19,440 --> 00:43:21,400
+That's a legitimate
+argument, as long
+
+877
+00:43:21,400 --> 00:43:24,970
+as investors understand that
+when you buy into a mutual fund
+
+878
+00:43:24,970 --> 00:43:28,420
+you're buying something that
+may cost you more than if you
+
+879
+00:43:28,420 --> 00:43:32,710
+try to do this on your own.
+
+880
+00:43:32,710 --> 00:43:35,140
+So the key points that
+I want you to take away
+
+881
+00:43:35,140 --> 00:43:40,210
+is that the average return on
+US stocks from 1926 to 2004
+
+882
+00:43:40,210 --> 00:43:42,250
+was 11.2%.
+
+883
+00:43:42,250 --> 00:43:46,330
+Now that's considered the
+good old days, so no more.
+
+884
+00:43:46,330 --> 00:43:49,340
+The average risk
+premium was about 8%--
+
+885
+00:43:49,340 --> 00:43:50,860
+again, the good old days.
+
+886
+00:43:50,860 --> 00:43:53,530
+That's probably not going
+to happen for a while.
+
+887
+00:43:53,530 --> 00:43:55,900
+Stocks are quite risky.
+
+888
+00:43:55,900 --> 00:43:59,380
+Standard deviation of returns
+for the market is about 16%
+
+889
+00:43:59,380 --> 00:44:01,150
+annually.
+
+890
+00:44:01,150 --> 00:44:02,950
+That isn't risky anymore.
+
+891
+00:44:02,950 --> 00:44:05,200
+That, again, is
+the good old days.
+
+892
+00:44:05,200 --> 00:44:10,930
+The market today, using the
+implied volatility of the VIX
+
+893
+00:44:10,930 --> 00:44:15,070
+index, the implied volatility
+of S&P at the money options,
+
+894
+00:44:15,070 --> 00:44:18,580
+was about 49%.
+
+895
+00:44:18,580 --> 00:44:24,670
+So the annual forward-looking
+S&P 500 stock market volatility
+
+896
+00:44:24,670 --> 00:44:30,276
+right now is about 49%, which
+by the way is down from 80%
+
+897
+00:44:30,276 --> 00:44:32,210
+a couple of weeks ago.
+
+898
+00:44:32,210 --> 00:44:35,500
+So as I predicted,
+volatility was
+
+899
+00:44:35,500 --> 00:44:39,130
+going to decline once
+the election was clear.
+
+900
+00:44:39,130 --> 00:44:41,890
+That eliminated a
+piece of uncertainty,
+
+901
+00:44:41,890 --> 00:44:43,480
+but there is still
+a remaining piece,
+
+902
+00:44:43,480 --> 00:44:45,650
+which is what's going to
+happen to our economy.
+
+903
+00:44:45,650 --> 00:44:49,660
+That's why the volatility is at
+49% versus a historical average
+
+904
+00:44:49,660 --> 00:44:51,220
+of 16% to 20%.
+
+905
+00:44:54,280 --> 00:44:57,790
+Stocks on an individual
+basis are clearly
+
+906
+00:44:57,790 --> 00:45:02,250
+much more risky than as a group,
+so you're absolutely right,
+
+907
+00:45:02,250 --> 00:45:04,450
+Remi, that when you
+put it into a portfolio
+
+908
+00:45:04,450 --> 00:45:06,400
+you reduce the risk.
+
+909
+00:45:06,400 --> 00:45:11,380
+And so the S&P 500 is a lot
+less risky than Motorola.
+
+910
+00:45:11,380 --> 00:45:15,110
+Also, stocks tend to
+move together over time.
+
+911
+00:45:15,110 --> 00:45:17,270
+Over time, from one
+day to the next,
+
+912
+00:45:17,270 --> 00:45:19,100
+there is very
+little relationship,
+
+913
+00:45:19,100 --> 00:45:23,510
+but on a given day stocks
+tend to move together
+
+914
+00:45:23,510 --> 00:45:26,510
+in groups, General
+Motors seemingly
+
+915
+00:45:26,510 --> 00:45:31,040
+to be correlated with the
+S&P as well as other stocks.
+
+916
+00:45:31,040 --> 00:45:33,470
+And obviously, market
+volatility changes
+
+917
+00:45:33,470 --> 00:45:36,890
+over time, and
+financial ratios that
+
+918
+00:45:36,890 --> 00:45:39,830
+can be used to create these
+different kinds of bins
+
+919
+00:45:39,830 --> 00:45:44,010
+for sorting stocks and
+constructing these anomalies--
+
+920
+00:45:44,010 --> 00:45:48,230
+they actually do seem to have
+some kind of predictive value.
+
+921
+00:45:48,230 --> 00:45:50,720
+Why, we don't know
+in many cases,
+
+922
+00:45:50,720 --> 00:45:52,490
+but the anomalies are there.
+
+923
+00:45:52,490 --> 00:45:56,720
+And so that's something
+to be aware of.
+
+924
+00:45:56,720 --> 00:45:59,650
+Other questions?
+
+925
+00:45:59,650 --> 00:46:04,940
+Now that you have a
+feel for the data,
+
+926
+00:46:04,940 --> 00:46:07,740
+I want to take a step
+back and ask the question,
+
+927
+00:46:07,740 --> 00:46:09,830
+how do we make use
+of this information
+
+928
+00:46:09,830 --> 00:46:13,580
+in a way that can help
+the typical investor
+
+929
+00:46:13,580 --> 00:46:15,710
+and also help the
+individual trying
+
+930
+00:46:15,710 --> 00:46:18,350
+to decide on a corporate
+financial decision?
+
+931
+00:46:18,350 --> 00:46:22,490
+How do we use these kinds
+of empirical insights
+
+932
+00:46:22,490 --> 00:46:23,840
+in our theory?
+
+933
+00:46:23,840 --> 00:46:28,820
+So to do that, I'm going to
+turn now to lectures 13 and 14
+
+934
+00:46:28,820 --> 00:46:36,410
+and focus on how to measure
+risk and return in a more
+
+935
+00:46:36,410 --> 00:46:38,930
+systematic way and
+then incorporate that
+
+936
+00:46:38,930 --> 00:46:41,390
+into portfolios.
+
+937
+00:46:41,390 --> 00:46:44,270
+So we're going to talk
+a bit about motivating
+
+938
+00:46:44,270 --> 00:46:47,660
+the idea behind
+portfolio analysis
+
+939
+00:46:47,660 --> 00:46:50,810
+and then use some of
+the theoretical concepts
+
+940
+00:46:50,810 --> 00:46:54,110
+that we introduced last
+time, like mean, variance,
+
+941
+00:46:54,110 --> 00:46:58,070
+and covariances and use
+it to piece together
+
+942
+00:46:58,070 --> 00:47:00,960
+a good portfolio.
+
+943
+00:47:00,960 --> 00:47:05,060
+So the motivation for what
+we're trying to do now
+
+944
+00:47:05,060 --> 00:47:10,070
+is to figure out how
+to combine securities
+
+945
+00:47:10,070 --> 00:47:13,760
+into a group that will
+have attractive properties.
+
+946
+00:47:13,760 --> 00:47:16,790
+If you're an investor or a
+corporate financial manager,
+
+947
+00:47:16,790 --> 00:47:20,220
+this is a decision that you've
+got to do almost every day.
+
+948
+00:47:20,220 --> 00:47:22,700
+For example, all of you have
+already made that decision
+
+949
+00:47:22,700 --> 00:47:24,890
+today, whether you
+know it or not.
+
+950
+00:47:24,890 --> 00:47:27,770
+Because if you didn't do
+anything between yesterday
+
+951
+00:47:27,770 --> 00:47:30,110
+and today to rebalance
+your portfolio,
+
+952
+00:47:30,110 --> 00:47:34,730
+you've made an affirmative
+decision to let the debt ride.
+
+953
+00:47:34,730 --> 00:47:35,480
+Let it ride.
+
+954
+00:47:35,480 --> 00:47:37,430
+You're going to be
+taking another roll
+
+955
+00:47:37,430 --> 00:47:40,907
+of the dice at 4:00
+today, and let's hope
+
+956
+00:47:40,907 --> 00:47:41,990
+it turns out well for you.
+
+957
+00:47:41,990 --> 00:47:43,550
+But you've made a decision.
+
+958
+00:47:43,550 --> 00:47:46,160
+Every day you don't do
+anything with your portfolio,
+
+959
+00:47:46,160 --> 00:47:48,150
+you are making a decision.
+
+960
+00:47:48,150 --> 00:47:49,730
+So what we want to
+do is to see if we
+
+961
+00:47:49,730 --> 00:47:51,980
+can think about making that
+decision a little bit more
+
+962
+00:47:51,980 --> 00:47:53,330
+systematically.
+
+963
+00:47:53,330 --> 00:47:56,250
+To do that, I want to define
+what I mean by a portfolio.
+
+964
+00:47:56,250 --> 00:47:59,450
+So the definition,
+in very simple terms,
+
+965
+00:47:59,450 --> 00:48:05,480
+is just a specific weighting or
+combination of securities, such
+
+966
+00:48:05,480 --> 00:48:07,820
+that the weights add up to one.
+
+967
+00:48:07,820 --> 00:48:10,072
+It's just a way to
+divide up the pie.
+
+968
+00:48:10,072 --> 00:48:11,780
+If you've got a certain
+amount of wealth,
+
+969
+00:48:11,780 --> 00:48:14,660
+you're going to allocate it
+among different securities
+
+970
+00:48:14,660 --> 00:48:16,280
+into a portfolio.
+
+971
+00:48:16,280 --> 00:48:20,180
+A portfolio is defined as a set
+of weights of those securities
+
+972
+00:48:20,180 --> 00:48:22,730
+where the weights add up to one.
+
+973
+00:48:22,730 --> 00:48:24,680
+Now, this is sort
+of the framework
+
+974
+00:48:24,680 --> 00:48:27,710
+that we use in terms
+of the notation.
+
+975
+00:48:27,710 --> 00:48:31,280
+So omega, the
+Greek letter omega,
+
+976
+00:48:31,280 --> 00:48:33,800
+when you write it
+as a vector, it
+
+977
+00:48:33,800 --> 00:48:38,100
+denotes the set of weights
+for your portfolio.
+
+978
+00:48:38,100 --> 00:48:41,750
+So if you've got n securities,
+then this vector omega, which
+
+979
+00:48:41,750 --> 00:48:45,210
+is equal to omega one,
+comma, omega two, dot, dot,
+
+980
+00:48:45,210 --> 00:48:49,800
+dot, omega n, that
+is a portfolio.
+
+981
+00:48:49,800 --> 00:48:52,490
+And if you want to be clear
+about how to define it,
+
+982
+00:48:52,490 --> 00:48:55,550
+it's simply the number
+of shares of security
+
+983
+00:48:55,550 --> 00:48:59,480
+I multiplied by
+that price, divided
+
+984
+00:48:59,480 --> 00:49:04,820
+by the sum of all of the
+values of your securities
+
+985
+00:49:04,820 --> 00:49:06,980
+in your entire collection.
+
+986
+00:49:09,570 --> 00:49:10,670
+Any questions about this?
+
+987
+00:49:10,670 --> 00:49:12,770
+Very basic stuff, but
+it's important to get
+
+988
+00:49:12,770 --> 00:49:15,820
+it right upfront.
+
+989
+00:49:15,820 --> 00:49:17,910
+Now, by the way,
+the number of shares
+
+990
+00:49:17,910 --> 00:49:22,940
+NI, I'm going to let
+that be a real number,
+
+991
+00:49:22,940 --> 00:49:28,660
+meaning it could be zero, it
+could be five, it could be 500,
+
+992
+00:49:28,660 --> 00:49:31,300
+it could be minus 200.
+
+993
+00:49:31,300 --> 00:49:34,780
+Minus 200 means that
+you have short-sold
+
+994
+00:49:34,780 --> 00:49:37,810
+200 shares of that security.
+
+995
+00:49:37,810 --> 00:49:41,020
+So these weights,
+they all sum to one,
+
+996
+00:49:41,020 --> 00:49:43,480
+but they don't have to
+be all non-negative.
+
+997
+00:49:43,480 --> 00:49:45,370
+Some of these weights
+could be zero.
+
+998
+00:49:45,370 --> 00:49:49,450
+Some of these weights
+could be negative.
+
+999
+00:49:49,450 --> 00:49:52,249
+If some of these weights
+are negative, then
+
+1000
+00:49:52,249 --> 00:49:54,290
+what do you know about
+some of the other weights?
+
+1001
+00:49:57,540 --> 00:49:59,540
+Well, yes, they have to
+be positive because they
+
+1002
+00:49:59,540 --> 00:50:00,456
+have to add up to one.
+
+1003
+00:50:00,456 --> 00:50:03,647
+But tell me more
+about the weights.
+
+1004
+00:50:03,647 --> 00:50:04,730
+STUDENT: Greater than one.
+
+1005
+00:50:04,730 --> 00:50:05,660
+PROFESSOR: Right.
+
+1006
+00:50:05,660 --> 00:50:08,510
+Because in order
+for it to add up
+
+1007
+00:50:08,510 --> 00:50:11,520
+to one, if some of these
+things are less than zero, then
+
+1008
+00:50:11,520 --> 00:50:13,520
+some of these other things
+are greater than one.
+
+1009
+00:50:13,520 --> 00:50:16,490
+What does it mean for a
+security to be greater than one,
+
+1010
+00:50:16,490 --> 00:50:19,687
+a weight to be greater than one?
+
+1011
+00:50:19,687 --> 00:50:21,094
+Does that make sense?
+
+1012
+00:50:25,567 --> 00:50:26,650
+What's the interpretation?
+
+1013
+00:50:26,650 --> 00:50:27,240
+Yeah, Lucas?
+
+1014
+00:50:27,240 --> 00:50:28,410
+STUDENT: Does it mean
+you're leveraged?
+
+1015
+00:50:28,410 --> 00:50:30,160
+PROFESSOR: It means
+that you're leveraged,
+
+1016
+00:50:30,160 --> 00:50:32,430
+that's right-- leveraged
+meaning that you're buying
+
+1017
+00:50:32,430 --> 00:50:36,390
+more than you have money.
+
+1018
+00:50:36,390 --> 00:50:38,770
+Where are you getting
+that money from?
+
+1019
+00:50:38,770 --> 00:50:43,644
+You're basically getting
+a loan, but who's
+
+1020
+00:50:43,644 --> 00:50:44,560
+loaning you the money?
+
+1021
+00:50:47,130 --> 00:50:48,150
+Andy?
+
+1022
+00:50:48,150 --> 00:50:49,823
+STUDENT: Well, the
+stocks that you
+
+1023
+00:50:49,823 --> 00:50:51,239
+sold short gave
+you the extra cash
+
+1024
+00:50:51,239 --> 00:50:52,650
+that you can buy long stock.
+
+1025
+00:50:52,650 --> 00:50:53,650
+PROFESSOR: That's right.
+
+1026
+00:50:53,650 --> 00:50:59,940
+So nobody loaned you money, but
+somebody loaned you something.
+
+1027
+00:50:59,940 --> 00:51:01,680
+They loaned you a stock.
+
+1028
+00:51:01,680 --> 00:51:05,160
+So this simple little
+framework already
+
+1029
+00:51:05,160 --> 00:51:07,210
+has given us one
+interesting insight,
+
+1030
+00:51:07,210 --> 00:51:12,000
+which is that when we short sell
+a stock and buy another one,
+
+1031
+00:51:12,000 --> 00:51:16,610
+we're actually getting
+a loan from somebody
+
+1032
+00:51:16,610 --> 00:51:19,880
+who's lending the stock
+to us that we've sold.
+
+1033
+00:51:19,880 --> 00:51:23,600
+We've taken that cash and we're
+putting it into another stock.
+
+1034
+00:51:23,600 --> 00:51:27,320
+So we're getting a
+loan of one security
+
+1035
+00:51:27,320 --> 00:51:29,300
+and turning around
+and using those funds
+
+1036
+00:51:29,300 --> 00:51:33,140
+to buy another security.
+
+1037
+00:51:33,140 --> 00:51:36,740
+That's a new transaction
+as far as we're concerned,
+
+1038
+00:51:36,740 --> 00:51:40,130
+but it's one that's going to be
+very important in how we think
+
+1039
+00:51:40,130 --> 00:51:42,420
+about portfolio construction.
+
+1040
+00:51:42,420 --> 00:51:45,110
+If you didn't understand
+that, go back and take a look
+
+1041
+00:51:45,110 --> 00:51:48,140
+at these nodes and try to
+work out a numerical example
+
+1042
+00:51:48,140 --> 00:51:49,350
+for yourself.
+
+1043
+00:51:49,350 --> 00:51:52,040
+And if you still don't
+understand it, ask again
+
+1044
+00:51:52,040 --> 00:51:54,790
+next time or ask the
+TA during recitation.
+
+1045
+00:51:54,790 --> 00:51:58,076
+It is a very important point.
+
+1046
+00:51:58,076 --> 00:51:59,450
+Now, there is a
+case that I'm not
+
+1047
+00:51:59,450 --> 00:52:00,920
+going to talk
+about in this class
+
+1048
+00:52:00,920 --> 00:52:04,340
+where the weights can
+actually sum to zero.
+
+1049
+00:52:04,340 --> 00:52:07,340
+I don't want to talk about
+that because that's a much more
+
+1050
+00:52:07,340 --> 00:52:11,660
+complex situation,
+where basically you have
+
+1051
+00:52:11,660 --> 00:52:14,040
+a portfolio with no money down.
+
+1052
+00:52:14,040 --> 00:52:16,250
+This is sort of like
+the arbitrage portfolios
+
+1053
+00:52:16,250 --> 00:52:19,280
+that I described to you
+in earlier settings.
+
+1054
+00:52:19,280 --> 00:52:22,250
+We're not going to analyze
+that in the context of stocks,
+
+1055
+00:52:22,250 --> 00:52:24,710
+but there are a
+very large number
+
+1056
+00:52:24,710 --> 00:52:27,170
+of hedge fund strategies
+that are based
+
+1057
+00:52:27,170 --> 00:52:29,747
+upon just these portfolios.
+
+1058
+00:52:29,747 --> 00:52:31,580
+And so this will be a
+very important concept
+
+1059
+00:52:31,580 --> 00:52:35,106
+that you'll cover in
+433, but we're not
+
+1060
+00:52:35,106 --> 00:52:36,230
+going to talk about it now.
+
+1061
+00:52:36,230 --> 00:52:37,813
+I just want to make
+you aware of that,
+
+1062
+00:52:37,813 --> 00:52:41,700
+that you can have the weights
+summing not to one but actually
+
+1063
+00:52:41,700 --> 00:52:42,200
+to zero.
+
+1064
+00:52:44,850 --> 00:52:47,390
+Now, the assumption that
+I'm making implicitly
+
+1065
+00:52:47,390 --> 00:52:49,670
+is that the
+portfolio weights are
+
+1066
+00:52:49,670 --> 00:52:54,680
+summarizing everything there is
+to know about your investment.
+
+1067
+00:52:54,680 --> 00:52:56,780
+So once you know the
+portfolio weights
+
+1068
+00:52:56,780 --> 00:52:58,640
+and you know the
+stocks, then you
+
+1069
+00:52:58,640 --> 00:53:01,820
+know what your
+portfolio is about.
+
+1070
+00:53:01,820 --> 00:53:06,110
+So as an example, you
+have an investment account
+
+1071
+00:53:06,110 --> 00:53:09,230
+with $100,000, and you've
+got three stocks in there--
+
+1072
+00:53:09,230 --> 00:53:14,240
+200 shares of A, 1,000
+shares of B, 700 shares of C,
+
+1073
+00:53:14,240 --> 00:53:18,410
+so that your portfolio is
+summarized by the weights
+
+1074
+00:53:18,410 --> 00:53:22,220
+10%, 60%, and 30%.
+
+1075
+00:53:22,220 --> 00:53:25,600
+So from now on, we're not
+going to worry about prices
+
+1076
+00:53:25,600 --> 00:53:28,050
+and shares anymore.
+
+1077
+00:53:28,050 --> 00:53:31,190
+We're going to focus
+just on portfolio weights
+
+1078
+00:53:31,190 --> 00:53:35,150
+and the returns of your
+securities multiplied
+
+1079
+00:53:35,150 --> 00:53:36,869
+by those weights.
+
+1080
+00:53:36,869 --> 00:53:37,910
+It's just simplification.
+
+1081
+00:53:37,910 --> 00:53:39,258
+Yeah, Megan?
+
+1082
+00:53:39,258 --> 00:53:42,716
+STUDENT: I'm just wondering what
+you think about a 130-30 type
+
+1083
+00:53:42,716 --> 00:53:45,690
+portfolio in the context
+of the last slide.
+
+1084
+00:53:45,690 --> 00:53:46,940
+PROFESSOR: Yeah, sure.
+
+1085
+00:53:46,940 --> 00:53:48,590
+So you're already
+asking a question
+
+1086
+00:53:48,590 --> 00:53:51,710
+that's quite a bit more advanced
+than what we're going to cover.
+
+1087
+00:53:51,710 --> 00:53:53,635
+What's a 130-30 portfolio?
+
+1088
+00:53:53,635 --> 00:53:55,010
+Can you explain
+that, or have you
+
+1089
+00:53:55,010 --> 00:53:57,308
+just heard that in the news?
+
+1090
+00:53:57,308 --> 00:54:00,079
+STUDENT: I understand, I
+guess, the basic concept,
+
+1091
+00:54:00,079 --> 00:54:04,154
+which is you're 130%
+long and are 30% short,
+
+1092
+00:54:04,154 --> 00:54:06,452
+so you're headed back to
+a net exposure of zero.
+
+1093
+00:54:06,452 --> 00:54:07,160
+PROFESSOR: Right.
+
+1094
+00:54:07,160 --> 00:54:08,180
+That's right, exactly.
+
+1095
+00:54:08,180 --> 00:54:10,130
+So let me describe
+a product that's
+
+1096
+00:54:10,130 --> 00:54:13,350
+out there that's been developed
+just over the last few years.
+
+1097
+00:54:13,350 --> 00:54:18,860
+It's called a 130-30
+portfolio, and what 130-30
+
+1098
+00:54:18,860 --> 00:54:27,490
+stands for is 130%
+long and 30% short.
+
+1099
+00:54:27,490 --> 00:54:31,030
+Now, you can have
+a 120-20 portfolio
+
+1100
+00:54:31,030 --> 00:54:34,210
+or a 180-80 portfolio.
+
+1101
+00:54:34,210 --> 00:54:39,160
+But the idea is that you have
+weights that add up to 100%,
+
+1102
+00:54:39,160 --> 00:54:45,220
+but the long positions
+are no greater than 130%.
+
+1103
+00:54:45,220 --> 00:54:50,180
+And the short positions
+are no less than minus 30%.
+
+1104
+00:54:50,180 --> 00:54:52,950
+Now, the reason that this is an
+interesting product is that--
+
+1105
+00:54:52,950 --> 00:54:54,741
+I have to give you a
+little bit of history.
+
+1106
+00:54:54,741 --> 00:54:57,250
+This is getting a
+little out of our area,
+
+1107
+00:54:57,250 --> 00:55:01,650
+but I'll give you a
+preview of Investments 433.
+
+1108
+00:55:01,650 --> 00:55:04,320
+Typically, when
+institutional investors
+
+1109
+00:55:04,320 --> 00:55:07,330
+like pension funds or mutual
+funds, when they invest,
+
+1110
+00:55:07,330 --> 00:55:10,061
+they are not allowed
+to short sell.
+
+1111
+00:55:10,061 --> 00:55:11,560
+This has nothing
+to do with the SEC.
+
+1112
+00:55:11,560 --> 00:55:13,290
+It has nothing to do with law.
+
+1113
+00:55:13,290 --> 00:55:15,690
+It has to do with the
+particular entities that
+
+1114
+00:55:15,690 --> 00:55:19,065
+are investing, because
+short selling was viewed way
+
+1115
+00:55:19,065 --> 00:55:22,800
+back as being a very risky
+endeavor because you could lose
+
+1116
+00:55:22,800 --> 00:55:24,054
+everything and more.
+
+1117
+00:55:24,054 --> 00:55:25,470
+There's unlimited
+amounts that you
+
+1118
+00:55:25,470 --> 00:55:28,560
+could lose because your short
+selling a stock can go way up
+
+1119
+00:55:28,560 --> 00:55:31,380
+and you could lose
+tremendous amounts.
+
+1120
+00:55:31,380 --> 00:55:34,500
+So mutual funds
+were originally not
+
+1121
+00:55:34,500 --> 00:55:37,120
+allowed to short sell at all.
+
+1122
+00:55:37,120 --> 00:55:40,020
+So for a mutual fund,
+the portfolio weights
+
+1123
+00:55:40,020 --> 00:55:42,750
+were restricted to
+be non-negative,
+
+1124
+00:55:42,750 --> 00:55:47,160
+and certain pension funds were
+not allowed to short sell.
+
+1125
+00:55:47,160 --> 00:55:50,610
+So if you were a pension
+plan or a state university
+
+1126
+00:55:50,610 --> 00:55:54,390
+and you gave your money
+to investment manager xyz,
+
+1127
+00:55:54,390 --> 00:55:58,890
+that investment manager would
+be required not to short sell
+
+1128
+00:55:58,890 --> 00:56:02,380
+for your portfolio.
+
+1129
+00:56:02,380 --> 00:56:05,350
+It was discovered over
+the last several years
+
+1130
+00:56:05,350 --> 00:56:09,580
+that this kind of
+constraint artificially
+
+1131
+00:56:09,580 --> 00:56:12,190
+dampened the return
+of a portfolio--
+
+1132
+00:56:12,190 --> 00:56:14,770
+not surprisingly, because
+when the market goes down,
+
+1133
+00:56:14,770 --> 00:56:18,160
+if you're long-only
+you're going down with it.
+
+1134
+00:56:18,160 --> 00:56:20,200
+But if you have a
+short position, then
+
+1135
+00:56:20,200 --> 00:56:24,040
+at least the shorts would
+be able to buffer some
+
+1136
+00:56:24,040 --> 00:56:25,737
+of the losses on the long side.
+
+1137
+00:56:25,737 --> 00:56:27,820
+So institutions have started
+getting more and more
+
+1138
+00:56:27,820 --> 00:56:30,032
+sophisticated,
+thanks to hedge funds
+
+1139
+00:56:30,032 --> 00:56:31,990
+pushing them into this
+area because, of course,
+
+1140
+00:56:31,990 --> 00:56:33,310
+hedge funds can do anything.
+
+1141
+00:56:33,310 --> 00:56:36,580
+They can short, they can long,
+they can go sideways, whatever.
+
+1142
+00:56:36,580 --> 00:56:40,720
+So hedge funds led
+the pack by saying,
+
+1143
+00:56:40,720 --> 00:56:42,520
+we're going to
+actually short sell
+
+1144
+00:56:42,520 --> 00:56:44,440
+some of your long-only
+portfolio to help
+
+1145
+00:56:44,440 --> 00:56:47,910
+you get a little bit of
+extra return on the downside.
+
+1146
+00:56:47,910 --> 00:56:50,440
+And so pretty soon,
+institutional investors
+
+1147
+00:56:50,440 --> 00:56:54,040
+said, well, I actually
+like the idea of you short
+
+1148
+00:56:54,040 --> 00:56:56,702
+selling a little bit but I don't
+want you to do it too much.
+
+1149
+00:56:56,702 --> 00:56:58,660
+Because I don't really
+know what the risks are.
+
+1150
+00:56:58,660 --> 00:56:59,830
+I'm new to this.
+
+1151
+00:56:59,830 --> 00:57:02,830
+I don't want to get the
+risks out of control,
+
+1152
+00:57:02,830 --> 00:57:05,770
+so I'm going to limit how
+much you can short sell.
+
+1153
+00:57:05,770 --> 00:57:08,320
+The limit of how much
+you can short sell
+
+1154
+00:57:08,320 --> 00:57:14,230
+imposes a limit on how much
+more long you can go than 100%.
+
+1155
+00:57:14,230 --> 00:57:16,315
+Just like we said, if
+something's negative,
+
+1156
+00:57:16,315 --> 00:57:18,690
+then some of the weights have
+got to be greater than one,
+
+1157
+00:57:18,690 --> 00:57:20,710
+or they got to add up
+to greater than one.
+
+1158
+00:57:20,710 --> 00:57:23,770
+So when you have
+that situation where
+
+1159
+00:57:23,770 --> 00:57:28,450
+you have a limit on the total
+negative position you can have,
+
+1160
+00:57:28,450 --> 00:57:32,830
+that limit puts a symmetric
+upper bound beyond the number
+
+1161
+00:57:32,830 --> 00:57:36,250
+one of what you can go long.
+
+1162
+00:57:36,250 --> 00:57:40,390
+And so for reasons that are
+probably a little bit too far
+
+1163
+00:57:40,390 --> 00:57:43,420
+afield to get into
+here, 130-30 seems
+
+1164
+00:57:43,420 --> 00:57:46,510
+to be a bit of a sweet spot
+for managers out there.
+
+1165
+00:57:46,510 --> 00:57:50,170
+So they said, we will
+limit our short positions
+
+1166
+00:57:50,170 --> 00:57:53,200
+to no more than
+30% of the capital.
+
+1167
+00:57:53,200 --> 00:57:55,930
+So you give us $100
+million to manage,
+
+1168
+00:57:55,930 --> 00:57:59,980
+we will take no more than
+$30 million of shorts.
+
+1169
+00:57:59,980 --> 00:58:03,580
+And therefore, we will take
+no more than $130 million
+
+1170
+00:58:03,580 --> 00:58:04,840
+of longs.
+
+1171
+00:58:04,840 --> 00:58:08,540
+But when you add them up,
+you still get back to 100%.
+
+1172
+00:58:08,540 --> 00:58:09,370
+So that's 130-30.
+
+1173
+00:58:09,370 --> 00:58:11,650
+It's very popular,
+and it's something
+
+1174
+00:58:11,650 --> 00:58:14,230
+that is likely to grow,
+particularly given
+
+1175
+00:58:14,230 --> 00:58:15,580
+this current market environment.
+
+1176
+00:58:15,580 --> 00:58:20,390
+Because 130-30 has done better
+than the S&P, not surprisingly,
+
+1177
+00:58:20,390 --> 00:58:24,780
+because of that
+30% short position.
+
+1178
+00:58:24,780 --> 00:58:28,560
+So here's the example
+of your own portfolio
+
+1179
+00:58:28,560 --> 00:58:29,880
+and how you get those weights.
+
+1180
+00:58:29,880 --> 00:58:32,500
+That's pretty straightforward.
+
+1181
+00:58:32,500 --> 00:58:35,130
+Here's another example
+where you've now
+
+1182
+00:58:35,130 --> 00:58:39,210
+got some short positions
+here, and the short positions
+
+1183
+00:58:39,210 --> 00:58:40,920
+are not from short selling.
+
+1184
+00:58:40,920 --> 00:58:43,710
+But the short positions
+are in riskless bonds.
+
+1185
+00:58:43,710 --> 00:58:47,320
+In other words, now instead
+of shorting a stock,
+
+1186
+00:58:47,320 --> 00:58:50,860
+you're shorting a bond or
+selling a bond or borrowing
+
+1187
+00:58:50,860 --> 00:58:54,770
+money from a broker
+and getting leverage.
+
+1188
+00:58:54,770 --> 00:58:57,430
+So this is leverage where
+the security that you're
+
+1189
+00:58:57,430 --> 00:59:01,150
+levering up is using bonds,
+and you're levering up
+
+1190
+00:59:01,150 --> 00:59:02,890
+the equity positions.
+
+1191
+00:59:02,890 --> 00:59:05,920
+So your portfolio
+weights look like this.
+
+1192
+00:59:05,920 --> 00:59:09,580
+Your equity positions,
+when you add up the equity
+
+1193
+00:59:09,580 --> 00:59:14,840
+positions, those portfolio
+weights, you get 200%.
+
+1194
+00:59:14,840 --> 00:59:20,410
+But your riskless bonds,
+you shorted $50,000.
+
+1195
+00:59:20,410 --> 00:59:23,960
+You're borrowing
+$50,000 from the broker,
+
+1196
+00:59:23,960 --> 00:59:25,930
+so you've got minus 100%.
+
+1197
+00:59:25,930 --> 00:59:30,080
+When you add those two, you
+get back 100%, or in this case,
+
+1198
+00:59:30,080 --> 00:59:31,270
+$50,000.
+
+1199
+00:59:31,270 --> 00:59:34,450
+So you start out
+with $50,000 cash
+
+1200
+00:59:34,450 --> 00:59:37,900
+and then you buy
+$100,000 worth of stocks
+
+1201
+00:59:37,900 --> 00:59:42,590
+by borrowing an extra
+$50,000 from your broker.
+
+1202
+00:59:42,590 --> 00:59:43,315
+Yeah?
+
+1203
+00:59:43,315 --> 00:59:44,898
+STUDENT: I understand
+the [? degree ?]
+
+1204
+00:59:44,898 --> 00:59:47,752
+of the portfolio [INAUDIBLE],
+but I thought, fundamentally,
+
+1205
+00:59:47,752 --> 00:59:50,670
+it's to have different
+risks and to manage that.
+
+1206
+00:59:50,670 --> 00:59:51,330
+PROFESSOR: Yes.
+
+1207
+00:59:51,330 --> 00:59:52,704
+STUDENT: So when
+you are actually
+
+1208
+00:59:52,704 --> 00:59:55,574
+structuring portfolios, do you
+have these risks [INAUDIBLE]?
+
+1209
+00:59:55,574 --> 00:59:58,919
+Because I would just be
+willing to do them separately.
+
+1210
+00:59:58,919 --> 01:00:01,210
+There is no reason for you
+to have them as [INAUDIBLE].
+
+1211
+01:00:01,210 --> 01:00:02,470
+PROFESSOR: Well, the
+reason that I have them
+
+1212
+01:00:02,470 --> 01:00:04,480
+here is I want to show
+you exactly how you
+
+1213
+01:00:04,480 --> 01:00:06,700
+would compute the
+portfolio weights
+
+1214
+01:00:06,700 --> 01:00:09,080
+of your entire portfolio.
+
+1215
+01:00:09,080 --> 01:00:12,730
+So basically, what this is
+is your equity portfolio,
+
+1216
+01:00:12,730 --> 01:00:17,552
+but in addition, your fixed
+income position's added in.
+
+1217
+01:00:17,552 --> 01:00:19,510
+I mean, your whole
+portfolio could be anything.
+
+1218
+01:00:19,510 --> 01:00:22,530
+It could be stocks, bonds,
+options, currencies,
+
+1219
+01:00:22,530 --> 01:00:24,270
+real state.
+
+1220
+01:00:24,270 --> 01:00:27,915
+So I'm just including all of
+this in the portfolio itself.
+
+1221
+01:00:27,915 --> 01:00:31,875
+STUDENT: So basically, it is to
+try to handle different risks--
+
+1222
+01:00:31,875 --> 01:00:34,850
+I mean, different stocks or
+bonds or whatever they have,
+
+1223
+01:00:34,850 --> 01:00:35,590
+various risks?
+
+1224
+01:00:35,590 --> 01:00:37,850
+PROFESSOR: Yes, absolutely,
+and you are doing that.
+
+1225
+01:00:37,850 --> 01:00:39,710
+Stocks A, B, and C
+have different risks,
+
+1226
+01:00:39,710 --> 01:00:41,467
+as does the bond.
+
+1227
+01:00:41,467 --> 01:00:43,550
+And so you're mixing and
+matching and putting them
+
+1228
+01:00:43,550 --> 01:00:45,050
+together into what
+hopefully will
+
+1229
+01:00:45,050 --> 01:00:46,340
+be an attractive portfolio.
+
+1230
+01:00:49,150 --> 01:00:53,200
+Now, we mentioned before
+that when you get a mortgage,
+
+1231
+01:00:53,200 --> 01:00:54,910
+that's leverage, too.
+
+1232
+01:00:54,910 --> 01:00:58,990
+So this is an example
+of a situation where
+
+1233
+01:00:58,990 --> 01:01:02,350
+you buy a home for
+$500,000, but you only
+
+1234
+01:01:02,350 --> 01:01:06,300
+have a $100,000 payment.
+
+1235
+01:01:06,300 --> 01:01:09,360
+Your equity in the
+home is only $100,000.
+
+1236
+01:01:09,360 --> 01:01:12,150
+The bank has loaned
+you $400,000.
+
+1237
+01:01:12,150 --> 01:01:15,480
+Your leverage ratio
+is 5:1, so if you
+
+1238
+01:01:15,480 --> 01:01:17,250
+were to look at your
+portfolio weights
+
+1239
+01:01:17,250 --> 01:01:26,830
+it would be 500% house minus
+400% bank or bonds or mortgage.
+
+1240
+01:01:26,830 --> 01:01:29,080
+That's very high leverage.
+
+1241
+01:01:29,080 --> 01:01:33,190
+And in that case, when
+you're leveraged five to one,
+
+1242
+01:01:33,190 --> 01:01:37,900
+if the house price goes down by
+something like, I don't know,
+
+1243
+01:01:37,900 --> 01:01:44,905
+2%, you've lost 10% of
+the value of your home--
+
+1244
+01:01:44,905 --> 01:01:47,520
+or the value of
+your equity, rather.
+
+1245
+01:01:47,520 --> 01:01:54,030
+If the house price declines by
+15%, that's really bad news.
+
+1246
+01:01:54,030 --> 01:01:56,640
+So leverage is a
+two-edged sword.
+
+1247
+01:01:56,640 --> 01:01:59,310
+When things are working
+well, it gives you a boost.
+
+1248
+01:01:59,310 --> 01:02:00,990
+When things are
+not working well,
+
+1249
+01:02:00,990 --> 01:02:03,730
+it can hurt you on
+the downside as well.
+
+1250
+01:02:06,510 --> 01:02:09,110
+Here's another example
+where you've got
+
+1251
+01:02:09,110 --> 01:02:11,660
+a zero net investment strategy.
+
+1252
+01:02:11,660 --> 01:02:13,250
+You can work that
+out for yourself.
+
+1253
+01:02:13,250 --> 01:02:15,710
+This is a little bit trickier
+because the portfolio weights
+
+1254
+01:02:15,710 --> 01:02:16,901
+now add up to zero.
+
+1255
+01:02:16,901 --> 01:02:19,400
+You've got to think a little
+bit about what it means to have
+
+1256
+01:02:19,400 --> 01:02:21,177
+portfolio weights at all.
+
+1257
+01:02:21,177 --> 01:02:22,760
+So I'll leave that
+for you to look at.
+
+1258
+01:02:22,760 --> 01:02:24,135
+That's something
+that, as I said,
+
+1259
+01:02:24,135 --> 01:02:27,650
+we won't cover this
+course in great detail.
+
+1260
+01:02:27,650 --> 01:02:29,750
+So now motivation--
+what we're trying
+
+1261
+01:02:29,750 --> 01:02:32,990
+to do now that you know the
+basic language of portfolio
+
+1262
+01:02:32,990 --> 01:02:36,350
+weights and how to manipulate
+them to some degree,
+
+1263
+01:02:36,350 --> 01:02:40,520
+I want to ask the question,
+why bother with the portfolio?
+
+1264
+01:02:40,520 --> 01:02:42,380
+Well, we've already got
+a couple of comments
+
+1265
+01:02:42,380 --> 01:02:43,790
+about why you want a portfolio.
+
+1266
+01:02:43,790 --> 01:02:46,310
+You want to have stocks with
+different kinds of risks
+
+1267
+01:02:46,310 --> 01:02:49,000
+so you have diversification.
+
+1268
+01:02:49,000 --> 01:02:51,970
+But there's another approach,
+and the other approach
+
+1269
+01:02:51,970 --> 01:02:55,720
+is championed by Warren Buffett.
+
+1270
+01:02:55,720 --> 01:02:59,330
+Warren Buffett has criticized
+this idea of diversification,
+
+1271
+01:02:59,330 --> 01:03:01,780
+not putting all your eggs
+in one basket, by saying,
+
+1272
+01:03:01,780 --> 01:03:03,880
+you should put all
+your eggs in one basket
+
+1273
+01:03:03,880 --> 01:03:06,670
+and then simply just watch
+that basket really carefully.
+
+1274
+01:03:06,670 --> 01:03:08,020
+Isn't that better?
+
+1275
+01:03:08,020 --> 01:03:11,290
+Well, that sounds
+good, but what if it's
+
+1276
+01:03:11,290 --> 01:03:12,910
+the case that you
+don't really know
+
+1277
+01:03:12,910 --> 01:03:15,540
+how to pick the right basket?
+
+1278
+01:03:15,540 --> 01:03:18,460
+And so therefore, whatever
+basket you're watching
+
+1279
+01:03:18,460 --> 01:03:20,470
+may not be
+particularly attractive
+
+1280
+01:03:20,470 --> 01:03:22,750
+because you picked
+the wrong basket.
+
+1281
+01:03:22,750 --> 01:03:26,290
+So that's really the idea
+behind portfolio theory.
+
+1282
+01:03:26,290 --> 01:03:28,390
+It's that not all of
+us are Warren Buffett.
+
+1283
+01:03:28,390 --> 01:03:31,000
+Not all of us want to
+become Warren Buffetts.
+
+1284
+01:03:31,000 --> 01:03:35,890
+We want to have a relatively
+systematic approach to making
+
+1285
+01:03:35,890 --> 01:03:37,270
+a good investment decision.
+
+1286
+01:03:37,270 --> 01:03:39,100
+We don't want to try
+to beat the market.
+
+1287
+01:03:39,100 --> 01:03:41,110
+We want to figure out
+whether we can come up
+
+1288
+01:03:41,110 --> 01:03:45,640
+with a responsible and
+attractive way of investing
+
+1289
+01:03:45,640 --> 01:03:49,000
+that has some kind of
+economic logic to it.
+
+1290
+01:03:49,000 --> 01:03:52,160
+So the point is that we don't
+know which stock is best,
+
+1291
+01:03:52,160 --> 01:03:56,260
+and so we don't want to pick
+just one stock like Motorola.
+
+1292
+01:03:56,260 --> 01:03:58,900
+Because there are periods
+where Motorola looks fantastic
+
+1293
+01:03:58,900 --> 01:04:01,180
+and periods where
+Motorola looks horrible.
+
+1294
+01:04:01,180 --> 01:04:03,760
+So we want to be able to
+pick a portfolio that's
+
+1295
+01:04:03,760 --> 01:04:05,690
+got good characteristics.
+
+1296
+01:04:05,690 --> 01:04:09,530
+So diversification is
+one way to do that.
+
+1297
+01:04:09,530 --> 01:04:12,490
+It's to basically
+spread your risk
+
+1298
+01:04:12,490 --> 01:04:19,570
+across a number of securities,
+and portfolios can do that.
+
+1299
+01:04:19,570 --> 01:04:24,930
+But at the same time, they
+can also create focused bets.
+
+1300
+01:04:24,930 --> 01:04:27,810
+So it's not just
+the case that you
+
+1301
+01:04:27,810 --> 01:04:31,830
+have to buy every possible stock
+there is out there in order
+
+1302
+01:04:31,830 --> 01:04:33,090
+to diversify.
+
+1303
+01:04:33,090 --> 01:04:35,850
+For example, you
+may have information
+
+1304
+01:04:35,850 --> 01:04:40,110
+or you may have conviction that
+information technology is going
+
+1305
+01:04:40,110 --> 01:04:42,390
+to do really well over
+the next couple of years
+
+1306
+01:04:42,390 --> 01:04:43,950
+because somebody's
+got to figure out
+
+1307
+01:04:43,950 --> 01:04:48,360
+how to process all of these
+bad loans and problem banks.
+
+1308
+01:04:48,360 --> 01:04:52,080
+And IT is going to
+ultimately be the solution.
+
+1309
+01:04:52,080 --> 01:04:56,010
+Well, if that's the case,
+you can make a bet on IT
+
+1310
+01:04:56,010 --> 01:05:00,270
+without having to make a bet
+on any one firm or one stock.
+
+1311
+01:05:00,270 --> 01:05:03,540
+The way you do that is to
+form a portfolio of stocks
+
+1312
+01:05:03,540 --> 01:05:06,040
+that are all in the IT sector.
+
+1313
+01:05:06,040 --> 01:05:09,040
+And so you get diversification,
+but at the same time,
+
+1314
+01:05:09,040 --> 01:05:10,590
+you're able to make
+a bet in an area
+
+1315
+01:05:10,590 --> 01:05:14,310
+where you think you have
+particular expertise.
+
+1316
+01:05:14,310 --> 01:05:18,810
+And finally, portfolios
+can customize and manage
+
+1317
+01:05:18,810 --> 01:05:20,760
+your own personal
+risk-reward tradeoffs.
+
+1318
+01:05:20,760 --> 01:05:23,670
+So for some of you,
+you want a lot of risk,
+
+1319
+01:05:23,670 --> 01:05:27,000
+you want it concentrated in
+a small number of industries,
+
+1320
+01:05:27,000 --> 01:05:31,530
+and you want to do it with
+relatively small priced stocks.
+
+1321
+01:05:31,530 --> 01:05:32,550
+You can do that.
+
+1322
+01:05:32,550 --> 01:05:35,400
+Somebody else might have a very
+different set of preferences.
+
+1323
+01:05:35,400 --> 01:05:39,960
+Portfolios allow you to tailor
+the risk-reward tradeoffs
+
+1324
+01:05:39,960 --> 01:05:42,630
+to your particular preferences.
+
+1325
+01:05:42,630 --> 01:05:45,210
+So now we have a
+motivation for portfolios.
+
+1326
+01:05:45,210 --> 01:05:48,780
+Then the next question is,
+that sounds great; now tell me,
+
+1327
+01:05:48,780 --> 01:05:52,410
+how do I construct one
+of these good portfolios?
+
+1328
+01:05:52,410 --> 01:05:54,436
+And in order to
+answer that question,
+
+1329
+01:05:54,436 --> 01:05:56,060
+I've got to tell you
+what "good" means,
+
+1330
+01:05:56,060 --> 01:05:58,200
+or you've got to tell
+me what "good" means.
+
+1331
+01:05:58,200 --> 01:06:03,090
+So typically, what we say
+about a good portfolio
+
+1332
+01:06:03,090 --> 01:06:11,400
+is it's a portfolio that
+has high mean and low risk.
+
+1333
+01:06:11,400 --> 01:06:13,080
+That's what "good" means.
+
+1334
+01:06:13,080 --> 01:06:16,560
+There are two characteristics
+that we tend to focus on
+
+1335
+01:06:16,560 --> 01:06:19,530
+for purely statistical reasons.
+
+1336
+01:06:19,530 --> 01:06:22,060
+It's because those
+are easy to compute,
+
+1337
+01:06:22,060 --> 01:06:24,270
+and they are the
+first two statistics
+
+1338
+01:06:24,270 --> 01:06:25,740
+that one would
+look at when you're
+
+1339
+01:06:25,740 --> 01:06:27,900
+looking at an
+investment-- the mean
+
+1340
+01:06:27,900 --> 01:06:29,920
+and the standard deviation.
+
+1341
+01:06:29,920 --> 01:06:32,670
+So you might think that,
+naturally, it would make sense
+
+1342
+01:06:32,670 --> 01:06:35,430
+to pick a portfolio
+that's got high mean
+
+1343
+01:06:35,430 --> 01:06:37,770
+and low standard deviation.
+
+1344
+01:06:37,770 --> 01:06:39,162
+That's an assumption.
+
+1345
+01:06:39,162 --> 01:06:40,870
+In other words, we're
+assuming that we're
+
+1346
+01:06:40,870 --> 01:06:44,100
+going to measure risk
+by standard deviation,
+
+1347
+01:06:44,100 --> 01:06:46,600
+and we're assuming that
+we're measuring return
+
+1348
+01:06:46,600 --> 01:06:49,390
+by the actual expected
+rate of return.
+
+1349
+01:06:49,390 --> 01:06:51,740
+For certain investors,
+those are not appropriate.
+
+1350
+01:06:51,740 --> 01:06:53,281
+For example, there
+are some investors
+
+1351
+01:06:53,281 --> 01:06:58,542
+that are really keen on
+socially aware investing
+
+1352
+01:06:58,542 --> 01:07:00,250
+so they don't want to
+invest in companies
+
+1353
+01:07:00,250 --> 01:07:02,027
+that pollute the environment.
+
+1354
+01:07:02,027 --> 01:07:03,610
+They don't want to
+invest in companies
+
+1355
+01:07:03,610 --> 01:07:08,200
+that engage in nonunion
+workers, or they
+
+1356
+01:07:08,200 --> 01:07:09,790
+don't want to
+invest in companies
+
+1357
+01:07:09,790 --> 01:07:15,590
+that happen to be exploiting
+labor in unregulated markets.
+
+1358
+01:07:15,590 --> 01:07:18,460
+Those are examples of
+non-pecuniary characteristics
+
+1359
+01:07:18,460 --> 01:07:21,190
+that figure into this
+choice of stocks.
+
+1360
+01:07:21,190 --> 01:07:22,910
+We're going to
+abstract from that.
+
+1361
+01:07:22,910 --> 01:07:25,660
+So for our purposes, the
+characteristics that we're
+
+1362
+01:07:25,660 --> 01:07:27,790
+going to look at
+for a good portfolio
+
+1363
+01:07:27,790 --> 01:07:31,840
+is, does it have a high
+return, does it have low risk?
+
+1364
+01:07:31,840 --> 01:07:33,910
+And the way we're
+going to measure risk
+
+1365
+01:07:33,910 --> 01:07:38,750
+is in terms of the volatility
+or standard deviation.
+
+1366
+01:07:38,750 --> 01:07:42,820
+Now, here, again, there's lots
+of ways of measuring risk.
+
+1367
+01:07:42,820 --> 01:07:47,820
+We can measure by the
+upper quartile, the 5% loss
+
+1368
+01:07:47,820 --> 01:07:51,370
+or spread, but in fact,
+what we're going to use
+
+1369
+01:07:51,370 --> 01:07:53,890
+is this standard
+deviation measure.
+
+1370
+01:07:53,890 --> 01:07:56,080
+For symmetric distributions
+like the normal,
+
+1371
+01:07:56,080 --> 01:07:59,800
+it turns out that that's
+not a bad measure,
+
+1372
+01:07:59,800 --> 01:08:03,310
+but some people have argued
+that by looking at spread
+
+1373
+01:08:03,310 --> 01:08:07,240
+you're confusing the
+upside with the downside.
+
+1374
+01:08:07,240 --> 01:08:11,780
+Nobody has any problem
+with upside risk or upside
+
+1375
+01:08:11,780 --> 01:08:15,217
+distribution.
+
+1376
+01:08:15,217 --> 01:08:17,050
+I haven't run across
+anybody that said, gee,
+
+1377
+01:08:17,050 --> 01:08:19,340
+this year I'm really
+making too much money
+
+1378
+01:08:19,340 --> 01:08:20,979
+and that's just
+not a good thing.
+
+1379
+01:08:20,979 --> 01:08:23,290
+If you meet anybody
+like that, introduce me.
+
+1380
+01:08:23,290 --> 01:08:26,200
+I'll help them out
+with their problem.
+
+1381
+01:08:26,200 --> 01:08:29,560
+But the point is that for
+a symmetric distribution,
+
+1382
+01:08:29,560 --> 01:08:34,450
+it doesn't matter, and in
+more advanced approaches
+
+1383
+01:08:34,450 --> 01:08:38,080
+to investments people have
+used one-sided measures.
+
+1384
+01:08:38,080 --> 01:08:40,326
+But we're not going to
+do that in this course.
+
+1385
+01:08:40,326 --> 01:08:42,700
+So we're going to focus on
+variance or standard deviation
+
+1386
+01:08:42,700 --> 01:08:46,160
+as the measure of risk.
+
+1387
+01:08:46,160 --> 01:08:48,080
+And the assumptions
+that I'm going
+
+1388
+01:08:48,080 --> 01:08:50,990
+to make for the
+remainder of the course
+
+1389
+01:08:50,990 --> 01:08:59,760
+is that all investors like
+higher mean and all investors
+
+1390
+01:08:59,760 --> 01:09:03,840
+like higher variance.
+
+1391
+01:09:03,840 --> 01:09:08,040
+Now, that's a really
+reasonable assumption,
+
+1392
+01:09:08,040 --> 01:09:10,800
+but you could
+challenge it if you
+
+1393
+01:09:10,800 --> 01:09:14,609
+wanted to argue that investors
+care about other things.
+
+1394
+01:09:14,609 --> 01:09:18,120
+So just be aware that I'm
+making an approximation,
+
+1395
+01:09:18,120 --> 01:09:21,479
+and the approximation is exactly
+that, that mean and variance
+
+1396
+01:09:21,479 --> 01:09:25,710
+are the only things that
+our prototypical investor is
+
+1397
+01:09:25,710 --> 01:09:28,670
+going to care about.
+
+1398
+01:09:28,670 --> 01:09:31,280
+So now, we actually are
+pretty close to being
+
+1399
+01:09:31,280 --> 01:09:33,529
+able to come up with an
+answer to the question, what's
+
+1400
+01:09:33,529 --> 01:09:37,818
+a good portfolio and
+how do we pick stocks.
+
+1401
+01:09:37,818 --> 01:09:39,859
+One of the things that
+we're going to answer over
+
+1402
+01:09:39,859 --> 01:09:41,240
+the course of the
+next few slides
+
+1403
+01:09:41,240 --> 01:09:45,620
+is, how much does
+a stock contribute
+
+1404
+01:09:45,620 --> 01:09:50,460
+to the risk and the expected
+return of a portfolio?
+
+1405
+01:09:50,460 --> 01:09:53,750
+So if you're thinking about
+investing in a new stock,
+
+1406
+01:09:53,750 --> 01:09:58,682
+it's like inviting
+somebody into your club.
+
+1407
+01:09:58,682 --> 01:10:00,140
+You want to ask,
+well, what are you
+
+1408
+01:10:00,140 --> 01:10:01,717
+going to contribute to my club?
+
+1409
+01:10:01,717 --> 01:10:03,800
+What are you going to
+contribute to the portfolio?
+
+1410
+01:10:03,800 --> 01:10:05,990
+What will you add to
+what I already have?
+
+1411
+01:10:05,990 --> 01:10:08,480
+Are you going to help me
+with my expected return?
+
+1412
+01:10:08,480 --> 01:10:10,910
+Are you going to help
+me lower my risk?
+
+1413
+01:10:10,910 --> 01:10:13,556
+And if the answer is no to both
+of them, then I don't want you.
+
+1414
+01:10:13,556 --> 01:10:15,180
+You're not going to
+do anything for me.
+
+1415
+01:10:15,180 --> 01:10:16,760
+Why should you be
+in my portfolio?
+
+1416
+01:10:16,760 --> 01:10:18,260
+So that's the kind
+of argument we're
+
+1417
+01:10:18,260 --> 01:10:22,940
+going to make to be able to
+construct a good portfolio.
+
+1418
+01:10:22,940 --> 01:10:26,550
+So let's get a little bit
+more specific about that.
+
+1419
+01:10:26,550 --> 01:10:29,930
+Here's a graph, and you're
+going to see this a lot.
+
+1420
+01:10:29,930 --> 01:10:32,390
+This graph is going
+to be one that we use
+
+1421
+01:10:32,390 --> 01:10:34,810
+for all of portfolio analysis.
+
+1422
+01:10:34,810 --> 01:10:38,240
+It's where we plot on
+two-dimensional space
+
+1423
+01:10:38,240 --> 01:10:41,780
+the average return
+of the stock as well
+
+1424
+01:10:41,780 --> 01:10:44,540
+as its risk, where
+risk is now being
+
+1425
+01:10:44,540 --> 01:10:47,720
+measured by standard deviation.
+
+1426
+01:10:47,720 --> 01:10:51,500
+So I've got five
+assets plotted here.
+
+1427
+01:10:51,500 --> 01:10:55,070
+Merck is one and General
+Motors is another one.
+
+1428
+01:10:55,070 --> 01:10:57,440
+Motorola is a third,
+McDonald's a fourth,
+
+1429
+01:10:57,440 --> 01:11:01,600
+and I've got T-bills down
+there on the lower left.
+
+1430
+01:11:01,600 --> 01:11:06,130
+This gives you a sense of the
+different trade-offs there are.
+
+1431
+01:11:06,130 --> 01:11:11,350
+Clearly General Motors is
+lower risk that Motorola,
+
+1432
+01:11:11,350 --> 01:11:13,920
+but it's also lower return.
+
+1433
+01:11:13,920 --> 01:11:17,220
+And McDonald's is
+definitely going
+
+1434
+01:11:17,220 --> 01:11:24,960
+to be higher risk than Merck,
+but notice that McDonald's is
+
+1435
+01:11:24,960 --> 01:11:28,450
+also lower return than Merck.
+
+1436
+01:11:28,450 --> 01:11:34,410
+So at least in this setting,
+nobody in their right mind--
+
+1437
+01:11:34,410 --> 01:11:36,480
+by that I mean, no
+rational investor--
+
+1438
+01:11:36,480 --> 01:11:41,130
+would ever want to hold
+McDonald's over Merck--
+
+1439
+01:11:41,130 --> 01:11:44,160
+by our assumption.
+
+1440
+01:11:44,160 --> 01:11:50,250
+We're assuming that investors
+like expected return
+
+1441
+01:11:50,250 --> 01:11:53,160
+and they don't like risk.
+
+1442
+01:11:53,160 --> 01:11:53,660
+Question?
+
+1443
+01:11:53,660 --> 01:11:54,508
+Yeah?
+
+1444
+01:11:54,508 --> 01:11:57,992
+STUDENT: This [INAUDIBLE]
+think that McDonald's will
+
+1445
+01:11:57,992 --> 01:11:58,617
+perform better.
+
+1446
+01:11:58,617 --> 01:11:59,992
+PROFESSOR: Exactly,
+that's right.
+
+1447
+01:11:59,992 --> 01:12:01,926
+So I was waiting for
+somebody to say that.
+
+1448
+01:12:01,926 --> 01:12:03,800
+Warren Buffett would
+say that's the stupidest
+
+1449
+01:12:03,800 --> 01:12:07,790
+thing I've ever heard,
+because all you're doing
+
+1450
+01:12:07,790 --> 01:12:10,850
+is plotting history
+on this chart.
+
+1451
+01:12:10,850 --> 01:12:13,610
+And this tells you nothing
+about what might happen
+
+1452
+01:12:13,610 --> 01:12:16,610
+over the next 12, 24 months.
+
+1453
+01:12:16,610 --> 01:12:20,090
+It could be that health
+care is going to just become
+
+1454
+01:12:20,090 --> 01:12:22,430
+a real problem,
+pharmaceutical companies
+
+1455
+01:12:22,430 --> 01:12:24,080
+are going to get
+battered because
+
+1456
+01:12:24,080 --> 01:12:25,730
+of the Democratic
+administration.
+
+1457
+01:12:25,730 --> 01:12:28,400
+That's going to force
+them to reduce the prices.
+
+1458
+01:12:28,400 --> 01:12:30,185
+And so over the next
+six to 12 months,
+
+1459
+01:12:30,185 --> 01:12:32,060
+the only thing that
+people will be able to do
+
+1460
+01:12:32,060 --> 01:12:35,300
+is to go to their neighborhood
+McDonald's and just enjoy
+
+1461
+01:12:35,300 --> 01:12:37,760
+a nice hamburger and
+complain about what's
+
+1462
+01:12:37,760 --> 01:12:40,940
+been going on with the
+pharmaceutical industry.
+
+1463
+01:12:40,940 --> 01:12:42,890
+In that case, McDonald's
+is a great bet
+
+1464
+01:12:42,890 --> 01:12:45,740
+and Merck is a
+terrible investment.
+
+1465
+01:12:45,740 --> 01:12:47,740
+We abstract from all of that.
+
+1466
+01:12:47,740 --> 01:12:50,930
+We are not in the business
+of forecasting stock returns.
+
+1467
+01:12:50,930 --> 01:12:51,530
+Why?
+
+1468
+01:12:51,530 --> 01:12:53,660
+Because I just showed you
+in the previous set of
+
+1469
+01:12:53,660 --> 01:12:56,360
+slides that it's
+hard to forecast.
+
+1470
+01:12:56,360 --> 01:12:58,970
+In fact, you told me that
+in an efficient market
+
+1471
+01:12:58,970 --> 01:13:00,710
+it's actually hard
+to tell what's going
+
+1472
+01:13:00,710 --> 01:13:01,990
+to happen with these stocks.
+
+1473
+01:13:01,990 --> 01:13:03,500
+And if you could
+tell, then people
+
+1474
+01:13:03,500 --> 01:13:05,490
+are going to start
+using that information,
+
+1475
+01:13:05,490 --> 01:13:07,370
+and then the
+information is worthless
+
+1476
+01:13:07,370 --> 01:13:10,190
+because it'll have already
+been taken into account.
+
+1477
+01:13:10,190 --> 01:13:13,750
+So you see, this
+is a very important
+
+1478
+01:13:13,750 --> 01:13:17,950
+philosophical difference between
+Warren Buffett and academics.
+
+1479
+01:13:17,950 --> 01:13:19,840
+Warren Buffett
+believes that there
+
+1480
+01:13:19,840 --> 01:13:23,350
+are systematic mispricings
+out there that can be
+
+1481
+01:13:23,350 --> 01:13:26,400
+found and taken advantage of.
+
+1482
+01:13:26,400 --> 01:13:29,400
+Academic finance, as
+of the 1960s and 70s
+
+1483
+01:13:29,400 --> 01:13:32,380
+when this theory was developed,
+started from the point
+
+1484
+01:13:32,380 --> 01:13:35,140
+that you just came
+to very quickly,
+
+1485
+01:13:35,140 --> 01:13:38,200
+which is that there are
+no patterns in the data.
+
+1486
+01:13:38,200 --> 01:13:41,660
+If there were, someone
+would have already done it--
+
+1487
+01:13:41,660 --> 01:13:44,390
+which, by the way, Warren
+Buffett would answer by saying,
+
+1488
+01:13:44,390 --> 01:13:46,850
+you know what, that sounds
+like a joke about the economist
+
+1489
+01:13:46,850 --> 01:13:49,460
+walking down the road,
+sees a $100 bill,
+
+1490
+01:13:49,460 --> 01:13:50,377
+and walks right by it.
+
+1491
+01:13:50,377 --> 01:13:51,959
+And when somebody
+says, why didn't you
+
+1492
+01:13:51,959 --> 01:13:54,440
+pick up the $100 bill, they
+said, well, if it were real,
+
+1493
+01:13:54,440 --> 01:13:58,100
+someone would have
+already picked it up.
+
+1494
+01:13:58,100 --> 01:14:00,230
+I mean, that's the argument
+that we made together.
+
+1495
+01:14:00,230 --> 01:14:02,990
+We made that argument, that if
+there was a pattern somebody
+
+1496
+01:14:02,990 --> 01:14:04,948
+would take advantage of
+it and then the pattern
+
+1497
+01:14:04,948 --> 01:14:06,860
+can't be there.
+
+1498
+01:14:06,860 --> 01:14:08,360
+And then, again,
+Warren Buffet would
+
+1499
+01:14:08,360 --> 01:14:10,235
+say, that's the stupidest
+thing I ever heard,
+
+1500
+01:14:10,235 --> 01:14:12,890
+because in fact, I've done
+it, I saw the patterns,
+
+1501
+01:14:12,890 --> 01:14:15,290
+I took advantage of it,
+and I have a bit more money
+
+1502
+01:14:15,290 --> 01:14:18,680
+than you do, so there.
+
+1503
+01:14:18,680 --> 01:14:19,690
+Who do you believe?
+
+1504
+01:14:19,690 --> 01:14:22,940
+Well, it's kind of hard to
+argue with a $40-something
+
+1505
+01:14:22,940 --> 01:14:24,860
+billionaire.
+
+1506
+01:14:24,860 --> 01:14:28,010
+I think that's his
+wealth, $40 billion.
+
+1507
+01:14:28,010 --> 01:14:31,370
+But that's not the
+perspective of this analysis.
+
+1508
+01:14:31,370 --> 01:14:32,296
+Mike?
+
+1509
+01:14:32,296 --> 01:14:34,797
+STUDENT: Well, let's say
+the expected return was
+
+1510
+01:14:34,797 --> 01:14:36,380
+you had perfect
+information and that's
+
+1511
+01:14:36,380 --> 01:14:38,215
+what was going to be a
+perfect crystal ball.
+
+1512
+01:14:38,215 --> 01:14:40,922
+It would still be irrational
+to buy McDonald's versus
+
+1513
+01:14:40,922 --> 01:14:44,978
+Merck, so you'd short
+McDonald's and long Merck
+
+1514
+01:14:44,978 --> 01:14:46,310
+until the returns became equal.
+
+1515
+01:14:46,310 --> 01:14:46,820
+PROFESSOR: Exactly.
+
+1516
+01:14:46,820 --> 01:14:49,010
+So I'm going to talk about
+that for a little while,
+
+1517
+01:14:49,010 --> 01:14:49,730
+but you're right.
+
+1518
+01:14:49,730 --> 01:14:52,790
+So if you could short,
+then what you'd want to do
+
+1519
+01:14:52,790 --> 01:14:53,990
+is exactly what you said.
+
+1520
+01:14:53,990 --> 01:14:59,540
+You want to basically long the
+low risk, high yield asset,
+
+1521
+01:14:59,540 --> 01:15:03,350
+short the high risk, low
+yield asset, make that spread,
+
+1522
+01:15:03,350 --> 01:15:05,599
+and make it as
+riskless as you can
+
+1523
+01:15:05,599 --> 01:15:06,890
+buy including other securities.
+
+1524
+01:15:06,890 --> 01:15:07,715
+Yes?
+
+1525
+01:15:07,715 --> 01:15:09,715
+STUDENT: Yeah, but
+eventually it would collapse,
+
+1526
+01:15:09,715 --> 01:15:11,090
+and then the
+relationship would--
+
+1527
+01:15:11,090 --> 01:15:12,339
+PROFESSOR: And then it should.
+
+1528
+01:15:12,339 --> 01:15:12,920
+That's right.
+
+1529
+01:15:12,920 --> 01:15:16,460
+So the argument that
+economists would make
+
+1530
+01:15:16,460 --> 01:15:21,540
+is that this picture is
+the equilibrium of where
+
+1531
+01:15:21,540 --> 01:15:26,580
+these returns should be, given
+what the market determines
+
+1532
+01:15:26,580 --> 01:15:31,030
+their fair rates of return
+are, relative to their risks.
+
+1533
+01:15:31,030 --> 01:15:33,960
+So that's, again, a very big
+philosophical difference.
+
+1534
+01:15:33,960 --> 01:15:36,720
+An economist would say,
+all of these securities
+
+1535
+01:15:36,720 --> 01:15:38,940
+are exactly where
+they should be.
+
+1536
+01:15:38,940 --> 01:15:43,560
+And they may change over
+time, but at any point in time
+
+1537
+01:15:43,560 --> 01:15:45,240
+they are where they should be.
+
+1538
+01:15:45,240 --> 01:15:48,540
+Supply equals demand,
+market's clear,
+
+1539
+01:15:48,540 --> 01:15:53,200
+everything is equilibrium,
+and our decision
+
+1540
+01:15:53,200 --> 01:15:56,020
+is simply to figure
+out what to make
+
+1541
+01:15:56,020 --> 01:15:59,230
+of the portfolio of
+these securities.
+
+1542
+01:15:59,230 --> 01:16:02,750
+What is the best portfolio
+of these securities?
+
+1543
+01:16:02,750 --> 01:16:05,426
+So I'm just warning you, this
+is a philosophical departure
+
+1544
+01:16:05,426 --> 01:16:07,300
+from what you're used
+to thinking and reading
+
+1545
+01:16:07,300 --> 01:16:08,050
+in the newspapers.
+
+1546
+01:16:08,050 --> 01:16:09,741
+Because the newspapers
+would say, well,
+
+1547
+01:16:09,741 --> 01:16:11,740
+let's take a look at the
+earnings at McDonald's.
+
+1548
+01:16:11,740 --> 01:16:12,790
+Let's take a look at Merck.
+
+1549
+01:16:12,790 --> 01:16:14,020
+Let's talk to the
+macroeconomists
+
+1550
+01:16:14,020 --> 01:16:15,760
+and see what's going to happen
+over the next 12 months.
+
+1551
+01:16:15,760 --> 01:16:16,980
+Let's talk to the
+earnings analysts
+
+1552
+01:16:16,980 --> 01:16:18,896
+and see whether they
+forecast higher earnings,
+
+1553
+01:16:18,896 --> 01:16:20,020
+lower earnings.
+
+1554
+01:16:20,020 --> 01:16:22,900
+The whole point of the academic
+infrastructure that we set up
+
+1555
+01:16:22,900 --> 01:16:26,110
+is that you can't
+predict these things.
+
+1556
+01:16:26,110 --> 01:16:28,360
+And if you believe that,
+then basically Warren Buffett
+
+1557
+01:16:28,360 --> 01:16:31,660
+is just one really lucky guy.
+
+1558
+01:16:31,660 --> 01:16:37,450
+So I'm going to have to justify
+this academic position to you.
+
+1559
+01:16:37,450 --> 01:16:39,987
+And I won't do that until
+the end of the semester,
+
+1560
+01:16:39,987 --> 01:16:42,320
+because first of all, I have
+a lot of material to cover.
+
+1561
+01:16:42,320 --> 01:16:45,280
+And I want to cover all of the
+material in the basic form,
+
+1562
+01:16:45,280 --> 01:16:48,280
+and then in the end I'm going
+to give you a sense of where
+
+1563
+01:16:48,280 --> 01:16:49,930
+things really stand.
+
+1564
+01:16:49,930 --> 01:16:50,900
+It's a fiction.
+
+1565
+01:16:50,900 --> 01:16:54,710
+It's a fiction that you
+can't forecast stock prices,
+
+1566
+01:16:54,710 --> 01:16:58,150
+but it's a fiction that actually
+is pretty close to reality
+
+1567
+01:16:58,150 --> 01:17:00,730
+for 99% of the public.
+
+1568
+01:17:00,730 --> 01:17:03,560
+Now, you guys are not
+99% of the public.
+
+1569
+01:17:03,560 --> 01:17:05,770
+But for the people
+that will someday
+
+1570
+01:17:05,770 --> 01:17:08,950
+be your clients
+or your investors,
+
+1571
+01:17:08,950 --> 01:17:12,010
+it will be true, that
+the typical individual
+
+1572
+01:17:12,010 --> 01:17:15,850
+has no hope of being able to
+out-forecast Warren Buffett.
+
+1573
+01:17:15,850 --> 01:17:17,860
+And if you can't
+out-forecast somebody,
+
+1574
+01:17:17,860 --> 01:17:20,320
+then you may as well
+assume that they're random
+
+1575
+01:17:20,320 --> 01:17:23,590
+and they're perfectly priced.
+
+1576
+01:17:23,590 --> 01:17:25,330
+And then you still
+have the problem, OK,
+
+1577
+01:17:25,330 --> 01:17:27,667
+if you assume that,
+then what do you do?
+
+1578
+01:17:27,667 --> 01:17:29,500
+That's all we're going
+to try to figure out.
+
+1579
+01:17:29,500 --> 01:17:33,890
+I'm going to tell you what
+you do with portfolio theory.
+
+1580
+01:17:33,890 --> 01:17:36,580
+Now, since we're
+almost out of time,
+
+1581
+01:17:36,580 --> 01:17:38,330
+I want to just tell
+you where we're going.
+
+1582
+01:17:38,330 --> 01:17:40,580
+What we're going to do
+is look at this graph
+
+1583
+01:17:40,580 --> 01:17:45,230
+and ask the question,
+what do people want?
+
+1584
+01:17:45,230 --> 01:17:48,590
+They want higher return,
+they want to go north,
+
+1585
+01:17:48,590 --> 01:17:50,120
+and they want lower risk.
+
+1586
+01:17:50,120 --> 01:17:52,220
+They want to go west.
+
+1587
+01:17:52,220 --> 01:17:54,350
+So the northwest is
+where we're going
+
+1588
+01:17:54,350 --> 01:17:57,110
+to be heading in this
+graph, and the question
+
+1589
+01:17:57,110 --> 01:17:58,970
+is, how can we get there?
+
+1590
+01:17:58,970 --> 01:18:01,820
+How can we get as
+northwest as possible
+
+1591
+01:18:01,820 --> 01:18:03,140
+using these securities?
+
+1592
+01:18:03,140 --> 01:18:05,090
+And the answer will
+shock you, I think,
+
+1593
+01:18:05,090 --> 01:18:07,570
+because you're going
+to see that by doing
+
+1594
+01:18:07,570 --> 01:18:10,190
+a very simple little bit
+of high school algebra
+
+1595
+01:18:10,190 --> 01:18:12,740
+we can actually create
+a portfolio that
+
+1596
+01:18:12,740 --> 01:18:15,020
+beats all of these things.
+
+1597
+01:18:15,020 --> 01:18:17,600
+That is, if you
+didn't know anything
+
+1598
+01:18:17,600 --> 01:18:21,170
+about portfolio theory, you
+would be severely worse off,
+
+1599
+01:18:21,170 --> 01:18:24,119
+because you'd be stuck having to
+be on one of these five points.
+
+1600
+01:18:24,119 --> 01:18:25,910
+And if you knew a little
+bit of high school
+
+1601
+01:18:25,910 --> 01:18:29,550
+algebra and some finance, you
+could actually do a lot better.
+
+1602
+01:18:29,550 --> 01:18:32,230
+So we'll see that on Monday.

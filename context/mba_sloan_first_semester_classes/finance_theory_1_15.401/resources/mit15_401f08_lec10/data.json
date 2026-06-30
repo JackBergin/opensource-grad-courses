@@ -1,0 +1,38 @@
+{
+  "content": "<p>This resource contains the information about the motivation, payoff diagrams, payoff tables and option strategies.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains the information about the motivation, payoff diagrams, payoff tables and option strategies.",
+  "draft": false,
+  "file": "/courses/15-401-finance-theory-i-fall-2008/c40ecc0cc0dce0fbf2d229bc4027c43b_MIT15_401F08_lec10.pdf",
+  "file_size": 209144,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Video Lectures and Slides",
+  "parent_type": "CourseSection",
+  "parent_uid": "cc3f05d9-f4e4-4ed3-db60-b79712de51f4",
+  "resourcetype": "Document",
+  "title": "Options Slides 1–30",
+  "uid": "c40ecc0c-c0dc-e0fb-f2d2-29bc4027c43b",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": ""
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

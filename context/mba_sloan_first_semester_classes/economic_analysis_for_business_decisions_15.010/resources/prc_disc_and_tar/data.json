@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>Conditions for Applying Price Discrimination, Perfect Price Discrimination, Consumer Self-Selection, Pricing to Observable Market Segments, Two part Tariff: Definition and Calculations, Numeric Examples.</p>\n",
+  "content_type": "resource",
+  "description": "Conditions for Applying Price Discrimination, Perfect Price Discrimination, Consumer Self-Selection, Pricing to Observable Market Segments, Two part Tariff: Definition and Calculations, Numeric Examples.",
+  "draft": false,
+  "file": "/courses/15-010-economic-analysis-for-business-decisions-fall-2004/4b40fe475dcd2420bb403352af81e2b8_prc_disc_and_tar.pdf",
+  "file_size": 278213,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem-solving Notes"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Recitations",
+  "parent_type": "CourseSection",
+  "parent_uid": "729197a3-8007-916f-29ae-b92113505210",
+  "resourcetype": "Document",
+  "title": "prc_disc_and_tar.pdf",
+  "uid": "4b40fe47-5dcd-2420-bb40-3352af81e2b8",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "15-010-economic-analysis-for-business-decisions-fall-2004"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "15-010-economic-analysis-for-business-decisions-fall-2004"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

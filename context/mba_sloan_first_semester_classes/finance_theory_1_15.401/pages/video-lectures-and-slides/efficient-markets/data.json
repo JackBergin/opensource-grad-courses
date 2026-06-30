@@ -1,0 +1,18 @@
+
+{
+  "content": "\n    <h3 id=\"video-lectures\">Video Lectures</h3>\n\n\n    <h4 id=\"efficient-markets-i\">Efficient Markets I</h4>\n\n<p><a href=\"../../../resources/part-i-of-efficient-markets/index.html\">Part I of Efficient Markets</a></p>\n<p><strong>Description:</strong> This video lecture presents an overview of the theory of market efficiency and an example of the Space Shuttle Challenger disaster.</p>\n\n    <h4 id=\"efficient-markets-ii\">Efficient Markets II</h4>\n\n<p><a href=\"../../../resources/part-ii-of-efficient-markets/index.html\">Part II of Efficient Markets</a></p>\n<p><strong>Description:</strong> This video lecture explores behavioral finance, why people avoid uncertainty, the link between rationality and human emotion, and human preferences for decision-making. Discussion and simulations frame the adaptive markets hypothesis and its implications.</p>\n\n    <h4 id=\"efficient-markets-iii\">Efficient Markets III</h4>\n\n<p><a href=\"../../../resources/part-iii-of-efficient-markets/index.html\">Part III of Efficient Markets</a></p>\n<p><strong>Description:</strong> This video lecture presents the limitations of CAPM and the practical implications of the adaptive markets hypothesis. Applications of the adaptive markets hypothesis are then placed in context of the economic crisis in 2008.</p>\n\n    <h3 id=\"slides\">Slides</h3>\n\n<p><a href=\"../../../resources/mit15_401f08_lec21/index.html\">Efficient Market Slides 1–26 (PDF)</a></p>\n<ul>\n<li>Video for Part I of Efficient Markets covers slides 1–9</li>\n<li>Video for Part II of Efficient Markets covers slides 9–23</li>\n<li>Video for Part III of Efficient Markets covers slides 20–26</li>\n</ul>\n<p><a href=\"../../../pages/video-lectures-and-slides/capital-budgeting/index.html\">« Previous</a> | <a href=\"../../../pages/video-lectures-and-slides/course-summary/index.html\">Next »</a></p>\n",
+  "content_type": "page",
+  "description": "This page includes lecture slides and three video lectures on behavioral finance and the adaptive markets hypothesis.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "ocw_type": "CourseSection",
+  "parent_title": "Video Lectures and Slides",
+  "parent_type": "CourseSection",
+  "parent_uid": "cc3f05d9-f4e4-4ed3-db60-b79712de51f4",
+  "title": "Efficient Markets",
+  "uid": "d5d9b06a-9f57-c97f-fb6c-7770f71a2f28"
+}
+

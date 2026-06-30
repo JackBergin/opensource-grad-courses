@@ -1,0 +1,21 @@
+{
+  "content": "<p>Visualization of a retweet network.</p>\n",
+  "content_type": "resource",
+  "description": "Visualization of a retweet network.",
+  "draft": false,
+  "file": "/courses/15-060-data-models-and-decisions-fall-2014/a784635a0bb2514a81bdc6ea4db39f84_15.060f14.jpg",
+  "file_size": 179001,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Visualization of retweet network data on Twitter. The retweets network is shown in green, followers network in gray, red nodes are original tweets and yellow nodes are retweets. (Image courtesy of Elsevier, Inc., {{% resource_link \"be59bd18-53e8-49a2-a838-34fbe0fb2efd\" \"http://www.sciencedirect.com\" %}}. Used with permission. Source: Morales, A.J., R.M. Benito et al. \"{{% resource_link \"10d11332-ded2-4fff-9413-8019d999921b\" \"Efficiency of Human Activity on Information Spreading on Twitter\" %}}.\" _Social Networks_ 39 (2014): 1-11.)",
+    "credit": "Courtesy of Elsevier, Inc., http://www.sciencedirect.com. Used with permission. Source: Morales, A.J., R.M. Benito et al. \"Efficiency of Human Activity on Information Spreading on Twitter.\" Social Networks 39 (2014): 1-11. http://dx.doi.org/10.1016/j.socnet.2014.03.007",
+    "image-alt": "Subgraph of the retweet network superimposed to the corresponding followers network."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "15-060f14.jpg",
+  "uid": "a784635a-0bb2-514a-81bd-c6ea4db39f84"
+}

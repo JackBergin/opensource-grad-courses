@@ -1,0 +1,15 @@
+
+{
+  "content": "<p>Review slides are provided courtesy of course TA Amir Khandani, and are used with permission.</p>\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nEXAMS\n</th>\n\n<th>\n\nFILES\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td colspan=\"2\">\n\n**Midterm Exam<br>\n**\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nReview slides\n</td>\n\n<td>\n\n(<a href=\"../../resources/midterm-exam-review-slides/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nSample exam\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit15_401f08_midterm/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nSample solutions\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit15_401f08_midterm_sol/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td colspan=\"2\">\n\n<strong>Final Exam</strong>\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nReview slides\n</td>\n\n<td>\n\n(<a href=\"../../resources/final-exam-review-slides/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nSample exam\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit15_401f08_final/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nSample solutions\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit15_401f08_final_sol/index.html\">PDF</a>)\n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section provides review slides, sample exams, and sample solutions for the midterm and final exams of the course.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exams"
+  ],
+  "ocw_type": "CourseSection",
+  "title": "Exams",
+  "uid": "703ba6ae-4396-ad87-aeac-cabcb57b7864"
+}
+

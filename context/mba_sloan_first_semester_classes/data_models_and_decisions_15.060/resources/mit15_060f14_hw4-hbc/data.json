@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This resource contains the information regarding Hubbard Brewing Company Spreadsheet.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains the information regarding Hubbard Brewing Company Spreadsheet.",
+  "draft": false,
+  "file": "/courses/15-060-data-models-and-decisions-fall-2014/897f808a43802e19fcb9f2cbab7d5b23_MIT15_060F14_HW4-HBC.pdf",
+  "file_size": 101362,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "f41b5b04-9595-61f9-fa4b-04cc5ceb0484",
+  "resourcetype": "Document",
+  "title": "Homework 4: Hubbard Brewing Company Spreadsheet - 15.060 Data, Models, and Decisions - Fall 2014",
+  "uid": "897f808a-4380-2e19-fcb9-f2cbab7d5b23",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "15-060-data-models-and-decisions-fall-2014"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "15-060-data-models-and-decisions-fall-2014"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

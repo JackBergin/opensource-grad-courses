@@ -1,0 +1,8461 @@
+1
+00:00:00,090 --> 00:00:02,430
+The following content is
+provided under a Creative
+
+2
+00:00:02,430 --> 00:00:03,820
+Commons license.
+
+3
+00:00:03,820 --> 00:00:06,030
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:06,030 --> 00:00:10,120
+continue to offer high quality
+educational resources for free.
+
+5
+00:00:10,120 --> 00:00:12,690
+To make a donation or to
+view additional materials
+
+6
+00:00:12,690 --> 00:00:16,620
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:16,620 --> 00:00:17,820
+at ocw.mit.edu.
+
+8
+00:00:21,240 --> 00:00:24,520
+ANDREW LO: Well, if you remember
+last time where we left off,
+
+9
+00:00:24,520 --> 00:00:27,270
+we were talking about
+risk and return.
+
+10
+00:00:27,270 --> 00:00:29,340
+And we said that we
+were going to make
+
+11
+00:00:29,340 --> 00:00:32,759
+the following simplifying
+assumption, which
+
+12
+00:00:32,759 --> 00:00:37,230
+is that we're going to
+assume that investors
+
+13
+00:00:37,230 --> 00:00:42,630
+like expected return,
+and they do not like risk
+
+14
+00:00:42,630 --> 00:00:44,970
+as measured by volatility.
+
+15
+00:00:44,970 --> 00:00:46,020
+All right?
+
+16
+00:00:46,020 --> 00:00:49,920
+And so the way that we
+depict it graphically
+
+17
+00:00:49,920 --> 00:00:54,150
+is to use a graph
+where the x-axis is
+
+18
+00:00:54,150 --> 00:00:58,770
+standard deviation of
+your entire portfolio,
+
+19
+00:00:58,770 --> 00:01:03,600
+and the y-axis is the expected
+return of that portfolio.
+
+20
+00:01:03,600 --> 00:01:09,030
+And the question is,
+where on this graph
+
+21
+00:01:09,030 --> 00:01:12,720
+can we get to, given the
+securities that we have access
+
+22
+00:01:12,720 --> 00:01:16,790
+to, that will maximize
+our level of happiness.
+
+23
+00:01:16,790 --> 00:01:18,960
+Where happiness,
+again, is assumed
+
+24
+00:01:18,960 --> 00:01:23,550
+to mean higher expected rate
+of return and lower risk,
+
+25
+00:01:23,550 --> 00:01:26,860
+as measured by variance
+or standard deviation.
+
+26
+00:01:26,860 --> 00:01:29,940
+So for example, if you take
+a look at this simple graph
+
+27
+00:01:29,940 --> 00:01:33,400
+and you ask the question, where
+on the graph do you want to be,
+
+28
+00:01:33,400 --> 00:01:35,940
+you would like to
+be always going
+
+29
+00:01:35,940 --> 00:01:38,050
+in the northwest direction.
+
+30
+00:01:38,050 --> 00:01:38,550
+Right?
+
+31
+00:01:38,550 --> 00:01:42,210
+Because north means higher
+expected return and west
+
+32
+00:01:42,210 --> 00:01:45,120
+means lower risk.
+
+33
+00:01:45,120 --> 00:01:52,040
+So obviously, if we could,
+we'd love to be on this axis
+
+34
+00:01:52,040 --> 00:01:54,420
+all the way, way up.
+
+35
+00:01:54,420 --> 00:01:56,130
+Right?
+
+36
+00:01:56,130 --> 00:01:58,970
+No risk, lots of return.
+
+37
+00:01:58,970 --> 00:02:01,040
+That's an example
+of an arbitrage.
+
+38
+00:02:01,040 --> 00:02:03,050
+And we know that
+that can't happen
+
+39
+00:02:03,050 --> 00:02:06,300
+very easily because otherwise
+everybody would be there.
+
+40
+00:02:06,300 --> 00:02:09,740
+And pretty soon it would
+wipe out that opportunity.
+
+41
+00:02:09,740 --> 00:02:13,370
+So the question from the
+portfolio construction
+
+42
+00:02:13,370 --> 00:02:17,300
+perspective is now a little bit
+sharper than it was last week
+
+43
+00:02:17,300 --> 00:02:19,200
+when we started down this path.
+
+44
+00:02:19,200 --> 00:02:23,250
+Now we want to
+construct a portfolio,
+
+45
+00:02:23,250 --> 00:02:26,090
+we want to take a
+collection of securities
+
+46
+00:02:26,090 --> 00:02:31,550
+and weight them in order
+to be as happy as possible.
+
+47
+00:02:31,550 --> 00:02:36,840
+Meaning, we want to be
+as northwest as possible.
+
+48
+00:02:36,840 --> 00:02:39,050
+So let's see how we
+go about doing that.
+
+49
+00:02:39,050 --> 00:02:42,570
+One thing we could do is just
+pick an individual stock.
+
+50
+00:02:42,570 --> 00:02:46,160
+So if you have these four
+stocks to pick from, then
+
+51
+00:02:46,160 --> 00:02:48,950
+to go as northwest
+as possible, you're
+
+52
+00:02:48,950 --> 00:02:55,760
+sort of looking at Merck
+as, you know, the extreme.
+
+53
+00:02:55,760 --> 00:02:58,400
+But it's not at all clear
+whether or not that's something
+
+54
+00:02:58,400 --> 00:02:59,360
+that you really want.
+
+55
+00:02:59,360 --> 00:03:02,840
+Because, for example,
+General Motors,
+
+56
+00:03:02,840 --> 00:03:07,400
+while it has a lower expected
+return than Merck, it does
+
+57
+00:03:07,400 --> 00:03:09,200
+have a bit of a lower risk.
+
+58
+00:03:09,200 --> 00:03:14,310
+And for some people, that
+might actually be preferred.
+
+59
+00:03:14,310 --> 00:03:19,550
+So at this point, we don't have
+a lot of hard recommendations
+
+60
+00:03:19,550 --> 00:03:22,780
+to provide you with, without
+any further analysis.
+
+61
+00:03:22,780 --> 00:03:25,120
+So we're going to do some
+further analysis today.
+
+62
+00:03:25,120 --> 00:03:29,900
+And the analysis is to ask
+the question, all right, what
+
+63
+00:03:29,900 --> 00:03:36,330
+are the properties of mean and
+variance for a given portfolio,
+
+64
+00:03:36,330 --> 00:03:39,620
+not just for an
+individual security.
+
+65
+00:03:39,620 --> 00:03:42,440
+So it turns out that there's a
+relatively straightforward way
+
+66
+00:03:42,440 --> 00:03:43,410
+of answering this.
+
+67
+00:03:43,410 --> 00:03:45,260
+And let me just go
+through the calculations
+
+68
+00:03:45,260 --> 00:03:47,090
+and then we can see
+what that implies
+
+69
+00:03:47,090 --> 00:03:51,770
+for where we want to be in that
+mean-standard deviation graph.
+
+70
+00:03:51,770 --> 00:03:54,680
+So the mean of a
+particular stock I'm
+
+71
+00:03:54,680 --> 00:03:59,910
+going to write as expectation
+of Ri, or mu i, for short.
+
+72
+00:03:59,910 --> 00:04:01,760
+The variance of a
+particular stock
+
+73
+00:04:01,760 --> 00:04:04,550
+I'm going to write
+as sigma squared i,
+
+74
+00:04:04,550 --> 00:04:07,970
+or the standard deviation
+is then just sigma i.
+
+75
+00:04:07,970 --> 00:04:09,320
+OK?
+
+76
+00:04:09,320 --> 00:04:13,430
+And it turns out, you
+can show this rigorously.
+
+77
+00:04:13,430 --> 00:04:15,860
+I won't do that, but you
+can take a look at that
+
+78
+00:04:15,860 --> 00:04:17,750
+if you are unconvinced.
+
+79
+00:04:17,750 --> 00:04:21,260
+It turns out that if you
+construct a weighted average
+
+80
+00:04:21,260 --> 00:04:25,310
+of stocks so that the
+return of the portfolio
+
+81
+00:04:25,310 --> 00:04:28,940
+is given by that
+top line, R sub p,
+
+82
+00:04:28,940 --> 00:04:33,170
+then when you take the expected
+value of that top line, what
+
+83
+00:04:33,170 --> 00:04:36,390
+you get is the middle line.
+
+84
+00:04:36,390 --> 00:04:41,360
+In other words, the expected
+return of a portfolio
+
+85
+00:04:41,360 --> 00:04:44,450
+is just equal to the exact
+same weighted averages
+
+86
+00:04:44,450 --> 00:04:48,600
+of the expected rates of return
+of the individual components.
+
+87
+00:04:48,600 --> 00:04:51,140
+So you understand the
+difference between the second
+
+88
+00:04:51,140 --> 00:04:53,180
+and the first line
+in that red box?
+
+89
+00:04:53,180 --> 00:04:55,230
+That's a very
+important distinction.
+
+90
+00:04:55,230 --> 00:04:59,360
+The top line is basically
+an accounting identity.
+
+91
+00:04:59,360 --> 00:05:02,540
+It says that when you want to
+compute the actual realized
+
+92
+00:05:02,540 --> 00:05:04,640
+return in your
+portfolio, you just
+
+93
+00:05:04,640 --> 00:05:07,460
+take a weighted average of what
+you did on each stock, what
+
+94
+00:05:07,460 --> 00:05:08,920
+your return is on each stock.
+
+95
+00:05:08,920 --> 00:05:11,210
+That's an accounting identity.
+
+96
+00:05:11,210 --> 00:05:14,480
+The second line is not
+an accounting identity.
+
+97
+00:05:14,480 --> 00:05:16,070
+It comes from an
+accounting identity.
+
+98
+00:05:16,070 --> 00:05:20,050
+But what it says
+is that on average,
+
+99
+00:05:20,050 --> 00:05:22,780
+the rate of return
+of your portfolio
+
+100
+00:05:22,780 --> 00:05:28,060
+is equal to a weighted average
+of the average rates of return
+
+101
+00:05:28,060 --> 00:05:30,890
+on each of the components
+of your portfolio.
+
+102
+00:05:30,890 --> 00:05:31,390
+OK?
+
+103
+00:05:31,390 --> 00:05:34,580
+That's a very
+important principle.
+
+104
+00:05:34,580 --> 00:05:38,100
+Any questions about
+that before we move on?
+
+105
+00:05:38,100 --> 00:05:38,600
+OK.
+
+106
+00:05:38,600 --> 00:05:42,250
+So I'm going to write that as a
+shorthand for the portfolio, mu
+
+107
+00:05:42,250 --> 00:05:43,270
+sub p.
+
+108
+00:05:43,270 --> 00:05:45,560
+So mu sub p is just equal
+to this whole expression
+
+109
+00:05:45,560 --> 00:05:47,180
+right here.
+
+110
+00:05:47,180 --> 00:05:47,720
+All right.
+
+111
+00:05:47,720 --> 00:05:53,210
+So what we've now deduced is
+that the mean of my portfolio
+
+112
+00:05:53,210 --> 00:05:56,150
+is simply the weighted
+average of the means of each
+
+113
+00:05:56,150 --> 00:05:59,660
+of the securities
+in the portfolio.
+
+114
+00:05:59,660 --> 00:06:02,060
+What I'm going to turn to next
+is a much more complicated
+
+115
+00:06:02,060 --> 00:06:08,060
+calculation, which is, what is
+the variance of my portfolio.
+
+116
+00:06:08,060 --> 00:06:11,040
+It turns out that the
+variance of the portfolio
+
+117
+00:06:11,040 --> 00:06:15,060
+is not a simple weighted
+average of the variances
+
+118
+00:06:15,060 --> 00:06:16,510
+of my individual securities.
+
+119
+00:06:16,510 --> 00:06:17,940
+This is where it
+gets complicated,
+
+120
+00:06:17,940 --> 00:06:20,460
+and also where it gets really
+interesting and valuable
+
+121
+00:06:20,460 --> 00:06:22,391
+from the investor's perspective.
+
+122
+00:06:22,391 --> 00:06:22,890
+OK.
+
+123
+00:06:22,890 --> 00:06:24,220
+Let's do the calculation.
+
+124
+00:06:24,220 --> 00:06:29,220
+You're going to have to dredge
+up your old DMD knowledge here
+
+125
+00:06:29,220 --> 00:06:33,560
+of how to compute variances
+of sums of random variables.
+
+126
+00:06:33,560 --> 00:06:37,230
+The variance of my
+portfolio return, R sub p,
+
+127
+00:06:37,230 --> 00:06:41,430
+is simply equal to the expected
+value of the excess return
+
+128
+00:06:41,430 --> 00:06:44,450
+of that portfolio, in
+excess of its mean,
+
+129
+00:06:44,450 --> 00:06:47,760
+right, squared, and then
+take the expectation of that.
+
+130
+00:06:47,760 --> 00:06:51,660
+And remember that the
+return of the portfolio
+
+131
+00:06:51,660 --> 00:06:53,520
+is just a weighted
+average of the returns
+
+132
+00:06:53,520 --> 00:06:55,050
+of the individual securities.
+
+133
+00:06:55,050 --> 00:06:58,470
+And the mean of the portfolio is
+just the same weighted average
+
+134
+00:06:58,470 --> 00:07:00,510
+of the means of the securities.
+
+135
+00:07:00,510 --> 00:07:03,690
+So when you plug those
+relationships in, what you get
+
+136
+00:07:03,690 --> 00:07:06,060
+is that the variance is
+simply equal to the expected
+
+137
+00:07:06,060 --> 00:07:12,781
+value of the square of
+this long weighted average.
+
+138
+00:07:12,781 --> 00:07:14,905
+So you've got a weighted
+average, a bunch of terms,
+
+139
+00:07:14,905 --> 00:07:15,840
+right?
+
+140
+00:07:15,840 --> 00:07:18,340
+And then you square
+that and then
+
+141
+00:07:18,340 --> 00:07:20,540
+you take the expected value.
+
+142
+00:07:20,540 --> 00:07:26,680
+Well, if you've got n terms
+in that weighted average,
+
+143
+00:07:26,680 --> 00:07:30,379
+and you square that n
+terms, how many terms
+
+144
+00:07:30,379 --> 00:07:31,420
+comes out of that square?
+
+145
+00:07:35,860 --> 00:07:37,490
+Anybody?
+
+146
+00:07:37,490 --> 00:07:40,910
+n terms, and you
+square those n terms,
+
+147
+00:07:40,910 --> 00:07:44,290
+so those n terms
+multiplied by itself,
+
+148
+00:07:44,290 --> 00:07:46,660
+how many terms do you
+get when you do that?
+
+149
+00:07:46,660 --> 00:07:47,160
+Yeah?
+
+150
+00:07:47,160 --> 00:07:48,880
+AUDIENCE: [INAUDIBLE]
+
+151
+00:07:48,880 --> 00:07:52,740
+ANDREW LO: Well, why
+not just n squared?
+
+152
+00:07:52,740 --> 00:07:54,900
+You're thinking about the
+unique elements, maybe,
+
+153
+00:07:54,900 --> 00:07:55,830
+the off diagonal.
+
+154
+00:07:55,830 --> 00:07:57,690
+I'm talking about all of them.
+
+155
+00:07:57,690 --> 00:08:00,100
+So with n terms,
+when you square it,
+
+156
+00:08:00,100 --> 00:08:06,870
+n terms multiplied by n terms,
+you get n times n terms,
+
+157
+00:08:06,870 --> 00:08:09,710
+n squared terms.
+
+158
+00:08:09,710 --> 00:08:15,130
+And so these n squared
+terms all look like this.
+
+159
+00:08:15,130 --> 00:08:18,290
+They all look like
+omega i times omega
+
+160
+00:08:18,290 --> 00:08:22,180
+j multiplied by the
+excess return of i
+
+161
+00:08:22,180 --> 00:08:23,920
+times the excess return of j.
+
+162
+00:08:23,920 --> 00:08:26,190
+Sometimes i equals j.
+
+163
+00:08:26,190 --> 00:08:30,450
+And when that happens,
+you get omega i squared
+
+164
+00:08:30,450 --> 00:08:34,049
+times the variance
+of security i.
+
+165
+00:08:34,049 --> 00:08:37,169
+But when i does not
+equal to j, then you're
+
+166
+00:08:37,169 --> 00:08:42,059
+going to get omega i times
+omega j times the covariance
+
+167
+00:08:42,059 --> 00:08:43,960
+between the return on i and j.
+
+168
+00:08:47,840 --> 00:08:51,020
+And another way of
+writing that covariance
+
+169
+00:08:51,020 --> 00:08:53,840
+is equal to the
+correlation between i
+
+170
+00:08:53,840 --> 00:08:56,940
+and j multiplied by the
+standard deviation of i
+
+171
+00:08:56,940 --> 00:09:00,410
+and the standard deviation of j.
+
+172
+00:09:00,410 --> 00:09:04,762
+The point is that when we look
+at the variance of a portfolio,
+
+173
+00:09:04,762 --> 00:09:06,470
+it's not just the
+simple weighted average
+
+174
+00:09:06,470 --> 00:09:09,290
+of the variances of
+the component stocks.
+
+175
+00:09:09,290 --> 00:09:14,150
+It's actually a weighted average
+of all the cross products,
+
+176
+00:09:14,150 --> 00:09:20,140
+where the weights are also the
+cross products of the weights.
+
+177
+00:09:20,140 --> 00:09:21,380
+So it's these.
+
+178
+00:09:21,380 --> 00:09:22,567
+It's all of these.
+
+179
+00:09:22,567 --> 00:09:23,900
+And how many of these are there?
+
+180
+00:09:23,900 --> 00:09:29,240
+Well, i goes from 1 to n, j
+goes from 1 to n, n times n,
+
+181
+00:09:29,240 --> 00:09:30,500
+you get n squared of these.
+
+182
+00:09:30,500 --> 00:09:34,840
+So this actually has
+a nice representation.
+
+183
+00:09:34,840 --> 00:09:37,130
+It actually comes
+out of a table.
+
+184
+00:09:37,130 --> 00:09:37,880
+Right?
+
+185
+00:09:37,880 --> 00:09:42,260
+So you can think of all of the
+portfolio weights multiplied
+
+186
+00:09:42,260 --> 00:09:44,990
+by the excess returns
+on one dimension
+
+187
+00:09:44,990 --> 00:09:49,340
+of the table, the columns,
+and the exact same entries
+
+188
+00:09:49,340 --> 00:09:50,480
+in the rows.
+
+189
+00:09:50,480 --> 00:09:54,290
+You've got n columns,
+n rows, n times n,
+
+190
+00:09:54,290 --> 00:09:57,650
+or n squared
+elements that make up
+
+191
+00:09:57,650 --> 00:10:01,620
+the variance of your portfolio.
+
+192
+00:10:01,620 --> 00:10:04,280
+So this is where it
+gets really complicated.
+
+193
+00:10:04,280 --> 00:10:06,530
+But this is why we have
+computers and spreadsheets
+
+194
+00:10:06,530 --> 00:10:08,550
+and things like that.
+
+195
+00:10:08,550 --> 00:10:12,200
+So in order to figure out the
+variance of your portfolio,
+
+196
+00:10:12,200 --> 00:10:15,200
+you've got to basically add all
+of the elements in this table.
+
+197
+00:10:15,200 --> 00:10:17,690
+You've got n squared
+things to add up
+
+198
+00:10:17,690 --> 00:10:21,740
+to get the variance
+of your portfolio.
+
+199
+00:10:21,740 --> 00:10:25,830
+And the insight of
+modern finance theory--
+
+200
+00:10:25,830 --> 00:10:28,310
+the reason that Harry
+Markowitz won the Nobel Prize
+
+201
+00:10:28,310 --> 00:10:30,890
+in economics for this idea--
+
+202
+00:10:30,890 --> 00:10:35,810
+is that when you add up all
+of these different elements,
+
+203
+00:10:35,810 --> 00:10:39,110
+you can get results that
+are very different from just
+
+204
+00:10:39,110 --> 00:10:41,390
+looking at one or two stocks.
+
+205
+00:10:41,390 --> 00:10:43,700
+Because, in
+particular, there are
+
+206
+00:10:43,700 --> 00:10:46,970
+some cases where
+these cross products
+
+207
+00:10:46,970 --> 00:10:51,190
+are either small or
+maybe even negative.
+
+208
+00:10:51,190 --> 00:10:52,890
+And in that case,
+it actually helps
+
+209
+00:10:52,890 --> 00:10:58,590
+you to reduce the overall
+riskiness of your portfolio.
+
+210
+00:10:58,590 --> 00:11:00,180
+This is the intuition.
+
+211
+00:11:00,180 --> 00:11:02,700
+This is the
+mathematics underlying,
+
+212
+00:11:02,700 --> 00:11:04,890
+don't put all your
+eggs in one basket.
+
+213
+00:11:04,890 --> 00:11:08,040
+When you don't put all your
+eggs in one basket, what you're
+
+214
+00:11:08,040 --> 00:11:10,320
+getting, what you're
+benefiting from,
+
+215
+00:11:10,320 --> 00:11:13,410
+are these cross
+products that can either
+
+216
+00:11:13,410 --> 00:11:18,110
+be small or negative,
+and will ultimately
+
+217
+00:11:18,110 --> 00:11:22,702
+reduce the fluctuations
+of your portfolio.
+
+218
+00:11:22,702 --> 00:11:25,160
+Another way of thinking about
+it is that some stocks go up,
+
+219
+00:11:25,160 --> 00:11:26,550
+some stocks go down.
+
+220
+00:11:26,550 --> 00:11:30,380
+And if they don't go up and
+down in the exact same way,
+
+221
+00:11:30,380 --> 00:11:34,010
+if they are unrelated
+or less related,
+
+222
+00:11:34,010 --> 00:11:37,460
+then when you put it all
+together in a portfolio
+
+223
+00:11:37,460 --> 00:11:43,880
+it dampens the riskiness
+of your overall holdings.
+
+224
+00:11:43,880 --> 00:11:45,100
+OK.
+
+225
+00:11:45,100 --> 00:11:48,520
+So there are n squared
+elements that you
+
+226
+00:11:48,520 --> 00:11:52,360
+have to add up in order to
+get the portfolio variance.
+
+227
+00:11:52,360 --> 00:11:56,140
+It's literally the sum of all
+of the entries in this table.
+
+228
+00:11:56,140 --> 00:12:00,280
+And the point of the
+next few bullet points
+
+229
+00:12:00,280 --> 00:12:03,430
+is that there are a
+lot more covariances
+
+230
+00:12:03,430 --> 00:12:05,920
+than there are variances.
+
+231
+00:12:05,920 --> 00:12:08,680
+The variances are along the
+diagonal of that table, right?
+
+232
+00:12:08,680 --> 00:12:10,930
+That's the variance
+of the first stock,
+
+233
+00:12:10,930 --> 00:12:12,533
+the variance of the
+second stock, dot,
+
+234
+00:12:12,533 --> 00:12:15,530
+dot, dot, the variance
+of the n stock.
+
+235
+00:12:15,530 --> 00:12:18,210
+Those are how volatile
+the individual stocks are.
+
+236
+00:12:18,210 --> 00:12:20,640
+But there are only n of those.
+
+237
+00:12:20,640 --> 00:12:24,690
+There are n squared minus
+n of the other stuff.
+
+238
+00:12:24,690 --> 00:12:26,955
+That's where you were thinking
+about n minus 1, right?
+
+239
+00:12:26,955 --> 00:12:32,520
+It's n squared minus n,
+or n times n minus 1.
+
+240
+00:12:32,520 --> 00:12:35,100
+Other non-diagonal entries.
+
+241
+00:12:35,100 --> 00:12:38,940
+So what this suggests is that
+the covariances are a lot more
+
+242
+00:12:38,940 --> 00:12:43,470
+important in determining the
+riskiness of your portfolio
+
+243
+00:12:43,470 --> 00:12:46,180
+than the riskiness of
+the individual stocks.
+
+244
+00:12:46,180 --> 00:12:48,600
+You know, Intel looks
+like a scary stock
+
+245
+00:12:48,600 --> 00:12:50,280
+because it's really volatile.
+
+246
+00:12:50,280 --> 00:12:53,702
+But when you've got n
+Intels in your portfolio,
+
+247
+00:12:53,702 --> 00:12:55,410
+even though each of
+the individual stocks
+
+248
+00:12:55,410 --> 00:12:57,900
+is scary, what you have
+to keep your eye on
+
+249
+00:12:57,900 --> 00:13:00,180
+is how they are correlated.
+
+250
+00:13:00,180 --> 00:13:03,840
+Because the correlations
+in a portfolio of n
+
+251
+00:13:03,840 --> 00:13:06,450
+stocks is actually
+more important
+
+252
+00:13:06,450 --> 00:13:08,010
+than the individual variances.
+
+253
+00:13:08,010 --> 00:13:10,830
+The individual variances
+matter, but they
+
+254
+00:13:10,830 --> 00:13:13,860
+don't matter nearly as
+much as the covariances.
+
+255
+00:13:13,860 --> 00:13:15,000
+OK?
+
+256
+00:13:15,000 --> 00:13:16,950
+So now I'm going
+to do an example.
+
+257
+00:13:16,950 --> 00:13:21,150
+It's hard to get intuition
+for n by n matrices,
+
+258
+00:13:21,150 --> 00:13:25,110
+unless you're Rain Man,
+or some incredible genius.
+
+259
+00:13:25,110 --> 00:13:27,760
+The way that I think about this
+is, let's look at two assets.
+
+260
+00:13:27,760 --> 00:13:28,260
+OK?
+
+261
+00:13:28,260 --> 00:13:31,110
+If I can understand two assets,
+I can sort generalize and think
+
+262
+00:13:31,110 --> 00:13:32,460
+about n assets.
+
+263
+00:13:32,460 --> 00:13:34,930
+So I gave you the
+general result just
+
+264
+00:13:34,930 --> 00:13:36,820
+to tell you that this
+is how you do it.
+
+265
+00:13:36,820 --> 00:13:38,400
+But now to understand
+it, really,
+
+266
+00:13:38,400 --> 00:13:40,220
+let's focus just on two assets.
+
+267
+00:13:40,220 --> 00:13:41,640
+OK?
+
+268
+00:13:41,640 --> 00:13:44,160
+Suppose we only have
+two stocks, a and b.
+
+269
+00:13:44,160 --> 00:13:49,140
+And I'm going to calculate the
+expected return and standard
+
+270
+00:13:49,140 --> 00:13:52,080
+deviation of a portfolio
+with just those two stocks.
+
+271
+00:13:52,080 --> 00:13:53,730
+So the portfolio
+weights are going
+
+272
+00:13:53,730 --> 00:13:58,020
+to be omega a for stock a,
+and omega b for stock b.
+
+273
+00:13:58,020 --> 00:14:00,357
+And omega a plus
+omega b adds up to 1.
+
+274
+00:14:00,357 --> 00:14:01,440
+So just keep that in mind.
+
+275
+00:14:01,440 --> 00:14:03,990
+I don't put it
+there just because I
+
+276
+00:14:03,990 --> 00:14:05,895
+want to save a little
+space on the slide.
+
+277
+00:14:05,895 --> 00:14:07,770
+But these are the weights
+for the two stocks.
+
+278
+00:14:07,770 --> 00:14:09,660
+And those are the only
+two things you hold.
+
+279
+00:14:09,660 --> 00:14:11,070
+All right?
+
+280
+00:14:11,070 --> 00:14:12,660
+The expected value
+is as we said.
+
+281
+00:14:12,660 --> 00:14:14,910
+It's a weighted average
+of your holdings of
+
+282
+00:14:14,910 --> 00:14:19,350
+and b, right, multiplied by the
+mean of a and the mean of b.
+
+283
+00:14:19,350 --> 00:14:24,120
+Now the variance, the variance
+of these two securities
+
+284
+00:14:24,120 --> 00:14:26,430
+when they are put
+into a portfolio
+
+285
+00:14:26,430 --> 00:14:29,370
+is going to be simply
+omega a squared
+
+286
+00:14:29,370 --> 00:14:31,820
+times the variance
+of a plus omega
+
+287
+00:14:31,820 --> 00:14:33,990
+b squared times
+the variance of b.
+
+288
+00:14:33,990 --> 00:14:36,540
+And now you only have
+one cross product
+
+289
+00:14:36,540 --> 00:14:38,760
+to worry about because
+you've only got two stocks.
+
+290
+00:14:38,760 --> 00:14:39,540
+Right?
+
+291
+00:14:39,540 --> 00:14:44,250
+And that is 2 times
+omega a times omega
+
+292
+00:14:44,250 --> 00:14:47,580
+b times the covariance
+between a and b.
+
+293
+00:14:47,580 --> 00:14:50,580
+Now you can do this in a 2
+by 2 table, just like the n
+
+294
+00:14:50,580 --> 00:14:51,670
+by n table.
+
+295
+00:14:51,670 --> 00:14:53,190
+And with a 2 by
+2 table, you know
+
+296
+00:14:53,190 --> 00:14:57,070
+that you've got two diagonal
+elements and two off
+
+297
+00:14:57,070 --> 00:14:58,450
+diagonal elements.
+
+298
+00:14:58,450 --> 00:15:02,380
+And that's where you get
+that number 2 for the 2 times
+
+299
+00:15:02,380 --> 00:15:05,950
+omega a, omega b
+times the covariance.
+
+300
+00:15:05,950 --> 00:15:07,150
+OK?
+
+301
+00:15:07,150 --> 00:15:09,910
+And I rewrite it in
+terms of correlations
+
+302
+00:15:09,910 --> 00:15:13,131
+because it's easier to think
+in terms of correlations.
+
+303
+00:15:13,131 --> 00:15:13,630
+Why?
+
+304
+00:15:13,630 --> 00:15:15,004
+Because correlations
+we know have
+
+305
+00:15:15,004 --> 00:15:16,950
+to be between minus 1 and 1.
+
+306
+00:15:16,950 --> 00:15:20,170
+And so if I tell you a stock
+has a correlation with another
+
+307
+00:15:20,170 --> 00:15:23,260
+of 30%, you can actually
+get your arms around that.
+
+308
+00:15:23,260 --> 00:15:24,831
+You can get intuition for that.
+
+309
+00:15:24,831 --> 00:15:25,330
+All right?
+
+310
+00:15:25,330 --> 00:15:27,310
+So it's a little
+easier to interpret.
+
+311
+00:15:27,310 --> 00:15:29,440
+But either way is fine.
+
+312
+00:15:29,440 --> 00:15:32,620
+So we now have an
+expression for the mean
+
+313
+00:15:32,620 --> 00:15:35,500
+and the variance of a
+portfolio of two assets.
+
+314
+00:15:35,500 --> 00:15:38,630
+Any questions about this?
+
+315
+00:15:38,630 --> 00:15:40,700
+Everybody understand
+this and how I got it?
+
+316
+00:15:40,700 --> 00:15:41,790
+No tricks up my sleeve.
+
+317
+00:15:41,790 --> 00:15:45,110
+It's really meant to be
+relatively straightforward.
+
+318
+00:15:45,110 --> 00:15:47,510
+But the implications
+will be dramatic,
+
+319
+00:15:47,510 --> 00:15:51,030
+as I'm going to show
+you in a minute.
+
+320
+00:15:51,030 --> 00:15:52,720
+OK.
+
+321
+00:15:52,720 --> 00:15:55,516
+So let me go through at
+least one numerical example.
+
+322
+00:15:55,516 --> 00:15:57,640
+And then I'm going to show
+you why this is actually
+
+323
+00:15:57,640 --> 00:15:59,380
+so important.
+
+324
+00:15:59,380 --> 00:16:03,400
+From 1946 to 2001, Motorola
+had an average monthly return
+
+325
+00:16:03,400 --> 00:16:09,130
+of 1.75%, and a standard
+deviation of 9.73%.
+
+326
+00:16:09,130 --> 00:16:12,670
+General Motors had an
+average return of 1.08%,
+
+327
+00:16:12,670 --> 00:16:16,030
+and a standard
+deviation of 6.23%.
+
+328
+00:16:16,030 --> 00:16:18,700
+That has obviously since
+gone up a great deal,
+
+329
+00:16:18,700 --> 00:16:21,010
+the standard deviation, that is.
+
+330
+00:16:21,010 --> 00:16:26,230
+And their correlation
+is 0.37, or 37%.
+
+331
+00:16:26,230 --> 00:16:29,590
+How would a portfolio of
+the two stocks perform?
+
+332
+00:16:29,590 --> 00:16:30,510
+Well, it depends.
+
+333
+00:16:30,510 --> 00:16:31,840
+What are the weights?
+
+334
+00:16:31,840 --> 00:16:32,685
+Right?
+
+335
+00:16:32,685 --> 00:16:34,060
+If you change the
+weights, you're
+
+336
+00:16:34,060 --> 00:16:35,393
+going to change the performance.
+
+337
+00:16:35,393 --> 00:16:36,820
+So let's just take a look.
+
+338
+00:16:36,820 --> 00:16:39,940
+If you put all your weight
+on General Motors and nothing
+
+339
+00:16:39,940 --> 00:16:42,010
+on Motorola, not
+surprisingly, you're
+
+340
+00:16:42,010 --> 00:16:44,882
+going to get General
+Motors' return.
+
+341
+00:16:44,882 --> 00:16:47,340
+At the other end of the extreme,
+if you put all your weight
+
+342
+00:16:47,340 --> 00:16:49,650
+on Motorola and nothing
+on General Motors,
+
+343
+00:16:49,650 --> 00:16:52,331
+you're going to get
+Motorola's characteristics.
+
+344
+00:16:52,331 --> 00:16:52,830
+All right?
+
+345
+00:16:52,830 --> 00:16:56,050
+Nothing mysterious about that.
+
+346
+00:16:56,050 --> 00:17:00,420
+However, if you weight the
+two, so if you put 50-50
+
+347
+00:17:00,420 --> 00:17:03,390
+on General Motors
+and Motorola, you're
+
+348
+00:17:03,390 --> 00:17:08,220
+going to get a return that is
+50-50 of each of those returns.
+
+349
+00:17:08,220 --> 00:17:12,721
+But you're going to get
+a risk that is not 50-50.
+
+350
+00:17:12,721 --> 00:17:13,220
+Right?
+
+351
+00:17:13,220 --> 00:17:16,579
+Because the risks,
+the risks don't
+
+352
+00:17:16,579 --> 00:17:18,560
+aggregate in a linear way.
+
+353
+00:17:18,560 --> 00:17:22,400
+The risks actually
+aggregate non-linearly
+
+354
+00:17:22,400 --> 00:17:25,520
+because of those
+covariances or correlations.
+
+355
+00:17:25,520 --> 00:17:26,829
+OK.
+
+356
+00:17:26,829 --> 00:17:29,350
+So what you see here
+is that by taking
+
+357
+00:17:29,350 --> 00:17:32,590
+a weighted average of
+the two, what you can do
+
+358
+00:17:32,590 --> 00:17:36,970
+is you can boost
+your return to 1.42%,
+
+359
+00:17:36,970 --> 00:17:40,510
+but the extra risk
+you're taking is
+
+360
+00:17:40,510 --> 00:17:46,820
+from 6.23% to 6.68% per month.
+
+361
+00:17:46,820 --> 00:17:48,880
+That's not a big
+increase in risk,
+
+362
+00:17:48,880 --> 00:17:53,140
+but that is a pretty
+significant increase in return.
+
+363
+00:17:53,140 --> 00:17:55,780
+Now again, I'm not telling you
+that's what you all should do,
+
+364
+00:17:55,780 --> 00:17:57,790
+because it depends on
+your risk preferences.
+
+365
+00:17:57,790 --> 00:17:59,587
+And for the next
+lecture or two, I'm
+
+366
+00:17:59,587 --> 00:18:01,420
+going to be saying that
+over and over again.
+
+367
+00:18:01,420 --> 00:18:03,070
+I'm going to be saying
+it depends upon your risk
+
+368
+00:18:03,070 --> 00:18:03,580
+preferences.
+
+369
+00:18:03,580 --> 00:18:05,999
+But at the end of the
+next two lectures,
+
+370
+00:18:05,999 --> 00:18:08,290
+I'm going to be able to tell
+you something that doesn't
+
+371
+00:18:08,290 --> 00:18:09,550
+depend on your risk preference.
+
+372
+00:18:09,550 --> 00:18:11,830
+I'm going to be able to tell
+you something that all of you
+
+373
+00:18:11,830 --> 00:18:13,630
+should be willing to
+do if you're rational.
+
+374
+00:18:13,630 --> 00:18:16,330
+And if you're not, I will
+trade with you personally
+
+375
+00:18:16,330 --> 00:18:19,440
+to help you learn rationality.
+
+376
+00:18:19,440 --> 00:18:20,440
+OK?
+
+377
+00:18:20,440 --> 00:18:22,600
+But for now, I
+don't have a story
+
+378
+00:18:22,600 --> 00:18:25,540
+to tell you about which of
+these rows you ought to take.
+
+379
+00:18:25,540 --> 00:18:27,130
+There is no ought to here.
+
+380
+00:18:27,130 --> 00:18:30,850
+It's just a matter of what you
+prefer, risk versus return.
+
+381
+00:18:30,850 --> 00:18:31,960
+Right?
+
+382
+00:18:31,960 --> 00:18:34,990
+Now interestingly, I
+put here one more case
+
+383
+00:18:34,990 --> 00:18:39,640
+which lies outside
+of the band of 0, 1.
+
+384
+00:18:39,640 --> 00:18:44,020
+This is a case where you've
+put 125% of your wealth
+
+385
+00:18:44,020 --> 00:18:45,760
+into Motorola.
+
+386
+00:18:45,760 --> 00:18:49,570
+And you've put negative
+25% of your wealth
+
+387
+00:18:49,570 --> 00:18:50,582
+into General Motors.
+
+388
+00:18:50,582 --> 00:18:52,790
+Remember, we talked about
+this in the very beginning.
+
+389
+00:18:52,790 --> 00:18:55,660
+You're using short
+selling to short sell
+
+390
+00:18:55,660 --> 00:18:58,360
+General Motors,
+which you might think
+
+391
+00:18:58,360 --> 00:19:02,485
+is not a bad idea nowadays,
+given how troubled they are.
+
+392
+00:19:02,485 --> 00:19:06,730
+You're going to short General
+Motors, take the proceeds,
+
+393
+00:19:06,730 --> 00:19:09,330
+and put that plus the 100%
+that you started with,
+
+394
+00:19:09,330 --> 00:19:11,530
+you're going to put
+that in Motorola.
+
+395
+00:19:11,530 --> 00:19:15,700
+So you really want to make
+a big bet on communications
+
+396
+00:19:15,700 --> 00:19:18,370
+and microprocessors.
+
+397
+00:19:18,370 --> 00:19:19,930
+And you're going
+to leverage that
+
+398
+00:19:19,930 --> 00:19:23,530
+bet by putting a negative
+bet on the auto industry.
+
+399
+00:19:23,530 --> 00:19:26,710
+That's what that
+last row implies.
+
+400
+00:19:26,710 --> 00:19:31,360
+And what you get is a
+much, much higher rate
+
+401
+00:19:31,360 --> 00:19:35,781
+of return than anything
+else in the other examples.
+
+402
+00:19:35,781 --> 00:19:36,280
+Right?
+
+403
+00:19:36,280 --> 00:19:37,540
+Much higher rate of return.
+
+404
+00:19:37,540 --> 00:19:39,430
+But look at the risk.
+
+405
+00:19:39,430 --> 00:19:42,132
+Now the risk is
+close to double what
+
+406
+00:19:42,132 --> 00:19:44,590
+you would have gotten had you
+put all your money in General
+
+407
+00:19:44,590 --> 00:19:45,089
+Motors.
+
+408
+00:19:45,089 --> 00:19:46,930
+Are you willing to do that?
+
+409
+00:19:46,930 --> 00:19:48,430
+Well, you can
+easily imagine there
+
+410
+00:19:48,430 --> 00:19:51,910
+are people in this class that
+would be delighted to do that,
+
+411
+00:19:51,910 --> 00:19:54,790
+and there are others of you
+that would be scared to death.
+
+412
+00:19:54,790 --> 00:19:56,480
+That's way too much volatility.
+
+413
+00:19:56,480 --> 00:19:58,310
+These are monthly
+numbers, by the way.
+
+414
+00:19:58,310 --> 00:20:00,760
+So if you want to calculate
+the annual equivalent,
+
+415
+00:20:00,760 --> 00:20:02,060
+how would you do that?
+
+416
+00:20:02,060 --> 00:20:04,480
+How would you get an
+annual standard deviation
+
+417
+00:20:04,480 --> 00:20:08,530
+from a monthly
+standard deviation?
+
+418
+00:20:08,530 --> 00:20:11,290
+Any idea?
+
+419
+00:20:11,290 --> 00:20:13,270
+Well, let's do the return first.
+
+420
+00:20:13,270 --> 00:20:17,860
+How do you annualize the monthly
+return to get an annual return?
+
+421
+00:20:17,860 --> 00:20:20,350
+Let's forget about compounding.
+
+422
+00:20:20,350 --> 00:20:21,340
+What would you do?
+
+423
+00:20:21,340 --> 00:20:22,256
+AUDIENCE: [INAUDIBLE].
+
+424
+00:20:22,256 --> 00:20:24,040
+ANDREW LO: What?
+
+425
+00:20:24,040 --> 00:20:25,059
+Multiply by 12.
+
+426
+00:20:25,059 --> 00:20:25,600
+That's right.
+
+427
+00:20:25,600 --> 00:20:27,640
+If you forget about
+confounding, you multiply by 12.
+
+428
+00:20:27,640 --> 00:20:28,890
+What if you didn't
+forget about compounding?
+
+429
+00:20:28,890 --> 00:20:29,901
+Then what do you do?
+
+430
+00:20:29,901 --> 00:20:32,060
+AUDIENCE: [INAUDIBLE]
+
+431
+00:20:32,060 --> 00:20:34,860
+ANDREW LO: Add 1, raise
+it to the 12th power,
+
+432
+00:20:34,860 --> 00:20:35,670
+then subtract 1.
+
+433
+00:20:35,670 --> 00:20:36,750
+That's right.
+
+434
+00:20:36,750 --> 00:20:37,440
+OK.
+
+435
+00:20:37,440 --> 00:20:39,770
+What about risk?
+
+436
+00:20:39,770 --> 00:20:40,270
+Ah, see?
+
+437
+00:20:40,270 --> 00:20:41,200
+This is tricky.
+
+438
+00:20:41,200 --> 00:20:47,810
+What's the variance
+of a 12-month return
+
+439
+00:20:47,810 --> 00:20:51,260
+in relationship to the
+variance of a one-month return?
+
+440
+00:20:51,260 --> 00:20:53,560
+We haven't talked about that.
+
+441
+00:20:53,560 --> 00:20:54,760
+What is it?
+
+442
+00:20:54,760 --> 00:20:55,700
+Yeah?
+
+443
+00:20:55,700 --> 00:20:58,417
+AUDIENCE: [INAUDIBLE]
+
+444
+00:20:58,417 --> 00:20:59,000
+ANDREW LO: No.
+
+445
+00:20:59,000 --> 00:20:59,500
+No.
+
+446
+00:20:59,500 --> 00:21:01,670
+It doesn't compound in that way.
+
+447
+00:21:01,670 --> 00:21:04,010
+Variance is actually
+a little simpler,
+
+448
+00:21:04,010 --> 00:21:05,460
+under certain assumptions.
+
+449
+00:21:05,460 --> 00:21:06,120
+Yeah?
+
+450
+00:21:06,120 --> 00:21:11,332
+AUDIENCE: [INAUDIBLE]
+
+451
+00:21:11,332 --> 00:21:12,040
+ANDREW LO: Right.
+
+452
+00:21:12,040 --> 00:21:14,900
+There's no correlation
+between one month to the next.
+
+453
+00:21:14,900 --> 00:21:19,920
+AUDIENCE: [INAUDIBLE]
+
+454
+00:21:19,920 --> 00:21:20,920
+ANDREW LO: That's right.
+
+455
+00:21:20,920 --> 00:21:21,419
+Agreed.
+
+456
+00:21:21,419 --> 00:21:23,980
+So let's assume that away.
+
+457
+00:21:23,980 --> 00:21:25,480
+Then it's constant.
+
+458
+00:21:25,480 --> 00:21:28,390
+But the monthly
+variance is constant.
+
+459
+00:21:28,390 --> 00:21:30,250
+But what's the annual variance?
+
+460
+00:21:30,250 --> 00:21:32,537
+What's the riskiness
+of a 12-month return
+
+461
+00:21:32,537 --> 00:21:34,870
+if you know what the riskiness
+of a one-month return is?
+
+462
+00:21:34,870 --> 00:21:35,506
+Yeah?
+
+463
+00:21:35,506 --> 00:21:37,990
+AUDIENCE: [INAUDIBLE]
+
+464
+00:21:37,990 --> 00:21:40,810
+ANDREW LO: Well, it can,
+depending on your assumptions.
+
+465
+00:21:40,810 --> 00:21:43,580
+But I want a simple
+set of assumptions.
+
+466
+00:21:43,580 --> 00:21:44,080
+Andy?
+
+467
+00:21:44,080 --> 00:21:46,330
+AUDIENCE: [INAUDIBLE]
+
+468
+00:21:46,330 --> 00:21:49,060
+ANDREW LO: Variance, yes.
+
+469
+00:21:49,060 --> 00:21:50,840
+Multiply by 12.
+
+470
+00:21:50,840 --> 00:21:52,130
+Now why is that?
+
+471
+00:21:52,130 --> 00:21:53,740
+It's because-- and
+you know all this.
+
+472
+00:21:53,740 --> 00:21:55,345
+You know this from your DMD.
+
+473
+00:21:55,345 --> 00:21:57,490
+At least I think you do.
+
+474
+00:21:57,490 --> 00:21:59,770
+You may not think
+you do, but you do.
+
+475
+00:21:59,770 --> 00:22:04,000
+The variance of a plus
+b is equal to what?
+
+476
+00:22:04,000 --> 00:22:05,680
+Who can tell me?
+
+477
+00:22:05,680 --> 00:22:07,390
+What's the variance of a plus b?
+
+478
+00:22:07,390 --> 00:22:08,470
+Two random variables.
+
+479
+00:22:12,930 --> 00:22:18,930
+Variance of a plus
+variance of b plus 2 times
+
+480
+00:22:18,930 --> 00:22:20,310
+the covariance of a and b.
+
+481
+00:22:20,310 --> 00:22:23,824
+If the covariance is 0,
+then it is the variance
+
+482
+00:22:23,824 --> 00:22:24,990
+of a plus the variance of b.
+
+483
+00:22:24,990 --> 00:22:26,700
+Absolutely, that's right.
+
+484
+00:22:26,700 --> 00:22:29,070
+So if we assume
+there are no cycles,
+
+485
+00:22:29,070 --> 00:22:31,680
+there are no predictabilities,
+there's no regularities,
+
+486
+00:22:31,680 --> 00:22:33,540
+there's no correlation,
+every month
+
+487
+00:22:33,540 --> 00:22:35,560
+is independent of
+every other month,
+
+488
+00:22:35,560 --> 00:22:39,630
+than the variance
+of a 12-month return
+
+489
+00:22:39,630 --> 00:22:43,680
+is literally just 12 times the
+variance of a one-month return,
+
+490
+00:22:43,680 --> 00:22:46,650
+assuming the variances stay
+constant throughout the month.
+
+491
+00:22:46,650 --> 00:22:49,270
+The monthly variance
+doesn't go up or down.
+
+492
+00:22:49,270 --> 00:22:50,740
+OK?
+
+493
+00:22:50,740 --> 00:22:51,784
+Now, that's the variance.
+
+494
+00:22:51,784 --> 00:22:53,200
+What about the
+standard deviation?
+
+495
+00:22:53,200 --> 00:22:55,674
+The standard deviation is the
+square root of the variance.
+
+496
+00:22:55,674 --> 00:22:58,090
+So that means that the standard
+deviation on an annualized
+
+497
+00:22:58,090 --> 00:23:03,840
+basis is equal to square root of
+12 times the standard deviation
+
+498
+00:23:03,840 --> 00:23:04,420
+of a monthly.
+
+499
+00:23:04,420 --> 00:23:04,920
+OK.
+
+500
+00:23:04,920 --> 00:23:06,390
+So finally, we're almost there.
+
+501
+00:23:06,390 --> 00:23:08,070
+What's the square root of 12?
+
+502
+00:23:08,070 --> 00:23:11,760
+Something between
+3 and 4, right?
+
+503
+00:23:11,760 --> 00:23:15,180
+So I don't know, call
+it 3 and 1/2, whatever.
+
+504
+00:23:15,180 --> 00:23:20,850
+We have to take this number and
+multiply it by about 3 and 1/2.
+
+505
+00:23:20,850 --> 00:23:23,220
+And that will get us an
+approximate annual standard
+
+506
+00:23:23,220 --> 00:23:24,370
+deviation.
+
+507
+00:23:24,370 --> 00:23:27,600
+So a 12% volatility
+multiplied by 3 and 1/2,
+
+508
+00:23:27,600 --> 00:23:31,650
+you're talking about some crazy
+volatile stock, or portfolio.
+
+509
+00:23:31,650 --> 00:23:33,277
+But actually,
+nowadays, you know,
+
+510
+00:23:33,277 --> 00:23:34,860
+we're used to that
+kind of volatility.
+
+511
+00:23:34,860 --> 00:23:36,310
+That's no big deal.
+
+512
+00:23:36,310 --> 00:23:39,090
+But relative to the
+individual stock,
+
+513
+00:23:39,090 --> 00:23:40,830
+it's quite a bit more volatile.
+
+514
+00:23:40,830 --> 00:23:42,300
+OK?
+
+515
+00:23:42,300 --> 00:23:45,120
+So this is an example
+of how you compute
+
+516
+00:23:45,120 --> 00:23:50,160
+the riskiness and the return
+of a portfolio of two stocks.
+
+517
+00:23:50,160 --> 00:23:53,979
+And when you do this, you get
+a whole bunch of possibilities.
+
+518
+00:23:53,979 --> 00:23:55,770
+And the idea behind
+modern portfolio theory
+
+519
+00:23:55,770 --> 00:23:58,760
+is you pick the one
+that you like the best.
+
+520
+00:23:58,760 --> 00:24:00,320
+And that's optimal for you.
+
+521
+00:24:03,480 --> 00:24:10,500
+Now let me graph this in that
+mean-standard deviation graph,
+
+522
+00:24:10,500 --> 00:24:14,020
+and you'll see something
+really interesting.
+
+523
+00:24:14,020 --> 00:24:19,550
+So here's General Motors
+and there is Motorola.
+
+524
+00:24:19,550 --> 00:24:22,520
+And what I've graphed
+with the red dots
+
+525
+00:24:22,520 --> 00:24:26,570
+is just the different
+combinations of 25/75,
+
+526
+00:24:26,570 --> 00:24:30,820
+50/50, 75/25, and so on.
+
+527
+00:24:30,820 --> 00:24:35,860
+And so the red dots that are
+strictly between 0 and 1,
+
+528
+00:24:35,860 --> 00:24:38,830
+where the weights are between
+0 and 1, those are the dots
+
+529
+00:24:38,830 --> 00:24:44,566
+contained in that arc
+between GM and Motorola.
+
+530
+00:24:44,566 --> 00:24:45,940
+So the first point
+I want to make
+
+531
+00:24:45,940 --> 00:24:52,370
+is that when you graph
+the risk/reward trade-off,
+
+532
+00:24:52,370 --> 00:24:55,430
+as I told you, it's not linear.
+
+533
+00:24:55,430 --> 00:24:56,540
+It's non-linear.
+
+534
+00:24:56,540 --> 00:24:58,470
+In fact, it's curved.
+
+535
+00:24:58,470 --> 00:25:00,950
+It looks like a bullet.
+
+536
+00:25:00,950 --> 00:25:01,450
+OK?
+
+537
+00:25:04,870 --> 00:25:06,670
+That tells you right
+away that there's
+
+538
+00:25:06,670 --> 00:25:09,970
+something more subtle
+about portfolio theory
+
+539
+00:25:09,970 --> 00:25:12,370
+than just taking
+weighted averages.
+
+540
+00:25:12,370 --> 00:25:17,620
+The means are weighted
+averages, but the variances
+
+541
+00:25:17,620 --> 00:25:21,027
+are not because of the
+covariance between them.
+
+542
+00:25:21,027 --> 00:25:22,610
+And then when you
+take the square root
+
+543
+00:25:22,610 --> 00:25:26,200
+to get the standard deviation,
+it looks a little bit more
+
+544
+00:25:26,200 --> 00:25:29,120
+complicated, yet again.
+
+545
+00:25:29,120 --> 00:25:30,920
+It looks like this.
+
+546
+00:25:30,920 --> 00:25:35,570
+Now that red dot that
+goes beyond Motorola,
+
+547
+00:25:35,570 --> 00:25:39,500
+that red dot is the case where
+you're shorting General Motors
+
+548
+00:25:39,500 --> 00:25:44,290
+and you're using the proceeds
+to take an extra large position
+
+549
+00:25:44,290 --> 00:25:45,350
+in Motorola.
+
+550
+00:25:45,350 --> 00:25:46,490
+OK?
+
+551
+00:25:46,490 --> 00:25:52,869
+So you're going beyond the
+Motorola risk/reward point.
+
+552
+00:25:52,869 --> 00:25:54,660
+So I need you to spend
+a little bit of time
+
+553
+00:25:54,660 --> 00:25:57,990
+now twisting your
+brain in a way that
+
+554
+00:25:57,990 --> 00:26:00,700
+makes this more understandable.
+
+555
+00:26:00,700 --> 00:26:04,420
+What I mean by that
+is that you have
+
+556
+00:26:04,420 --> 00:26:07,330
+to think about the weights
+of the various different
+
+557
+00:26:07,330 --> 00:26:08,380
+portfolios.
+
+558
+00:26:08,380 --> 00:26:11,050
+But the weights don't
+show up on this graph.
+
+559
+00:26:11,050 --> 00:26:12,550
+But I want you to
+keep those weights
+
+560
+00:26:12,550 --> 00:26:13,870
+in the back of your head.
+
+561
+00:26:13,870 --> 00:26:16,320
+So while you're
+looking at this graph,
+
+562
+00:26:16,320 --> 00:26:18,840
+you have to remember
+that as you move along,
+
+563
+00:26:18,840 --> 00:26:23,430
+that bullet, the omegas,
+the weights are changing.
+
+564
+00:26:23,430 --> 00:26:28,860
+So at the General Motors dot,
+your weight for General Motors
+
+565
+00:26:28,860 --> 00:26:32,590
+is a 100% and your
+weight for Motorola is 0.
+
+566
+00:26:32,590 --> 00:26:37,470
+At the Motorola dot, your
+weight for General Motors is 0
+
+567
+00:26:37,470 --> 00:26:41,360
+and your weight for
+Motorola is 100%.
+
+568
+00:26:41,360 --> 00:26:47,390
+And as you vary the weights,
+you trace this arc, this curve.
+
+569
+00:26:50,120 --> 00:26:53,000
+And as you go beyond either
+General Motors or Motorola--
+
+570
+00:26:53,000 --> 00:26:54,620
+in other words,
+as you short sell
+
+571
+00:26:54,620 --> 00:26:58,310
+one to invest more
+than 100% in the other,
+
+572
+00:26:58,310 --> 00:27:04,280
+you then go outside of the two
+points in either direction.
+
+573
+00:27:04,280 --> 00:27:06,800
+Right?
+
+574
+00:27:06,800 --> 00:27:09,140
+Any questions about this graph?
+
+575
+00:27:09,140 --> 00:27:09,922
+Yeah?
+
+576
+00:27:09,922 --> 00:27:16,190
+AUDIENCE: [INAUDIBLE]
+
+577
+00:27:16,190 --> 00:27:16,920
+ANDREW LO: OK.
+
+578
+00:27:16,920 --> 00:27:18,586
+So how do you calculate
+the correlation?
+
+579
+00:27:18,586 --> 00:27:19,740
+That's a good question.
+
+580
+00:27:19,740 --> 00:27:21,810
+Historically, the
+way you would do it
+
+581
+00:27:21,810 --> 00:27:23,790
+is exactly the way
+that these correlations
+
+582
+00:27:23,790 --> 00:27:25,530
+look like they're defined.
+
+583
+00:27:25,530 --> 00:27:29,460
+So in other words, you would
+calculate the covariance
+
+584
+00:27:29,460 --> 00:27:33,090
+by essentially taking
+a historical average
+
+585
+00:27:33,090 --> 00:27:35,650
+of these cross products.
+
+586
+00:27:35,650 --> 00:27:38,970
+So going back to the first slide
+in this particular lecture,
+
+587
+00:27:38,970 --> 00:27:41,291
+I gave you a formula that
+shows you how to do that.
+
+588
+00:27:41,291 --> 00:27:42,790
+Let me go back and
+take a look at it
+
+589
+00:27:42,790 --> 00:27:44,123
+so that you refresh your memory.
+
+590
+00:27:46,711 --> 00:27:47,210
+Let's see.
+
+591
+00:27:47,210 --> 00:27:48,570
+Oh, it was not in this lecture.
+
+592
+00:27:48,570 --> 00:27:49,890
+It was in the previous lecture.
+
+593
+00:27:49,890 --> 00:27:51,264
+In a previous
+lecture, I gave you
+
+594
+00:27:51,264 --> 00:27:53,190
+a formula that shows
+you how to calculate
+
+595
+00:27:53,190 --> 00:27:55,920
+the weighted average of this,
+or the historical average.
+
+596
+00:27:55,920 --> 00:27:58,320
+It's basically just
+taking historical data
+
+597
+00:27:58,320 --> 00:28:02,530
+and then estimating this
+quantity right here,
+
+598
+00:28:02,530 --> 00:28:03,780
+this particular cross product.
+
+599
+00:28:03,780 --> 00:28:05,820
+The omega weights come
+out, because that's
+
+600
+00:28:05,820 --> 00:28:07,080
+what you get to decide.
+
+601
+00:28:07,080 --> 00:28:11,580
+But the inside stuff, how
+to calculate that is simply
+
+602
+00:28:11,580 --> 00:28:17,820
+to take, historically, your
+actual return minus the mean
+
+603
+00:28:17,820 --> 00:28:26,520
+of i, Rjt minus the mean of
+j, and then take 1 over t,
+
+604
+00:28:26,520 --> 00:28:33,350
+and that's your estimator
+for the sigma hat ij.
+
+605
+00:28:33,350 --> 00:28:36,620
+So you get historical data and
+you would estimate the mean,
+
+606
+00:28:36,620 --> 00:28:39,600
+estimate the mean, take the
+cross products over time.
+
+607
+00:28:39,600 --> 00:28:44,990
+This t goes from 1 to t, and
+that gets you an estimator.
+
+608
+00:28:44,990 --> 00:28:47,000
+Is that the best estimator?
+
+609
+00:28:47,000 --> 00:28:50,150
+Not necessarily, because
+things change over time.
+
+610
+00:28:50,150 --> 00:28:51,720
+So you have to worry about that.
+
+611
+00:28:51,720 --> 00:28:53,870
+And that's what
+you learn in 15433,
+
+612
+00:28:53,870 --> 00:28:57,960
+how to actually implement a
+lot of these ideas using data.
+
+613
+00:28:57,960 --> 00:28:58,556
+Yeah?
+
+614
+00:28:58,556 --> 00:29:01,210
+AUDIENCE: [INAUDIBLE]
+
+615
+00:29:01,210 --> 00:29:01,960
+ANDREW LO: OK.
+
+616
+00:29:01,960 --> 00:29:06,860
+AUDIENCE: [INAUDIBLE]
+
+617
+00:29:06,860 --> 00:29:08,870
+ANDREW LO: OK.
+
+618
+00:29:08,870 --> 00:29:11,630
+So the question is, is there
+any recommended length of time
+
+619
+00:29:11,630 --> 00:29:14,480
+for which you would go
+about estimating the data,
+
+620
+00:29:14,480 --> 00:29:16,590
+estimating these
+quantities using the data?
+
+621
+00:29:16,590 --> 00:29:17,450
+The answer is no.
+
+622
+00:29:17,450 --> 00:29:21,020
+There's no recommended
+time, simply because you
+
+623
+00:29:21,020 --> 00:29:23,270
+have to trade off two things.
+
+624
+00:29:23,270 --> 00:29:25,670
+The longer time you
+have, the more accurate
+
+625
+00:29:25,670 --> 00:29:27,530
+your estimate is going to be.
+
+626
+00:29:27,530 --> 00:29:29,660
+In the limit, as t
+goes to infinity,
+
+627
+00:29:29,660 --> 00:29:31,660
+you'll get a perfect estimator.
+
+628
+00:29:31,660 --> 00:29:33,050
+OK?
+
+629
+00:29:33,050 --> 00:29:36,610
+However, that's
+under the assumption
+
+630
+00:29:36,610 --> 00:29:38,470
+that nothing ever changes.
+
+631
+00:29:38,470 --> 00:29:42,370
+And I'm pretty sure
+that beyond some t,
+
+632
+00:29:42,370 --> 00:29:45,970
+over let's say 150 or
+200 years, you know,
+
+633
+00:29:45,970 --> 00:29:50,360
+we didn't exist in terms
+of stock markets and data.
+
+634
+00:29:50,360 --> 00:29:52,690
+I don't think that, for
+example, General Motors
+
+635
+00:29:52,690 --> 00:29:54,310
+goes back 200 years.
+
+636
+00:29:54,310 --> 00:29:57,432
+So beyond some t, this is
+going to look very boring.
+
+637
+00:29:57,432 --> 00:29:59,140
+But the other thing
+you have to trade off
+
+638
+00:29:59,140 --> 00:30:02,080
+is the fact that market
+conditions change.
+
+639
+00:30:02,080 --> 00:30:05,440
+So General Motors today is
+not what General Motors was,
+
+640
+00:30:05,440 --> 00:30:06,860
+even 10 years ago.
+
+641
+00:30:06,860 --> 00:30:08,410
+So if you use lots
+of data, you're
+
+642
+00:30:08,410 --> 00:30:10,720
+going to build into
+your results what
+
+643
+00:30:10,720 --> 00:30:12,910
+are called non-stationarities.
+
+644
+00:30:12,910 --> 00:30:15,400
+And the bottom line is
+you have to balance off
+
+645
+00:30:15,400 --> 00:30:17,920
+the non-stationarities
+against the error
+
+646
+00:30:17,920 --> 00:30:20,470
+that you introduce by
+not using enough data.
+
+647
+00:30:20,470 --> 00:30:24,260
+And that really is
+where 15433 comes in.
+
+648
+00:30:24,260 --> 00:30:26,380
+So there are methods
+that we have developed
+
+649
+00:30:26,380 --> 00:30:27,880
+for balancing those two.
+
+650
+00:30:27,880 --> 00:30:30,370
+But the bottom line is that
+there isn't one single answer.
+
+651
+00:30:30,370 --> 00:30:33,130
+So it depends on how
+unstable the markets are
+
+652
+00:30:33,130 --> 00:30:38,400
+and how volatile the underlying
+estimates are, given the data.
+
+653
+00:30:38,400 --> 00:30:39,380
+Yeah?
+
+654
+00:30:39,380 --> 00:30:54,204
+AUDIENCE: [INAUDIBLE]
+
+655
+00:30:54,204 --> 00:30:55,120
+ANDREW LO: Well, sure.
+
+656
+00:30:55,120 --> 00:30:58,085
+You could try to
+include a full cycle.
+
+657
+00:30:58,085 --> 00:30:59,710
+But then you're left
+with the question,
+
+658
+00:30:59,710 --> 00:31:01,690
+the full cycle of what?
+
+659
+00:31:01,690 --> 00:31:03,730
+For example, there
+are these things
+
+660
+00:31:03,730 --> 00:31:06,610
+called Kondratiev
+cycles that claim to be
+
+661
+00:31:06,610 --> 00:31:09,530
+something like 50 year periods.
+
+662
+00:31:09,530 --> 00:31:11,320
+So if you want to
+include one of those,
+
+663
+00:31:11,320 --> 00:31:13,810
+you've got to include
+50 years of data.
+
+664
+00:31:13,810 --> 00:31:15,700
+But do you really think
+that General Motors
+
+665
+00:31:15,700 --> 00:31:18,160
+is the same company
+over those 50 years?
+
+666
+00:31:18,160 --> 00:31:21,160
+You're building in a
+lot of bias in terms
+
+667
+00:31:21,160 --> 00:31:24,820
+of the non-stationarity
+of one aspect,
+
+668
+00:31:24,820 --> 00:31:26,950
+while incorporating
+the stationarities
+
+669
+00:31:26,950 --> 00:31:28,570
+of another aspect.
+
+670
+00:31:28,570 --> 00:31:30,880
+So how do you balance
+off those two, right?
+
+671
+00:31:30,880 --> 00:31:33,280
+This is where it
+gets more complex.
+
+672
+00:31:33,280 --> 00:31:36,130
+And you have to take a stand on
+the kind of non-stationarities
+
+673
+00:31:36,130 --> 00:31:38,180
+that are in the data.
+
+674
+00:31:38,180 --> 00:31:39,213
+Other questions?
+
+675
+00:31:39,213 --> 00:31:40,139
+Yeah?
+
+676
+00:31:40,139 --> 00:31:52,542
+AUDIENCE: [INAUDIBLE]
+
+677
+00:31:52,542 --> 00:31:54,500
+ANDREW LO: Well, first
+of all, we're not trying
+
+678
+00:31:54,500 --> 00:31:55,770
+to predict the stock market.
+
+679
+00:31:55,770 --> 00:31:57,311
+Remember, we're not
+trying to predict
+
+680
+00:31:57,311 --> 00:31:58,880
+where markets are going to go.
+
+681
+00:31:58,880 --> 00:32:01,040
+What we're suggesting
+is that there
+
+682
+00:32:01,040 --> 00:32:06,030
+are underlying parameters of the
+data that are stable over time.
+
+683
+00:32:06,030 --> 00:32:08,570
+So in other words, the stocks
+can go up or down, right?
+
+684
+00:32:08,570 --> 00:32:12,740
+But on average, they
+have some level of return
+
+685
+00:32:12,740 --> 00:32:15,330
+that people expect,
+given their risk.
+
+686
+00:32:15,330 --> 00:32:17,060
+That's what we're
+assuming is stable.
+
+687
+00:32:17,060 --> 00:32:19,190
+Similarly, covariances.
+
+688
+00:32:19,190 --> 00:32:21,470
+Stocks can go up or
+down in relationship
+
+689
+00:32:21,470 --> 00:32:22,940
+to other stocks
+going down or up.
+
+690
+00:32:22,940 --> 00:32:24,940
+We don't know what's going
+to happen day to day.
+
+691
+00:32:24,940 --> 00:32:28,310
+But over a period
+of time, it seems
+
+692
+00:32:28,310 --> 00:32:32,240
+like there's a pattern where
+most stocks on the New York
+
+693
+00:32:32,240 --> 00:32:34,580
+and American stock
+exchanges and NASDAQ,
+
+694
+00:32:34,580 --> 00:32:36,620
+they seem to go up together
+and they seem to go
+
+695
+00:32:36,620 --> 00:32:38,684
+down together, on average.
+
+696
+00:32:38,684 --> 00:32:40,100
+So that's what,
+really, what we're
+
+697
+00:32:40,100 --> 00:32:42,590
+trying to distill from the data.
+
+698
+00:32:42,590 --> 00:32:44,870
+It's very different
+than trying to forecast
+
+699
+00:32:44,870 --> 00:32:47,516
+what's going to happen with
+the stock market next week.
+
+700
+00:32:47,516 --> 00:32:49,640
+And this, I told you, is
+the fundamental difference
+
+701
+00:32:49,640 --> 00:32:52,310
+between academic finance
+and Warren Buffett.
+
+702
+00:32:52,310 --> 00:32:55,430
+Warren Buffett is
+all about prediction.
+
+703
+00:32:55,430 --> 00:32:58,670
+He's not about creating
+a good portfolio that
+
+704
+00:32:58,670 --> 00:33:01,130
+will be worth something
+reasonable over a period
+
+705
+00:33:01,130 --> 00:33:01,670
+of time.
+
+706
+00:33:01,670 --> 00:33:03,920
+What he wants to do is he
+wants to beat the market.
+
+707
+00:33:03,920 --> 00:33:06,429
+He wants to find undervalued
+stocks, invest in them,
+
+708
+00:33:06,429 --> 00:33:08,720
+and then sell them when they
+actually reach equilibrium
+
+709
+00:33:08,720 --> 00:33:10,010
+or become overvalued.
+
+710
+00:33:10,010 --> 00:33:10,760
+Right?
+
+711
+00:33:10,760 --> 00:33:12,966
+That's a very different
+approach and perspective
+
+712
+00:33:12,966 --> 00:33:14,090
+than what we're doing here.
+
+713
+00:33:14,090 --> 00:33:17,534
+So that's a good question, and
+it highlights that distinction.
+
+714
+00:33:17,534 --> 00:33:18,502
+Yeah?
+
+715
+00:33:18,502 --> 00:33:25,239
+AUDIENCE: [INAUDIBLE]
+
+716
+00:33:25,239 --> 00:33:26,280
+ANDREW LO: Yes, there is.
+
+717
+00:33:26,280 --> 00:33:29,880
+And there have been many studies
+that have been done on it.
+
+718
+00:33:29,880 --> 00:33:32,720
+And that is beyond the
+scope of this course.
+
+719
+00:33:32,720 --> 00:33:35,520
+So I'm going to refer
+you, again, to 15433.
+
+720
+00:33:35,520 --> 00:33:37,292
+But I will tell you,
+at the end of this,
+
+721
+00:33:37,292 --> 00:33:39,750
+once I get through this and
+make sure everybody is with me,
+
+722
+00:33:39,750 --> 00:33:42,600
+I will tell you how
+this works in practice.
+
+723
+00:33:42,600 --> 00:33:43,440
+OK?
+
+724
+00:33:43,440 --> 00:33:45,150
+So I'll talk a bit
+about applications.
+
+725
+00:33:45,150 --> 00:33:46,900
+But first I want to
+get through the theory
+
+726
+00:33:46,900 --> 00:33:48,480
+to make sure we
+all understand it.
+
+727
+00:33:48,480 --> 00:33:49,500
+All right.
+
+728
+00:33:49,500 --> 00:33:52,620
+So we now have this bullet.
+
+729
+00:33:52,620 --> 00:33:58,830
+And the bullet obviously
+depends on all the parameters.
+
+730
+00:33:58,830 --> 00:34:02,220
+But in particular, it
+depends upon the correlation.
+
+731
+00:34:02,220 --> 00:34:05,630
+The reason that there
+is a bullet shape
+
+732
+00:34:05,630 --> 00:34:08,840
+is because there is a
+correlation between these two
+
+733
+00:34:08,840 --> 00:34:09,719
+stocks.
+
+734
+00:34:09,719 --> 00:34:12,620
+And by the way, this correlation
+and this bullet shape
+
+735
+00:34:12,620 --> 00:34:13,940
+is really important.
+
+736
+00:34:13,940 --> 00:34:14,960
+OK?
+
+737
+00:34:14,960 --> 00:34:18,290
+I'll tell you why
+it's really important.
+
+738
+00:34:18,290 --> 00:34:21,860
+Take a look at a vertical
+slice, a vertical line
+
+739
+00:34:21,860 --> 00:34:24,110
+going through the GM dot.
+
+740
+00:34:27,320 --> 00:34:33,110
+That vertical line is
+the riskiness of GM.
+
+741
+00:34:33,110 --> 00:34:33,610
+Right?
+
+742
+00:34:33,610 --> 00:34:36,730
+It's the standard
+deviation of GM.
+
+743
+00:34:36,730 --> 00:34:41,650
+One of the things that you'll
+notice about this graph
+
+744
+00:34:41,650 --> 00:34:45,130
+is that if you only had two
+stocks available to you, GM
+
+745
+00:34:45,130 --> 00:34:51,100
+and Motorola, the least amount
+of risk that you could possibly
+
+746
+00:34:51,100 --> 00:34:56,219
+create for yourself is if you
+put 100% in General Motors.
+
+747
+00:34:56,219 --> 00:34:59,540
+In other words, if all you
+cared about was going west,
+
+748
+00:34:59,540 --> 00:35:02,190
+the most extreme
+west you can go other
+
+749
+00:35:02,190 --> 00:35:03,810
+than putting your
+money in T-bills
+
+750
+00:35:03,810 --> 00:35:08,630
+over here, the most extreme west
+you can go is General Motors.
+
+751
+00:35:08,630 --> 00:35:10,870
+You can't get any
+less risky than that.
+
+752
+00:35:10,870 --> 00:35:11,390
+Yeah?
+
+753
+00:35:11,390 --> 00:35:12,700
+Question?
+
+754
+00:35:12,700 --> 00:35:23,600
+AUDIENCE: [INAUDIBLE]
+
+755
+00:35:23,600 --> 00:35:29,870
+ANDREW LO: What I'm
+saying is, if you
+
+756
+00:35:29,870 --> 00:35:32,690
+are trying to get less
+risky as possible,
+
+757
+00:35:32,690 --> 00:35:35,990
+and you only had General
+Motors or Motorola,
+
+758
+00:35:35,990 --> 00:35:39,300
+then the most west you
+can go is General Motors.
+
+759
+00:35:39,300 --> 00:35:39,800
+Right?
+
+760
+00:35:39,800 --> 00:35:41,200
+That's all.
+
+761
+00:35:41,200 --> 00:35:46,280
+However, however, this
+is the important point.
+
+762
+00:35:46,280 --> 00:35:49,510
+If now I let you take
+weighted averages of the two,
+
+763
+00:35:49,510 --> 00:35:53,050
+if I give you the right
+to form a portfolio,
+
+764
+00:35:53,050 --> 00:36:00,370
+then you can get a dot,
+which is this dot right here.
+
+765
+00:36:00,370 --> 00:36:04,710
+That dot, everybody in
+this room should prefer
+
+766
+00:36:04,710 --> 00:36:06,660
+that dot to General Motors.
+
+767
+00:36:06,660 --> 00:36:07,740
+Why?
+
+768
+00:36:07,740 --> 00:36:12,110
+Because it's less risk
+than General Motors,
+
+769
+00:36:12,110 --> 00:36:14,767
+but it's also higher return.
+
+770
+00:36:14,767 --> 00:36:16,850
+There's no downside, at
+least from the perspective
+
+771
+00:36:16,850 --> 00:36:18,141
+of mean and standard deviation.
+
+772
+00:36:18,141 --> 00:36:20,690
+There may be other reasons
+you don't like that dot.
+
+773
+00:36:20,690 --> 00:36:23,330
+But if all you care about is
+mean and standard deviation,
+
+774
+00:36:23,330 --> 00:36:27,320
+that dot is strictly preferred.
+
+775
+00:36:27,320 --> 00:36:29,150
+So I just made all
+of you better off
+
+776
+00:36:29,150 --> 00:36:31,250
+with this piece of knowledge.
+
+777
+00:36:31,250 --> 00:36:33,440
+Just by telling you
+how to weight these two
+
+778
+00:36:33,440 --> 00:36:36,560
+stocks and the fact that they've
+got some kind of correlation,
+
+779
+00:36:36,560 --> 00:36:40,670
+I've given you a mechanism
+of reducing your risk and,
+
+780
+00:36:40,670 --> 00:36:44,790
+and increasing your expected
+rate of return, both.
+
+781
+00:36:44,790 --> 00:36:45,290
+OK?
+
+782
+00:36:45,290 --> 00:36:46,756
+So if you were
+really risk averse,
+
+783
+00:36:46,756 --> 00:36:48,380
+if you said to
+yourself, you know what?
+
+784
+00:36:48,380 --> 00:36:50,240
+I don't want all this
+fancy stock picking.
+
+785
+00:36:50,240 --> 00:36:54,420
+Just give me the least
+risky stock of the two.
+
+786
+00:36:54,420 --> 00:36:56,487
+Then you'd be at General Motors.
+
+787
+00:36:56,487 --> 00:36:58,570
+And then if I came to you
+and said, you know what?
+
+788
+00:36:58,570 --> 00:36:59,861
+I can do even better than that.
+
+789
+00:36:59,861 --> 00:37:01,800
+I can get even less risk
+than General Motors.
+
+790
+00:37:01,800 --> 00:37:05,730
+And at the same time, I'm going
+to give you higher return.
+
+791
+00:37:05,730 --> 00:37:10,770
+So right there, the
+value of portfolio theory
+
+792
+00:37:10,770 --> 00:37:12,460
+is pretty clear.
+
+793
+00:37:12,460 --> 00:37:14,908
+It gives you options
+you did not have.
+
+794
+00:37:14,908 --> 00:37:15,864
+Yeah?
+
+795
+00:37:15,864 --> 00:37:29,064
+AUDIENCE: [INAUDIBLE]
+
+796
+00:37:29,064 --> 00:37:29,730
+ANDREW LO: Yeah.
+
+797
+00:37:29,730 --> 00:37:36,010
+AUDIENCE: [INAUDIBLE]
+
+798
+00:37:36,010 --> 00:37:37,010
+ANDREW LO: That's right.
+
+799
+00:37:37,010 --> 00:37:37,551
+That's right.
+
+800
+00:37:37,551 --> 00:37:40,034
+When you have correlations
+that are unstable over time
+
+801
+00:37:40,034 --> 00:37:42,450
+and you didn't account for
+them, you can get into trouble.
+
+802
+00:37:42,450 --> 00:37:43,210
+OK?
+
+803
+00:37:43,210 --> 00:37:46,151
+Again, let's come back to that
+after I go through all of this.
+
+804
+00:37:46,151 --> 00:37:46,650
+All right?
+
+805
+00:37:46,650 --> 00:37:49,200
+So, just if this is a clarifying
+question, I'll answer.
+
+806
+00:37:49,200 --> 00:37:53,130
+But extensions, let's wait until
+we actually go through this.
+
+807
+00:37:53,130 --> 00:37:53,880
+OK.
+
+808
+00:37:53,880 --> 00:37:59,190
+So let me talk about the General
+Motors and Motorola example,
+
+809
+00:37:59,190 --> 00:38:02,640
+but now where I am going to
+tell you that correlations
+
+810
+00:38:02,640 --> 00:38:04,360
+are changing over time.
+
+811
+00:38:04,360 --> 00:38:06,709
+So let's do the example
+that Lewis wants us to do.
+
+812
+00:38:06,709 --> 00:38:08,250
+Let's actually assume
+the correlation
+
+813
+00:38:08,250 --> 00:38:11,200
+is, I don't know,
+0 or 1 or minus 1.
+
+814
+00:38:11,200 --> 00:38:13,570
+Let's go through all three
+cases and see what happens.
+
+815
+00:38:13,570 --> 00:38:17,350
+You'll see some remarkable
+things coming out of this.
+
+816
+00:38:17,350 --> 00:38:22,690
+If the correlation is 0,
+then it's pretty easy for you
+
+817
+00:38:22,690 --> 00:38:26,080
+to just plug in 0
+for that correlation
+
+818
+00:38:26,080 --> 00:38:27,580
+in that second equation.
+
+819
+00:38:27,580 --> 00:38:29,740
+And all you get are
+the first two terms
+
+820
+00:38:29,740 --> 00:38:31,750
+of that variance expression.
+
+821
+00:38:31,750 --> 00:38:32,440
+Right?
+
+822
+00:38:32,440 --> 00:38:34,956
+So when you assume that the--
+
+823
+00:38:34,956 --> 00:38:36,580
+when you assume that
+the correlation is
+
+824
+00:38:36,580 --> 00:38:39,940
+0, when this thing
+is 0, what happens
+
+825
+00:38:39,940 --> 00:38:42,430
+is that this entire
+term goes away
+
+826
+00:38:42,430 --> 00:38:45,220
+and all you have are
+the first two terms.
+
+827
+00:38:45,220 --> 00:38:46,960
+That's this column
+right over here.
+
+828
+00:38:46,960 --> 00:38:47,620
+OK?
+
+829
+00:38:47,620 --> 00:38:49,900
+So I've just produced
+the previous table
+
+830
+00:38:49,900 --> 00:38:54,600
+but with the assumption of 0
+correlation, and I get that.
+
+831
+00:38:54,600 --> 00:38:56,350
+Now I'm not going to
+graph it for you yet.
+
+832
+00:38:56,350 --> 00:38:58,330
+I want to just show you
+what happens when you
+
+833
+00:38:58,330 --> 00:39:00,320
+choose different assumptions.
+
+834
+00:39:00,320 --> 00:39:01,750
+So that's one assumption.
+
+835
+00:39:01,750 --> 00:39:04,000
+On the other hand, if I
+choose a different assumption,
+
+836
+00:39:04,000 --> 00:39:06,730
+if I choose the assumption
+that the correlation is,
+
+837
+00:39:06,730 --> 00:39:08,440
+let's say 1--
+
+838
+00:39:08,440 --> 00:39:11,020
+so in other words, they
+are perfectly correlated--
+
+839
+00:39:11,020 --> 00:39:13,945
+then I'm going to get,
+I'm going to get this.
+
+840
+00:39:18,550 --> 00:39:22,600
+I'm going to get
+this becoming 1,
+
+841
+00:39:22,600 --> 00:39:24,760
+and then I'll get
+another simplification
+
+842
+00:39:24,760 --> 00:39:26,650
+of this expression.
+
+843
+00:39:26,650 --> 00:39:30,130
+And similarly, if I assume that
+the correlation is minus 1,
+
+844
+00:39:30,130 --> 00:39:32,680
+then I'm going to get yet
+another simplification
+
+845
+00:39:32,680 --> 00:39:33,520
+of this expression.
+
+846
+00:39:33,520 --> 00:39:35,930
+It's an algebra that I'll
+show you in a minute.
+
+847
+00:39:35,930 --> 00:39:38,410
+But this is what I'm doing
+in these three columns.
+
+848
+00:39:38,410 --> 00:39:41,260
+I'm assuming different values
+of correlation between General
+
+849
+00:39:41,260 --> 00:39:44,410
+Motors and Motorola,
+and then computing
+
+850
+00:39:44,410 --> 00:39:47,390
+the standard deviation of the
+portfolio using this formula.
+
+851
+00:39:47,390 --> 00:39:47,890
+OK?
+
+852
+00:39:47,890 --> 00:39:51,130
+So you can all do this at
+home, do this in a spreadsheet.
+
+853
+00:39:51,130 --> 00:39:55,650
+It's going to be very
+easy to check my work.
+
+854
+00:39:55,650 --> 00:39:58,570
+But I want to show you the
+graph because that's really,
+
+855
+00:39:58,570 --> 00:40:02,530
+I think, the insightful
+intuition here.
+
+856
+00:40:02,530 --> 00:40:04,250
+Look at the graphs.
+
+857
+00:40:04,250 --> 00:40:08,410
+These are the graphs of
+the three different cases
+
+858
+00:40:08,410 --> 00:40:13,210
+of zero correlation,
+perfect correlation,
+
+859
+00:40:13,210 --> 00:40:15,820
+and perfect negative
+correlation.
+
+860
+00:40:15,820 --> 00:40:17,830
+I want to go to each
+one of these with you.
+
+861
+00:40:17,830 --> 00:40:20,710
+So the case of perfect
+positive correlation,
+
+862
+00:40:20,710 --> 00:40:25,000
+it turns out that the
+risk/reward trade off is
+
+863
+00:40:25,000 --> 00:40:27,410
+actually just a straight line.
+
+864
+00:40:27,410 --> 00:40:29,230
+It gets really, really simple.
+
+865
+00:40:29,230 --> 00:40:31,350
+It's just a straight line.
+
+866
+00:40:31,350 --> 00:40:35,089
+So in particular, there
+is no non-linearity.
+
+867
+00:40:35,089 --> 00:40:37,380
+Because if they're perfectly
+correlated, you know what?
+
+868
+00:40:37,380 --> 00:40:40,182
+You basically have
+virtually the same stock.
+
+869
+00:40:40,182 --> 00:40:41,640
+The only difference
+is that they're
+
+870
+00:40:41,640 --> 00:40:43,180
+different scales of each other.
+
+871
+00:40:43,180 --> 00:40:43,950
+Right?
+
+872
+00:40:43,950 --> 00:40:45,706
+But if they're
+perfectly correlated,
+
+873
+00:40:45,706 --> 00:40:48,330
+that means that there's a linear
+relationship between those two
+
+874
+00:40:48,330 --> 00:40:49,320
+stocks.
+
+875
+00:40:49,320 --> 00:40:52,820
+And so when you do this
+mean variance analysis,
+
+876
+00:40:52,820 --> 00:40:54,900
+in mean variance
+space, you basically
+
+877
+00:40:54,900 --> 00:40:58,790
+get no nonlinear-- you
+don't get that little bump,
+
+878
+00:40:58,790 --> 00:41:01,470
+the little bullet
+that we saw before.
+
+879
+00:41:01,470 --> 00:41:01,970
+Right?
+
+880
+00:41:01,970 --> 00:41:05,580
+So there's no way you can get
+less risk than General Motors
+
+881
+00:41:05,580 --> 00:41:08,580
+unless you end up shorting
+Motorola and putting it
+
+882
+00:41:08,580 --> 00:41:09,330
+in General Motors.
+
+883
+00:41:09,330 --> 00:41:13,350
+And then your expected
+return goes down,
+
+884
+00:41:13,350 --> 00:41:15,941
+as well as your risk.
+
+885
+00:41:15,941 --> 00:41:16,440
+All right.
+
+886
+00:41:16,440 --> 00:41:22,040
+Now let's take the case where
+you've got no correlation.
+
+887
+00:41:22,040 --> 00:41:24,590
+It turns out that if
+you have no correlation,
+
+888
+00:41:24,590 --> 00:41:26,870
+you get the bullet.
+
+889
+00:41:26,870 --> 00:41:31,430
+But the bullet is even
+more wedge shaped.
+
+890
+00:41:31,430 --> 00:41:34,970
+What that means is that you
+can reduce even more risk
+
+891
+00:41:34,970 --> 00:41:36,220
+without getting rid of return.
+
+892
+00:41:36,220 --> 00:41:39,080
+Remember the red dot that we
+saw in the previous slide?
+
+893
+00:41:39,080 --> 00:41:40,190
+This red dot?
+
+894
+00:41:40,190 --> 00:41:43,710
+Well, in the case where
+you've got 0 correlation--
+
+895
+00:41:43,710 --> 00:41:46,980
+this is the case where the
+correlation is 0.37, 37%.
+
+896
+00:41:46,980 --> 00:41:47,480
+Right?
+
+897
+00:41:47,480 --> 00:41:48,980
+That's what the data tells us.
+
+898
+00:41:48,980 --> 00:41:52,000
+But if you assume that
+the correlation was zero,
+
+899
+00:41:52,000 --> 00:41:56,900
+you would get even more
+of a savings of volatility
+
+900
+00:41:56,900 --> 00:41:59,100
+for a given level
+of expected return.
+
+901
+00:41:59,100 --> 00:41:59,600
+OK?
+
+902
+00:41:59,600 --> 00:42:01,310
+So it would look like this.
+
+903
+00:42:01,310 --> 00:42:02,840
+You see how this
+bullet sticks out
+
+904
+00:42:02,840 --> 00:42:05,210
+a lot more than the
+previous red dot that
+
+905
+00:42:05,210 --> 00:42:07,070
+was somewhere over here?
+
+906
+00:42:07,070 --> 00:42:09,220
+OK?
+
+907
+00:42:09,220 --> 00:42:11,170
+Now let's continue.
+
+908
+00:42:11,170 --> 00:42:14,560
+Suppose the correlation
+is minus 50%.
+
+909
+00:42:14,560 --> 00:42:19,600
+Then you get an
+even wider bullet,
+
+910
+00:42:19,600 --> 00:42:23,110
+that sticks out even
+more, that saves you
+
+911
+00:42:23,110 --> 00:42:24,310
+more standard deviation.
+
+912
+00:42:24,310 --> 00:42:26,690
+You're getting to
+the west even more.
+
+913
+00:42:26,690 --> 00:42:30,110
+And finally, and here is where
+you get a really remarkable
+
+914
+00:42:30,110 --> 00:42:36,700
+result. If the
+correlation is minus 100%,
+
+915
+00:42:36,700 --> 00:42:38,310
+you know what you get?
+
+916
+00:42:38,310 --> 00:42:41,510
+You get a piecewise
+linear trade off.
+
+917
+00:42:41,510 --> 00:42:46,060
+You get this and that.
+
+918
+00:42:46,060 --> 00:42:48,100
+It doesn't turn into a wedge.
+
+919
+00:42:48,100 --> 00:42:52,630
+It turns into a triangle that
+actually hits the x-axis.
+
+920
+00:42:52,630 --> 00:42:54,850
+And the reason this is
+such a startling result
+
+921
+00:42:54,850 --> 00:42:58,030
+is it tells us that
+there exists a way
+
+922
+00:42:58,030 --> 00:43:02,710
+to construct a portfolio that
+gives us a rate of return
+
+923
+00:43:02,710 --> 00:43:09,410
+of like 1.39% with no risk.
+
+924
+00:43:09,410 --> 00:43:12,920
+Zero risk.
+
+925
+00:43:12,920 --> 00:43:14,390
+1.39%.
+
+926
+00:43:14,390 --> 00:43:18,200
+Let's just call it 1.3%
+to be conservative.
+
+927
+00:43:18,200 --> 00:43:21,530
+Multiply that by
+12 and you're going
+
+928
+00:43:21,530 --> 00:43:23,600
+to get something like what?
+
+929
+00:43:23,600 --> 00:43:26,980
+16% a year?
+
+930
+00:43:26,980 --> 00:43:29,950
+You tell me if you know of any
+investment opportunities that
+
+931
+00:43:29,950 --> 00:43:33,490
+gives you a return of
+16% a year with no risk,
+
+932
+00:43:33,490 --> 00:43:36,070
+and I'll examine that
+for you carefully.
+
+933
+00:43:36,070 --> 00:43:38,290
+OK?
+
+934
+00:43:38,290 --> 00:43:40,480
+It doesn't exist, of course.
+
+935
+00:43:40,480 --> 00:43:42,250
+The reason it doesn't
+exist is because you
+
+936
+00:43:42,250 --> 00:43:48,860
+can't find two assets that have
+perfect negative correlation.
+
+937
+00:43:48,860 --> 00:43:51,890
+If you could, there
+are wondrous things
+
+938
+00:43:51,890 --> 00:43:55,310
+you could achieve
+with that combination.
+
+939
+00:43:55,310 --> 00:43:58,400
+And portfolio theory
+basically tells us how, right?
+
+940
+00:43:58,400 --> 00:44:03,930
+This is a recipe book for
+how to exploit correlation.
+
+941
+00:44:03,930 --> 00:44:04,430
+All right?
+
+942
+00:44:04,430 --> 00:44:07,040
+Now again, I can't
+tell you where
+
+943
+00:44:07,040 --> 00:44:09,110
+you should be on
+this curve other
+
+944
+00:44:09,110 --> 00:44:13,030
+than if it's really minus
+1, then I would be here.
+
+945
+00:44:13,030 --> 00:44:13,790
+OK?
+
+946
+00:44:13,790 --> 00:44:16,020
+Lots of return, no risk.
+
+947
+00:44:16,020 --> 00:44:17,990
+That's an arbitrage.
+
+948
+00:44:17,990 --> 00:44:19,780
+We know that that
+can't possibly happen.
+
+949
+00:44:19,780 --> 00:44:20,696
+There's no free lunch.
+
+950
+00:44:20,696 --> 00:44:24,650
+There's no arbitrage, on
+average, over circumstances.
+
+951
+00:44:24,650 --> 00:44:28,220
+However, if the
+bullet is minus 0.5,
+
+952
+00:44:28,220 --> 00:44:30,890
+then you've got
+lots of opportunity
+
+953
+00:44:30,890 --> 00:44:35,240
+to create really attractive
+portfolios that doesn't require
+
+954
+00:44:35,240 --> 00:44:36,890
+Warren Buffett's skills.
+
+955
+00:44:36,890 --> 00:44:38,431
+There's no forecasting here.
+
+956
+00:44:38,431 --> 00:44:38,930
+Right?
+
+957
+00:44:38,930 --> 00:44:40,264
+We're not trying to pick stocks.
+
+958
+00:44:40,264 --> 00:44:42,180
+We're not trying to see
+how the market's going
+
+959
+00:44:42,180 --> 00:44:43,070
+to do next month.
+
+960
+00:44:43,070 --> 00:44:44,540
+Who knows?
+
+961
+00:44:44,540 --> 00:44:47,480
+All we're assuming is
+that means and variances
+
+962
+00:44:47,480 --> 00:44:50,990
+are stable over time,
+and the correlation
+
+963
+00:44:50,990 --> 00:44:51,980
+is stable over time.
+
+964
+00:44:51,980 --> 00:44:55,070
+Those are nontrivial
+assumptions, I grant you.
+
+965
+00:44:55,070 --> 00:44:56,750
+But if you believe
+in those assumptions
+
+966
+00:44:56,750 --> 00:44:58,700
+more than you believe
+in your ability
+
+967
+00:44:58,700 --> 00:45:01,100
+to forecast what's going
+to happen to General Motors
+
+968
+00:45:01,100 --> 00:45:03,710
+six months from now, then
+this might be a good way
+
+969
+00:45:03,710 --> 00:45:05,330
+to construct a portfolio.
+
+970
+00:45:05,330 --> 00:45:07,970
+But I haven't told you where
+on this curve you ought to be.
+
+971
+00:45:07,970 --> 00:45:10,620
+I just told you how to
+construct that curve.
+
+972
+00:45:10,620 --> 00:45:11,120
+All right?
+
+973
+00:45:11,120 --> 00:45:13,310
+It's your job to look
+at the curve and say,
+
+974
+00:45:13,310 --> 00:45:16,080
+I like this point,
+or I like that point,
+
+975
+00:45:16,080 --> 00:45:18,230
+based upon your own
+personal preferences
+
+976
+00:45:18,230 --> 00:45:19,640
+for risk and reward.
+
+977
+00:45:19,640 --> 00:45:23,180
+So we're not there yet where
+I can tell you how to behave.
+
+978
+00:45:23,180 --> 00:45:25,750
+I will get there in about
+a lecture and a half.
+
+979
+00:45:25,750 --> 00:45:27,890
+But we've got to build
+up the infrastructure
+
+980
+00:45:27,890 --> 00:45:29,420
+to be able to get us there.
+
+981
+00:45:29,420 --> 00:45:30,170
+OK.
+
+982
+00:45:30,170 --> 00:45:32,180
+So what this tells
+us is that we need
+
+983
+00:45:32,180 --> 00:45:35,420
+to know what the correlation
+is in order to figure out
+
+984
+00:45:35,420 --> 00:45:38,600
+where we are going to be on
+these different curves, which
+
+985
+00:45:38,600 --> 00:45:40,760
+curve is going to apply.
+
+986
+00:45:40,760 --> 00:45:43,220
+When you have lots
+of correlation,
+
+987
+00:45:43,220 --> 00:45:46,670
+a correlation of 1, there
+really isn't much of a risk
+
+988
+00:45:46,670 --> 00:45:49,280
+savings per unit return.
+
+989
+00:45:49,280 --> 00:45:53,960
+We can't get a lower risk
+for a given level of return.
+
+990
+00:45:53,960 --> 00:45:59,660
+But we can if there is less
+correlation than perfect.
+
+991
+00:45:59,660 --> 00:46:03,680
+And these are the different
+curves that illustrate that.
+
+992
+00:46:03,680 --> 00:46:05,180
+OK.
+
+993
+00:46:05,180 --> 00:46:07,940
+So there are some other
+examples that I'd like you
+
+994
+00:46:07,940 --> 00:46:09,450
+to work through on your own.
+
+995
+00:46:09,450 --> 00:46:11,390
+This is another
+portfolio calculation.
+
+996
+00:46:11,390 --> 00:46:14,690
+Just go through the same
+calculations that we did here.
+
+997
+00:46:14,690 --> 00:46:17,510
+And you know, you'll graph the
+different risk/reward trade off
+
+998
+00:46:17,510 --> 00:46:20,120
+between these two, General
+Dynamics and Motorola.
+
+999
+00:46:20,120 --> 00:46:22,580
+And you can get exactly
+the same analysis
+
+1000
+00:46:22,580 --> 00:46:26,450
+with those two stocks,
+General Dynamics and Motorola.
+
+1001
+00:46:26,450 --> 00:46:29,200
+OK?
+
+1002
+00:46:29,200 --> 00:46:33,080
+Now what about if you
+got a risk free rate?
+
+1003
+00:46:33,080 --> 00:46:36,760
+So suppose that the two
+assets that I want to look at
+
+1004
+00:46:36,760 --> 00:46:40,750
+is not General Motors and
+Motorola, but rather the stock
+
+1005
+00:46:40,750 --> 00:46:44,700
+market and treasury bills.
+
+1006
+00:46:44,700 --> 00:46:47,710
+Then what does your risk/reward
+trade off look like?
+
+1007
+00:46:47,710 --> 00:46:51,180
+Well, it turns out that in the
+case where treasury bills are
+
+1008
+00:46:51,180 --> 00:46:57,070
+in question, the volatility
+of treasury bills
+
+1009
+00:46:57,070 --> 00:46:59,260
+is virtually zero.
+
+1010
+00:46:59,260 --> 00:47:01,420
+It's not exactly
+zero because there
+
+1011
+00:47:01,420 --> 00:47:04,450
+may be some kind of randomness
+in the underlying rates
+
+1012
+00:47:04,450 --> 00:47:07,000
+of return because of
+inflationary expectations.
+
+1013
+00:47:07,000 --> 00:47:11,050
+But as an approximation,
+if it's a risk free rate
+
+1014
+00:47:11,050 --> 00:47:13,780
+and you know that you're going
+to get that risk free rate,
+
+1015
+00:47:13,780 --> 00:47:16,450
+then the volatility
+of that return
+
+1016
+00:47:16,450 --> 00:47:19,940
+is in fact 0 over
+that period of time.
+
+1017
+00:47:19,940 --> 00:47:23,860
+So in that case, the expected
+rate of return of a portfolio
+
+1018
+00:47:23,860 --> 00:47:25,990
+between the stock
+market and T-bills,
+
+1019
+00:47:25,990 --> 00:47:27,520
+that's the weighted average.
+
+1020
+00:47:27,520 --> 00:47:31,300
+But the variance is going to
+be very simple because it's
+
+1021
+00:47:31,300 --> 00:47:34,150
+going to be the variance
+of 1, which is 0,
+
+1022
+00:47:34,150 --> 00:47:36,850
+plus the variance
+of the other, plus 2
+
+1023
+00:47:36,850 --> 00:47:41,260
+times the weighted average
+times the covariance.
+
+1024
+00:47:41,260 --> 00:47:42,560
+But there is no covariance.
+
+1025
+00:47:42,560 --> 00:47:43,060
+Right?
+
+1026
+00:47:43,060 --> 00:47:45,250
+There's no correlation
+because one of the things
+
+1027
+00:47:45,250 --> 00:47:47,290
+is non-random.
+
+1028
+00:47:47,290 --> 00:47:51,670
+And so when you work out
+the weights for the two
+
+1029
+00:47:51,670 --> 00:47:55,846
+and you graph
+them, you get this.
+
+1030
+00:47:55,846 --> 00:48:00,860
+This is a beautiful thing, nice
+and simple, no weird curves
+
+1031
+00:48:00,860 --> 00:48:03,320
+or any kind of bullet shape.
+
+1032
+00:48:03,320 --> 00:48:05,370
+You've got T-bills here.
+
+1033
+00:48:05,370 --> 00:48:07,460
+You've got the
+stock market here.
+
+1034
+00:48:07,460 --> 00:48:10,640
+And the weights,
+as you vary them,
+
+1035
+00:48:10,640 --> 00:48:15,740
+will bring you anywhere
+along this line or possibly
+
+1036
+00:48:15,740 --> 00:48:17,090
+up over here.
+
+1037
+00:48:17,090 --> 00:48:19,820
+If you're in the middle of
+this line-- so literally,
+
+1038
+00:48:19,820 --> 00:48:24,770
+if you have the same distance
+between here and here and here
+
+1039
+00:48:24,770 --> 00:48:25,760
+and here--
+
+1040
+00:48:25,760 --> 00:48:28,400
+that actually gives
+you a 50-50 weighting
+
+1041
+00:48:28,400 --> 00:48:30,980
+on those portfolio weights.
+
+1042
+00:48:30,980 --> 00:48:34,370
+So geometrically, this
+actually corresponds
+
+1043
+00:48:34,370 --> 00:48:40,070
+to a 50-50 weighting of
+T-bills and the S&P. OK?
+
+1044
+00:48:40,070 --> 00:48:43,940
+Now question, what happens
+when you are over here?
+
+1045
+00:48:43,940 --> 00:48:45,710
+Let's suppose you're
+at this point.
+
+1046
+00:48:45,710 --> 00:48:48,350
+At this point, what would your
+portfolio weights look like?
+
+1047
+00:48:48,350 --> 00:48:51,490
+How would you characterize that?
+
+1048
+00:48:51,490 --> 00:48:52,170
+Yeah, Brian?
+
+1049
+00:48:52,170 --> 00:48:56,190
+AUDIENCE: Short T-bills to
+buy into the stock market?
+
+1050
+00:48:56,190 --> 00:48:57,190
+ANDREW LO: That's right.
+
+1051
+00:48:57,190 --> 00:48:57,970
+Short T-bills.
+
+1052
+00:48:57,970 --> 00:49:01,510
+What does it mean
+to short T-bills?
+
+1053
+00:49:01,510 --> 00:49:03,380
+What are you doing?
+
+1054
+00:49:03,380 --> 00:49:04,482
+You're borrowing.
+
+1055
+00:49:04,482 --> 00:49:05,440
+You're borrowing money.
+
+1056
+00:49:05,440 --> 00:49:06,700
+You're leveraging.
+
+1057
+00:49:06,700 --> 00:49:08,530
+When you're shorting
+T-bills, you're
+
+1058
+00:49:08,530 --> 00:49:10,860
+basically borrowing and
+getting cash upfront
+
+1059
+00:49:10,860 --> 00:49:13,670
+you're to pay back
+later with interest.
+
+1060
+00:49:13,670 --> 00:49:16,390
+So shorting T-bills
+is just borrowing.
+
+1061
+00:49:16,390 --> 00:49:18,880
+If you're borrowing money
+and you're putting it
+
+1062
+00:49:18,880 --> 00:49:21,580
+into the stock market in
+addition to 100% of your own
+
+1063
+00:49:21,580 --> 00:49:23,990
+wealth-- you've borrowed
+additional money to put it
+
+1064
+00:49:23,990 --> 00:49:24,911
+in the stock market--
+
+1065
+00:49:24,911 --> 00:49:26,410
+then you're going
+to be way up here.
+
+1066
+00:49:26,410 --> 00:49:31,360
+Higher return, much higher
+up here than down here,
+
+1067
+00:49:31,360 --> 00:49:33,710
+but you're going to get
+higher risk, as well.
+
+1068
+00:49:33,710 --> 00:49:38,270
+So leverage, this idea
+of borrowing and putting
+
+1069
+00:49:38,270 --> 00:49:41,450
+your money in the stock
+market, that increases
+
+1070
+00:49:41,450 --> 00:49:43,850
+your expected rate of return.
+
+1071
+00:49:43,850 --> 00:49:45,980
+But it also increases your risk.
+
+1072
+00:49:45,980 --> 00:49:47,210
+OK?
+
+1073
+00:49:47,210 --> 00:49:49,575
+Leverage increases your risk.
+
+1074
+00:49:49,575 --> 00:49:51,950
+And now getting back to the
+question that Lewis asked us,
+
+1075
+00:49:51,950 --> 00:49:53,600
+is this where we
+got into trouble
+
+1076
+00:49:53,600 --> 00:49:54,680
+with the current crisis?
+
+1077
+00:49:54,680 --> 00:49:56,850
+Yes, in a nutshell it is.
+
+1078
+00:49:56,850 --> 00:49:58,850
+But it's more complicated
+because the underlying
+
+1079
+00:49:58,850 --> 00:50:00,530
+securities are more complex.
+
+1080
+00:50:00,530 --> 00:50:04,160
+But the basic idea is
+if you leverage up,
+
+1081
+00:50:04,160 --> 00:50:06,590
+if you leverage
+up, way up here--
+
+1082
+00:50:06,590 --> 00:50:08,570
+you're up maybe out there--
+
+1083
+00:50:08,570 --> 00:50:11,756
+and all of a sudden
+there's a bump in the road
+
+1084
+00:50:11,756 --> 00:50:13,880
+and what you are leveraging,
+this thing that you're
+
+1085
+00:50:13,880 --> 00:50:19,550
+investing in is not nearly
+as smooth and as riskless
+
+1086
+00:50:19,550 --> 00:50:23,760
+as you thought it was,
+it could wipe you out.
+
+1087
+00:50:23,760 --> 00:50:29,100
+And one of those elements that
+could cause such a wipeout
+
+1088
+00:50:29,100 --> 00:50:32,550
+is if you somehow
+forgot about the fact
+
+1089
+00:50:32,550 --> 00:50:35,350
+that correlations can change.
+
+1090
+00:50:35,350 --> 00:50:39,810
+So you thought that you were,
+I don't know, somewhere here,
+
+1091
+00:50:39,810 --> 00:50:43,380
+and all of a sudden
+correlations go to 1
+
+1092
+00:50:43,380 --> 00:50:45,700
+and now you're
+actually over here.
+
+1093
+00:50:45,700 --> 00:50:47,940
+You see how risk can
+change really quickly?
+
+1094
+00:50:47,940 --> 00:50:51,790
+Correlations don't have
+to be stable over time.
+
+1095
+00:50:51,790 --> 00:50:55,099
+And that's the lesson that
+most people in industry,
+
+1096
+00:50:55,099 --> 00:50:57,390
+who don't have a finance
+background, who've never taken
+
+1097
+00:50:57,390 --> 00:50:59,880
+this course, they won't know.
+
+1098
+00:50:59,880 --> 00:51:01,590
+These are physicists
+or mathematicians
+
+1099
+00:51:01,590 --> 00:51:02,370
+or computer scientists.
+
+1100
+00:51:02,370 --> 00:51:03,490
+They estimate the correlation.
+
+1101
+00:51:03,490 --> 00:51:05,580
+It's a parameter, like
+the gravitational constant
+
+1102
+00:51:05,580 --> 00:51:06,690
+or Avogadro's number.
+
+1103
+00:51:06,690 --> 00:51:08,350
+Let's plug it in.
+
+1104
+00:51:08,350 --> 00:51:12,630
+Hey, 9.08 times 10 the 23rd,
+that's what it should be.
+
+1105
+00:51:12,630 --> 00:51:16,650
+And nobody ever told them
+that it could change.
+
+1106
+00:51:16,650 --> 00:51:20,820
+And when it changes, bad things
+can happen really quickly.
+
+1107
+00:51:20,820 --> 00:51:22,320
+So we're going to
+come back to that.
+
+1108
+00:51:22,320 --> 00:51:24,347
+But let's get the standard
+theory down first,
+
+1109
+00:51:24,347 --> 00:51:26,180
+and then we'll talk a
+bit about application.
+
+1110
+00:51:26,180 --> 00:51:26,679
+Anon?
+
+1111
+00:51:26,679 --> 00:51:32,370
+AUDIENCE: [INAUDIBLE]
+
+1112
+00:51:32,370 --> 00:51:33,158
+ANDREW LO: Yeah.
+
+1113
+00:51:33,158 --> 00:51:40,544
+AUDIENCE: [INAUDIBLE]
+
+1114
+00:51:40,544 --> 00:51:41,210
+ANDREW LO: Yeah.
+
+1115
+00:51:41,210 --> 00:51:47,760
+AUDIENCE: [INAUDIBLE]
+
+1116
+00:51:47,760 --> 00:51:48,930
+ANDREW LO: Right here?
+
+1117
+00:51:48,930 --> 00:51:49,950
+Of course.
+
+1118
+00:51:49,950 --> 00:51:52,440
+Because you might want to
+get more return and you're
+
+1119
+00:51:52,440 --> 00:51:54,030
+willing to take on risk.
+
+1120
+00:51:54,030 --> 00:51:55,170
+Let's take a look at this.
+
+1121
+00:51:55,170 --> 00:51:57,690
+This bullet point
+here says that you're
+
+1122
+00:51:57,690 --> 00:52:00,190
+going to be at
+approximately, something--
+
+1123
+00:52:00,190 --> 00:52:02,370
+if the correlation-- let's
+be realistic about it.
+
+1124
+00:52:02,370 --> 00:52:02,520
+OK?
+
+1125
+00:52:02,520 --> 00:52:04,440
+The correlation is not
+going to be minus 0.5.
+
+1126
+00:52:04,440 --> 00:52:06,690
+It's going to be more like 0.37.
+
+1127
+00:52:06,690 --> 00:52:09,530
+So this bullet here is
+going to be like 1--
+
+1128
+00:52:09,530 --> 00:52:12,570
+I don't know, let's call it
+1.3% just to make it easy.
+
+1129
+00:52:12,570 --> 00:52:14,760
+And you've got a standard
+deviation of about 6%.
+
+1130
+00:52:14,760 --> 00:52:15,390
+OK?
+
+1131
+00:52:15,390 --> 00:52:17,010
+So on an annualized
+basis, that's
+
+1132
+00:52:17,010 --> 00:52:22,740
+giving you a return, 1.3 times
+12 is something like what, 16%?
+
+1133
+00:52:22,740 --> 00:52:27,600
+16% return, but the risk on
+an annualized basis multiplied
+
+1134
+00:52:27,600 --> 00:52:29,790
+by 3 and 1/2 is
+about, let's say 20%.
+
+1135
+00:52:29,790 --> 00:52:32,940
+So 20%, 22% annual
+standard deviation
+
+1136
+00:52:32,940 --> 00:52:36,470
+for a 16% rate of return.
+
+1137
+00:52:36,470 --> 00:52:38,290
+Now some of you might like that.
+
+1138
+00:52:38,290 --> 00:52:41,680
+But I have a few
+friends here for whom
+
+1139
+00:52:41,680 --> 00:52:44,546
+that return is just boring.
+
+1140
+00:52:44,546 --> 00:52:46,420
+That's just not going
+to get their attention.
+
+1141
+00:52:46,420 --> 00:52:48,520
+What they want is they
+want to be up here,
+
+1142
+00:52:48,520 --> 00:52:50,680
+you know, like at
+2% rate of return.
+
+1143
+00:52:50,680 --> 00:52:54,350
+2% rate of return per
+month is about 24% a year.
+
+1144
+00:52:54,350 --> 00:52:55,840
+So if you're a
+hedge fund manager,
+
+1145
+00:52:55,840 --> 00:52:58,570
+24% is when you start
+to begin to feel alive.
+
+1146
+00:52:58,570 --> 00:52:59,290
+You know?
+
+1147
+00:52:59,290 --> 00:53:01,660
+That's when things really
+start to happen for you.
+
+1148
+00:53:01,660 --> 00:53:05,080
+And at 24% annual
+return, you can't
+
+1149
+00:53:05,080 --> 00:53:07,464
+have volatility
+of like 15% or 20%
+
+1150
+00:53:07,464 --> 00:53:08,880
+unless you're doing
+something, you
+
+1151
+00:53:08,880 --> 00:53:12,970
+know, really different than
+the standard market portfolio.
+
+1152
+00:53:12,970 --> 00:53:15,760
+So a hedge fund manager is going
+to say, Anon, give me a break.
+
+1153
+00:53:15,760 --> 00:53:17,551
+You know, this is going
+to put me to sleep.
+
+1154
+00:53:17,551 --> 00:53:18,520
+I want to be up here.
+
+1155
+00:53:18,520 --> 00:53:20,470
+But you know, you've got
+a family, three kids,
+
+1156
+00:53:20,470 --> 00:53:23,290
+you have to worry about
+making mortgage payments.
+
+1157
+00:53:23,290 --> 00:53:25,720
+That kind of lifestyle
+is not for you.
+
+1158
+00:53:25,720 --> 00:53:28,630
+So in both cases,
+though, in both cases,
+
+1159
+00:53:28,630 --> 00:53:33,290
+we can agree that where we want
+to be is on this curve, right?
+
+1160
+00:53:33,290 --> 00:53:37,810
+In other words, you would never
+want to be here, at this point.
+
+1161
+00:53:37,810 --> 00:53:38,500
+Why?
+
+1162
+00:53:38,500 --> 00:53:41,140
+Because if you were
+here, you can either,
+
+1163
+00:53:41,140 --> 00:53:43,830
+for the same level of
+risk, increase your return.
+
+1164
+00:53:43,830 --> 00:53:47,100
+Or for the same level of
+return, decrease your risk.
+
+1165
+00:53:47,100 --> 00:53:50,540
+So what we can agree
+on, even though we
+
+1166
+00:53:50,540 --> 00:53:53,450
+don't agree on where we
+want to be on that curve,
+
+1167
+00:53:53,450 --> 00:53:56,750
+we can all agree we want to
+be on that curve as opposed
+
+1168
+00:53:56,750 --> 00:53:57,890
+to inside the curve.
+
+1169
+00:53:57,890 --> 00:53:58,625
+Right?
+
+1170
+00:53:58,625 --> 00:54:00,110
+AUDIENCE: [INAUDIBLE]
+
+1171
+00:54:00,110 --> 00:54:00,920
+ANDREW LO: Exactly.
+
+1172
+00:54:00,920 --> 00:54:01,679
+Great point.
+
+1173
+00:54:01,679 --> 00:54:03,470
+Why would we want to
+be on the bottom half?
+
+1174
+00:54:03,470 --> 00:54:04,610
+Nobody would want to do that.
+
+1175
+00:54:04,610 --> 00:54:06,090
+Because if were on
+the bottom half,
+
+1176
+00:54:06,090 --> 00:54:08,465
+you can just as easily
+move up to the top,
+
+1177
+00:54:08,465 --> 00:54:10,340
+and you have a higher
+expected rate of return
+
+1178
+00:54:10,340 --> 00:54:11,741
+for the same level of risk.
+
+1179
+00:54:11,741 --> 00:54:12,740
+So you're exactly right.
+
+1180
+00:54:12,740 --> 00:54:15,590
+That bottom half of the curve,
+you can just throw it away.
+
+1181
+00:54:15,590 --> 00:54:16,452
+All right?
+
+1182
+00:54:16,452 --> 00:54:18,410
+The only people that are
+going to be down there
+
+1183
+00:54:18,410 --> 00:54:19,600
+are knuckleheads.
+
+1184
+00:54:19,600 --> 00:54:20,600
+All right?
+
+1185
+00:54:20,600 --> 00:54:22,520
+So we don't want
+to be down there.
+
+1186
+00:54:22,520 --> 00:54:25,280
+So in fact, the only part of
+the curve that really matters
+
+1187
+00:54:25,280 --> 00:54:28,400
+is this point, going
+all the way up.
+
+1188
+00:54:28,400 --> 00:54:30,680
+And we're going to give a
+name to that in a minute.
+
+1189
+00:54:30,680 --> 00:54:35,469
+That's going to be called the
+efficient frontier because you
+
+1190
+00:54:35,469 --> 00:54:37,010
+would never want to
+do anything else.
+
+1191
+00:54:37,010 --> 00:54:39,270
+Actually, that's not quite true.
+
+1192
+00:54:39,270 --> 00:54:44,450
+What everybody would like to do
+is they'd like to be up here.
+
+1193
+00:54:44,450 --> 00:54:47,740
+Unfortunately, we
+can't get there.
+
+1194
+00:54:47,740 --> 00:54:51,970
+We can't get there with just
+General Motors and Motorola.
+
+1195
+00:54:51,970 --> 00:54:53,860
+In a few minutes,
+I'm going to show you
+
+1196
+00:54:53,860 --> 00:54:57,250
+how you might be able to
+get there with other stocks.
+
+1197
+00:54:57,250 --> 00:54:59,590
+If you introduce
+other assets, then you
+
+1198
+00:54:59,590 --> 00:55:00,820
+might be able to get there.
+
+1199
+00:55:00,820 --> 00:55:03,190
+But you can't get
+there right now.
+
+1200
+00:55:03,190 --> 00:55:04,360
+OK.
+
+1201
+00:55:04,360 --> 00:55:09,280
+So here we are with
+stocks and T-bills.
+
+1202
+00:55:09,280 --> 00:55:14,690
+And we know that we'll get
+the linear combination here.
+
+1203
+00:55:14,690 --> 00:55:17,720
+What I'd like to do next is to
+make this yet more complicated.
+
+1204
+00:55:17,720 --> 00:55:18,220
+All right?
+
+1205
+00:55:18,220 --> 00:55:20,050
+And before I do, let
+me just summarize
+
+1206
+00:55:20,050 --> 00:55:21,640
+what we've done so far.
+
+1207
+00:55:21,640 --> 00:55:24,490
+What we've done is to
+show that with two assets,
+
+1208
+00:55:24,490 --> 00:55:27,280
+we can do all of
+this analytically,
+
+1209
+00:55:27,280 --> 00:55:31,330
+and illustrate graphically,
+all of the intuition that holds
+
+1210
+00:55:31,330 --> 00:55:33,460
+for the more general case.
+
+1211
+00:55:33,460 --> 00:55:35,910
+With two assets, the
+expected rate of return
+
+1212
+00:55:35,910 --> 00:55:37,870
+is just a simple
+weighted average.
+
+1213
+00:55:37,870 --> 00:55:40,870
+But the variance is not just
+a simple weighted average.
+
+1214
+00:55:40,870 --> 00:55:43,480
+It's more complicated and
+it depends, in particular,
+
+1215
+00:55:43,480 --> 00:55:44,830
+on the correlation.
+
+1216
+00:55:44,830 --> 00:55:47,590
+For different correlations,
+we get different shapes
+
+1217
+00:55:47,590 --> 00:55:50,260
+of trade offs in
+mean-variance space.
+
+1218
+00:55:50,260 --> 00:55:53,320
+And you have to understand
+what those trade offs are.
+
+1219
+00:55:53,320 --> 00:55:55,840
+If it turns out that one of
+the two assets is T-bills,
+
+1220
+00:55:55,840 --> 00:55:58,990
+for example, then the trade
+off is really straight line.
+
+1221
+00:55:58,990 --> 00:55:59,740
+OK?
+
+1222
+00:55:59,740 --> 00:56:02,320
+But if both assets
+are risky, then you
+
+1223
+00:56:02,320 --> 00:56:06,940
+get the bullet shape until
+you either get minus 1 or 1
+
+1224
+00:56:06,940 --> 00:56:08,020
+in terms of correlations.
+
+1225
+00:56:08,020 --> 00:56:11,350
+And then you get straight
+lines of different stripes
+
+1226
+00:56:11,350 --> 00:56:12,950
+in those two different cases.
+
+1227
+00:56:12,950 --> 00:56:13,450
+OK.
+
+1228
+00:56:13,450 --> 00:56:15,670
+Now we're ready to talk
+about the general case.
+
+1229
+00:56:15,670 --> 00:56:19,630
+The general case works exactly
+the same as the two asset case.
+
+1230
+00:56:19,630 --> 00:56:21,460
+You've got your means.
+
+1231
+00:56:21,460 --> 00:56:22,840
+You've got your variances.
+
+1232
+00:56:22,840 --> 00:56:24,580
+And you've got your covariances.
+
+1233
+00:56:24,580 --> 00:56:27,040
+And you add up all of
+these different covariances
+
+1234
+00:56:27,040 --> 00:56:30,050
+to get the total variance
+of the portfolio.
+
+1235
+00:56:30,050 --> 00:56:35,480
+And if you consider a
+couple of simple cases,
+
+1236
+00:56:35,480 --> 00:56:38,520
+like for example, an
+equal weighted portfolio--
+
+1237
+00:56:38,520 --> 00:56:43,670
+so you've got n assets
+and you put each of your--
+
+1238
+00:56:43,670 --> 00:56:46,670
+for each of your assets, you
+put 1 over n of your wealth
+
+1239
+00:56:46,670 --> 00:56:47,750
+in them.
+
+1240
+00:56:47,750 --> 00:56:50,090
+Then you can show
+that the variance
+
+1241
+00:56:50,090 --> 00:56:55,730
+of your entire portfolio is
+equal to the average variance
+
+1242
+00:56:55,730 --> 00:57:01,940
+plus n times n minus 1 times
+the average covariance.
+
+1243
+00:57:01,940 --> 00:57:05,390
+When n gets large,
+then it turns out
+
+1244
+00:57:05,390 --> 00:57:09,110
+that the average
+variance doesn't matter.
+
+1245
+00:57:09,110 --> 00:57:12,080
+What is driving the
+risk of your portfolio
+
+1246
+00:57:12,080 --> 00:57:13,910
+has nothing to do
+with the variance
+
+1247
+00:57:13,910 --> 00:57:15,560
+of the individual components.
+
+1248
+00:57:15,560 --> 00:57:19,640
+What it has to do with is what
+the average covariance is.
+
+1249
+00:57:19,640 --> 00:57:22,610
+That's what's driving the
+risk of your portfolio.
+
+1250
+00:57:22,610 --> 00:57:24,380
+Because you've got a
+lot more covariances
+
+1251
+00:57:24,380 --> 00:57:26,140
+than you do variances.
+
+1252
+00:57:26,140 --> 00:57:27,110
+OK?
+
+1253
+00:57:27,110 --> 00:57:28,760
+So this is kind
+of a neat insight
+
+1254
+00:57:28,760 --> 00:57:31,220
+because it says that
+it's really important how
+
+1255
+00:57:31,220 --> 00:57:33,110
+things are related.
+
+1256
+00:57:33,110 --> 00:57:35,330
+And as those
+relationships change,
+
+1257
+00:57:35,330 --> 00:57:38,585
+the risk of your portfolio
+is going to change.
+
+1258
+00:57:38,585 --> 00:57:40,460
+So getting back to
+Lewis's point about what's
+
+1259
+00:57:40,460 --> 00:57:42,590
+going on in current
+markets and what
+
+1260
+00:57:42,590 --> 00:57:44,420
+caught a lot of
+portfolio managers
+
+1261
+00:57:44,420 --> 00:57:47,540
+by surprise with the
+subprime markets,
+
+1262
+00:57:47,540 --> 00:57:51,110
+if the risk of your portfolio
+is approximately given
+
+1263
+00:57:51,110 --> 00:57:54,740
+by the average covariance
+and you've been assuming
+
+1264
+00:57:54,740 --> 00:57:58,460
+all along that you've got
+this big pool of mortgages,
+
+1265
+00:57:58,460 --> 00:58:01,730
+and the mortgages
+are all uncorrelated,
+
+1266
+00:58:01,730 --> 00:58:05,600
+you've essentially assumed that
+you've got virtually no risk.
+
+1267
+00:58:05,600 --> 00:58:08,480
+Because the average
+covariance by assumption
+
+1268
+00:58:08,480 --> 00:58:13,180
+and by historical
+analysis is close to zero.
+
+1269
+00:58:13,180 --> 00:58:17,020
+But when the real state
+market goes down nationally,
+
+1270
+00:58:17,020 --> 00:58:20,410
+then everybody
+starts to default.
+
+1271
+00:58:20,410 --> 00:58:24,410
+And foreclosures become
+very highly correlated.
+
+1272
+00:58:24,410 --> 00:58:27,880
+And so you can see how
+overnight, literally overnight,
+
+1273
+00:58:27,880 --> 00:58:29,980
+your risks can shoot up.
+
+1274
+00:58:29,980 --> 00:58:32,530
+And you're not prepared
+for that unless you
+
+1275
+00:58:32,530 --> 00:58:35,970
+know that this is what's
+going on in your portfolio.
+
+1276
+00:58:35,970 --> 00:58:36,641
+Yup?
+
+1277
+00:58:36,641 --> 00:58:54,037
+AUDIENCE: [INAUDIBLE]
+
+1278
+00:58:54,037 --> 00:58:55,120
+ANDREW LO: Great question.
+
+1279
+00:58:55,120 --> 00:58:58,670
+Why should things change
+in terms of correlation?
+
+1280
+00:58:58,670 --> 00:58:59,740
+Well, you know what?
+
+1281
+00:58:59,740 --> 00:59:00,940
+I'll give you an example.
+
+1282
+00:59:00,940 --> 00:59:02,710
+I'll give you a
+personal example?
+
+1283
+00:59:02,710 --> 00:59:05,680
+Correlation is a function
+of human behavior, right?
+
+1284
+00:59:05,680 --> 00:59:09,790
+I mean, prices are being
+formed by you and I, investors.
+
+1285
+00:59:09,790 --> 00:59:13,420
+And so correlations simply
+means that all of us
+
+1286
+00:59:13,420 --> 00:59:16,030
+end up doing the same
+thing around to same time.
+
+1287
+00:59:16,030 --> 00:59:18,270
+Right?
+
+1288
+00:59:18,270 --> 00:59:21,850
+I'm going to be heading to the
+airport later on this evening.
+
+1289
+00:59:21,850 --> 00:59:24,300
+And I don't expect
+that there's going
+
+1290
+00:59:24,300 --> 00:59:27,300
+to be much of a big deal
+getting on my flight.
+
+1291
+00:59:27,300 --> 00:59:29,970
+I'll probably get to the
+airport about half an hour,
+
+1292
+00:59:29,970 --> 00:59:31,140
+45 minutes ahead of time.
+
+1293
+00:59:31,140 --> 00:59:32,130
+It's just a shuttle.
+
+1294
+00:59:32,130 --> 00:59:36,402
+So I'm heading to Washington,
+so it's not a big deal.
+
+1295
+00:59:36,402 --> 00:59:38,360
+What's going to happen
+in two weeks from today?
+
+1296
+00:59:41,320 --> 00:59:42,430
+Anything?
+
+1297
+00:59:42,430 --> 00:59:45,500
+Anything going on two weeks from
+today that you can think of?
+
+1298
+00:59:45,500 --> 00:59:46,580
+Thanksgiving.
+
+1299
+00:59:46,580 --> 00:59:50,342
+So if I went to the airport
+two weeks from today
+
+1300
+00:59:50,342 --> 00:59:52,550
+and tried to get on that
+shuttle half an hour before,
+
+1301
+00:59:52,550 --> 00:59:55,460
+you think I can
+get on the flight?
+
+1302
+00:59:55,460 --> 00:59:57,070
+Why not?
+
+1303
+00:59:57,070 --> 00:59:59,770
+Because everybody else
+is going to do that.
+
+1304
+00:59:59,770 --> 01:00:02,460
+Well, why should everything
+be correlated on that day?
+
+1305
+01:00:02,460 --> 01:00:05,710
+Isn't that a Wednesday
+like every other Wednesday?
+
+1306
+01:00:05,710 --> 01:00:06,740
+Well, it's not.
+
+1307
+01:00:06,740 --> 01:00:09,400
+It's because somehow
+we've all decided
+
+1308
+01:00:09,400 --> 01:00:11,830
+that we're going to take
+off at the same time
+
+1309
+01:00:11,830 --> 01:00:14,560
+on the same day in that year.
+
+1310
+01:00:14,560 --> 01:00:15,253
+Right?
+
+1311
+01:00:15,253 --> 01:00:20,826
+AUDIENCE: [INAUDIBLE]
+
+1312
+01:00:20,826 --> 01:00:23,200
+ANDREW LO: Well, first of all,
+I don't think Thanksgiving
+
+1313
+01:00:23,200 --> 01:00:25,600
+is that low a probability.
+
+1314
+01:00:25,600 --> 01:00:27,040
+OK?
+
+1315
+01:00:27,040 --> 01:00:29,950
+But to your point, is that
+the correlation changing?
+
+1316
+01:00:29,950 --> 01:00:31,150
+Well, it is.
+
+1317
+01:00:31,150 --> 01:00:37,110
+Correlation is a statistical
+measure of two objects.
+
+1318
+01:00:37,110 --> 01:00:40,020
+And what we're trying to capture
+is when they move up or down
+
+1319
+01:00:40,020 --> 01:00:41,160
+at the same time.
+
+1320
+01:00:41,160 --> 01:00:42,140
+Right?
+
+1321
+01:00:42,140 --> 01:00:43,890
+So what I'm trying to
+get at is that there
+
+1322
+01:00:43,890 --> 01:00:45,265
+are certain periods
+of time where
+
+1323
+01:00:45,265 --> 01:00:49,750
+human behavior, all of a sudden,
+becomes very highly correlated.
+
+1324
+01:00:49,750 --> 01:00:51,310
+And there are many
+reasons for that.
+
+1325
+01:00:51,310 --> 01:00:53,100
+In particular,
+Thanksgiving is a reason
+
+1326
+01:00:53,100 --> 01:00:56,340
+we all decide that Thursday
+is this national holiday.
+
+1327
+01:00:56,340 --> 01:00:58,615
+And therefore, on that
+Wednesday, we actually
+
+1328
+01:00:58,615 --> 01:01:00,240
+have to travel in
+order to get to where
+
+1329
+01:01:00,240 --> 01:01:02,020
+we need to go by Thursday.
+
+1330
+01:01:02,020 --> 01:01:02,850
+Right?
+
+1331
+01:01:02,850 --> 01:01:05,430
+But any arbitrary
+Wednesday is not
+
+1332
+01:01:05,430 --> 01:01:07,380
+going to be necessarily
+highly correlated.
+
+1333
+01:01:07,380 --> 01:01:10,380
+So when I go to the airport
+on a typical Wednesday,
+
+1334
+01:01:10,380 --> 01:01:12,030
+I don't expect it to be so bad.
+
+1335
+01:01:12,030 --> 01:01:13,710
+But on Wednesday
+before Thanksgiving,
+
+1336
+01:01:13,710 --> 01:01:15,510
+it's going to be a madhouse.
+
+1337
+01:01:15,510 --> 01:01:16,290
+Right?
+
+1338
+01:01:16,290 --> 01:01:18,240
+That's an example of
+a changing correlation
+
+1339
+01:01:18,240 --> 01:01:20,730
+because of a
+particular coordination
+
+1340
+01:01:20,730 --> 01:01:22,320
+that we've all agreed upon.
+
+1341
+01:01:22,320 --> 01:01:24,322
+Now that's a relatively
+artificial example.
+
+1342
+01:01:24,322 --> 01:01:25,530
+But I did it to make a point.
+
+1343
+01:01:25,530 --> 01:01:26,904
+Now let me give
+you a real answer
+
+1344
+01:01:26,904 --> 01:01:30,250
+to your question about why
+things may be correlated.
+
+1345
+01:01:30,250 --> 01:01:34,390
+When we are all scared about
+the value of our investments,
+
+1346
+01:01:34,390 --> 01:01:37,690
+when our fear circuitry
+gets triggered,
+
+1347
+01:01:37,690 --> 01:01:41,440
+what's the natural instinct
+for all of us because it's
+
+1348
+01:01:41,440 --> 01:01:43,640
+hardwired into our brains?
+
+1349
+01:01:43,640 --> 01:01:46,060
+It's to get to safety.
+
+1350
+01:01:46,060 --> 01:01:48,130
+It's to get out of
+those bad assets
+
+1351
+01:01:48,130 --> 01:01:49,630
+and get into the good assets.
+
+1352
+01:01:49,630 --> 01:01:50,170
+Right?
+
+1353
+01:01:50,170 --> 01:01:53,710
+You saw that three month T-bill
+yield at 10 basis points, or 5
+
+1354
+01:01:53,710 --> 01:01:54,880
+basis points?
+
+1355
+01:01:54,880 --> 01:01:57,490
+That's a sign that we're
+all scared to death
+
+1356
+01:01:57,490 --> 01:01:58,960
+and we want to get to safety.
+
+1357
+01:01:58,960 --> 01:02:00,460
+That's an example
+of a correlation.
+
+1358
+01:02:00,460 --> 01:02:00,960
+Why?
+
+1359
+01:02:00,960 --> 01:02:04,280
+Because everybody is going to
+be selling at the same time.
+
+1360
+01:02:04,280 --> 01:02:09,140
+In a crowded theater, if you
+smell smoke and somebody shouts
+
+1361
+01:02:09,140 --> 01:02:12,250
+fire, what are you going to do?
+
+1362
+01:02:12,250 --> 01:02:14,980
+It's not rocket
+science to predict
+
+1363
+01:02:14,980 --> 01:02:17,360
+that the four exits
+that are out there
+
+1364
+01:02:17,360 --> 01:02:20,180
+will be a bit
+crowded after that.
+
+1365
+01:02:20,180 --> 01:02:21,640
+Right?
+
+1366
+01:02:21,640 --> 01:02:24,590
+So correlation is not
+a physical quantity.
+
+1367
+01:02:24,590 --> 01:02:27,180
+That's the problem with
+physics and biology.
+
+1368
+01:02:27,180 --> 01:02:30,770
+Physics has parameters that
+don't change over time.
+
+1369
+01:02:30,770 --> 01:02:32,720
+I wish we could have
+that in finance.
+
+1370
+01:02:32,720 --> 01:02:33,840
+We don't.
+
+1371
+01:02:33,840 --> 01:02:35,632
+We have parameters that
+are not parameters.
+
+1372
+01:02:35,632 --> 01:02:36,673
+They're random variables.
+
+1373
+01:02:36,673 --> 01:02:38,090
+They depend on a lot of things.
+
+1374
+01:02:38,090 --> 01:02:39,780
+Correlation is one of them.
+
+1375
+01:02:39,780 --> 01:02:42,410
+And until we start recognizing
+that correlations are really
+
+1376
+01:02:42,410 --> 01:02:44,935
+part and partial of
+human interactions,
+
+1377
+01:02:44,935 --> 01:02:47,060
+we're going to continue to
+make mistakes like we've
+
+1378
+01:02:47,060 --> 01:02:49,270
+made over the last 10 years.
+
+1379
+01:02:49,270 --> 01:02:52,370
+And that's a simple
+example of that.
+
+1380
+01:02:52,370 --> 01:02:53,122
+Other question?
+
+1381
+01:02:53,122 --> 01:02:53,622
+Yeah.
+
+1382
+01:02:53,622 --> 01:02:57,865
+AUDIENCE: [INAUDIBLE]
+
+1383
+01:02:57,865 --> 01:02:58,490
+ANDREW LO: Yes.
+
+1384
+01:02:58,490 --> 01:03:07,640
+AUDIENCE: [INAUDIBLE]
+
+1385
+01:03:07,640 --> 01:03:09,410
+ANDREW LO: Yeah.
+
+1386
+01:03:09,410 --> 01:03:10,040
+That's true.
+
+1387
+01:03:10,040 --> 01:03:11,250
+That's possible.
+
+1388
+01:03:11,250 --> 01:03:14,720
+So you have to decide whether
+or not what you're looking at
+
+1389
+01:03:14,720 --> 01:03:17,120
+is an aberration,
+or whether it's
+
+1390
+01:03:17,120 --> 01:03:18,590
+something that's systematic.
+
+1391
+01:03:18,590 --> 01:03:21,440
+So for example, if I didn't
+know anything about Thanksgiving
+
+1392
+01:03:21,440 --> 01:03:24,740
+and I happened to travel on
+Wednesdays on a regular basis
+
+1393
+01:03:24,740 --> 01:03:28,520
+to Washington, then
+you know, in two weeks,
+
+1394
+01:03:28,520 --> 01:03:29,922
+I'll get-- it's really crowded.
+
+1395
+01:03:29,922 --> 01:03:31,880
+And then it won't be
+crowded, won't be crowded,
+
+1396
+01:03:31,880 --> 01:03:32,930
+won't be crowded.
+
+1397
+01:03:32,930 --> 01:03:34,970
+And pretty soon,
+after a while, I'll
+
+1398
+01:03:34,970 --> 01:03:37,730
+say, well, that was
+just a 1% event.
+
+1399
+01:03:37,730 --> 01:03:40,040
+Of course, next year
+it will happen again.
+
+1400
+01:03:40,040 --> 01:03:43,470
+And then I'll say, gee, you
+know, well, that's another 1%,
+
+1401
+01:03:43,470 --> 01:03:43,970
+kind of.
+
+1402
+01:03:43,970 --> 01:03:46,730
+But pretty soon I'm going to
+realize that, gee, it seems
+
+1403
+01:03:46,730 --> 01:03:48,260
+like there's a pattern here.
+
+1404
+01:03:48,260 --> 01:03:53,620
+And that 1%, it's not just
+so simple as a 1% error.
+
+1405
+01:03:53,620 --> 01:03:57,500
+Statistics, remember, is a
+mathematical quantification
+
+1406
+01:03:57,500 --> 01:03:58,460
+of our stupidity.
+
+1407
+01:03:58,460 --> 01:03:59,960
+Right?
+
+1408
+01:03:59,960 --> 01:04:01,150
+I mean, what we don't know.
+
+1409
+01:04:01,150 --> 01:04:03,650
+Well, we don't know why things
+happen the way they happen,
+
+1410
+01:04:03,650 --> 01:04:05,300
+so we put a distribution on it.
+
+1411
+01:04:05,300 --> 01:04:06,650
+We say that it's normal.
+
+1412
+01:04:06,650 --> 01:04:09,650
+And we say that there's
+5% this way, 5% that way.
+
+1413
+01:04:09,650 --> 01:04:11,150
+But that just is
+a representation
+
+1414
+01:04:11,150 --> 01:04:12,170
+of our ignorance.
+
+1415
+01:04:12,170 --> 01:04:15,699
+The more we know, the less we
+have to rely on statistics.
+
+1416
+01:04:15,699 --> 01:04:17,240
+So I don't need
+statistics to tell me
+
+1417
+01:04:17,240 --> 01:04:18,698
+that two weeks from
+now, it's going
+
+1418
+01:04:18,698 --> 01:04:19,970
+to be really crowded at Logan.
+
+1419
+01:04:19,970 --> 01:04:22,070
+But if I didn't know
+about Thanksgiving,
+
+1420
+01:04:22,070 --> 01:04:25,460
+if I came from Mars and I
+was doing a study of airport
+
+1421
+01:04:25,460 --> 01:04:27,590
+congestion, it would
+take me a while
+
+1422
+01:04:27,590 --> 01:04:29,480
+to get enough data
+to figure out that
+
+1423
+01:04:29,480 --> 01:04:32,220
+once a year on the Wednesday
+before the Thursday
+
+1424
+01:04:32,220 --> 01:04:35,240
+in, you know, November,
+it gets crowded.
+
+1425
+01:04:35,240 --> 01:04:39,710
+So the challenge for all of
+you is how much intelligence
+
+1426
+01:04:39,710 --> 01:04:41,820
+can you bring to the analysis.
+
+1427
+01:04:41,820 --> 01:04:44,730
+What I'm showing you is
+very simple mathematics.
+
+1428
+01:04:44,730 --> 01:04:46,820
+Mathematics is not enough.
+
+1429
+01:04:46,820 --> 01:04:48,620
+If you just had the
+mathematics, you
+
+1430
+01:04:48,620 --> 01:04:50,990
+would be losing money,
+you know, continuously.
+
+1431
+01:04:50,990 --> 01:04:53,990
+Because there's just much more
+to financial markets than just
+
+1432
+01:04:53,990 --> 01:04:54,570
+the math.
+
+1433
+01:04:54,570 --> 01:04:55,070
+OK?
+
+1434
+01:04:55,070 --> 01:04:55,903
+The math is trivial.
+
+1435
+01:04:55,903 --> 01:04:57,660
+This is high school algebra.
+
+1436
+01:04:57,660 --> 01:04:59,690
+But the real key
+is to put together
+
+1437
+01:04:59,690 --> 01:05:02,120
+the framework of economic
+and financial analysis
+
+1438
+01:05:02,120 --> 01:05:03,830
+with the mathematics.
+
+1439
+01:05:03,830 --> 01:05:06,500
+So let me continue doing that.
+
+1440
+01:05:06,500 --> 01:05:11,840
+This is another example of
+computing the average variance,
+
+1441
+01:05:11,840 --> 01:05:13,730
+and then looking
+at the volatility
+
+1442
+01:05:13,730 --> 01:05:17,130
+of your particular holdings,
+given different correlations.
+
+1443
+01:05:17,130 --> 01:05:19,342
+So I want you to do
+lots of exercises
+
+1444
+01:05:19,342 --> 01:05:21,050
+where you look at
+different correlations.
+
+1445
+01:05:21,050 --> 01:05:23,240
+I don't ever want you
+to take correlation
+
+1446
+01:05:23,240 --> 01:05:25,700
+as a parameter that
+is fixed over time,
+
+1447
+01:05:25,700 --> 01:05:26,870
+when you apply the stuff.
+
+1448
+01:05:26,870 --> 01:05:29,750
+When you're doing problem sets
+in final exams, that's fine.
+
+1449
+01:05:29,750 --> 01:05:31,850
+You know, the correlation
+is whatever it is.
+
+1450
+01:05:31,850 --> 01:05:33,950
+But recognize that in
+practice, these things
+
+1451
+01:05:33,950 --> 01:05:36,200
+change a lot over time.
+
+1452
+01:05:36,200 --> 01:05:37,820
+OK?
+
+1453
+01:05:37,820 --> 01:05:41,030
+Now the idea behind
+correlation is
+
+1454
+01:05:41,030 --> 01:05:42,590
+that they help
+you reduce the ups
+
+1455
+01:05:42,590 --> 01:05:45,920
+and the downs of the
+variance of your portfolio.
+
+1456
+01:05:45,920 --> 01:05:49,160
+But it turns out that there's
+a limit to how much of the risk
+
+1457
+01:05:49,160 --> 01:05:50,420
+you can reduce.
+
+1458
+01:05:50,420 --> 01:05:53,420
+And this graph basically
+shows that as you
+
+1459
+01:05:53,420 --> 01:05:55,370
+add more and more securities--
+
+1460
+01:05:55,370 --> 01:05:58,190
+even though the correlations
+are bouncing around--
+
+1461
+01:05:58,190 --> 01:06:00,230
+as you add more and
+more securities,
+
+1462
+01:06:00,230 --> 01:06:03,170
+there ends up being some
+kind of a steady state
+
+1463
+01:06:03,170 --> 01:06:07,310
+limit to what the variance
+of your overall portfolio is.
+
+1464
+01:06:07,310 --> 01:06:12,210
+After 20, 30, 40,
+50, 100 stocks,
+
+1465
+01:06:12,210 --> 01:06:14,400
+you'll notice that the
+variance of your portfolio
+
+1466
+01:06:14,400 --> 01:06:17,190
+doesn't go down anymore.
+
+1467
+01:06:17,190 --> 01:06:21,480
+And it turns out that that
+limit, whatever that is,
+
+1468
+01:06:21,480 --> 01:06:27,120
+is what we consider to be
+the systematic risk that
+
+1469
+01:06:27,120 --> 01:06:29,220
+is implicit in the economy.
+
+1470
+01:06:29,220 --> 01:06:32,490
+In other words, that's the
+risk that no matter how well
+
+1471
+01:06:32,490 --> 01:06:37,110
+diversified you are, you've
+got to bear that risk.
+
+1472
+01:06:37,110 --> 01:06:38,720
+Everybody, all of
+us, we have to,
+
+1473
+01:06:38,720 --> 01:06:41,690
+we can't get any
+less risky than that
+
+1474
+01:06:41,690 --> 01:06:44,120
+unless we start putting
+our money in the mattress
+
+1475
+01:06:44,120 --> 01:06:45,350
+or in T-bills.
+
+1476
+01:06:45,350 --> 01:06:46,250
+OK?
+
+1477
+01:06:46,250 --> 01:06:50,210
+That limit is known as the
+systematic, or market risk,
+
+1478
+01:06:50,210 --> 01:06:51,740
+of a portfolio.
+
+1479
+01:06:51,740 --> 01:06:55,370
+So, see here is the graph
+of your portfolio variance
+
+1480
+01:06:55,370 --> 01:06:58,010
+as you increase more
+and more securities.
+
+1481
+01:06:58,010 --> 01:07:01,980
+But at some point, it
+asymptotes to this level,
+
+1482
+01:07:01,980 --> 01:07:04,040
+which is what I'm going
+to be focusing on,
+
+1483
+01:07:04,040 --> 01:07:06,440
+as undiversifiable risk.
+
+1484
+01:07:06,440 --> 01:07:09,110
+It's the risk that's
+left over after all
+
+1485
+01:07:09,110 --> 01:07:11,840
+of the various correlations
+have done what they
+
+1486
+01:07:11,840 --> 01:07:16,040
+can to dampen the ups and
+the downs of your collection
+
+1487
+01:07:16,040 --> 01:07:17,780
+of securities.
+
+1488
+01:07:17,780 --> 01:07:20,360
+And obviously,
+there's going to be
+
+1489
+01:07:20,360 --> 01:07:22,550
+some calculations you'll
+need to do to figure out
+
+1490
+01:07:22,550 --> 01:07:23,849
+what that number is.
+
+1491
+01:07:23,849 --> 01:07:25,640
+But I want to give you
+the intuition first,
+
+1492
+01:07:25,640 --> 01:07:27,167
+and then we'll do
+the calculations.
+
+1493
+01:07:27,167 --> 01:07:29,000
+And then we're going
+to study the properties
+
+1494
+01:07:29,000 --> 01:07:30,750
+of this hard limit.
+
+1495
+01:07:30,750 --> 01:07:32,850
+OK?
+
+1496
+01:07:32,850 --> 01:07:39,260
+Now, I'm about to proceed to
+the next stage of our analysis
+
+1497
+01:07:39,260 --> 01:07:41,810
+where we start
+asking the question,
+
+1498
+01:07:41,810 --> 01:07:46,431
+how do we pick the very
+best possible portfolio.
+
+1499
+01:07:46,431 --> 01:07:47,930
+But before I do, I
+want to make sure
+
+1500
+01:07:47,930 --> 01:07:49,880
+that everybody is comfortable
+with the analytics
+
+1501
+01:07:49,880 --> 01:07:50,546
+we've developed.
+
+1502
+01:07:50,546 --> 01:07:53,180
+If you have any questions, now
+would be a good time to ask.
+
+1503
+01:07:53,180 --> 01:07:54,721
+Because from this
+point on, I'm going
+
+1504
+01:07:54,721 --> 01:07:57,980
+to assume that you understand
+how portfolio theory works,
+
+1505
+01:07:57,980 --> 01:08:00,410
+the mechanics of
+portfolio weights,
+
+1506
+01:08:00,410 --> 01:08:03,890
+and how to compute means,
+variances, covariances,
+
+1507
+01:08:03,890 --> 01:08:06,790
+and what they imply
+for the portfolio.
+
+1508
+01:08:06,790 --> 01:08:08,160
+Question, yeah?
+
+1509
+01:08:08,160 --> 01:08:10,240
+AUDIENCE: Earlier,
+you said that we
+
+1510
+01:08:10,240 --> 01:08:12,860
+start from this, ensuring that
+the markets are pretty much
+
+1511
+01:08:12,860 --> 01:08:13,730
+stable.
+
+1512
+01:08:13,730 --> 01:08:17,140
+But I'm wondering, how
+reasonable is that assumption?
+
+1513
+01:08:17,140 --> 01:08:23,140
+And why would nobody ever pick
+a lower part of on the curve,
+
+1514
+01:08:23,140 --> 01:08:28,170
+for example, you know, if there
+was a big scandal tomorrow,
+
+1515
+01:08:28,170 --> 01:08:31,390
+like a corruption, like
+I'm thinking about Enron
+
+1516
+01:08:31,390 --> 01:08:35,080
+or [INAUDIBLE] in Italy.
+
+1517
+01:08:35,080 --> 01:08:39,710
+Why would I not want to
+short sell, you know,
+
+1518
+01:08:39,710 --> 01:08:46,466
+the higher return stock and
+buy the lower return stock,
+
+1519
+01:08:46,466 --> 01:08:48,960
+and take the lower
+part of the curve?
+
+1520
+01:08:48,960 --> 01:08:53,160
+ANDREW LO: You might, if
+there are other elements that
+
+1521
+01:08:53,160 --> 01:08:55,410
+are in this analysis.
+
+1522
+01:08:55,410 --> 01:08:58,020
+So as I said, this
+analysis assumes
+
+1523
+01:08:58,020 --> 01:09:02,319
+there are only two dimensions,
+mean and standard deviation.
+
+1524
+01:09:02,319 --> 01:09:03,359
+Right?
+
+1525
+01:09:03,359 --> 01:09:05,189
+You've now introduced
+a third, which
+
+1526
+01:09:05,189 --> 01:09:08,850
+is corporate responsibility
+or corporate governance
+
+1527
+01:09:08,850 --> 01:09:10,439
+or fraud or something like that.
+
+1528
+01:09:10,439 --> 01:09:12,240
+Then you would need
+three dimensions.
+
+1529
+01:09:12,240 --> 01:09:16,680
+And there'd be something
+sticking outside the screen.
+
+1530
+01:09:16,680 --> 01:09:19,470
+And then you'd have to choose
+among the three possibilities.
+
+1531
+01:09:19,470 --> 01:09:21,420
+So it's possible
+that you want to be
+
+1532
+01:09:21,420 --> 01:09:25,890
+down here because this company
+has a better reputation
+
+1533
+01:09:25,890 --> 01:09:28,470
+than this one up here.
+
+1534
+01:09:28,470 --> 01:09:30,210
+But then what
+you're telling me is
+
+1535
+01:09:30,210 --> 01:09:34,439
+that reputation matters to
+you beyond standard deviation
+
+1536
+01:09:34,439 --> 01:09:37,600
+and expected return.
+
+1537
+01:09:37,600 --> 01:09:38,715
+What's that?
+
+1538
+01:09:38,715 --> 01:09:40,456
+AUDIENCE: Market conditions.
+
+1539
+01:09:40,456 --> 01:09:42,330
+ANDREW LO: Stable means
+that these parameters
+
+1540
+01:09:42,330 --> 01:09:45,857
+are likely to stay
+the same over time.
+
+1541
+01:09:45,857 --> 01:09:47,732
+AUDIENCE: There's a
+crisis every three years.
+
+1542
+01:09:47,732 --> 01:09:50,040
+There's an industry
+crisis every two years.
+
+1543
+01:09:50,040 --> 01:09:51,450
+ANDREW LO: Right.
+
+1544
+01:09:51,450 --> 01:09:53,850
+Well, the argument that
+a financial economist
+
+1545
+01:09:53,850 --> 01:09:55,100
+would make--
+
+1546
+01:09:55,100 --> 01:09:56,850
+and I'm not saying
+that I believe in this.
+
+1547
+01:09:56,850 --> 01:09:58,350
+I'm going to tell
+you what I believe
+
+1548
+01:09:58,350 --> 01:09:59,430
+at the end of this class.
+
+1549
+01:09:59,430 --> 01:10:01,770
+But I'm telling you now
+what the party line is,
+
+1550
+01:10:01,770 --> 01:10:03,510
+and what's in your textbook.
+
+1551
+01:10:03,510 --> 01:10:05,850
+What's in your textbook
+and what the party line is
+
+1552
+01:10:05,850 --> 01:10:09,090
+is that when you use
+historical amounts of data,
+
+1553
+01:10:09,090 --> 01:10:12,730
+those kind of crisis periods
+are in there already.
+
+1554
+01:10:12,730 --> 01:10:14,430
+So if I estimate
+the correlations,
+
+1555
+01:10:14,430 --> 01:10:19,560
+including October '87, including
+March 2000, the bursting
+
+1556
+01:10:19,560 --> 01:10:22,770
+of the internet bubble,
+August 1998, LTCM,
+
+1557
+01:10:22,770 --> 01:10:25,960
+if I include all of
+those in my data,
+
+1558
+01:10:25,960 --> 01:10:27,360
+then it's captured in there.
+
+1559
+01:10:27,360 --> 01:10:28,720
+Right?
+
+1560
+01:10:28,720 --> 01:10:30,530
+It's not captured today.
+
+1561
+01:10:30,530 --> 01:10:33,790
+In other words, this point
+here for General Dynamics
+
+1562
+01:10:33,790 --> 01:10:36,490
+doesn't reflect that
+there's a crisis today.
+
+1563
+01:10:36,490 --> 01:10:40,640
+What it reflects is, on average,
+over a long period of time--
+
+1564
+01:10:40,640 --> 01:10:42,760
+some of which includes crises--
+
+1565
+01:10:42,760 --> 01:10:45,810
+that's what the expected
+return looks like.
+
+1566
+01:10:45,810 --> 01:10:50,580
+And so I've already incorporated
+that into the parameters.
+
+1567
+01:10:50,580 --> 01:10:53,310
+And if it so happens that
+today is a bad day for General
+
+1568
+01:10:53,310 --> 01:10:55,620
+Dynamics, that
+shouldn't influence
+
+1569
+01:10:55,620 --> 01:10:56,850
+whether you buy it or not.
+
+1570
+01:10:56,850 --> 01:10:58,558
+Because what you should
+be thinking about
+
+1571
+01:10:58,558 --> 01:11:03,360
+is over the next 15 or 20
+years, how will my portfolio do.
+
+1572
+01:11:03,360 --> 01:11:06,210
+So that's another difference
+in perspective from us
+
+1573
+01:11:06,210 --> 01:11:07,890
+versus Warren Buffett.
+
+1574
+01:11:07,890 --> 01:11:10,290
+Although actually, not
+as much as you think.
+
+1575
+01:11:10,290 --> 01:11:13,290
+Warren Buffett typically takes
+a long term perspective, right?
+
+1576
+01:11:13,290 --> 01:11:15,042
+His investment in Goldman Sachs?
+
+1577
+01:11:15,042 --> 01:11:16,500
+We all thought it
+was a great deal.
+
+1578
+01:11:16,500 --> 01:11:18,540
+He's lost money in it
+since he put that money
+
+1579
+01:11:18,540 --> 01:11:20,936
+in a few weeks ago.
+
+1580
+01:11:20,936 --> 01:11:22,060
+But is he worried about it?
+
+1581
+01:11:22,060 --> 01:11:23,130
+I don't think so.
+
+1582
+01:11:23,130 --> 01:11:26,040
+Because he's invested in it
+for the next 15 to 20 years.
+
+1583
+01:11:26,040 --> 01:11:30,300
+And I believe, as he does,
+that he got a great deal
+
+1584
+01:11:30,300 --> 01:11:32,320
+over that time period.
+
+1585
+01:11:32,320 --> 01:11:35,100
+So if you care about what's
+going to happen tomorrow,
+
+1586
+01:11:35,100 --> 01:11:37,380
+then all of the things
+that I'm telling you,
+
+1587
+01:11:37,380 --> 01:11:39,450
+you should not take
+that as seriously.
+
+1588
+01:11:39,450 --> 01:11:42,510
+Because these kind of
+parameters aren't made for day
+
+1589
+01:11:42,510 --> 01:11:44,130
+to day forecasting.
+
+1590
+01:11:44,130 --> 01:11:45,930
+Then you need to get
+hedge fund models.
+
+1591
+01:11:45,930 --> 01:11:48,380
+And for that, you need
+to take not only 433,
+
+1592
+01:11:48,380 --> 01:11:50,130
+but a number of other
+courses, and courses
+
+1593
+01:11:50,130 --> 01:11:51,210
+that aren't even offered yet.
+
+1594
+01:11:51,210 --> 01:11:53,070
+Because frankly, if I
+told you how to do it,
+
+1595
+01:11:53,070 --> 01:11:53,945
+I'd have to kill you.
+
+1596
+01:11:53,945 --> 01:11:54,570
+Right?
+
+1597
+01:11:54,570 --> 01:11:56,850
+Highly proprietary.
+
+1598
+01:11:56,850 --> 01:11:59,370
+But this is the
+approach where we're not
+
+1599
+01:11:59,370 --> 01:12:00,660
+trying to forecast markets.
+
+1600
+01:12:00,660 --> 01:12:02,460
+And so I'm acknowledging
+that you're
+
+1601
+01:12:02,460 --> 01:12:04,470
+right that there
+are instabilities.
+
+1602
+01:12:04,470 --> 01:12:06,720
+But as long as I'm using a
+long enough amount of data,
+
+1603
+01:12:06,720 --> 01:12:07,590
+that it's in there.
+
+1604
+01:12:07,590 --> 01:12:10,550
+It's captured in there,
+in that set of parameters.
+
+1605
+01:12:10,550 --> 01:12:11,610
+OK?
+
+1606
+01:12:11,610 --> 01:12:14,310
+If it's not, if you know of
+something that's not in here,
+
+1607
+01:12:14,310 --> 01:12:17,250
+obviously you can't expect this
+to give you the right answer.
+
+1608
+01:12:17,250 --> 01:12:20,580
+And you have to adjust your
+use of this technology,
+
+1609
+01:12:20,580 --> 01:12:23,190
+accordingly.
+
+1610
+01:12:23,190 --> 01:12:24,650
+Other questions?
+
+1611
+01:12:24,650 --> 01:12:25,326
+Yeah?
+
+1612
+01:12:25,326 --> 01:12:29,404
+AUDIENCE: [INAUDIBLE]
+
+1613
+01:12:29,404 --> 01:12:30,070
+ANDREW LO: Yeah.
+
+1614
+01:12:30,070 --> 01:12:45,080
+AUDIENCE: [INAUDIBLE]
+
+1615
+01:12:45,080 --> 01:12:46,430
+ANDREW LO: Yeah.
+
+1616
+01:12:46,430 --> 01:12:47,230
+That's right.
+
+1617
+01:12:47,230 --> 01:12:47,760
+Yeah.
+
+1618
+01:12:47,760 --> 01:12:54,800
+AUDIENCE: [INAUDIBLE]
+
+1619
+01:12:54,800 --> 01:12:56,660
+ANDREW LO: Well,
+you have to know
+
+1620
+01:12:56,660 --> 01:12:58,580
+how to build those
+other variables
+
+1621
+01:12:58,580 --> 01:12:59,910
+into this kind of a framework.
+
+1622
+01:12:59,910 --> 01:13:01,825
+That's another
+way of putting it.
+
+1623
+01:13:01,825 --> 01:13:03,200
+So in other words,
+this framework
+
+1624
+01:13:03,200 --> 01:13:05,090
+is still useful
+in the case where
+
+1625
+01:13:05,090 --> 01:13:06,980
+you've got other variables.
+
+1626
+01:13:06,980 --> 01:13:09,710
+But you just need to know how
+those other variables will
+
+1627
+01:13:09,710 --> 01:13:13,640
+impact the parameters
+for this analysis.
+
+1628
+01:13:13,640 --> 01:13:17,690
+If you can figure that out, then
+you're a hedge fund manager.
+
+1629
+01:13:17,690 --> 01:13:18,190
+Right?
+
+1630
+01:13:18,190 --> 01:13:20,000
+That's what hedge
+funds try to do.
+
+1631
+01:13:20,000 --> 01:13:22,730
+They try to figure out
+how all of these relations
+
+1632
+01:13:22,730 --> 01:13:25,550
+impact on how to construct
+a good portfolio.
+
+1633
+01:13:25,550 --> 01:13:26,348
+All right?
+
+1634
+01:13:26,348 --> 01:13:28,360
+AUDIENCE: [INAUDIBLE]
+
+1635
+01:13:28,360 --> 01:13:29,360
+ANDREW LO: That's right.
+
+1636
+01:13:29,360 --> 01:13:30,170
+For example.
+
+1637
+01:13:30,170 --> 01:13:31,929
+That would be one
+way of looking at it.
+
+1638
+01:13:31,929 --> 01:13:32,970
+But there are other ways.
+
+1639
+01:13:32,970 --> 01:13:34,550
+It doesn't have to
+be quantitative.
+
+1640
+01:13:34,550 --> 01:13:36,110
+There are a lot of talented
+hedge fund managers
+
+1641
+01:13:36,110 --> 01:13:37,670
+that don't know how
+to use a calculator,
+
+1642
+01:13:37,670 --> 01:13:38,503
+make a lot of money.
+
+1643
+01:13:38,503 --> 01:13:40,100
+OK?
+
+1644
+01:13:40,100 --> 01:13:42,795
+So don't think that it's all
+about quantitative analysis.
+
+1645
+01:13:42,795 --> 01:13:43,670
+That's what we think.
+
+1646
+01:13:43,670 --> 01:13:45,140
+That's how I think.
+
+1647
+01:13:45,140 --> 01:13:46,994
+That's how MIT may think.
+
+1648
+01:13:46,994 --> 01:13:49,160
+But that's not the only way
+to make money out there.
+
+1649
+01:13:49,160 --> 01:13:50,870
+You know, Warren
+Buffett, I don't think
+
+1650
+01:13:50,870 --> 01:13:53,210
+knows how to calculate
+these covariances.
+
+1651
+01:13:53,210 --> 01:13:56,250
+But he's done OK.
+
+1652
+01:13:56,250 --> 01:13:59,270
+So but I think what we can
+do with this framework is
+
+1653
+01:13:59,270 --> 01:14:02,570
+to analyze how he
+does what he does,
+
+1654
+01:14:02,570 --> 01:14:06,130
+and understand it in the context
+of this kind of a framework.
+
+1655
+01:14:06,130 --> 01:14:06,860
+All right.
+
+1656
+01:14:06,860 --> 01:14:12,470
+So let's now go to the next
+topic, which is, all right,
+
+1657
+01:14:12,470 --> 01:14:15,710
+how do we choose
+a good portfolio,
+
+1658
+01:14:15,710 --> 01:14:18,410
+given what we now know
+about this framework?
+
+1659
+01:14:18,410 --> 01:14:19,989
+Well, we said before--
+
+1660
+01:14:19,989 --> 01:14:21,530
+Ryan pointed out--
+that we never want
+
+1661
+01:14:21,530 --> 01:14:24,410
+to be on the lower
+part of that frontier.
+
+1662
+01:14:24,410 --> 01:14:25,830
+So that's one thing we know.
+
+1663
+01:14:25,830 --> 01:14:26,330
+Right?
+
+1664
+01:14:26,330 --> 01:14:28,810
+We don't want to be
+on the bottom part.
+
+1665
+01:14:28,810 --> 01:14:31,190
+So we want to be on
+the efficient frontier.
+
+1666
+01:14:31,190 --> 01:14:34,310
+Now this entire
+bullet can be viewed
+
+1667
+01:14:34,310 --> 01:14:37,550
+as what's called the
+minimum variance boundary.
+
+1668
+01:14:37,550 --> 01:14:40,940
+Meaning, for any given
+investment over here,
+
+1669
+01:14:40,940 --> 01:14:44,390
+we have the absolute
+minimum variance
+
+1670
+01:14:44,390 --> 01:14:46,850
+that has the same level
+of expected return.
+
+1671
+01:14:46,850 --> 01:14:49,490
+So when I go, when
+I go horizontally,
+
+1672
+01:14:49,490 --> 01:14:52,040
+I'm looking at the
+smallest amount
+
+1673
+01:14:52,040 --> 01:14:56,260
+of risk I can take for
+that same level of expected
+
+1674
+01:14:56,260 --> 01:14:57,060
+rate of return.
+
+1675
+01:14:57,060 --> 01:15:00,680
+That's what this bullet can
+be viewed as giving you.
+
+1676
+01:15:00,680 --> 01:15:05,610
+And it turns out that because
+we like expected return,
+
+1677
+01:15:05,610 --> 01:15:07,790
+and we don't like
+risk, we want to be
+
+1678
+01:15:07,790 --> 01:15:09,680
+on the upper part
+of that bullet.
+
+1679
+01:15:09,680 --> 01:15:13,500
+So this upper part is known
+as the efficient frontier.
+
+1680
+01:15:13,500 --> 01:15:16,680
+So that's the one thing we can
+tell about portfolio theory.
+
+1681
+01:15:16,680 --> 01:15:20,060
+It's that we want to
+be on the upper branch.
+
+1682
+01:15:20,060 --> 01:15:21,920
+But where on the
+upper branch depends
+
+1683
+01:15:21,920 --> 01:15:23,830
+upon our risk preferences.
+
+1684
+01:15:23,830 --> 01:15:25,370
+OK?
+
+1685
+01:15:25,370 --> 01:15:27,650
+So here's a concrete example.
+
+1686
+01:15:27,650 --> 01:15:30,500
+Suppose you can invest in
+any combination of General
+
+1687
+01:15:30,500 --> 01:15:32,540
+Motors, IBM, and Motorola.
+
+1688
+01:15:32,540 --> 01:15:35,010
+What portfolio would you choose?
+
+1689
+01:15:35,010 --> 01:15:37,260
+So these are the data
+that you would start with.
+
+1690
+01:15:37,260 --> 01:15:37,760
+OK?
+
+1691
+01:15:37,760 --> 01:15:41,030
+The means and the standard
+deviations, and then of course,
+
+1692
+01:15:41,030 --> 01:15:42,050
+the covariances.
+
+1693
+01:15:42,050 --> 01:15:43,820
+You've got to have
+the covariances to be
+
+1694
+01:15:43,820 --> 01:15:46,250
+able to calculate that bullet.
+
+1695
+01:15:46,250 --> 01:15:50,154
+So you can invest
+in any combination.
+
+1696
+01:15:50,154 --> 01:15:51,070
+What would you choose?
+
+1697
+01:15:51,070 --> 01:15:53,890
+Let's calculate the
+expected rate of return
+
+1698
+01:15:53,890 --> 01:15:57,730
+and the variance
+of that portfolio.
+
+1699
+01:15:57,730 --> 01:16:00,550
+And you want to ask
+the question, what
+
+1700
+01:16:00,550 --> 01:16:02,430
+looks good to you?
+
+1701
+01:16:02,430 --> 01:16:04,200
+OK?
+
+1702
+01:16:04,200 --> 01:16:06,480
+Well, it turns out
+that when you calculate
+
+1703
+01:16:06,480 --> 01:16:09,570
+this kind of a bullet,
+you find out something
+
+1704
+01:16:09,570 --> 01:16:13,810
+that's, yet again, amazing.
+
+1705
+01:16:13,810 --> 01:16:17,560
+What you find is that
+the bullet actually
+
+1706
+01:16:17,560 --> 01:16:22,820
+is better than any of the three
+stocks that you started with.
+
+1707
+01:16:22,820 --> 01:16:24,640
+So look at where the
+three stocks are--
+
+1708
+01:16:24,640 --> 01:16:27,517
+General Motors,
+IBM, and Motorola--
+
+1709
+01:16:27,517 --> 01:16:29,350
+and the bullet, look
+at where the bullet is.
+
+1710
+01:16:29,350 --> 01:16:35,160
+The bullet is strictly to the
+northwest of these stocks.
+
+1711
+01:16:35,160 --> 01:16:35,730
+Right?
+
+1712
+01:16:35,730 --> 01:16:38,850
+In other words, you can do
+better than any one of these,
+
+1713
+01:16:38,850 --> 01:16:41,370
+either by going here
+or by going here.
+
+1714
+01:16:41,370 --> 01:16:43,830
+For the same level of risk,
+you can get a higher return.
+
+1715
+01:16:43,830 --> 01:16:47,980
+For the same level of expected
+return, you can get lower risk.
+
+1716
+01:16:47,980 --> 01:16:49,450
+OK?
+
+1717
+01:16:49,450 --> 01:16:52,450
+So the first point is
+that portfolio theory,
+
+1718
+01:16:52,450 --> 01:16:55,600
+for multiple stocks, is
+even more compelling.
+
+1719
+01:16:55,600 --> 01:16:57,530
+Because now, with
+those two stocks,
+
+1720
+01:16:57,530 --> 01:17:02,290
+at least the two stocks were on
+that minimum variance boundary.
+
+1721
+01:17:02,290 --> 01:17:05,050
+Now, with three
+stocks and more, it's
+
+1722
+01:17:05,050 --> 01:17:07,360
+possible that none
+of the stocks are
+
+1723
+01:17:07,360 --> 01:17:10,080
+going to be on the
+minimum variance boundary.
+
+1724
+01:17:10,080 --> 01:17:10,898
+Yeah?
+
+1725
+01:17:10,898 --> 01:17:12,890
+AUDIENCE: What I don't
+understand is this.
+
+1726
+01:17:12,890 --> 01:17:15,880
+S This is backward looking.
+
+1727
+01:17:15,880 --> 01:17:20,420
+So if people between companies
+and so on all make this graph
+
+1728
+01:17:20,420 --> 01:17:23,980
+and they all decide to
+strategize based on this graph,
+
+1729
+01:17:23,980 --> 01:17:26,046
+the price of these
+stocks next day
+
+1730
+01:17:26,046 --> 01:17:27,920
+are going to be correlated
+in a different way
+
+1731
+01:17:27,920 --> 01:17:30,640
+than you expect because
+it's going to effect the--
+
+1732
+01:17:30,640 --> 01:17:31,810
+ANDREW LO: Very good point.
+
+1733
+01:17:31,810 --> 01:17:34,360
+But it turns out your
+conclusion is false.
+
+1734
+01:17:34,360 --> 01:17:36,040
+But that's a good
+question to ask.
+
+1735
+01:17:36,040 --> 01:17:38,890
+And I'm going to answer that,
+not today, but on Monday.
+
+1736
+01:17:38,890 --> 01:17:42,040
+When we go over
+the question, what
+
+1737
+01:17:42,040 --> 01:17:44,820
+happens when
+everybody does it, I'm
+
+1738
+01:17:44,820 --> 01:17:46,660
+going to deal with
+that question head on.
+
+1739
+01:17:46,660 --> 01:17:47,380
+OK?
+
+1740
+01:17:47,380 --> 01:17:49,270
+That's going to be a
+very important point.
+
+1741
+01:17:49,270 --> 01:17:53,380
+And this is going to be one of
+the very few instances where
+
+1742
+01:17:53,380 --> 01:17:57,360
+when everybody does what I
+tell you they're going to do,
+
+1743
+01:17:57,360 --> 01:17:59,760
+that's actually going to
+give you an equilibrium.
+
+1744
+01:17:59,760 --> 01:18:03,240
+And everything will work
+out in just the right way.
+
+1745
+01:18:03,240 --> 01:18:05,820
+That's the magic of the CAPM.
+
+1746
+01:18:05,820 --> 01:18:08,100
+But you're right that
+Warren Buffett could not
+
+1747
+01:18:08,100 --> 01:18:10,055
+answer that criticism.
+
+1748
+01:18:10,055 --> 01:18:11,680
+If you talk to Warren
+Buffett and said,
+
+1749
+01:18:11,680 --> 01:18:16,947
+Warren, if everybody did what
+you did, then it wouldn't work.
+
+1750
+01:18:16,947 --> 01:18:18,280
+And he would say, you know what?
+
+1751
+01:18:18,280 --> 01:18:18,821
+That's right.
+
+1752
+01:18:18,821 --> 01:18:21,700
+That's why nobody can
+ever do what I do.
+
+1753
+01:18:21,700 --> 01:18:23,260
+I'm just smarter
+than everybody else.
+
+1754
+01:18:23,260 --> 01:18:24,010
+And so, I'm sorry.
+
+1755
+01:18:24,010 --> 01:18:25,110
+That's the way it goes.
+
+1756
+01:18:25,110 --> 01:18:28,180
+Here, I'm not appealing
+to everybody being
+
+1757
+01:18:28,180 --> 01:18:29,440
+smarter than everybody else.
+
+1758
+01:18:29,440 --> 01:18:32,450
+Because frankly, we're not.
+
+1759
+01:18:32,450 --> 01:18:34,610
+What I'm appealing to,
+what I will appeal to,
+
+1760
+01:18:34,610 --> 01:18:37,710
+is if everybody does the right
+thing-- by the right thing,
+
+1761
+01:18:37,710 --> 01:18:40,490
+I'm about to tell you what
+that right thing is-- everybody
+
+1762
+01:18:40,490 --> 01:18:43,040
+is on that upper
+branch and maximizes
+
+1763
+01:18:43,040 --> 01:18:48,080
+their risk/reward trade off,
+a very special thing happens.
+
+1764
+01:18:48,080 --> 01:18:48,740
+All right?
+
+1765
+01:18:48,740 --> 01:18:51,470
+I'm going to keep that
+as a surprise for Monday.
+
+1766
+01:18:51,470 --> 01:18:52,400
+OK, question?
+
+1767
+01:18:52,400 --> 01:18:53,140
+A question?
+
+1768
+01:18:53,140 --> 01:18:53,835
+Yeah.
+
+1769
+01:18:53,835 --> 01:18:56,210
+AUDIENCE: [INAUDIBLE]
+
+1770
+01:18:56,210 --> 01:18:57,314
+ANDREW LO: Yeah.
+
+1771
+01:18:57,314 --> 01:18:58,730
+Well, first of
+all, it's not clear
+
+1772
+01:18:58,730 --> 01:19:00,271
+that Warren Buffett
+is number one.
+
+1773
+01:19:00,271 --> 01:19:00,770
+All right?
+
+1774
+01:19:00,770 --> 01:19:03,650
+He's got a long track record
+and he's got the biggest pie.
+
+1775
+01:19:03,650 --> 01:19:05,300
+But in terms of
+actual track record,
+
+1776
+01:19:05,300 --> 01:19:06,550
+he doesn't have the
+best track record.
+
+1777
+01:19:06,550 --> 01:19:07,340
+There are people
+that you've never
+
+1778
+01:19:07,340 --> 01:19:08,946
+heard of that have
+a better track
+
+1779
+01:19:08,946 --> 01:19:10,070
+record than Warren Buffett.
+
+1780
+01:19:10,070 --> 01:19:13,250
+For example, there's a fellow
+by the name of James Simons--
+
+1781
+01:19:13,250 --> 01:19:16,280
+who I may have mentioned earlier
+on as a hedge fund manager--
+
+1782
+01:19:16,280 --> 01:19:19,190
+who also happens to be a
+first rate mathematician,
+
+1783
+01:19:19,190 --> 01:19:20,780
+who started up a
+hedge fund called
+
+1784
+01:19:20,780 --> 01:19:22,400
+Renaissance Technologies.
+
+1785
+01:19:22,400 --> 01:19:24,710
+That is probably the
+single best track
+
+1786
+01:19:24,710 --> 01:19:28,190
+record of any manager in
+the history of investments.
+
+1787
+01:19:28,190 --> 01:19:30,290
+And he does it completely
+quantitatively,
+
+1788
+01:19:30,290 --> 01:19:33,200
+completely automated.
+
+1789
+01:19:33,200 --> 01:19:39,410
+He hires something like 100
+PhDs that work on nothing else
+
+1790
+01:19:39,410 --> 01:19:42,350
+but how to forecast the
+next minute, as well as
+
+1791
+01:19:42,350 --> 01:19:44,732
+the next hour, the next year.
+
+1792
+01:19:44,732 --> 01:19:46,190
+It's an extraordinary
+track record.
+
+1793
+01:19:46,190 --> 01:19:47,840
+So there are a number
+of folks like that.
+
+1794
+01:19:47,840 --> 01:19:49,256
+Let me not dwell
+on that, but I'll
+
+1795
+01:19:49,256 --> 01:19:51,680
+come back to that
+in a few lectures
+
+1796
+01:19:51,680 --> 01:19:54,390
+when we talk about
+performance attribution.
+
+1797
+01:19:54,390 --> 01:19:55,370
+OK.
+
+1798
+01:19:55,370 --> 01:19:57,980
+So I'm going to leave you
+with one final thought
+
+1799
+01:19:57,980 --> 01:19:59,880
+since we're out of time.
+
+1800
+01:19:59,880 --> 01:20:03,530
+There is going to be a
+very special role played
+
+1801
+01:20:03,530 --> 01:20:07,490
+by a portfolio called
+the Tangency Portfolio.
+
+1802
+01:20:07,490 --> 01:20:11,790
+And I want you to think about
+how your risk/reward trade off
+
+1803
+01:20:11,790 --> 01:20:15,830
+would look when
+you mix your T-bill
+
+1804
+01:20:15,830 --> 01:20:20,620
+risk-free asset with arbitrary
+portfolios on this bullet.
+
+1805
+01:20:20,620 --> 01:20:22,620
+Think about what that
+trade off would look like.
+
+1806
+01:20:22,620 --> 01:20:24,200
+And ask yourself
+the question, does
+
+1807
+01:20:24,200 --> 01:20:29,150
+there exist a special portfolio
+on that efficient frontier
+
+1808
+01:20:29,150 --> 01:20:32,581
+that everybody in this classroom
+is going to want to have?
+
+1809
+01:20:32,581 --> 01:20:33,080
+All right?
+
+1810
+01:20:33,080 --> 01:20:34,110
+I want you to identify them.
+
+1811
+01:20:34,110 --> 01:20:36,151
+And I'm going to ask you
+that question on Monday,
+
+1812
+01:20:36,151 --> 01:20:37,631
+and I expect an answer.
+
+1813
+01:20:37,631 --> 01:20:38,130
+All right?
+
+1814
+01:20:38,130 --> 01:20:40,280
+I'll see you on Monday.

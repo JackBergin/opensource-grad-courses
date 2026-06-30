@@ -1,0 +1,15 @@
+
+{
+  "content": "\n    <h3 id=\"course-textbook\">Course Textbook</h3>\n\n<p>Brealey, Richard, Stewart Myers, and Franklin Allen. <em>Principles of Corporate Finance</em>. 9th ed. New York, NY: McGraw Hill, 2007. ISBN: 9780071266758.</p>\n\n    <h3 id=\"additional-readings\">Additional Readings</h3>\n\n<p>These readings are not required, but are of interest to those wishing to delve further into the subject of finance.</p>\n<p>Malkiel, Burton. <em>A Random Walk Down Wall Street</em>. New York, NY: W. W. Norton, 2007. ISBN: 9780393330335.</p>\n<p>This best-selling introduction to investing is now in its 9th edition and as popular as ever because of its entertaining style and sage advice. This is a great way to ease into financial markets, particularly for those who are not financially inclined.</p>\n<p>Bernstein, Peter. <em>Capital Ideas: the Improbable Origins of Modern Wall Street</em>. New York, NY: Free Press, 1993. ISBN: 9780029030127.</p>\n<p>Bernstein is one of the most well-respected and influential practitioners in the financial industry, and the founding editor of the <em>Journal of Portfolio Management</em>. This is a lively and beautifully written account of the most important ideas in academic finance, many of which were developed at MIT in the 1960&rsquo;s and 1970&rsquo;s.</p>\n<p>Bodie, Zvi, Alex Kane, and Alan Marcus. <em>Investments</em>. 8th ed. New York, NY: McGraw-Hill/Irwin, 2008. ISBN: 9780073382371.</p>\n<p>Bodie, Kane, and Marcus focus exclusively on capital markets. They provide a more rigorous and thorough analysis of investments than Brealey, Myers, and Allen.</p>\n<p><a   class=\"external-link \"   target=\"_blank\"   href=\"http://online.wsj.com/home-page\"  aria-label=\"The Wall Street Journal (opens in a new tab)\"  ><em>The Wall Street Journal</em></a></p>\n<p>Often called the diary of financial markets, the Journal is still the leading business publication in the world and familiarity with its various columns, sections, and op-ed pieces is a must for any serious finance professional.</p>\n",
+  "content_type": "page",
+  "description": "This section provides information on the course textbook, additional readings on finance, and a link to The Wall Street Journal website.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Readings"
+  ],
+  "ocw_type": "CourseSection",
+  "title": "Readings",
+  "uid": "364fddf0-2a0b-c7c2-f81c-d1d8bb22e160"
+}
+

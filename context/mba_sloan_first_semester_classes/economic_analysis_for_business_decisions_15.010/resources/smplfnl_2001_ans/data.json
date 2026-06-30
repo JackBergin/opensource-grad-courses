@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This resource includes solutions for Final Exam-2001.</p>\n",
+  "content_type": "resource",
+  "description": "This resource includes solutions for Final Exam-2001.",
+  "draft": false,
+  "file": "/courses/15-010-economic-analysis-for-business-decisions-fall-2004/837ef6be0692379d3184bd2d83eca761_smplfnl_2001_ans.pdf",
+  "file_size": 142109,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exam Solutions"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Exams",
+  "parent_type": "CourseSection",
+  "parent_uid": "93294fb1-6eb1-2889-2d21-cbd51760c44c",
+  "resourcetype": "Document",
+  "title": "smplfnl_2001_ans.pdf",
+  "uid": "837ef6be-0692-379d-3184-bd2d83eca761",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "15-010-economic-analysis-for-business-decisions-fall-2004"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "15-010-economic-analysis-for-business-decisions-fall-2004"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

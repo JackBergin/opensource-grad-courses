@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exam Solutions on MIT OpenCourseWare</title>
+    <link>/resources/exam-solutions/</link>
+    <description>Recent content in Exam Solutions on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exam-solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>midterm_2004_ans.pdf</title>
+      <link>/resources/midterm_2004_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/midterm_2004_ans/data.json</guid>
+      <description>&lt;p&gt;This resource includes answers to mid term exam 2004.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>smplfnl_1999_ans.pdf</title>
+      <link>/resources/smplfnl_1999_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/smplfnl_1999_ans/data.json</guid>
+      <description>&lt;p&gt;This resource includes solutions for Final Exam-1999.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>smplfnl_2000_ans.pdf</title>
+      <link>/resources/smplfnl_2000_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/smplfnl_2000_ans/data.json</guid>
+      <description>&lt;p&gt;This resource includes solutions for Final Exam-2000.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>smplfnl_2001_ans.pdf</title>
+      <link>/resources/smplfnl_2001_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/smplfnl_2001_ans/data.json</guid>
+      <description>&lt;p&gt;This resource includes solutions for Final Exam-2001.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>smplfnl_2002_ans.pdf</title>
+      <link>/resources/smplfnl_2002_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/smplfnl_2002_ans/data.json</guid>
+      <description>&lt;p&gt;This resource includes solutions for Final Exam-2002.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>smplfnl_2003_ans.pdf</title>
+      <link>/resources/smplfnl_2003_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/smplfnl_2003_ans/data.json</guid>
+      <description>&lt;p&gt;This resource includes solutions for Final Exam-2003.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>smplmdtrm_99_ans.pdf</title>
+      <link>/resources/smplmdtrm_99_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/smplmdtrm_99_ans/data.json</guid>
+      <description>&lt;p&gt;This resource includes solutions for Mid Term Exam-1999.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>smpmdtrm2000_ans.pdf</title>
+      <link>/resources/smpmdtrm2000_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/smpmdtrm2000_ans/data.json</guid>
+      <description>&lt;p&gt;This resource includes solutions for Mid Term Exam-2000.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>smpmdtrm2001_ans.pdf</title>
+      <link>/resources/smpmdtrm2001_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/smpmdtrm2001_ans/data.json</guid>
+      <description>&lt;p&gt;This resource includes solutions for Mid Term Exam-2001.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>smpmdtrm2002_ans.pdf</title>
+      <link>/resources/smpmdtrm2002_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/smpmdtrm2002_ans/data.json</guid>
+      <description>&lt;p&gt;This resource includes solutions for Mid Term Exam-2002.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>smpmdtrm2003_ans.pdf</title>
+      <link>/resources/smpmdtrm2003_ans/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/smpmdtrm2003_ans/data.json</guid>
+      <description>&lt;p&gt;This resource includes solutions for Mid Term Exam-2003.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+{
+  "content": "<p>Wal-Mart&rsquo;s response to Hurricane Katrina showed how quickly a privately-owned business could mobilize its resources during a disaster. (Image courtesy of Dennis Sylvester Hurd on Flickr.)</p>\n",
+  "content_type": "resource",
+  "description": "Wal-Mart's response to Hurricane Katrina showed how quickly a privately-owned business could mobilize its resources during a disaster. (Image courtesy of Dennis Sylvester Hurd on Flickr.)",
+  "draft": false,
+  "file": "/courses/15-761-introduction-to-operations-management-spring-2013/fa222486cf6f3d1c82dd629bc63de31c_15-761s13-th.jpg",
+  "file_size": 4924,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Wal-Mart's response to Hurricane Katrina showed how quickly a privately-owned business could mobilize its resources during a disaster. (Image courtesy of {{% resource_link \"07313dd4-48f7-4524-b332-9679870dda61\" \"Dennis Sylvester Hurd\" %}} on Flickr.)",
+    "credit": "Image courtesy of Dennis Sylvester Hurd on Flickr.",
+    "image-alt": "A small blue car is parked in front of a Wal-Mart entrance."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "A small blue car is parked in front of a Wal-Mart entrance",
+  "uid": "fa222486-cf6f-3d1c-82dd-629bc63de31c"
+}

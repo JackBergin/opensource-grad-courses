@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on MIT OpenCourseWare</title>
+    <link>/resources/tools/</link>
+    <description>Recent content in Tools on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Diffusion Model Simulator - 15.810 Fall 2015</title>
+      <link>/resources/mit15_810f15_diffusion/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_810f15_diffusion/data.json</guid>
+      <description>&lt;p&gt;This is a file that contains information regarding marketing management: analytics, frameworks, and applications diffusion model simulator - 15.810 fall 2015.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Discover Software for Conjoint Analysis</title>
+      <link>/resources/mit15_810f15_discover/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_810f15_discover/data.json</guid>
+      <description>&lt;p&gt;This is a file that contains information regarding marketing management: analytics, frameworks, and applications discover software for conjoint analysis&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT15_810F15_Conjoint.xlsx</title>
+      <link>/resources/mit15_810f15_conjoint-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_810f15_conjoint-2/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding simplified conjoint analysis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT15_810F15_Diffusion.xlsx</title>
+      <link>/resources/mit15_810f15_diffusion-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_810f15_diffusion-1/data.json</guid>
+      <description>&lt;p&gt;This resource contains information regarding this spreadsheet simulates the bass diffusion model.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Simplified Conjoint Analysis - 15.810 Fall 2015</title>
+      <link>/resources/mit15_810f15_conjoint-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_810f15_conjoint-1/data.json</guid>
+      <description>&lt;p&gt;This is a file that contains information regarding marketing management: analytics, frameworks, and applications simplified conjoint analysis - 15.810 fall 2015.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tools</title>
+      <link>/pages/tools/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/tools/data.json</guid>
+      <description>&lt;h3 id=&#34;diffusion-model-simulator&#34;&gt;Diffusion Model Simulator&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit15_810f15_diffusion-1/index.html&#34;&gt;This Spreadsheet Simulates the Bass Diffusion Model (XLS)&lt;/a&gt; &lt;a href=&#34;../../resources/mit15_810f15_diffusion/index.html&#34;&gt;(PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;conjoint-analysis&#34;&gt;Conjoint Analysis&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit15_810f15_conjoint-2/index.html&#34;&gt;Simplified Conjoint Analysis (XLS)&lt;/a&gt; &lt;a href=&#34;../../resources/mit15_810f15_conjoint-1/index.html&#34;&gt;(PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;discover-software-for-conjoint-analysis&#34;&gt;Discover Software for Conjoint Analysis&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;For this content see the file &lt;a href=&#34;../../resources/mit15_810f15_discover/index.html&#34;&gt;Discover Software for Conjoint Analysis (PDF)&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

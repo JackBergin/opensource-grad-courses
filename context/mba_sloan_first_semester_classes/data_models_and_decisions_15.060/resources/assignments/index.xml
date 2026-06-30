@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on MIT OpenCourseWare</title>
+    <link>/resources/assignments/</link>
+    <description>Recent content in Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignments</title>
+      <link>/pages/assignments/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/assignments/data.json</guid>
+      <description>&lt;h3 id=&#34;homework-assignments&#34;&gt;Homework Assignments&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit15_060f14_hw1-f14/index.html&#34;&gt;Homework 1: Probability (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit15_060f14_hw2_work/index.html&#34;&gt;Homework 2: Simulation (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit15_060f14_hw3-f14/index.html&#34;&gt;Homework 3: Regression I (PDF)&lt;/a&gt;; &lt;a href=&#34;../../resources/mit15_060f14_hw3_exec-1/index.html&#34;&gt;EXEC-PAY Spreadsheet (XLS)&lt;/a&gt; (&lt;a href=&#34;../../resources/mit15_060f14_hw3_exec/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit15_060f14_hw4-hbc/index.html&#34;&gt;Homework 4: Regression II (PDF)&lt;/a&gt;; &lt;a href=&#34;../../resources/mit15_060f14_hw4-hbc-1/index.html&#34;&gt;Hubbard Brewing Company Spreadsheet (XLS)&lt;/a&gt; (&lt;a href=&#34;../../resources/mit15_060f14_hw4-hbc/index.html&#34;&gt;PDF&lt;/a&gt;); this assignment was optional.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit15_060f14_hw5-f14/index.html&#34;&gt;Homework 5: Linear Optimization (PDF)&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit15_060f14_hw6-f14/index.html&#34;&gt;Homework 6: Production Management (PDF)&lt;/a&gt;; &lt;a href=&#34;../../resources/mit15_060f14_hw6-jordan-1/index.html&#34;&gt;Jordon Alloy Table 7.38 (XLS)&lt;/a&gt; (&lt;a href=&#34;../../resources/mit15_060f14_hw6-jordan/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;../../resources/mit15_060f14_hw7-f14/index.html&#34;&gt;Homework 7: Discrete Optimization (PDF)&lt;/a&gt;; &lt;a href=&#34;../../resources/mit15_060f14_hw7-dream-1/index.html&#34;&gt;Dream Team Spreadsheet (XLS)&lt;/a&gt; (&lt;a href=&#34;../../resources/mit15_060f14_hw7-dream/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;team-and-individual-case-assignments&#34;&gt;Team and Individual Case Assignments&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;[DMD] = Bertsimas, Dimitris, and Robert Freund. &lt;em&gt;Data, Models, and Decisions: The Fundamentals of Management Science&lt;/em&gt;. Dynamic Ideas, 2004. ISBN: 9780975914601.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+{
+  "content": "<p>A portion of a company&rsquo;s organizational chart, showing different people and departments. (Images courtesy of Matthew Palmer, U.S. Department of Energy, U.S. Department of Commerce, and U.S. Census Bureau.)</p>\n",
+  "content_type": "resource",
+  "description": "A portion of a company's organizational chart, showing different people and departments. (Images courtesy of Matthew Palmer, U.S. Department of Energy, U.S. Department of Commerce, and U.S. Census Bureau.)",
+  "draft": false,
+  "file": "/courses/15-311-organizational-processes-fall-2003/86d744d45da39a9d94776fa02f103872_15-311f03-th.jpg",
+  "file_size": 8834,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "A portion of a company's organizational chart, showing different people and departments. (Images courtesy of Matthew Palmer, {{% resource_link \"70470a75-aece-4503-aa37-736c715de11f\" \"U.S. Department of Energy\" %}}, {{% resource_link \"e646f872-4f62-418c-bd1f-8b7931a5ad1a\" \"U.S. Department of Commerce\" %}}, and {{% resource_link \"0e59ba6c-ac99-4fcf-91a3-0de676d1e047\" \"U.S. Census Bureau\" %}}.)",
+    "credit": "",
+    "image-alt": "Organizational chart."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "Organizational Chart (thumbnail)",
+  "uid": "86d744d4-5da3-9a9d-9477-6fa02f103872"
+}

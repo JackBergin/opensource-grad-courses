@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Supplemental Exam Materials on MIT OpenCourseWare</title>
+    <link>/resources/supplemental-exam-materials/</link>
+    <description>Recent content in Supplemental Exam Materials on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/supplemental-exam-materials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>final_rev_hndout.pdf</title>
+      <link>/resources/final_rev_hndout/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/final_rev_hndout/data.json</guid>
+      <description>&lt;p&gt;Two-part Tariffs, Bundling, Pricing, Transfer Pricing, Asymmetric Information, Cartels and Auctions, Externalities/Common Property and Game theory.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>midterm_review.pdf</title>
+      <link>/resources/midterm_review/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/midterm_review/data.json</guid>
+      <description>&lt;p&gt;Market Definition, Supply/Demand, Elasticities, Government Policies, Production/Cost/Network Externalities, Learning Curve, Dynamic Demand, Time and Uncertainty, Monopolies, Market Power.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

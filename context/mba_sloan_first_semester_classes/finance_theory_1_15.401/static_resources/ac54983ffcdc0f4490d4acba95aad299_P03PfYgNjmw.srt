@@ -1,0 +1,5508 @@
+1
+00:00:00,090 --> 00:00:02,430
+The following content is
+provided under a Creative
+
+2
+00:00:02,430 --> 00:00:03,850
+Commons license.
+
+3
+00:00:03,850 --> 00:00:06,060
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:06,060 --> 00:00:10,150
+continue to offer high-quality
+educational resources for free.
+
+5
+00:00:10,150 --> 00:00:12,690
+To make a donation or to
+view additional materials
+
+6
+00:00:12,690 --> 00:00:16,620
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:16,620 --> 00:00:17,860
+at ocw.mit.edu.
+
+8
+00:00:27,170 --> 00:00:32,150
+ANDREW LO: Any questions
+from last lecture?
+
+9
+00:00:32,150 --> 00:00:35,330
+Where we left off last time
+was the adaptive markets
+
+10
+00:00:35,330 --> 00:00:36,860
+hypothesis.
+
+11
+00:00:36,860 --> 00:00:41,720
+The fact that markets are not
+always in everywhere efficient,
+
+12
+00:00:41,720 --> 00:00:45,620
+but rather they satisfy the
+following six properties
+
+13
+00:00:45,620 --> 00:00:48,590
+that I listed at the
+end of last lecture.
+
+14
+00:00:48,590 --> 00:00:51,230
+Individuals act in
+their own self-interest,
+
+15
+00:00:51,230 --> 00:00:53,300
+but they make mistakes.
+
+16
+00:00:53,300 --> 00:00:58,340
+However, they learn and
+adapt, and competition drives
+
+17
+00:00:58,340 --> 00:01:01,160
+that adaptation and innovation.
+
+18
+00:01:01,160 --> 00:01:05,720
+Natural selection,
+essentially, is the mechanism
+
+19
+00:01:05,720 --> 00:01:10,620
+that shapes the survival of
+the heuristics And in the end,
+
+20
+00:01:10,620 --> 00:01:13,670
+the only thing that
+matters is survival.
+
+21
+00:01:13,670 --> 00:01:16,220
+Now I illustrated how
+heuristics develop
+
+22
+00:01:16,220 --> 00:01:20,360
+by giving you an example of
+the problem of getting dressed
+
+23
+00:01:20,360 --> 00:01:21,430
+in the morning.
+
+24
+00:01:21,430 --> 00:01:23,540
+And I pointed out
+that each of us
+
+25
+00:01:23,540 --> 00:01:26,240
+have our own heuristics
+that have been developed
+
+26
+00:01:26,240 --> 00:01:29,150
+over many, many
+years of selection
+
+27
+00:01:29,150 --> 00:01:31,220
+of various different sorts.
+
+28
+00:01:31,220 --> 00:01:33,530
+So when you take
+this all together
+
+29
+00:01:33,530 --> 00:01:37,130
+and you put them
+into a framework that
+
+30
+00:01:37,130 --> 00:01:41,090
+tries to focus on
+understanding market dynamics,
+
+31
+00:01:41,090 --> 00:01:42,740
+you get a number of
+implications that
+
+32
+00:01:42,740 --> 00:01:46,740
+are actually quite different
+from that of efficient markets.
+
+33
+00:01:46,740 --> 00:01:47,990
+Let me tell you what they are.
+
+34
+00:01:47,990 --> 00:01:49,740
+I'll give you some examples.
+
+35
+00:01:49,740 --> 00:01:53,390
+One of the implications is
+that the risk-reward trade-off
+
+36
+00:01:53,390 --> 00:01:56,300
+the relationship between risk
+and expected rate of return,
+
+37
+00:01:56,300 --> 00:02:00,210
+like the CAPM's
+security market line.
+
+38
+00:02:00,210 --> 00:02:04,500
+That's not stable over
+time or over circumstances,
+
+39
+00:02:04,500 --> 00:02:07,530
+because individual
+preferences are not stable
+
+40
+00:02:07,530 --> 00:02:11,100
+over time or over circumstances.
+
+41
+00:02:11,100 --> 00:02:13,440
+I'll give you an
+example of that.
+
+42
+00:02:13,440 --> 00:02:15,840
+Anybody know somebody who
+has lived through the Great
+
+43
+00:02:15,840 --> 00:02:21,200
+Depression, OK, so grandparents
+or great-grandparents?
+
+44
+00:02:21,200 --> 00:02:24,080
+My guess is that if
+you talk to them,
+
+45
+00:02:24,080 --> 00:02:27,317
+or if you even
+observe their habits,
+
+46
+00:02:27,317 --> 00:02:29,400
+they're actually quite
+different from your parents
+
+47
+00:02:29,400 --> 00:02:32,190
+and yourselves in
+terms of how frugal
+
+48
+00:02:32,190 --> 00:02:35,700
+they, are how careful
+they are with money,
+
+49
+00:02:35,700 --> 00:02:38,520
+with resources, even something
+as simple as turning off
+
+50
+00:02:38,520 --> 00:02:40,650
+the lights.
+
+51
+00:02:40,650 --> 00:02:46,430
+A friend of mine is a customer
+a very wealthy family.
+
+52
+00:02:46,430 --> 00:02:49,500
+They own a private business.
+
+53
+00:02:49,500 --> 00:02:51,900
+And so their family's
+net worth today
+
+54
+00:02:51,900 --> 00:02:53,820
+is probably in the
+order of $300 million,
+
+55
+00:02:53,820 --> 00:02:57,270
+which, even in today's
+economy is worth a lot.
+
+56
+00:02:57,270 --> 00:03:00,810
+Actually, it's worth more than
+what it used to be worth now.
+
+57
+00:03:00,810 --> 00:03:05,250
+And so this family, the
+patriarch, the matriarch
+
+58
+00:03:05,250 --> 00:03:09,000
+is their grandmother, who lived
+through the Great Depression.
+
+59
+00:03:09,000 --> 00:03:13,080
+And she lives in Lower
+Manhattan in a relatively small,
+
+60
+00:03:13,080 --> 00:03:15,720
+nondescript apartment,
+despite the fact
+
+61
+00:03:15,720 --> 00:03:19,260
+that the family, you
+know, my friend's parents,
+
+62
+00:03:19,260 --> 00:03:24,120
+live in a beautiful penthouse
+apartment on Park Avenue.
+
+63
+00:03:24,120 --> 00:03:26,070
+And they keep asking
+the grandmother
+
+64
+00:03:26,070 --> 00:03:27,000
+to move in with them.
+
+65
+00:03:27,000 --> 00:03:27,992
+And she refuses.
+
+66
+00:03:27,992 --> 00:03:29,200
+She just thinks it's a waste.
+
+67
+00:03:29,200 --> 00:03:30,570
+It's embarrassing.
+
+68
+00:03:30,570 --> 00:03:35,100
+And when she comes to visit
+them, she'll take the bus.
+
+69
+00:03:35,100 --> 00:03:40,320
+She refuses to take taxis
+just from Lower Manhattan
+
+70
+00:03:40,320 --> 00:03:42,040
+to Midtown.
+
+71
+00:03:42,040 --> 00:03:45,996
+And so, you know, my friend,
+you know, pleads with her.
+
+72
+00:03:45,996 --> 00:03:47,620
+You know, Nana, why
+are you doing this?
+
+73
+00:03:47,620 --> 00:03:50,450
+You know, we have more money
+than we'll ever be able to use.
+
+74
+00:03:50,450 --> 00:03:51,700
+You can afford to take a taxi.
+
+75
+00:03:51,700 --> 00:03:52,720
+Let us send a car for you.
+
+76
+00:03:52,720 --> 00:03:53,540
+Why do you do this?
+
+77
+00:03:53,540 --> 00:03:58,340
+It's dangerous for you to
+take the subway or the bus.
+
+78
+00:03:58,340 --> 00:04:00,970
+And she's like 95 years old.
+
+79
+00:04:00,970 --> 00:04:07,270
+And she says to
+him, listen, Sonny.
+
+80
+00:04:07,270 --> 00:04:09,820
+You don't remember
+the days that I do,
+
+81
+00:04:09,820 --> 00:04:13,900
+when I had to stand in line
+and wait for my dinner,
+
+82
+00:04:13,900 --> 00:04:16,720
+not knowing whether or not I
+was going to get me by the time
+
+83
+00:04:16,720 --> 00:04:19,130
+I got to that end of that line.
+
+84
+00:04:19,130 --> 00:04:22,600
+So don't you tell me that we
+have more money than will ever
+
+85
+00:04:22,600 --> 00:04:24,306
+be able to spend.
+
+86
+00:04:24,306 --> 00:04:25,430
+I'm sure you've heard that.
+
+87
+00:04:25,430 --> 00:04:28,013
+Those of you who know people who
+lived through the depression,
+
+88
+00:04:28,013 --> 00:04:29,620
+you've heard that.
+
+89
+00:04:29,620 --> 00:04:35,080
+These individuals were indelibly
+altered by their experiences.
+
+90
+00:04:35,080 --> 00:04:38,290
+They're not the same
+person before, as after,
+
+91
+00:04:38,290 --> 00:04:41,270
+living through such
+difficult times.
+
+92
+00:04:41,270 --> 00:04:42,770
+And you're not going
+to change them.
+
+93
+00:04:42,770 --> 00:04:44,530
+So my friend has stopped trying.
+
+94
+00:04:44,530 --> 00:04:47,110
+And so he just
+does what he can in
+
+95
+00:04:47,110 --> 00:04:51,910
+order to make her life easier,
+but realizing that she simply
+
+96
+00:04:51,910 --> 00:04:54,280
+can't enjoy the
+same kinds of things
+
+97
+00:04:54,280 --> 00:05:00,070
+that he does, because she lived
+through such traumatic times.
+
+98
+00:05:00,070 --> 00:05:02,870
+So if you understand that,
+if you acknowledge that there
+
+99
+00:05:02,870 --> 00:05:06,260
+are people that are indelibly
+altered by tough times,
+
+100
+00:05:06,260 --> 00:05:11,150
+then, in the same way, people
+can be indelibly altered
+
+101
+00:05:11,150 --> 00:05:14,150
+by really good times as well.
+
+102
+00:05:14,150 --> 00:05:18,031
+As I said last time, you learn
+nothing from your successes,
+
+103
+00:05:18,031 --> 00:05:18,530
+right?
+
+104
+00:05:18,530 --> 00:05:20,450
+Because you succeeded,
+what's there to learn?
+
+105
+00:05:20,450 --> 00:05:22,510
+Do more of the same.
+
+106
+00:05:22,510 --> 00:05:25,370
+But that affects the
+way you think as well.
+
+107
+00:05:25,370 --> 00:05:29,560
+And so what we think of as
+this beautiful mathematical
+
+108
+00:05:29,560 --> 00:05:32,770
+relationship, this risk-reward
+trade-off, the CAPM,
+
+109
+00:05:32,770 --> 00:05:37,300
+the CAPM works if all of the
+assumptions that I specified
+
+110
+00:05:37,300 --> 00:05:38,820
+are true.
+
+111
+00:05:38,820 --> 00:05:42,960
+But those assumptions
+are predicated
+
+112
+00:05:42,960 --> 00:05:45,240
+on people acting rationally.
+
+113
+00:05:45,240 --> 00:05:49,260
+If people don't act rationally
+for whatever reason,
+
+114
+00:05:49,260 --> 00:05:52,410
+if they're emotionally
+traumatized,
+
+115
+00:05:52,410 --> 00:05:55,830
+if the balance between emotion
+and logical deliberation
+
+116
+00:05:55,830 --> 00:05:59,160
+has been permanently
+altered, then the theory
+
+117
+00:05:59,160 --> 00:06:00,700
+is not going to work.
+
+118
+00:06:00,700 --> 00:06:04,260
+So you have to understand that
+when you're looking at markets,
+
+119
+00:06:04,260 --> 00:06:05,970
+you're looking at
+the complexities
+
+120
+00:06:05,970 --> 00:06:08,400
+of the interactions among
+various different people
+
+121
+00:06:08,400 --> 00:06:12,060
+with different balances
+of logical deliberation
+
+122
+00:06:12,060 --> 00:06:14,950
+and emotional response.
+
+123
+00:06:14,950 --> 00:06:16,950
+So one of the
+things that says is
+
+124
+00:06:16,950 --> 00:06:20,730
+that risk premia,
+the expected return
+
+125
+00:06:20,730 --> 00:06:25,040
+on risky assets as a whole,
+is not a universal constant
+
+126
+00:06:25,040 --> 00:06:27,530
+like, you know, gravity.
+
+127
+00:06:27,530 --> 00:06:31,650
+It changes over time
+and over circumstances.
+
+128
+00:06:31,650 --> 00:06:34,410
+It was going to
+be quite different
+
+129
+00:06:34,410 --> 00:06:38,370
+if we had continuing prosperity
+over the next five years
+
+130
+00:06:38,370 --> 00:06:40,740
+as to where we're
+likely to be headed now.
+
+131
+00:06:40,740 --> 00:06:41,790
+It's just different.
+
+132
+00:06:41,790 --> 00:06:44,250
+We have a different path
+that we're going to follow.
+
+133
+00:06:44,250 --> 00:06:49,830
+And so as things change, market
+dynamics will change with them.
+
+134
+00:06:49,830 --> 00:06:50,330
+Yeah, Zeke.
+
+135
+00:06:50,330 --> 00:06:52,539
+AUDIENCE: So last
+time, we had talked
+
+136
+00:06:52,539 --> 00:06:58,177
+about when you give somebody
+[INAUDIBLE] that [INAUDIBLE]
+
+137
+00:06:58,177 --> 00:06:58,677
+and so on.
+
+138
+00:06:58,677 --> 00:07:01,140
+And you said that lasts
+for a couple of hours.
+
+139
+00:07:01,140 --> 00:07:01,785
+ANDREW LO: Yes.
+
+140
+00:07:01,785 --> 00:07:04,650
+AUDIENCE: So with combined
+with what you're saying today,
+
+141
+00:07:04,650 --> 00:07:06,963
+are you connecting
+the two and suggesting
+
+142
+00:07:06,963 --> 00:07:13,000
+that such huge events actually
+change our biology permanently
+
+143
+00:07:13,000 --> 00:07:13,676
+for years?
+
+144
+00:07:13,676 --> 00:07:15,634
+Or do you think that
+there's a different reason
+
+145
+00:07:15,634 --> 00:07:18,030
+behind that sort of learning?
+
+146
+00:07:18,030 --> 00:07:20,520
+ANDREW LO: I'm saying
+that it can change not so
+
+147
+00:07:20,520 --> 00:07:22,620
+much our biology,
+but rather, it can
+
+148
+00:07:22,620 --> 00:07:26,790
+change our decision-making
+abilities for years
+
+149
+00:07:26,790 --> 00:07:30,090
+to come, in the same way that
+you know your grandmother
+
+150
+00:07:30,090 --> 00:07:33,630
+or great-grandmother
+was indelibly affected
+
+151
+00:07:33,630 --> 00:07:35,520
+by living through
+the Great Depression,
+
+152
+00:07:35,520 --> 00:07:38,580
+or through the Holocaust, or
+through some extraordinary
+
+153
+00:07:38,580 --> 00:07:41,730
+emotional trauma,
+in the same way
+
+154
+00:07:41,730 --> 00:07:45,780
+we will be affected by these
+sets of circumstances for years
+
+155
+00:07:45,780 --> 00:07:47,541
+to come.
+
+156
+00:07:47,541 --> 00:07:48,180
+Right?
+
+157
+00:07:48,180 --> 00:07:49,310
+That's it.
+
+158
+00:07:49,310 --> 00:07:50,116
+Ingrid.
+
+159
+00:07:50,116 --> 00:07:52,685
+AUDIENCE: I was really
+impressed about two weeks ago
+
+160
+00:07:52,685 --> 00:07:57,480
+that I heard the different
+networks, the channel
+
+161
+00:07:57,480 --> 00:08:01,355
+lists trying to convince people
+not to getting them to buy
+
+162
+00:08:01,355 --> 00:08:03,480
+Christmas presents,
+and people are
+
+163
+00:08:03,480 --> 00:08:06,300
+going to complain because
+they could not not
+
+164
+00:08:06,300 --> 00:08:08,570
+buy gifts to their kids.
+
+165
+00:08:08,570 --> 00:08:10,600
+And where I come from,
+if you don't have money,
+
+166
+00:08:10,600 --> 00:08:12,016
+you don't have
+money [INAUDIBLE]..
+
+167
+00:08:12,016 --> 00:08:17,505
+So it was really surprising
+to see how that consumption
+
+168
+00:08:17,505 --> 00:08:20,150
+mindset was so, so strong here.
+
+169
+00:08:20,150 --> 00:08:21,150
+ANDREW LO: That's right.
+
+170
+00:08:21,150 --> 00:08:23,790
+And you know, that's a very
+unusual mindset for the United
+
+171
+00:08:23,790 --> 00:08:27,330
+States, because we are the
+land of consumers, right?
+
+172
+00:08:27,330 --> 00:08:30,270
+I mean, consumption is
+what drives this economy,
+
+173
+00:08:30,270 --> 00:08:31,309
+for better or for worse.
+
+174
+00:08:31,309 --> 00:08:33,600
+You know, that is what has
+made this country as wealthy
+
+175
+00:08:33,600 --> 00:08:34,740
+as it has.
+
+176
+00:08:34,740 --> 00:08:38,400
+And so, it is a very difficult
+time when we actually
+
+177
+00:08:38,400 --> 00:08:40,409
+have to all pull back.
+
+178
+00:08:40,409 --> 00:08:42,900
+And you know there are some
+individuals that would argue
+
+179
+00:08:42,900 --> 00:08:44,459
+that you shouldn't pull back.
+
+180
+00:08:44,459 --> 00:08:46,500
+You should keep on spending,
+because if everybody
+
+181
+00:08:46,500 --> 00:08:50,250
+keeps on spending, then
+somehow, magically, we will be,
+
+182
+00:08:50,250 --> 00:08:51,770
+stay richer.
+
+183
+00:08:51,770 --> 00:08:53,270
+That doesn't quite work.
+
+184
+00:08:53,270 --> 00:08:55,660
+There's an adding up
+constraint somewhere.
+
+185
+00:08:55,660 --> 00:08:58,020
+So wealth, if it's
+lost, you know,
+
+186
+00:08:58,020 --> 00:08:59,490
+it's lost in a certain sense.
+
+187
+00:08:59,490 --> 00:09:02,310
+And you can't create
+something out of nothing.
+
+188
+00:09:02,310 --> 00:09:05,220
+But I think there are some
+issues about government's role
+
+189
+00:09:05,220 --> 00:09:07,942
+in being able to maintain a
+certain degree of spending.
+
+190
+00:09:07,942 --> 00:09:09,900
+So we're going to get to
+that in a few minutes.
+
+191
+00:09:09,900 --> 00:09:11,110
+But you're absolutely right.
+
+192
+00:09:11,110 --> 00:09:15,030
+This is a very big change
+from where we were just
+
+193
+00:09:15,030 --> 00:09:17,830
+even a few months ago.
+
+194
+00:09:17,830 --> 00:09:20,220
+Other implications
+of adaptive markets
+
+195
+00:09:20,220 --> 00:09:24,210
+is that limited arbitrage,
+the so-called free lunches
+
+196
+00:09:24,210 --> 00:09:29,450
+that we talked about, that
+can exist from time to time.
+
+197
+00:09:29,450 --> 00:09:32,060
+There are free
+lunches on occasion,
+
+198
+00:09:32,060 --> 00:09:35,660
+because you can think of the
+free lunches as opportunities
+
+199
+00:09:35,660 --> 00:09:38,060
+that a certain group of
+individuals in the economy
+
+200
+00:09:38,060 --> 00:09:40,760
+have identified
+which may not last.
+
+201
+00:09:40,760 --> 00:09:43,400
+And so over time, those
+arbitrageurs end up
+
+202
+00:09:43,400 --> 00:09:48,580
+getting eaten away
+by the arbitrageurs.
+
+203
+00:09:48,580 --> 00:09:52,090
+But they still do exist
+from time to time.
+
+204
+00:09:52,090 --> 00:09:54,830
+Free lunch programs
+may not exist,
+
+205
+00:09:54,830 --> 00:09:57,880
+in other words consistent
+arbitrageurs time and again.
+
+206
+00:09:57,880 --> 00:10:01,440
+That is much, much more
+difficult to come by.
+
+207
+00:10:01,440 --> 00:10:08,320
+But as a result, strategies
+will wax and wane
+
+208
+00:10:08,320 --> 00:10:09,730
+through different cycles.
+
+209
+00:10:09,730 --> 00:10:13,240
+And the way it does so
+is exactly the same way
+
+210
+00:10:13,240 --> 00:10:18,580
+that a beautiful, green
+pasture can come and go
+
+211
+00:10:18,580 --> 00:10:21,310
+based upon ecological dynamics.
+
+212
+00:10:21,310 --> 00:10:25,870
+In particular, a green pasture
+becomes a favorite spot
+
+213
+00:10:25,870 --> 00:10:28,840
+for sheep to graze on.
+
+214
+00:10:28,840 --> 00:10:33,850
+And after a while, as the sheep
+graze and get fat and multiply,
+
+215
+00:10:33,850 --> 00:10:38,410
+they have more and more
+effect on that pasture.
+
+216
+00:10:38,410 --> 00:10:42,870
+Pretty soon, with so many sheep
+grazing on that same pasture,
+
+217
+00:10:42,870 --> 00:10:44,720
+the pasture is depleted.
+
+218
+00:10:44,720 --> 00:10:46,320
+And after it's
+depleted, what happens
+
+219
+00:10:46,320 --> 00:10:48,070
+to the sheep population?
+
+220
+00:10:48,070 --> 00:10:49,260
+It declines.
+
+221
+00:10:49,260 --> 00:10:54,090
+And the population declines,
+the pasture grows back,
+
+222
+00:10:54,090 --> 00:10:56,250
+and the cycle begins
+all over again.
+
+223
+00:10:56,250 --> 00:10:57,870
+Well, I have news for you.
+
+224
+00:10:57,870 --> 00:11:02,160
+That pasture, you can
+think of as profits.
+
+225
+00:11:02,160 --> 00:11:04,660
+And the sheep, you can
+think of as all of you.
+
+226
+00:11:04,660 --> 00:11:06,072
+You're, the investors.
+
+227
+00:11:06,072 --> 00:11:08,280
+And if it's profitable for
+you to invest in something
+
+228
+00:11:08,280 --> 00:11:11,160
+you will keep doing it,
+and doing it, and doing it
+
+229
+00:11:11,160 --> 00:11:13,452
+until there's no more pasture.
+
+230
+00:11:13,452 --> 00:11:15,660
+That's what happened with
+mortgage-backed securities.
+
+231
+00:11:15,660 --> 00:11:17,070
+There's no more pasture now.
+
+232
+00:11:17,070 --> 00:11:18,222
+It's pretty much gone.
+
+233
+00:11:18,222 --> 00:11:19,680
+It's going to be
+hard to make money
+
+234
+00:11:19,680 --> 00:11:21,240
+in that market for a while.
+
+235
+00:11:21,240 --> 00:11:24,330
+So all the sheep, they're
+going to go away now.
+
+236
+00:11:24,330 --> 00:11:27,510
+And over time, it
+will come back.
+
+237
+00:11:27,510 --> 00:11:30,150
+It may take a while,
+but it will come back.
+
+238
+00:11:30,150 --> 00:11:31,770
+And that's where
+cycles come from.
+
+239
+00:11:31,770 --> 00:11:33,750
+It's the exact same mechanism.
+
+240
+00:11:33,750 --> 00:11:35,940
+This is not an
+analogy or a metaphor.
+
+241
+00:11:35,940 --> 00:11:38,340
+I'm describing
+exactly the mechanism
+
+242
+00:11:38,340 --> 00:11:44,100
+by which certain biological
+entities interact
+
+243
+00:11:44,100 --> 00:11:45,660
+with their environment.
+
+244
+00:11:45,660 --> 00:11:47,220
+And we are biological entities.
+
+245
+00:11:47,220 --> 00:11:48,390
+We're creatures.
+
+246
+00:11:48,390 --> 00:11:51,160
+And we interact in
+our environment.
+
+247
+00:11:51,160 --> 00:11:53,010
+The only difference
+between us and sheep
+
+248
+00:11:53,010 --> 00:11:55,680
+is that we consume
+dollars instead of grass.
+
+249
+00:11:55,680 --> 00:12:01,035
+And so the dynamics are
+really very much the same.
+
+250
+00:12:01,035 --> 00:12:02,910
+And the bottom line, I
+said, is that survival
+
+251
+00:12:02,910 --> 00:12:05,070
+is all that matters.
+
+252
+00:12:05,070 --> 00:12:09,660
+What any business cares about
+in general is surviving.
+
+253
+00:12:09,660 --> 00:12:11,820
+And as you push
+for survival, a lot
+
+254
+00:12:11,820 --> 00:12:15,780
+of the effects that you see in
+typical evolutionary systems
+
+255
+00:12:15,780 --> 00:12:19,050
+will emerge in economies.
+
+256
+00:12:19,050 --> 00:12:21,930
+So let me talk specifically
+about some very, very
+
+257
+00:12:21,930 --> 00:12:25,860
+concrete examples of
+these kinds of dynamics.
+
+258
+00:12:25,860 --> 00:12:27,910
+I'll give you just a couple.
+
+259
+00:12:27,910 --> 00:12:30,030
+The first example comes
+from the hedge fund
+
+260
+00:12:30,030 --> 00:12:33,660
+industry, and in particular,
+from very, very simple--
+
+261
+00:12:33,660 --> 00:12:38,160
+a simple observation about the
+efficiency of the stock market.
+
+262
+00:12:38,160 --> 00:12:40,170
+When we talked about the
+random walk hypothesis
+
+263
+00:12:40,170 --> 00:12:42,210
+a few weeks ago, we
+mentioned that the idea
+
+264
+00:12:42,210 --> 00:12:46,170
+behind the random walk
+is that if prices fully
+
+265
+00:12:46,170 --> 00:12:49,136
+reflect all available
+information, then certainly,
+
+266
+00:12:49,136 --> 00:12:50,760
+you shouldn't be able
+to predict what's
+
+267
+00:12:50,760 --> 00:12:53,250
+going to happen
+to prices tomorrow
+
+268
+00:12:53,250 --> 00:12:56,700
+based upon what happened
+to prices last week, right?
+
+269
+00:12:56,700 --> 00:13:00,480
+In other words, just because
+we had a positive return
+
+270
+00:13:00,480 --> 00:13:03,660
+over the last five days,
+that positive return
+
+271
+00:13:03,660 --> 00:13:06,180
+shouldn't give you
+any hint as to whether
+
+272
+00:13:06,180 --> 00:13:09,120
+or not the next five days
+will be positive or negative,
+
+273
+00:13:09,120 --> 00:13:12,990
+because all the information
+of the last five days
+
+274
+00:13:12,990 --> 00:13:15,790
+has been incorporated
+into today's price.
+
+275
+00:13:15,790 --> 00:13:19,060
+So at every point in
+time, it's a fair game.
+
+276
+00:13:19,060 --> 00:13:21,220
+It's a Martingale.
+
+277
+00:13:21,220 --> 00:13:23,680
+Well if you believe
+that, then what
+
+278
+00:13:23,680 --> 00:13:28,090
+that says is that the
+first-order autocorrelation
+
+279
+00:13:28,090 --> 00:13:31,810
+of monthly stock returns
+should be about zero.
+
+280
+00:13:31,810 --> 00:13:34,960
+In other words, the correlation
+between last month's return
+
+281
+00:13:34,960 --> 00:13:37,600
+and this month's return
+should be statistically
+
+282
+00:13:37,600 --> 00:13:40,030
+indistinguishable from zero.
+
+283
+00:13:40,030 --> 00:13:42,070
+Because if it weren't,
+if it were strictly
+
+284
+00:13:42,070 --> 00:13:44,860
+positive or negative, then
+you'd have information
+
+285
+00:13:44,860 --> 00:13:48,340
+to be able to base a
+trading strategy on, right?
+
+286
+00:13:48,340 --> 00:13:49,930
+For example, if
+it were positive,
+
+287
+00:13:49,930 --> 00:13:51,681
+then if last month's
+return were positive,
+
+288
+00:13:51,681 --> 00:13:53,138
+you can bet the
+next month's return
+
+289
+00:13:53,138 --> 00:13:54,350
+will continue to be positive.
+
+290
+00:13:54,350 --> 00:13:56,350
+So you'll make a bigger
+bet on the stock market.
+
+291
+00:13:56,350 --> 00:13:57,970
+You'll develop a
+trading strategy
+
+292
+00:13:57,970 --> 00:14:00,950
+that can beat the market.
+
+293
+00:14:00,950 --> 00:14:05,720
+Efficient markets hypothesis
+would say you can't do that.
+
+294
+00:14:05,720 --> 00:14:08,540
+You can't come up with these
+kind of trading strategies.
+
+295
+00:14:08,540 --> 00:14:12,110
+In other words, stock
+prices follow random walks.
+
+296
+00:14:12,110 --> 00:14:14,360
+Autocorrelation should be 0.
+
+297
+00:14:14,360 --> 00:14:16,010
+All right, well,
+let's take a look.
+
+298
+00:14:16,010 --> 00:14:20,450
+This is the rolling
+five-year serial correlation
+
+299
+00:14:20,450 --> 00:14:23,900
+coefficient-- first-order
+autocorrelation coefficient
+
+300
+00:14:23,900 --> 00:14:27,800
+for stock returns on a
+monthly basis for the S&P
+
+301
+00:14:27,800 --> 00:14:35,780
+composite index from January
+of 1871 to April of 2003.
+
+302
+00:14:35,780 --> 00:14:38,450
+That's a lot of data, right?
+
+303
+00:14:38,450 --> 00:14:41,385
+And if these are five-year
+rolling window correlations--
+
+304
+00:14:41,385 --> 00:14:45,890
+so every five years, I'm going
+to calculate the correlation
+
+305
+00:14:45,890 --> 00:14:50,240
+coefficient between month
+T and month T minus 1,
+
+306
+00:14:50,240 --> 00:14:52,770
+and it should be 0.
+
+307
+00:14:52,770 --> 00:14:55,180
+But let's take a
+look at what happens.
+
+308
+00:14:55,180 --> 00:14:57,850
+In the 1800s, the
+late 1800s, there
+
+309
+00:14:57,850 --> 00:15:01,330
+was a fair bit of positive
+correlation, correlation
+
+310
+00:15:01,330 --> 00:15:03,870
+around 40% or 50%.
+
+311
+00:15:03,870 --> 00:15:06,070
+And then, towards the
+end of the century,
+
+312
+00:15:06,070 --> 00:15:08,250
+the correlation goes
+down, then it goes up.
+
+313
+00:15:08,250 --> 00:15:11,400
+Then it goes way down
+in the early 1900s.
+
+314
+00:15:11,400 --> 00:15:13,960
+Then it goes up, then it
+goes down, then it goes up.
+
+315
+00:15:13,960 --> 00:15:16,920
+During the 1970s
+here, there's a bit
+
+316
+00:15:16,920 --> 00:15:18,930
+of a period where it goes
+down, then it goes up,
+
+317
+00:15:18,930 --> 00:15:20,555
+then it goes down,
+then it goes way up.
+
+318
+00:15:20,555 --> 00:15:22,560
+It shoots way up in the 1990s.
+
+319
+00:15:22,560 --> 00:15:25,830
+And then, since the 1990s,
+it's been relatively low.
+
+320
+00:15:25,830 --> 00:15:28,590
+And actually, if you extended
+it to the last few years,
+
+321
+00:15:28,590 --> 00:15:33,170
+you'd see that it's
+still pretty low.
+
+322
+00:15:33,170 --> 00:15:37,030
+This diagram shows
+that market efficiency,
+
+323
+00:15:37,030 --> 00:15:40,360
+as measured by the first-order
+autocorrelation first of all,
+
+324
+00:15:40,360 --> 00:15:41,620
+it's not zero.
+
+325
+00:15:41,620 --> 00:15:45,670
+But more importantly, it does
+not decline monotonically
+
+326
+00:15:45,670 --> 00:15:46,280
+over time.
+
+327
+00:15:46,280 --> 00:15:50,940
+Markets are not getting more
+and more and more efficient.
+
+328
+00:15:50,940 --> 00:15:52,410
+There's a cycle of efficiency.
+
+329
+00:15:52,410 --> 00:15:55,700
+There are periods where the
+market is very efficient.
+
+330
+00:15:55,700 --> 00:15:58,220
+And there are periods
+where it's not.
+
+331
+00:15:58,220 --> 00:16:02,990
+And these periods are
+determined by the population
+
+332
+00:16:02,990 --> 00:16:06,560
+of investors that are
+interacting with each other.
+
+333
+00:16:06,560 --> 00:16:09,650
+There are periods where markets
+are extremely efficient,
+
+334
+00:16:09,650 --> 00:16:12,080
+because you've got very
+sophisticated investors
+
+335
+00:16:12,080 --> 00:16:14,480
+in the market.
+
+336
+00:16:14,480 --> 00:16:17,540
+But during the 1990s,
+that wasn't one of them,
+
+337
+00:16:17,540 --> 00:16:19,970
+because what was happening
+during the 1990s?
+
+338
+00:16:19,970 --> 00:16:21,140
+Who was trading here?
+
+339
+00:16:21,140 --> 00:16:21,770
+Anybody know?
+
+340
+00:16:24,970 --> 00:16:26,890
+Who?
+
+341
+00:16:26,890 --> 00:16:27,640
+Tech.
+
+342
+00:16:27,640 --> 00:16:29,400
+But who were the traders?
+
+343
+00:16:29,400 --> 00:16:30,400
+AUDIENCE: Everybody was.
+
+344
+00:16:30,400 --> 00:16:31,191
+ANDREW LO: Exactly.
+
+345
+00:16:31,191 --> 00:16:33,280
+Retail investors, everybody.
+
+346
+00:16:33,280 --> 00:16:36,190
+You know, the librarian,
+the pharmacist, mom and pop,
+
+347
+00:16:36,190 --> 00:16:39,790
+grandma, they were all
+trading on E-trade on all
+
+348
+00:16:39,790 --> 00:16:43,030
+of these various
+different trading sites.
+
+349
+00:16:43,030 --> 00:16:46,895
+And as a result, the market
+became relatively inefficient.
+
+350
+00:16:46,895 --> 00:16:47,770
+And you can see this.
+
+351
+00:16:47,770 --> 00:16:49,870
+You can see this
+as clear as day.
+
+352
+00:16:49,870 --> 00:16:52,630
+By the way, right
+around here was
+
+353
+00:16:52,630 --> 00:16:56,530
+where some of the equity market
+neutral hedge funds, like DE
+
+354
+00:16:56,530 --> 00:17:01,020
+Shaw decided to go into
+business and made a lot of money
+
+355
+00:17:01,020 --> 00:17:02,950
+in this period.
+
+356
+00:17:02,950 --> 00:17:05,740
+It's gotten a lot
+harder now, no doubt.
+
+357
+00:17:05,740 --> 00:17:09,790
+But my guess is that
+over the next few years,
+
+358
+00:17:09,790 --> 00:17:13,960
+you may see markets
+becoming more inefficient.
+
+359
+00:17:13,960 --> 00:17:15,369
+Why is that?
+
+360
+00:17:15,369 --> 00:17:18,339
+Why might that be over
+the next couple of years?
+
+361
+00:17:18,339 --> 00:17:19,511
+Any guesses?
+
+362
+00:17:19,511 --> 00:17:20,260
+Yeah, [INAUDIBLE]?
+
+363
+00:17:20,260 --> 00:17:21,849
+AUDIENCE: Because people are
+pulling out of the market?
+
+364
+00:17:21,849 --> 00:17:22,640
+ANDREW LO: Exactly.
+
+365
+00:17:22,640 --> 00:17:25,420
+People, particularly
+sophisticated investors,
+
+366
+00:17:25,420 --> 00:17:27,670
+like hedge funds, are
+pulling out of the market
+
+367
+00:17:27,670 --> 00:17:29,050
+because they're getting
+blown out of the water.
+
+368
+00:17:29,050 --> 00:17:30,530
+They're losing a lot of money.
+
+369
+00:17:30,530 --> 00:17:32,488
+They don't have enough
+to run their businesses.
+
+370
+00:17:32,488 --> 00:17:33,490
+They're pulling out.
+
+371
+00:17:33,490 --> 00:17:39,190
+And so whatever's left may not
+be as efficient as it once was.
+
+372
+00:17:39,190 --> 00:17:41,260
+That's adaptive markets.
+
+373
+00:17:41,260 --> 00:17:42,920
+That's all.
+
+374
+00:17:42,920 --> 00:17:45,470
+Economic systems are not
+like physical systems.
+
+375
+00:17:45,470 --> 00:17:50,090
+We're not approaching any
+kind of steady state limit.
+
+376
+00:17:50,090 --> 00:17:51,777
+We're interacting
+with each other.
+
+377
+00:17:51,777 --> 00:17:53,360
+And during certain
+time periods, we're
+
+378
+00:17:53,360 --> 00:17:55,400
+going to be very efficient.
+
+379
+00:17:55,400 --> 00:17:57,050
+And then, by the
+way, finance there
+
+380
+00:17:57,050 --> 00:17:59,080
+is going to work quite well.
+
+381
+00:17:59,080 --> 00:18:01,360
+But then there are going to
+be periods that are crazy.
+
+382
+00:18:01,360 --> 00:18:04,810
+And during those crazy
+periods, market prices
+
+383
+00:18:04,810 --> 00:18:07,690
+may not fully reflect all
+available information,
+
+384
+00:18:07,690 --> 00:18:13,300
+in which case, markets will
+not be as reliable as finance
+
+385
+00:18:13,300 --> 00:18:14,950
+theory makes them out to be.
+
+386
+00:18:14,950 --> 00:18:18,490
+So when you apply
+your 401 techniques,
+
+387
+00:18:18,490 --> 00:18:20,470
+you've got to start by
+asking the question,
+
+388
+00:18:20,470 --> 00:18:24,550
+do those assumptions that
+we made, do they hold?
+
+389
+00:18:24,550 --> 00:18:26,800
+Is this a reasonable
+period of time
+
+390
+00:18:26,800 --> 00:18:31,164
+for which finance theory will
+dictate what prices should be?
+
+391
+00:18:31,164 --> 00:18:32,108
+[INAUDIBLE]
+
+392
+00:18:32,108 --> 00:18:34,940
+AUDIENCE: If expected
+return of the stock markets
+
+393
+00:18:34,940 --> 00:18:40,330
+let's say 10%, then the other
+correlation shouldn't be zero.
+
+394
+00:18:40,330 --> 00:18:42,254
+It should be around--
+
+395
+00:18:42,254 --> 00:18:45,705
+there's supposed to be some
+correlation when the market is
+
+396
+00:18:45,705 --> 00:18:47,980
+efficient is when the next--
+
+397
+00:18:47,980 --> 00:18:50,140
+ANDREW LO: No, because
+remember, the correlation
+
+398
+00:18:50,140 --> 00:18:55,080
+is the covariance divided by the
+variance in excess of the mean.
+
+399
+00:18:55,080 --> 00:18:57,360
+These are deviations
+from mean, right?
+
+400
+00:18:57,360 --> 00:19:01,020
+So it doesn't matter if
+it's 10%, or 20%, or 5%.
+
+401
+00:19:01,020 --> 00:19:02,910
+If there's a trend,
+the mean basically
+
+402
+00:19:02,910 --> 00:19:05,220
+subtracts that trend off.
+
+403
+00:19:05,220 --> 00:19:06,705
+Yes.
+
+404
+00:19:06,705 --> 00:19:10,486
+AUDIENCE: There are a few
+dips like, [INAUDIBLE]
+
+405
+00:19:10,486 --> 00:19:12,385
+like [INAUDIBLE] does a dip.
+
+406
+00:19:12,385 --> 00:19:16,075
+Like do you have an explanation
+about like why that happened?
+
+407
+00:19:16,075 --> 00:19:18,430
+ANDREW LO: Well,
+the explanation,
+
+408
+00:19:18,430 --> 00:19:22,360
+at least during the recent
+periods, I have one for you.
+
+409
+00:19:22,360 --> 00:19:24,140
+I don't know about
+going back here.
+
+410
+00:19:24,140 --> 00:19:24,970
+I can conjecture.
+
+411
+00:19:24,970 --> 00:19:26,428
+But there are a
+lot of other things
+
+412
+00:19:26,428 --> 00:19:30,010
+going on here that I can't say
+that I've really researched.
+
+413
+00:19:30,010 --> 00:19:32,420
+But over here, I can
+tell you what happened,
+
+414
+00:19:32,420 --> 00:19:34,540
+which is that the
+internet bubble burst.
+
+415
+00:19:34,540 --> 00:19:38,140
+And then retail investors,
+they left the market.
+
+416
+00:19:38,140 --> 00:19:41,650
+And who was left but
+sophisticated, institutional
+
+417
+00:19:41,650 --> 00:19:42,880
+traders.
+
+418
+00:19:42,880 --> 00:19:45,970
+And they took advantage
+of whatever correlation
+
+419
+00:19:45,970 --> 00:19:46,660
+there might be.
+
+420
+00:19:46,660 --> 00:19:49,720
+And that basically bit
+away any other profits
+
+421
+00:19:49,720 --> 00:19:51,280
+that might have remained.
+
+422
+00:19:51,280 --> 00:19:55,690
+So over the last, I don't know,
+maybe five to eight years,
+
+423
+00:19:55,690 --> 00:19:59,620
+long/short equity market
+neutral and long/short equity
+
+424
+00:19:59,620 --> 00:20:01,540
+strategies, that are
+the basis for taking
+
+425
+00:20:01,540 --> 00:20:03,460
+advantage of these
+kind of correlations,
+
+426
+00:20:03,460 --> 00:20:04,880
+have grown dramatically.
+
+427
+00:20:04,880 --> 00:20:08,020
+And the profits have
+declined significantly.
+
+428
+00:20:08,020 --> 00:20:10,710
+Markets have gotten
+more efficient.
+
+429
+00:20:10,710 --> 00:20:14,160
+And you know, I would argue that
+during certain periods of time,
+
+430
+00:20:14,160 --> 00:20:17,700
+for example, during the
+1950s, during this period,
+
+431
+00:20:17,700 --> 00:20:20,670
+there were situations where
+markets got more efficient
+
+432
+00:20:20,670 --> 00:20:24,090
+because certain institutional
+investors came in,
+
+433
+00:20:24,090 --> 00:20:26,310
+and retail investors left.
+
+434
+00:20:26,310 --> 00:20:32,172
+So by looking at the population
+dynamics of the market ecology,
+
+435
+00:20:32,172 --> 00:20:34,130
+you see, I mean, that
+language that I just used
+
+436
+00:20:34,130 --> 00:20:37,010
+is language that evolutionary
+biologists would use.
+
+437
+00:20:37,010 --> 00:20:40,930
+It's not something that
+economists would ever say.
+
+438
+00:20:40,930 --> 00:20:43,390
+How many of you actually heard
+of an economist or the words
+
+439
+00:20:43,390 --> 00:20:45,070
+that I just uttered?
+
+440
+00:20:45,070 --> 00:20:46,060
+I don't think you have.
+
+441
+00:20:46,060 --> 00:20:48,250
+You'll never hear it
+in microeconomics,
+
+442
+00:20:48,250 --> 00:20:52,450
+because microeconomic they
+treat all consumers as the same.
+
+443
+00:20:52,450 --> 00:20:55,570
+Maximize expected utility
+subject to a budget constraint.
+
+444
+00:20:55,570 --> 00:20:57,440
+Or they treat all
+producers as the same.
+
+445
+00:20:57,440 --> 00:21:00,090
+You can maximize profits
+subject to a production function
+
+446
+00:21:00,090 --> 00:21:03,420
+or resource constraint.
+
+447
+00:21:03,420 --> 00:21:05,760
+What economists
+don't recognize is
+
+448
+00:21:05,760 --> 00:21:07,320
+that there are
+different populations
+
+449
+00:21:07,320 --> 00:21:09,840
+of consumers and producers.
+
+450
+00:21:09,840 --> 00:21:13,780
+And these populations
+arise in different ways.
+
+451
+00:21:13,780 --> 00:21:15,000
+They're different species.
+
+452
+00:21:15,000 --> 00:21:18,370
+And different species have
+different characteristics.
+
+453
+00:21:18,370 --> 00:21:20,730
+And so by studying
+the different species,
+
+454
+00:21:20,730 --> 00:21:22,860
+you will come up with
+different insights.
+
+455
+00:21:22,860 --> 00:21:25,830
+But the reason that we don't
+have very many insights yet
+
+456
+00:21:25,830 --> 00:21:28,290
+is because we don't even
+speak in these terms.
+
+457
+00:21:28,290 --> 00:21:31,570
+And therefore, we don't
+measure the data in this way.
+
+458
+00:21:31,570 --> 00:21:34,390
+For example, if I
+wanted to today,
+
+459
+00:21:34,390 --> 00:21:39,330
+the number of retail investors
+versus institutional investors
+
+460
+00:21:39,330 --> 00:21:41,490
+versus broker dealers
+versus hedge funds--
+
+461
+00:21:41,490 --> 00:21:46,160
+if I want to know the biomass
+of the different species,
+
+462
+00:21:46,160 --> 00:21:48,140
+I wouldn't know where to look.
+
+463
+00:21:48,140 --> 00:21:50,680
+There's no database that has
+this information, because we're
+
+464
+00:21:50,680 --> 00:21:51,550
+not collecting it.
+
+465
+00:21:51,550 --> 00:21:53,740
+We don't even collect
+the information
+
+466
+00:21:53,740 --> 00:21:56,470
+in the way that would be the
+most amenable for analysis
+
+467
+00:21:56,470 --> 00:21:58,370
+because this is such
+a new framework.
+
+468
+00:21:58,370 --> 00:22:00,730
+So you've got to have the
+framework first to figure out
+
+469
+00:22:00,730 --> 00:22:02,938
+what questions you want to
+ask and what data you want
+
+470
+00:22:02,938 --> 00:22:06,650
+to collect. , And ultimately
+after you do that, over time,
+
+471
+00:22:06,650 --> 00:22:09,250
+you'll be able to see these
+kind of patterns emerging.
+
+472
+00:22:09,250 --> 00:22:10,805
+Yeah, question.
+
+473
+00:22:10,805 --> 00:22:12,745
+AUDIENCE: [INAUDIBLE]
+contradicts
+
+474
+00:22:12,745 --> 00:22:18,014
+the view of market
+and the [INAUDIBLE]
+
+475
+00:22:18,014 --> 00:22:20,424
+of market and permits
+that say [INAUDIBLE]
+
+476
+00:22:20,424 --> 00:22:23,320
+market the more [INAUDIBLE]
+the more [INAUDIBLE]
+
+477
+00:22:23,320 --> 00:22:24,820
+ANDREW LO: Absolutely.
+
+478
+00:22:24,820 --> 00:22:27,100
+Absolutely, it does
+contradict that.
+
+479
+00:22:27,100 --> 00:22:31,480
+Yeah, this is why I leave this
+material to the last lecture,
+
+480
+00:22:31,480 --> 00:22:35,410
+because, you know, I feel
+that it's inappropriate for me
+
+481
+00:22:35,410 --> 00:22:38,530
+to spend an entire course
+in Introductory finance
+
+482
+00:22:38,530 --> 00:22:41,500
+teaching you what my pet
+theories are as opposed
+
+483
+00:22:41,500 --> 00:22:42,460
+to the mainstream.
+
+484
+00:22:42,460 --> 00:22:44,440
+You need to know the
+basics of what's out there
+
+485
+00:22:44,440 --> 00:22:46,300
+and how people use the tools.
+
+486
+00:22:46,300 --> 00:22:48,230
+So that's what we did
+for 90% of the course.
+
+487
+00:22:48,230 --> 00:22:50,710
+But I also would
+feel it inappropriate
+
+488
+00:22:50,710 --> 00:22:52,662
+for me to perpetuate
+certain myths
+
+489
+00:22:52,662 --> 00:22:55,120
+and let you leave this class
+without at least understanding
+
+490
+00:22:55,120 --> 00:22:57,250
+that there's a debate
+going on, and that there's
+
+491
+00:22:57,250 --> 00:23:01,594
+some uncertainty about exactly
+what theories apply when.
+
+492
+00:23:01,594 --> 00:23:02,260
+So you're right.
+
+493
+00:23:02,260 --> 00:23:04,940
+This does contradict
+the conventional wisdom.
+
+494
+00:23:04,940 --> 00:23:05,440
+Yeah.
+
+495
+00:23:05,440 --> 00:23:08,158
+AUDIENCE: All right,
+[INAUDIBLE] correctly,
+
+496
+00:23:08,158 --> 00:23:13,215
+the points of [INAUDIBLE]
+rational investors.
+
+497
+00:23:13,215 --> 00:23:14,952
+So right now,
+[INAUDIBLE] market.
+
+498
+00:23:14,952 --> 00:23:15,924
+What's wrong with that?
+
+499
+00:23:15,924 --> 00:23:18,840
+I mean, after all, we're on a
+path to an ineffecient market
+
+500
+00:23:18,840 --> 00:23:20,310
+again, right?
+
+501
+00:23:20,310 --> 00:23:22,810
+ANDREW LO: There's nothing
+wrong with any of this.
+
+502
+00:23:22,810 --> 00:23:25,570
+You know, you have to keep
+in mind that I'm not making
+
+503
+00:23:25,570 --> 00:23:27,190
+any value judgments whatsoever.
+
+504
+00:23:27,190 --> 00:23:29,901
+What I'm trying to explain
+to you is a way of thinking,
+
+505
+00:23:29,901 --> 00:23:30,400
+right?
+
+506
+00:23:30,400 --> 00:23:33,130
+So I'm trying to give
+you a way to reconcile
+
+507
+00:23:33,130 --> 00:23:35,230
+the various different
+kinds of market theories
+
+508
+00:23:35,230 --> 00:23:39,190
+that have been proposed, the
+behavioral versus the rational.
+
+509
+00:23:39,190 --> 00:23:41,620
+And what I'm arguing is that
+neither of these theories
+
+510
+00:23:41,620 --> 00:23:43,390
+are complete.
+
+511
+00:23:43,390 --> 00:23:46,330
+They each focus on one
+aspect of the market
+
+512
+00:23:46,330 --> 00:23:48,820
+during one period of time.
+
+513
+00:23:48,820 --> 00:23:51,340
+And what you need to
+do in order to put it
+
+514
+00:23:51,340 --> 00:23:55,660
+all together is to develop
+a super theory that
+
+515
+00:23:55,660 --> 00:24:00,280
+allows you to understand how
+both of these subtheories
+
+516
+00:24:00,280 --> 00:24:02,300
+are integrated with each other.
+
+517
+00:24:02,300 --> 00:24:04,287
+And I think this
+is what it does.
+
+518
+00:24:04,287 --> 00:24:04,786
+OK?
+
+519
+00:24:04,786 --> 00:24:11,904
+AUDIENCE: [INAUDIBLE] had
+said that, [INAUDIBLE]
+
+520
+00:24:11,904 --> 00:24:15,225
+show us pretty much has
+a problem, because hedge
+
+521
+00:24:15,225 --> 00:24:18,052
+funds are pretty much pulling
+out as a result [INAUDIBLE]
+
+522
+00:24:18,052 --> 00:24:20,260
+ANDREW LO: Yeah, but there's
+nothing wrong with that.
+
+523
+00:24:20,260 --> 00:24:21,426
+Hedge funds are pulling out.
+
+524
+00:24:21,426 --> 00:24:23,260
+And markets will
+become less efficient
+
+525
+00:24:23,260 --> 00:24:25,756
+over the next couple of years.
+
+526
+00:24:25,756 --> 00:24:28,550
+AUDIENCE: I think it'll be more
+efficient, because people that
+
+527
+00:24:28,550 --> 00:24:31,671
+have [INAUDIBLE] market, right?
+
+528
+00:24:31,671 --> 00:24:32,170
+So--
+
+529
+00:24:32,170 --> 00:24:33,753
+ANDREW LO: That
+depends on who's left.
+
+530
+00:24:33,753 --> 00:24:35,950
+That depends on who's
+left in the market.
+
+531
+00:24:35,950 --> 00:24:39,070
+If it's institutional investors
+and other sophisticated
+
+532
+00:24:39,070 --> 00:24:40,810
+investors, you may be right.
+
+533
+00:24:40,810 --> 00:24:42,580
+But I would argue
+that there are going
+
+534
+00:24:42,580 --> 00:24:45,070
+to be regular investors, like
+you and me, that are going
+
+535
+00:24:45,070 --> 00:24:46,150
+to be left in the marketplace.
+
+536
+00:24:46,150 --> 00:24:47,941
+And we're going to be
+running for the hills
+
+537
+00:24:47,941 --> 00:24:51,220
+or running for the big returns.
+
+538
+00:24:51,220 --> 00:24:53,440
+And that's going to be
+what drives the market
+
+539
+00:24:53,440 --> 00:24:55,450
+for the next year or two.
+
+540
+00:24:55,450 --> 00:24:56,150
+OK?
+
+541
+00:24:56,150 --> 00:24:58,400
+That's going to be different
+than the other periods
+
+542
+00:24:58,400 --> 00:25:00,380
+where you see
+inefficiencies occur,
+
+543
+00:25:00,380 --> 00:25:02,480
+because the smart
+money stayed in,
+
+544
+00:25:02,480 --> 00:25:03,882
+and the dumb money pulled out.
+
+545
+00:25:03,882 --> 00:25:05,090
+I shouldn't say "dumb money".
+
+546
+00:25:05,090 --> 00:25:07,200
+That's kind of value judgment.
+
+547
+00:25:07,200 --> 00:25:10,250
+The naive money, the
+inexperienced money,
+
+548
+00:25:10,250 --> 00:25:12,440
+the retail investors--
+
+549
+00:25:12,440 --> 00:25:16,110
+they're the ones that
+pulled out, you know, here.
+
+550
+00:25:16,110 --> 00:25:19,220
+And so here, you had
+tremendous amounts
+
+551
+00:25:19,220 --> 00:25:21,200
+of retail money being applied.
+
+552
+00:25:21,200 --> 00:25:23,270
+But retail investors,
+they ended up
+
+553
+00:25:23,270 --> 00:25:26,420
+losing a fair bit of
+money going forward.
+
+554
+00:25:26,420 --> 00:25:29,120
+And what was left here
+is the hedge fund money.
+
+555
+00:25:29,120 --> 00:25:31,820
+What I'm arguing is going to
+happen over the next year, what
+
+556
+00:25:31,820 --> 00:25:33,770
+has already happened
+over the last year,
+
+557
+00:25:33,770 --> 00:25:37,270
+is that hedge funds have pulled
+out a lot of their money.
+
+558
+00:25:37,270 --> 00:25:38,490
+So who's left?
+
+559
+00:25:38,490 --> 00:25:40,170
+Ask yourself, who's left?
+
+560
+00:25:40,170 --> 00:25:42,030
+When you think about
+analyzing a market,
+
+561
+00:25:42,030 --> 00:25:44,465
+don't just look at it as a
+mathematical object and say,
+
+562
+00:25:44,465 --> 00:25:45,840
+I'm going to write
+down the CAPM,
+
+563
+00:25:45,840 --> 00:25:47,549
+and this is what is
+going to tell me.
+
+564
+00:25:47,549 --> 00:25:49,590
+If you do that, you're
+thinking like a physicist,
+
+565
+00:25:49,590 --> 00:25:50,830
+not like a biologist.
+
+566
+00:25:50,830 --> 00:25:53,370
+A biologist would say,
+what are the species that
+
+567
+00:25:53,370 --> 00:25:55,180
+are here in this ecology?
+
+568
+00:25:55,180 --> 00:25:57,330
+And once you tell me
+that, I'll tell you
+
+569
+00:25:57,330 --> 00:26:01,260
+what things are going to happen
+over the next year or two.
+
+570
+00:26:01,260 --> 00:26:06,050
+So let me go to
+now how all of this
+
+571
+00:26:06,050 --> 00:26:08,874
+applies to the current crisis.
+
+572
+00:26:08,874 --> 00:26:10,790
+I'm not going to talk
+about the details of it.
+
+573
+00:26:10,790 --> 00:26:12,020
+We've already spent
+a fair bit of time
+
+574
+00:26:12,020 --> 00:26:13,820
+this semester talking
+about the crisis,
+
+575
+00:26:13,820 --> 00:26:16,580
+talking about subprime
+mortgages, securitization,
+
+576
+00:26:16,580 --> 00:26:18,590
+the role of all of the
+various different folks
+
+577
+00:26:18,590 --> 00:26:20,360
+that were participating.
+
+578
+00:26:20,360 --> 00:26:23,540
+But I want to make the following
+point based upon the material
+
+579
+00:26:23,540 --> 00:26:25,970
+that we covered last time.
+
+580
+00:26:25,970 --> 00:26:33,050
+And that is the fact
+that pain protects.
+
+581
+00:26:33,050 --> 00:26:36,830
+This is a very important,
+but rather obvious
+
+582
+00:26:36,830 --> 00:26:40,970
+point, that I suspect many
+of you may have overlooked.
+
+583
+00:26:40,970 --> 00:26:43,670
+And let me just describe to
+you a very simple illustration
+
+584
+00:26:43,670 --> 00:26:44,770
+of it.
+
+585
+00:26:44,770 --> 00:26:47,270
+Have any of you
+run across people
+
+586
+00:26:47,270 --> 00:26:50,270
+that have had like
+temporary nerve damage?
+
+587
+00:26:50,270 --> 00:26:53,840
+You know, their arm goes
+numb for whatever reason.
+
+588
+00:26:53,840 --> 00:26:56,394
+Anybody see what
+happens to that arm,
+
+589
+00:26:56,394 --> 00:26:58,310
+you know, over the course
+of a couple of weeks
+
+590
+00:26:58,310 --> 00:27:01,400
+after the nerve damage sets in?
+
+591
+00:27:01,400 --> 00:27:03,400
+Anybody know?
+
+592
+00:27:03,400 --> 00:27:05,560
+You have seen situations
+where that happens?
+
+593
+00:27:05,560 --> 00:27:06,060
+Yeah, Mike.
+
+594
+00:27:06,060 --> 00:27:07,050
+AUDIENCE: I was going
+to say, somewhere
+
+595
+00:27:07,050 --> 00:27:09,300
+there was a little girl who
+couldn't feel pain at all.
+
+596
+00:27:09,300 --> 00:27:11,531
+And she had the-- she
+kept clawing her eyes out.
+
+597
+00:27:11,531 --> 00:27:14,530
+And she was completely
+bruised because she just
+
+598
+00:27:14,530 --> 00:27:15,760
+bumped into everything.
+
+599
+00:27:15,760 --> 00:27:17,182
+ANDREW LO: That's right.
+
+600
+00:27:17,182 --> 00:27:17,890
+It's interesting.
+
+601
+00:27:17,890 --> 00:27:20,050
+When you see these
+individuals, they
+
+602
+00:27:20,050 --> 00:27:24,940
+look like they've been in
+a cat fight with a tiger.
+
+603
+00:27:24,940 --> 00:27:27,340
+You know, they're scratched,
+bruised, you know,
+
+604
+00:27:27,340 --> 00:27:29,311
+they've got these
+incredible wounds.
+
+605
+00:27:29,311 --> 00:27:31,060
+And you ask them, you
+know, what happened?
+
+606
+00:27:31,060 --> 00:27:31,851
+Did you get mugged?
+
+607
+00:27:31,851 --> 00:27:33,890
+Did you get beaten up?
+
+608
+00:27:33,890 --> 00:27:35,300
+And they'll say no.
+
+609
+00:27:35,300 --> 00:27:38,360
+It's just walking around.
+
+610
+00:27:38,360 --> 00:27:43,600
+It turns out that if you
+can't feel in your left arm,
+
+611
+00:27:43,600 --> 00:27:49,350
+if it's numb, then you
+won't know to pull away
+
+612
+00:27:49,350 --> 00:27:54,460
+when you scrape it on the
+edge of a sharp chair,
+
+613
+00:27:54,460 --> 00:27:58,840
+or you get pricked
+by some kind of tool.
+
+614
+00:27:58,840 --> 00:28:00,160
+You won't know to pull back.
+
+615
+00:28:00,160 --> 00:28:01,660
+You might just keep
+pushing forward.
+
+616
+00:28:01,660 --> 00:28:05,020
+And you know, there goes
+a scratch, and a cut,
+
+617
+00:28:05,020 --> 00:28:06,760
+and a puncture.
+
+618
+00:28:06,760 --> 00:28:12,300
+If you can't feel pain,
+you can't protect yourself.
+
+619
+00:28:12,300 --> 00:28:14,820
+Pain protects.
+
+620
+00:28:14,820 --> 00:28:19,630
+If you think about any kind
+of measure you have ever taken
+
+621
+00:28:19,630 --> 00:28:22,420
+that has protected you,
+whether it's pulling money out
+
+622
+00:28:22,420 --> 00:28:25,540
+of the stock market, whether
+it's getting out of a burning
+
+623
+00:28:25,540 --> 00:28:29,560
+house, whether it's avoiding a
+certain situation because you
+
+624
+00:28:29,560 --> 00:28:32,740
+know that it would likely
+turn into a very bad accident,
+
+625
+00:28:32,740 --> 00:28:37,440
+like driving after you've
+had too much to drink--
+
+626
+00:28:37,440 --> 00:28:42,120
+if you've ever done anything
+that involves pulling back
+
+627
+00:28:42,120 --> 00:28:45,660
+from taking a risk,
+it's because you have
+
+628
+00:28:45,660 --> 00:28:48,400
+felt pain, either current pain.
+
+629
+00:28:48,400 --> 00:28:55,140
+Or you have felt the
+memory of previous pain.
+
+630
+00:28:55,140 --> 00:28:57,450
+Now let me ask you a question.
+
+631
+00:28:57,450 --> 00:29:02,860
+Suppose none of you
+are feeling any pain.
+
+632
+00:29:02,860 --> 00:29:05,300
+Will you actually be
+able to control yourself
+
+633
+00:29:05,300 --> 00:29:08,330
+from taking on certain risks?
+
+634
+00:29:08,330 --> 00:29:12,970
+So this gets back to the
+crisis that we're in right now.
+
+635
+00:29:12,970 --> 00:29:16,720
+If in 2004 or 2005,
+you were at one
+
+636
+00:29:16,720 --> 00:29:18,760
+of these financial
+institutions that
+
+637
+00:29:18,760 --> 00:29:21,210
+invested in these
+kinds of securities
+
+638
+00:29:21,210 --> 00:29:23,380
+or these strategies--
+and not everyone did.
+
+639
+00:29:23,380 --> 00:29:27,520
+So I don't mean to make a
+sweeping generalization.
+
+640
+00:29:27,520 --> 00:29:29,680
+But a number of very
+large institutions
+
+641
+00:29:29,680 --> 00:29:31,720
+seem to have
+overextended themselves.
+
+642
+00:29:34,760 --> 00:29:37,730
+What I want to argue
+is that this is not
+
+643
+00:29:37,730 --> 00:29:42,710
+something that is very easily
+preventable unless we impose
+
+644
+00:29:42,710 --> 00:29:49,130
+certain restrictions in advance,
+unless we decide before we ever
+
+645
+00:29:49,130 --> 00:29:53,960
+enter that situation that we're
+not going to do something,
+
+646
+00:29:53,960 --> 00:29:58,460
+because otherwise it's going to
+be impossible for us to avoid
+
+647
+00:29:58,460 --> 00:30:03,080
+doing it when it feels so
+good, when we are in no pain.
+
+648
+00:30:03,080 --> 00:30:05,150
+I want to be even more specific.
+
+649
+00:30:05,150 --> 00:30:10,970
+It turns out that financial
+gain, monetary reward,
+
+650
+00:30:10,970 --> 00:30:13,610
+actually stimulates
+the same reward
+
+651
+00:30:13,610 --> 00:30:17,720
+circuitry that cocaine does.
+
+652
+00:30:17,720 --> 00:30:18,620
+I'm not kidding.
+
+653
+00:30:18,620 --> 00:30:20,760
+This is not an
+analogy or a metaphor.
+
+654
+00:30:20,760 --> 00:30:22,430
+It's a physiological fact.
+
+655
+00:30:22,430 --> 00:30:25,190
+Neuroscientists
+using fMRI machines
+
+656
+00:30:25,190 --> 00:30:29,330
+had individuals play games
+involving real money--
+
+657
+00:30:29,330 --> 00:30:33,320
+not a lot of money, but enough
+so that it actually registered.
+
+658
+00:30:33,320 --> 00:30:38,290
+And it turns out that they found
+that when people made money
+
+659
+00:30:38,290 --> 00:30:45,550
+in the MRI machine, that
+their brain released dopamine
+
+660
+00:30:45,550 --> 00:30:49,180
+into a region of the brain
+called the nucleus accumbens.
+
+661
+00:30:49,180 --> 00:30:51,010
+This is exactly
+the same thing that
+
+662
+00:30:51,010 --> 00:30:54,400
+happens when you take cocaine.
+
+663
+00:30:54,400 --> 00:30:56,160
+Some people have said
+that making money
+
+664
+00:30:56,160 --> 00:30:58,080
+is better than sex.
+
+665
+00:30:58,080 --> 00:30:58,840
+You know what?
+
+666
+00:30:58,840 --> 00:31:02,250
+That's actually not
+an exaggeration.
+
+667
+00:31:02,250 --> 00:31:06,340
+It stimulates the same
+kind of neural circuitry.
+
+668
+00:31:06,340 --> 00:31:10,930
+And when you are in this
+kind of a mode of reaction,
+
+669
+00:31:10,930 --> 00:31:14,230
+when your nucleus accumbens
+is being hyperstimulated
+
+670
+00:31:14,230 --> 00:31:20,010
+by dopamine, it will be very
+hard, almost impossible for you
+
+671
+00:31:20,010 --> 00:31:22,590
+to pull back and say, no.
+
+672
+00:31:22,590 --> 00:31:24,030
+I don't want to.
+
+673
+00:31:24,030 --> 00:31:26,310
+That's what an
+addiction is, frankly.
+
+674
+00:31:26,310 --> 00:31:29,220
+And for extended
+periods of prosperity,
+
+675
+00:31:29,220 --> 00:31:32,580
+which we have had over
+the last 10 years,
+
+676
+00:31:32,580 --> 00:31:34,530
+it's become
+virtually impossible.
+
+677
+00:31:34,530 --> 00:31:35,760
+I'm not condoning it.
+
+678
+00:31:35,760 --> 00:31:36,700
+Don't get me wrong.
+
+679
+00:31:36,700 --> 00:31:40,240
+I'm not arguing that these
+excesses are just fine
+
+680
+00:31:40,240 --> 00:31:41,430
+and we excuse them.
+
+681
+00:31:41,430 --> 00:31:43,290
+I'm actually explaining
+a biological fact
+
+682
+00:31:43,290 --> 00:31:45,540
+about how all of
+us are hardwired.
+
+683
+00:31:45,540 --> 00:31:50,730
+When we're making money, it's
+very hard for us to pull back--
+
+684
+00:31:50,730 --> 00:31:56,520
+so much so, that as a
+society, it is possible for us
+
+685
+00:31:56,520 --> 00:31:59,640
+to overextend ourselves.
+
+686
+00:31:59,640 --> 00:32:05,260
+And this actually is one role
+that regulation can play.
+
+687
+00:32:05,260 --> 00:32:07,260
+You know, economists have
+argued that government
+
+688
+00:32:07,260 --> 00:32:10,380
+should be involved because
+we have public goods.
+
+689
+00:32:10,380 --> 00:32:11,520
+We have externalities.
+
+690
+00:32:11,520 --> 00:32:13,027
+We have incomplete markets.
+
+691
+00:32:13,027 --> 00:32:15,360
+But I think that economists
+have missed the most obvious
+
+692
+00:32:15,360 --> 00:32:19,650
+motivation for regulation,
+which is regulation
+
+693
+00:32:19,650 --> 00:32:23,310
+is a means by which
+society prevents itself
+
+694
+00:32:23,310 --> 00:32:26,820
+from doing the things that it
+knows it doesn't want to do
+
+695
+00:32:26,820 --> 00:32:30,090
+during those periods where it
+is incapable of stopping itself
+
+696
+00:32:30,090 --> 00:32:31,181
+from doing it.
+
+697
+00:32:31,181 --> 00:32:31,680
+Right?
+
+698
+00:32:31,680 --> 00:32:33,780
+This is why some people
+put their potato chips
+
+699
+00:32:33,780 --> 00:32:35,759
+on the very top shell
+in their kitchen.
+
+700
+00:32:35,759 --> 00:32:37,800
+They know that they
+shouldn't be having too many.
+
+701
+00:32:37,800 --> 00:32:40,920
+So they make it harder to get
+it so that when they get it,
+
+702
+00:32:40,920 --> 00:32:43,010
+you know, it provides
+some kind of distance.
+
+703
+00:32:43,010 --> 00:32:44,260
+And that doesn't work so well.
+
+704
+00:32:44,260 --> 00:32:46,510
+I can attest to that.
+
+705
+00:32:46,510 --> 00:32:47,910
+But I'll give you
+another example
+
+706
+00:32:47,910 --> 00:32:49,409
+I'll give you another
+example that's
+
+707
+00:32:49,409 --> 00:32:51,420
+a little bit more direct.
+
+708
+00:32:51,420 --> 00:32:54,000
+In every state in
+the United States,
+
+709
+00:32:54,000 --> 00:33:00,640
+we impose fire codes on
+builders, fire codes that
+
+710
+00:33:00,640 --> 00:33:04,240
+require you to have a
+minimum number of exits,
+
+711
+00:33:04,240 --> 00:33:08,350
+to have well-lit exit
+signs that you can see,
+
+712
+00:33:08,350 --> 00:33:11,080
+to have visible fire
+alarms, to have sprinkler
+
+713
+00:33:11,080 --> 00:33:12,220
+systems in the ceiling.
+
+714
+00:33:12,220 --> 00:33:13,660
+All of this stuff costs money.
+
+715
+00:33:13,660 --> 00:33:15,990
+It's actually very
+expensive to put it.
+
+716
+00:33:15,990 --> 00:33:18,480
+Do you ever wonder
+why we have those?
+
+717
+00:33:18,480 --> 00:33:21,330
+In other words, why not
+let the free market work?
+
+718
+00:33:21,330 --> 00:33:23,040
+Let people be free to choose.
+
+719
+00:33:23,040 --> 00:33:24,750
+Those of you that
+are nervous Nellies
+
+720
+00:33:24,750 --> 00:33:26,820
+that are worried
+about a fire, you
+
+721
+00:33:26,820 --> 00:33:28,980
+will simply pay
+more for buildings
+
+722
+00:33:28,980 --> 00:33:31,200
+that have all these goodies.
+
+723
+00:33:31,200 --> 00:33:33,360
+And then we can
+have other buildings
+
+724
+00:33:33,360 --> 00:33:35,730
+that don't have any
+of these protections.
+
+725
+00:33:35,730 --> 00:33:38,585
+And let people be
+free to choose.
+
+726
+00:33:38,585 --> 00:33:39,460
+Why don't we do that?
+
+727
+00:33:39,460 --> 00:33:41,140
+That's a perfect equilibrium
+from an economist
+
+728
+00:33:41,140 --> 00:33:41,723
+point of view.
+
+729
+00:33:41,723 --> 00:33:42,860
+Well, you know why?
+
+730
+00:33:42,860 --> 00:33:46,530
+It's because in that
+free-to-choose world,
+
+731
+00:33:46,530 --> 00:33:49,239
+none of you will choose the
+more expensive building.
+
+732
+00:33:49,239 --> 00:33:50,280
+And the reason is simple.
+
+733
+00:33:50,280 --> 00:33:53,550
+It's because when you
+assess the probability
+
+734
+00:33:53,550 --> 00:33:57,360
+of a fire on any given day,
+you put a weight of zero
+
+735
+00:33:57,360 --> 00:33:58,059
+to that event.
+
+736
+00:33:58,059 --> 00:33:59,850
+I don't any of you came
+into this classroom
+
+737
+00:33:59,850 --> 00:34:01,710
+today thinking hmm,
+if there's a fire, who
+
+738
+00:34:01,710 --> 00:34:05,574
+am I going to have to step
+over to get out of that exit?
+
+739
+00:34:05,574 --> 00:34:06,990
+Maybe you are
+thinking about that.
+
+740
+00:34:06,990 --> 00:34:10,139
+That's why you guys
+are sitting here.
+
+741
+00:34:10,139 --> 00:34:12,840
+But we don't think about
+it, because it's not
+
+742
+00:34:12,840 --> 00:34:15,690
+part of our cognitive
+process to focus
+
+743
+00:34:15,690 --> 00:34:17,760
+on every possible eventuality.
+
+744
+00:34:17,760 --> 00:34:22,750
+We don't have an infinite
+computing machine on our heads.
+
+745
+00:34:22,750 --> 00:34:27,949
+So we assign certain
+events zero probability.
+
+746
+00:34:27,949 --> 00:34:30,710
+And when you do, you
+will pay nothing for it.
+
+747
+00:34:30,710 --> 00:34:32,420
+So there will be
+nobody that will
+
+748
+00:34:32,420 --> 00:34:36,380
+pay for sprinklers, in which
+case, it won't get done.
+
+749
+00:34:36,380 --> 00:34:39,409
+And as we know, when
+it doesn't get done,
+
+750
+00:34:39,409 --> 00:34:41,210
+eventually, you have a fire.
+
+751
+00:34:41,210 --> 00:34:45,710
+And during that fire, you really
+wish you had those sprinklers.
+
+752
+00:34:45,710 --> 00:34:48,510
+And it'll be too late to
+put them in at that time.
+
+753
+00:34:48,510 --> 00:34:49,610
+So we regulate.
+
+754
+00:34:49,610 --> 00:34:52,429
+We regulate because
+we know ourselves.
+
+755
+00:34:52,429 --> 00:34:55,010
+And we know that during
+certain situations,
+
+756
+00:34:55,010 --> 00:34:59,430
+we will not act in a way that
+we would like ourselves to act.
+
+757
+00:34:59,430 --> 00:35:01,700
+So we prevent ourselves
+from doing that
+
+758
+00:35:01,700 --> 00:35:07,770
+by developing these laws that
+we just simply have to follow.
+
+759
+00:35:07,770 --> 00:35:11,850
+Well, that can be done
+as well for problems
+
+760
+00:35:11,850 --> 00:35:15,300
+like leverage credit and so on.
+
+761
+00:35:15,300 --> 00:35:18,180
+So the point is
+that risk management
+
+762
+00:35:18,180 --> 00:35:23,790
+doesn't work unless we are able
+to experience pain and fear.
+
+763
+00:35:23,790 --> 00:35:28,350
+And profits are a very
+potent anesthetic.
+
+764
+00:35:28,350 --> 00:35:29,700
+They're like a drug.
+
+765
+00:35:29,700 --> 00:35:32,160
+And the more profit you have,
+for a long enough period
+
+766
+00:35:32,160 --> 00:35:35,910
+of time, you become a lot less
+anxious about asking questions,
+
+767
+00:35:35,910 --> 00:35:38,130
+because you're not
+feeling any pain.
+
+768
+00:35:38,130 --> 00:35:41,100
+You're not feeling pain, so you
+won't ask the tough questions.
+
+769
+00:35:41,100 --> 00:35:43,230
+And you won't scale
+back the risks
+
+770
+00:35:43,230 --> 00:35:47,370
+while everybody else seems
+to be doing just fine.
+
+771
+00:35:47,370 --> 00:35:52,560
+So the point is that
+proper balance is the key.
+
+772
+00:35:52,560 --> 00:35:56,310
+We have to have a proper
+balance of fear, greed,
+
+773
+00:35:56,310 --> 00:35:58,320
+and logical analysis.
+
+774
+00:35:58,320 --> 00:36:00,570
+And if we know that
+there are periods
+
+775
+00:36:00,570 --> 00:36:03,660
+where that proper balance
+will be out of kilter,
+
+776
+00:36:03,660 --> 00:36:08,540
+that's the role that regulation
+can play during those periods.
+
+777
+00:36:08,540 --> 00:36:10,120
+OK?
+
+778
+00:36:10,120 --> 00:36:13,460
+So what do we what do we
+think about going forward?
+
+779
+00:36:13,460 --> 00:36:18,420
+Well, clearly the
+fear of the unknown
+
+780
+00:36:18,420 --> 00:36:20,820
+magnifies the
+problems that were in.
+
+781
+00:36:20,820 --> 00:36:23,910
+Flight to liquidity
+is likely to persist.
+
+782
+00:36:23,910 --> 00:36:26,190
+And we really are
+going to have to think
+
+783
+00:36:26,190 --> 00:36:29,760
+more carefully about
+developing better analytics.
+
+784
+00:36:29,760 --> 00:36:32,580
+And ultimately, what
+we're going to see over
+
+785
+00:36:32,580 --> 00:36:36,300
+the next couple of years
+is a tremendous period
+
+786
+00:36:36,300 --> 00:36:37,920
+of innovation--
+
+787
+00:36:37,920 --> 00:36:40,680
+some of it good, some of it bad.
+
+788
+00:36:40,680 --> 00:36:44,280
+But we're going to use
+the current situation
+
+789
+00:36:44,280 --> 00:36:49,230
+to really improve and expand
+the current infrastructure
+
+790
+00:36:49,230 --> 00:36:51,010
+for the coming decades.
+
+791
+00:36:51,010 --> 00:36:55,500
+So as one of the Obama
+transition managers mentioned,
+
+792
+00:36:55,500 --> 00:36:57,870
+a crisis is a terrible
+thing to waste.
+
+793
+00:36:57,870 --> 00:37:01,950
+The next year or two is a
+golden opportunity for us
+
+794
+00:37:01,950 --> 00:37:04,770
+to take advantage of
+the crisis by motivating
+
+795
+00:37:04,770 --> 00:37:08,790
+ourselves to change the
+regulatory infrastructure.
+
+796
+00:37:08,790 --> 00:37:09,360
+Right?
+
+797
+00:37:09,360 --> 00:37:11,820
+If things are going
+well, then there's
+
+798
+00:37:11,820 --> 00:37:14,100
+no point in trying to
+change anything, right?
+
+799
+00:37:14,100 --> 00:37:15,240
+Don't mess with success.
+
+800
+00:37:15,240 --> 00:37:17,204
+You've heard that before.
+
+801
+00:37:17,204 --> 00:37:18,620
+The point is that
+right now, we're
+
+802
+00:37:18,620 --> 00:37:21,170
+in a situation where we can
+actually change something.
+
+803
+00:37:21,170 --> 00:37:23,150
+And so the adaptive
+markets would tell us
+
+804
+00:37:23,150 --> 00:37:27,020
+that this is our way of
+creating that infrastructure
+
+805
+00:37:27,020 --> 00:37:30,910
+to build for the coming growth.
+
+806
+00:37:30,910 --> 00:37:36,660
+So in conclusion, I would argue
+that finance and economics are
+
+807
+00:37:36,660 --> 00:37:39,000
+a lot more like
+evolutionary biology
+
+808
+00:37:39,000 --> 00:37:41,277
+than they are like physics.
+
+809
+00:37:41,277 --> 00:37:43,860
+We really have to take a look
+at the evolutionary perspective.
+
+810
+00:37:43,860 --> 00:37:47,880
+And the bottom line
+is whether or not
+
+811
+00:37:47,880 --> 00:37:50,100
+you are going to survive.
+
+812
+00:37:50,100 --> 00:37:51,920
+That's what we all care about.
+
+813
+00:37:51,920 --> 00:37:54,750
+That's what we
+ultimately strive to do.
+
+814
+00:37:54,750 --> 00:37:57,870
+And if you understand
+this about markets,
+
+815
+00:37:57,870 --> 00:38:00,570
+you'll have a much better
+chance of surviving.
+
+816
+00:38:00,570 --> 00:38:03,090
+So from the perspective
+of 401, the material
+
+817
+00:38:03,090 --> 00:38:05,160
+we've learned in
+this course, we've
+
+818
+00:38:05,160 --> 00:38:10,240
+gone over the rational
+approach to analyzing value
+
+819
+00:38:10,240 --> 00:38:13,140
+in various kinds of
+market interactions.
+
+820
+00:38:13,140 --> 00:38:16,080
+And just be aware that
+for the most part,
+
+821
+00:38:16,080 --> 00:38:18,030
+that may work reasonably well.
+
+822
+00:38:18,030 --> 00:38:22,350
+But for extreme circumstances,
+periods of extreme wealth,
+
+823
+00:38:22,350 --> 00:38:26,750
+as well as periods of
+extreme market distress,
+
+824
+00:38:26,750 --> 00:38:31,790
+prices may not be in-line with
+what our analytical framework
+
+825
+00:38:31,790 --> 00:38:32,360
+suggests.
+
+826
+00:38:32,360 --> 00:38:34,970
+And at that point, you
+need to reassess and try
+
+827
+00:38:34,970 --> 00:38:36,990
+to come up with alternatives.
+
+828
+00:38:36,990 --> 00:38:40,280
+What those are, we
+currently don't know.
+
+829
+00:38:40,280 --> 00:38:42,620
+We don't have a
+good theory for what
+
+830
+00:38:42,620 --> 00:38:45,920
+happens when the traditional
+analytics break down,
+
+831
+00:38:45,920 --> 00:38:47,960
+because up until
+recently, nobody
+
+832
+00:38:47,960 --> 00:38:49,490
+would be even
+willing to consider
+
+833
+00:38:49,490 --> 00:38:52,141
+that the traditional analytics
+would ever break down.
+
+834
+00:38:52,141 --> 00:38:52,640
+OK?
+
+835
+00:38:52,640 --> 00:38:55,560
+So this whole area
+is relatively new.
+
+836
+00:38:55,560 --> 00:38:58,350
+And as I mentioned, at the
+beginning of this lecture,
+
+837
+00:38:58,350 --> 00:39:00,341
+if you do a search
+for adaptive markets,
+
+838
+00:39:00,341 --> 00:39:02,090
+you're going to only
+find my name attached
+
+839
+00:39:02,090 --> 00:39:03,050
+to that at this point.
+
+840
+00:39:03,050 --> 00:39:06,710
+It's not really a theory that's
+come into even common parlance,
+
+841
+00:39:06,710 --> 00:39:08,960
+never mind general acceptance.
+
+842
+00:39:08,960 --> 00:39:10,540
+It's a conjecture at this point.
+
+843
+00:39:10,540 --> 00:39:14,850
+It's an alternative to the
+current received wisdom.
+
+844
+00:39:14,850 --> 00:39:18,200
+But the hope is that over time,
+as we understand more and more
+
+845
+00:39:18,200 --> 00:39:21,080
+about these interactions, we'll
+be able to develop alternative.
+
+846
+00:39:21,080 --> 00:39:23,900
+So then, I'm hoping that
+a few years from now,
+
+847
+00:39:23,900 --> 00:39:25,610
+I will be able to
+tell all of you,
+
+848
+00:39:25,610 --> 00:39:28,910
+this is a theory for markets
+when they are normal.
+
+849
+00:39:28,910 --> 00:39:32,150
+And this is a theory for
+markets under certain kinds
+
+850
+00:39:32,150 --> 00:39:33,500
+of distress.
+
+851
+00:39:33,500 --> 00:39:37,250
+And at that point, we will have
+a complete theory of markets
+
+852
+00:39:37,250 --> 00:39:38,480
+under all circumstances.
+
+853
+00:39:38,480 --> 00:39:40,388
+But we're still a few
+years away from that.
+
+854
+00:39:40,388 --> 00:39:41,264
+[INAUDIBLE]
+
+855
+00:39:41,264 --> 00:39:44,445
+AUDIENCE: There are a number
+of economists the value
+
+856
+00:39:44,445 --> 00:39:47,330
+that the financial
+sector in the US
+
+857
+00:39:47,330 --> 00:39:50,920
+was already among the
+most regulated sectors.
+
+858
+00:39:50,920 --> 00:39:55,295
+But partially these regulations
+caused [INAUDIBLE] Fannie Mae
+
+859
+00:39:55,295 --> 00:39:56,740
+and Freddie Mac.
+
+860
+00:39:56,740 --> 00:40:00,738
+And so actually, I would
+argue for the opposite.
+
+861
+00:40:00,738 --> 00:40:02,530
+And do you think
+that the regulation
+
+862
+00:40:02,530 --> 00:40:07,845
+should be fixed because it's
+wrong, or you should add more?
+
+863
+00:40:07,845 --> 00:40:10,820
+ANDREW LO: Well, I don't
+think we should add more.
+
+864
+00:40:10,820 --> 00:40:13,710
+I would argue that we
+don't need more regulation.
+
+865
+00:40:13,710 --> 00:40:16,500
+We need better
+regulation, smarter,
+
+866
+00:40:16,500 --> 00:40:18,770
+more adaptive regulation.
+
+867
+00:40:18,770 --> 00:40:22,500
+So to your point,
+the banking sector,
+
+868
+00:40:22,500 --> 00:40:28,120
+which is where the majority
+of these problems sit today,
+
+869
+00:40:28,120 --> 00:40:31,000
+the banking sector is
+the most regulated sector
+
+870
+00:40:31,000 --> 00:40:34,390
+of all in all of
+the financial world.
+
+871
+00:40:34,390 --> 00:40:39,730
+And the next most regulated
+sector is the insurance sector.
+
+872
+00:40:39,730 --> 00:40:41,870
+And you have
+problems there, too.
+
+873
+00:40:41,870 --> 00:40:44,680
+So on the one hand, you
+could argue that gee,
+
+874
+00:40:44,680 --> 00:40:47,170
+it's all this regulation
+that's created it.
+
+875
+00:40:47,170 --> 00:40:49,000
+I don't believe that either.
+
+876
+00:40:49,000 --> 00:40:51,760
+And the reason is that
+a lot of these problems
+
+877
+00:40:51,760 --> 00:40:57,790
+started in 1999 and
+after when we actually
+
+878
+00:40:57,790 --> 00:41:00,340
+dismantled some
+of the regulation,
+
+879
+00:41:00,340 --> 00:41:02,470
+in particular the
+Glass-Steagall Act.
+
+880
+00:41:02,470 --> 00:41:04,240
+We dismantled that in 1999.
+
+881
+00:41:04,240 --> 00:41:06,910
+And by the way, that wasn't
+done by the Republicans.
+
+882
+00:41:06,910 --> 00:41:08,110
+Bill Clinton signed that.
+
+883
+00:41:08,110 --> 00:41:11,670
+So there's blame to share
+across both political parties.
+
+884
+00:41:11,670 --> 00:41:15,510
+This is not a political
+problem, per say.
+
+885
+00:41:15,510 --> 00:41:17,310
+So we reduced regulation.
+
+886
+00:41:17,310 --> 00:41:19,320
+We allowed banks to be
+more like hedge funds.
+
+887
+00:41:19,320 --> 00:41:22,200
+We allowed hedge funds
+to be more like banks.
+
+888
+00:41:22,200 --> 00:41:26,640
+And we got ourselves into the
+problem that we face today.
+
+889
+00:41:26,640 --> 00:41:28,200
+So it's not more regulation.
+
+890
+00:41:28,200 --> 00:41:31,260
+We have to be smarter about
+what we're regulating.
+
+891
+00:41:31,260 --> 00:41:33,630
+And that's what I'm
+hoping that we will
+
+892
+00:41:33,630 --> 00:41:37,170
+do over the next few years.
+
+893
+00:41:37,170 --> 00:41:40,220
+OK, well, that's it.
+
+894
+00:41:40,220 --> 00:41:44,000
+That's it for
+Introductory Finance.
+
+895
+00:41:44,000 --> 00:41:48,600
+What I want to do now in just
+the last 15 or 20 minutes,
+
+896
+00:41:48,600 --> 00:41:50,944
+I'm going to give you a
+near-death experience,
+
+897
+00:41:50,944 --> 00:41:52,610
+because you get to
+see the entire course
+
+898
+00:41:52,610 --> 00:41:54,620
+flash before your very eyes.
+
+899
+00:41:54,620 --> 00:41:58,340
+I want to go over what
+we've done to-date
+
+900
+00:41:58,340 --> 00:41:59,732
+and try to make sense of it all.
+
+901
+00:41:59,732 --> 00:42:01,190
+And then I'll tell
+you a little bit
+
+902
+00:42:01,190 --> 00:42:07,030
+about what you might be in store
+for with classes in the future.
+
+903
+00:42:07,030 --> 00:42:11,570
+So let's start at
+the very beginning.
+
+904
+00:42:11,570 --> 00:42:15,470
+I started with this motivation--
+mathematics plus money
+
+905
+00:42:15,470 --> 00:42:16,400
+is equal to finance.
+
+906
+00:42:16,400 --> 00:42:19,160
+And I hope that I've
+delivered on that.
+
+907
+00:42:19,160 --> 00:42:22,310
+In other words, we've got
+very different approaches
+
+908
+00:42:22,310 --> 00:42:23,510
+to investments.
+
+909
+00:42:23,510 --> 00:42:25,940
+At the one in the
+spectrum, James Simons,
+
+910
+00:42:25,940 --> 00:42:29,060
+at the other, Warren
+Buffett, and, of course,
+
+911
+00:42:29,060 --> 00:42:31,430
+Jack Welch in-between.
+
+912
+00:42:31,430 --> 00:42:35,090
+And each of these individuals
+brings unique skills
+
+913
+00:42:35,090 --> 00:42:37,550
+and insights into the
+investment process.
+
+914
+00:42:37,550 --> 00:42:39,810
+And what we wanted
+to do in this course,
+
+915
+00:42:39,810 --> 00:42:43,280
+was to try to distill some
+of the basic principles
+
+916
+00:42:43,280 --> 00:42:46,820
+and the language of finance that
+all three of these individuals
+
+917
+00:42:46,820 --> 00:42:48,740
+would agree are
+sort of the building
+
+918
+00:42:48,740 --> 00:42:52,070
+blocks of understanding
+market dynamics.
+
+919
+00:42:52,070 --> 00:42:54,650
+And as we started
+at the beginning
+
+920
+00:42:54,650 --> 00:42:56,840
+with this flow model
+of the economy,
+
+921
+00:42:56,840 --> 00:42:59,240
+we said that we were going
+to study four components--
+
+922
+00:42:59,240 --> 00:43:02,420
+households, capital markets,
+financial intermediaries,
+
+923
+00:43:02,420 --> 00:43:03,740
+and non-financial corporations.
+
+924
+00:43:03,740 --> 00:43:07,560
+That's the financial
+system as we know it.
+
+925
+00:43:07,560 --> 00:43:11,570
+And we began with those six
+principles of modern finance.
+
+926
+00:43:11,570 --> 00:43:13,922
+Now I think you have a
+deeper appreciation for it.
+
+927
+00:43:13,922 --> 00:43:15,380
+As I said, we were
+only going to be
+
+928
+00:43:15,380 --> 00:43:18,260
+able to focus on the first few.
+
+929
+00:43:18,260 --> 00:43:20,450
+And the latter
+principles were going
+
+930
+00:43:20,450 --> 00:43:22,700
+to be underlying
+much of the theories
+
+931
+00:43:22,700 --> 00:43:24,957
+that you would study
+beyond this course.
+
+932
+00:43:24,957 --> 00:43:26,540
+There's no such thing
+as a free lunch.
+
+933
+00:43:26,540 --> 00:43:30,450
+That's a very basic principle
+that we used time and again
+
+934
+00:43:30,450 --> 00:43:33,650
+in coming up with various
+different pricing implications.
+
+935
+00:43:33,650 --> 00:43:37,010
+And P2 is the
+behavioral assumption
+
+936
+00:43:37,010 --> 00:43:40,100
+that I argued we need
+for much of the theories
+
+937
+00:43:40,100 --> 00:43:41,280
+that we developed.
+
+938
+00:43:41,280 --> 00:43:43,370
+But what I just told
+you in the last lecture
+
+939
+00:43:43,370 --> 00:43:45,830
+is that there are
+occasions where
+
+940
+00:43:45,830 --> 00:43:48,800
+those behavioral
+assumptions, ultimately,
+
+941
+00:43:48,800 --> 00:43:51,470
+are suspended or
+replaced with this kind
+
+942
+00:43:51,470 --> 00:43:54,110
+of overwhelming
+emotional component.
+
+943
+00:43:54,110 --> 00:43:55,790
+We prefer more money
+to less, prefer
+
+944
+00:43:55,790 --> 00:43:59,260
+money now to money later,
+and we prefer to avoid risk.
+
+945
+00:43:59,260 --> 00:44:02,570
+P3-- all agents act to further
+their own self-interest.
+
+946
+00:44:02,570 --> 00:44:03,970
+That's pretty straightforward.
+
+947
+00:44:03,970 --> 00:44:06,080
+P4-- financial
+market prices shift
+
+948
+00:44:06,080 --> 00:44:08,510
+to equate supply and demand.
+
+949
+00:44:08,510 --> 00:44:11,792
+And then P5-- financial markets
+highly adaptive-competitive,
+
+950
+00:44:11,792 --> 00:44:13,250
+and that risk-sharing
+and frictions
+
+951
+00:44:13,250 --> 00:44:15,620
+are central to
+financial innovation.
+
+952
+00:44:15,620 --> 00:44:17,540
+I hope that throughout
+the entire course
+
+953
+00:44:17,540 --> 00:44:20,930
+you've got an appreciation for
+all six of these principles.
+
+954
+00:44:20,930 --> 00:44:25,160
+It's remarkable how such
+relatively simple ideas
+
+955
+00:44:25,160 --> 00:44:28,130
+can have such dramatic
+implications as we've developed
+
+956
+00:44:28,130 --> 00:44:30,690
+over the last 13 weeks.
+
+957
+00:44:30,690 --> 00:44:33,280
+OK so there are four
+sections that we focused
+
+958
+00:44:33,280 --> 00:44:36,070
+on-- the introduction,
+evaluation, risk,
+
+959
+00:44:36,070 --> 00:44:37,420
+and corporate finance.
+
+960
+00:44:37,420 --> 00:44:40,780
+And then the final lecture of
+"Try to put it all together."
+
+961
+00:44:40,780 --> 00:44:44,170
+For present value,
+the focus really
+
+962
+00:44:44,170 --> 00:44:47,530
+was defining what an asset is--
+a package, a sequence of cash
+
+963
+00:44:47,530 --> 00:44:50,620
+flows, and the time
+value of money,
+
+964
+00:44:50,620 --> 00:44:53,530
+looking at present value
+versus future value,
+
+965
+00:44:53,530 --> 00:44:57,830
+and focusing on exchange
+rates between today, tomorrow,
+
+966
+00:44:57,830 --> 00:44:58,600
+and other dates.
+
+967
+00:44:58,600 --> 00:45:00,610
+That was sort of
+the key insight.
+
+968
+00:45:00,610 --> 00:45:04,900
+And once you understand how
+to visualize the cash flows
+
+969
+00:45:04,900 --> 00:45:09,670
+and move money through time, you
+understand a very significant
+
+970
+00:45:09,670 --> 00:45:12,421
+portion of financial analysis.
+
+971
+00:45:12,421 --> 00:45:14,170
+And then we talked
+about some special cash
+
+972
+00:45:14,170 --> 00:45:16,000
+flows-- perpetuities
+and annuities,
+
+973
+00:45:16,000 --> 00:45:18,190
+which we use for virtually
+everything in terms
+
+974
+00:45:18,190 --> 00:45:18,910
+of valuation.
+
+975
+00:45:18,910 --> 00:45:20,830
+Very important ideas.
+
+976
+00:45:20,830 --> 00:45:24,310
+And then we talked a bit about
+compounding and inflation.
+
+977
+00:45:24,310 --> 00:45:26,200
+Fixed-income
+securities-- Well, we
+
+978
+00:45:26,200 --> 00:45:29,080
+talked about applying the
+very basic mathematics
+
+979
+00:45:29,080 --> 00:45:33,520
+of present value to these
+pure discount bonds and coupon
+
+980
+00:45:33,520 --> 00:45:34,625
+bonds.
+
+981
+00:45:34,625 --> 00:45:37,000
+The relationship between coupon
+bonds and discount bonds,
+
+982
+00:45:37,000 --> 00:45:40,150
+of course, is through arbitrage.
+
+983
+00:45:40,150 --> 00:45:42,940
+And we also found that
+current bond prices
+
+984
+00:45:42,940 --> 00:45:45,190
+contain enormous
+amounts of information
+
+985
+00:45:45,190 --> 00:45:47,900
+about what's going to
+happen in the future.
+
+986
+00:45:47,900 --> 00:45:49,650
+We talked about spot
+rates, forward rates,
+
+987
+00:45:49,650 --> 00:45:52,480
+yield-to-maturity yield
+curve, interest rate, risk.
+
+988
+00:45:52,480 --> 00:45:54,600
+And then we focused
+on corporate bonds.
+
+989
+00:45:54,600 --> 00:45:57,340
+And I spent some time
+giving the example
+
+990
+00:45:57,340 --> 00:46:00,670
+of how repackaging
+corporate bonds, and things
+
+991
+00:46:00,670 --> 00:46:03,610
+like mortgages, auto loans,
+and other securities,
+
+992
+00:46:03,610 --> 00:46:05,980
+could actually lead
+to some very, very
+
+993
+00:46:05,980 --> 00:46:11,200
+attractive securities for a
+variety of different clientele.
+
+994
+00:46:11,200 --> 00:46:14,800
+For equity securities, we
+applied exact same framework
+
+995
+00:46:14,800 --> 00:46:18,370
+to try to come up with a
+value of a future stream
+
+996
+00:46:18,370 --> 00:46:19,480
+of dividends.
+
+997
+00:46:19,480 --> 00:46:22,930
+And here, while the
+mathematics was pretty similar,
+
+998
+00:46:22,930 --> 00:46:25,210
+the interpretation differed
+in an important way,
+
+999
+00:46:25,210 --> 00:46:28,420
+because dividends are random,
+whereas, in the case of bond
+
+1000
+00:46:28,420 --> 00:46:32,110
+prices, the coupons
+are known in advance.
+
+1001
+00:46:32,110 --> 00:46:35,730
+So that's the difference between
+fixed-income securities, where
+
+1002
+00:46:35,730 --> 00:46:38,560
+the incomes are
+fixed in advance,
+
+1003
+00:46:38,560 --> 00:46:41,590
+versus equity securities,
+where there's randomness.
+
+1004
+00:46:41,590 --> 00:46:43,600
+What that randomness
+does is to make
+
+1005
+00:46:43,600 --> 00:46:46,850
+the volatility of these
+pricing models much greater.
+
+1006
+00:46:46,850 --> 00:46:48,790
+In other words, it's
+harder to pin down
+
+1007
+00:46:48,790 --> 00:46:50,980
+what the price of
+an equity security
+
+1008
+00:46:50,980 --> 00:46:53,380
+is, because in addition
+to all of the risks
+
+1009
+00:46:53,380 --> 00:46:54,839
+that a bond will face--
+
+1010
+00:46:54,839 --> 00:46:57,130
+in other words, the risk of
+future changes and interest
+
+1011
+00:46:57,130 --> 00:46:57,880
+rates--
+
+1012
+00:46:57,880 --> 00:47:01,240
+you get the risks of changes
+in dividends, earnings,
+
+1013
+00:47:01,240 --> 00:47:03,290
+cash flows, and so on.
+
+1014
+00:47:03,290 --> 00:47:06,160
+We also talked about
+valuing companies
+
+1015
+00:47:06,160 --> 00:47:09,250
+using various different
+formulas, and then the idea
+
+1016
+00:47:09,250 --> 00:47:12,640
+behind PVGO, the present
+value of growth opportunities,
+
+1017
+00:47:12,640 --> 00:47:15,850
+and how that can actually lead
+to some tremendous valuation
+
+1018
+00:47:15,850 --> 00:47:21,300
+swings in a company that's based
+upon intellectual property.
+
+1019
+00:47:21,300 --> 00:47:23,705
+We then talked about a whole
+other set of securities
+
+1020
+00:47:23,705 --> 00:47:25,830
+that most of you probably
+haven't come into contact
+
+1021
+00:47:25,830 --> 00:47:29,270
+with-- futures versus forwards.
+
+1022
+00:47:29,270 --> 00:47:32,330
+These are weird securities
+in the sense that they're
+
+1023
+00:47:32,330 --> 00:47:37,100
+worth nothing on the day
+that you agree to enter
+
+1024
+00:47:37,100 --> 00:47:38,961
+into one of these contracts.
+
+1025
+00:47:38,961 --> 00:47:40,460
+But the reason
+they're worth nothing
+
+1026
+00:47:40,460 --> 00:47:43,430
+is that these are bilateral
+agreements between two
+
+1027
+00:47:43,430 --> 00:47:45,770
+counterparties
+And so both of you
+
+1028
+00:47:45,770 --> 00:47:50,360
+are willing to enter into this
+in a willing exchange of cash
+
+1029
+00:47:50,360 --> 00:47:52,522
+flow payments sometime
+in the future.
+
+1030
+00:47:52,522 --> 00:47:54,230
+The only reason you're
+willing to do that
+
+1031
+00:47:54,230 --> 00:47:57,950
+is because the contract
+from an objective standpoint
+
+1032
+00:47:57,950 --> 00:48:00,470
+doesn't have any NPV.
+
+1033
+00:48:00,470 --> 00:48:03,410
+And we see that the marking
+to market of futures
+
+1034
+00:48:03,410 --> 00:48:05,600
+makes a very big
+difference in terms
+
+1035
+00:48:05,600 --> 00:48:08,480
+of the liquidity characteristics
+of that contract.
+
+1036
+00:48:08,480 --> 00:48:11,540
+We see that today with what's
+going on in financial markets--
+
+1037
+00:48:11,540 --> 00:48:14,510
+and that using these contracts
+both for hedging purposes
+
+1038
+00:48:14,510 --> 00:48:17,960
+and for speculation
+is a very key aspect
+
+1039
+00:48:17,960 --> 00:48:21,430
+of this whole industry.
+
+1040
+00:48:21,430 --> 00:48:22,710
+Question?
+
+1041
+00:48:22,710 --> 00:48:23,210
+Zeke?
+
+1042
+00:48:23,210 --> 00:48:25,350
+Oh, okay.
+
+1043
+00:48:25,350 --> 00:48:28,800
+Then the last set of
+securities that we spent time
+
+1044
+00:48:28,800 --> 00:48:30,600
+on in this course, is options.
+
+1045
+00:48:30,600 --> 00:48:33,420
+Options are different
+from anything else
+
+1046
+00:48:33,420 --> 00:48:35,250
+we've looked at up
+until now, because first
+
+1047
+00:48:35,250 --> 00:48:40,170
+of all, their payoffs are
+asymmetric; they're kinked.
+
+1048
+00:48:40,170 --> 00:48:42,420
+And by putting together
+a portfolio of options,
+
+1049
+00:48:42,420 --> 00:48:44,340
+we can get all sorts
+of weird payoffs.
+
+1050
+00:48:44,340 --> 00:48:47,820
+In fact in the
+various different exam
+
+1051
+00:48:47,820 --> 00:48:49,680
+questions that
+you might get, you
+
+1052
+00:48:49,680 --> 00:48:53,750
+will be asked to try to come up
+with different kinds of payoff
+
+1053
+00:48:53,750 --> 00:48:54,660
+structures.
+
+1054
+00:48:54,660 --> 00:48:56,700
+So you need to know a
+little bit about how
+
+1055
+00:48:56,700 --> 00:48:58,440
+to put these things
+together and what
+
+1056
+00:48:58,440 --> 00:49:00,840
+the various different
+payoffs imply
+
+1057
+00:49:00,840 --> 00:49:02,700
+under different circumstances.
+
+1058
+00:49:02,700 --> 00:49:06,390
+We also gave you a very simple
+example of an option pricing
+
+1059
+00:49:06,390 --> 00:49:10,200
+strategy, a model, namely,
+the binomial pricing model.
+
+1060
+00:49:10,200 --> 00:49:12,960
+Very simple, but it's actually
+one of the most heavily used
+
+1061
+00:49:12,960 --> 00:49:14,430
+in industry.
+
+1062
+00:49:14,430 --> 00:49:18,840
+And it's an extraordinarily
+flexible and powerful method,
+
+1063
+00:49:18,840 --> 00:49:24,060
+again, based on the principle
+of arbitrage, or no free lunch.
+
+1064
+00:49:24,060 --> 00:49:28,590
+We then started introducing risk
+into the picture explicitly.
+
+1065
+00:49:28,590 --> 00:49:31,980
+We talked about the size effect,
+January effect, value line,
+
+1066
+00:49:31,980 --> 00:49:36,780
+momentum, accruals, and pointed
+out that all of these effects
+
+1067
+00:49:36,780 --> 00:49:40,140
+can lead to certain
+investment strategies.
+
+1068
+00:49:40,140 --> 00:49:42,300
+Whether or not the
+strategies are good or bad
+
+1069
+00:49:42,300 --> 00:49:43,640
+really requires a framework.
+
+1070
+00:49:43,640 --> 00:49:45,722
+We didn't have a
+framework at the time.
+
+1071
+00:49:45,722 --> 00:49:47,430
+But I wanted to point
+out these anomalies
+
+1072
+00:49:47,430 --> 00:49:50,160
+to just mention that
+they are the basis
+
+1073
+00:49:50,160 --> 00:49:52,500
+for a number of investment
+products and ideas
+
+1074
+00:49:52,500 --> 00:49:53,610
+over the years.
+
+1075
+00:49:53,610 --> 00:49:56,880
+And so we really need to have
+a systematic way of thinking
+
+1076
+00:49:56,880 --> 00:49:59,730
+about how to evaluate not
+only these strategies,
+
+1077
+00:49:59,730 --> 00:50:01,410
+but the managers that tout them.
+
+1078
+00:50:01,410 --> 00:50:03,090
+Are they adding value?
+
+1079
+00:50:03,090 --> 00:50:06,120
+Or is this something that really
+you could do for yourself?
+
+1080
+00:50:06,120 --> 00:50:10,200
+So we developed this notion
+of not so much picking
+
+1081
+00:50:10,200 --> 00:50:13,890
+a stock, or a good
+two or three stocks,
+
+1082
+00:50:13,890 --> 00:50:16,890
+but putting together a
+whole collection of stocks,
+
+1083
+00:50:16,890 --> 00:50:18,850
+a good portfolio.
+
+1084
+00:50:18,850 --> 00:50:23,490
+And we zeroed in on mean and
+variance as the key concepts
+
+1085
+00:50:23,490 --> 00:50:27,000
+to evaluate what is good
+and what is not good.
+
+1086
+00:50:27,000 --> 00:50:33,180
+And we deduced the main
+result of finance theory
+
+1087
+00:50:33,180 --> 00:50:36,600
+under uncertainty, which is
+the capital asset pricing
+
+1088
+00:50:36,600 --> 00:50:38,850
+model in two forms--
+
+1089
+00:50:38,850 --> 00:50:42,090
+the capital market line
+for efficient portfolios,
+
+1090
+00:50:42,090 --> 00:50:46,230
+and the security market line
+for any kind of security
+
+1091
+00:50:46,230 --> 00:50:49,360
+or portfolio, whether
+it's efficient or not.
+
+1092
+00:50:49,360 --> 00:50:52,980
+And this allows us to
+resolve the open question
+
+1093
+00:50:52,980 --> 00:50:55,050
+that we started with,
+which is, how do we
+
+1094
+00:50:55,050 --> 00:50:58,590
+determine what the appropriate
+risk-adjusted discount rate is?
+
+1095
+00:50:58,590 --> 00:51:01,260
+I've said at the very beginning,
+let the market determine it.
+
+1096
+00:51:01,260 --> 00:51:03,840
+This allows us to
+explicate how it
+
+1097
+00:51:03,840 --> 00:51:09,210
+is that the market might
+go about doing so, assuming
+
+1098
+00:51:09,210 --> 00:51:11,220
+rationality.
+
+1099
+00:51:11,220 --> 00:51:14,730
+If people aren't rational,
+this goes out the window.
+
+1100
+00:51:14,730 --> 00:51:17,790
+But assuming that they are,
+this is a complete theory
+
+1101
+00:51:17,790 --> 00:51:20,910
+for how you determine
+risk and expected return.
+
+1102
+00:51:20,910 --> 00:51:24,190
+And using risk an
+expected return,
+
+1103
+00:51:24,190 --> 00:51:27,510
+we now have a complete
+theory for capital budgeting,
+
+1104
+00:51:27,510 --> 00:51:31,140
+for how to evaluate whether or
+not you ought to take a project
+
+1105
+00:51:31,140 --> 00:51:33,840
+or not take a project, OK?
+
+1106
+00:51:33,840 --> 00:51:36,870
+And last and
+certainly not least,
+
+1107
+00:51:36,870 --> 00:51:40,080
+we talked about the idea behind
+market efficiency, the idea
+
+1108
+00:51:40,080 --> 00:51:43,630
+that you can actually trust
+market prices, market rates
+
+1109
+00:51:43,630 --> 00:51:47,340
+of return, market betas, all
+of the information that you
+
+1110
+00:51:47,340 --> 00:51:51,180
+glean from market data and
+apply them to your decisions.
+
+1111
+00:51:51,180 --> 00:51:52,960
+Can you trust them?
+
+1112
+00:51:52,960 --> 00:51:55,170
+And the answer is sometimes.
+
+1113
+00:51:55,170 --> 00:51:57,330
+When markets are efficient,
+when prices fully
+
+1114
+00:51:57,330 --> 00:51:59,580
+reflect all available
+information,
+
+1115
+00:51:59,580 --> 00:52:02,340
+the power and the
+wisdom of crowds
+
+1116
+00:52:02,340 --> 00:52:03,930
+is very, very compelling.
+
+1117
+00:52:03,930 --> 00:52:07,560
+But there are periods
+where the crowd is not
+
+1118
+00:52:07,560 --> 00:52:11,260
+a wise crowd, but an
+angry mob, like right now.
+
+1119
+00:52:11,260 --> 00:52:13,710
+So you want to be careful
+and not talk to the market
+
+1120
+00:52:13,710 --> 00:52:16,230
+about evaluating your
+project when they're
+
+1121
+00:52:16,230 --> 00:52:19,020
+trying to lynch somebody or some
+financial institution that's
+
+1122
+00:52:19,020 --> 00:52:21,120
+out there, OK?
+
+1123
+00:52:21,120 --> 00:52:24,180
+And in order to reconcile
+efficient markets
+
+1124
+00:52:24,180 --> 00:52:28,260
+with these periods
+of insanity, I
+
+1125
+00:52:28,260 --> 00:52:30,540
+proposed this notion
+of adaptive markets.
+
+1126
+00:52:30,540 --> 00:52:34,020
+And at least it provides
+a consistent framework
+
+1127
+00:52:34,020 --> 00:52:37,860
+for thinking about these
+periods of craziness,
+
+1128
+00:52:37,860 --> 00:52:41,670
+as well as periods
+of market calm.
+
+1129
+00:52:41,670 --> 00:52:42,960
+So that's it.
+
+1130
+00:52:42,960 --> 00:52:45,210
+That's it for 15.401.
+
+1131
+00:52:45,210 --> 00:52:47,640
+Where you go from
+here depends upon what
+
+1132
+00:52:47,640 --> 00:52:49,710
+your career objectives are.
+
+1133
+00:52:49,710 --> 00:52:54,170
+If you're interested in
+pursuing investments,
+
+1134
+00:52:54,170 --> 00:52:56,970
+if you want to be a trader,
+a portfolio manager,
+
+1135
+00:52:56,970 --> 00:53:01,920
+or get involved in pension asset
+management, what you want to do
+
+1136
+00:53:01,920 --> 00:53:04,710
+is to focus on the
+investments direction, things
+
+1137
+00:53:04,710 --> 00:53:10,560
+like 15.433 Investments, or
+15.437 Options and Futures.
+
+1138
+00:53:10,560 --> 00:53:14,400
+And we have a number of
+practical pro seminars
+
+1139
+00:53:14,400 --> 00:53:15,900
+that are taught
+by practitioners,
+
+1140
+00:53:15,900 --> 00:53:18,840
+like Seth Alexander, the
+current Chief Investment
+
+1141
+00:53:18,840 --> 00:53:22,530
+officer of the MIT Endowment,
+or Phil Cooper, former partner
+
+1142
+00:53:22,530 --> 00:53:25,170
+of Goldman Sachs who has his
+own private equity company.
+
+1143
+00:53:25,170 --> 00:53:28,080
+There are a number of
+these practitioner courses,
+
+1144
+00:53:28,080 --> 00:53:30,570
+as well as the
+theoretical courses
+
+1145
+00:53:30,570 --> 00:53:33,450
+that we offer that I would
+encourage you to take.
+
+1146
+00:53:33,450 --> 00:53:35,730
+If, on the other
+hand, you're looking
+
+1147
+00:53:35,730 --> 00:53:40,890
+for something on the
+corporate financial side--
+
+1148
+00:53:40,890 --> 00:53:45,570
+project finance, corporate
+financial management,
+
+1149
+00:53:45,570 --> 00:53:48,540
+that kind of approach
+requires that you learn more
+
+1150
+00:53:48,540 --> 00:53:51,340
+about capital budgeting,
+mergers and acquisitions,
+
+1151
+00:53:51,340 --> 00:53:54,930
+corporate finance, so
+15.434 is a good course,
+
+1152
+00:53:54,930 --> 00:53:56,730
+and certain accounting courses.
+
+1153
+00:53:56,730 --> 00:53:59,220
+You might want to take
+financial accounting.
+
+1154
+00:53:59,220 --> 00:54:00,630
+Those are the
+directions that you
+
+1155
+00:54:00,630 --> 00:54:03,060
+may want to take if you're
+interested in pursuing
+
+1156
+00:54:03,060 --> 00:54:05,160
+that career path,
+
+1157
+00:54:05,160 --> 00:54:08,850
+So both of them I think are
+extraordinarily exciting.
+
+1158
+00:54:08,850 --> 00:54:11,040
+They all rely on the
+material that we've
+
+1159
+00:54:11,040 --> 00:54:12,540
+covered in this course.
+
+1160
+00:54:12,540 --> 00:54:16,530
+And so, you know, you
+now have the background
+
+1161
+00:54:16,530 --> 00:54:20,270
+to be able to handle any
+and all of that material.

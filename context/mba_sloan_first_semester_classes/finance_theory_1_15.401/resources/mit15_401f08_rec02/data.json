@@ -1,0 +1,38 @@
+{
+  "content": "<p>Recitation slides on fixed-income securities, spot and forward rates, yield to maturity (YTM) and bond pricing, rate of return, bond arbitrage, duration, convexity, and immunization.</p>\n",
+  "content_type": "resource",
+  "description": "Recitation slides on fixed-income securities, spot and forward rates, yield to maturity (YTM) and bond pricing, rate of return, bond arbitrage, duration, convexity, and immunization.",
+  "draft": false,
+  "file": "/courses/15-401-finance-theory-i-fall-2008/7437599950b0d45bfa3a4c4a3af00a3f_MIT15_401F08_rec02.pdf",
+  "file_size": 215749,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Recitations"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Recitations",
+  "parent_type": "CourseSection",
+  "parent_uid": "fcc24add-3c7b-c945-d80e-38ca9e52d5dc",
+  "resourcetype": "Document",
+  "title": "Fixed-Income Securities",
+  "uid": "74375999-50b0-d45b-fa3a-4c4a3af00a3f",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": ""
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "content": "<p>Trading in process on the floor of the New York Stock Exchange. This image is in the public domain, found on Wikimedia Commons.</p>\n",
+  "content_type": "resource",
+  "description": "Trading in process on the floor of the New York Stock Exchange. This image is in the public domain, found on Wikimedia Commons.",
+  "draft": false,
+  "file": "/courses/15-401-finance-theory-i-fall-2008/5ec2e66e89b03d5c5c7806672a26167e_15-401f08.jpg",
+  "file_size": 136522,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Trading in process on the floor of the New York Stock Exchange. (This image is in the public domain, found on {{% resource_link \"c4b3e345-53b5-4cbe-a10a-40fef65a94f7\" \"Wikimedia Commons\" %}}.)",
+    "credit": "This image is in the public domain, found on Wikimedia Commons.",
+    "image-alt": "Photograph of several people standing around a computer terminal."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "15-401f08.jpg",
+  "uid": "5ec2e66e-89b0-3d5c-5c78-06672a26167e"
+}

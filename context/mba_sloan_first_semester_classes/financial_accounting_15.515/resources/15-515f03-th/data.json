@@ -1,0 +1,21 @@
+{
+  "content": "<p>New image Upload</p>\n",
+  "content_type": "resource",
+  "description": "New image Upload",
+  "draft": false,
+  "file": "/courses/15-515-financial-accounting-fall-2003/2f15b94334113f27836913cec70360e5_15-515f03-th.jpg",
+  "file_size": 12215,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Accountants use the equation Assets = Liabilities + Shareholders' Equity as the basis for their balance sheets. (Image courtesy of Matthew Palmer. Used with permission.)",
+    "credit": "",
+    "image-alt": "Close up of dollar bill with A equals L plus E written on it."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "15-515f03-th.jpg",
+  "uid": "2f15b943-3411-3f27-8369-13cec70360e5"
+}

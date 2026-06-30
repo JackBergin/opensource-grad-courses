@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Set Solutions on MIT OpenCourseWare</title>
+    <link>/resources/problem-set-solutions/</link>
+    <description>Recent content in Problem Set Solutions on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-set-solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>homework_01_sol.pdf</title>
+      <link>/resources/homework_01_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework_01_sol/data.json</guid>
+      <description>&lt;p&gt;This resource includes solutions for assignment 1.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>homework_02_sol.pdf</title>
+      <link>/resources/homework_02_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework_02_sol/data.json</guid>
+      <description>&lt;p&gt;This resource includes solutions for assignment 2.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>homework_03_sol.pdf</title>
+      <link>/resources/homework_03_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework_03_sol/data.json</guid>
+      <description>&lt;p&gt;This resource includes solutions for assignment 3.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>homework_04_sol.pdf</title>
+      <link>/resources/homework_04_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework_04_sol/data.json</guid>
+      <description>&lt;p&gt;This resource includes solutions for assignment 4.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>homework_05_sol.pdf</title>
+      <link>/resources/homework_05_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework_05_sol/data.json</guid>
+      <description>&lt;p&gt;This resource includes solutions for assignment 5.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>homework_06_sol.pdf</title>
+      <link>/resources/homework_06_sol/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/homework_06_sol/data.json</guid>
+      <description>&lt;p&gt;This resource includes solutions for assignment 6.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
