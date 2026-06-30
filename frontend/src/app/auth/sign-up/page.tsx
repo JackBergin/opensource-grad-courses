@@ -12,8 +12,6 @@ export default function SignUpPage() {
   const [success, setSuccess] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  const supabase = createClient();
-
   const handleSignUp = async (e: React.FormEvent) => {
     e.preventDefault();
     setError("");
@@ -22,6 +20,12 @@ export default function SignUpPage() {
       return;
     }
     setLoading(true);
+    const supabase = createClient();
+    if (!supabase) {
+      setLoading(false);
+      setError("Supabase is not configured for this environment yet.");
+      return;
+    }
 
     const { error } = await supabase.auth.signUp({
       email,

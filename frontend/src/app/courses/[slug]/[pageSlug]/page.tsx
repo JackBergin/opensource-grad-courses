@@ -26,6 +26,9 @@ export default async function CourseSectionPage({
 }) {
   const { slug, pageSlug } = await params;
   const supabase = await createClient();
+  if (!supabase) {
+    return <UnavailableSectionView />;
+  }
 
   // Fetch course
   const { data: courseData } = await supabase
@@ -109,6 +112,23 @@ export default async function CourseSectionPage({
             {p.title}
           </h1>
 
+          <div className="mb-10 border border-[var(--color-rule)] p-5 lg:hidden">
+            <p className="eyebrow mb-4">Track This Section</p>
+            <ProgressButton courseId={course.id} pageId={p.id} className="w-full text-center" />
+            {res.length > 0 && (
+              <div className="mt-4 border-t border-[var(--color-rule)] pt-4">
+                <p className="text-sm text-[var(--color-muted)] mb-2">
+                  {res.length} resource{res.length !== 1 ? "s" : ""} attached
+                </p>
+                {downloadableRes.length > 0 && (
+                  <a href="#files-downloads" className="btn--text text-[11px]">
+                    Jump to files
+                  </a>
+                )}
+              </div>
+            )}
+          </div>
+
           {contentHtml ? (
             <div
               className="prose-editorial dropcap"
@@ -120,7 +140,7 @@ export default async function CourseSectionPage({
 
           {/* Downloadable files */}
           {downloadableRes.length > 0 && (
-            <div className="mt-12">
+            <div id="files-downloads" className="mt-12 scroll-mt-24">
               <hr className="rule mb-8" />
               <p className="eyebrow mb-6">Files & Downloads</p>
               <div className="space-y-0">
@@ -213,6 +233,9 @@ async function PageNav({
   courseSlug: string;
 }) {
   const supabase = await createClient();
+  if (!supabase) {
+    return null;
+  }
   const { data } = await supabase
     .from("course_pages")
     .select("id, slug, title, sort_order")
@@ -256,5 +279,20 @@ async function PageNav({
         <div />
       )}
     </nav>
+  );
+}
+
+function UnavailableSectionView() {
+  return (
+    <div className="max-w-7xl mx-auto px-6 lg:px-12 py-16">
+      <p className="eyebrow mb-4">Section unavailable</p>
+      <h1 className="font-[family-name:var(--font-display)] font-bold text-3xl lg:text-4xl mb-6">
+        Configure Supabase to read course materials.
+      </h1>
+      <p className="text-[var(--color-muted)] text-lg max-w-xl">
+        Section content and downloads are loaded from Supabase-backed course data, so
+        this page stays unavailable until local env keys are present.
+      </p>
+    </div>
   );
 }

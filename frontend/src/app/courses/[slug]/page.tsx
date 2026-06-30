@@ -27,6 +27,9 @@ export default async function CourseDetailPage({
 }) {
   const { slug } = await params;
   const supabase = await createClient();
+  if (!supabase) {
+    return <UnavailableCourseView />;
+  }
   const {
     data: { user },
   } = await supabase.auth.getUser();
@@ -276,6 +279,24 @@ export default async function CourseDetailPage({
           </section>
         </>
       )}
+    </div>
+  );
+}
+
+function UnavailableCourseView() {
+  return (
+    <div className="max-w-7xl mx-auto px-6 lg:px-12 py-16">
+      <p className="eyebrow mb-4">Course unavailable</p>
+      <h1 className="font-[family-name:var(--font-display)] font-bold text-4xl lg:text-5xl mb-6">
+        Configure Supabase to load course detail.
+      </h1>
+      <p className="text-[var(--color-muted)] text-lg mb-8 max-w-xl">
+        This route needs the local Supabase URL and anon key before course pages and
+        quizzes can be fetched.
+      </p>
+      <Link href="/courses" className="btn">
+        Back to courses
+      </Link>
     </div>
   );
 }

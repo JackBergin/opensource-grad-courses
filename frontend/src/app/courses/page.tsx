@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
+import { getSupabaseEnv } from "@/lib/supabase/env";
 import type { Course } from "@/types/database";
 
 export const metadata = {
@@ -8,11 +9,14 @@ export const metadata = {
 };
 
 export default async function CoursesPage() {
-  const supabase = await createClient();
-  const { data: courses } = await supabase
-    .from("courses")
-    .select("*")
-    .order("course_number");
+  const { isConfigured } = getSupabaseEnv();
+  let courses: Course[] | null = null;
+
+  if (isConfigured) {
+    const supabase = await createClient();
+    const { data } = await supabase!.from("courses").select("*").order("course_number");
+    courses = (data ?? []) as Course[];
+  }
 
   return (
     <div className="max-w-7xl mx-auto px-6 lg:px-12 py-16">
@@ -28,7 +32,7 @@ export default async function CoursesPage() {
 
       {courses && courses.length > 0 ? (
         <div>
-          {(courses as Course[]).map((course) => (
+          {courses.map((course) => (
             <Link
               key={course.id}
               href={`/courses/${course.slug}`}
