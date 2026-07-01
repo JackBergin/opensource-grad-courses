@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on MIT OpenCourseWare</title>
+    <link>/resources/projects/</link>
+    <description>Recent content in Projects on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>/pages/projects/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/projects/data.json</guid>
+      <description>&lt;p&gt;During Orientation, each student was assigned to a team. The goal of these teams is to help everyone learn more effectively than they could as independent individuals. Each team will work together on several assignments and exercises in 15.311. The most significant of these is that each team is required to produce a team project for the semester. For reasons of administrivia, students will be enrolled jointly in 15.311 (Organizational Processes) and the 15.328 (Team Project class), with the grades locked across the two classes (i.e., each student will receive the same grade in 15.311 as 15.328).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This resource includes 4 problem statements.</p>\n",
+  "content_type": "resource",
+  "description": "This resource includes 4 problem statements.",
+  "draft": false,
+  "file": "/courses/15-010-economic-analysis-for-business-decisions-fall-2004/64057d652ef614b48c14ef389ea2f884_06_due_12_03_04.pdf",
+  "file_size": 154344,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "0b3a262c-64b7-3098-997d-1b17e3557120",
+  "resourcetype": "Document",
+  "title": "06_due_12_03_04.pdf",
+  "uid": "64057d65-2ef6-14b4-8c14-ef389ea2f884",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "15-010-economic-analysis-for-business-decisions-fall-2004"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "15-010-economic-analysis-for-business-decisions-fall-2004"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

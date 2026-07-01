@@ -1,6 +1,3 @@
-# Course content (large, OCW data — seed locally from context/)
-context/
-
 # Environment secrets
 .env
 .env.local

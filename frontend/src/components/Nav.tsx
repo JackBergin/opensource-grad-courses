@@ -9,17 +9,26 @@ import type { User } from "@supabase/supabase-js";
 export default function Nav() {
   const pathname = usePathname();
   const [user, setUser] = useState<User | null>(null);
-  const supabase = createClient();
 
   useEffect(() => {
+    const supabase = createClient();
+    if (!supabase) {
+      return;
+    }
+
     supabase.auth.getUser().then(({ data }) => setUser(data.user));
     const { data: { subscription } } = supabase.auth.onAuthStateChange((_e, session) => {
       setUser(session?.user ?? null);
     });
     return () => subscription.unsubscribe();
-  }, [supabase]);
+  }, []);
 
   const handleSignOut = async () => {
+    const supabase = createClient();
+    if (!supabase) {
+      return;
+    }
+
     await supabase.auth.signOut();
     window.location.href = "/";
   };

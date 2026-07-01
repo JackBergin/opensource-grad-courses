@@ -1,0 +1,21 @@
+{
+  "content": "",
+  "content_type": "resource",
+  "description": "",
+  "draft": false,
+  "file": "/courses/15-280-communication-for-managers-fall-2016/4848fb058d7b4a593820e875c7b34d66_15-280f16-th.jpg",
+  "file_size": 88830,
+  "file_type": "image/jpeg",
+  "image_metadata": {
+    "caption": "Sheryl Sandberg, Facebook COO, and author of the book _Lean In_. (Courtesy of {{% resource_link \"5929cc78-38b7-447f-9b8d-15c9e2f94ac2\" \"JD Lasica/Socialmedia.biz\" %}} on Flickr.)",
+    "credit": "Courtesy of Offician GDC on Flickr.",
+    "image-alt": "Sheryl Sandberg speaking onstage at the 2009 Web 2.0 Summit."
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWImage",
+  "resourcetype": "Image",
+  "title": "15-280f16-th.jpg",
+  "uid": "4848fb05-8d7b-4a59-3820-e875c7b34d66"
+}

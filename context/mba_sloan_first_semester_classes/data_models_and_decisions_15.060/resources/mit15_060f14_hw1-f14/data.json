@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This resource contains the information regarding Probability.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains the information regarding Probability.",
+  "draft": false,
+  "file": "/courses/15-060-data-models-and-decisions-fall-2014/c95f9a0b3d39bffea2e907a09e9a03c3_MIT15_060F14_HW1-F14.pdf",
+  "file_size": 155192,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "f41b5b04-9595-61f9-fa4b-04cc5ceb0484",
+  "resourcetype": "Document",
+  "title": "Homework 1: Probability - 15.060 Data, Models, and Decisions - Fall 2014",
+  "uid": "c95f9a0b-3d39-bffe-a2e9-07a09e9a03c3",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "15-060-data-models-and-decisions-fall-2014"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "15-060-data-models-and-decisions-fall-2014"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

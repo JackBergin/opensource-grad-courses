@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
+import { getSupabaseEnv } from "@/lib/supabase/env";
 import type { Course } from "@/types/database";
 
 const COURSE_DESCRIPTIONS: Record<string, string> = {
@@ -14,11 +15,21 @@ const COURSE_DESCRIPTIONS: Record<string, string> = {
 };
 
 export default async function HomePage() {
-  const supabase = await createClient();
-  const { data: courses } = await supabase
-    .from("courses")
-    .select("id, slug, course_number, title, term, year, instructors, topics")
-    .order("course_number");
+  const { isConfigured } = getSupabaseEnv();
+  type HomeCourse = Pick<
+    Course,
+    "id" | "slug" | "course_number" | "title" | "term" | "year" | "instructors" | "topics"
+  >;
+  let courses: HomeCourse[] | null = null;
+
+  if (isConfigured) {
+    const supabase = await createClient();
+    const { data } = await supabase!
+      .from("courses")
+      .select("id, slug, course_number, title, term, year, instructors, topics")
+      .order("course_number");
+    courses = (data ?? []) as HomeCourse[];
+  }
 
   return (
     <>
@@ -60,7 +71,7 @@ export default async function HomePage() {
 
           {courses && courses.length > 0 ? (
             <div>
-              {(courses as Pick<Course, "id" | "slug" | "course_number" | "title" | "term" | "year" | "instructors" | "topics">[]).map((course) => (
+              {courses.map((course) => (
                 <Link
                   key={course.id}
                   href={`/courses/${course.slug}`}

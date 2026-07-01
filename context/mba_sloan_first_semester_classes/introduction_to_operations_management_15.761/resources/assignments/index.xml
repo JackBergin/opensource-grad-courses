@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on MIT OpenCourseWare</title>
+    <link>/resources/assignments/</link>
+    <description>Recent content in Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignments</title>
+      <link>/pages/assignments/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/assignments/data.json</guid>
+      <description>&lt;h3 id=&#34;quick-case-analyses&#34;&gt;&amp;ldquo;Quick&amp;rdquo; Case Analyses&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;The purpose of these assignments is to support your thinking about primarily qualitative issues raised in the course. These three write-ups (&lt;strong&gt;choose three from CVS, Toyota, Zara/M&amp;amp;S, Amazon, European Recycling, Hank Kolb, Katrina, Break.com, Barilla&lt;/strong&gt;) should provide a point of view as to what some protagonist in the case should do given the situation faced. These write-ups should be in the form of a one-page memo (single spaced, max font of 12) and contain your opinions, based on reasoned analysis addressing issues raised by the preparation questions (see the &lt;a href=&#34;../../pages/case-preparation-questions/index.html&#34;&gt;Case Preparation Questions&lt;/a&gt; section). Please &lt;strong&gt;DO NOT&lt;/strong&gt; answer these questions directly. Rather, use these questions to help guide your thinking as to what issues may be relevant in the case. Quantitative or numerical analyses &lt;strong&gt;ARE NOT EXPECTED&lt;/strong&gt; in these quick case analyses, although they are not discouraged either. In preparing for these assignments, please adhere to the following guidelines:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

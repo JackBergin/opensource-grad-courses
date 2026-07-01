@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This resource contains the information regarding Regression I.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains the information regarding Regression I.",
+  "draft": false,
+  "file": "/courses/15-060-data-models-and-decisions-fall-2014/dd6c861e4a13517d284b382d31cb4c22_MIT15_060F14_HW3-F14.pdf",
+  "file_size": 170514,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "f41b5b04-9595-61f9-fa4b-04cc5ceb0484",
+  "resourcetype": "Document",
+  "title": "Homework 3: Regression I - 15.060 Data, Models, and Decisions - Fall 2014",
+  "uid": "dd6c861e-4a13-517d-284b-382d31cb4c22",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "15-060-data-models-and-decisions-fall-2014"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "15-060-data-models-and-decisions-fall-2014"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

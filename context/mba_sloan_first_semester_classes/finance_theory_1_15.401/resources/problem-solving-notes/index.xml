@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem-Solving Notes on MIT OpenCourseWare</title>
+    <link>/resources/problem-solving-notes/</link>
+    <description>Recent content in Problem-Solving Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-solving-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Capital Asset Pricing Model</title>
+      <link>/resources/capital-asset-pricing-model/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/capital-asset-pricing-model/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to CAPM, beta, SML, alpha, the frontier, CML and SML.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Capital Budgeting</title>
+      <link>/resources/capital-budgeting/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/capital-budgeting/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to NPV, payback period, IRR, profitability index, and Bart&amp;rsquo;s super widget.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Equities / Common Stocks</title>
+      <link>/resources/equities-common-stocks/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/equities-common-stocks/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to DCF, PVGO, union pacific, and globex corporation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Forward and Futures Contracts</title>
+      <link>/resources/forward-and-futures-contracts/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/forward-and-futures-contracts/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to forwards vs futures, spot future parity, mark to market, and stock futures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Options</title>
+      <link>/resources/options/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/options/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to elements of a call put option, pay off profile, binomial tree, pay off replication, and arboreal corporation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Portfolio Theory</title>
+      <link>/resources/portfolio-theory/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/portfolio-theory/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to portfolio basics, efficient frontier, capital market line, diversification, and sharpe ratio.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Present Value Relations</title>
+      <link>/resources/present-value-relations/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/present-value-relations/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to compunding, discounting, APR, EAR, nominal vs real interest rate, growing annuity, perpetuity, auto loan, and project planning.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

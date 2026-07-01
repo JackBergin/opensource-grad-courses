@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on MIT OpenCourseWare</title>
+    <link>/resources/assignments/</link>
+    <description>Recent content in Assignments on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignments</title>
+      <link>/pages/assignments/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/assignments/data.json</guid>
+      <description>&lt;h3 id=&#34;graded-assignments&#34;&gt;Graded Assignments&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Your solutions to these graded questions must be submitted by the date specified below. Assignments 1-6 are to be completed individually. Assignments 7-9 involve case analysis and are to be done in half-groups.&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;optional-questions&#34;&gt;Optional Questions&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;The optional questions are end-of-chapter problems that were chosen to provide particular reinforcement of the class topic. They are all from the course textbook, Pratt J., &lt;em&gt;Financial Accounting in an Economic Context&lt;/em&gt;, 5th ed. John Wiley &amp;amp; Sons, Inc.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

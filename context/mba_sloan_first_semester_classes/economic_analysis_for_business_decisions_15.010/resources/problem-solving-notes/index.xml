@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem-Solving Notes on MIT OpenCourseWare</title>
+    <link>/resources/problem-solving-notes/</link>
+    <description>Recent content in Problem-Solving Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-solving-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>auc_and_cmn_prop.pdf</title>
+      <link>/resources/auc_and_cmn_prop/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/auc_and_cmn_prop/data.json</guid>
+      <description>&lt;p&gt;Auctions, Common Property Resources.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>beer_gm_col_cart.pdf</title>
+      <link>/resources/beer_gm_col_cart/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/beer_gm_col_cart/data.json</guid>
+      <description>&lt;p&gt;The Beer Game, Collusion and Cartels, Numeric Example.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>inf_asym_tra_prc.pdf</title>
+      <link>/resources/inf_asym_tra_prc/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/inf_asym_tra_prc/data.json</guid>
+      <description>&lt;p&gt;Asymmetric Information, Numeric Example on Comparative Advantage, Transfer Pricing, Numeric Example on Transfer Pricing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>mkt_elstic_srpl.pdf</title>
+      <link>/resources/mkt_elstic_srpl/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mkt_elstic_srpl/data.json</guid>
+      <description>&lt;p&gt;Market Definition, Elasticities, Supply and Demand, Surplus, Numeric Example.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>nw_ext_dmnd_con.pdf</title>
+      <link>/resources/nw_ext_dmnd_con/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/nw_ext_dmnd_con/data.json</guid>
+      <description>&lt;p&gt;Network Externalities, Dynamic Demand and Elasticities, Numeric Examples.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>prc_disc_and_tar.pdf</title>
+      <link>/resources/prc_disc_and_tar/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prc_disc_and_tar/data.json</guid>
+      <description>&lt;p&gt;Conditions for Applying Price Discrimination, Perfect Price Discrimination, Consumer Self-Selection, Pricing to Observable Market Segments, Two part Tariff: Definition and Calculations, Numeric Examples.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>pro_and_cost_con.pdf</title>
+      <link>/resources/pro_and_cost_con/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/pro_and_cost_con/data.json</guid>
+      <description>&lt;p&gt;The Production Function, Economic Cost and User Cost of Capital, Cost concepts, Economies of Scale and Scope, Learning Curve Effects, Numeric Examples.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>surplus_anal_gov.pdf</title>
+      <link>/resources/surplus_anal_gov/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/surplus_anal_gov/data.json</guid>
+      <description>&lt;p&gt;Review of Consumer and Producer Surplus, Government Intervention, Deadweight Loss and Numeric Examples.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>the_bsc_game_thy.pdf</title>
+      <link>/resources/the_bsc_game_thy/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/the_bsc_game_thy/data.json</guid>
+      <description>&lt;p&gt;Game Theory Definitions, The Cournot Model, The Stackelberg Model, The Bertrand Model, Numeric Examples.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>time_uncrtn_mkt.pdf</title>
+      <link>/resources/time_uncrtn_mkt/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/time_uncrtn_mkt/data.json</guid>
+      <description>&lt;p&gt;Basics of Present Value, Uncertainty and Risk Aversion, Option Value, Market Power Models, Numeric Examples.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

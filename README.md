@@ -34,6 +34,8 @@ mba/
 
 See [documentation/setup.md](documentation/setup.md) for the full guide.
 
+The main local checkout is expected to stay on `develop`. Autonomous and manual work should usually happen on short-lived feature branches created from `develop`, or by continuing the current in-progress feature branch when that slice is not finished yet. The expected flow is: choose the next feature, continue or create a brief descriptive branch, build, test, open a PR if the slice is complete, and otherwise leave precise next-session notes.
+
 ```bash
 # 1. Copy env template
 cp .env.example .env

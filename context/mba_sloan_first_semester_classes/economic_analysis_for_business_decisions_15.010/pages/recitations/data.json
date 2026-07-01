@@ -1,0 +1,15 @@
+
+{
+  "content": "<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nses #\n</th>\n\n<th>\n\nTOPICS\n</th>\n\n<th>\n\nrecitation notes\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\nR1\n</td>\n\n<td>\n\nReview of Own- and Cross-price Elasticities, Market Definition, Consumer and Producer Surplus</p>\n<p>Use of Supply and Demand Curves</p>\n<p>Review of Logarithms\n</td>\n\n<td>\n\nMarket Definition, Elasticities and Surpluses (<a href=\"../../resources/mkt_elstic_srpl/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nR2\n</td>\n\n<td>\n\nFurther Review of Supply and Demand\n</td>\n\n<td>\n\nSurplus Analysis with Government Intervention (<a href=\"../../resources/surplus_anal_gov/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nR3\n</td>\n\n<td>\n\nReview of the Economics of Production and Cost\n</td>\n\n<td>\n\nReview of Production and Cost Concepts (<a href=\"../../resources/pro_and_cost_con/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nR4\n</td>\n\n<td>\n\nReview of the Economics of Demand\n</td>\n\n<td>\n\nNetwork Externalities and Demand Concepts (<a href=\"../../resources/nw_ext_dmnd_con/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nR5\n</td>\n\n<td>\n\nReview of Market Power (Monopoly)\n</td>\n\n<td>\n\nTime Uncertainty and Market Power (<a href=\"../../resources/time_uncrtn_mkt/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nR6\n</td>\n\n<td>\n\nReview of Pricing with Market Power\n</td>\n\n<td>\n\nPrice Discrimination and Two Part Tariff (<a href=\"../../resources/prc_disc_and_tar/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nR7\n</td>\n\n<td>\n\nReview of Game Theory\n</td>\n\n<td>\n\nThe Basics of Game Theory (<a href=\"../../resources/the_bsc_game_thy/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nR8\n</td>\n\n<td>\n\nReview of Game Theory, Collusion and Cartels\n</td>\n\n<td>\n\nThe Beer Game Collusion and Cartels (<a href=\"../../resources/beer_gm_col_cart/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nR9\n</td>\n\n<td>\n\nReview of Auctions and Common Property Resources\n</td>\n\n<td>\n\nAuctions and Common Property (<a href=\"../../resources/auc_and_cmn_prop/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\nR10\n</td>\n\n<td>\n\nReview of Transfer Pricing and Asymmetric Information\n</td>\n\n<td>\n\nInformation Asymmetry and Transfer Pricing (<a href=\"../../resources/inf_asym_tra_prc/index.html\">PDF</a>)\n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Recitations"
+  ],
+  "ocw_type": "CourseSection",
+  "title": "Recitations",
+  "uid": "729197a3-8007-916f-29ae-b92113505210"
+}
+

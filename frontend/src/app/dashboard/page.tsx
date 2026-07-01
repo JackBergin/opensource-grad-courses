@@ -12,6 +12,20 @@ interface AttemptRow { quiz_id: string; score: number | null; correct_q: number 
 
 export default async function DashboardPage() {
   const supabase = await createClient();
+  if (!supabase) {
+    return (
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 py-16">
+        <p className="eyebrow mb-4">Dashboard unavailable</p>
+        <h1 className="font-[family-name:var(--font-display)] font-bold text-4xl lg:text-5xl mb-6">
+          Configure Supabase to load learner progress.
+        </h1>
+        <p className="text-[var(--color-muted)] text-lg max-w-xl">
+          The dashboard depends on authenticated Supabase data, so it stays unavailable
+          until the local URL and anon key are configured.
+        </p>
+      </div>
+    );
+  }
 
   const { data: { user } } = await supabase.auth.getUser();
   if (!user) redirect("/auth/sign-in");

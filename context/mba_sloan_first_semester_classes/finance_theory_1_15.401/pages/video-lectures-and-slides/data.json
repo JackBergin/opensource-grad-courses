@@ -1,0 +1,15 @@
+
+{
+  "content": "<p>The following is a list of topics covered in the course. Each topic links to a page containing the relevant video lectures and accompanying slides.</p>\n<p><a href=\"../../pages/video-lectures-and-slides/introduction-and-course-overview/index.html\">Introduction and Course Overview</a></p>\n<p><a href=\"../../pages/video-lectures-and-slides/present-value-relations/index.html\">Present Value (PV) Relations</a></p>\n<p><a href=\"../../pages/video-lectures-and-slides/fixed-income-securities/index.html\">Fixed-Income Securities</a></p>\n<p><a href=\"../../pages/video-lectures-and-slides/equities/index.html\">Equities</a></p>\n<p><a href=\"../../pages/video-lectures-and-slides/forward-and-futures-contracts/index.html\">Forward and Futures Contracts</a></p>\n<p><a href=\"../../pages/video-lectures-and-slides/options/index.html\">Options</a></p>\n<p><a href=\"../../pages/video-lectures-and-slides/risk-and-return/index.html\">Risk and Return</a></p>\n<p><a href=\"../../pages/video-lectures-and-slides/portfolio-theory/index.html\">Portfolio Theory</a></p>\n<p><a href=\"../../pages/video-lectures-and-slides/the-capm-and-apt/index.html\">The CAPM and APT</a></p>\n<p><a href=\"../../pages/video-lectures-and-slides/capital-budgeting/index.html\">Capital Budgeting</a></p>\n<p><a href=\"../../pages/video-lectures-and-slides/efficient-markets/index.html\">Efficient Markets</a></p>\n<p><a href=\"../../pages/video-lectures-and-slides/course-summary/index.html\">Course Summary</a></p>\n",
+  "content_type": "page",
+  "description": "This section provides a list of topics covered in the course. Each topic links to a page containing the relevant video lectures and accompanying slides.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "ocw_type": "CourseSection",
+  "title": "Video Lectures and Slides",
+  "uid": "cc3f05d9-f4e4-4ed3-db60-b79712de51f4"
+}
+

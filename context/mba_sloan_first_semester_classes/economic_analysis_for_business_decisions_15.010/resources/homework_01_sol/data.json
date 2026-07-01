@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This resource includes solutions for assignment 1.</p>\n",
+  "content_type": "resource",
+  "description": "This resource includes solutions for assignment 1.",
+  "draft": false,
+  "file": "/courses/15-010-economic-analysis-for-business-decisions-fall-2004/7cbb485561b640c52b174049bdb212d4_homework_01_sol.pdf",
+  "file_size": 124543,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Set Solutions"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "0b3a262c-64b7-3098-997d-1b17e3557120",
+  "resourcetype": "Document",
+  "title": "homework_01_sol.pdf",
+  "uid": "7cbb4855-61b6-40c5-2b17-4049bdb212d4",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "15-010-economic-analysis-for-business-decisions-fall-2004"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "15-010-economic-analysis-for-business-decisions-fall-2004"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

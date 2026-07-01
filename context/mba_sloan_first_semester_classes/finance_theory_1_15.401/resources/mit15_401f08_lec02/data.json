@@ -1,0 +1,36 @@
+{
+  "content": "<p>This resource contains information related to cashflows and assets, the present value operator, the time value of money, special cashflows, compounding, and inflations.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information related to cashflows and assets, the present value operator, the time value of money, special cashflows, compounding, and inflations.",
+  "draft": false,
+  "file": "/courses/15-401-finance-theory-i-fall-2008/73c95059e657c8a7acb042ea33a21940_MIT15_401F08_lec02.pdf",
+  "file_size": 274300,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Video Lectures and Slides",
+  "parent_type": "CourseSection",
+  "parent_uid": "cc3f05d9-f4e4-4ed3-db60-b79712de51f4",
+  "resourcetype": "Document",
+  "title": "Present Value Relations Slides 1–36",
+  "uid": "73c95059-e657-c8a7-acb0-42ea33a21940",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": ""
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exams on MIT OpenCourseWare</title>
+    <link>/resources/exams/</link>
+    <description>Recent content in Exams on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/exams/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exams</title>
+      <link>/pages/exams/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/exams/data.json</guid>
+      <description>&lt;p&gt;See the Final Review (&lt;a href=&#34;../../resources/final_rev_hndout/index.html&#34;&gt;PDF&lt;/a&gt;) notes to prepare for the final exam.&lt;/p&gt;&#xA;&lt;p&gt;Mid Term Review (&lt;a href=&#34;../../resources/midterm_review/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;exams&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;solutions&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2004 Midterm Exam (&lt;a href=&#34;../../resources/midterm_2004/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/midterm_2004_ans/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2003 Midterm Exam (&lt;a href=&#34;../../resources/sample_mdtrm2003/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/smpmdtrm2003_ans/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2003 Final Exam (&lt;a href=&#34;../../resources/samplefinal_2003/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/smplfnl_2003_ans/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2002 Midterm Exam (&lt;a href=&#34;../../resources/sample_mdtrm2002/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/smpmdtrm2002_ans/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2002 Final Exam (&lt;a href=&#34;../../resources/sample_final2002/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/smplfnl_2002_ans/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2001 Midterm Exam (&lt;a href=&#34;../../resources/sample_mdtrm2001/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/smpmdtrm2001_ans/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2001 Final Exam (&lt;a href=&#34;../../resources/samplefinal_2001/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/smplfnl_2001_ans/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2000 Midterm Exam (&lt;a href=&#34;../../resources/sample_mdtrm2000/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/smpmdtrm2000_ans/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;/tr&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;2000 Final Exam (&lt;a href=&#34;../../resources/samplefinal_2000/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;(&lt;a href=&#34;../../resources/smplfnl_2000_ans/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>midterm_2004.pdf</title>
+      <link>/resources/midterm_2004/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/midterm_2004/data.json</guid>
+      <description>&lt;p&gt;This resource includes 6 questions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sample_final2002.pdf</title>
+      <link>/resources/sample_final2002/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/sample_final2002/data.json</guid>
+      <description>&lt;p&gt;This resource includes 9 questions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sample_mdtrm1999.pdf</title>
+      <link>/resources/sample_mdtrm1999/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/sample_mdtrm1999/data.json</guid>
+      <description>&lt;p&gt;This resource includes 4 questions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sample_mdtrm2000.pdf</title>
+      <link>/resources/sample_mdtrm2000/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/sample_mdtrm2000/data.json</guid>
+      <description>&lt;p&gt;This resource includes 4 questions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sample_mdtrm2001.pdf</title>
+      <link>/resources/sample_mdtrm2001/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/sample_mdtrm2001/data.json</guid>
+      <description>&lt;p&gt;This resource includes 4 questions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sample_mdtrm2002.pdf</title>
+      <link>/resources/sample_mdtrm2002/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/sample_mdtrm2002/data.json</guid>
+      <description>&lt;p&gt;This resource includes 5 questions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sample_mdtrm2003.pdf</title>
+      <link>/resources/sample_mdtrm2003/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/sample_mdtrm2003/data.json</guid>
+      <description>&lt;p&gt;This resource includes 4 questions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>samplefinal_1999.pdf</title>
+      <link>/resources/samplefinal_1999/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/samplefinal_1999/data.json</guid>
+      <description>&lt;p&gt;This resource includes 9 questions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>samplefinal_2000.pdf</title>
+      <link>/resources/samplefinal_2000/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/samplefinal_2000/data.json</guid>
+      <description>&lt;p&gt;This resource includes 4 questions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>samplefinal_2001.pdf</title>
+      <link>/resources/samplefinal_2001/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/samplefinal_2001/data.json</guid>
+      <description>&lt;p&gt;This resource includes 9 questions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>samplefinal_2003.pdf</title>
+      <link>/resources/samplefinal_2003/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/samplefinal_2003/data.json</guid>
+      <description>&lt;p&gt;This resource includes 8 questions.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

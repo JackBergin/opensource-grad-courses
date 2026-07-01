@@ -1,0 +1,110 @@
+{
+  "course_description": "15.010 is the Sloan School's core subject in microeconomics, with sections for non-Sloan students labeled 15.011. Our objective is to give you a working knowledge of the analytical tools that bear most directly on the economic decisions firms must regularly make. We will emphasize market structure and industrial performance, including the strategic interaction of firms. We will examine the behavior of individual markets -- and the producers and consumers that sell and buy in those markets -- in some detail, focusing on cost analysis, the determinants of market demand, pricing strategy, market power, and the implications of government regulatory policies. We will also examine the implications of economics on other business practices, such as incentive plans, auctions, and transfer pricing.\n",
+  "course_description_html": "15.010 is the Sloan School&rsquo;s core subject in microeconomics, with sections for non-Sloan students labeled 15.011. Our objective is to give you a working knowledge of the analytical tools that bear most directly on the economic decisions firms must regularly make. We will emphasize market structure and industrial performance, including the strategic interaction of firms. We will examine the behavior of individual markets &ndash; and the producers and consumers that sell and buy in those markets &ndash; in some detail, focusing on cost analysis, the determinants of market demand, pricing strategy, market power, and the implications of government regulatory policies. We will also examine the implications of economics on other business practices, such as incentive plans, auctions, and transfer pricing.",
+  "course_image": {
+    "content": "9cb7cd22-1748-bae1-ef90-2a9d1abf87e3",
+    "website": "15-010-economic-analysis-for-business-decisions-fall-2004"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "But what is a market, really? A Place? A Product or Service? Which Sellers? Which Buyers?",
+    "draft": false,
+    "file": "/courses/15-010-economic-analysis-for-business-decisions-fall-2004/9cb7cd221748bae1ef902a9d1abf87e3_15-010f04.jpg",
+    "file_size": 62906,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "But what is a market, really? A place? A product or service? Which sellers? Which buyers? (Graphic by Professors Stoker, Doyle, Chapman, and Berndt.)",
+      "credit": "",
+      "image-alt": "Buyers and sellers interact through exchange at the price/terms of trade."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "15-010f04.jpg",
+    "uid": "9cb7cd22-1748-bae1-ef90-2a9d1abf87e3"
+  },
+  "course_image_thumbnail": {
+    "content": "a56476d8-c847-1eef-7da1-fe4ccd70d8e2",
+    "website": "15-010-economic-analysis-for-business-decisions-fall-2004"
+  },
+  "course_title": "Economic Analysis for Business Decisions",
+  "department_numbers": [
+    "15"
+  ],
+  "extra_course_numbers": "15.011",
+  "image_src": "./static_resources/9cb7cd221748bae1ef902a9d1abf87e3_15-010f04.jpg",
+  "instructors": [
+    {
+      "first_name": "Ernst",
+      "last_name": "Berndt",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Ernst Berndt",
+      "uid": "27def775-5eb4-014e-c63e-d31f6ec75c06",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Ernst+Berndt"
+    },
+    {
+      "first_name": "Joseph",
+      "last_name": "Doyle",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Joseph Doyle",
+      "uid": "6ace872b-5378-f5d6-3ef6-d2e5d396a5ea",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Joseph+Doyle"
+    },
+    {
+      "first_name": "Michael",
+      "last_name": "Chapman",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Michael Chapman",
+      "uid": "bc3281d0-a9ed-b98f-34cc-ed78f5264808",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Michael+Chapman"
+    },
+    {
+      "first_name": "Thomas",
+      "last_name": "Stoker",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Thomas Stoker",
+      "uid": "72ad4213-f314-da44-ab75-6f78a154d3d4",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Thomas+Stoker"
+    }
+  ],
+  "learning_resource_types": [
+    "Lecture Notes",
+    "Problem Sets",
+    "Problem Set Solutions",
+    "Exams",
+    "Exam Solutions"
+  ],
+  "legacy_uid": "bc3e1c10-e053-90b4-0bdd-ca6eb3348190",
+  "level": [
+    "Graduate"
+  ],
+  "primary_course_number": "15.010",
+  "site_short_id": "15.010-fall-2004",
+  "site_uid": "22103e8f-f39b-4613-9abe-6921f1c320ac",
+  "site_url_path": "courses/15-010-economic-analysis-for-business-decisions-fall-2004",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Social Science",
+      "Economics",
+      "Microeconomics"
+    ],
+    [
+      "Social Science",
+      "Economics",
+      "Industrial Organization"
+    ],
+    [
+      "Business",
+      "Operations Management"
+    ]
+  ],
+  "year": "2004"
+}

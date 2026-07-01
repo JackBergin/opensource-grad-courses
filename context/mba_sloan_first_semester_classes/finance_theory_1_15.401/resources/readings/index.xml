@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;h3 id=&#34;course-textbook&#34;&gt;Course Textbook&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;Brealey, Richard, Stewart Myers, and Franklin Allen. &lt;em&gt;Principles of Corporate Finance&lt;/em&gt;. 9th ed. New York, NY: McGraw Hill, 2007. ISBN: 9780071266758.&lt;/p&gt;&#xA;&#xA;    &lt;h3 id=&#34;additional-readings&#34;&gt;Additional Readings&lt;/h3&gt;&#xA;&#xA;&lt;p&gt;These readings are not required, but are of interest to those wishing to delve further into the subject of finance.&lt;/p&gt;&#xA;&lt;p&gt;Malkiel, Burton. &lt;em&gt;A Random Walk Down Wall Street&lt;/em&gt;. New York, NY: W. W. Norton, 2007. ISBN: 9780393330335.&lt;/p&gt;&#xA;&lt;p&gt;This best-selling introduction to investing is now in its 9th edition and as popular as ever because of its entertaining style and sage advice. This is a great way to ease into financial markets, particularly for those who are not financially inclined.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

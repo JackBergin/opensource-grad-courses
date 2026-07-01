@@ -11,6 +11,9 @@ export default async function QuizPage({
 }) {
   const { slug, quizId } = await params;
   const supabase = await createClient();
+  if (!supabase) {
+    return <UnavailableQuizView />;
+  }
 
   // Verify course exists
   const { data: courseData } = await supabase
@@ -111,6 +114,24 @@ export default async function QuizPage({
         bestScore={bestScore}
         latestScore={latestScore}
       />
+    </div>
+  );
+}
+
+function UnavailableQuizView() {
+  return (
+    <div className="max-w-4xl mx-auto px-6 lg:px-12 py-16">
+      <p className="eyebrow mb-4">Assessment unavailable</p>
+      <h1 className="font-[family-name:var(--font-display)] font-bold text-3xl lg:text-4xl mb-6">
+        Configure Supabase to load quizzes.
+      </h1>
+      <p className="text-[var(--color-muted)] text-lg max-w-xl">
+        Quiz questions and attempt history are fetched from Supabase, so this page is
+        disabled until local env keys are available.
+      </p>
+      <Link href="/courses" className="btn mt-8 inline-block">
+        Browse courses
+      </Link>
     </div>
   );
 }

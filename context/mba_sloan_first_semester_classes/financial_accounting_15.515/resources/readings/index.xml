@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;p&gt;The reading assignments listed below are what you should read &lt;em&gt;before&lt;/em&gt; coming to class. The class lectures assume this reading has been done, and while you may not completely understand the material you will have a familiarity with the concepts and transactions we will be covering each day. Additional short readings (e.g., recent business press articles) will be distributed in class.&lt;/p&gt;&#xA;&lt;p&gt;Readings that refer to &amp;ldquo;Pratt&amp;rdquo; can be found in the course textbook, J. Pratt, &lt;em&gt;Financial Accounting in an Economic Context&lt;/em&gt;, 5th ed., John Wiley &amp;amp; Sons, Inc. Other readings are from the Intel 2002 Annual Report, which is available for download from the &lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;https://www.intel.cn/content/dam/doc/report/history-2002-annual-report.pdf&#34;  aria-label=&#34;website (opens in a new tab)&#34;  &gt;website&lt;/a&gt;. &amp;ldquo;CP&amp;rdquo; stands for the Case Pack of readings that students purchase. (&lt;em&gt;Note that the CP is not available online to OCW users&lt;/em&gt;.)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

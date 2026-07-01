@@ -1,0 +1,38 @@
+{
+  "content": "<p>This resource lists about the powers of observation, and efficient markets.</p>\n",
+  "content_type": "resource",
+  "description": "This resource lists about the powers of observation, and efficient markets.",
+  "draft": false,
+  "file": "/courses/15-401-finance-theory-i-fall-2008/ce45c66100cf852cb9ac8ce41f931341_MIT15_401F08_lec21.pdf",
+  "file_size": 597874,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Video Lectures and Slides",
+  "parent_type": "CourseSection",
+  "parent_uid": "cc3f05d9-f4e4-4ed3-db60-b79712de51f4",
+  "resourcetype": "Document",
+  "title": "Efficient Market Slides 1–26",
+  "uid": "ce45c661-00cf-852c-b9ac-8ce41f931341",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": ""
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

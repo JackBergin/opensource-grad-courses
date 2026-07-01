@@ -1,0 +1,38 @@
+{
+  "content": "<p>This resource contains the information about equities.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains the information about equities.",
+  "draft": false,
+  "file": "/courses/15-401-finance-theory-i-fall-2008/1aea40b063cad5a335e980ecf30d84b7_MIT15_401F08_lec07.pdf",
+  "file_size": 255815,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Video Lectures and Slides",
+  "parent_type": "CourseSection",
+  "parent_uid": "cc3f05d9-f4e4-4ed3-db60-b79712de51f4",
+  "resourcetype": "Document",
+  "title": "Equities Slides 1–23",
+  "uid": "1aea40b0-63ca-d5a3-35e9-80ecf30d84b7",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": ""
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

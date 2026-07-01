@@ -1,0 +1,5923 @@
+1
+00:00:00,090 --> 00:00:02,430
+The following content is
+provided under a Creative
+
+2
+00:00:02,430 --> 00:00:03,820
+Commons license.
+
+3
+00:00:03,820 --> 00:00:06,030
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:06,030 --> 00:00:10,120
+continue to offer high-quality
+educational resources for free.
+
+5
+00:00:10,120 --> 00:00:12,690
+To make a donation, or to
+view additional materials
+
+6
+00:00:12,690 --> 00:00:16,620
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:16,620 --> 00:00:17,820
+at ocw.mit.edu.
+
+8
+00:00:26,260 --> 00:00:28,960
+ANDREW LO: What I want to
+talk about is option pricing.
+
+9
+00:00:28,960 --> 00:00:31,860
+But given that there's
+the midterm coming up,
+
+10
+00:00:31,860 --> 00:00:34,420
+what I'd like to do
+is to actually skip
+
+11
+00:00:34,420 --> 00:00:36,766
+the more technical part today.
+
+12
+00:00:36,766 --> 00:00:38,140
+Today, what I was
+going to do was
+
+13
+00:00:38,140 --> 00:00:42,060
+to describe a method
+for pricing options,
+
+14
+00:00:42,060 --> 00:00:44,350
+a particular
+option-pricing formula.
+
+15
+00:00:44,350 --> 00:00:48,520
+Now, we have a course, 15.437,
+on options and futures.
+
+16
+00:00:48,520 --> 00:00:51,340
+And that's really what I would
+recommend for those of you who
+
+17
+00:00:51,340 --> 00:00:53,200
+are interested in derivatives.
+
+18
+00:00:53,200 --> 00:00:55,780
+But we really can't
+let you leave MIT
+
+19
+00:00:55,780 --> 00:00:58,720
+without understanding a little
+bit about the basics of option
+
+20
+00:00:58,720 --> 00:00:59,680
+pricing.
+
+21
+00:00:59,680 --> 00:01:03,500
+And it's such a beautiful
+argument that it's important,
+
+22
+00:01:03,500 --> 00:01:06,310
+I think, for all of you
+to see it at least once.
+
+23
+00:01:06,310 --> 00:01:09,190
+But since I'd like you to focus
+on it and really absorb it,
+
+24
+00:01:09,190 --> 00:01:11,410
+and I suspect that most
+of you are thinking
+
+25
+00:01:11,410 --> 00:01:15,430
+about the mid-term, I'd rather
+postpone that till Monday,
+
+26
+00:01:15,430 --> 00:01:19,060
+and then talk today about the
+very basics of option payoff
+
+27
+00:01:19,060 --> 00:01:22,280
+diagrams, which is
+relatively straightforward.
+
+28
+00:01:22,280 --> 00:01:25,490
+And then give you a little bit
+of a history of option pricing,
+
+29
+00:01:25,490 --> 00:01:28,070
+and tell you a bit
+about how it came about.
+
+30
+00:01:28,070 --> 00:01:31,060
+And ultimately,
+where the literature
+
+31
+00:01:31,060 --> 00:01:34,220
+fits within the grand
+scheme of things.
+
+32
+00:01:34,220 --> 00:01:38,710
+So last time, if you recall,
+we talked about options
+
+33
+00:01:38,710 --> 00:01:40,570
+as insurance.
+
+34
+00:01:40,570 --> 00:01:46,270
+And we went through a very
+simple set of examples,
+
+35
+00:01:46,270 --> 00:01:49,150
+where I described the
+put option as really
+
+36
+00:01:49,150 --> 00:01:52,810
+being parallel to insurance in
+all of these different terms.
+
+37
+00:01:52,810 --> 00:01:56,920
+But the differences are that
+a put option, first of all,
+
+38
+00:01:56,920 --> 00:01:58,810
+can be used early.
+
+39
+00:01:58,810 --> 00:02:01,480
+So you don't have to wait
+until you have an accident
+
+40
+00:02:01,480 --> 00:02:02,950
+or wait until it expires.
+
+41
+00:02:02,950 --> 00:02:05,050
+You can decide at
+any point in time
+
+42
+00:02:05,050 --> 00:02:07,130
+that you want to exercise it.
+
+43
+00:02:07,130 --> 00:02:10,539
+Also, unlike
+insurance contracts,
+
+44
+00:02:10,539 --> 00:02:15,470
+options can be bought and
+sold in organized exchanges.
+
+45
+00:02:15,470 --> 00:02:16,690
+So you can buy a put option.
+
+46
+00:02:16,690 --> 00:02:18,460
+You can sell a put option.
+
+47
+00:02:18,460 --> 00:02:23,590
+And then finally, dividends
+have an impact on options.
+
+48
+00:02:23,590 --> 00:02:26,470
+And so most options have
+dividend protection,
+
+49
+00:02:26,470 --> 00:02:28,450
+in the sense that if
+there's a dividend paid,
+
+50
+00:02:28,450 --> 00:02:32,450
+then the strike price will
+be adjusted accordingly.
+
+51
+00:02:32,450 --> 00:02:35,170
+Now, it's important
+to understand
+
+52
+00:02:35,170 --> 00:02:39,220
+the differences between an
+option and an underlying.
+
+53
+00:02:39,220 --> 00:02:43,180
+Because they really have
+some very, very important
+
+54
+00:02:43,180 --> 00:02:45,560
+distinctions, in terms
+of their payoffs.
+
+55
+00:02:45,560 --> 00:02:48,190
+So the way that we
+try to emphasize that
+
+56
+00:02:48,190 --> 00:02:53,020
+is by looking at a diagram
+that graphs the option
+
+57
+00:02:53,020 --> 00:02:57,310
+value as a function of the
+underlying parameters that
+
+58
+00:02:57,310 --> 00:02:58,270
+influence the option.
+
+59
+00:02:58,270 --> 00:03:01,130
+And the most important
+parameter is, of course,
+
+60
+00:03:01,130 --> 00:03:04,540
+the underlying price
+of the stock or asset
+
+61
+00:03:04,540 --> 00:03:07,640
+on which the option is written.
+
+62
+00:03:07,640 --> 00:03:10,510
+So this is an example
+of a payoff diagram
+
+63
+00:03:10,510 --> 00:03:16,280
+that plots the value of
+the option at maturity
+
+64
+00:03:16,280 --> 00:03:20,060
+for a call option on
+an underlying stock.
+
+65
+00:03:20,060 --> 00:03:23,180
+And the x-axis is the
+price of the stock.
+
+66
+00:03:23,180 --> 00:03:26,300
+And the y-axis is
+the value or price
+
+67
+00:03:26,300 --> 00:03:31,850
+of the option on the date
+of maturity or exercise.
+
+68
+00:03:31,850 --> 00:03:37,760
+So let's suppose that the option
+has a strike price of $20.
+
+69
+00:03:37,760 --> 00:03:39,680
+That gives the
+holder of the option
+
+70
+00:03:39,680 --> 00:03:47,030
+the right to purchase the stock
+for $20 at the maturity date.
+
+71
+00:03:47,030 --> 00:03:49,820
+So it's a call option,
+meaning it gives you the right
+
+72
+00:03:49,820 --> 00:03:52,670
+to call away or buy the stock.
+
+73
+00:03:52,670 --> 00:03:55,820
+And the strike
+price is set at $20.
+
+74
+00:03:55,820 --> 00:03:59,720
+Now, if the actual price
+of the stock is below $20,
+
+75
+00:03:59,720 --> 00:04:01,637
+you're never going to
+want to call the option.
+
+76
+00:04:01,637 --> 00:04:03,844
+Rather, you're never going
+to want to call the stock.
+
+77
+00:04:03,844 --> 00:04:06,470
+You're never going to want
+to exercise the call option.
+
+78
+00:04:06,470 --> 00:04:09,200
+Because if you did,
+you'd be buying something
+
+79
+00:04:09,200 --> 00:04:14,000
+for $20 that would be
+worth less than $20.
+
+80
+00:04:14,000 --> 00:04:18,980
+So if the true stock price
+is anything less than $20,
+
+81
+00:04:18,980 --> 00:04:24,350
+this option, at expiration,
+is worth nothing to you.
+
+82
+00:04:24,350 --> 00:04:26,560
+You would never use it.
+
+83
+00:04:26,560 --> 00:04:30,700
+Now, it's critical to understand
+that this payoff diagram is
+
+84
+00:04:30,700 --> 00:04:33,630
+the value at maturity.
+
+85
+00:04:33,630 --> 00:04:38,010
+Prior to maturity, if the
+value of the underlying stock
+
+86
+00:04:38,010 --> 00:04:41,730
+is less than $20, the option
+could still have value.
+
+87
+00:04:41,730 --> 00:04:43,020
+Typically it will have value.
+
+88
+00:04:43,020 --> 00:04:46,320
+Because there's always a chance
+that the stock price goes
+
+89
+00:04:46,320 --> 00:04:50,750
+above $20 at the maturity date.
+
+90
+00:04:50,750 --> 00:04:53,810
+So let's be clear that this
+is the value of the call
+
+91
+00:04:53,810 --> 00:04:56,150
+option at maturity date.
+
+92
+00:04:56,150 --> 00:04:57,830
+And if it turns
+out that the stock
+
+93
+00:04:57,830 --> 00:05:03,020
+price is greater than $20,
+then the option has value.
+
+94
+00:05:03,020 --> 00:05:07,460
+And the value increases,
+dollar for dollar,
+
+95
+00:05:07,460 --> 00:05:12,760
+with the stock price above $20.
+
+96
+00:05:12,760 --> 00:05:17,020
+So the slope of this
+line is 45 degrees.
+
+97
+00:05:17,020 --> 00:05:21,070
+It literally goes up in lockstep
+with the underlying stock
+
+98
+00:05:21,070 --> 00:05:22,210
+price.
+
+99
+00:05:22,210 --> 00:05:25,900
+To be clear, if the
+stock price is $25
+
+100
+00:05:25,900 --> 00:05:29,200
+and you get to buy it
+for $20, the option,
+
+101
+00:05:29,200 --> 00:05:34,510
+that right to buy
+for $20 is worth $5.
+
+102
+00:05:34,510 --> 00:05:36,730
+Because the stock
+is really worth $25.
+
+103
+00:05:36,730 --> 00:05:39,760
+So the way you can see that is
+you can buy the stock for $20,
+
+104
+00:05:39,760 --> 00:05:42,620
+with this piece of
+paper that you own.
+
+105
+00:05:42,620 --> 00:05:44,620
+And then you can turn
+around and sell that stock
+
+106
+00:05:44,620 --> 00:05:48,730
+on the open market for $25.
+
+107
+00:05:48,730 --> 00:05:50,200
+So you've made that $5 profit.
+
+108
+00:05:53,100 --> 00:05:56,610
+The important thing about
+this diagram, the blue line,
+
+109
+00:05:56,610 --> 00:06:02,370
+is that the upside is unlimited.
+
+110
+00:06:02,370 --> 00:06:08,120
+But the downside is
+very much limited, at 0.
+
+111
+00:06:08,120 --> 00:06:09,860
+OK?
+
+112
+00:06:09,860 --> 00:06:14,530
+So this is an example
+of a security that
+
+113
+00:06:14,530 --> 00:06:18,760
+has an asymmetric
+payoff, asymmetric.
+
+114
+00:06:18,760 --> 00:06:20,860
+The upside is not the
+same as the downside.
+
+115
+00:06:20,860 --> 00:06:25,420
+Remember the payoff of a stock,
+or of a futures contract.
+
+116
+00:06:25,420 --> 00:06:26,170
+It's symmetric.
+
+117
+00:06:26,170 --> 00:06:27,834
+It's that straight line.
+
+118
+00:06:27,834 --> 00:06:29,250
+Here, this is not
+a straight line.
+
+119
+00:06:29,250 --> 00:06:32,920
+It's kinked at the
+strike price, K. That's
+
+120
+00:06:32,920 --> 00:06:34,570
+a very important feature.
+
+121
+00:06:34,570 --> 00:06:37,570
+Now, it looks like,
+from this diagram,
+
+122
+00:06:37,570 --> 00:06:41,650
+this call option is one
+of these propositions
+
+123
+00:06:41,650 --> 00:06:45,190
+that you hear on late-night TV,
+make a $1 million with no money
+
+124
+00:06:45,190 --> 00:06:45,850
+down.
+
+125
+00:06:45,850 --> 00:06:47,860
+Like, there's no way to lose.
+
+126
+00:06:47,860 --> 00:06:49,020
+How could that possibly be?
+
+127
+00:06:49,020 --> 00:06:51,685
+How could we have come up with
+a security that has no downside?
+
+128
+00:06:54,780 --> 00:06:58,170
+Wouldn't everybody want one?
+
+129
+00:06:58,170 --> 00:06:58,670
+Yeah?
+
+130
+00:06:58,670 --> 00:07:01,239
+AUDIENCE: Well, it
+has value [INAUDIBLE].
+
+131
+00:07:01,239 --> 00:07:02,030
+ANDREW LO: Exactly.
+
+132
+00:07:02,030 --> 00:07:03,520
+Yeah, there's no free lunch.
+
+133
+00:07:03,520 --> 00:07:06,090
+So of course, everybody
+wants it if it's free.
+
+134
+00:07:06,090 --> 00:07:07,977
+But of course, it's not free.
+
+135
+00:07:07,977 --> 00:07:09,060
+So you have to pay for it.
+
+136
+00:07:09,060 --> 00:07:13,170
+You have to pay something
+today in order to get access
+
+137
+00:07:13,170 --> 00:07:15,420
+to this asymmetric payoff.
+
+138
+00:07:15,420 --> 00:07:21,180
+So the net payoff, that is, if
+you were buying the call option
+
+139
+00:07:21,180 --> 00:07:24,240
+and paying a certain
+amount of money,
+
+140
+00:07:24,240 --> 00:07:27,210
+then the net payoff
+to you would be
+
+141
+00:07:27,210 --> 00:07:31,530
+given by the dotted line,
+which is the blue line.
+
+142
+00:07:31,530 --> 00:07:38,680
+But you subtract from it
+the value of the premium
+
+143
+00:07:38,680 --> 00:07:39,520
+that you pay.
+
+144
+00:07:39,520 --> 00:07:41,510
+It's called an option premium.
+
+145
+00:07:41,510 --> 00:07:45,560
+But it's just the price of the
+option whenever you bought it.
+
+146
+00:07:45,560 --> 00:07:47,780
+And then if you want to
+take into account the time
+
+147
+00:07:47,780 --> 00:07:53,030
+value of money, you should take
+the future value of that price
+
+148
+00:07:53,030 --> 00:07:55,440
+that you paid when
+you bought the option.
+
+149
+00:07:55,440 --> 00:07:58,580
+So if you bought the option
+in the beginning of the month
+
+150
+00:07:58,580 --> 00:08:01,034
+and it expires at
+the end of the month,
+
+151
+00:08:01,034 --> 00:08:03,200
+you've paid something at
+the beginning of the month.
+
+152
+00:08:03,200 --> 00:08:05,480
+If you want to find
+your net payoff,
+
+153
+00:08:05,480 --> 00:08:09,830
+you could either, at
+the maturity date,
+
+154
+00:08:09,830 --> 00:08:12,920
+subtract from the
+blue line the value
+
+155
+00:08:12,920 --> 00:08:16,940
+of what you paid multiplied
+by the one-month interest rate
+
+156
+00:08:16,940 --> 00:08:22,680
+factor, so that you subtract
+time t dollars from time t
+
+157
+00:08:22,680 --> 00:08:24,320
+dollars.
+
+158
+00:08:24,320 --> 00:08:26,870
+Or you can do a present value,
+where you take the payoff
+
+159
+00:08:26,870 --> 00:08:28,786
+and you move it back to
+the beginning of time.
+
+160
+00:08:28,786 --> 00:08:30,260
+Typically what we
+do is we actually
+
+161
+00:08:30,260 --> 00:08:33,890
+ignore the time value of
+money, just because it's
+
+162
+00:08:33,890 --> 00:08:35,059
+a month's worth of interest.
+
+163
+00:08:35,059 --> 00:08:37,669
+And people don't really
+worry about that too much.
+
+164
+00:08:37,669 --> 00:08:38,784
+Yeah?
+
+165
+00:08:38,784 --> 00:08:41,676
+AUDIENCE: Can you
+make some inferences
+
+166
+00:08:41,676 --> 00:08:43,604
+about the future
+price of the stock
+
+167
+00:08:43,604 --> 00:08:45,532
+by looking at the
+price of the option?
+
+168
+00:08:45,532 --> 00:08:47,542
+ANDREW LO: Yes,
+absolutely, you can.
+
+169
+00:08:47,542 --> 00:08:49,500
+And we're going to show
+you how to do that when
+
+170
+00:08:49,500 --> 00:08:51,333
+I give you the asset
+pricing formula for it.
+
+171
+00:08:51,333 --> 00:08:52,770
+But you're absolutely right.
+
+172
+00:08:52,770 --> 00:08:54,984
+By looking at the
+option, that gives you
+
+173
+00:08:54,984 --> 00:08:56,400
+information about
+what's going on.
+
+174
+00:08:56,400 --> 00:09:00,780
+Just like when I tell you
+for crisis management,
+
+175
+00:09:00,780 --> 00:09:02,820
+if you look at
+T-bills today, you
+
+176
+00:09:02,820 --> 00:09:06,420
+get a sense of how much demand
+there is for cash, putting
+
+177
+00:09:06,420 --> 00:09:07,650
+money in your mattress.
+
+178
+00:09:07,650 --> 00:09:09,750
+By looking at
+options, you actually
+
+179
+00:09:09,750 --> 00:09:12,690
+get a sense of where markets
+are going to be going.
+
+180
+00:09:12,690 --> 00:09:14,420
+So after I give you
+a pricing formula,
+
+181
+00:09:14,420 --> 00:09:16,940
+next time, I'm going to show
+you the prices of options.
+
+182
+00:09:16,940 --> 00:09:18,356
+In particular,
+we're going to look
+
+183
+00:09:18,356 --> 00:09:24,600
+at the price of a put option on
+the S&P 500 for the next month
+
+184
+00:09:24,600 --> 00:09:26,070
+and for the next two months.
+
+185
+00:09:26,070 --> 00:09:29,370
+And you're going to find a
+very, very big difference
+
+186
+00:09:29,370 --> 00:09:30,450
+in those two.
+
+187
+00:09:30,450 --> 00:09:33,060
+That's telling you something
+about where the market thinks
+
+188
+00:09:33,060 --> 00:09:36,759
+volatility is going
+in the S&P 500
+
+189
+00:09:36,759 --> 00:09:38,050
+over the next couple of months.
+
+190
+00:09:38,050 --> 00:09:40,091
+So yes, there'll be all
+sorts of wonderful things
+
+191
+00:09:40,091 --> 00:09:42,910
+you'll be able to tell
+by looking at the prices.
+
+192
+00:09:42,910 --> 00:09:44,460
+But in order to do
+that, we do have
+
+193
+00:09:44,460 --> 00:09:47,250
+to understand how
+these payoffs work.
+
+194
+00:09:47,250 --> 00:09:49,330
+So getting back
+to this diagram--
+
+195
+00:09:49,330 --> 00:09:51,690
+I want to make sure
+everybody is with me now--
+
+196
+00:09:51,690 --> 00:09:55,080
+this dotted line shows
+you your net payoff
+
+197
+00:09:55,080 --> 00:09:59,310
+and a net of the price you
+paid for this particular call
+
+198
+00:09:59,310 --> 00:10:00,360
+option.
+
+199
+00:10:00,360 --> 00:10:03,120
+And the neat thing
+about this net payoff
+
+200
+00:10:03,120 --> 00:10:06,650
+is that it then describes to
+you the fact that this is not
+
+201
+00:10:06,650 --> 00:10:09,690
+a surefire way to make
+money and not lose any.
+
+202
+00:10:09,690 --> 00:10:12,600
+You might lose money, because
+you paid something upfront
+
+203
+00:10:12,600 --> 00:10:14,600
+for the call option.
+
+204
+00:10:14,600 --> 00:10:18,380
+And so the only way you're
+going to come out ahead
+
+205
+00:10:18,380 --> 00:10:22,600
+is if the stock price
+actually exceeds--
+
+206
+00:10:22,600 --> 00:10:28,460
+not this point, but actually
+something like this point.
+
+207
+00:10:28,460 --> 00:10:33,560
+So the stock price has to go up
+by a little bit more than $20
+
+208
+00:10:33,560 --> 00:10:35,540
+in order for you to
+make money, net of what
+
+209
+00:10:35,540 --> 00:10:39,140
+it cost you to buy that option.
+
+210
+00:10:39,140 --> 00:10:40,880
+Now, I want you to
+go back and think
+
+211
+00:10:40,880 --> 00:10:43,790
+about the difference between an
+option and a futures contract.
+
+212
+00:10:43,790 --> 00:10:48,230
+Remember a futures contract
+we said was no money down,
+
+213
+00:10:48,230 --> 00:10:51,530
+0 NPV when you get
+into the futures.
+
+214
+00:10:51,530 --> 00:10:53,090
+That's not true
+with a call option.
+
+215
+00:10:53,090 --> 00:10:57,800
+A call option is actually worth
+a positive amount of money
+
+216
+00:10:57,800 --> 00:10:59,330
+on day one.
+
+217
+00:10:59,330 --> 00:11:01,910
+So if you want a
+call option, you've
+
+218
+00:11:01,910 --> 00:11:03,440
+actually got to pay for it.
+
+219
+00:11:03,440 --> 00:11:06,290
+And then there's an issue about
+whether you'll make money.
+
+220
+00:11:06,290 --> 00:11:08,720
+Because it depends on
+whether the stock price
+
+221
+00:11:08,720 --> 00:11:10,310
+exceeds this point.
+
+222
+00:11:10,310 --> 00:11:13,190
+It's got to exceed not only the
+strike price, but the amount
+
+223
+00:11:13,190 --> 00:11:16,810
+that you paid for that option.
+
+224
+00:11:16,810 --> 00:11:17,980
+Any questions about that?
+
+225
+00:11:17,980 --> 00:11:20,200
+Or is that pretty clear?
+
+226
+00:11:20,200 --> 00:11:21,100
+So this is important.
+
+227
+00:11:21,100 --> 00:11:23,279
+So ask now if you
+don't quite get it.
+
+228
+00:11:23,279 --> 00:11:24,820
+Because if you don't
+get this, you're
+
+229
+00:11:24,820 --> 00:11:26,194
+going to get
+confused by what I'm
+
+230
+00:11:26,194 --> 00:11:28,860
+going to say in a few minutes.
+
+231
+00:11:28,860 --> 00:11:31,530
+Let me give you another example,
+just to really fix ideas.
+
+232
+00:11:31,530 --> 00:11:33,890
+Let's do the put option case.
+
+233
+00:11:33,890 --> 00:11:38,720
+Now, the put option allows me to
+sell the stock for, let's say,
+
+234
+00:11:38,720 --> 00:11:43,740
+$20, or before
+the exercise date.
+
+235
+00:11:43,740 --> 00:11:50,130
+So with a put option, am I
+going to hope if I buy a put--
+
+236
+00:11:50,130 --> 00:11:55,680
+so I buy the right to
+sell the stock at $20.
+
+237
+00:11:55,680 --> 00:11:58,620
+That's a little bit
+hard to keep track of.
+
+238
+00:11:58,620 --> 00:12:01,440
+I'm buying a piece of paper
+that gives me the right
+
+239
+00:12:01,440 --> 00:12:03,510
+to sell the stock for $20.
+
+240
+00:12:03,510 --> 00:12:06,210
+If I own that piece of
+paper, this put option,
+
+241
+00:12:06,210 --> 00:12:08,555
+am I going to wish that the
+stock price goes up or down?
+
+242
+00:12:08,555 --> 00:12:09,180
+AUDIENCE: Down.
+
+243
+00:12:09,180 --> 00:12:09,805
+AUDIENCE: Down.
+
+244
+00:12:09,805 --> 00:12:11,050
+ANDREW LO: Down.
+
+245
+00:12:11,050 --> 00:12:13,480
+I'm only going to get
+paid on the put option
+
+246
+00:12:13,480 --> 00:12:16,990
+if the stock price
+goes below $20.
+
+247
+00:12:16,990 --> 00:12:19,630
+Because then I have
+something valuable, right?
+
+248
+00:12:19,630 --> 00:12:22,720
+If it goes below $20, I get
+to sell the stock for $20.
+
+249
+00:12:22,720 --> 00:12:27,460
+So I make the difference
+between what it's worth and $20.
+
+250
+00:12:27,460 --> 00:12:30,200
+If the stock price
+is at $20 or above,
+
+251
+00:12:30,200 --> 00:12:32,530
+then my put option
+expires, worthless.
+
+252
+00:12:32,530 --> 00:12:33,730
+I'm not going to use it.
+
+253
+00:12:33,730 --> 00:12:35,896
+Because it would be foolish
+for me to sell something
+
+254
+00:12:35,896 --> 00:12:39,070
+for $20, when I can sell
+on the open market for $25.
+
+255
+00:12:39,070 --> 00:12:43,630
+So the payoff diagram is
+exactly the opposite of this.
+
+256
+00:12:43,630 --> 00:12:47,610
+In fact, it looks like this.
+
+257
+00:12:47,610 --> 00:12:53,120
+So now the blue line is
+the payoff of the option
+
+258
+00:12:53,120 --> 00:12:56,390
+itself, the gross payoff.
+
+259
+00:12:56,390 --> 00:12:59,330
+$20 and above, it's worthless.
+
+260
+00:12:59,330 --> 00:13:03,860
+But $20 and below, this
+is the 45-degree line.
+
+261
+00:13:03,860 --> 00:13:09,650
+But unlike the call option,
+my upside for the put option
+
+262
+00:13:09,650 --> 00:13:11,030
+is limited.
+
+263
+00:13:11,030 --> 00:13:12,464
+Is limited to what?
+
+264
+00:13:12,464 --> 00:13:14,120
+AUDIENCE: 0.
+
+265
+00:13:14,120 --> 00:13:18,880
+ANDREW LO: Right, 0 or whatever
+that is, $10, in this case.
+
+266
+00:13:18,880 --> 00:13:21,530
+If the stock price goes
+to $0, then my put option
+
+267
+00:13:21,530 --> 00:13:24,290
+is worth a maximum of $10.
+
+268
+00:13:24,290 --> 00:13:28,700
+So the upside is bounded
+by that $10 limit.
+
+269
+00:13:28,700 --> 00:13:30,860
+And that's the gross upside.
+
+270
+00:13:30,860 --> 00:13:34,699
+If I look at the net, I
+subtract how much I pay.
+
+271
+00:13:34,699 --> 00:13:35,990
+And then I get the dotted line.
+
+272
+00:13:39,739 --> 00:13:41,530
+Any questions about
+the put options payoff?
+
+273
+00:13:44,420 --> 00:13:47,240
+Now, just to fix ideas, let
+me go back to the call option
+
+274
+00:13:47,240 --> 00:13:50,720
+and show the difference
+between the stock return
+
+275
+00:13:50,720 --> 00:13:53,490
+versus the call option return.
+
+276
+00:13:53,490 --> 00:13:56,470
+If you take a look at
+the call option, again,
+
+277
+00:13:56,470 --> 00:13:58,420
+it's going to look
+like this when
+
+278
+00:13:58,420 --> 00:14:00,490
+you subtract from it the price.
+
+279
+00:14:00,490 --> 00:14:04,390
+But the stock is going to
+look like that line there.
+
+280
+00:14:04,390 --> 00:14:08,060
+Meaning that the stock
+return is linear.
+
+281
+00:14:08,060 --> 00:14:10,750
+But the option
+return is non-linear.
+
+282
+00:14:10,750 --> 00:14:14,470
+And this is one of the most
+important and subtle ideas
+
+283
+00:14:14,470 --> 00:14:15,430
+with this instrument.
+
+284
+00:14:15,430 --> 00:14:17,500
+Up until now, all
+of the instruments
+
+285
+00:14:17,500 --> 00:14:22,150
+that we've looked at stocks,
+bonds, futures, and forwards,
+
+286
+00:14:22,150 --> 00:14:24,790
+their payoffs have
+been relatively simple,
+
+287
+00:14:24,790 --> 00:14:27,490
+in the sense that they're
+straight lines if you
+
+288
+00:14:27,490 --> 00:14:31,960
+plot the underlying
+price and their payoffs.
+
+289
+00:14:31,960 --> 00:14:36,370
+This is the first time we have
+analyzed the security that has
+
+290
+00:14:36,370 --> 00:14:38,980
+a bizarre structure like this.
+
+291
+00:14:38,980 --> 00:14:40,840
+And you might think
+it's straightforward
+
+292
+00:14:40,840 --> 00:14:45,910
+because well, you understand the
+contractual terms of an option.
+
+293
+00:14:45,910 --> 00:14:47,980
+But from a risk-and-return
+perspective,
+
+294
+00:14:47,980 --> 00:14:50,110
+it's actually quite a
+bit more complicated
+
+295
+00:14:50,110 --> 00:14:52,540
+than most people
+would appreciate.
+
+296
+00:14:52,540 --> 00:14:56,140
+One of the reasons that we are
+in a current financial crisis
+
+297
+00:14:56,140 --> 00:14:59,860
+today is because of the
+complexity of the securities
+
+298
+00:14:59,860 --> 00:15:01,180
+that have been created.
+
+299
+00:15:01,180 --> 00:15:03,610
+And the complexities are
+really along the lines
+
+300
+00:15:03,610 --> 00:15:05,380
+of these non-linearities.
+
+301
+00:15:05,380 --> 00:15:09,130
+As I mentioned to you,
+insurance is a put option.
+
+302
+00:15:09,130 --> 00:15:13,210
+So you can actually use the
+theory of option pricing
+
+303
+00:15:13,210 --> 00:15:17,437
+to value insurance contracts,
+like credit default swaps.
+
+304
+00:15:17,437 --> 00:15:19,270
+In fact, the payoff of
+a credit default swap
+
+305
+00:15:19,270 --> 00:15:22,740
+is not that different from
+something that looks like this.
+
+306
+00:15:22,740 --> 00:15:26,390
+And what that means is that
+a portfolio of credit default
+
+307
+00:15:26,390 --> 00:15:30,440
+swaps does not behave
+like a portfolio of stocks
+
+308
+00:15:30,440 --> 00:15:31,940
+or a portfolio of bonds.
+
+309
+00:15:31,940 --> 00:15:34,970
+They have very
+important differences,
+
+310
+00:15:34,970 --> 00:15:38,660
+both in terms of their risk,
+and in terms of their return.
+
+311
+00:15:38,660 --> 00:15:42,590
+In this case, you can see
+the risk of a put option
+
+312
+00:15:42,590 --> 00:15:44,420
+is bounded above.
+
+313
+00:15:44,420 --> 00:15:46,130
+The upside is bounded above.
+
+314
+00:15:46,130 --> 00:15:48,170
+The downside is bounded.
+
+315
+00:15:48,170 --> 00:15:53,340
+But the call option is unbounded
+above, in terms of its upside.
+
+316
+00:15:53,340 --> 00:15:56,760
+Bounded below, in
+terms of its risk.
+
+317
+00:15:56,760 --> 00:15:59,340
+What if, now, you
+decided you were going
+
+318
+00:15:59,340 --> 00:16:02,640
+to sell somebody a call option?
+
+319
+00:16:02,640 --> 00:16:06,210
+Or you were going to
+short a call option?
+
+320
+00:16:06,210 --> 00:16:09,201
+Can anybody guess what the
+payoff would look like?
+
+321
+00:16:09,201 --> 00:16:10,175
+Yeah?
+
+322
+00:16:10,175 --> 00:16:12,610
+AUDIENCE: If you're going
+to sell a call [INAUDIBLE]
+
+323
+00:16:12,610 --> 00:16:14,071
+agreement that's your payoff.
+
+324
+00:16:14,071 --> 00:16:14,937
+ANDREW LO: Yeah.
+
+325
+00:16:14,937 --> 00:16:16,520
+AUDIENCE: As long
+as the stock doesn't
+
+326
+00:16:16,520 --> 00:16:19,460
+go above the [INAUDIBLE] so
+someone can call you out.
+
+327
+00:16:19,460 --> 00:16:20,940
+Then it's [INAUDIBLE].
+
+328
+00:16:20,940 --> 00:16:21,960
+ANDREW LO: So what is
+it going to look like,
+
+329
+00:16:21,960 --> 00:16:23,010
+in terms of the diagram?
+
+330
+00:16:23,010 --> 00:16:24,360
+How would I have to change this?
+
+331
+00:16:24,360 --> 00:16:26,220
+AUDIENCE: It would
+be flat, say, $2.
+
+332
+00:16:26,220 --> 00:16:27,615
+And then it would go down.
+
+333
+00:16:27,615 --> 00:16:28,890
+ANDREW LO: That's right.
+
+334
+00:16:28,890 --> 00:16:32,430
+It would be a mirror image
+of the blue line, where
+
+335
+00:16:32,430 --> 00:16:36,540
+you reflect it along the
+x-axis, it would go this way.
+
+336
+00:16:36,540 --> 00:16:41,560
+And what that means is that
+your downside is unlimited.
+
+337
+00:16:41,560 --> 00:16:44,915
+But your upside is very limited.
+
+338
+00:16:44,915 --> 00:16:46,540
+Now, why would anybody
+want to do that?
+
+339
+00:16:46,540 --> 00:16:48,550
+That seems like a terrible deal.
+
+340
+00:16:48,550 --> 00:16:50,260
+Well, the difference
+is that you are now
+
+341
+00:16:50,260 --> 00:16:52,700
+getting paid to do that.
+
+342
+00:16:52,700 --> 00:16:55,930
+In other words, if
+you flip this image--
+
+343
+00:16:55,930 --> 00:16:57,520
+let me draw it here.
+
+344
+00:17:01,470 --> 00:17:06,270
+If you now have a call
+option that you've shorted,
+
+345
+00:17:06,270 --> 00:17:08,900
+you go down here.
+
+346
+00:17:08,900 --> 00:17:10,599
+This is $20.
+
+347
+00:17:10,599 --> 00:17:12,440
+You will get paid
+for doing this.
+
+348
+00:17:12,440 --> 00:17:15,252
+Meaning if you look
+at your net return,
+
+349
+00:17:15,252 --> 00:17:16,460
+it's going to look like this.
+
+350
+00:17:22,210 --> 00:17:25,200
+So that means that as long
+as the stock price stays
+
+351
+00:17:25,200 --> 00:17:31,230
+below a little bit
+extra than $20,
+
+352
+00:17:31,230 --> 00:17:33,810
+you will actually get
+to keep that premium.
+
+353
+00:17:33,810 --> 00:17:38,682
+But if the stock price goes
+up, your losses are unbounded.
+
+354
+00:17:38,682 --> 00:17:39,390
+That's different.
+
+355
+00:17:39,390 --> 00:17:41,700
+That's a different
+payoff structure
+
+356
+00:17:41,700 --> 00:17:47,190
+than what we're used to with
+traditional instruments.
+
+357
+00:17:47,190 --> 00:17:50,550
+You can do all sorts
+of calculations.
+
+358
+00:17:50,550 --> 00:17:52,410
+Long Call looks like that.
+
+359
+00:17:52,410 --> 00:17:53,880
+Long Put looks like that.
+
+360
+00:17:53,880 --> 00:17:55,740
+Shorter Call looks like this.
+
+361
+00:17:55,740 --> 00:17:58,370
+And Shorting a Put
+looks like that.
+
+362
+00:18:00,990 --> 00:18:06,050
+And once you take all of these
+things and put them together,
+
+363
+00:18:06,050 --> 00:18:10,850
+you can mix and match and get
+some really interesting payoff
+
+364
+00:18:10,850 --> 00:18:13,860
+types of structures.
+
+365
+00:18:13,860 --> 00:18:15,630
+So let me give you an example.
+
+366
+00:18:15,630 --> 00:18:18,320
+This is just payoff
+tables that will show you
+
+367
+00:18:18,320 --> 00:18:19,430
+when you get paid what.
+
+368
+00:18:19,430 --> 00:18:21,500
+So this is a very
+helpful exercise for you
+
+369
+00:18:21,500 --> 00:18:25,160
+to go through, just to
+verify that these graphs are,
+
+370
+00:18:25,160 --> 00:18:27,560
+in fact, what they should be.
+
+371
+00:18:27,560 --> 00:18:30,080
+So I would ask you to go
+through this on your own.
+
+372
+00:18:30,080 --> 00:18:33,440
+And there are all
+sorts of trade-offs
+
+373
+00:18:33,440 --> 00:18:36,740
+that you can
+implement by looking
+
+374
+00:18:36,740 --> 00:18:39,110
+at these various
+different payoffs
+
+375
+00:18:39,110 --> 00:18:40,290
+and putting them together.
+
+376
+00:18:40,290 --> 00:18:43,640
+For example, you can
+buy a stock and a put,
+
+377
+00:18:43,640 --> 00:18:46,160
+or buying a call with one
+strike and selling a call
+
+378
+00:18:46,160 --> 00:18:49,730
+with another, or buying a call
+and a put with the same strike.
+
+379
+00:18:49,730 --> 00:18:53,360
+Each of these
+portfolios of options
+
+380
+00:18:53,360 --> 00:18:56,510
+gives you a different
+kind of a payoff diagram.
+
+381
+00:18:56,510 --> 00:19:01,970
+And as a result, it allows you
+to make bets on market events
+
+382
+00:19:01,970 --> 00:19:05,730
+that you otherwise wouldn't
+be able to make a bet on.
+
+383
+00:19:05,730 --> 00:19:08,230
+So let me give you
+an example of this.
+
+384
+00:19:08,230 --> 00:19:09,270
+Let's see.
+
+385
+00:19:09,270 --> 00:19:13,680
+Let's do something
+like, oh, I don't know.
+
+386
+00:19:13,680 --> 00:19:16,320
+How about a call and a put?
+
+387
+00:19:16,320 --> 00:19:18,840
+Suppose you decide
+to buy a call,
+
+388
+00:19:18,840 --> 00:19:22,150
+and you buy a put with the
+exact same strike price.
+
+389
+00:19:22,150 --> 00:19:24,000
+So buying a call at
+a strike price of $50
+
+390
+00:19:24,000 --> 00:19:26,280
+will give you that left diagram.
+
+391
+00:19:26,280 --> 00:19:29,070
+And then buying a put with
+the strike price of $50
+
+392
+00:19:29,070 --> 00:19:31,980
+will give you the right diagram.
+
+393
+00:19:31,980 --> 00:19:36,000
+And your payoff for
+those two, at maturity,
+
+394
+00:19:36,000 --> 00:19:37,710
+is going to look like a V.
+
+395
+00:19:37,710 --> 00:19:40,290
+Now, in fact, you have
+to subtract how much you
+
+396
+00:19:40,290 --> 00:19:42,690
+paid in order to do this.
+
+397
+00:19:42,690 --> 00:19:50,690
+So your net payoff will
+be this V, shifted down.
+
+398
+00:19:50,690 --> 00:19:54,210
+Sorry, I didn't do the
+interactive graphics here.
+
+399
+00:19:54,210 --> 00:19:58,900
+But it's going to look like
+this, where what I've done
+
+400
+00:19:58,900 --> 00:20:02,230
+is I've subtracted the
+amount of money it cost you
+
+401
+00:20:02,230 --> 00:20:05,760
+to buy the put and the call.
+
+402
+00:20:05,760 --> 00:20:06,430
+Yeah, question.
+
+403
+00:20:06,430 --> 00:20:10,275
+AUDIENCE: In this particular
+example, really all
+
+404
+00:20:10,275 --> 00:20:13,690
+you're saying is, except for a
+short range in the stock price
+
+405
+00:20:13,690 --> 00:20:16,441
+around the strike price,
+you will always make money.
+
+406
+00:20:16,441 --> 00:20:17,440
+ANDREW LO: That's right.
+
+407
+00:20:17,440 --> 00:20:19,144
+AUDIENCE: So is
+there a reason why
+
+408
+00:20:19,144 --> 00:20:20,884
+you wouldn't do a
+lot of this, if you
+
+409
+00:20:20,884 --> 00:20:22,509
+know that there is
+some movement that's
+
+410
+00:20:22,509 --> 00:20:23,845
+going to happen in the stock?
+
+411
+00:20:23,845 --> 00:20:26,440
+ANDREW LO: So the question
+is, how much does it
+
+412
+00:20:26,440 --> 00:20:28,460
+cost you to do that?
+
+413
+00:20:28,460 --> 00:20:31,240
+When you say small,
+it's all relative.
+
+414
+00:20:31,240 --> 00:20:33,700
+You've got to find out
+exactly what that is.
+
+415
+00:20:33,700 --> 00:20:37,570
+The smaller the range
+is, the more expensive
+
+416
+00:20:37,570 --> 00:20:40,120
+it'll be for you
+to actually buy it.
+
+417
+00:20:40,120 --> 00:20:42,310
+So there's a trade-off.
+
+418
+00:20:42,310 --> 00:20:44,450
+It's all a matter of
+how much you pay for it.
+
+419
+00:20:44,450 --> 00:20:46,210
+But before I go
+there, let me just
+
+420
+00:20:46,210 --> 00:20:47,950
+make sure everybody
+understands what
+
+421
+00:20:47,950 --> 00:20:50,110
+this payoff is accomplishing.
+
+422
+00:20:50,110 --> 00:20:52,690
+What are you doing
+when you are buying
+
+423
+00:20:52,690 --> 00:20:56,920
+a portfolio with a payoff
+diagram that looks like this?
+
+424
+00:20:56,920 --> 00:20:59,440
+What you're doing is
+saying that you're
+
+425
+00:20:59,440 --> 00:21:02,800
+going to make lots
+of money if the stock
+
+426
+00:21:02,800 --> 00:21:06,160
+price goes way up or way down.
+
+427
+00:21:06,160 --> 00:21:09,280
+The only way you're not
+going to make money,
+
+428
+00:21:09,280 --> 00:21:11,830
+if the stock is not
+doing a whole lot,
+
+429
+00:21:11,830 --> 00:21:13,540
+if it's staying around here.
+
+430
+00:21:13,540 --> 00:21:14,650
+OK.
+
+431
+00:21:14,650 --> 00:21:18,430
+So this is an example
+where you are making a bet.
+
+432
+00:21:18,430 --> 00:21:20,260
+Not that markets
+are going to go up,
+
+433
+00:21:20,260 --> 00:21:22,040
+not that markets are
+going to go down,
+
+434
+00:21:22,040 --> 00:21:24,790
+but that markets are
+going to be wild.
+
+435
+00:21:24,790 --> 00:21:27,940
+That is, you're making
+a bet on volatility.
+
+436
+00:21:27,940 --> 00:21:32,530
+Which may seem like a
+pretty good bet nowadays.
+
+437
+00:21:32,530 --> 00:21:35,470
+But the problem is that
+there's a difference
+
+438
+00:21:35,470 --> 00:21:40,526
+between this diagram
+and this diagram.
+
+439
+00:21:40,526 --> 00:21:41,650
+And what is the difference?
+
+440
+00:21:41,650 --> 00:21:45,340
+What determines how big or
+small this little tiny area is,
+
+441
+00:21:45,340 --> 00:21:47,140
+where you don't make any money?
+
+442
+00:21:47,140 --> 00:21:50,470
+What determines that is how
+much you have to subtract
+
+443
+00:21:50,470 --> 00:21:53,590
+and how far this V
+gets shifted down.
+
+444
+00:21:53,590 --> 00:21:54,340
+And you know what?
+
+445
+00:21:54,340 --> 00:21:57,440
+Right now, it's
+shifted down a lot.
+
+446
+00:21:57,440 --> 00:22:01,030
+In other words, it costs a
+lot to buy a put and a call.
+
+447
+00:22:01,030 --> 00:22:02,080
+Why does it cost a lot?
+
+448
+00:22:02,080 --> 00:22:04,180
+Because volatility is very high.
+
+449
+00:22:04,180 --> 00:22:07,120
+And when you're buying a
+put, you're buying insurance.
+
+450
+00:22:07,120 --> 00:22:10,390
+It's very, very expensive
+now to buy insurance.
+
+451
+00:22:10,390 --> 00:22:13,471
+Because we're in the
+middle of a hurricane.
+
+452
+00:22:13,471 --> 00:22:15,220
+And that's probably
+the worst time for you
+
+453
+00:22:15,220 --> 00:22:17,345
+to buy hurricane insurance,
+is when you're actually
+
+454
+00:22:17,345 --> 00:22:19,420
+in the middle of a hurricane.
+
+455
+00:22:19,420 --> 00:22:22,460
+So what that means is, that this
+thing has shifted down a lot.
+
+456
+00:22:22,460 --> 00:22:26,020
+So that means that you have to
+have really, really volatile
+
+457
+00:22:26,020 --> 00:22:28,720
+markets in order to make money.
+
+458
+00:22:28,720 --> 00:22:33,940
+So it's shifted down enough
+so that supply equals demand,
+
+459
+00:22:33,940 --> 00:22:35,057
+as you would expect.
+
+460
+00:22:35,057 --> 00:22:36,890
+So there's no free lunch
+going on out there.
+
+461
+00:22:36,890 --> 00:22:38,230
+It's priced fairly.
+
+462
+00:22:38,230 --> 00:22:39,730
+Now, even though
+it's priced fairly,
+
+463
+00:22:39,730 --> 00:22:42,146
+if it turns out that you're
+the kind of person that really
+
+464
+00:22:42,146 --> 00:22:44,260
+doesn't like a lot of
+risk and you believe
+
+465
+00:22:44,260 --> 00:22:46,210
+there's going to be
+tons more volatility
+
+466
+00:22:46,210 --> 00:22:49,060
+coming, then for you,
+it's worth it to do it.
+
+467
+00:22:49,060 --> 00:22:52,600
+For somebody else who
+doesn't believe that there's
+
+468
+00:22:52,600 --> 00:22:55,470
+going to be a lot more
+volatility coming,
+
+469
+00:22:55,470 --> 00:22:58,200
+it's worth it to be on the
+other side of that trade.
+
+470
+00:22:58,200 --> 00:23:01,090
+By the way, if I'm on the
+other side of the trade,
+
+471
+00:23:01,090 --> 00:23:04,020
+what does my payoff
+diagram look like then?
+
+472
+00:23:04,020 --> 00:23:07,450
+If I'm selling a put and a
+call, what will it look like?
+
+473
+00:23:07,450 --> 00:23:08,450
+AUDIENCE: The opposite.
+
+474
+00:23:08,450 --> 00:23:10,180
+ANDREW LO: Yeah,
+exactly, the opposite.
+
+475
+00:23:10,180 --> 00:23:13,880
+We're going to flip it, flip
+this thing against the x-axis.
+
+476
+00:23:13,880 --> 00:23:19,030
+So it'll be an upside-down
+V. But because we're
+
+477
+00:23:19,030 --> 00:23:22,600
+shorting puts and calls,
+we get money upfront.
+
+478
+00:23:22,600 --> 00:23:28,910
+So the upside-down V is going
+to be pushed up over the x-axis.
+
+479
+00:23:28,910 --> 00:23:33,600
+So it's going to look like
+the mirror image of this.
+
+480
+00:23:33,600 --> 00:23:36,960
+And as long as
+stock prices are not
+
+481
+00:23:36,960 --> 00:23:42,950
+more volatile than this
+range, we will make money.
+
+482
+00:23:42,950 --> 00:23:48,370
+But our downside is
+unlimited in both directions.
+
+483
+00:23:48,370 --> 00:23:50,370
+So you got to be
+really confident
+
+484
+00:23:50,370 --> 00:23:52,890
+that you know that markets
+aren't going to be any more
+
+485
+00:23:52,890 --> 00:23:54,870
+volatile than they are now.
+
+486
+00:23:54,870 --> 00:23:58,230
+Now, if you were Warren Buffett,
+and you bought Goldman Sachs
+
+487
+00:23:58,230 --> 00:24:00,210
+three, four weeks
+ago, and you thought
+
+488
+00:24:00,210 --> 00:24:02,842
+it was a great deal
+then, well, you
+
+489
+00:24:02,842 --> 00:24:04,050
+would have lost money by now.
+
+490
+00:24:04,050 --> 00:24:05,910
+Warren Buffett has lost money.
+
+491
+00:24:05,910 --> 00:24:07,560
+On the other hand,
+as you all know,
+
+492
+00:24:07,560 --> 00:24:10,200
+Warren Buffett doesn't it make
+investments for the short term.
+
+493
+00:24:10,200 --> 00:24:11,658
+He's thinking about
+this investment
+
+494
+00:24:11,658 --> 00:24:14,230
+as a 10, 20-year investment.
+
+495
+00:24:14,230 --> 00:24:16,230
+And over 10 or 20
+years, I suspect
+
+496
+00:24:16,230 --> 00:24:18,044
+it will be a very good deal.
+
+497
+00:24:18,044 --> 00:24:19,710
+But if you're looking
+at what's going on
+
+498
+00:24:19,710 --> 00:24:21,595
+over the next few
+weeks, the question
+
+499
+00:24:21,595 --> 00:24:23,220
+is, do you believe
+that markets will be
+
+500
+00:24:23,220 --> 00:24:24,962
+less volatile or more volatile?
+
+501
+00:24:24,962 --> 00:24:26,670
+If you do, you're
+going to be on one side
+
+502
+00:24:26,670 --> 00:24:28,170
+or the other of that trade.
+
+503
+00:24:28,170 --> 00:24:29,880
+The point is that
+this now allows
+
+504
+00:24:29,880 --> 00:24:33,080
+us to make bets on volatility.
+
+505
+00:24:33,080 --> 00:24:35,540
+Whereas before, with
+a futures or a forward
+
+506
+00:24:35,540 --> 00:24:37,640
+or a stock or a
+bond, you only could
+
+507
+00:24:37,640 --> 00:24:40,580
+bet on it going
+up or going down,
+
+508
+00:24:40,580 --> 00:24:42,710
+or mispricings
+because certain kinds
+
+509
+00:24:42,710 --> 00:24:44,960
+of arbitrage relationships
+have been violated.
+
+510
+00:24:44,960 --> 00:24:46,820
+This is the first
+time that we've
+
+511
+00:24:46,820 --> 00:24:52,010
+been able to make a
+bet on wild swings.
+
+512
+00:24:52,010 --> 00:24:53,750
+And that's a really
+amazing thing.
+
+513
+00:24:53,750 --> 00:24:57,380
+It's an extraordinary innovation
+to be able to do that.
+
+514
+00:24:57,380 --> 00:25:02,254
+It allows individuals to
+engage in kinds of side bets
+
+515
+00:25:02,254 --> 00:25:03,920
+that they otherwise
+wouldn't be able to.
+
+516
+00:25:03,920 --> 00:25:06,170
+And more importantly, it
+allows other individuals
+
+517
+00:25:06,170 --> 00:25:10,027
+to insure against certain
+kinds of eventualities
+
+518
+00:25:10,027 --> 00:25:11,360
+that they'd never be able to do.
+
+519
+00:25:11,360 --> 00:25:14,880
+Now you can buy insurance
+against volatility,
+
+520
+00:25:14,880 --> 00:25:17,620
+which is a pretty remarkable
+thing to be able to do.
+
+521
+00:25:17,620 --> 00:25:20,555
+OK, so that's just one
+example of an option strategy,
+
+522
+00:25:20,555 --> 00:25:21,950
+a very simple one.
+
+523
+00:25:21,950 --> 00:25:25,670
+There are other examples
+that I've given you here.
+
+524
+00:25:25,670 --> 00:25:28,740
+For example, this is
+kind of a fun one.
+
+525
+00:25:28,740 --> 00:25:31,262
+This is two calls.
+
+526
+00:25:31,262 --> 00:25:32,720
+That should be a
+minus sign, sorry.
+
+527
+00:25:32,720 --> 00:25:35,180
+Call1 minus Call2.
+
+528
+00:25:35,180 --> 00:25:37,820
+So you basically
+buy a call option,
+
+529
+00:25:37,820 --> 00:25:41,210
+and you short another one
+at different strike prices.
+
+530
+00:25:41,210 --> 00:25:44,600
+And so what this allows you to
+do, this is really interesting.
+
+531
+00:25:44,600 --> 00:25:49,850
+This gives you upside
+from 50 up until 60.
+
+532
+00:25:49,850 --> 00:25:51,980
+So you buy a call at 50.
+
+533
+00:25:51,980 --> 00:25:55,880
+You're short a call at 60.
+
+534
+00:25:55,880 --> 00:25:59,150
+So that means you're going to
+get upside between 50 and 60.
+
+535
+00:25:59,150 --> 00:26:03,340
+And then nothing after that
+and nothing before that.
+
+536
+00:26:03,340 --> 00:26:05,770
+Now, this seems like a
+really ridiculous strategy
+
+537
+00:26:05,770 --> 00:26:06,520
+to engage in.
+
+538
+00:26:06,520 --> 00:26:09,840
+Why would you want to
+cut off your upside?
+
+539
+00:26:09,840 --> 00:26:13,350
+Because with a call, if
+you just bought a call,
+
+540
+00:26:13,350 --> 00:26:15,240
+you'd basically get
+all of the upside.
+
+541
+00:26:15,240 --> 00:26:16,470
+Right?
+
+542
+00:26:16,470 --> 00:26:18,030
+Why would you ever
+want to do this?
+
+543
+00:26:18,030 --> 00:26:19,680
+Anybody tell me what
+the logic for that is?
+
+544
+00:26:19,680 --> 00:26:19,890
+Yeah.
+
+545
+00:26:19,890 --> 00:26:20,355
+AUDIENCE: Because it's cheaper.
+
+546
+00:26:20,355 --> 00:26:21,330
+ANDREW LO: Exactly.
+
+547
+00:26:21,330 --> 00:26:22,090
+It's cheaper.
+
+548
+00:26:22,090 --> 00:26:25,110
+It's cheaper because when
+you short the call at 60,
+
+549
+00:26:25,110 --> 00:26:26,640
+you're getting money today.
+
+550
+00:26:26,640 --> 00:26:29,580
+So that helps you
+finance the call at 50.
+
+551
+00:26:29,580 --> 00:26:32,030
+It's cheaper, but
+it's not a free lunch.
+
+552
+00:26:32,030 --> 00:26:35,130
+What you're getting in
+exchange for that extra premium
+
+553
+00:26:35,130 --> 00:26:39,180
+is you're giving up any profits
+above and beyond the stock
+
+554
+00:26:39,180 --> 00:26:41,010
+price going above 60.
+
+555
+00:26:41,010 --> 00:26:44,070
+So you're giving up
+the unbounded upside.
+
+556
+00:26:44,070 --> 00:26:46,590
+And you're bounding it at 60.
+
+557
+00:26:46,590 --> 00:26:48,420
+But the benefit of
+giving up that upside
+
+558
+00:26:48,420 --> 00:26:52,680
+is that you now have some money
+to reduce the cost of getting
+
+559
+00:26:52,680 --> 00:26:54,510
+that call at 50.
+
+560
+00:26:54,510 --> 00:26:55,680
+OK?
+
+561
+00:26:55,680 --> 00:26:58,380
+And so you might use
+this if you think,
+
+562
+00:26:58,380 --> 00:27:03,700
+well, I suspect that the stock
+has got some room to grow.
+
+563
+00:27:03,700 --> 00:27:07,420
+I think it will bounce
+around between 50 and 60.
+
+564
+00:27:07,420 --> 00:27:09,120
+But I can't possibly
+see the stock
+
+565
+00:27:09,120 --> 00:27:10,960
+ever being worth more than 60.
+
+566
+00:27:10,960 --> 00:27:14,130
+So I'm happy to give up that
+upside to other people who
+
+567
+00:27:14,130 --> 00:27:17,370
+are more optimistic than me,
+and get some money for it
+
+568
+00:27:17,370 --> 00:27:22,530
+and help me to finance my
+purchase of the stock at 50.
+
+569
+00:27:22,530 --> 00:27:24,720
+So it's cheaper.
+
+570
+00:27:24,720 --> 00:27:25,830
+That's the bottom line.
+
+571
+00:27:25,830 --> 00:27:27,750
+Another way of
+looking at it is, you
+
+572
+00:27:27,750 --> 00:27:31,770
+have to move this whole diagram
+down by how much it costs.
+
+573
+00:27:31,770 --> 00:27:35,200
+It turns out you move it down
+by less than if it were just
+
+574
+00:27:35,200 --> 00:27:37,600
+the pure call option by itself.
+
+575
+00:27:37,600 --> 00:27:41,040
+So the way you can think of
+it is you buy the call option.
+
+576
+00:27:41,040 --> 00:27:43,090
+You move it down by that much.
+
+577
+00:27:43,090 --> 00:27:46,290
+And then you sell the other
+call and you move it up
+
+578
+00:27:46,290 --> 00:27:48,780
+by the amount of that 60 call.
+
+579
+00:27:52,190 --> 00:27:53,000
+So you can do this.
+
+580
+00:27:53,000 --> 00:27:54,200
+You can do this in reverse.
+
+581
+00:27:54,200 --> 00:27:56,324
+You can bet on the
+downside, in that way.
+
+582
+00:27:56,324 --> 00:27:57,740
+You can do something
+that's called
+
+583
+00:27:57,740 --> 00:28:04,040
+a butterfly spread, where
+basically it looks like this.
+
+584
+00:28:07,770 --> 00:28:13,400
+So the payoff if it stays
+within a range, you get paid.
+
+585
+00:28:13,400 --> 00:28:17,450
+But if it's really volatile,
+then you don't get paid.
+
+586
+00:28:17,450 --> 00:28:20,584
+So you're willing to give
+up the upside on both ends
+
+587
+00:28:20,584 --> 00:28:23,000
+because you think the stock
+is going to be self-contained.
+
+588
+00:28:23,000 --> 00:28:26,360
+You're betting against
+volatility increasing,
+
+589
+00:28:26,360 --> 00:28:28,760
+and you're using
+the ability to get
+
+590
+00:28:28,760 --> 00:28:35,010
+rid of those unbounded gains
+to finance the positions.
+
+591
+00:28:35,010 --> 00:28:39,680
+And it turns out that with
+these kinds of payoffs,
+
+592
+00:28:39,680 --> 00:28:44,030
+you can prove mathematically
+that it's possible to generate
+
+593
+00:28:44,030 --> 00:28:46,910
+any other payoff in the world.
+
+594
+00:28:46,910 --> 00:28:48,680
+There is a mathematical
+result that's
+
+595
+00:28:48,680 --> 00:28:53,600
+actually related to this Taylor
+approximation and Fourier
+
+596
+00:28:53,600 --> 00:28:57,350
+expansion that says that any
+possible security that you can
+
+597
+00:28:57,350 --> 00:29:01,730
+come up with can be approximated
+by a sequence of calls
+
+598
+00:29:01,730 --> 00:29:02,900
+and puts.
+
+599
+00:29:02,900 --> 00:29:05,450
+That's a really powerful idea.
+
+600
+00:29:05,450 --> 00:29:07,092
+But in fact, from a
+practical purpose,
+
+601
+00:29:07,092 --> 00:29:09,050
+you don't even need to
+use anything that fancy.
+
+602
+00:29:09,050 --> 00:29:12,620
+If you have just a very small
+number of calls and puts,
+
+603
+00:29:12,620 --> 00:29:15,470
+you can put together
+extraordinarily complex payoff
+
+604
+00:29:15,470 --> 00:29:20,240
+diagrams that will get you
+whatever kind of a risk profile
+
+605
+00:29:20,240 --> 00:29:21,310
+you're looking for.
+
+606
+00:29:21,310 --> 00:29:24,670
+That's the power
+of option pricing.
+
+607
+00:29:24,670 --> 00:29:27,700
+OK, any questions about
+these payoff diagrams?
+
+608
+00:29:27,700 --> 00:29:30,190
+I would urge you to work
+through a few examples just
+
+609
+00:29:30,190 --> 00:29:31,980
+to make sure you
+really understand them.
+
+610
+00:29:31,980 --> 00:29:36,316
+Because it's a easy thing to
+think that you understand.
+
+611
+00:29:36,316 --> 00:29:38,440
+But unless you're forced
+to go through the exercise
+
+612
+00:29:38,440 --> 00:29:40,210
+and draw these
+diagrams, you won't
+
+613
+00:29:40,210 --> 00:29:43,090
+have an appreciation
+for how to do them
+
+614
+00:29:43,090 --> 00:29:45,630
+and how important they are.
+
+615
+00:29:45,630 --> 00:29:46,774
+Yeah, question.
+
+616
+00:29:46,774 --> 00:29:48,662
+AUDIENCE: I'm
+curious for a while,
+
+617
+00:29:48,662 --> 00:29:54,616
+is there any
+implicit volatility,
+
+618
+00:29:54,616 --> 00:30:00,028
+I mean implicit in the price of
+an option and a call and a put,
+
+619
+00:30:00,028 --> 00:30:01,996
+is respective volatility
+of the market.
+
+620
+00:30:01,996 --> 00:30:05,440
+But how much inside that
+price is it actually
+
+621
+00:30:05,440 --> 00:30:06,916
+generating volatility itself?
+
+622
+00:30:06,916 --> 00:30:08,392
+Do you see what I'm saying?
+
+623
+00:30:08,392 --> 00:30:11,162
+The price, the call
+could also be a motor
+
+624
+00:30:11,162 --> 00:30:12,328
+of volatility in the market.
+
+625
+00:30:12,328 --> 00:30:13,780
+ANDREW LO: Yes. .
+
+626
+00:30:13,780 --> 00:30:14,790
+That's a great question.
+
+627
+00:30:14,790 --> 00:30:15,730
+Let me repeat it.
+
+628
+00:30:15,730 --> 00:30:18,360
+In fact, that question
+was asked shortly
+
+629
+00:30:18,360 --> 00:30:20,485
+after Black and Scholes
+came up with their formula.
+
+630
+00:30:23,590 --> 00:30:26,560
+It created the whole
+literature, which
+
+631
+00:30:26,560 --> 00:30:30,610
+was started by our very own
+former Dean, Dick Schmalensee.
+
+632
+00:30:30,610 --> 00:30:34,050
+He wrote a paper
+with a fellow named--
+
+633
+00:30:34,050 --> 00:30:37,100
+I think it's Robert Trippi,
+small Schmalensee and Trippi.
+
+634
+00:30:37,100 --> 00:30:40,450
+They wrote a paper on implied
+volatilities of options.
+
+635
+00:30:40,450 --> 00:30:43,960
+So the ideal is that
+options are actually
+
+636
+00:30:43,960 --> 00:30:46,700
+dependent on volatility.
+
+637
+00:30:46,700 --> 00:30:48,924
+And I'll show you that not
+this time, but next time.
+
+638
+00:30:48,924 --> 00:30:50,590
+I'm going to go through
+a pricing model.
+
+639
+00:30:50,590 --> 00:30:52,548
+And you're going to see
+how volatility actually
+
+640
+00:30:52,548 --> 00:30:54,250
+plays a very concrete role.
+
+641
+00:30:54,250 --> 00:30:56,630
+So they came up with
+a brilliant idea.
+
+642
+00:30:56,630 --> 00:30:58,661
+Let's take a look
+at an option price.
+
+643
+00:30:58,661 --> 00:31:00,160
+And we know what
+the stock price is.
+
+644
+00:31:00,160 --> 00:31:01,300
+We know what the
+strike price is.
+
+645
+00:31:01,300 --> 00:31:02,883
+We know what the
+other parameters are.
+
+646
+00:31:02,883 --> 00:31:06,160
+Let's ask the question,
+given the price of an option,
+
+647
+00:31:06,160 --> 00:31:09,580
+what is the volatility that
+is consistent with that market
+
+648
+00:31:09,580 --> 00:31:10,960
+price?
+
+649
+00:31:10,960 --> 00:31:14,650
+Because allowing you
+to invert the market
+
+650
+00:31:14,650 --> 00:31:17,350
+price for the
+volatility gives you
+
+651
+00:31:17,350 --> 00:31:18,850
+information about
+what's going on.
+
+652
+00:31:18,850 --> 00:31:20,350
+It's exactly the
+question you asked,
+
+653
+00:31:20,350 --> 00:31:23,620
+about information implicit
+in the market price.
+
+654
+00:31:23,620 --> 00:31:25,759
+It turns out that that's
+done all the time.
+
+655
+00:31:25,759 --> 00:31:27,300
+And not only is it
+done all the time,
+
+656
+00:31:27,300 --> 00:31:31,630
+but there is now an index that's
+been created by the Chicago
+
+657
+00:31:31,630 --> 00:31:35,620
+Board Options Exchange
+called the VIX, which
+
+658
+00:31:35,620 --> 00:31:40,120
+stands for the
+Volatility Implied Index.
+
+659
+00:31:40,120 --> 00:31:44,680
+What they do is they look
+at options on the S&P 500.
+
+660
+00:31:44,680 --> 00:31:47,440
+And they ask the question,
+what is the volatility that
+
+661
+00:31:47,440 --> 00:31:50,410
+is consistent with the
+option price on the S&P
+
+662
+00:31:50,410 --> 00:31:52,060
+for at-the-money option.
+
+663
+00:31:52,060 --> 00:31:53,800
+At-the-money means
+the strike price
+
+664
+00:31:53,800 --> 00:31:56,890
+is equal to the current price
+of the stock, or the index,
+
+665
+00:31:56,890 --> 00:31:58,280
+of this case.
+
+666
+00:31:58,280 --> 00:32:01,027
+And that's an incredibly
+important concept.
+
+667
+00:32:01,027 --> 00:32:02,860
+Because that tells you
+something about where
+
+668
+00:32:02,860 --> 00:32:06,580
+the market sees volatility
+going forward, not just looking
+
+669
+00:32:06,580 --> 00:32:07,420
+backwards.
+
+670
+00:32:07,420 --> 00:32:10,750
+But today, right now, what does
+the market think volatility
+
+671
+00:32:10,750 --> 00:32:12,140
+should be?
+
+672
+00:32:12,140 --> 00:32:14,420
+And if you look at the VIX
+over the last few weeks,
+
+673
+00:32:14,420 --> 00:32:17,170
+you're going to be shocked.
+
+674
+00:32:17,170 --> 00:32:19,600
+We're going to take a look
+at it next time, next Monday.
+
+675
+00:32:19,600 --> 00:32:22,090
+I'm going to do this in class,
+where I'll show you what
+
+676
+00:32:22,090 --> 00:32:23,770
+that volatility looks like.
+
+677
+00:32:23,770 --> 00:32:27,690
+Historically, the S&P 500 has
+had a volatility level of what?
+
+678
+00:32:27,690 --> 00:32:28,564
+Does anybody know?
+
+679
+00:32:28,564 --> 00:32:30,355
+What's the typical
+stock market volatility?
+
+680
+00:32:30,355 --> 00:32:31,530
+AUDIENCE: About 15%?
+
+681
+00:32:31,530 --> 00:32:32,770
+ANDREW LO: 15% to 20%.
+
+682
+00:32:32,770 --> 00:32:36,520
+Yeah, it's bounced around
+there, on an annualized basis.
+
+683
+00:32:36,520 --> 00:32:38,500
+Last week on an
+intradaily basis,
+
+684
+00:32:38,500 --> 00:32:41,440
+the VIX index, which is
+the Implied Volatility,
+
+685
+00:32:41,440 --> 00:32:47,305
+reached an interdaily high of
+89% volatility, for the stock.
+
+686
+00:32:47,305 --> 00:32:48,930
+And right now, I
+don't know what it is.
+
+687
+00:32:48,930 --> 00:32:49,930
+I haven't checked today.
+
+688
+00:32:49,930 --> 00:32:52,544
+But my guess is it's
+probably 60 to 70.
+
+689
+00:32:52,544 --> 00:32:53,340
+AUDIENCE: 71%.
+
+690
+00:32:53,340 --> 00:32:53,820
+ANDREW LO: Is it, what?
+
+691
+00:32:53,820 --> 00:32:54,570
+AUDIENCE: 71%.
+
+692
+00:32:54,570 --> 00:32:55,440
+ANDREW LO: 71%.
+
+693
+00:32:55,440 --> 00:32:58,680
+OK, 71% annual volatility.
+
+694
+00:32:58,680 --> 00:33:01,830
+Now, that's the forward-looking
+implied volatility
+
+695
+00:33:01,830 --> 00:33:03,180
+for S&P options.
+
+696
+00:33:03,180 --> 00:33:05,160
+And what that tells
+you is that we're
+
+697
+00:33:05,160 --> 00:33:07,290
+in for some turbulent
+times ahead.
+
+698
+00:33:07,290 --> 00:33:11,580
+If you look at the implied
+volatility for the one year
+
+699
+00:33:11,580 --> 00:33:14,370
+contract, it's going
+to be much lower.
+
+700
+00:33:14,370 --> 00:33:15,840
+Because people are
+going to expect
+
+701
+00:33:15,840 --> 00:33:19,320
+that the volatility of the
+S&P, going forward in time,
+
+702
+00:33:19,320 --> 00:33:21,960
+is going to decline between
+now and a year from now.
+
+703
+00:33:21,960 --> 00:33:22,890
+At least, we hope so.
+
+704
+00:33:22,890 --> 00:33:24,570
+Otherwise a lot of
+people are going
+
+705
+00:33:24,570 --> 00:33:27,350
+to be needing zan--
+zan-- what is it?
+
+706
+00:33:27,350 --> 00:33:32,500
+Zantac and other kinds
+of pharmaceuticals.
+
+707
+00:33:32,500 --> 00:33:33,780
+OK.
+
+708
+00:33:33,780 --> 00:33:35,970
+So those are option diagrams.
+
+709
+00:33:35,970 --> 00:33:38,340
+And I want to mention
+one last thing
+
+710
+00:33:38,340 --> 00:33:43,260
+before we go to the history
+of option pricing theory.
+
+711
+00:33:43,260 --> 00:33:46,860
+I want to mention that one
+of the reasons option pricing
+
+712
+00:33:46,860 --> 00:33:50,180
+theory has been so
+important in finance
+
+713
+00:33:50,180 --> 00:33:55,260
+is because soon after the papers
+by Black and Scholes and Merton
+
+714
+00:33:55,260 --> 00:34:02,140
+were published, it became clear
+that everywhere you looked,
+
+715
+00:34:02,140 --> 00:34:04,890
+there were options to be found.
+
+716
+00:34:04,890 --> 00:34:08,370
+That is, all other kinds of
+financial securities, when
+
+717
+00:34:08,370 --> 00:34:14,630
+you looked more closely, they
+were actually options as well.
+
+718
+00:34:14,630 --> 00:34:16,880
+So let me give you an example
+I said before that stock
+
+719
+00:34:16,880 --> 00:34:20,120
+prices were not like options.
+
+720
+00:34:20,120 --> 00:34:23,780
+Well, as an approximation,
+that's true.
+
+721
+00:34:23,780 --> 00:34:28,310
+But in reality, if you look
+carefully at what a stock is,
+
+722
+00:34:28,310 --> 00:34:32,760
+in fact, a stock is an option.
+
+723
+00:34:32,760 --> 00:34:35,400
+So let me see how that is.
+
+724
+00:34:35,400 --> 00:34:40,870
+Well, equity, the
+equity of a corporation
+
+725
+00:34:40,870 --> 00:34:45,010
+is a claim on the
+corporation's assets.
+
+726
+00:34:45,010 --> 00:34:50,050
+But if that corporation has any
+kind of debt financing, then
+
+727
+00:34:50,050 --> 00:34:53,409
+actually the equity
+holders are second in line.
+
+728
+00:34:53,409 --> 00:34:56,380
+The bondholders
+are first in line.
+
+729
+00:34:56,380 --> 00:34:59,950
+So the equity only gets
+paid after the bondholders
+
+730
+00:34:59,950 --> 00:35:01,570
+get paid off.
+
+731
+00:35:01,570 --> 00:35:05,110
+So in particular, if you
+think about the maturity
+
+732
+00:35:05,110 --> 00:35:08,920
+date of the bonds,
+then on maturity date,
+
+733
+00:35:08,920 --> 00:35:13,780
+the value of the equity is
+the maximum of either 0,
+
+734
+00:35:13,780 --> 00:35:16,540
+or the value of
+the firm's assets
+
+735
+00:35:16,540 --> 00:35:19,780
+minus the face
+value of the bond,
+
+736
+00:35:19,780 --> 00:35:23,110
+or what the bond has
+to be paid off at.
+
+737
+00:35:23,110 --> 00:35:25,090
+Because if the bondholders
+don't get paid,
+
+738
+00:35:25,090 --> 00:35:27,570
+then the equity
+holders get nothing.
+
+739
+00:35:27,570 --> 00:35:30,900
+Then the bondholders
+get the firm.
+
+740
+00:35:30,900 --> 00:35:34,590
+All of the assets of the firm
+transfer to the bondholders
+
+741
+00:35:34,590 --> 00:35:36,090
+through bankruptcy proceedings.
+
+742
+00:35:36,090 --> 00:35:37,920
+At least, that's the theory.
+
+743
+00:35:37,920 --> 00:35:43,110
+So the value of the equity on
+the maturity date for the bonds
+
+744
+00:35:43,110 --> 00:35:48,750
+is actually the maximum
+of 0, V minus B.
+
+745
+00:35:48,750 --> 00:35:50,700
+Now, that should look
+very familiar to you.
+
+746
+00:35:50,700 --> 00:35:55,550
+That should look like the
+payoff of a call option.
+
+747
+00:35:55,550 --> 00:36:00,050
+Where the strike price
+is B, and the value
+
+748
+00:36:00,050 --> 00:36:06,310
+of the underlying security is V,
+the value of the firm's assets.
+
+749
+00:36:06,310 --> 00:36:09,920
+So what that means is
+that equity holders can
+
+750
+00:36:09,920 --> 00:36:14,000
+be viewed as owning an
+option on the firm's assets
+
+751
+00:36:14,000 --> 00:36:20,010
+with a strike price of B.
+And the bondholders look
+
+752
+00:36:20,010 --> 00:36:24,210
+like they have a put option.
+
+753
+00:36:24,210 --> 00:36:27,560
+They've shorted a
+put on the firm.
+
+754
+00:36:27,560 --> 00:36:30,970
+But that's leveraged with
+a certain amount of debt.
+
+755
+00:36:30,970 --> 00:36:33,980
+It's a protected levered put,
+is the way that people usually
+
+756
+00:36:33,980 --> 00:36:34,760
+put it.
+
+757
+00:36:34,760 --> 00:36:36,860
+So the debt is the
+minimum of V or B.
+
+758
+00:36:36,860 --> 00:36:38,840
+You either get the
+assets, or you get what
+
+759
+00:36:38,840 --> 00:36:41,450
+you owed, which is smaller.
+
+760
+00:36:41,450 --> 00:36:45,560
+And you can show that that's
+equivalent to B minus max of 0B
+
+761
+00:36:45,560 --> 00:36:49,730
+minus V. That looks like
+a short put position mixed
+
+762
+00:36:49,730 --> 00:36:51,250
+in with some borrowing.
+
+763
+00:36:51,250 --> 00:36:53,750
+And when you add the two, you
+see that the value of the firm
+
+764
+00:36:53,750 --> 00:36:55,125
+is equal to the
+value of the debt
+
+765
+00:36:55,125 --> 00:36:56,480
+and the value of the equity.
+
+766
+00:36:56,480 --> 00:37:00,350
+The point of this example
+is that option pricing
+
+767
+00:37:00,350 --> 00:37:05,120
+can be used to value the capital
+structure of a corporation
+
+768
+00:37:05,120 --> 00:37:07,650
+as well.
+
+769
+00:37:07,650 --> 00:37:12,230
+And within the last few
+years, a very active part
+
+770
+00:37:12,230 --> 00:37:14,990
+of the hedge fund
+industry has been
+
+771
+00:37:14,990 --> 00:37:17,810
+devoted to engaging in something
+called capital structure
+
+772
+00:37:17,810 --> 00:37:18,980
+arbitrage.
+
+773
+00:37:18,980 --> 00:37:23,740
+Capital structure arbitrage says
+that this equation has to hold.
+
+774
+00:37:23,740 --> 00:37:26,920
+But in practice,
+there is a discrepancy
+
+775
+00:37:26,920 --> 00:37:31,660
+with what the market value for D
+is, and the market value for E.
+
+776
+00:37:31,660 --> 00:37:35,380
+And using option pricing theory
+and models for credit risk,
+
+777
+00:37:35,380 --> 00:37:39,070
+hedge funds have been able to
+make a play by either buying
+
+778
+00:37:39,070 --> 00:37:41,740
+a company's equity and shorting
+their debt, or buying the debt
+
+779
+00:37:41,740 --> 00:37:43,948
+and shorting the equity,
+whichever is cheaper or more
+
+780
+00:37:43,948 --> 00:37:48,220
+expensive, and engaging in
+what seems like an arbitrage
+
+781
+00:37:48,220 --> 00:37:49,210
+transaction.
+
+782
+00:37:49,210 --> 00:37:51,700
+Now, that presupposes
+that you've got the credit
+
+783
+00:37:51,700 --> 00:37:53,990
+calculations done correctly.
+
+784
+00:37:53,990 --> 00:37:56,170
+So in order to engage
+in those kind of trades,
+
+785
+00:37:56,170 --> 00:37:58,720
+you have to have
+superior credit modeling
+
+786
+00:37:58,720 --> 00:38:01,060
+capabilities, certainly
+better than what
+
+787
+00:38:01,060 --> 00:38:02,290
+rating agencies were doing.
+
+788
+00:38:02,290 --> 00:38:05,230
+And actually, there were cases
+where hedge funds were actively
+
+789
+00:38:05,230 --> 00:38:07,630
+betting against
+rating agency models.
+
+790
+00:38:07,630 --> 00:38:10,990
+Because they felt that
+rating agencies had mispriced
+
+791
+00:38:10,990 --> 00:38:15,490
+some of their ratings based upon
+the models that they'd created,
+
+792
+00:38:15,490 --> 00:38:19,800
+versus the ones the rating
+agencies were using.
+
+793
+00:38:19,800 --> 00:38:24,330
+Now, turns out that when
+you look more carefully
+
+794
+00:38:24,330 --> 00:38:31,010
+at other securities, and even
+other kinds of opportunities,
+
+795
+00:38:31,010 --> 00:38:33,990
+options are there as well.
+
+796
+00:38:33,990 --> 00:38:40,350
+For example, when I started
+here at MIT, 20 years ago,
+
+797
+00:38:40,350 --> 00:38:44,510
+I remember, distinctly,
+some of my senior colleagues
+
+798
+00:38:44,510 --> 00:38:49,610
+referring to Assistant
+Professors as options.
+
+799
+00:38:49,610 --> 00:38:50,150
+[LAUGHTER]
+
+800
+00:38:50,150 --> 00:38:52,910
+Now, let me explain.
+
+801
+00:38:52,910 --> 00:38:55,700
+You know that in academia,
+when you start out
+
+802
+00:38:55,700 --> 00:38:57,920
+as a Assistant
+Professor, there's
+
+803
+00:38:57,920 --> 00:39:00,560
+no guarantee for employment.
+
+804
+00:39:00,560 --> 00:39:03,500
+You have, typically,
+a three-year contract.
+
+805
+00:39:03,500 --> 00:39:05,720
+And at the end of three
+years you either get renewed
+
+806
+00:39:05,720 --> 00:39:07,520
+or you get fired.
+
+807
+00:39:07,520 --> 00:39:09,260
+And at the end of
+the next three years,
+
+808
+00:39:09,260 --> 00:39:12,590
+you come up for what's
+called a tenure review.
+
+809
+00:39:12,590 --> 00:39:14,450
+Tenure review means
+that they send letters
+
+810
+00:39:14,450 --> 00:39:18,560
+to 15 of the top people in
+your field across the country.
+
+811
+00:39:18,560 --> 00:39:20,280
+Across the world, actually.
+
+812
+00:39:20,280 --> 00:39:23,750
+And they base their decision
+on whether to give you
+
+813
+00:39:23,750 --> 00:39:28,040
+lifetime guaranteed employment,
+as to whether or not
+
+814
+00:39:28,040 --> 00:39:32,240
+these 15 people say
+that you're the greatest
+
+815
+00:39:32,240 --> 00:39:35,370
+thing since whatever.
+
+816
+00:39:35,370 --> 00:39:38,960
+And if you don't get
+that kind of review,
+
+817
+00:39:38,960 --> 00:39:40,397
+then you're asked to leave.
+
+818
+00:39:40,397 --> 00:39:41,480
+I mean, you have to leave.
+
+819
+00:39:41,480 --> 00:39:43,910
+There's no choice for
+continued employment.
+
+820
+00:39:43,910 --> 00:39:48,500
+So the idea behind hiring
+Assistant Professors
+
+821
+00:39:48,500 --> 00:39:53,430
+were that each one of them
+was viewed as an option.
+
+822
+00:39:53,430 --> 00:39:57,220
+Meaning that you could
+benefit from them for a while.
+
+823
+00:39:57,220 --> 00:40:00,180
+But if they didn't work out, you
+could always get rid of them.
+
+824
+00:40:00,180 --> 00:40:02,470
+But once you got
+tenure, that was it.
+
+825
+00:40:02,470 --> 00:40:04,110
+There was no longer an option.
+
+826
+00:40:04,110 --> 00:40:07,370
+So what that suggested,
+from a hiring perspective,
+
+827
+00:40:07,370 --> 00:40:10,080
+is what kind of
+Assistant Professor
+
+828
+00:40:10,080 --> 00:40:12,680
+should you hire if you
+believe in option pricing,
+
+829
+00:40:12,680 --> 00:40:16,730
+as applied to the labor market?
+
+830
+00:40:16,730 --> 00:40:19,267
+Can you can you
+characterize the type of--
+
+831
+00:40:19,267 --> 00:40:20,100
+Yeah, what was that?
+
+832
+00:40:20,100 --> 00:40:20,540
+AUDIENCE: Take risks.
+
+833
+00:40:20,540 --> 00:40:21,670
+ANDREW LO: Take risks.
+
+834
+00:40:21,670 --> 00:40:27,260
+You want to hire faculty
+that are extremely volatile.
+
+835
+00:40:27,260 --> 00:40:30,640
+Not emotionally, hopefully,
+but intellectually.
+
+836
+00:40:30,640 --> 00:40:34,330
+In other words, because
+you get all the upside,
+
+837
+00:40:34,330 --> 00:40:35,961
+but you don't get any downside.
+
+838
+00:40:35,961 --> 00:40:37,960
+So what you want to do
+is you want to take risk.
+
+839
+00:40:37,960 --> 00:40:42,430
+You want to take chances on
+faculty that may or may not
+
+840
+00:40:42,430 --> 00:40:43,150
+work out.
+
+841
+00:40:43,150 --> 00:40:45,580
+And that, in fact,
+has been the approach
+
+842
+00:40:45,580 --> 00:40:48,400
+that we and others have
+used in hiring, based
+
+843
+00:40:48,400 --> 00:40:50,500
+upon this kind of
+option pricing analysis.
+
+844
+00:40:50,500 --> 00:40:52,420
+And it applies to
+all sorts of things.
+
+845
+00:40:52,420 --> 00:40:54,310
+When you think about
+getting an education,
+
+846
+00:40:54,310 --> 00:40:58,030
+you can argue that getting
+an education is an option.
+
+847
+00:40:58,030 --> 00:40:59,720
+You don't have to
+use your degree.
+
+848
+00:40:59,720 --> 00:41:00,910
+You don't have to
+use your education.
+
+849
+00:41:00,910 --> 00:41:01,576
+But you have it.
+
+850
+00:41:01,576 --> 00:41:02,800
+It's an option.
+
+851
+00:41:02,800 --> 00:41:06,880
+And so thinking about value in
+education, you could actually
+
+852
+00:41:06,880 --> 00:41:10,550
+use this framework, try
+to compute the flexibility
+
+853
+00:41:10,550 --> 00:41:12,700
+it gives you, in order
+to take advantage
+
+854
+00:41:12,700 --> 00:41:16,150
+of career opportunities.
+
+855
+00:41:16,150 --> 00:41:19,010
+So there are lots of things
+that look like options.
+
+856
+00:41:19,010 --> 00:41:20,502
+Yeah, Megan?
+
+857
+00:41:20,502 --> 00:41:28,438
+AUDIENCE: [INAUDIBLE] distressed
+debt manager, [INAUDIBLE]?
+
+858
+00:41:38,854 --> 00:41:41,470
+ANDREW LO: A
+distressed debt manager
+
+859
+00:41:41,470 --> 00:41:43,810
+if they're holding
+distressed debt of a company,
+
+860
+00:41:43,810 --> 00:41:46,870
+they would actually be
+holding a short put position.
+
+861
+00:41:46,870 --> 00:41:48,130
+They're holding the debt.
+
+862
+00:41:48,130 --> 00:41:49,642
+So they have a
+short put position.
+
+863
+00:41:49,642 --> 00:41:51,100
+So if they wanted
+to hedge it, they
+
+864
+00:41:51,100 --> 00:41:55,100
+can either buy a
+put on the assets,
+
+865
+00:41:55,100 --> 00:41:58,023
+which would then help them
+to hedge it out, Yeah, right.
+
+866
+00:42:02,330 --> 00:42:04,610
+And as I was saying,
+there are all sorts
+
+867
+00:42:04,610 --> 00:42:10,400
+of other examples of options
+and derivative securities.
+
+868
+00:42:10,400 --> 00:42:12,020
+The field has exploded.
+
+869
+00:42:12,020 --> 00:42:15,380
+There are literally
+many, many trillions
+
+870
+00:42:15,380 --> 00:42:18,690
+of dollars of notional amounts.
+
+871
+00:42:18,690 --> 00:42:21,440
+Now, again, notional amounts
+can be a little bit misleading.
+
+872
+00:42:21,440 --> 00:42:24,200
+Because you know that
+for every option seller,
+
+873
+00:42:24,200 --> 00:42:25,250
+there's an option buyer.
+
+874
+00:42:25,250 --> 00:42:28,650
+Options are zero net
+investment side bets,
+
+875
+00:42:28,650 --> 00:42:30,910
+unlike equities,
+where companies that
+
+876
+00:42:30,910 --> 00:42:33,860
+have real assets behind
+them issue pieces of paper
+
+877
+00:42:33,860 --> 00:42:34,880
+called equity.
+
+878
+00:42:34,880 --> 00:42:38,180
+Options are issued by
+the Options Clearing
+
+879
+00:42:38,180 --> 00:42:41,510
+Corporation for the Chicago
+Board Options Exchange.
+
+880
+00:42:41,510 --> 00:42:43,310
+The Mercantile Exchange
+also has options.
+
+881
+00:42:43,310 --> 00:42:45,060
+There's options
+traded everywhere.
+
+882
+00:42:45,060 --> 00:42:46,852
+In fact, one of the
+largest exchanges
+
+883
+00:42:46,852 --> 00:42:48,560
+is the International
+Securities Exchange.
+
+884
+00:42:48,560 --> 00:42:50,360
+It was started up
+by Bill Porter,
+
+885
+00:42:50,360 --> 00:42:52,130
+the fellow who started e-trade.
+
+886
+00:42:52,130 --> 00:42:55,550
+And it is the most active
+options exchange in the world.
+
+887
+00:42:55,550 --> 00:42:57,290
+It's all done electronically.
+
+888
+00:42:57,290 --> 00:43:00,410
+And these options
+are pure side bets.
+
+889
+00:43:00,410 --> 00:43:04,265
+But they're not just for
+purposes of gambling.
+
+890
+00:43:04,265 --> 00:43:07,760
+They're for purposes of hedging
+and engaging in insurance,
+
+891
+00:43:07,760 --> 00:43:10,260
+of the kind that we
+talked about before.
+
+892
+00:43:10,260 --> 00:43:13,250
+So this has really exploded.
+
+893
+00:43:13,250 --> 00:43:16,310
+And that's why we have an
+entire course, 15.437, devoted
+
+894
+00:43:16,310 --> 00:43:20,780
+to just the pricing of
+options and futures.
+
+895
+00:43:20,780 --> 00:43:25,730
+So we can't, obviously, cover
+all of it in this course.
+
+896
+00:43:25,730 --> 00:43:27,770
+But I want to just give
+you a flavor of it.
+
+897
+00:43:27,770 --> 00:43:30,590
+Let me skip, now,
+this next section
+
+898
+00:43:30,590 --> 00:43:32,079
+on valuation of options.
+
+899
+00:43:32,079 --> 00:43:34,370
+Because as I said, this is
+a little bit more technical.
+
+900
+00:43:34,370 --> 00:43:36,036
+I want to spend some
+time on it and make
+
+901
+00:43:36,036 --> 00:43:37,790
+sure you all understand it.
+
+902
+00:43:37,790 --> 00:43:40,070
+And then I will come
+back to this on Monday.
+
+903
+00:43:40,070 --> 00:43:42,320
+When I want to do now is
+just to give you a little bit
+
+904
+00:43:42,320 --> 00:43:43,760
+of a history of option pricing.
+
+905
+00:43:43,760 --> 00:43:45,710
+Because it's kind of fun.
+
+906
+00:43:45,710 --> 00:43:49,910
+First of all, in order to
+figure out how to price options,
+
+907
+00:43:49,910 --> 00:43:53,240
+we have to begin
+with figuring out
+
+908
+00:43:53,240 --> 00:43:57,020
+what a particular model would
+be for the underlying stock.
+
+909
+00:43:57,020 --> 00:43:59,150
+In order to price an
+option, you actually
+
+910
+00:43:59,150 --> 00:44:02,060
+have to say something
+about how the underlying
+
+911
+00:44:02,060 --> 00:44:04,310
+security behaves.
+
+912
+00:44:04,310 --> 00:44:05,840
+So we have to start with that.
+
+913
+00:44:05,840 --> 00:44:10,910
+And we're going to start in
+the very early 16th century,
+
+914
+00:44:10,910 --> 00:44:15,710
+with probably the first-known
+model for asset prices
+
+915
+00:44:15,710 --> 00:44:18,800
+that ever existed in the world.
+
+916
+00:44:18,800 --> 00:44:22,130
+And that was developed by
+a Italian mathematician
+
+917
+00:44:22,130 --> 00:44:24,650
+by the name of your
+Gerolamo Cardano.
+
+918
+00:44:24,650 --> 00:44:26,960
+Now, those of you who were
+on high school math team,
+
+919
+00:44:26,960 --> 00:44:28,440
+I suspect you've
+heard of Cardano.
+
+920
+00:44:28,440 --> 00:44:32,550
+Anybody tell me who Cardano was?
+
+921
+00:44:32,550 --> 00:44:34,210
+No math team geeks here?
+
+922
+00:44:36,800 --> 00:44:40,280
+All right, Cardano
+was, it turns out,
+
+923
+00:44:40,280 --> 00:44:42,680
+the second person
+to have come up
+
+924
+00:44:42,680 --> 00:44:46,266
+with a solution for
+the cubic equation.
+
+925
+00:44:46,266 --> 00:44:48,390
+You all know what the
+quadratic equation is, right?
+
+926
+00:44:48,390 --> 00:44:52,430
+You know, ax squared
+plus bx plus c equals 0.
+
+927
+00:44:52,430 --> 00:44:53,600
+That's a quadratic equation.
+
+928
+00:44:53,600 --> 00:44:57,140
+Anybody know what the
+solution of that is?
+
+929
+00:44:57,140 --> 00:44:58,269
+Yeah, what is that?
+
+930
+00:44:58,269 --> 00:45:02,490
+AUDIENCE: [INAUDIBLE]
+
+931
+00:45:02,490 --> 00:45:03,020
+Great Great.
+
+932
+00:45:03,020 --> 00:45:04,936
+All right, You get the
+pocket protector award.
+
+933
+00:45:04,936 --> 00:45:07,170
+[LAUGHTER]
+
+934
+00:45:07,170 --> 00:45:08,750
+Very good.
+
+935
+00:45:08,750 --> 00:45:10,790
+It turns out that
+there is exactly
+
+936
+00:45:10,790 --> 00:45:13,285
+the same kind of solution
+for the cubic equation.
+
+937
+00:45:13,285 --> 00:45:14,660
+Of course, nobody
+remembers that.
+
+938
+00:45:14,660 --> 00:45:16,243
+I won't ask you
+whether you know that.
+
+939
+00:45:16,243 --> 00:45:17,010
+You might.
+
+940
+00:45:17,010 --> 00:45:19,270
+But there is a formula
+for the cubic equation.
+
+941
+00:45:19,270 --> 00:45:22,915
+It turns out that there are no
+more formulas beyond the cubic.
+
+942
+00:45:22,915 --> 00:45:24,290
+So there's something
+very special
+
+943
+00:45:24,290 --> 00:45:25,670
+about the cubic equation.
+
+944
+00:45:25,670 --> 00:45:28,670
+And this Italian
+mathematician, Cardano,
+
+945
+00:45:28,670 --> 00:45:29,840
+was the first to publish it.
+
+946
+00:45:29,840 --> 00:45:31,340
+The reason I say that
+he's the second person
+
+947
+00:45:31,340 --> 00:45:33,006
+to come up with it,
+is that it turns out
+
+948
+00:45:33,006 --> 00:45:36,200
+he stole the formula from a
+colleague, and a colleague who
+
+949
+00:45:36,200 --> 00:45:37,940
+had actually come up
+with the solution.
+
+950
+00:45:37,940 --> 00:45:40,190
+And Cardano heard about
+it and said, well,
+
+951
+00:45:40,190 --> 00:45:41,374
+please tell me what it is.
+
+952
+00:45:41,374 --> 00:45:42,790
+And the other
+person said, I'm not
+
+953
+00:45:42,790 --> 00:45:43,540
+going to tell you what it is.
+
+954
+00:45:43,540 --> 00:45:45,080
+Because you're going to just
+write it up and claim credit.
+
+955
+00:45:45,080 --> 00:45:47,210
+And Cardano says no,
+no, I promise I won't.
+
+956
+00:45:47,210 --> 00:45:49,710
+And then the guy says,
+all right, here it is.
+
+957
+00:45:49,710 --> 00:45:50,290
+He told him.
+
+958
+00:45:50,290 --> 00:45:53,390
+And then Cardano did,
+in fact, rip him off.
+
+959
+00:45:53,390 --> 00:45:55,010
+So it's known as
+Cardano's formula,
+
+960
+00:45:55,010 --> 00:45:55,790
+but it really shouldn't.
+
+961
+00:45:55,790 --> 00:45:57,980
+And I'm embarrassed to say,
+I don't remember the guy
+
+962
+00:45:57,980 --> 00:46:01,350
+who actually invented it.
+
+963
+00:46:01,350 --> 00:46:03,770
+But Cardano, in addition
+to having come up
+
+964
+00:46:03,770 --> 00:46:07,200
+with this solution, or
+stolen this solution,
+
+965
+00:46:07,200 --> 00:46:10,070
+Cardano also wrote
+a book on gambling.
+
+966
+00:46:10,070 --> 00:46:12,920
+And this book, which
+is titled Liber De Ludo
+
+967
+00:46:12,920 --> 00:46:15,980
+Aleae, The Laws of
+Gambling, he developed
+
+968
+00:46:15,980 --> 00:46:21,470
+what was the precursor to the
+modern mathematical description
+
+969
+00:46:21,470 --> 00:46:22,910
+of stock prices.
+
+970
+00:46:22,910 --> 00:46:24,787
+And it was described
+in this way.
+
+971
+00:46:24,787 --> 00:46:26,870
+"The most fundamental
+principle of all in gambling
+
+972
+00:46:26,870 --> 00:46:28,910
+is simply equal conditions, e.g.
+
+973
+00:46:28,910 --> 00:46:32,060
+of opponents, of bystanders,
+of money, of situation,
+
+974
+00:46:32,060 --> 00:46:35,180
+of the dice box,
+and the die itself.
+
+975
+00:46:35,180 --> 00:46:38,600
+To the extent to which you
+depart from that equality,
+
+976
+00:46:38,600 --> 00:46:41,540
+if it is in your opponent's
+favor, you are a fool,
+
+977
+00:46:41,540 --> 00:46:44,630
+and if in your own,
+you are unjust."
+
+978
+00:46:44,630 --> 00:46:46,310
+It turns out that
+what he was describing
+
+979
+00:46:46,310 --> 00:46:48,860
+was, essentially, a 50/50 bet.
+
+980
+00:46:48,860 --> 00:46:51,740
+Or what we call a
+fair game, or what
+
+981
+00:46:51,740 --> 00:46:53,980
+is now known as a martingale.
+
+982
+00:46:53,980 --> 00:47:00,980
+A martingale simply says that
+expected winnings and losses
+
+983
+00:47:00,980 --> 00:47:01,850
+is equal to 0.
+
+984
+00:47:01,850 --> 00:47:05,750
+Or rather, your expected
+wealth next period
+
+985
+00:47:05,750 --> 00:47:08,570
+is equal to whatever
+your wealth is today
+
+986
+00:47:08,570 --> 00:47:14,270
+if you have a fair game
+that you're betting on.
+
+987
+00:47:14,270 --> 00:47:16,100
+It turns out that
+that simple model
+
+988
+00:47:16,100 --> 00:47:19,250
+developed into what we now
+think of as the Random Walk
+
+989
+00:47:19,250 --> 00:47:20,060
+Hypothesis.
+
+990
+00:47:20,060 --> 00:47:23,180
+And the Random Walk was
+really the fundamental driver
+
+991
+00:47:23,180 --> 00:47:26,150
+behind the option pricing
+model that Black and Scholes
+
+992
+00:47:26,150 --> 00:47:28,010
+and Merton developed.
+
+993
+00:47:28,010 --> 00:47:30,620
+Now, the reason the Random
+Walk holds a very special place
+
+994
+00:47:30,620 --> 00:47:33,290
+in the hearts of
+financial economist
+
+995
+00:47:33,290 --> 00:47:35,630
+is because most
+economists suffer
+
+996
+00:47:35,630 --> 00:47:40,610
+from a psychological disorder
+that we call physics envy.
+
+997
+00:47:40,610 --> 00:47:43,220
+We all wish that we had
+these three laws that
+
+998
+00:47:43,220 --> 00:47:46,110
+explains 99% of all behavior.
+
+999
+00:47:46,110 --> 00:47:48,170
+In fact, economists have
+99 laws that explain
+
+1000
+00:47:48,170 --> 00:47:50,910
+maybe 3% of economic behavior.
+
+1001
+00:47:50,910 --> 00:47:56,870
+But there's one example, only
+one, in the history of finance,
+
+1002
+00:47:56,870 --> 00:48:01,520
+where an economist actually
+came up with an idea
+
+1003
+00:48:01,520 --> 00:48:02,930
+before a physicist.
+
+1004
+00:48:02,930 --> 00:48:06,230
+And that was later
+adopted by a physicist.
+
+1005
+00:48:06,230 --> 00:48:09,630
+And the idea I'm talking about
+is the Random Walk hypothesis,
+
+1006
+00:48:09,630 --> 00:48:13,040
+or in the continuous time
+realm, Brownian motion.
+
+1007
+00:48:13,040 --> 00:48:17,600
+In 1900, a student by the
+name of Louis Bachelier
+
+1008
+00:48:17,600 --> 00:48:22,310
+was writing a
+dissertation in Paris.
+
+1009
+00:48:22,310 --> 00:48:23,840
+He was a mathematics
+PhD student.
+
+1010
+00:48:23,840 --> 00:48:26,060
+But he was writing about
+pricing warrants that were
+
+1011
+00:48:26,060 --> 00:48:28,220
+trading on the Paris Bourse.
+
+1012
+00:48:28,220 --> 00:48:30,200
+So it was a finance thesis.
+
+1013
+00:48:30,200 --> 00:48:32,959
+And in order to
+solve the problem,
+
+1014
+00:48:32,959 --> 00:48:35,000
+he had to come up with a
+mathematical description
+
+1015
+00:48:35,000 --> 00:48:36,620
+for the underlying price.
+
+1016
+00:48:36,620 --> 00:48:39,530
+And he came up with this
+notion of what we now
+
+1017
+00:48:39,530 --> 00:48:42,350
+call Brownian motion,
+of Random Walk.
+
+1018
+00:48:42,350 --> 00:48:46,610
+And he did it a full three years
+before a well-known physicist
+
+1019
+00:48:46,610 --> 00:48:47,750
+published a paper on that.
+
+1020
+00:48:47,750 --> 00:48:49,130
+Anybody know who
+that physicist was?
+
+1021
+00:48:49,130 --> 00:48:50,088
+AUDIENCE: Was it Brown?
+
+1022
+00:48:50,088 --> 00:48:50,710
+ANDREW LO: No.
+
+1023
+00:48:50,710 --> 00:48:52,927
+No, Brown was many years before.
+
+1024
+00:48:52,927 --> 00:48:53,885
+And he was a biologist.
+
+1025
+00:48:53,885 --> 00:48:54,230
+Yeah?
+
+1026
+00:48:54,230 --> 00:48:55,021
+AUDIENCE: Einstein.
+
+1027
+00:48:55,021 --> 00:48:58,610
+ANDREW LO: That's right,
+Albert Einstein, in 1903,
+
+1028
+00:48:58,610 --> 00:49:01,250
+actually published a paper
+on the photoelectric effect
+
+1029
+00:49:01,250 --> 00:49:02,970
+and Brownian motion.
+
+1030
+00:49:02,970 --> 00:49:07,820
+And if you take a look
+at what Baschelier did,
+
+1031
+00:49:07,820 --> 00:49:10,040
+he was working with the
+French mathematician
+
+1032
+00:49:10,040 --> 00:49:12,200
+by the name of Henri Poincare.
+
+1033
+00:49:12,200 --> 00:49:15,410
+Poincare was a very
+well-known mathematician
+
+1034
+00:49:15,410 --> 00:49:18,380
+who was the advisor
+to Baschelier,
+
+1035
+00:49:18,380 --> 00:49:20,310
+and who is renowned
+now for a variety
+
+1036
+00:49:20,310 --> 00:49:22,310
+of different contributions,
+including the theory
+
+1037
+00:49:22,310 --> 00:49:24,220
+of dynamical systems.
+
+1038
+00:49:24,220 --> 00:49:27,470
+Baschelier wrote this thesis
+and developed the mathematics
+
+1039
+00:49:27,470 --> 00:49:29,570
+of Brownian motion.
+
+1040
+00:49:29,570 --> 00:49:31,370
+And when he was
+looking for a job,
+
+1041
+00:49:31,370 --> 00:49:33,590
+Poincare wrote a letter
+of recommendation.
+
+1042
+00:49:33,590 --> 00:49:37,220
+And this is what Poincare
+wrote about Baschelier.
+
+1043
+00:49:37,220 --> 00:49:40,880
+He said that "The manner in
+which the candidate obtains
+
+1044
+00:49:40,880 --> 00:49:44,014
+the law of Gauss is most
+original, and all the more
+
+1045
+00:49:44,014 --> 00:49:45,680
+interesting as the
+same reasoning might,
+
+1046
+00:49:45,680 --> 00:49:48,830
+with a few changes, be extended
+to the theory of errors.
+
+1047
+00:49:48,830 --> 00:49:50,420
+He develops this
+in a chapter which
+
+1048
+00:49:50,420 --> 00:49:52,010
+might at first seem strange.
+
+1049
+00:49:52,010 --> 00:49:57,760
+For he titles it
+'Radiation of Probability.'
+
+1050
+00:49:57,760 --> 00:50:01,270
+In effect, the author
+resorts to a comparison
+
+1051
+00:50:01,270 --> 00:50:05,110
+with the analytical theory
+of the propagation of heat."
+
+1052
+00:50:05,110 --> 00:50:07,040
+Now, remember this is
+a thesis on pricing
+
+1053
+00:50:07,040 --> 00:50:10,620
+warrants on the Paris Bourse.
+
+1054
+00:50:10,620 --> 00:50:14,400
+Fourier's reasoning
+is applicable almost
+
+1055
+00:50:14,400 --> 00:50:17,260
+without change to this problem.
+
+1056
+00:50:17,260 --> 00:50:21,836
+Which is so different from that
+for which it had been created."
+
+1057
+00:50:21,836 --> 00:50:23,460
+And of course, his
+adviser, at the end,
+
+1058
+00:50:23,460 --> 00:50:25,740
+always has to complain a
+little bit about his student,
+
+1059
+00:50:25,740 --> 00:50:26,760
+as we all do.
+
+1060
+00:50:26,760 --> 00:50:30,812
+So he said, "It is regrettable
+that the author did not
+
+1061
+00:50:30,812 --> 00:50:32,520
+develop this part of
+his thesis further."
+
+1062
+00:50:35,550 --> 00:50:38,490
+What Poincare was mentioning,
+with regard to Fourier,
+
+1063
+00:50:38,490 --> 00:50:40,740
+was the theory of
+heat conduction.
+
+1064
+00:50:40,740 --> 00:50:43,800
+In physics, there is
+a very standard model
+
+1065
+00:50:43,800 --> 00:50:48,810
+that everybody that goes into
+advanced physics will cover.
+
+1066
+00:50:48,810 --> 00:50:51,570
+And that is, how does
+heat get conducted
+
+1067
+00:50:51,570 --> 00:50:53,280
+through a solid medium?
+
+1068
+00:50:53,280 --> 00:50:56,370
+And in deriving the
+equation that ultimately
+
+1069
+00:50:56,370 --> 00:50:59,430
+is known as the heat
+equation, you actually
+
+1070
+00:50:59,430 --> 00:51:03,840
+use the same theory that
+Baschelier applied to pricing
+
+1071
+00:51:03,840 --> 00:51:05,100
+warrants on the Paris Bourse.
+
+1072
+00:51:05,100 --> 00:51:09,547
+He gets what's known as a
+partial differential equation.
+
+1073
+00:51:09,547 --> 00:51:10,630
+And that's it right there.
+
+1074
+00:51:10,630 --> 00:51:12,090
+That's the equation that
+he used in his thesis.
+
+1075
+00:51:12,090 --> 00:51:14,048
+If you look at his thesis,
+you'll see it there.
+
+1076
+00:51:14,048 --> 00:51:15,190
+That's the heat equation.
+
+1077
+00:51:15,190 --> 00:51:17,648
+It's the same equation that
+explains the conduction of heat
+
+1078
+00:51:17,648 --> 00:51:19,380
+in a solid medium.
+
+1079
+00:51:19,380 --> 00:51:21,750
+But he derives it
+for the purpose
+
+1080
+00:51:21,750 --> 00:51:24,270
+of pricing this
+financial security.
+
+1081
+00:51:24,270 --> 00:51:27,930
+Now, it turns out that
+there was one slight mistake
+
+1082
+00:51:27,930 --> 00:51:29,805
+that Baschelier
+made in his thesis.
+
+1083
+00:51:29,805 --> 00:51:33,720
+It was a mathematical error
+that, ultimately, didn't really
+
+1084
+00:51:33,720 --> 00:51:35,490
+affect the results.
+
+1085
+00:51:35,490 --> 00:51:37,980
+But it became known.
+
+1086
+00:51:37,980 --> 00:51:40,080
+And when he came
+up for tenure, they
+
+1087
+00:51:40,080 --> 00:51:42,600
+wrote to all the various
+different big names.
+
+1088
+00:51:42,600 --> 00:51:45,060
+And he was ultimately
+turned down for tenure,
+
+1089
+00:51:45,060 --> 00:51:47,040
+because they found this mistake.
+
+1090
+00:51:47,040 --> 00:51:48,750
+And he was blackballed.
+
+1091
+00:51:48,750 --> 00:51:52,110
+So he couldn't get a job
+except for a small teaching
+
+1092
+00:51:52,110 --> 00:51:55,204
+college, a women's teaching
+college in the south of France.
+
+1093
+00:51:55,204 --> 00:51:56,870
+Which frankly, sounds
+pretty good to me.
+
+1094
+00:51:56,870 --> 00:51:59,270
+[LAUGHTER]
+
+1095
+00:51:59,270 --> 00:52:06,090
+But you know, for
+him, it was not
+
+1096
+00:52:06,090 --> 00:52:08,160
+the way he would not
+want to end his career.
+
+1097
+00:52:08,160 --> 00:52:10,080
+But at the end of
+his career, it was
+
+1098
+00:52:10,080 --> 00:52:12,260
+discovered that this
+mistake was not as serious.
+
+1099
+00:52:12,260 --> 00:52:14,010
+And people wrote him
+a letter saying, gee,
+
+1100
+00:52:14,010 --> 00:52:15,250
+you're a great guy anyway.
+
+1101
+00:52:18,480 --> 00:52:20,400
+Paul Samuelson,
+actually, was the person
+
+1102
+00:52:20,400 --> 00:52:22,680
+who discovered
+Baschelier's thesis when
+
+1103
+00:52:22,680 --> 00:52:26,040
+he was in Paris at
+the Sorbonne, reading
+
+1104
+00:52:26,040 --> 00:52:27,750
+through various
+different archives.
+
+1105
+00:52:27,750 --> 00:52:31,100
+So Paul Samuelson's
+responsible for resurrecting
+
+1106
+00:52:31,100 --> 00:52:35,050
+the reputation and the
+work of Louis Baschelier.
+
+1107
+00:52:35,050 --> 00:52:36,720
+You can see his thesis now.
+
+1108
+00:52:36,720 --> 00:52:39,630
+It's been republished
+and reprinted.
+
+1109
+00:52:39,630 --> 00:52:43,080
+But the point of the
+thesis is that by assuming
+
+1110
+00:52:43,080 --> 00:52:45,810
+that the underlying stock
+price was a Random Walk,
+
+1111
+00:52:45,810 --> 00:52:48,420
+and by developing the
+mathematics of the Random Walk,
+
+1112
+00:52:48,420 --> 00:52:50,940
+he was able to figure out
+what the price of an option
+
+1113
+00:52:50,940 --> 00:52:53,310
+was on that stock.
+
+1114
+00:52:53,310 --> 00:52:55,140
+And it turns out
+that the pricing
+
+1115
+00:52:55,140 --> 00:52:57,570
+of the option on
+the stock reduces
+
+1116
+00:52:57,570 --> 00:52:59,850
+to solving this heat equation.
+
+1117
+00:52:59,850 --> 00:53:01,890
+And that explains why
+there are, nowadays,
+
+1118
+00:53:01,890 --> 00:53:03,665
+so many physicists and
+mathematicians that
+
+1119
+00:53:03,665 --> 00:53:04,290
+are in finance.
+
+1120
+00:53:04,290 --> 00:53:08,280
+It's because the whole body
+of knowledge that comes along
+
+1121
+00:53:08,280 --> 00:53:11,040
+with the physical interpretation
+for the heat equation
+
+1122
+00:53:11,040 --> 00:53:14,880
+can be applied, virtually
+identically and verbatim,
+
+1123
+00:53:14,880 --> 00:53:17,820
+to the pricing of options and
+other derivative securities.
+
+1124
+00:53:17,820 --> 00:53:21,540
+And so very quickly, we can
+see that the information that's
+
+1125
+00:53:21,540 --> 00:53:24,030
+contained in these
+market prices can
+
+1126
+00:53:24,030 --> 00:53:26,370
+be understood within a
+mathematical framework
+
+1127
+00:53:26,370 --> 00:53:27,900
+that we know.
+
+1128
+00:53:27,900 --> 00:53:30,030
+So now going back
+to the history,
+
+1129
+00:53:30,030 --> 00:53:33,790
+it turns out that this was
+not known in the 1970s.
+
+1130
+00:53:33,790 --> 00:53:38,840
+It wasn't rediscovered by
+Paul Samuelson until later on.
+
+1131
+00:53:38,840 --> 00:53:41,190
+The folks that actually
+worked on option pricing, that
+
+1132
+00:53:41,190 --> 00:53:44,520
+tried to figure out the
+mathematical prices of options
+
+1133
+00:53:44,520 --> 00:53:45,960
+were quite a few.
+
+1134
+00:53:45,960 --> 00:53:49,410
+Kruizenga, who is an MIT PhD
+student in the 1950s-- oh,
+
+1135
+00:53:49,410 --> 00:53:50,680
+question?
+
+1136
+00:53:50,680 --> 00:53:51,180
+No?
+
+1137
+00:53:51,180 --> 00:53:51,860
+OK.
+
+1138
+00:53:51,860 --> 00:53:54,170
+In the 1950s, there
+was an MIT PhD student
+
+1139
+00:53:54,170 --> 00:53:56,960
+of Paul Samuelson's who tried
+to work on this problem.
+
+1140
+00:53:56,960 --> 00:54:00,170
+And he actually has a thesis
+titled "Put and Call Options--
+
+1141
+00:54:00,170 --> 00:54:01,910
+A Theoretical and
+Market Analysis."
+
+1142
+00:54:01,910 --> 00:54:03,560
+It's actually in
+the MIT archives,
+
+1143
+00:54:03,560 --> 00:54:05,120
+if you want to go
+take a look at it.
+
+1144
+00:54:05,120 --> 00:54:06,386
+But he didn't quite get it.
+
+1145
+00:54:06,386 --> 00:54:07,760
+He didn't get the
+right solution,
+
+1146
+00:54:07,760 --> 00:54:10,310
+because he didn't have
+the mathematical machinery
+
+1147
+00:54:10,310 --> 00:54:13,760
+to be able to work out
+the final elements of it.
+
+1148
+00:54:13,760 --> 00:54:17,690
+K. Sprenkle, a student
+at Yale in 1961,
+
+1149
+00:54:17,690 --> 00:54:21,800
+wrote a thesis under Jim
+Tobin and Arthur Okun, titled
+
+1150
+00:54:21,800 --> 00:54:25,370
+"Warrant Prices As Indicators of
+Expectations and Preferences,"
+
+1151
+00:54:25,370 --> 00:54:27,320
+and tried to price it as well.
+
+1152
+00:54:27,320 --> 00:54:31,490
+But he wasn't able to come up
+with a pricing formula either.
+
+1153
+00:54:31,490 --> 00:54:34,970
+And there were a number
+of other attempts
+
+1154
+00:54:34,970 --> 00:54:37,550
+to try to come up with the
+appropriate pricing formula,
+
+1155
+00:54:37,550 --> 00:54:40,850
+including attempts
+by Samuelson in '65,
+
+1156
+00:54:40,850 --> 00:54:44,450
+where he had to make assumptions
+on individual preferences
+
+1157
+00:54:44,450 --> 00:54:46,310
+in order to get a price.
+
+1158
+00:54:46,310 --> 00:54:47,290
+That didn't work out.
+
+1159
+00:54:47,290 --> 00:54:49,520
+And then Samuelson and
+Merton in '69, they
+
+1160
+00:54:49,520 --> 00:54:52,070
+tried to come up with
+a pricing formula that
+
+1161
+00:54:52,070 --> 00:54:54,230
+was preference free.
+
+1162
+00:54:54,230 --> 00:54:56,910
+And they still couldn't do it.
+
+1163
+00:54:56,910 --> 00:54:58,970
+Along came Black and Scholes.
+
+1164
+00:54:58,970 --> 00:55:02,340
+Fischer Black who, at that
+time, was a consultant working
+
+1165
+00:55:02,340 --> 00:55:03,480
+at Arthur D. Little.
+
+1166
+00:55:03,480 --> 00:55:07,400
+He wasn't even an academic.
+
+1167
+00:55:07,400 --> 00:55:09,480
+The Arthur D. Little
+building, that's
+
+1168
+00:55:09,480 --> 00:55:12,510
+the building that
+is right over there,
+
+1169
+00:55:12,510 --> 00:55:14,220
+the one that they
+won't let us tear down.
+
+1170
+00:55:14,220 --> 00:55:18,355
+Because it's supposed to be
+an architectural gem of sorts.
+
+1171
+00:55:18,355 --> 00:55:19,980
+That was the Arthur
+D. Little Building.
+
+1172
+00:55:19,980 --> 00:55:21,240
+Fischer had his office there.
+
+1173
+00:55:21,240 --> 00:55:25,230
+Myron had his office in the next
+building over, Myron Sholes.
+
+1174
+00:55:25,230 --> 00:55:28,560
+And they started talking
+about option pricing.
+
+1175
+00:55:28,560 --> 00:55:32,610
+And Fischer came
+up with an analysis
+
+1176
+00:55:32,610 --> 00:55:35,400
+that was very much along
+the lines of Baschelier.
+
+1177
+00:55:35,400 --> 00:55:38,200
+He basically got this formula,
+
+1178
+00:55:38,200 --> 00:55:40,620
+but he couldn't solve
+it because he had never
+
+1179
+00:55:40,620 --> 00:55:43,710
+heard of the heat equation
+because his Fischer Black's
+
+1180
+00:55:43,710 --> 00:55:46,020
+background was in computer
+science, not in mathematics.
+
+1181
+00:55:46,020 --> 00:55:48,930
+It was ironic, because Fischer
+Black actually had a PhD.
+
+1182
+00:55:48,930 --> 00:55:52,170
+Not in economics or finance,
+but in applied math.
+
+1183
+00:55:52,170 --> 00:55:54,340
+But he had never taken physics.
+
+1184
+00:55:54,340 --> 00:55:56,670
+So he was doing discrete math.
+
+1185
+00:55:56,670 --> 00:55:59,040
+So he started talking
+to Myron Scholes
+
+1186
+00:55:59,040 --> 00:56:03,000
+and as legend would
+have it, Myron
+
+1187
+00:56:03,000 --> 00:56:05,760
+took that heat equation, went
+over to the math department
+
+1188
+00:56:05,760 --> 00:56:08,517
+here, and asked one of the
+mathematics professors,
+
+1189
+00:56:08,517 --> 00:56:09,600
+have ever seen this thing?
+
+1190
+00:56:09,600 --> 00:56:10,785
+And a math person
+looked at him and said,
+
+1191
+00:56:10,785 --> 00:56:11,910
+oh yeah, that's
+just heat equation.
+
+1192
+00:56:11,910 --> 00:56:13,118
+Here, you solve it like this.
+
+1193
+00:56:17,050 --> 00:56:21,150
+And so Myron apparently took
+it back to Fischer Black.
+
+1194
+00:56:21,150 --> 00:56:23,620
+And Fischer said, hmm,
+this is interesting.
+
+1195
+00:56:23,620 --> 00:56:25,290
+We can now write a paper.
+
+1196
+00:56:25,290 --> 00:56:27,930
+And they wrote a paper on this.
+
+1197
+00:56:27,930 --> 00:56:30,420
+At the same time, Bob
+Merton was working
+
+1198
+00:56:30,420 --> 00:56:32,670
+on another direction
+that was trying
+
+1199
+00:56:32,670 --> 00:56:33,870
+to come up with a solution.
+
+1200
+00:56:33,870 --> 00:56:35,937
+Ultimately, he came up
+with the same solution.
+
+1201
+00:56:35,937 --> 00:56:38,520
+They didn't know it because they
+had actually not communicated
+
+1202
+00:56:38,520 --> 00:56:40,170
+to each other.
+
+1203
+00:56:40,170 --> 00:56:43,194
+But ultimately,
+Myron and Fischer,
+
+1204
+00:56:43,194 --> 00:56:44,610
+they sent their
+paper to something
+
+1205
+00:56:44,610 --> 00:56:46,419
+like five economics journals.
+
+1206
+00:56:46,419 --> 00:56:48,210
+Every single one of
+them rejected the paper
+
+1207
+00:56:48,210 --> 00:56:50,550
+saying this is too specialized.
+
+1208
+00:56:50,550 --> 00:56:51,822
+It's not really economics.
+
+1209
+00:56:51,822 --> 00:56:52,530
+It's not finance.
+
+1210
+00:56:52,530 --> 00:56:55,230
+We don't know what
+it is, but go away.
+
+1211
+00:56:55,230 --> 00:56:58,050
+And it was only until
+they were able to change
+
+1212
+00:56:58,050 --> 00:57:01,020
+the title of the paper
+from option pricing
+
+1213
+00:57:01,020 --> 00:57:05,910
+to the pricing of options
+and corporate liabilities
+
+1214
+00:57:05,910 --> 00:57:07,590
+that they finally--
+
+1215
+00:57:07,590 --> 00:57:10,530
+so it was exactly this--
+well, I'll show you next time.
+
+1216
+00:57:10,530 --> 00:57:13,320
+They changed it to
+start focusing more
+
+1217
+00:57:13,320 --> 00:57:14,580
+on corporate finance.
+
+1218
+00:57:14,580 --> 00:57:16,920
+They ultimately got
+their paper published.
+
+1219
+00:57:16,920 --> 00:57:19,410
+It turns out that Merton used
+a very different approach
+
+1220
+00:57:19,410 --> 00:57:21,240
+but got to the same point.
+
+1221
+00:57:21,240 --> 00:57:25,320
+And so Black and
+Scholes got their paper,
+
+1222
+00:57:25,320 --> 00:57:26,902
+ultimately, accepted
+into The JPE.
+
+1223
+00:57:26,902 --> 00:57:28,860
+Merton got his paper
+accepted The Bell Journal,
+
+1224
+00:57:28,860 --> 00:57:30,240
+both in the same year.
+
+1225
+00:57:30,240 --> 00:57:32,550
+In fact, Merton got his
+paper published first.
+
+1226
+00:57:32,550 --> 00:57:34,770
+But he argued that
+the paper should
+
+1227
+00:57:34,770 --> 00:57:38,190
+be delayed because he wanted
+Fischer Black and Myron
+
+1228
+00:57:38,190 --> 00:57:40,590
+Scholes have their paper
+come out in the same year.
+
+1229
+00:57:40,590 --> 00:57:43,020
+He felt that he derived
+so much intuition
+
+1230
+00:57:43,020 --> 00:57:44,820
+for what Black and
+Scholes were doing,
+
+1231
+00:57:44,820 --> 00:57:46,800
+that he didn't want to get
+there first, because it was not
+
+1232
+00:57:46,800 --> 00:57:47,520
+fair to them.
+
+1233
+00:57:47,520 --> 00:57:50,040
+That was one of the
+most extraordinary acts
+
+1234
+00:57:50,040 --> 00:57:52,837
+of professional ethics
+in the profession.
+
+1235
+00:57:52,837 --> 00:57:55,420
+Because it was pretty clear to
+both of them what was at stake.
+
+1236
+00:57:55,420 --> 00:57:58,140
+This was a huge problem that
+took an enormous amount of time
+
+1237
+00:57:58,140 --> 00:57:59,220
+to solve.
+
+1238
+00:57:59,220 --> 00:58:01,860
+And of course, the
+rest is history.
+
+1239
+00:58:01,860 --> 00:58:07,320
+They were awarded the Nobel
+Prize in 1997, Myron and Bob.
+
+1240
+00:58:07,320 --> 00:58:10,350
+Unfortunately, Fischer Black had
+died of cancer the year before.
+
+1241
+00:58:10,350 --> 00:58:14,080
+But it was very clear in
+the Nobel address, both
+
+1242
+00:58:14,080 --> 00:58:16,560
+on the participants' part, as
+well as the Nobel Committee,
+
+1243
+00:58:16,560 --> 00:58:19,840
+that Black should have
+received it as well.
+
+1244
+00:58:19,840 --> 00:58:23,180
+So that's the history and the
+heritage of option pricing.
+
+1245
+00:58:23,180 --> 00:58:26,250
+You can see why MIT is
+rightly proud of it.
+
+1246
+00:58:26,250 --> 00:58:28,941
+And given that we're out
+of time, let me stop here.
+
+1247
+00:58:28,941 --> 00:58:30,690
+And then next time,
+what we're going to do
+
+1248
+00:58:30,690 --> 00:58:34,650
+is to take up where we left off,
+and focus on the actual pricing
+
+1249
+00:58:34,650 --> 00:58:35,249
+formula.
+
+1250
+00:58:35,249 --> 00:58:36,540
+I'm going to derive it for you.
+
+1251
+00:58:36,540 --> 00:58:38,910
+Not the Black-Scholes formula,
+but a simpler version.
+
+1252
+00:58:38,910 --> 00:58:41,340
+And you'll see it, and you'll
+be able to take a look at it
+
+1253
+00:58:41,340 --> 00:58:42,150
+and play with it.
+
+1254
+00:58:42,150 --> 00:58:43,180
+We'll go on from there.
+
+1255
+00:58:43,180 --> 00:58:46,970
+OK, I'll see you on Wednesday
+for the mid-term exam.

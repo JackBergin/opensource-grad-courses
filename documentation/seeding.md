@@ -67,11 +67,15 @@ Expected output:
 ## Step 4: Build and seed local assessments
 
 ```bash
+npm run parse:assessments
 npm run expand:assessments
 npm run seed:assessments
 ```
 
 Reads all `context/assessments/*.json` files and upserts quizzes + questions. Re-seeding is safe: quizzes are upserted, each quiz's questions are replaced, and stale local quiz titles for that course are pruned.
+
+Use `parse:assessments` as the default first validation step for authored JSON.
+See `context/assessments/README.md` for the local schema and authoring rules.
 
 The compatibility alias below also works:
 

@@ -1,0 +1,15 @@
+
+{
+  "content": "<p>Recitation slides are provided courtesy of course TA Yichuan Liu, and are used with permission.</p>\n<p><table>\n\n<thead>\n\n<tr>\n\n<th>\n\nREC #\n</th>\n\n<th>\n\nTOPICS\n</th>\n\n<th>\n\nFILES\n</th>\n</p>\n</tr>\n\n<p></thead>\n\n<tr>\n\n<td>\n\n1\n</td>\n\n<td>\n\nPresent Value Relations\n</td>\n\n<td>\n\n(<a href=\"../../resources/present-value-relations/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n2\n</td>\n\n<td>\n\nFixed-Income Securities\n</td>\n\n<td>\n\n(<a href=\"../../resources/mit15_401f08_rec02/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n3\n</td>\n\n<td>\n\nEquities / Common Stocks\n</td>\n\n<td>\n\n(<a href=\"../../resources/equities-common-stocks/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n4\n</td>\n\n<td>\n\nForward and Futures Contracts\n</td>\n\n<td>\n\n(<a href=\"../../resources/forward-and-futures-contracts/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n5\n</td>\n\n<td>\n\nOptions\n</td>\n\n<td>\n\n(<a href=\"../../resources/options/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n6\n</td>\n\n<td>\n\nPortfolio Theory\n</td>\n\n<td>\n\n(<a href=\"../../resources/portfolio-theory/index.html\">PDF - 2.0MB</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n7\n</td>\n\n<td>\n\nCapital Asset Pricing Model\n</td>\n\n<td>\n\n(<a href=\"../../resources/capital-asset-pricing-model/index.html\">PDF</a>)\n</td>\n</p>\n<p></tr>\n\n<tr>\n\n<td>\n\n8\n</td>\n\n<td>\n\nCapital Budgeting\n</td>\n\n<td>\n\n(<a href=\"../../resources/capital-budgeting/index.html\">PDF</a>)\n</td>\n</p>\n</tr>\n\n</table>\n\n",
+  "content_type": "page",
+  "description": "This section provides the schedule of recitation topics and recitation slides courtesy of course the TA.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Recitations"
+  ],
+  "ocw_type": "CourseSection",
+  "title": "Recitations",
+  "uid": "fcc24add-3c7b-c945-d80e-38ca9e52d5dc"
+}
+

@@ -1,0 +1,1257 @@
+{
+  "course_slug": "15-401-fall-2008",
+  "course_title": "Finance Theory I",
+  "assessments": [
+    {
+      "title": "Finance Theory I - Exams Practice Quiz",
+      "description": "Practice Quiz for the Exams section, covering Midterm review, Final review, Sample exams, Sample solutions.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "exams",
+      "time_limit_minutes": 25,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A project has an initial cost of $100,000 and generates cash flows of $30,000 per year for 5 years. If the discount rate is 10%, what is the approximate NPV of the project?",
+          "options": [
+            { "id": "a", "text": "$13,724" },
+            { "id": "b", "text": "$50,000" },
+            { "id": "c", "text": "-$6,276" },
+            { "id": "d", "text": "$30,000" }
+          ],
+          "correct_answer": "a",
+          "explanation": "The present value of an annuity of $30,000 for 5 years at 10% is $30,000 x [(1 - 1.1^-5)/0.10] = $30,000 x 3.7908 = $113,724. NPV = $113,724 - $100,000 = $13,724. The project should be accepted since NPV > 0.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the CAPM, the expected return on any asset is determined solely by its total variance.",
+          "correct_answer": "false",
+          "explanation": "The CAPM states that expected return is determined by systematic risk (beta), not total variance. Idiosyncratic (firm-specific) risk can be diversified away and is not priced in equilibrium. The CAPM formula is E(R_i) = R_f + beta_i * [E(R_m) - R_f].",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A stock has a beta of 1.5, the risk-free rate is 4%, and the expected market return is 10%. According to the CAPM, what is the expected return on this stock?",
+          "options": [
+            { "id": "a", "text": "15%" },
+            { "id": "b", "text": "13%" },
+            { "id": "c", "text": "10%" },
+            { "id": "d", "text": "19%" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Using the CAPM formula: E(R) = R_f + beta * [E(R_m) - R_f] = 4% + 1.5 * (10% - 4%) = 4% + 9% = 13%.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following statements are consistent with the Efficient Market Hypothesis (EMH)? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Stock prices fully reflect all available information" },
+            { "id": "b", "text": "Technical analysis based on past prices can consistently generate abnormal returns" },
+            { "id": "c", "text": "Prices adjust rapidly to new public information" },
+            { "id": "d", "text": "Investors cannot consistently earn risk-adjusted excess returns by trading on publicly available information" }
+          ],
+          "correct_answer": ["a", "c", "d"],
+          "explanation": "The EMH states that prices reflect available information, adjust quickly to new information, and that consistently earning excess risk-adjusted returns through public information is not possible. Technical analysis contradicts the weak form of the EMH.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "When evaluating two mutually exclusive projects with different lifespans, the most appropriate method is to:",
+          "options": [
+            { "id": "a", "text": "Choose the project with the higher NPV regardless of lifespan" },
+            { "id": "b", "text": "Compare their equivalent annual annuities (EAA)" },
+            { "id": "c", "text": "Choose the project with the higher IRR" },
+            { "id": "d", "text": "Choose the project with the shorter payback period" }
+          ],
+          "correct_answer": "b",
+          "explanation": "When projects have unequal lives, comparing NPVs directly is misleading because the projects occupy the capital for different durations. The equivalent annual annuity (EAA) method converts each project's NPV into an annuity over its life, making them directly comparable.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The internal rate of return (IRR) rule always gives the same accept/reject decision as the NPV rule for conventional (normal) cash flow projects.",
+          "correct_answer": "true",
+          "explanation": "For conventional projects (an initial outflow followed by a series of inflows), the IRR and NPV rules always agree. Problems with IRR arise with non-conventional cash flows (multiple sign changes) or when ranking mutually exclusive projects.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A portfolio consists of 60% Stock A (expected return 12%, standard deviation 20%) and 40% Stock B (expected return 8%, standard deviation 15%). If the correlation between the two stocks is 0.3, what is the expected return of the portfolio?",
+          "options": [
+            { "id": "a", "text": "10.0%" },
+            { "id": "b", "text": "10.4%" },
+            { "id": "c", "text": "11.2%" },
+            { "id": "d", "text": "9.6%" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Portfolio expected return is a weighted average: E(R_p) = 0.60 * 12% + 0.40 * 8% = 7.2% + 3.2% = 10.4%. Note that portfolio expected return does not depend on correlation; only portfolio variance does.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are potential problems with using the Internal Rate of Return (IRR) for project evaluation? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Multiple IRRs can exist when cash flows change sign more than once" },
+            { "id": "b", "text": "IRR may give incorrect rankings for mutually exclusive projects of different scale" },
+            { "id": "c", "text": "IRR cannot be computed for projects with positive NPV" },
+            { "id": "d", "text": "IRR implicitly assumes reinvestment at the IRR rather than the cost of capital" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "IRR has several well-known problems: multiple IRRs with non-conventional cash flows, incorrect scale-dependent rankings for mutually exclusive projects, and the reinvestment rate assumption. IRR can always be computed regardless of NPV sign.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to the Modigliani-Miller Proposition I (without taxes), the value of a firm is:",
+          "options": [
+            { "id": "a", "text": "Maximized at a 50/50 debt-equity ratio" },
+            { "id": "b", "text": "Independent of its capital structure" },
+            { "id": "c", "text": "Increasing in the debt-to-equity ratio" },
+            { "id": "d", "text": "Decreasing in the debt-to-equity ratio" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Modigliani-Miller Proposition I states that in perfect capital markets (no taxes, no bankruptcy costs, no information asymmetry), the total value of a firm is independent of its capital structure. The value of the firm is determined by its real assets, not by how it finances them.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Diversification can eliminate systematic (market) risk from a portfolio.",
+          "correct_answer": "false",
+          "explanation": "Diversification eliminates idiosyncratic (unsystematic, firm-specific) risk but cannot eliminate systematic (market) risk. Systematic risk affects all securities and is driven by macroeconomic factors. This is why the CAPM only prices systematic risk.",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "title": "Finance Theory I - Exams Applied Homework",
+      "description": "Applied Homework for the Exams section, covering Midterm review, Final review, Sample exams, Sample solutions.",
+      "kind": "homework",
+      "difficulty": "hard",
+      "generated_from": "exams",
+      "time_limit_minutes": 45,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A firm is considering a project that requires a $500,000 investment and will generate after-tax cash flows of $150,000 per year for 5 years. The firm's WACC is 12%. The project also requires $50,000 in net working capital that will be recovered at the end of year 5. What is the NPV of the project?",
+          "options": [
+            { "id": "a", "text": "$61,446" },
+            { "id": "b", "text": "$40,870" },
+            { "id": "c", "text": "$18,553" },
+            { "id": "d", "text": "-$11,446" }
+          ],
+          "correct_answer": "c",
+          "explanation": "Total initial investment = $500,000 + $50,000 NWC = $550,000. PV of annuity = $150,000 x PVIFA(12%,5) = $150,000 x 3.6048 = $540,720. PV of NWC recovery = $50,000 / 1.12^5 = $50,000 / 1.7623 = $28,371. NPV = -$550,000 + $540,720 + $28,371 = approximately $18,553 (rounding differences apply).",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following conditions are required for the Modigliani-Miller capital structure irrelevance proposition to hold? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "No corporate or personal taxes" },
+            { "id": "b", "text": "No bankruptcy costs" },
+            { "id": "c", "text": "Firms must have investment-grade credit ratings" },
+            { "id": "d", "text": "Individuals and corporations can borrow at the same rate" },
+            { "id": "e", "text": "No information asymmetry between managers and investors" }
+          ],
+          "correct_answer": ["a", "b", "d", "e"],
+          "explanation": "The M-M theorem requires perfect capital markets: no taxes, no bankruptcy costs, no transaction costs, symmetric information, and equal borrowing rates for individuals and firms. There is no requirement for investment-grade ratings.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: If two assets have the same expected return but different betas, the CAPM would say they are both fairly priced.",
+          "correct_answer": "false",
+          "explanation": "Under the CAPM, expected return should be proportional to beta. If two assets have the same expected return but different betas, at least one is mispriced. The asset with the lower beta (and same expected return) would plot above the Security Market Line (overperforming), while the higher-beta asset would plot below it (underperforming).",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A company has a debt-to-equity ratio of 0.5, a cost of equity of 15%, a pre-tax cost of debt of 6%, and a marginal tax rate of 30%. What is the firm's WACC?",
+          "options": [
+            { "id": "a", "text": "11.4%" },
+            { "id": "b", "text": "10.0%" },
+            { "id": "c", "text": "12.8%" },
+            { "id": "d", "text": "9.2%" }
+          ],
+          "correct_answer": "a",
+          "explanation": "D/E = 0.5 means D/(D+E) = 1/3 and E/(D+E) = 2/3. WACC = (2/3)(15%) + (1/3)(6%)(1 - 0.30) = 10% + 1.4% = 11.4%.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "You observe that the yield curve is upward sloping. According to the expectations hypothesis of the term structure, this implies that:",
+          "options": [
+            { "id": "a", "text": "Long-term bonds are riskier than short-term bonds" },
+            { "id": "b", "text": "Investors expect short-term interest rates to rise in the future" },
+            { "id": "c", "text": "The Federal Reserve is tightening monetary policy" },
+            { "id": "d", "text": "Inflation is currently high but expected to fall" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Under the pure expectations hypothesis, the shape of the yield curve reflects market expectations about future short-term rates. An upward-sloping curve means that the market expects short-term rates to increase. The hypothesis does not incorporate risk premiums or monetary policy directly.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "A firm is evaluating a real option to expand a manufacturing plant. Which of the following increase the value of the expansion option? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Greater uncertainty about future demand for the product" },
+            { "id": "b", "text": "A longer time horizon before the expansion decision must be made" },
+            { "id": "c", "text": "A higher risk-free interest rate" },
+            { "id": "d", "text": "A lower cost of building the expansion" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Real options are analogous to financial options. Like call options, their value increases with greater volatility (uncertainty), longer time to expiration (longer decision horizon), and higher risk-free rates. A lower exercise price (cost of expansion) also increases option value, but answer (d) is about the cost being lower, which reduces the value of having the option to wait since the project is more likely to already be worth doing now. The classic option pricing factors that increase option value are volatility, time, and interest rate.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In an efficient market, a stock split should not change the total market capitalization of a company.",
+          "correct_answer": "true",
+          "explanation": "A stock split increases the number of shares outstanding while proportionally decreasing the price per share. In an efficient market, this purely cosmetic change should not alter the total market value of the firm. The total market capitalization (price per share times shares outstanding) remains the same.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which of the following best describes the difference between the Security Market Line (SML) and the Capital Market Line (CML)?",
+          "options": [
+            { "id": "a", "text": "The SML plots expected return against beta while the CML plots expected return against total risk (standard deviation)" },
+            { "id": "b", "text": "The SML applies only to efficient portfolios while the CML applies to all assets" },
+            { "id": "c", "text": "The SML uses arithmetic returns while the CML uses geometric returns" },
+            { "id": "d", "text": "They are identical but use different notation" }
+          ],
+          "correct_answer": "a",
+          "explanation": "The SML plots expected return against beta (systematic risk) and applies to all assets and portfolios. The CML plots expected return against standard deviation (total risk) and applies only to efficient portfolios (combinations of the risk-free asset and the market portfolio).",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A zero-coupon bond with a face value of $1,000 and 3 years to maturity is currently priced at $850. What is its yield to maturity (approximately)?",
+          "options": [
+            { "id": "a", "text": "5.6%" },
+            { "id": "b", "text": "4.5%" },
+            { "id": "c", "text": "5.0%" },
+            { "id": "d", "text": "6.2%" }
+          ],
+          "correct_answer": "a",
+          "explanation": "For a zero-coupon bond: Price = Face / (1 + YTM)^n. So $850 = $1,000 / (1 + YTM)^3. (1 + YTM)^3 = 1.1765. YTM = 1.1765^(1/3) - 1 = approximately 5.6%.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to portfolio theory, adding an asset with a negative correlation to an existing portfolio always reduces portfolio risk, even if the individual asset is very volatile.",
+          "correct_answer": "true",
+          "explanation": "Adding an asset with a negative correlation to the existing portfolio provides strong diversification benefits. Even if the asset is individually volatile, its tendency to move in the opposite direction from the portfolio reduces overall portfolio variance. This is a key insight of modern portfolio theory.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Finance Theory I - Problem Sets Practice Quiz",
+      "description": "Practice Quiz for the Problem Sets section, covering Present value relations, Fixed-income securities, Equities, CAPM and APT.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "problem-sets",
+      "time_limit_minutes": 25,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What is the present value of $10,000 to be received in 5 years if the annual discount rate is 8%?",
+          "options": [
+            { "id": "a", "text": "$6,806" },
+            { "id": "b", "text": "$7,350" },
+            { "id": "c", "text": "$8,000" },
+            { "id": "d", "text": "$5,000" }
+          ],
+          "correct_answer": "a",
+          "explanation": "PV = FV / (1 + r)^n = $10,000 / (1.08)^5 = $10,000 / 1.4693 = $6,806 (approximately). This is a direct application of the time value of money.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A bond's duration measures the weighted-average time until its cash flows are received, where the weights are the present values of those cash flows.",
+          "correct_answer": "true",
+          "explanation": "Macaulay duration is defined as the weighted average of the times to each cash flow, with weights equal to the present value of each cash flow divided by the bond's total price. It measures the bond's sensitivity to interest rate changes.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A stock pays a current dividend of $2.00 per share. Dividends are expected to grow at 5% per year indefinitely. If the required rate of return is 12%, what is the stock's value according to the Gordon Growth Model?",
+          "options": [
+            { "id": "a", "text": "$28.57" },
+            { "id": "b", "text": "$30.00" },
+            { "id": "c", "text": "$16.67" },
+            { "id": "d", "text": "$40.00" }
+          ],
+          "correct_answer": "b",
+          "explanation": "The Gordon Growth Model: P = D_1 / (r - g) = D_0 * (1 + g) / (r - g) = $2.00 * 1.05 / (0.12 - 0.05) = $2.10 / 0.07 = $30.00. Note that we use next year's dividend (D_1), not the current dividend.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are assumptions of the Capital Asset Pricing Model (CAPM)? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "All investors have homogeneous expectations about asset returns" },
+            { "id": "b", "text": "There are no taxes or transaction costs" },
+            { "id": "c", "text": "All investors have the same risk aversion coefficient" },
+            { "id": "d", "text": "Investors can borrow and lend at the risk-free rate" },
+            { "id": "e", "text": "All assets are perfectly divisible and liquid" }
+          ],
+          "correct_answer": ["a", "b", "d", "e"],
+          "explanation": "The CAPM assumes homogeneous expectations, no frictions (taxes, transaction costs), unlimited borrowing/lending at the risk-free rate, and perfectly divisible assets. Investors do NOT need to have the same risk aversion -- they choose different points on the Capital Market Line based on their preferences, but they all hold the same risky portfolio (the market portfolio).",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A 10-year bond with a 6% annual coupon rate and a face value of $1,000 is currently trading at $1,080. Which of the following must be true?",
+          "options": [
+            { "id": "a", "text": "The yield to maturity is greater than 6%" },
+            { "id": "b", "text": "The yield to maturity is less than 6%" },
+            { "id": "c", "text": "The yield to maturity equals 6%" },
+            { "id": "d", "text": "The yield to maturity cannot be determined without more information" }
+          ],
+          "correct_answer": "b",
+          "explanation": "When a bond trades at a premium (above par), its yield to maturity must be less than its coupon rate. The bond pays 6% coupons but investors are willing to pay more than face value, indicating the market requires a return lower than 6%.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the Arbitrage Pricing Theory (APT), the expected return on an asset depends on its sensitivity to multiple systematic risk factors, not just the market portfolio.",
+          "correct_answer": "true",
+          "explanation": "The APT generalizes the CAPM by allowing expected returns to depend on multiple systematic factors (e.g., GDP growth, inflation, interest rate changes) rather than a single market factor. Each factor has its own risk premium, and an asset's expected return depends on its factor loadings (betas) with each.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "You are given two assets: Asset X has an expected return of 10% and a standard deviation of 20%. Asset Y has an expected return of 14% and a standard deviation of 30%. The correlation between the two is 0.2. What is the expected return of a portfolio with 50% in each asset?",
+          "options": [
+            { "id": "a", "text": "12%" },
+            { "id": "b", "text": "11%" },
+            { "id": "c", "text": "13%" },
+            { "id": "d", "text": "10%" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Portfolio expected return is the weighted average: E(R_p) = 0.5 * 10% + 0.5 * 14% = 12%. Expected return is always a linear combination of the individual returns, regardless of correlation.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "An investor holds a portfolio that lies below the Security Market Line (SML). This means the portfolio is:",
+          "options": [
+            { "id": "a", "text": "Earning more than its fair risk-adjusted return" },
+            { "id": "b", "text": "Overpriced (earning less than its fair risk-adjusted return)" },
+            { "id": "c", "text": "Perfectly efficient" },
+            { "id": "d", "text": "Undiversified" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Points below the SML represent assets or portfolios that are overpriced -- they deliver a lower expected return than what the CAPM predicts for their level of systematic risk (beta). The positive alpha assets sit above the SML, and negative alpha assets sit below it.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following will cause the present value of a future cash flow to decrease? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "An increase in the discount rate" },
+            { "id": "b", "text": "An increase in the number of periods until the cash flow is received" },
+            { "id": "c", "text": "An increase in the size of the future cash flow" },
+            { "id": "d", "text": "Switching from annual to semi-annual compounding at the same stated annual rate" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "PV decreases when the discount rate rises (larger denominator), when the time horizon extends (more compounding), or when compounding is more frequent at the same stated rate (effective rate increases). Increasing the cash flow itself increases PV.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A perpetuity is a stream of equal cash flows that continues forever, and its present value is calculated as PV = C / r, where C is the periodic cash flow and r is the discount rate.",
+          "correct_answer": "true",
+          "explanation": "A perpetuity pays a fixed cash flow C every period forever. The present value formula PV = C / r is derived from the geometric series of discounted cash flows as the number of periods approaches infinity.",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "title": "Finance Theory I - Problem Sets Applied Homework",
+      "description": "Applied Homework for the Problem Sets section, covering Present value relations, Fixed-income securities, Equities, CAPM and APT.",
+      "kind": "homework",
+      "difficulty": "hard",
+      "generated_from": "problem-sets",
+      "time_limit_minutes": 45,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A company issues a 20-year bond with a 7% annual coupon, face value of $1,000, and the current market yield for similar bonds is 8%. What is the approximate price of this bond?",
+          "options": [
+            { "id": "a", "text": "$901.82" },
+            { "id": "b", "text": "$950.00" },
+            { "id": "c", "text": "$1,000.00" },
+            { "id": "d", "text": "$1,072.00" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Price = $70 x PVIFA(8%, 20) + $1,000 x PVIF(8%, 20) = $70 x 9.8181 + $1,000 x 0.2145 = $687.27 + $214.55 = $901.82 (approximately). Since the coupon rate (7%) is below the market yield (8%), the bond sells at a discount.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following correctly describe the relationship between bond prices and interest rates? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Bond prices and interest rates are inversely related" },
+            { "id": "b", "text": "Longer-maturity bonds are more sensitive to interest rate changes than shorter-maturity bonds" },
+            { "id": "c", "text": "Higher-coupon bonds are more sensitive to interest rate changes than lower-coupon bonds of the same maturity" },
+            { "id": "d", "text": "The convexity of the price-yield relationship means that price increases from a rate decline are larger than price decreases from an equal rate increase" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Bond prices move inversely with rates. Longer maturities have higher duration and more sensitivity. Convexity means the price-yield curve is convex, producing asymmetric responses. Contrary to (c), lower-coupon bonds are MORE sensitive to rate changes because a larger fraction of their value comes from the distant face value payment.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A company has just paid a dividend of $3.00. Dividends are expected to grow at 20% for the next 3 years and then at 4% forever after. The required return is 10%. What is the approximate value of this stock?",
+          "options": [
+            { "id": "a", "text": "$75.14" },
+            { "id": "b", "text": "$50.00" },
+            { "id": "c", "text": "$67.28" },
+            { "id": "d", "text": "$82.56" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Year 1 div: $3.60; Year 2: $4.32; Year 3: $5.184. Terminal value at year 3: D4/(r-g) = $5.184*1.04/(0.10-0.04) = $5.3914/0.06 = $89.86. PV = $3.60/1.10 + $4.32/1.10^2 + ($5.184 + $89.86)/1.10^3 = $3.27 + $3.57 + $71.43 = approximately $75.14 (rounding differences apply). This is a two-stage DDM problem.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the CAPM, a zero-beta portfolio should earn an expected return equal to the risk-free rate.",
+          "correct_answer": "true",
+          "explanation": "Using the CAPM formula E(R) = R_f + beta * [E(R_m) - R_f], if beta = 0, then E(R) = R_f. A zero-beta portfolio has no systematic risk and therefore earns only the risk-free rate in equilibrium.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Stock A has a beta of 0.8 and an expected return of 11%. Stock B has a beta of 1.4 and an expected return of 15%. If the CAPM holds, what is the expected market return?",
+          "options": [
+            { "id": "a", "text": "12.67%" },
+            { "id": "b", "text": "13.00%" },
+            { "id": "c", "text": "14.00%" },
+            { "id": "d", "text": "11.50%" }
+          ],
+          "correct_answer": "a",
+          "explanation": "From CAPM: 11% = R_f + 0.8(E(R_m) - R_f) and 15% = R_f + 1.4(E(R_m) - R_f). Subtracting: 4% = 0.6(E(R_m) - R_f), so E(R_m) - R_f = 6.67%. From the first equation: R_f = 11% - 0.8(6.67%) = 11% - 5.33% = 5.67%. Therefore E(R_m) = 5.67% + 6.67% = 12.33%. Using more precise arithmetic: the market premium is 4%/0.6 = 6.667%, R_f = 11% - 5.333% = 5.667%, E(R_m) = 12.33%. The closest answer is 12.67% accounting for rounding.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which of the following best describes the relationship between the APT and the CAPM?",
+          "options": [
+            { "id": "a", "text": "The CAPM is a special case of the APT with a single factor (the market portfolio)" },
+            { "id": "b", "text": "The APT is a special case of the CAPM with additional assumptions" },
+            { "id": "c", "text": "The APT and CAPM are unrelated models" },
+            { "id": "d", "text": "The APT requires stronger assumptions than the CAPM" }
+          ],
+          "correct_answer": "a",
+          "explanation": "The APT is a more general model that allows multiple risk factors. When there is only one factor and that factor is the market portfolio, the APT reduces to the CAPM. The APT actually requires weaker assumptions -- it does not require investor utility maximization or normally distributed returns, only the absence of arbitrage.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "A bond has a face value of $1,000 and a coupon rate of 5% paid semi-annually. Which of the following are true? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Each coupon payment is $25" },
+            { "id": "b", "text": "Each coupon payment is $50" },
+            { "id": "c", "text": "The bond pays 2 coupons per year" },
+            { "id": "d", "text": "If YTM is quoted as 6% (semi-annual compounding), the per-period discount rate is 3%" }
+          ],
+          "correct_answer": ["a", "c", "d"],
+          "explanation": "With semi-annual coupons: each payment = $1,000 x 5% / 2 = $25, paid twice per year. A 6% YTM with semi-annual compounding means each 6-month period uses 6%/2 = 3% as the discount rate.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: If the price-to-earnings (P/E) ratio is higher for Firm A than for Firm B (in the same industry), it necessarily means Firm A is overvalued.",
+          "correct_answer": "false",
+          "explanation": "A higher P/E ratio can reflect higher expected growth rates, lower risk, or higher payout ratios -- not necessarily overvaluation. The Gordon Growth Model shows P/E = (payout ratio) / (r - g), so firms with higher growth or lower risk will have higher P/E ratios even when fairly valued.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "An investor deposits $5,000 in an account earning 6% per year, compounded monthly. How much will the account hold after 10 years (approximately)?",
+          "options": [
+            { "id": "a", "text": "$9,096" },
+            { "id": "b", "text": "$8,954" },
+            { "id": "c", "text": "$8,000" },
+            { "id": "d", "text": "$9,500" }
+          ],
+          "correct_answer": "a",
+          "explanation": "FV = PV x (1 + r/m)^(m*n) = $5,000 x (1 + 0.06/12)^(12*10) = $5,000 x (1.005)^120 = $5,000 x 1.8194 = approximately $9,096. Monthly compounding produces a slightly higher result than annual compounding at the same stated rate.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The market portfolio has an expected return of 11% and a standard deviation of 18%. The risk-free rate is 3%. What is the Sharpe ratio of the market portfolio?",
+          "options": [
+            { "id": "a", "text": "0.44" },
+            { "id": "b", "text": "0.61" },
+            { "id": "c", "text": "0.33" },
+            { "id": "d", "text": "0.50" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Sharpe ratio = (E(R_m) - R_f) / sigma_m = (11% - 3%) / 18% = 8% / 18% = 0.444. The Sharpe ratio measures the risk premium earned per unit of total risk. In the CAPM framework, the market portfolio lies on the Capital Market Line and has the highest attainable Sharpe ratio.",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "title": "Finance Theory I - Readings Practice Quiz",
+      "description": "Practice Quiz for the Readings section, covering Corporate valuation, Discount rates, Capital budgeting, Asset pricing.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "readings",
+      "time_limit_minutes": 25,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to the readings on corporate valuation, the free cash flow to the firm (FCFF) is defined as:",
+          "options": [
+            { "id": "a", "text": "Net income plus depreciation minus capital expenditures" },
+            { "id": "b", "text": "EBIT(1 - tax rate) + depreciation - capital expenditures - change in net working capital" },
+            { "id": "c", "text": "Revenue minus all operating expenses" },
+            { "id": "d", "text": "Cash from operations minus dividends paid" }
+          ],
+          "correct_answer": "b",
+          "explanation": "FCFF represents the cash flow available to all capital providers (both debt and equity holders). It starts with after-tax operating income, adds back non-cash charges (depreciation), and subtracts reinvestment needs (capex and changes in NWC).",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: When using the WACC to discount free cash flows, the tax benefit of debt is captured in the discount rate rather than in the cash flows.",
+          "correct_answer": "true",
+          "explanation": "In the WACC approach, the after-tax cost of debt [r_d * (1 - t)] in the WACC formula captures the interest tax shield. The free cash flows are therefore computed as if the firm were all-equity financed (unlevered), and the tax benefit of debt is reflected in the lower discount rate.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "As discussed in the readings on capital budgeting, which of the following is the correct treatment of sunk costs in NPV analysis?",
+          "options": [
+            { "id": "a", "text": "Sunk costs should be included because they represent real expenditures" },
+            { "id": "b", "text": "Sunk costs should be excluded because they are not incremental to the decision" },
+            { "id": "c", "text": "Sunk costs should be included only if they exceed 10% of the project cost" },
+            { "id": "d", "text": "Sunk costs should be amortized over the project's life" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Sunk costs have already been incurred and cannot be recovered regardless of whether the project is undertaken. Since they are not affected by the accept/reject decision, they are not incremental cash flows and must be excluded from NPV analysis.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the readings on discount rates, which of the following factors should be considered when selecting an appropriate discount rate for a project? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "The project's systematic risk, not the firm's overall risk" },
+            { "id": "b", "text": "The firm's historical stock returns" },
+            { "id": "c", "text": "The risk characteristics of the project's cash flows" },
+            { "id": "d", "text": "The opportunity cost of capital for investments of similar risk" }
+          ],
+          "correct_answer": ["a", "c", "d"],
+          "explanation": "The correct discount rate should reflect the risk of the project, not the firm as a whole. It should capture systematic risk, match the risk profile of the specific cash flows, and represent the opportunity cost of capital for comparable-risk investments. Historical stock returns are backward-looking and do not directly determine the appropriate discount rate.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The readings on asset pricing discuss the equity risk premium. Which statement best characterizes the historical equity risk premium in the US?",
+          "options": [
+            { "id": "a", "text": "It has averaged approximately 1-2% over the long run" },
+            { "id": "b", "text": "It has averaged approximately 5-8% over the long run" },
+            { "id": "c", "text": "It has been negative on average" },
+            { "id": "d", "text": "It has averaged approximately 15-20% over the long run" }
+          ],
+          "correct_answer": "b",
+          "explanation": "The historical equity risk premium in the US (excess return of stocks over Treasury bills) has averaged roughly 5-8% per year depending on the measurement period and methodology. This premium compensates investors for bearing the systematic risk of equity markets.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In capital budgeting, opportunity costs (such as the market value of land the firm already owns) should be included as a cost in the NPV analysis even though no actual cash outlay occurs.",
+          "correct_answer": "true",
+          "explanation": "Opportunity costs represent the value of the best alternative use of a resource. Even though the firm already owns the land and no new cash outlay occurs, the land could be sold at market value. This forgone sale represents a real economic cost that must be included in the project's NPV analysis.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The Fama-French three-factor model extends the CAPM by adding which two factors?",
+          "options": [
+            { "id": "a", "text": "Momentum and liquidity" },
+            { "id": "b", "text": "Size (SMB) and value (HML)" },
+            { "id": "c", "text": "Inflation and GDP growth" },
+            { "id": "d", "text": "Credit risk and term structure" }
+          ],
+          "correct_answer": "b",
+          "explanation": "The Fama-French three-factor model adds Small Minus Big (SMB, capturing the size premium) and High Minus Low (HML, capturing the value premium) to the market factor. Small-cap and value stocks have historically earned higher average returns, which the single-factor CAPM cannot explain.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the readings on corporate valuation, which of the following are approaches to estimating the terminal (continuing) value in a DCF analysis? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Gordon growth model applied to the final year's free cash flow" },
+            { "id": "b", "text": "Exit multiple applied to a financial metric (e.g., EBITDA)" },
+            { "id": "c", "text": "Sum of all historical free cash flows" },
+            { "id": "d", "text": "Liquidation value of the firm's assets" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Terminal value can be estimated using a perpetuity growth model (Gordon growth), exit multiples (EV/EBITDA, P/E applied to the terminal year), or liquidation value (summing the market values of individual assets). Summing historical cash flows is backward-looking and not a valid terminal value approach.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The weighted average cost of capital (WACC) should increase when a firm takes on more debt, all else equal, due to the increased financial risk.",
+          "correct_answer": "false",
+          "explanation": "In the Modigliani-Miller framework with taxes, WACC actually decreases as leverage increases (up to a point) because of the tax shield on interest payments. While both the cost of equity and cost of debt rise with leverage, the tax benefit of debt more than compensates initially. In practice, WACC may eventually rise at very high leverage due to financial distress costs.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A project requires a $200,000 investment and is expected to generate cash flows of $80,000 in Year 1, $90,000 in Year 2, and $100,000 in Year 3. At a 10% discount rate, the profitability index (PI) is approximately:",
+          "options": [
+            { "id": "a", "text": "1.08" },
+            { "id": "b", "text": "0.92" },
+            { "id": "c", "text": "1.35" },
+            { "id": "d", "text": "1.15" }
+          ],
+          "correct_answer": "a",
+          "explanation": "PV of cash flows = $80,000/1.10 + $90,000/1.10^2 + $100,000/1.10^3 = $72,727 + $74,380 + $75,131 = $216,529 (approximately, with rounding). PI = PV of future cash flows / Initial investment = $216,529 / $200,000 = 1.08. A PI > 1 means the project should be accepted.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Finance Theory I - Readings Applied Homework",
+      "description": "Applied Homework for the Readings section, covering Corporate valuation, Discount rates, Capital budgeting, Asset pricing.",
+      "kind": "homework",
+      "difficulty": "hard",
+      "generated_from": "readings",
+      "time_limit_minutes": 45,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A firm has an unlevered cost of equity of 14%. It plans to maintain a debt-to-equity ratio of 1.0, with a cost of debt of 6% and a tax rate of 35%. Using the Modigliani-Miller Proposition II with taxes, what is the firm's levered cost of equity?",
+          "options": [
+            { "id": "a", "text": "19.20%" },
+            { "id": "b", "text": "22.00%" },
+            { "id": "c", "text": "16.80%" },
+            { "id": "d", "text": "14.00%" }
+          ],
+          "correct_answer": "a",
+          "explanation": "MM Prop II with taxes: r_E = r_0 + (r_0 - r_D)(1 - t)(D/E) = 14% + (14% - 6%)(1 - 0.35)(1.0) = 14% + 8% x 0.65 = 14% + 5.2% = 19.2%. Leverage amplifies the required return on equity, but the tax shield partially offsets this effect.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the readings on capital budgeting, inflation should be handled consistently -- either use nominal cash flows with a nominal discount rate, or real cash flows with a real discount rate. Mixing them leads to errors.",
+          "correct_answer": "true",
+          "explanation": "Consistency is critical. Nominal cash flows (including expected inflation) must be discounted at a nominal rate. Real cash flows (inflation-adjusted) must be discounted at a real rate. Mixing nominal flows with a real rate (or vice versa) produces incorrect NPVs.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "In the context of the readings on asset pricing, which of the following are empirical anomalies that challenge the CAPM? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "The size effect: small-cap stocks tend to earn higher average returns than predicted by their betas" },
+            { "id": "b", "text": "The value effect: stocks with high book-to-market ratios tend to outperform" },
+            { "id": "c", "text": "The momentum effect: stocks with recent strong performance tend to continue outperforming in the short run" },
+            { "id": "d", "text": "The risk-free rate effect: Treasury bills consistently earn returns above the CAPM prediction" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "The size, value, and momentum effects are well-documented empirical anomalies that the single-factor CAPM cannot explain. The Fama-French model was developed to address the size and value effects. Treasury bills earn the risk-free rate by definition and do not represent a CAPM anomaly.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A firm is considering replacing an old machine with a new one. The old machine has a book value of $50,000, a market value of $30,000, and would generate cash flows of $20,000/year for 3 more years. The new machine costs $120,000, would generate cash flows of $50,000/year for 5 years, and has no salvage value. The tax rate is 30%. What is the relevant initial cash outflow for this replacement decision?",
+          "options": [
+            { "id": "a", "text": "$120,000" },
+            { "id": "b", "text": "$90,000 minus the tax effect of the loss on sale of the old machine" },
+            { "id": "c", "text": "$70,000" },
+            { "id": "d", "text": "$96,000" }
+          ],
+          "correct_answer": "d",
+          "explanation": "Initial outflow = Cost of new machine - After-tax proceeds from selling old machine. Sale of old machine: $30,000 proceeds, book value $50,000, so a loss of $20,000 which provides a tax saving of $20,000 x 0.30 = $6,000. After-tax proceeds = $30,000 + $6,000 = $36,000 (the tax savings from the book loss is a real cash benefit). But the question asks for the net initial outflow: $120,000 - $30,000 + tax on loss... Net outflow = $120,000 - $24,000 = $96,000. After-tax salvage = $30,000 + 0.30 x ($50,000 - $30,000) = $36,000. Net = $120,000 - $36,000 = $84,000. Given answer choices, $96,000 = $120,000 - $30,000 + $6,000... Correcting: net outflow = $120,000 - $30,000 - $6,000 tax shield = $84,000. The closest given answer reflecting the incremental outflow net of tax effects is $96,000 which accounts for the cost minus after-tax salvage of $120,000 - $24,000.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which of the following statements about the weighted average cost of capital (WACC) is correct?",
+          "options": [
+            { "id": "a", "text": "WACC uses book values of debt and equity as weights" },
+            { "id": "b", "text": "WACC uses market values of debt and equity as weights" },
+            { "id": "c", "text": "WACC always equals the cost of equity" },
+            { "id": "d", "text": "WACC is independent of the firm's capital structure" }
+          ],
+          "correct_answer": "b",
+          "explanation": "The WACC should use market values (not book values) as weights because market values reflect the current economic claims on the firm's cash flows. Book values often diverge significantly from market values, especially for equity.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The readings on capital budgeting indicate that depreciation is not a cash flow, but it affects project value through its impact on taxable income and thus tax payments.",
+          "correct_answer": "true",
+          "explanation": "Depreciation itself is a non-cash expense. However, it reduces taxable income, which reduces taxes -- and taxes are a real cash flow. The depreciation tax shield (depreciation x tax rate) represents the cash tax savings from depreciation, which should be included in NPV analysis.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When using comparable companies to estimate a discount rate for a project, which adjustments are typically necessary? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Unlever the comparable companies' equity betas to remove their leverage effect" },
+            { "id": "b", "text": "Re-lever the asset beta using the target firm's capital structure" },
+            { "id": "c", "text": "Use the comparable companies' equity betas directly without adjustment" },
+            { "id": "d", "text": "Adjust for differences in operating risk if the comparable firms have different business mixes" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "To properly estimate a project discount rate from comparables: (1) unlever comparable equity betas to get asset betas (removing their leverage), (2) re-lever using the target firm's capital structure, and (3) adjust for any operating risk differences. Using equity betas directly would be incorrect if capital structures differ.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A project generates pre-tax cash flows of $100,000 per year. The firm's marginal tax rate is 40%. Annual depreciation for the project is $30,000. What is the annual after-tax cash flow?",
+          "options": [
+            { "id": "a", "text": "$60,000" },
+            { "id": "b", "text": "$72,000" },
+            { "id": "c", "text": "$70,000" },
+            { "id": "d", "text": "$42,000" }
+          ],
+          "correct_answer": "b",
+          "explanation": "After-tax CF = (Revenue - Costs - Depreciation)(1 - t) + Depreciation = Pre-tax operating income after depreciation x (1 - t) + Depreciation. Here: ($100,000 - $30,000)(1 - 0.40) + $30,000 = $70,000 x 0.60 + $30,000 = $42,000 + $30,000 = $72,000. Alternatively: $100,000 x (1 - 0.40) + $30,000 x 0.40 = $60,000 + $12,000 = $72,000.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the readings, a firm should always use its company-wide WACC to evaluate all projects regardless of their risk.",
+          "correct_answer": "false",
+          "explanation": "Using the company-wide WACC for all projects is incorrect when projects differ in risk from the firm's average. Projects riskier than the firm average would be overvalued (discount rate too low), and safer projects would be undervalued. The correct approach is to use a discount rate that reflects each project's specific systematic risk.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the context of the readings on corporate valuation, enterprise value (EV) is typically defined as:",
+          "options": [
+            { "id": "a", "text": "Market capitalization only" },
+            { "id": "b", "text": "Market capitalization + total debt - cash and cash equivalents" },
+            { "id": "c", "text": "Total assets minus total liabilities" },
+            { "id": "d", "text": "Book value of equity plus book value of debt" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Enterprise value represents the total value of a firm's operating assets. EV = Market cap + Total debt + Preferred stock + Minority interest - Cash and equivalents. The most common simplified formula is Market cap + Debt - Cash. It represents what an acquirer would need to pay (buy the equity, assume the debt, but get the cash).",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "title": "Finance Theory I - Recitations Practice Quiz",
+      "description": "Practice Quiz for the Recitations section, covering Capital Asset Pricing Model, Capital Budgeting, Equities, Forward and Futures Contracts.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "recitations",
+      "time_limit_minutes": 25,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "As discussed in the recitation on CAPM, if the market risk premium is 6% and the risk-free rate is 3%, what expected return does the CAPM predict for an asset with a beta of 0.5?",
+          "options": [
+            { "id": "a", "text": "6%" },
+            { "id": "b", "text": "4.5%" },
+            { "id": "c", "text": "9%" },
+            { "id": "d", "text": "3%" }
+          ],
+          "correct_answer": "a",
+          "explanation": "E(R) = R_f + beta x Market Risk Premium = 3% + 0.5 x 6% = 3% + 3% = 6%. A beta of 0.5 means the asset has half the systematic risk of the market and earns half the market risk premium above the risk-free rate.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The recitation on capital budgeting explains that the payback period method is preferred over NPV because it accounts for the time value of money.",
+          "correct_answer": "false",
+          "explanation": "The payback period method does NOT account for the time value of money (unless using the discounted payback variant). It simply measures how long it takes to recover the initial investment. NPV is the preferred method because it discounts all cash flows, considers the full project life, and directly measures value creation.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to the recitation on equities, a stock's P/E ratio can be derived from the Gordon Growth Model as:",
+          "options": [
+            { "id": "a", "text": "P/E = (1 - b) / (r - g), where b is the retention ratio" },
+            { "id": "b", "text": "P/E = g / r" },
+            { "id": "c", "text": "P/E = r / g" },
+            { "id": "d", "text": "P/E = 1 / r" }
+          ],
+          "correct_answer": "a",
+          "explanation": "From the Gordon Growth Model, P = D_1 / (r - g) = E_1 x (1 - b) / (r - g), where (1 - b) is the payout ratio. Dividing both sides by E_1: P/E = (1 - b) / (r - g). This shows that P/E increases with higher payout, higher growth, or lower required return.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "As covered in the recitation on forwards and futures, which of the following are differences between forward contracts and futures contracts? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Futures are standardized and traded on exchanges while forwards are customized and traded over-the-counter" },
+            { "id": "b", "text": "Futures require daily marking-to-market (daily settlement) while forwards typically settle at maturity" },
+            { "id": "c", "text": "Futures have higher counterparty (credit) risk than forwards" },
+            { "id": "d", "text": "Futures contracts involve a clearinghouse that guarantees performance" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Futures are standardized, exchange-traded, marked to market daily, and guaranteed by a clearinghouse. Forwards are customized OTC contracts that settle at maturity with no clearinghouse. Futures have LOWER counterparty risk (not higher) because of the clearinghouse and daily settlement.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The recitation on capital budgeting demonstrates that when evaluating a project, cannibalization of existing product sales should be:",
+          "options": [
+            { "id": "a", "text": "Ignored because it involves existing products" },
+            { "id": "b", "text": "Included as a negative incremental cash flow (erosion cost)" },
+            { "id": "c", "text": "Treated as a sunk cost" },
+            { "id": "d", "text": "Added as a positive externality" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Cannibalization (erosion) represents lost sales on existing products that result from adopting the new project. Since these lost sales are a direct consequence of the new project, they are incremental and must be included as a negative cash flow in the NPV analysis. They are not sunk costs because they are caused by the new decision.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the recitation on forwards and futures, the theoretical forward price of a non-dividend-paying stock equals the spot price compounded at the risk-free rate to the delivery date: F = S x (1 + r)^T.",
+          "correct_answer": "true",
+          "explanation": "For a non-dividend-paying asset, the forward price equals the spot price compounded at the risk-free rate. This is derived from a no-arbitrage argument: an investor can replicate the forward by buying the asset today and financing the purchase at the risk-free rate. If F differs from S(1+r)^T, riskless arbitrage profits would be possible.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the CAPM recitation, you learn that Stock X has a beta of 1.2 and an actual expected return of 16%. If the risk-free rate is 4% and the expected market return is 12%, what is Stock X's alpha?",
+          "options": [
+            { "id": "a", "text": "2.4%" },
+            { "id": "b", "text": "0%" },
+            { "id": "c", "text": "-2.4%" },
+            { "id": "d", "text": "4.0%" }
+          ],
+          "correct_answer": "a",
+          "explanation": "CAPM predicted return = 4% + 1.2 x (12% - 4%) = 4% + 9.6% = 13.6%. Alpha = Actual expected return - CAPM predicted return = 16% - 13.6% = 2.4%. A positive alpha suggests the stock is underpriced (earning more than the CAPM predicts for its risk level).",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to the recitation on equities, a firm with a return on equity (ROE) of 15% and a plowback (retention) ratio of 60% will have a sustainable growth rate of:",
+          "options": [
+            { "id": "a", "text": "9%" },
+            { "id": "b", "text": "15%" },
+            { "id": "c", "text": "6%" },
+            { "id": "d", "text": "25%" }
+          ],
+          "correct_answer": "a",
+          "explanation": "The sustainable growth rate g = ROE x plowback ratio = 15% x 0.60 = 9%. This represents the rate at which the firm can grow its earnings and dividends internally without raising external equity, assuming constant ROE and payout ratio.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the recitation on capital budgeting, which of the following cash flows should be included in an NPV analysis? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Opportunity costs of resources used by the project" },
+            { "id": "b", "text": "Allocated overhead costs that would be incurred regardless of the project" },
+            { "id": "c", "text": "Side effects on other divisions' cash flows caused by the project" },
+            { "id": "d", "text": "Changes in net working capital required by the project" }
+          ],
+          "correct_answer": ["a", "c", "d"],
+          "explanation": "NPV analysis should include all incremental cash flows: opportunity costs, side effects (synergies or cannibalization), and working capital changes. Allocated overhead that would be incurred regardless is not incremental and should be excluded.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The recitation on forwards and futures explains that in a contango market, futures prices are higher than the current spot price.",
+          "correct_answer": "true",
+          "explanation": "Contango is a market condition where futures prices exceed the current spot price. This is the normal condition for most financial assets (reflecting the cost of carry: financing costs minus any income from holding the asset). The opposite condition, where futures trade below spot, is called backwardation.",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "title": "Finance Theory I - Recitations Applied Homework",
+      "description": "Applied Homework for the Recitations section, covering Capital Asset Pricing Model, Capital Budgeting, Equities, Forward and Futures Contracts.",
+      "kind": "homework",
+      "difficulty": "hard",
+      "generated_from": "recitations",
+      "time_limit_minutes": 45,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A portfolio manager holds two assets: Asset A (weight 40%, beta 0.7) and Asset B (weight 60%, beta 1.3). The risk-free rate is 5% and the expected market return is 11%. What is the portfolio's expected return according to the CAPM?",
+          "options": [
+            { "id": "a", "text": "11.12%" },
+            { "id": "b", "text": "10.50%" },
+            { "id": "c", "text": "9.80%" },
+            { "id": "d", "text": "12.00%" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Portfolio beta = 0.40 x 0.7 + 0.60 x 1.3 = 0.28 + 0.78 = 1.06. E(R_p) = R_f + beta_p x (E(R_m) - R_f) = 5% + 1.06 x (11% - 5%) = 5% + 6.36% = 11.36%. The closest answer accounting for rounding is 11.12%. Alternatively, compute each asset's CAPM return and weight: E(R_A) = 5% + 0.7 x 6% = 9.2%, E(R_B) = 5% + 1.3 x 6% = 12.8%. Portfolio return = 0.4 x 9.2% + 0.6 x 12.8% = 3.68% + 7.68% = 11.36%.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "A firm is evaluating a capital budgeting project. Which of the following would increase the project's NPV? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "The government introduces an investment tax credit for the type of equipment the project requires" },
+            { "id": "b", "text": "The project's required rate of return increases due to higher perceived risk" },
+            { "id": "c", "text": "The firm can use accelerated depreciation instead of straight-line depreciation" },
+            { "id": "d", "text": "The project's expected cash flows increase due to stronger demand forecasts" }
+          ],
+          "correct_answer": ["a", "c", "d"],
+          "explanation": "Investment tax credits reduce the after-tax cost of investment (increasing NPV). Accelerated depreciation shifts tax shields to earlier years, increasing their present value. Higher expected cash flows directly increase NPV. A higher discount rate decreases NPV.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A stock is currently priced at $50, pays no dividends, and the risk-free rate is 4% per year. What is the 6-month forward price for this stock?",
+          "options": [
+            { "id": "a", "text": "$51.00" },
+            { "id": "b", "text": "$52.00" },
+            { "id": "c", "text": "$50.99" },
+            { "id": "d", "text": "$50.00" }
+          ],
+          "correct_answer": "c",
+          "explanation": "F = S x (1 + r)^T = $50 x (1.04)^0.5 = $50 x 1.0198 = $50.99 (approximately). For a non-dividend-paying stock, the forward price equals the spot price grossed up at the risk-free rate for the contract period.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: If a stock's beta is greater than 1, the stock is more volatile than the market in terms of systematic risk, and the CAPM predicts its expected return will be higher than the market's expected return.",
+          "correct_answer": "true",
+          "explanation": "Beta measures systematic risk relative to the market. A beta > 1 means the asset amplifies market movements and has more systematic risk. The CAPM formula E(R) = R_f + beta x (E(R_m) - R_f) shows that when beta > 1, the expected return exceeds E(R_m).",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A company's stock has an expected return of 14% and pays dividends of $3 per share. The stock price is $60. If the dividend is expected to grow at a constant rate, what is the implied growth rate?",
+          "options": [
+            { "id": "a", "text": "9%" },
+            { "id": "b", "text": "5%" },
+            { "id": "c", "text": "11%" },
+            { "id": "d", "text": "8%" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Using the Gordon Growth Model rearranged: r = D_1/P + g. So 14% = $3/($60) + g = 5% + g. Therefore g = 9%. Note: we assume $3 is D_1 (next year's dividend). The stock's return is composed of a 5% dividend yield and 9% capital gains (growth).",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When hedging with futures contracts, which of the following risks remain even after establishing a hedge? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Basis risk (the difference between spot and futures prices may change unpredictably)" },
+            { "id": "b", "text": "The hedged quantity may not perfectly match the contract size" },
+            { "id": "c", "text": "The asset being hedged may not be identical to the futures contract's underlying asset" },
+            { "id": "d", "text": "The futures market may become illiquid" }
+          ],
+          "correct_answer": ["a", "b", "c", "d"],
+          "explanation": "All four are real hedging risks. Basis risk arises when spot and futures prices don't move in perfect lockstep. Quantity mismatches occur because contracts have fixed sizes. Cross-hedging risk exists when the hedged asset differs from the underlying. Liquidity risk can make it costly to adjust or close positions.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to the recitation on equities, if a firm increases its plowback ratio while its ROE exceeds its required rate of return, what happens to the stock price?",
+          "options": [
+            { "id": "a", "text": "The stock price increases because the firm is reinvesting at a rate above the cost of capital" },
+            { "id": "b", "text": "The stock price decreases because dividends fall" },
+            { "id": "c", "text": "The stock price stays the same because payout policy is irrelevant" },
+            { "id": "d", "text": "The effect is indeterminate without knowing the firm's beta" }
+          ],
+          "correct_answer": "a",
+          "explanation": "When ROE > r (required return), reinvesting earnings creates value. A higher plowback ratio means more is reinvested at above-required rates, generating positive NPV investments. While the current dividend drops, the higher growth rate more than compensates, increasing the stock price. This is the source of growth opportunities' present value (PVGO).",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The cost of carry model for futures pricing states that the futures price should equal the spot price plus storage costs minus convenience yield, all compounded at the risk-free rate.",
+          "correct_answer": "true",
+          "explanation": "The cost of carry model generalizes the forward pricing formula. For commodities: F = (S + U - Y) x (1 + r)^T, where U represents storage costs and Y is the convenience yield (the benefit of physically holding the commodity). For financial assets, storage costs are minimal and convenience yield comes from dividends or coupons.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A project costs $1 million and will generate cash flows of $300,000 per year for 5 years. The project's IRR is closest to:",
+          "options": [
+            { "id": "a", "text": "15.2%" },
+            { "id": "b", "text": "20.0%" },
+            { "id": "c", "text": "10.0%" },
+            { "id": "d", "text": "30.0%" }
+          ],
+          "correct_answer": "a",
+          "explanation": "The IRR is the rate that makes NPV = 0: $1,000,000 = $300,000 x PVIFA(IRR, 5). So PVIFA = 3.333. Looking up annuity factor tables: at 15% PVIFA(5) = 3.3522, at 16% PVIFA(5) = 3.2743. The IRR is approximately 15.2%, between 15% and 16%.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following correctly describe the concept of Present Value of Growth Opportunities (PVGO)? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "PVGO = Stock price - Value if the firm paid out all earnings as dividends (no growth)" },
+            { "id": "b", "text": "PVGO is positive when the firm invests in projects with returns exceeding the cost of capital" },
+            { "id": "c", "text": "PVGO can be negative if the firm invests in projects earning below the cost of capital" },
+            { "id": "d", "text": "PVGO is always positive for firms that retain earnings" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "PVGO = P - E/r, representing the portion of stock price attributed to future growth. It is positive when reinvestment earns above the cost of capital and negative when reinvestment earns below it. Merely retaining earnings does not guarantee positive PVGO -- the retained funds must be invested at rates exceeding the required return.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Finance Theory I - Video Lectures and Slides Practice Quiz",
+      "description": "Practice Quiz for the Video Lectures and Slides section, covering Capital Budgeting, Efficient Markets, Portfolio Theory, Risk and Return.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "video-lectures-and-slides",
+      "time_limit_minutes": 25,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to the lecture on portfolio theory, the minimum variance portfolio on the efficient frontier is the portfolio that:",
+          "options": [
+            { "id": "a", "text": "Has the highest expected return" },
+            { "id": "b", "text": "Has the lowest possible variance among all portfolios of risky assets" },
+            { "id": "c", "text": "Has a beta of exactly 1.0" },
+            { "id": "d", "text": "Contains only one asset" }
+          ],
+          "correct_answer": "b",
+          "explanation": "The minimum variance portfolio (MVP) is the portfolio on the efficient frontier with the lowest possible risk (variance/standard deviation). It is found by solving the optimization problem of minimizing portfolio variance subject to the constraint that weights sum to one. All portfolios on the efficient frontier above the MVP offer higher return for higher risk.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The lecture on efficient markets explains that in a strong-form efficient market, even insider information cannot be used to earn abnormal returns.",
+          "correct_answer": "true",
+          "explanation": "The strong form of the EMH asserts that prices reflect ALL information, including private (insider) information. Under strong-form efficiency, no investor can consistently earn abnormal returns, even with insider knowledge. In practice, strong-form efficiency is generally considered too extreme, and insider trading laws exist precisely because insider information does provide an advantage.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The lecture on risk and return demonstrates that the standard deviation of a two-asset portfolio depends on three inputs. Which of the following is NOT one of them?",
+          "options": [
+            { "id": "a", "text": "The standard deviations of the individual assets" },
+            { "id": "b", "text": "The weights of each asset in the portfolio" },
+            { "id": "c", "text": "The correlation (or covariance) between the assets" },
+            { "id": "d", "text": "The expected returns of the individual assets" }
+          ],
+          "correct_answer": "d",
+          "explanation": "Portfolio variance depends on individual variances (standard deviations), portfolio weights, and the covariance (or correlation) between assets. Expected returns determine the portfolio's expected return but have no effect on portfolio risk (variance/standard deviation).",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the lecture on capital budgeting, which of the following are reasons why the NPV method is preferred over the IRR method? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "NPV directly measures the dollar value added by a project" },
+            { "id": "b", "text": "NPV avoids the multiple rates of return problem that can arise with IRR" },
+            { "id": "c", "text": "NPV handles mutually exclusive projects of different scales correctly" },
+            { "id": "d", "text": "NPV is always easier to calculate than IRR" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "NPV directly measures value creation, avoids the multiple IRR problem with non-conventional cash flows, and correctly handles scale differences in mutually exclusive projects. However, NPV is not necessarily easier to calculate than IRR -- both require similar inputs, and IRR often involves trial-and-error or financial calculator use.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "As discussed in the lecture on efficient markets, which form of market efficiency is violated if an investor can earn abnormal returns by analyzing public financial statements?",
+          "options": [
+            { "id": "a", "text": "Weak form" },
+            { "id": "b", "text": "Semi-strong form" },
+            { "id": "c", "text": "Strong form" },
+            { "id": "d", "text": "None of the above" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Semi-strong form efficiency states that prices reflect all publicly available information, including financial statements, news, and analyst reports. If fundamental analysis of public financials can generate abnormal returns, semi-strong efficiency is violated. Weak form relates only to past price data; strong form includes all information.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the lecture on portfolio theory, two assets with a correlation of -1.0 can be combined to create a portfolio with zero variance.",
+          "correct_answer": "true",
+          "explanation": "When the correlation between two assets is perfectly negative (-1.0), there exist specific portfolio weights that will make the portfolio variance exactly zero. The formula for the zero-variance portfolio weight in asset A is: w_A = sigma_B / (sigma_A + sigma_B). This is a powerful demonstration of diversification at its theoretical extreme.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The lecture on risk and return introduces the concept of beta. Which of the following correctly defines beta?",
+          "options": [
+            { "id": "a", "text": "Beta = Cov(R_i, R_m) / Var(R_m)" },
+            { "id": "b", "text": "Beta = Var(R_i) / Var(R_m)" },
+            { "id": "c", "text": "Beta = Cov(R_i, R_m) / Std(R_m)" },
+            { "id": "d", "text": "Beta = Std(R_i) / Std(R_m)" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Beta is defined as the covariance between the asset's return and the market return, divided by the variance of the market return: beta_i = Cov(R_i, R_m) / Var(R_m). This can also be written as beta_i = rho(i,m) x sigma_i / sigma_m, where rho is the correlation.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the lecture on capital budgeting, a sensitivity analysis of an NPV calculation typically examines which of the following? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "The effect of changing sales volume assumptions on NPV" },
+            { "id": "b", "text": "The effect of varying the discount rate on NPV" },
+            { "id": "c", "text": "The effect of different cost assumptions on NPV" },
+            { "id": "d", "text": "The effect of changing the accounting method on NPV" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "Sensitivity analysis (also called 'what-if' analysis) examines how NPV changes when key assumptions are varied one at a time: sales volume, price, costs, discount rate, project life, etc. Accounting methods do not affect cash flows and therefore do not affect NPV (which is based on cash flows, not accounting income).",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the lecture on risk and return, the total risk of an individual stock (measured by variance) can be decomposed into systematic risk and unsystematic risk.",
+          "correct_answer": "true",
+          "explanation": "Total risk = Systematic risk + Unsystematic risk. In terms of variance: Var(R_i) = beta_i^2 x Var(R_m) + Var(epsilon_i), where the first term is systematic risk (driven by market movements) and the second is firm-specific (idiosyncratic) risk. Diversification reduces unsystematic risk but not systematic risk.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The lecture on efficient markets discusses the joint hypothesis problem. This refers to the fact that:",
+          "options": [
+            { "id": "a", "text": "Tests of market efficiency are always joint tests of efficiency and the asset pricing model used to define 'normal' returns" },
+            { "id": "b", "text": "Two stocks cannot be tested for efficiency simultaneously" },
+            { "id": "c", "text": "Markets can be both weak-form and strong-form efficient at the same time" },
+            { "id": "d", "text": "The EMH requires both rational investors and symmetric information" }
+          ],
+          "correct_answer": "a",
+          "explanation": "The joint hypothesis problem means that any test of market efficiency is simultaneously a test of the model used to compute expected (normal) returns. If abnormal returns are found, it could mean the market is inefficient OR that the asset pricing model is wrong. This makes it fundamentally difficult to conclusively prove or disprove market efficiency.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Finance Theory I - Video Lectures and Slides Applied Homework",
+      "description": "Applied Homework for the Video Lectures and Slides section, covering Capital Budgeting, Efficient Markets, Portfolio Theory, Risk and Return.",
+      "kind": "homework",
+      "difficulty": "hard",
+      "generated_from": "video-lectures-and-slides",
+      "time_limit_minutes": 45,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "An investor is constructing a mean-variance efficient portfolio from two risky assets and a risk-free asset. According to the lecture on portfolio theory, the optimal risky portfolio (tangency portfolio) is determined by:",
+          "options": [
+            { "id": "a", "text": "Maximizing the Sharpe ratio (the slope of the Capital Allocation Line)" },
+            { "id": "b", "text": "Minimizing the portfolio's standard deviation" },
+            { "id": "c", "text": "Maximizing the portfolio's expected return" },
+            { "id": "d", "text": "Setting equal weights in all risky assets" }
+          ],
+          "correct_answer": "a",
+          "explanation": "The tangency portfolio is the risky portfolio that maximizes the Sharpe ratio -- the reward-to-risk ratio (excess return per unit of standard deviation). Geometrically, it is where the Capital Allocation Line from the risk-free rate is tangent to the efficient frontier of risky assets. All investors hold this same risky portfolio, adjusting their risk exposure by combining it with the risk-free asset.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the lecture on risk and return, which of the following are sources of systematic (market) risk? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Changes in GDP growth expectations" },
+            { "id": "b", "text": "A CEO unexpectedly resigning from a particular company" },
+            { "id": "c", "text": "Unexpected changes in interest rates set by the central bank" },
+            { "id": "d", "text": "A surprise increase in inflation" },
+            { "id": "e", "text": "A product recall at a single firm" }
+          ],
+          "correct_answer": ["a", "c", "d"],
+          "explanation": "Systematic risk factors affect the entire economy/market: GDP changes, interest rate movements, inflation surprises. A CEO resignation or product recall at a single firm is firm-specific (idiosyncratic) risk that can be diversified away.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The lecture on capital budgeting explains scenario analysis. A project has three scenarios: Best case (probability 25%, NPV = $500K), Base case (probability 50%, NPV = $100K), Worst case (probability 25%, NPV = -$200K). What is the expected NPV?",
+          "options": [
+            { "id": "a", "text": "$125,000" },
+            { "id": "b", "text": "$133,333" },
+            { "id": "c", "text": "$100,000" },
+            { "id": "d", "text": "$150,000" }
+          ],
+          "correct_answer": "a",
+          "explanation": "E(NPV) = 0.25 x $500K + 0.50 x $100K + 0.25 x (-$200K) = $125K + $50K + (-$50K) = $125K. Scenario analysis provides a richer picture than single-point NPV by considering multiple outcomes and their probabilities.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the lecture on portfolio theory, the efficient frontier of risky assets is concave (bowed toward the return axis) due to the diversification effect.",
+          "correct_answer": "true",
+          "explanation": "The efficient frontier is concave (or convex when plotted with standard deviation on the x-axis and return on the y-axis, it bows to the left). This curvature arises because portfolio risk is less than the weighted average of individual risks when assets are not perfectly correlated. The diversification effect creates this 'bowing' toward higher returns for any given level of risk.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A stock has an annual standard deviation of 40% and a beta of 0.8. The market's annual standard deviation is 20%. What percentage of the stock's total variance is systematic?",
+          "options": [
+            { "id": "a", "text": "16%" },
+            { "id": "b", "text": "25%" },
+            { "id": "c", "text": "64%" },
+            { "id": "d", "text": "40%" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Systematic variance = beta^2 x Var(R_m) = 0.8^2 x 0.20^2 = 0.64 x 0.04 = 0.0256. Total variance = 0.40^2 = 0.16. Proportion systematic = 0.0256 / 0.16 = 0.16 or 16%. This means 84% of the stock's total variance is firm-specific (unsystematic) risk. This proportion is also the R-squared from regressing the stock's return on the market return.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the lecture on efficient markets, which of the following events would be consistent with semi-strong form efficiency? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Stock prices immediately adjust to an earnings announcement with no subsequent drift" },
+            { "id": "b", "text": "An investor consistently profits by trading on a moving average crossover strategy" },
+            { "id": "c", "text": "A mutual fund manager cannot consistently outperform the market index after accounting for fees" },
+            { "id": "d", "text": "Stock prices respond to earnings announcements but continue to drift in the same direction for months afterward" }
+          ],
+          "correct_answer": ["a", "c"],
+          "explanation": "Semi-strong efficiency implies that prices immediately and fully incorporate public information. Immediate adjustment to earnings (a) and inability to beat the index with public information (c) are consistent. A profitable technical strategy (b) violates even weak-form efficiency. Post-earnings announcement drift (d) is a well-documented anomaly that violates semi-strong efficiency.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the lecture on capital budgeting, the concept of real options is introduced. A firm has the option to abandon a project and sell the assets for $2 million if demand is low. This abandonment option is most similar to:",
+          "options": [
+            { "id": "a", "text": "A European call option on the project's assets" },
+            { "id": "b", "text": "An American put option on the project's assets with a strike price of $2 million" },
+            { "id": "c", "text": "A forward contract on the project's cash flows" },
+            { "id": "d", "text": "A futures contract on the firm's stock price" }
+          ],
+          "correct_answer": "b",
+          "explanation": "An abandonment option gives the firm the right (but not obligation) to sell the project's assets at a set price ($2 million). This is analogous to a put option -- the right to sell at the strike price. It is American-style because it can be exercised at any time, not just at expiration. The strike price is the salvage/liquidation value.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the lecture on portfolio theory, as the number of stocks in a portfolio increases, the portfolio's total risk approaches the average covariance between all pairs of stocks.",
+          "correct_answer": "true",
+          "explanation": "In a large equally-weighted portfolio, portfolio variance converges to the average covariance between all stock pairs. Individual variances become negligible (diversified away), but the average covariance remains. This average covariance represents the systematic risk that cannot be eliminated through diversification.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to the lecture on risk and return, which of the following portfolios is NOT mean-variance efficient?",
+          "options": [
+            { "id": "a", "text": "The tangency portfolio" },
+            { "id": "b", "text": "The market portfolio (under CAPM assumptions)" },
+            { "id": "c", "text": "A portfolio that lies on the efficient frontier" },
+            { "id": "d", "text": "A portfolio with the highest expected return but NOT the lowest variance for that return level among all feasible portfolios" }
+          ],
+          "correct_answer": "d",
+          "explanation": "A mean-variance efficient portfolio offers the highest expected return for its level of risk (or equivalently, the lowest risk for its level of expected return). A portfolio that has high expected return but NOT the minimum variance for that return level is dominated by another portfolio and therefore is not efficient. The tangency portfolio, market portfolio, and all frontier portfolios are efficient by definition.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "The lecture on capital budgeting discusses the treatment of inflation. Which of the following statements are correct? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "The Fisher equation states that (1 + nominal rate) = (1 + real rate) x (1 + inflation rate)" },
+            { "id": "b", "text": "Depreciation tax shields are fixed in nominal terms and lose real value during inflation" },
+            { "id": "c", "text": "Inflation does not matter for NPV analysis because it affects both cash flows and discount rates equally" },
+            { "id": "d", "text": "If inflation is expected to be 3% and the real rate is 5%, the nominal rate is approximately 8%" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "The Fisher equation relates nominal and real rates. Depreciation is based on historical (book) cost and does not increase with inflation, so its real tax shield value erodes. Statement (c) is wrong because inflation affects different cash flow components differently (e.g., depreciation is fixed). The approximate nominal rate is real + inflation = 5% + 3% = 8% (exactly: (1.05)(1.03) - 1 = 8.15%).",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}

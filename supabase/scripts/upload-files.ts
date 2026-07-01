@@ -13,10 +13,10 @@
 import fs from "fs";
 import path from "path";
 import { createClient } from "@supabase/supabase-js";
-import { SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY } from "./config.js";
+import { SUPABASE_URL, requireSupabaseServiceRoleKey } from "./config.js";
 import { parseAllCourses, type ParsedCourse } from "./parse-courses.js";
 
-const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, {
+const supabase = createClient(SUPABASE_URL, requireSupabaseServiceRoleKey(), {
   auth: { persistSession: false },
 });
 

@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>Two-part Tariffs, Bundling, Pricing, Transfer Pricing, Asymmetric Information, Cartels and Auctions, Externalities/Common Property and Game theory.</p>\n",
+  "content_type": "resource",
+  "description": "Two-part Tariffs, Bundling, Pricing, Transfer Pricing, Asymmetric Information, Cartels and Auctions, Externalities/Common Property and Game theory.",
+  "draft": false,
+  "file": "/courses/15-010-economic-analysis-for-business-decisions-fall-2004/a4688f6a19a63881cb4edeeee352601c_final_rev_hndout.pdf",
+  "file_size": 378049,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Supplemental Exam Materials"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Exams",
+  "parent_type": "CourseSection",
+  "parent_uid": "93294fb1-6eb1-2889-2d21-cbd51760c44c",
+  "resourcetype": "Document",
+  "title": "final_rev_hndout.pdf",
+  "uid": "a4688f6a-19a6-3881-cb4e-deeee352601c",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "15-010-economic-analysis-for-business-decisions-fall-2004"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "15-010-economic-analysis-for-business-decisions-fall-2004"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

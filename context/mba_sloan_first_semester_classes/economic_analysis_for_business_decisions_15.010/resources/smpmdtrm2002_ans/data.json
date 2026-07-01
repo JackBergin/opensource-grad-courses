@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This resource includes solutions for Mid Term Exam-2002.</p>\n",
+  "content_type": "resource",
+  "description": "This resource includes solutions for Mid Term Exam-2002.",
+  "draft": false,
+  "file": "/courses/15-010-economic-analysis-for-business-decisions-fall-2004/11feae7553848479ca94db68fece1c8c_smpmdtrm2002_ans.pdf",
+  "file_size": 125678,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Exam Solutions"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Exams",
+  "parent_type": "CourseSection",
+  "parent_uid": "93294fb1-6eb1-2889-2d21-cbd51760c44c",
+  "resourcetype": "Document",
+  "title": "smpmdtrm2002_ans.pdf",
+  "uid": "11feae75-5384-8479-ca94-db68fece1c8c",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "15-010-economic-analysis-for-business-decisions-fall-2004"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "15-010-economic-analysis-for-business-decisions-fall-2004"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

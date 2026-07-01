@@ -1,0 +1,73 @@
+{
+  "course_description": " This course helps students develop skills in marketing analysis and planning, and introduces key marketing ideas and phenomena, such as how to deliver benefits to customers and marketing analytics. It presents a framework for marketing analysis and enhances problem solving and decision-making abilities in these areas. Material relevant to understanding, managing, and integrating marketing concepts in managerial situations, from entrepreneurial ventures to large multinational firms, and to consulting are presented.\n",
+  "course_description_html": "This course helps students develop skills in marketing analysis and planning, and introduces key marketing ideas and phenomena, such as how to deliver benefits to customers and marketing analytics. It presents a framework for marketing analysis and enhances problem solving and decision-making abilities in these areas. Material relevant to understanding, managing, and integrating marketing concepts in managerial situations, from entrepreneurial ventures to large multinational firms, and to consulting are presented.",
+  "course_image": {
+    "content": "04213e06-e2f2-7145-757c-55a1e9eaac76",
+    "website": "15-810-marketing-management-analytics-frameworks-and-applications-fall-2015"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "A display of Swatch watches in a shop window.",
+    "draft": false,
+    "file": "/courses/15-810-marketing-management-analytics-frameworks-and-applications-fall-2015/04213e06e2f27145757c55a1e9eaac76_15.810s15.jpg",
+    "file_size": 165757,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "A display of Swatch watches in a shop window. The success of the Swatch watch was driven by innovative marketing strategies, which transformed the industry. (Photo courtesy of {{% resource_link \"2e64d916-affb-4ef3-ad91-115355a133f9\" \"Rob Deutscher\" %}} on Flickr.)",
+      "credit": "Photo courtesy of Rob Deutscher on Flickr. https://www.flickr.com/photos/bobarc/6821065429/",
+      "image-alt": "A marketing display of Swatch watches in a store window."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "15.810f15.jpg",
+    "uid": "04213e06-e2f2-7145-757c-55a1e9eaac76"
+  },
+  "course_image_thumbnail": {
+    "content": "bab8d879-420a-9891-7f2f-7de6f26b4790",
+    "website": "15-810-marketing-management-analytics-frameworks-and-applications-fall-2015"
+  },
+  "course_title": "Marketing Management: Analytics, Frameworks, and Applications",
+  "department_numbers": [
+    "15"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/04213e06e2f27145757c55a1e9eaac76_15.810s15.jpg",
+  "instructors": [
+    {
+      "first_name": "John",
+      "last_name": "Hauser",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. John Hauser",
+      "uid": "fbaaecc7-5fca-450c-0bc2-c819703f31b9",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+John+Hauser"
+    }
+  ],
+  "learning_resource_types": [
+    "Written Assignments"
+  ],
+  "legacy_uid": "7a8dd605-80a9-d6bc-e869-d5f9ad6de222",
+  "level": [
+    "Graduate"
+  ],
+  "primary_course_number": "15.810",
+  "site_short_id": "15.810-fall-2015",
+  "site_uid": "6f82a8e0-49a9-404b-bf17-b79fe5047d81",
+  "site_url_path": "courses/15-810-marketing-management-analytics-frameworks-and-applications-fall-2015",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Business",
+      "Management"
+    ],
+    [
+      "Business",
+      "Marketing"
+    ]
+  ],
+  "year": "2015"
+}

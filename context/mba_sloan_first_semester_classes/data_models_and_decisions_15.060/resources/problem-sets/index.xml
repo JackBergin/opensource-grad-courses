@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Problem Sets on MIT OpenCourseWare</title>
+    <link>/resources/problem-sets/</link>
+    <description>Recent content in Problem Sets on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/problem-sets/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homework 1: Probability - 15.060 Data, Models, and Decisions - Fall 2014</title>
+      <link>/resources/mit15_060f14_hw1-f14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_060f14_hw1-f14/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Probability.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 2: Simulation - 15.060 Data, Models, and Decisions - Fall 2014</title>
+      <link>/resources/mit15_060f14_hw2_work/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_060f14_hw2_work/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Simulation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 3: EXEC-PAY Spreadsheet - 15.060 Data, Models, and Decisions - Fall 2014</title>
+      <link>/resources/mit15_060f14_hw3_exec/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_060f14_hw3_exec/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding EXEC-PAY Spreadsheet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 3: Regression I - 15.060 Data, Models, and Decisions - Fall 2014</title>
+      <link>/resources/mit15_060f14_hw3-f14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_060f14_hw3-f14/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Regression I.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 4: Hubbard Brewing Company Spreadsheet - 15.060 Data, Models, and Decisions - Fall 2014</title>
+      <link>/resources/mit15_060f14_hw4-hbc/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_060f14_hw4-hbc/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Hubbard Brewing Company Spreadsheet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 4: Regression II - 15.060 Data, Models, and Decisions - Fall 2014</title>
+      <link>/resources/mit15_060f14_hw4-f14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_060f14_hw4-f14/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Regression II.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 5:  Linear Optimization - 15.060 Data, Models, and Decisions - Fall 2014</title>
+      <link>/resources/mit15_060f14_hw5-f14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_060f14_hw5-f14/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Linear Optimization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 6: Jordan Alloy Table 7.38 - 15.060 Data, Models, and Decisions - Fall 2014</title>
+      <link>/resources/mit15_060f14_hw6-jordan/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_060f14_hw6-jordan/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Jordan Alloy Table 7.38.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 6: Production Management  - 15.060 Data, Models, and Decisions - Fall 2014</title>
+      <link>/resources/mit15_060f14_hw6-f14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_060f14_hw6-f14/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Production Management.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 7: Discrete Optimization - 15.060 Data, Models, and Decisions - Fall 2014</title>
+      <link>/resources/mit15_060f14_hw7-f14/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_060f14_hw7-f14/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Discrete Optimization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Homework 7: Dream Team Spreadsheet - 15.060 Data, Models, and Decisions - Fall 2014</title>
+      <link>/resources/mit15_060f14_hw7-dream/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_060f14_hw7-dream/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information regarding Dream Team Spreadsheet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT15_060F14_HW3_EXEC.xls</title>
+      <link>/resources/mit15_060f14_hw3_exec-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_060f14_hw3_exec-1/data.json</guid>
+      <description>&lt;p&gt;This is the special file regarding EXEC.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT15_060F14_HW4-HBC.xls</title>
+      <link>/resources/mit15_060f14_hw4-hbc-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_060f14_hw4-hbc-1/data.json</guid>
+      <description>&lt;p&gt;This is the special file regarding HBC.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT15_060F14_HW6-Jordan.xls</title>
+      <link>/resources/mit15_060f14_hw6-jordan-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_060f14_hw6-jordan-1/data.json</guid>
+      <description>&lt;p&gt;This is the special file regarding Jordan.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MIT15_060F14_HW7-Dream.xls</title>
+      <link>/resources/mit15_060f14_hw7-dream-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_060f14_hw7-dream-1/data.json</guid>
+      <description>&lt;p&gt;This is the special file regarding Dream.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

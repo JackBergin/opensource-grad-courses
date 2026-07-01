@@ -1,0 +1,998 @@
+{
+  "course_slug": "15-761-spring-2013",
+  "course_title": "Introduction to Operations Management",
+  "assessments": [
+    {
+      "title": "Operations Management - Assignments Applied Homework",
+      "description": "Applied Homework for the Assignments section, covering process analysis, capacity analysis, inventory calculations, and Little's Law applications.",
+      "kind": "homework",
+      "difficulty": "hard",
+      "generated_from": "assignments",
+      "time_limit_minutes": 45,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Little's Law states that the average number of items in a system (L) equals:",
+          "options": [
+            { "id": "a", "text": "The arrival rate divided by the average time in the system" },
+            { "id": "b", "text": "The average arrival rate multiplied by the average time an item spends in the system (L = lambda x W)" },
+            { "id": "c", "text": "The throughput rate divided by the capacity of the bottleneck" },
+            { "id": "d", "text": "The total demand divided by the number of servers" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Little's Law: L = lambda x W, where L is the average number of items in the system (inventory), lambda is the average arrival (throughput) rate, and W is the average time an item spends in the system (flow time). This fundamental law holds for any stable system regardless of the arrival or service distributions.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Increasing the capacity of a non-bottleneck resource in a process will increase the overall throughput of the system.",
+          "correct_answer": "false",
+          "explanation": "The throughput of a system is limited by its bottleneck -- the resource with the lowest capacity. Adding capacity to a non-bottleneck resource will not increase system throughput because the bottleneck remains the constraint. Only increasing the capacity of the bottleneck (or reducing demand on it) can increase overall throughput.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A process has three sequential steps: Step A (capacity 20 units/hr), Step B (capacity 15 units/hr), and Step C (capacity 25 units/hr). What is the maximum throughput of this process?",
+          "options": [
+            { "id": "a", "text": "25 units/hr" },
+            { "id": "b", "text": "20 units/hr" },
+            { "id": "c", "text": "15 units/hr" },
+            { "id": "d", "text": "60 units/hr" }
+          ],
+          "correct_answer": "c",
+          "explanation": "The maximum throughput of a sequential process is determined by the bottleneck, which is the step with the lowest capacity. Step B has the lowest capacity at 15 units/hr, making it the bottleneck. No matter how fast Steps A and C can operate, the system can only produce 15 units/hr because everything must pass through Step B.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following strategies can increase the capacity of a bottleneck resource? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Adding an identical parallel machine at the bottleneck step" },
+            { "id": "b", "text": "Reducing the processing time at the bottleneck through process improvement" },
+            { "id": "c", "text": "Adding buffer inventory before the bottleneck" },
+            { "id": "d", "text": "Offloading some tasks from the bottleneck to non-bottleneck resources" },
+            { "id": "e", "text": "Increasing the capacity of a downstream non-bottleneck resource" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Adding a parallel machine (a) directly doubles the bottleneck capacity. Reducing processing time (b) allows the bottleneck to handle more units per hour. Offloading tasks (d) reduces the work content at the bottleneck. Buffer inventory (c) helps prevent starvation but does not change the bottleneck's capacity. Increasing non-bottleneck capacity (e) has no effect on the constraint.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A hospital emergency department sees an average of 6 patients per hour, and patients spend an average of 4 hours in the department. According to Little's Law, how many patients are in the emergency department on average?",
+          "options": [
+            { "id": "a", "text": "10 patients" },
+            { "id": "b", "text": "24 patients" },
+            { "id": "c", "text": "1.5 patients" },
+            { "id": "d", "text": "2 patients" }
+          ],
+          "correct_answer": "b",
+          "explanation": "By Little's Law: L = lambda x W = 6 patients/hour x 4 hours = 24 patients. On average, there are 24 patients in the emergency department at any given time. This relationship holds regardless of the specific arrival pattern or service time distribution.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Capacity utilization is defined as the ratio of actual throughput to the capacity of the bottleneck resource, and a utilization above 100% is sustainable in the long run.",
+          "correct_answer": "false",
+          "explanation": "While capacity utilization is indeed the ratio of actual throughput to the capacity of the bottleneck, utilization above 100% is NOT sustainable in the long run. If demand consistently exceeds capacity, queues (work-in-process inventory) will grow without bound. In practice, high utilization (near 100%) leads to rapidly increasing wait times due to variability, as described by queuing theory.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In a process flow diagram, a company identifies that Station 1 takes 5 minutes per unit, Station 2 takes 8 minutes per unit, and Station 3 takes 3 minutes per unit. What is the cycle time of this process?",
+          "options": [
+            { "id": "a", "text": "3 minutes" },
+            { "id": "b", "text": "5 minutes" },
+            { "id": "c", "text": "8 minutes" },
+            { "id": "d", "text": "16 minutes" }
+          ],
+          "correct_answer": "c",
+          "explanation": "The cycle time (time between successive completions) of a sequential process is determined by the bottleneck station -- the one with the longest processing time per unit. Station 2 at 8 minutes per unit is the bottleneck, so one unit exits the system every 8 minutes. The total processing time (flow time for one unit) would be 16 minutes, but the cycle time is 8 minutes.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "A company is analyzing its manufacturing process and finds that workers spend significant time waiting for parts. Which of the following are likely root causes? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "High variability in upstream processing times" },
+            { "id": "b", "text": "Insufficient buffer inventory between stations" },
+            { "id": "c", "text": "The downstream station is operating at lower capacity than upstream" },
+            { "id": "d", "text": "Unbalanced workloads across stations" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Workers waiting for parts (starvation) can be caused by: high variability in upstream processing (a) creating intermittent supply; insufficient buffer inventory (b) that would absorb variability; and unbalanced workloads (d) where the downstream station is faster than the upstream. If the downstream station has lower capacity than upstream (c), parts would accumulate (building inventory), not create starvation.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A bakery processes 120 loaves per day with an average of 40 loaves in the system at any time. What is the average flow time for a loaf?",
+          "options": [
+            { "id": "a", "text": "3 hours" },
+            { "id": "b", "text": "1/3 of a day (8 hours)" },
+            { "id": "c", "text": "1/3 of a day" },
+            { "id": "d", "text": "80 minutes" }
+          ],
+          "correct_answer": "c",
+          "explanation": "Using Little's Law: W = L / lambda = 40 loaves / 120 loaves per day = 1/3 of a day. The average loaf spends one-third of a working day in the system from start to finish. Without knowing the length of the working day, we express this as 1/3 of a day.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Direct labor content and direct labor utilization are the same metric in process analysis.",
+          "correct_answer": "false",
+          "explanation": "Direct labor content is the total amount of labor time required to produce one unit (sum of all labor times across all steps). Direct labor utilization is the fraction of time that workers are actually productive (busy time / total time available). A process can have high labor content but low utilization if workers spend time waiting or if the process is poorly balanced.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Operations Management - Assignments Practice Quiz",
+      "description": "Practice Quiz for the Assignments section, covering process flow analysis, capacity, and throughput fundamentals.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "assignments",
+      "time_limit_minutes": 25,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What is the bottleneck in a process?",
+          "options": [
+            { "id": "a", "text": "The step with the most expensive equipment" },
+            { "id": "b", "text": "The step with the longest processing time or lowest capacity that limits overall throughput" },
+            { "id": "c", "text": "The first step in the process" },
+            { "id": "d", "text": "The step with the highest quality defect rate" }
+          ],
+          "correct_answer": "b",
+          "explanation": "The bottleneck is the process step with the lowest capacity (or equivalently, the longest processing time per unit in a sequential process). It constrains the throughput of the entire system. All other resources must wait on or be paced by the bottleneck.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Flow time is the total time a unit spends in the process from entry to exit, including both processing time and waiting time.",
+          "correct_answer": "true",
+          "explanation": "Flow time (also called throughput time or lead time) includes all time a unit spends in the system: actual processing time plus any time spent waiting in queues, being transported, or in storage. In most real systems, waiting time is a significant component of total flow time.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A coffee shop can serve 30 customers per hour, but only 20 customers arrive per hour on average. What is the capacity utilization?",
+          "options": [
+            { "id": "a", "text": "150%" },
+            { "id": "b", "text": "67%" },
+            { "id": "c", "text": "50%" },
+            { "id": "d", "text": "33%" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Capacity utilization = Throughput / Capacity = 20 / 30 = 0.667 = 67%. The shop is using two-thirds of its available capacity. The throughput equals the demand rate (20/hr) since it is less than capacity (30/hr).",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are true about throughput rate? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Throughput rate equals the minimum of demand rate and process capacity" },
+            { "id": "b", "text": "Throughput rate can exceed the capacity of the bottleneck indefinitely" },
+            { "id": "c", "text": "Throughput rate is measured in units per time period" },
+            { "id": "d", "text": "If demand exceeds capacity, throughput equals capacity" }
+          ],
+          "correct_answer": ["a", "c", "d"],
+          "explanation": "Throughput rate = min(demand rate, process capacity) (a). It is measured in units per time (c). If demand exceeds capacity, throughput is capped at capacity (d). Throughput cannot exceed the bottleneck capacity indefinitely (b is false) -- this would cause unbounded queue growth.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In process analysis, what does 'work-in-process (WIP) inventory' refer to?",
+          "options": [
+            { "id": "a", "text": "Finished goods waiting to be shipped to customers" },
+            { "id": "b", "text": "Raw materials waiting to enter the production process" },
+            { "id": "c", "text": "Units that are currently being processed or waiting between process steps" },
+            { "id": "d", "text": "Defective units that have been removed from the production line" }
+          ],
+          "correct_answer": "c",
+          "explanation": "Work-in-process (WIP) inventory consists of units that have entered the production process but have not yet been completed. This includes units currently being worked on at any station as well as units waiting in buffers between stations. WIP is distinct from raw materials (not yet started) and finished goods (completed).",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: If two process steps are arranged in parallel (each handling a portion of the total flow), the combined capacity equals the sum of their individual capacities.",
+          "correct_answer": "true",
+          "explanation": "When identical resources are arranged in parallel, the combined capacity is the sum of their individual capacities. For example, if two machines can each process 10 units/hour, running them in parallel gives a combined capacity of 20 units/hour. This is a key strategy for increasing capacity at a bottleneck.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "An assembly line has 4 workers. Worker A takes 3 min/unit, Worker B takes 5 min/unit, Worker C takes 4 min/unit, Worker D takes 2 min/unit. What is the labor utilization of the line?",
+          "options": [
+            { "id": "a", "text": "100%" },
+            { "id": "b", "text": "70%" },
+            { "id": "c", "text": "87.5%" },
+            { "id": "d", "text": "75%" }
+          ],
+          "correct_answer": "b",
+          "explanation": "The bottleneck is Worker B at 5 min/unit, so the cycle time is 5 minutes. Total labor content = 3 + 5 + 4 + 2 = 14 minutes. Total labor time available per cycle = 4 workers x 5 minutes = 20 minutes. Labor utilization = Labor content / Total available time = 14/20 = 70%. The 30% represents idle time due to line imbalance.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which of the following best describes the concept of 'takt time'?",
+          "options": [
+            { "id": "a", "text": "The processing time at the bottleneck station" },
+            { "id": "b", "text": "The pace at which units must be produced to meet customer demand, calculated as available production time divided by customer demand" },
+            { "id": "c", "text": "The total time to produce one unit from start to finish" },
+            { "id": "d", "text": "The time between machine breakdowns" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Takt time = Available Production Time / Customer Demand. It represents the rhythm or pace of production needed to match demand. For example, if 480 minutes are available per day and demand is 240 units, takt time = 2 minutes per unit. The cycle time of the process must be less than or equal to takt time to meet demand.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are consequences of high process variability? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Longer average waiting times" },
+            { "id": "b", "text": "Higher work-in-process inventory" },
+            { "id": "c", "text": "More predictable delivery times" },
+            { "id": "d", "text": "Lower capacity utilization is needed to achieve the same service level" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "High variability in arrival or processing times causes longer queues and waiting times (a), higher WIP inventory (b), and requires lower utilization to maintain reasonable wait times (d). Variability makes delivery times LESS predictable, not more (c is incorrect). This is a key insight from queuing theory.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Reducing setup times (changeover times) at a machine can effectively increase its available capacity for production.",
+          "correct_answer": "true",
+          "explanation": "Setup time is non-productive time during which the machine is not processing units. By reducing setup times (a key principle of lean manufacturing and SMED - Single Minute Exchange of Dies), more of the available time can be used for production, effectively increasing the machine's capacity. This is particularly important when the machine is a bottleneck.",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "title": "Operations Management - Case Preparation Questions Applied Homework",
+      "description": "Applied Homework for the Case Preparation Questions section, covering analysis of Barilla SpA, Sport Obermeyer, Toyota Production System, MGH PATA, and Burger King cases.",
+      "kind": "homework",
+      "difficulty": "medium",
+      "generated_from": "case-preparation-questions",
+      "time_limit_minutes": 45,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Barilla SpA case, what was the primary operational problem caused by the company's promotional pricing strategy?",
+          "options": [
+            { "id": "a", "text": "Distributors reduced their safety stock levels" },
+            { "id": "b", "text": "Demand variability was amplified throughout the supply chain (bullwhip effect), causing alternating periods of excessive inventory and stockouts" },
+            { "id": "c", "text": "Manufacturing quality decreased due to faster production speeds" },
+            { "id": "d", "text": "Transportation costs decreased but warehouse costs increased proportionally" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Barilla's promotional pricing (volume discounts and trade promotions) caused distributors to forward-buy in large quantities during promotions, creating huge demand variability. This amplification of demand variability up the supply chain (the bullwhip effect) led to wild swings in Barilla's production, high inventory costs, frequent stockouts, and excessive overtime and changeovers in manufacturing.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The bullwhip effect refers to the amplification of demand variability as orders move up the supply chain from retailers to manufacturers.",
+          "correct_answer": "true",
+          "explanation": "The bullwhip effect describes how small fluctuations in consumer demand at the retail level become increasingly amplified as orders propagate upstream through the supply chain -- from retailers to wholesalers/distributors to manufacturers to raw material suppliers. Causes include demand forecast updating, order batching, price fluctuations, and rationing/shortage gaming.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Sport Obermeyer case, what strategy did the company use to address the challenge of long lead times and highly uncertain demand for fashion ski apparel?",
+          "options": [
+            { "id": "a", "text": "They eliminated all production in China and moved to domestic manufacturing only" },
+            { "id": "b", "text": "They used a committee of buyers to generate demand forecasts, then committed production in two phases: early production of less risky styles and later production after observing early sales signals" },
+            { "id": "c", "text": "They simply overproduced all styles to avoid stockouts" },
+            { "id": "d", "text": "They switched entirely to made-to-order production" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Sport Obermeyer used a 'reactive capacity' approach: they gathered demand forecasts from a committee of buyers (using the variation across forecasts as a measure of uncertainty), produced the more predictable styles early (committing to those before demand was known), and reserved capacity for the less predictable styles that could be produced after early-season demand signals were available. This is an application of postponement.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are key principles of the Toyota Production System (TPS)? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Just-in-time production (producing only what is needed, when it is needed)" },
+            { "id": "b", "text": "Jidoka (autonomation -- building in quality by stopping the line when defects are detected)" },
+            { "id": "c", "text": "Maximizing work-in-process inventory to keep all stations busy" },
+            { "id": "d", "text": "Kaizen (continuous improvement through small, incremental changes)" },
+            { "id": "e", "text": "Respect for people and empowering workers to identify and solve problems" }
+          ],
+          "correct_answer": ["a", "b", "d", "e"],
+          "explanation": "TPS is built on two pillars: Just-in-Time (a) and Jidoka (b), supported by continuous improvement (Kaizen, d) and respect for people (e). TPS explicitly aims to MINIMIZE work-in-process inventory (c is the opposite of TPS philosophy) because excess WIP hides problems and increases lead times. Low inventory exposes quality issues, making them visible and forcing resolution.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Based on the MGH PATA (Pre-Admission Testing Area) case, what was the main operational challenge that the hospital sought to address?",
+          "options": [
+            { "id": "a", "text": "Excessive medical errors during surgery" },
+            { "id": "b", "text": "Long patient wait times and flow inefficiency in the pre-admission testing process, despite adequate aggregate capacity" },
+            { "id": "c", "text": "Shortage of qualified nursing staff" },
+            { "id": "d", "text": "High costs of medical supplies and equipment" }
+          ],
+          "correct_answer": "b",
+          "explanation": "The MGH PATA case illustrates how process flow problems -- variability in patient arrivals, unbalanced workloads, and poor scheduling -- can cause long patient wait times and congestion even when the overall capacity is sufficient. The case applies operations management concepts (queuing, process analysis, scheduling) to a healthcare service setting.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In the Toyota Production System, the kanban system serves as a mechanism to push production from upstream stations to downstream stations based on a master production schedule.",
+          "correct_answer": "false",
+          "explanation": "The kanban system is a PULL system, not a push system. Downstream stations signal upstream stations to produce more only when they need parts (by sending back a kanban card). This is the opposite of a push system, where production is driven by a master schedule pushing work forward. The pull mechanism is fundamental to JIT because it prevents overproduction and reduces WIP inventory.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Barilla's proposed Vendor Managed Inventory (VMI) or 'Just-in-Time Distribution' (JITD) program faced resistance from which stakeholders, and why?",
+          "options": [
+            { "id": "a", "text": "Barilla's factory workers, because it would require layoffs" },
+            { "id": "b", "text": "Both Barilla's sales representatives (who feared losing control and commissions) and distributors (who feared losing purchasing autonomy)" },
+            { "id": "c", "text": "Government regulators, because of antitrust concerns" },
+            { "id": "d", "text": "End consumers, because of expected price increases" }
+          ],
+          "correct_answer": "b",
+          "explanation": "The JITD program faced internal resistance from Barilla's sales representatives, who worried that transferring ordering decisions to Barilla would reduce their role and commissions tied to promotional volumes. Distributors also resisted because they did not want to give up control over their own purchasing decisions and were skeptical about Barilla's ability to manage their inventory better than they could.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "In the Sport Obermeyer case, which of the following methods helped reduce the cost of demand uncertainty? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Using the variation across committee members' forecasts as a proxy for demand uncertainty" },
+            { "id": "b", "text": "Postponing production commitments for uncertain styles until early-season demand data was available" },
+            { "id": "c", "text": "Producing all styles in equal quantities regardless of forecast" },
+            { "id": "d", "text": "Sourcing from both Hong Kong (shorter lead time, higher cost) and China (longer lead time, lower cost)" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Sport Obermeyer used forecast variation as an uncertainty measure (a), postponed commitment on uncertain styles (b), and used a dual-sourcing strategy (d) where shorter-lead-time Hong Kong production provided reactive capacity for uncertain styles. Producing all styles equally (c) would ignore forecast information and lead to significant overproduction of unpopular styles.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Burger King case, what operational trade-off is central to the company's production system compared to McDonald's?",
+          "options": [
+            { "id": "a", "text": "Burger King uses a made-to-stock system while McDonald's uses made-to-order" },
+            { "id": "b", "text": "Burger King emphasizes customization (flame-broiling, have it your way) which requires more flexibility but introduces more variability compared to McDonald's standardized approach" },
+            { "id": "c", "text": "Both companies use identical production systems with different marketing" },
+            { "id": "d", "text": "Burger King has higher throughput but lower quality than McDonald's" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Burger King's 'Have It Your Way' philosophy allows greater customization (flame-broiled patties, custom toppings) compared to McDonald's more standardized batch production. This customization introduces greater variability in processing times and production complexity, illustrating the fundamental operations trade-off between flexibility/customization and efficiency/speed.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: One key lesson from the Toyota Production System is that holding large buffers of inventory between stations helps identify quality problems more quickly.",
+          "correct_answer": "false",
+          "explanation": "The opposite is true. TPS deliberately reduces inventory buffers between stations because LOW inventory forces problems to surface immediately. When a defect occurs with minimal buffer, downstream stations are starved quickly, making the problem visible and urgent. Large buffers mask quality problems by allowing production to continue despite upstream defects, delaying detection and correction.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Operations Management - Case Preparation Questions Practice Quiz",
+      "description": "Practice Quiz for the Case Preparation Questions section, covering case study concepts and operational frameworks.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "case-preparation-questions",
+      "time_limit_minutes": 25,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What solution did Barilla propose to address the demand variability problem in its supply chain?",
+          "options": [
+            { "id": "a", "text": "Increasing promotional discounts to smooth demand" },
+            { "id": "b", "text": "Just-in-Time Distribution (JITD), where Barilla would manage distributor inventory based on actual shipment data rather than distributor orders" },
+            { "id": "c", "text": "Building larger warehouses at each distribution point" },
+            { "id": "d", "text": "Reducing the number of product varieties offered" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Barilla proposed JITD (a form of Vendor Managed Inventory), where Barilla would use actual sell-through data from distributors to determine replenishment quantities. By replacing erratic distributor orders with data-driven replenishment, Barilla aimed to reduce demand variability, lower inventory, and improve service levels throughout the supply chain.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In the Toyota Production System, the andon cord allows any worker on the assembly line to stop production when a defect or problem is detected.",
+          "correct_answer": "true",
+          "explanation": "The andon cord (or andon system) is a key element of jidoka (autonomation). Any worker who detects a quality problem or abnormality can pull the cord to signal for help and, if the problem is not resolved quickly, stop the entire production line. This ensures defects are addressed immediately rather than being passed downstream, reflecting TPS's philosophy of building quality into the process.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Sport Obermeyer case, why was the committee forecast approach valuable even though no individual forecast was highly accurate?",
+          "options": [
+            { "id": "a", "text": "The committee's average forecast was no better than any individual's" },
+            { "id": "b", "text": "The degree of disagreement among committee members served as a useful signal of forecast uncertainty for each style" },
+            { "id": "c", "text": "Committee members always agreed on the most popular styles" },
+            { "id": "d", "text": "The committee eliminated the need for any safety stock" }
+          ],
+          "correct_answer": "b",
+          "explanation": "The key insight was not just using the average forecast, but using the standard deviation of forecasts across committee members as a measure of demand uncertainty. Styles where committee members agreed closely had low uncertainty and could be committed early. Styles with wide disagreement had high uncertainty and should be postponed. This is a practical application of measuring forecast risk.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are causes of the bullwhip effect? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Demand forecast updating (each stage forecasts independently, adding safety margins)" },
+            { "id": "b", "text": "Order batching (accumulating demand before placing orders)" },
+            { "id": "c", "text": "Price fluctuations and trade promotions" },
+            { "id": "d", "text": "Perfect information sharing across the supply chain" }
+          ],
+          "correct_answer": ["a", "b", "c"],
+          "explanation": "The four classic causes of the bullwhip effect are: demand forecast updating (a), order batching (b), price fluctuations/promotions (c), and rationing/shortage gaming. Perfect information sharing (d) is actually a REMEDY for the bullwhip effect, not a cause. Sharing point-of-sale data across the supply chain helps reduce the amplification of demand signals.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What does the concept of 'heijunka' in the Toyota Production System refer to?",
+          "options": [
+            { "id": "a", "text": "Continuous improvement through small incremental changes" },
+            { "id": "b", "text": "Production leveling -- smoothing the type and quantity of production over a fixed period to reduce variability" },
+            { "id": "c", "text": "Respect for workers and their expertise" },
+            { "id": "d", "text": "Automated quality inspection at each station" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Heijunka is production leveling or smoothing. Instead of producing large batches of one product type and then switching, Toyota distributes the production of different models evenly across the day. This reduces the variability in demand placed on upstream processes and suppliers, enabling smaller lot sizes, lower inventory, and more consistent workloads.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In the Barilla case, the company found that its own internal operations were partially responsible for demand amplification because production was scheduled based on distributor orders rather than end-consumer demand.",
+          "correct_answer": "true",
+          "explanation": "Barilla's production scheduling was driven by distributor orders, which were highly variable due to forward-buying during promotions and order batching. This meant Barilla's own manufacturing was reacting to amplified demand signals rather than actual consumer demand. The JITD proposal aimed to break this cycle by using actual shipment data to drive production decisions.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The concept of 'muda' (waste) in the Toyota Production System includes all of the following EXCEPT:",
+          "options": [
+            { "id": "a", "text": "Overproduction" },
+            { "id": "b", "text": "Waiting time" },
+            { "id": "c", "text": "Value-adding transformation of raw materials" },
+            { "id": "d", "text": "Unnecessary transportation" }
+          ],
+          "correct_answer": "c",
+          "explanation": "Muda refers to waste -- activities that consume resources without adding value. TPS identifies seven types of waste: overproduction, waiting, transportation, over-processing, excess inventory, unnecessary motion, and defects. Value-adding transformation (c) is precisely what is NOT waste -- it is the productive work that customers are willing to pay for.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following strategies can help mitigate the bullwhip effect? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Sharing point-of-sale data with upstream supply chain partners" },
+            { "id": "b", "text": "Implementing everyday low pricing (EDLP) instead of promotional pricing" },
+            { "id": "c", "text": "Increasing the number of supply chain intermediaries" },
+            { "id": "d", "text": "Reducing order batch sizes and ordering more frequently" },
+            { "id": "e", "text": "Implementing vendor-managed inventory (VMI)" }
+          ],
+          "correct_answer": ["a", "b", "d", "e"],
+          "explanation": "Strategies to mitigate the bullwhip effect include: sharing demand data (a) to reduce information distortion; EDLP (b) to eliminate forward-buying from promotions; smaller, more frequent orders (d) to reduce batching; and VMI (e) to let suppliers manage inventory based on actual consumption. Adding more intermediaries (c) would typically worsen the bullwhip effect by adding more layers of independent decision-making.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The Sport Obermeyer case demonstrates that accurate demand forecasting alone can eliminate the need for operational flexibility in a fashion supply chain.",
+          "correct_answer": "false",
+          "explanation": "The Sport Obermeyer case actually demonstrates the opposite: for fashion products with short life cycles and long lead times, accurate forecasting is inherently limited. The solution is NOT better forecasts alone, but combining the best available forecasts with operational flexibility -- specifically, reactive capacity (the ability to postpone production decisions) and quick-response sourcing. The case shows that operational strategies must complement forecasting.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the context of the cases studied, what is 'postponement' in supply chain management?",
+          "options": [
+            { "id": "a", "text": "Delaying payment to suppliers as long as possible" },
+            { "id": "b", "text": "Delaying product differentiation or final configuration until closer to the time of actual customer demand" },
+            { "id": "c", "text": "Postponing employee training until after product launch" },
+            { "id": "d", "text": "Delaying investment in new manufacturing equipment" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Postponement is a supply chain strategy of delaying product differentiation (final assembly, packaging, labeling, customization) until customer demand is better known. By keeping products in a generic or semi-finished state longer, companies can respond more flexibly to actual demand. Sport Obermeyer's two-phase production strategy and Amazon's regional distribution are examples of postponement in practice.",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "title": "Operations Management - Cases and Readings Applied Homework",
+      "description": "Applied Homework for the Cases and Readings section, covering supply chain design, lean manufacturing, quality management, and revenue management.",
+      "kind": "homework",
+      "difficulty": "medium",
+      "generated_from": "cases-and-readings",
+      "time_limit_minutes": 45,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Newsvendor model, the optimal order quantity depends on the critical ratio. The critical ratio is defined as:",
+          "options": [
+            { "id": "a", "text": "Cost of overstocking / (Cost of overstocking + Cost of understocking)" },
+            { "id": "b", "text": "Cost of understocking / (Cost of understocking + Cost of overstocking)" },
+            { "id": "c", "text": "Selling price / Purchase cost" },
+            { "id": "d", "text": "Expected demand / Standard deviation of demand" }
+          ],
+          "correct_answer": "b",
+          "explanation": "The critical ratio (CR) = Cu / (Cu + Co), where Cu is the cost of understocking (underage cost, typically lost profit from not having enough) and Co is the cost of overstocking (overage cost, typically the loss on unsold units). The optimal order quantity is set so that the probability of demand being less than or equal to the order quantity equals the critical ratio. When Cu is high relative to Co, you order more.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In a pull production system, production at each stage is triggered by actual demand from the downstream stage, whereas in a push system, production is driven by forecasted demand.",
+          "correct_answer": "true",
+          "explanation": "Pull systems (like Toyota's kanban) produce only in response to actual consumption by the next stage -- downstream demand 'pulls' work through the system. Push systems (like MRP-driven production) use demand forecasts and a master production schedule to 'push' work orders to each stage. Pull systems generally result in lower inventory and faster response to actual demand changes.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to the readings on quality management, what does the concept of 'six sigma' quality represent?",
+          "options": [
+            { "id": "a", "text": "A maximum defect rate of 6 per hundred units" },
+            { "id": "b", "text": "A process so well-controlled that the specification limits are six standard deviations from the process mean, corresponding to no more than 3.4 defects per million opportunities" },
+            { "id": "c", "text": "A quality improvement program that takes exactly six months to implement" },
+            { "id": "d", "text": "A system where six inspectors check every product" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Six Sigma refers to a quality level where the process mean is six standard deviations from the nearest specification limit. Accounting for a 1.5-sigma shift in the process mean (which commonly occurs in practice), this corresponds to no more than 3.4 defects per million opportunities (DPMO). The methodology includes DMAIC (Define, Measure, Analyze, Improve, Control) for process improvement.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are key components of effective supply chain coordination? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Information sharing between supply chain partners" },
+            { "id": "b", "text": "Aligned incentives so each party benefits from system-wide optimization" },
+            { "id": "c", "text": "Each party independently optimizing its own inventory and production" },
+            { "id": "d", "text": "Collaborative forecasting and planning" },
+            { "id": "e", "text": "Risk sharing through appropriate contract structures" }
+          ],
+          "correct_answer": ["a", "b", "d", "e"],
+          "explanation": "Effective supply chain coordination requires: information sharing (a) to reduce information asymmetry; aligned incentives (b) to prevent local optimization at the expense of the whole; collaborative planning (d) such as CPFR; and risk-sharing contracts (e) like buyback or revenue-sharing agreements. Independent optimization by each party (c) leads to the double marginalization problem and is the opposite of coordination.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Revenue management (yield management) is most applicable to businesses with which of the following characteristics?",
+          "options": [
+            { "id": "a", "text": "Highly variable costs and unlimited capacity" },
+            { "id": "b", "text": "Perishable inventory (capacity cannot be stored), relatively fixed capacity in the short run, and the ability to segment customers by willingness to pay" },
+            { "id": "c", "text": "Commodity products with no customer segmentation" },
+            { "id": "d", "text": "Businesses where all customers pay the same price" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Revenue management is most effective when: capacity is relatively fixed and perishable (unsold hotel rooms or airline seats cannot be stored), there are distinct customer segments with different willingness to pay, and the product can be sold in advance. Airlines, hotels, car rental companies, and theaters are classic examples. The goal is to allocate capacity across price segments to maximize total revenue.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In lean manufacturing, the goal is to achieve zero inventory by eliminating all buffers between process steps, even if this means frequent production stoppages.",
+          "correct_answer": "false",
+          "explanation": "While lean manufacturing aims to minimize inventory, the goal is not literally zero inventory at the cost of constant stoppages. Rather, lean systematically reduces inventory to expose problems (quality defects, unreliable equipment, long setup times) and then solves those problems. Inventory is reduced gradually as the underlying causes of variability are addressed. Some strategic buffer inventory may be retained where variability cannot be fully eliminated.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A hotel has 200 rooms. The discount rate is $100/night and the full rate is $200/night. Based on historical data, there is a 60% probability that a last-minute full-rate customer will arrive for each room reserved. Using revenue management principles, how many rooms should the hotel protect (reserve) for full-rate customers?",
+          "options": [
+            { "id": "a", "text": "Protect rooms up to the point where the probability of selling an additional room at full price equals the ratio of the discount rate to the full rate (the critical ratio)" },
+            { "id": "b", "text": "Protect all 200 rooms for full-rate customers" },
+            { "id": "c", "text": "Protect no rooms and sell all at the discount rate" },
+            { "id": "d", "text": "Protect exactly 100 rooms (half the capacity)" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Revenue management applies the Newsvendor framework: protect rooms for full-rate customers up to the point where the marginal probability of selling an additional room at full rate equals the critical ratio = Discount Rate / Full Rate = $100/$200 = 0.50. In other words, you stop protecting rooms when the probability of selling the next protected room at full price drops below 50%. This balances the risk of spoilage (empty rooms) against the opportunity cost of selling too cheaply.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are elements of Total Quality Management (TQM)? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Customer focus and satisfaction as the primary goal" },
+            { "id": "b", "text": "Continuous improvement (kaizen) as a company-wide philosophy" },
+            { "id": "c", "text": "Quality inspection only at the final stage of production" },
+            { "id": "d", "text": "Employee involvement and empowerment in quality improvement" },
+            { "id": "e", "text": "Data-driven decision making using statistical process control" }
+          ],
+          "correct_answer": ["a", "b", "d", "e"],
+          "explanation": "TQM elements include: customer focus (a), continuous improvement (b), employee involvement (d), and statistical methods (e). Inspecting only at the final stage (c) contradicts TQM philosophy, which emphasizes building quality into the process at every stage rather than inspecting it in at the end. TQM advocates prevention over detection.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What is the 'double marginalization' problem in supply chains?",
+          "options": [
+            { "id": "a", "text": "When two companies both try to sell the same product in the same market" },
+            { "id": "b", "text": "When each party in the supply chain independently adds its own profit margin, resulting in a higher final price and lower total supply chain profit than if they coordinated" },
+            { "id": "c", "text": "When a product goes through two rounds of quality inspection" },
+            { "id": "d", "text": "When shipping costs are charged twice on a single shipment" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Double marginalization occurs when a manufacturer and retailer each independently set prices to maximize their own profit. Both add a markup, resulting in a price higher than what would maximize the total supply chain profit. The combined profit is less than what a vertically integrated firm would earn. This is a key motivation for supply chain coordination mechanisms like revenue-sharing contracts, buyback contracts, or quantity discounts.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Statistical process control (SPC) uses control charts to distinguish between common cause variation (inherent to the process) and special cause variation (attributable to specific, identifiable factors).",
+          "correct_answer": "true",
+          "explanation": "SPC control charts track process measurements over time and set control limits (typically +/- 3 standard deviations from the mean). Points within the control limits indicate common cause variation (natural, random variation inherent in the process). Points outside the limits or patterns (trends, runs) indicate special cause variation that warrants investigation and corrective action. The distinction is critical: reacting to common cause variation as if it were special cause (tampering) actually increases variability.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Operations Management - Cases and Readings Practice Quiz",
+      "description": "Practice Quiz for the Cases and Readings section, covering supply chain concepts, quality, and lean operations.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "cases-and-readings",
+      "time_limit_minutes": 25,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Safety stock is held primarily to protect against:",
+          "options": [
+            { "id": "a", "text": "Changes in the product design" },
+            { "id": "b", "text": "Uncertainty in demand and/or supply lead times" },
+            { "id": "c", "text": "Theft and pilferage" },
+            { "id": "d", "text": "Fluctuations in the cost of raw materials" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Safety stock is extra inventory held as a buffer against uncertainty in demand and/or supply lead times. Without safety stock, any deviation from expected demand or expected lead time could result in a stockout. The appropriate level of safety stock depends on the desired service level and the variability of demand and lead times.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The Economic Order Quantity (EOQ) model balances the trade-off between ordering costs (setup costs) and holding costs to minimize total inventory costs.",
+          "correct_answer": "true",
+          "explanation": "The EOQ model finds the order quantity that minimizes the sum of ordering costs and holding costs. Ordering costs decrease with larger order quantities (fewer orders per year), while holding costs increase with larger quantities (more average inventory). The EOQ = sqrt(2DS/H), where D is annual demand, S is the cost per order, and H is the annual holding cost per unit.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the context of supply chain sustainability, what does the 'triple bottom line' refer to?",
+          "options": [
+            { "id": "a", "text": "Profit, revenue, and market share" },
+            { "id": "b", "text": "People, planet, and profit (social, environmental, and economic performance)" },
+            { "id": "c", "text": "The bottom three items on the income statement" },
+            { "id": "d", "text": "Cost reduction across three supply chain tiers" }
+          ],
+          "correct_answer": "b",
+          "explanation": "The triple bottom line framework evaluates business performance across three dimensions: social (people), environmental (planet), and economic (profit). Sustainable supply chain management considers all three, balancing cost efficiency and profitability with environmental impact (carbon footprint, waste reduction) and social responsibility (labor practices, community impact).",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are types of waste (muda) identified in lean manufacturing? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Overproduction" },
+            { "id": "b", "text": "Waiting" },
+            { "id": "c", "text": "Defects" },
+            { "id": "d", "text": "Customer demand" },
+            { "id": "e", "text": "Excess inventory" }
+          ],
+          "correct_answer": ["a", "b", "c", "e"],
+          "explanation": "The seven wastes in lean manufacturing are: overproduction (a), waiting (b), transportation, over-processing, excess inventory (e), unnecessary motion, and defects (c). Customer demand (d) is not a waste -- it is what drives the business. Lean aims to eliminate waste while delivering value to customers.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What is the primary purpose of the Deming cycle (PDCA)?",
+          "options": [
+            { "id": "a", "text": "To plan the annual budget for quality programs" },
+            { "id": "b", "text": "To provide a systematic framework for continuous improvement: Plan, Do, Check, Act" },
+            { "id": "c", "text": "To document all quality defects for legal purposes" },
+            { "id": "d", "text": "To determine employee performance ratings" }
+          ],
+          "correct_answer": "b",
+          "explanation": "The PDCA (Plan-Do-Check-Act) cycle, also known as the Deming cycle or Shewhart cycle, is a systematic method for continuous improvement. Plan: identify the problem and develop a plan. Do: implement the plan on a small scale. Check: evaluate results against expectations. Act: standardize the improvement if successful or revise the plan if not. The cycle then repeats.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Increasing the service level target (e.g., from 95% to 99%) requires a proportionally larger increase in safety stock.",
+          "correct_answer": "false",
+          "explanation": "The relationship between service level and safety stock is non-linear, not proportional. Moving from 95% to 99% service level requires a disproportionately LARGER increase in safety stock than moving from 90% to 95%. This is because the normal distribution has thin tails -- protecting against the last few percentage points of stockout risk requires much more inventory. This reflects the diminishing returns of chasing higher service levels.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Risk pooling in inventory management refers to:",
+          "options": [
+            { "id": "a", "text": "Spreading inventory risk by having multiple suppliers for each component" },
+            { "id": "b", "text": "The statistical phenomenon where aggregating demand across locations or products reduces relative variability, allowing lower total safety stock" },
+            { "id": "c", "text": "Insuring all inventory against loss or damage" },
+            { "id": "d", "text": "Pooling resources from multiple departments to manage a single warehouse" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Risk pooling exploits the statistical principle that aggregating independent (or partially correlated) demand streams reduces relative variability (coefficient of variation). When demand from multiple locations is pooled into a centralized warehouse, the combined demand is more predictable than individual location demands, requiring less total safety stock. This is because high demand at one location may be offset by low demand at another.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the readings on operational risk, which of the following are sources of supply chain disruption risk? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Natural disasters affecting supplier facilities" },
+            { "id": "b", "text": "Single-sourcing critical components from one supplier" },
+            { "id": "c", "text": "Having diversified supplier bases across multiple geographies" },
+            { "id": "d", "text": "Geopolitical instability in sourcing regions" }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Supply chain disruption risks include: natural disasters (a) like earthquakes or floods; single-sourcing (b) which creates dependency on one supplier; and geopolitical instability (d) including trade restrictions or political upheaval. Diversified supplier bases across geographies (c) is actually a MITIGATION strategy that reduces disruption risk, not a source of it.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the EOQ model, what happens to the optimal order quantity if annual demand doubles while all other parameters remain the same?",
+          "options": [
+            { "id": "a", "text": "The EOQ doubles" },
+            { "id": "b", "text": "The EOQ increases by a factor of the square root of 2 (approximately 1.41)" },
+            { "id": "c", "text": "The EOQ remains the same" },
+            { "id": "d", "text": "The EOQ quadruples" }
+          ],
+          "correct_answer": "b",
+          "explanation": "EOQ = sqrt(2DS/H). If demand D doubles, the new EOQ = sqrt(2(2D)S/H) = sqrt(2) x sqrt(2DS/H) = sqrt(2) x original EOQ, approximately 1.41 times the original. This demonstrates that EOQ increases less than proportionally with demand -- one of the insights supporting economies of scale in ordering.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: A process is considered 'in statistical control' when all variation is due to common causes and there are no special cause variations present.",
+          "correct_answer": "true",
+          "explanation": "A process is in statistical control when it exhibits only common cause (random) variation -- the variation that is inherent in the process. On a control chart, this means all points fall within the control limits with no non-random patterns. When special causes (assignable causes) are present, the process is out of control and the special cause should be identified and eliminated. A process can be in statistical control and still not meet specifications if the natural process variation is too wide.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Operations Management - Simulation Exercises Applied Homework",
+      "description": "Applied Homework for the Simulation Exercises section, covering Littlefield Technologies simulation concepts including capacity management, queuing, and inventory decisions.",
+      "kind": "homework",
+      "difficulty": "medium",
+      "generated_from": "simulation-exercises",
+      "time_limit_minutes": 45,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Littlefield Technologies simulation, what is the primary objective that teams are trying to maximize?",
+          "options": [
+            { "id": "a", "text": "Total throughput (number of units produced)" },
+            { "id": "b", "text": "Total cash (revenue minus costs, including equipment purchases and inventory holding costs)" },
+            { "id": "c", "text": "Market share relative to other teams" },
+            { "id": "d", "text": "Customer satisfaction survey scores" }
+          ],
+          "correct_answer": "b",
+          "explanation": "In the Littlefield Technologies simulation, the primary objective is to maximize total cash (ending cash position). Teams must balance revenue (from meeting customer orders within lead time contracts) against costs (equipment purchases, inventory holding costs, and penalties for late orders). Simply maximizing throughput without managing costs would not optimize cash.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In queuing theory, as the utilization of a single-server system approaches 100%, the average waiting time increases roughly linearly.",
+          "correct_answer": "false",
+          "explanation": "As utilization approaches 100%, the average waiting time increases exponentially (non-linearly), not linearly. For an M/M/1 queue, average wait time is proportional to rho/(1-rho), where rho is utilization. At 50% utilization, the wait factor is 1; at 90% it is 9; at 99% it is 99. This exponential relationship is why operations managers must be careful about running systems at very high utilization rates.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Littlefield simulation, demand for the product increases over time and then eventually decreases. What is the best strategy for capacity investment?",
+          "options": [
+            { "id": "a", "text": "Buy the maximum number of machines at the start and keep them throughout" },
+            { "id": "b", "text": "Never buy any additional machines and rely on overtime" },
+            { "id": "c", "text": "Monitor utilization and queue lengths, buy machines when the bottleneck becomes congested, and sell excess machines before demand declines to recover investment" },
+            { "id": "d", "text": "Wait until the end of the simulation to invest in capacity" }
+          ],
+          "correct_answer": "c",
+          "explanation": "The optimal strategy requires dynamically managing capacity: monitoring utilization and queue buildup to identify when additional capacity is needed, purchasing machines to prevent excessive lead times (which trigger revenue penalties), and selling machines before demand declines to recover salvage value. Buying too early ties up cash; buying too late causes missed orders; keeping machines too long wastes cash that could be recovered through resale.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "In the Littlefield Technologies simulation, which of the following metrics should teams monitor to make good operational decisions? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Queue lengths (inventory levels) at each station" },
+            { "id": "b", "text": "Utilization rates of each machine/station" },
+            { "id": "c", "text": "Average lead times and percentage of orders completed on time" },
+            { "id": "d", "text": "Revenue per order under different contract options" },
+            { "id": "e", "text": "The color of the simulation interface" }
+          ],
+          "correct_answer": ["a", "b", "c", "d"],
+          "explanation": "Effective teams monitor: queue lengths (a) to identify bottlenecks and congestion; utilization rates (b) to determine which stations need more capacity; lead times and on-time performance (c) to evaluate whether the current contract is achievable; and revenue per order (d) to select the most profitable contract given current capabilities. The interface color (e) is obviously not relevant to operational decisions.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the simulation, a station has 2 machines, each capable of processing 1 unit per hour. The average arrival rate to this station is 1.8 units per hour. What is the utilization of this station?",
+          "options": [
+            { "id": "a", "text": "180%" },
+            { "id": "b", "text": "90%" },
+            { "id": "c", "text": "56%" },
+            { "id": "d", "text": "45%" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Utilization = Arrival Rate / Total Capacity = 1.8 / (2 x 1) = 1.8 / 2 = 0.90 = 90%. With 2 machines each processing 1 unit/hour, total capacity is 2 units/hour. At 90% utilization, the station is likely experiencing significant queuing, since waiting times grow non-linearly with utilization.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In the Littlefield simulation, choosing a contract with tighter lead time requirements but higher revenue per order is always the best strategy regardless of current capacity.",
+          "correct_answer": "false",
+          "explanation": "Tighter lead time contracts offer higher revenue per order IF the order is completed on time, but they also impose higher penalties for late delivery. If the system's current capacity is insufficient to consistently meet the tighter lead times, the penalties may exceed the additional revenue. Teams must match their contract selection to their actual process capability -- choosing an aggressive contract when utilization is already high will result in missed deadlines and penalties.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to queuing theory as applied in the Littlefield simulation, which of the following changes would most effectively reduce average wait times at a congested station?",
+          "options": [
+            { "id": "a", "text": "Increasing the arrival rate of jobs to the station" },
+            { "id": "b", "text": "Adding an additional machine at the station" },
+            { "id": "c", "text": "Changing the queue discipline from FIFO to LIFO" },
+            { "id": "d", "text": "Increasing the batch size of jobs" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Adding an additional machine (server) directly increases the station's capacity, reducing utilization and therefore dramatically reducing wait times (due to the non-linear relationship between utilization and waiting). Increasing arrival rate (a) would increase congestion. Changing queue discipline (c) changes which jobs wait but not the average wait. Increasing batch size (d) could increase or decrease wait times depending on the specific setup but does not address the fundamental capacity constraint.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "In the context of the Littlefield simulation, what factors should influence the decision of when to sell (remove) machines as demand declines? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "The current utilization rate falling well below 100%" },
+            { "id": "b", "text": "The salvage value of the machines (which declines over time)" },
+            { "id": "c", "text": "The remaining time in the simulation" },
+            { "id": "d", "text": "The projected demand trajectory (whether demand is still declining)" }
+          ],
+          "correct_answer": ["a", "b", "c", "d"],
+          "explanation": "All four factors matter: low utilization (a) indicates excess capacity; machine salvage value declines over time (b), so earlier selling recovers more cash; remaining simulation time (c) affects how much revenue the machines can still generate; and the demand trajectory (d) determines whether utilization will continue dropping. The optimal sell decision balances the marginal revenue from keeping a machine against the declining salvage value.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the Littlefield simulation, what is the reorder point for raw materials, and what determines the appropriate level?",
+          "options": [
+            { "id": "a", "text": "It is always set at zero inventory to minimize holding costs" },
+            { "id": "b", "text": "It depends on the expected demand during the lead time for raw material delivery, plus a safety stock buffer" },
+            { "id": "c", "text": "It should be set at maximum storage capacity at all times" },
+            { "id": "d", "text": "The reorder point is irrelevant because raw materials arrive instantly" }
+          ],
+          "correct_answer": "b",
+          "explanation": "The reorder point = Expected demand during lead time + Safety stock. In Littlefield, raw materials take time to arrive after ordering. Setting the reorder point too low risks stockouts (halting production), while setting it too high ties up cash in excess inventory. The appropriate level depends on the demand rate, delivery lead time, and desired service level.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In queuing systems with variability in both arrival times and service times, higher variability leads to longer average queue lengths for the same level of capacity utilization.",
+          "correct_answer": "true",
+          "explanation": "This is a fundamental result from queuing theory (captured in the Pollaczek-Khinchine formula and its extensions). For a given utilization level, higher variability in arrival times or service times increases the average queue length and waiting time. This is why reducing variability (through standardized processes, preventive maintenance, and level scheduling) is as important as adding capacity for improving system performance.",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "title": "Operations Management - Simulation Exercises Practice Quiz",
+      "description": "Practice Quiz for the Simulation Exercises section, covering queuing theory, capacity planning, and inventory management in simulation contexts.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "simulation-exercises",
+      "time_limit_minutes": 25,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In a single-server queue (M/M/1), if the arrival rate is 8 customers per hour and the service rate is 10 customers per hour, what is the server utilization?",
+          "options": [
+            { "id": "a", "text": "125%" },
+            { "id": "b", "text": "80%" },
+            { "id": "c", "text": "20%" },
+            { "id": "d", "text": "1.25%" }
+          ],
+          "correct_answer": "b",
+          "explanation": "Server utilization (rho) = Arrival Rate / Service Rate = 8/10 = 0.80 = 80%. The server is busy 80% of the time on average. Since utilization is less than 100%, the queue is stable and will not grow without bound.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Adding a second identical server to a queuing system always exactly halves the average waiting time.",
+          "correct_answer": "false",
+          "explanation": "Adding a second server reduces waiting time, but it does NOT exactly halve it. The relationship between the number of servers and waiting time is complex and depends on the utilization level. At high utilization, adding a server can reduce waiting time by much more than half. At low utilization, the improvement may be less dramatic. The exact effect depends on the specific queuing model (arrival distribution, service distribution, number of servers).",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What is the primary trade-off in choosing a reorder quantity in inventory management?",
+          "options": [
+            { "id": "a", "text": "Quality versus speed" },
+            { "id": "b", "text": "Ordering (or setup) costs versus inventory holding costs" },
+            { "id": "c", "text": "Customer service versus employee satisfaction" },
+            { "id": "d", "text": "Fixed costs versus variable costs" }
+          ],
+          "correct_answer": "b",
+          "explanation": "The fundamental trade-off in determining order quantity is between ordering costs (which decrease with larger, less frequent orders) and holding costs (which increase with larger orders because more inventory is held on average). The Economic Order Quantity (EOQ) formula finds the quantity that minimizes the sum of these two costs.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are assumptions of the basic EOQ model? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Demand is constant and known (deterministic)" },
+            { "id": "b", "text": "Lead time is constant and known" },
+            { "id": "c", "text": "Demand is highly variable and uncertain" },
+            { "id": "d", "text": "No quantity discounts are available" },
+            { "id": "e", "text": "Stockouts are not allowed" }
+          ],
+          "correct_answer": ["a", "b", "d", "e"],
+          "explanation": "The basic EOQ model assumes: constant, known demand (a); constant, known lead time (b); no quantity discounts (d); and no stockouts (e). Highly variable demand (c) violates the deterministic demand assumption. These simplifying assumptions allow a clean analytical solution, but real-world extensions (stochastic demand, quantity discounts) modify the model.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the simulation, you observe that Station 2 has a growing queue while Stations 1 and 3 have little to no queue. What should you conclude?",
+          "options": [
+            { "id": "a", "text": "Station 1 is the bottleneck" },
+            { "id": "b", "text": "Station 2 is the bottleneck and may need additional capacity" },
+            { "id": "c", "text": "Station 3 is the bottleneck" },
+            { "id": "d", "text": "All stations are equally loaded" }
+          ],
+          "correct_answer": "b",
+          "explanation": "A growing queue at Station 2 indicates that work is arriving faster than Station 2 can process it -- it is the bottleneck. Station 1 has no queue buildup because it can keep up with arrivals. Station 3 has no queue because Station 2 (the bottleneck) is limiting the flow of work to it. Adding capacity at Station 2 (buying another machine) would increase throughput and reduce lead times.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In the simulation, lot size decisions affect only the throughput of the process but have no impact on lead times or inventory levels.",
+          "correct_answer": "false",
+          "explanation": "Lot size decisions affect throughput, lead times, AND inventory levels. Larger lot sizes mean longer processing times per lot (increasing lead times for individual orders) and higher WIP inventory levels. However, larger lots may reduce the relative impact of setup times, potentially increasing effective capacity. Smaller lots reduce lead times and WIP but increase the frequency of setups. The optimal lot size balances these trade-offs.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "If a queuing system has an arrival rate of 15 jobs per hour and each job takes an average of 3 minutes to process on a single server, is the system stable?",
+          "options": [
+            { "id": "a", "text": "Yes, because utilization is 75%" },
+            { "id": "b", "text": "No, because utilization exceeds 100%" },
+            { "id": "c", "text": "Yes, because utilization is 50%" },
+            { "id": "d", "text": "Cannot be determined from the given information" }
+          ],
+          "correct_answer": "a",
+          "explanation": "Service rate = 60 minutes/hour / 3 minutes/job = 20 jobs/hour. Utilization = Arrival Rate / Service Rate = 15/20 = 0.75 = 75%. Since utilization is less than 100%, the system is stable -- the queue will not grow without bound. The system can handle the average arrival rate with some idle time remaining.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following lessons from the Littlefield simulation apply to real-world operations management? (Select all that apply)",
+          "options": [
+            { "id": "a", "text": "Capacity decisions must consider demand trends over time, not just current demand" },
+            { "id": "b", "text": "Monitoring key metrics (utilization, queue lengths, lead times) is essential for good decision-making" },
+            { "id": "c", "text": "The relationship between utilization and wait times is non-linear" },
+            { "id": "d", "text": "Inventory policies (reorder points, order quantities) interact with capacity decisions" }
+          ],
+          "correct_answer": ["a", "b", "c", "d"],
+          "explanation": "All four are important real-world lessons from the simulation: capacity must be forward-looking (a); data-driven monitoring enables better decisions (b); the non-linear utilization-wait time relationship requires careful capacity management (c); and inventory and capacity decisions are interconnected, not independent (d). The simulation reinforces that operations management decisions are systemic -- they interact and must be considered holistically.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What does 'service level' mean in the context of inventory management?",
+          "options": [
+            { "id": "a", "text": "The speed of customer service representatives in answering phone calls" },
+            { "id": "b", "text": "The probability of not running out of stock during a replenishment cycle (or equivalently, the fraction of demand satisfied from stock)" },
+            { "id": "c", "text": "The quality rating given by customers in satisfaction surveys" },
+            { "id": "d", "text": "The percentage of products that pass quality inspection" }
+          ],
+          "correct_answer": "b",
+          "explanation": "In inventory management, service level (or fill rate) represents the probability of being able to meet demand from available inventory. A 95% service level means there is a 95% probability of not stocking out during a replenishment cycle. Higher service levels require more safety stock, and the relationship is non-linear -- achieving the last few percentage points of service requires disproportionately more inventory.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In the Littlefield simulation, the optimal strategy is to set the lot size as large as possible to minimize the number of setups.",
+          "correct_answer": "false",
+          "explanation": "While larger lot sizes reduce the number of setups (and the associated setup time and cost), they also increase work-in-process inventory, increase lead times (each batch takes longer to process), and delay individual orders within a batch. The optimal lot size balances setup cost savings against the costs of higher inventory and longer lead times. In many scenarios, smaller lot sizes with manageable setups lead to better overall performance.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}

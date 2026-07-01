@@ -1,0 +1,18 @@
+
+{
+  "content": "\n    <h3 id=\"video-lectures\">Video Lectures</h3>\n\n\n    <h4 id=\"forward-and-futures-contracts-i\">Forward and Futures Contracts I</h4>\n\n<p><a href=\"../../../resources/part-i-of-forward-and-futures-contracts/index.html\">Part I of Forward and Futures Contracts</a></p>\n<p><strong>Description:</strong> This video lecture covers the motivation, definition, features, and examples of forward and futures contracts in light of the uncertainty of exchange rates, illiquidity, and counterparty risk.</p>\n\n    <h4 id=\"forward-and-futures-contracts-ii\">Forward and Futures Contracts II</h4>\n\n<p><a href=\"../../../resources/part-ii-of-forward-and-futures-contracts/index.html\">Part II of Forward and Futures Contracts</a></p>\n<p><strong>Description:</strong> This video lecture includes examples for calculating payoff, and pricing forward and futures contracts. Applications and qualifications for forwards and futures are also given.</p>\n\n    <h3 id=\"slides\">Slides</h3>\n\n<p><a href=\"../../../resources/mit15_401f08_lec08/index.html\">Forward and Futures Contracts Slides 1–32 (PDF)</a></p>\n<ul>\n<li>Video for Part I of Forward and Futures Contracts covers slides 1–13</li>\n<li>Video for Part II of Forward and Futures Contracts covers slides 13–32</li>\n</ul>\n<p><a href=\"../../../pages/video-lectures-and-slides/equities/index.html\">« Previous</a> | <a href=\"../../../pages/video-lectures-and-slides/options/index.html\">Next »</a></p>\n",
+  "content_type": "page",
+  "description": "This page includes lecture slides and two video lectures on calculating payoff and pricing forward and futures contracts, along with a series of examples.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Videos"
+  ],
+  "ocw_type": "CourseSection",
+  "parent_title": "Video Lectures and Slides",
+  "parent_type": "CourseSection",
+  "parent_uid": "cc3f05d9-f4e4-4ed3-db60-b79712de51f4",
+  "title": "Forward and Futures Contracts",
+  "uid": "a03a6fe8-0962-ea97-5478-117710065928"
+}
+

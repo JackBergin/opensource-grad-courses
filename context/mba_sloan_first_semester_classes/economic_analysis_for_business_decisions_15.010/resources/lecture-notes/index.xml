@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>anal_comp_market.pdf</title>
+      <link>/resources/anal_comp_market/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/anal_comp_market/data.json</guid>
+      <description>&lt;p&gt;Brief Review: Market Equilibrium and Surplus, Examples.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>anti_ulcer_drugs.pdf</title>
+      <link>/resources/anti_ulcer_drugs/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/anti_ulcer_drugs/data.json</guid>
+      <description>&lt;p&gt;Graphs showing the demand of Anti-Ulcer Drugs.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>antitrust_mnopli.pdf</title>
+      <link>/resources/antitrust_mnopli/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/antitrust_mnopli/data.json</guid>
+      <description>&lt;p&gt;Some notes and quotes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>asym_info_mkt_st.pdf</title>
+      <link>/resources/asym_info_mkt_st/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/asym_info_mkt_st/data.json</guid>
+      <description>&lt;p&gt;This resource includes: Bargaining Games, The Lemons Problem, Adverse Selection, Solutions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>auctions_bidding.pdf</title>
+      <link>/resources/auctions_bidding/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/auctions_bidding/data.json</guid>
+      <description>&lt;p&gt;Introduction to Auctions, Private Value Auctions, Common Value Auctions, Auction design affects &amp;ldquo;gaming&amp;rdquo; options.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>b_w_col_comp_olg.pdf</title>
+      <link>/resources/b_w_col_comp_olg/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/b_w_col_comp_olg/data.json</guid>
+      <description>&lt;p&gt;General Electric and Westinghouse, Cartels.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>b_w_mkt_defn.pdf</title>
+      <link>/resources/b_w_mkt_defn/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/b_w_mkt_defn/data.json</guid>
+      <description>&lt;p&gt;Overview: Credit Card Case.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>clr_prcng_pwr_ii.pdf</title>
+      <link>/resources/clr_prcng_pwr_ii/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/clr_prcng_pwr_ii/data.json</guid>
+      <description>&lt;p&gt;Two-part Tariffs, Volume Pricing and Bundling.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cnsmr_dmnd_intro.pdf</title>
+      <link>/resources/cnsmr_dmnd_intro/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/cnsmr_dmnd_intro/data.json</guid>
+      <description>&lt;p&gt;Demand: Demand for Anti-Ulcer Drugs, Modeling of Consumer Choice.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>cnsmr_dmnd_prod.pdf</title>
+      <link>/resources/cnsmr_dmnd_prod/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/cnsmr_dmnd_prod/data.json</guid>
+      <description>&lt;p&gt;Overview: Consumer Demand and Characteristics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>col_comp_olg_mkt.pdf</title>
+      <link>/resources/col_comp_olg_mkt/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/col_comp_olg_mkt/data.json</guid>
+      <description>&lt;p&gt;General Electric versus Westinghouse, Cartels.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>contact_lenses.pdf</title>
+      <link>/resources/contact_lenses/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/contact_lenses/data.json</guid>
+      <description>&lt;p&gt;Lecture Notes File.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>crse_ovrview_mkt.pdf</title>
+      <link>/resources/crse_ovrview_mkt/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/crse_ovrview_mkt/data.json</guid>
+      <description>&lt;p&gt;Introduction, Class Specifics and Requirements.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>double_margin.pdf</title>
+      <link>/resources/double_margin/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/double_margin/data.json</guid>
+      <description>&lt;p&gt;Lecture note on Double Marginalization.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ext_mkt_struct.pdf</title>
+      <link>/resources/ext_mkt_struct/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/ext_mkt_struct/data.json</guid>
+      <description>&lt;p&gt;Effects of Production/Consumption not reflected in Market Transactions, Tragedy of the commons.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>extra_sources.pdf</title>
+      <link>/resources/extra_sources/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/extra_sources/data.json</guid>
+      <description>&lt;p&gt;Extra sources for problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>game_thry_philip.pdf</title>
+      <link>/resources/game_thry_philip/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/game_thry_philip/data.json</guid>
+      <description>&lt;p&gt;Lecture Notes File.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>gm_thry_crnot_qs.pdf</title>
+      <link>/resources/gm_thry_crnot_qs/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/gm_thry_crnot_qs/data.json</guid>
+      <description>&lt;p&gt;Problem on game theory.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>gm_thry_strtgy_i.pdf</title>
+      <link>/resources/gm_thry_strtgy_i/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/gm_thry_strtgy_i/data.json</guid>
+      <description>&lt;p&gt;Overview: Fun and Games with a Duopoly Example, Review of the Analytics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>gm_thy_strtgy_ii.pdf</title>
+      <link>/resources/gm_thy_strtgy_ii/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/gm_thy_strtgy_ii/data.json</guid>
+      <description>&lt;p&gt;Overview: Fun and Games with Bidding Situations, Threats and commitments, Entry deterrence.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>hmwrk_sol_exams.pdf</title>
+      <link>/resources/hmwrk_sol_exams/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/hmwrk_sol_exams/data.json</guid>
+      <description>&lt;p&gt;Process to solve a problem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>incentives_emply.pdf</title>
+      <link>/resources/incentives_emply/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/incentives_emply/data.json</guid>
+      <description>&lt;p&gt;Case Discussion: Outsourcing Sales, Specialization and Comparative Sales, Principal-Agent Problems, Moral Hazard.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>insurance.pdf</title>
+      <link>/resources/insurance/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/insurance/data.json</guid>
+      <description>&lt;p&gt;Lecture Notes File.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture Notes</title>
+      <link>/pages/lecture-notes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/lecture-notes/data.json</guid>
+      <description>&lt;p&gt;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;&#xA;&#xA;ses #&#xA;&lt;/th&gt;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&lt;th&gt;&#xA;&#xA;Lecture notes&#xA;&lt;/th&gt;&#xA;&lt;th&gt;&#xA;&#xA;handouts&#xA;&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L1&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Markets&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Introduction to the Course&lt;/p&gt;&#xA;&lt;p&gt;Types of Markets: Competitive, Monopoly/Monopsony and Oligopoly/Oligopsony&lt;/p&gt;&#xA;&lt;p&gt;The Boundaries of a Market&lt;/p&gt;&#xA;&lt;p&gt;Product Boundaries, Geographical Boundaries&lt;/p&gt;&#xA;&lt;p&gt;Examples: Bicycles, Prescription Drugs, Airline Travel, Role of Internet&lt;/p&gt;&#xA;&lt;p&gt;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&#xA;Course Overview Markets (&lt;a href=&#34;../../resources/crse_ovrview_mkt/index.html&#34;&gt;PDF&lt;/a&gt;)&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Extra Sources (&lt;a href=&#34;../../resources/extra_sources/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Questions for U.K. Credit Card Case Discussion (&lt;a href=&#34;../../resources/uk_crdt_crd_case/index.html&#34;&gt;PDF&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;&#xA;&#xA;L2&#xA;&lt;/td&gt;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Defining the Market&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Discussion of Market Definition and Market Strategy&lt;/p&gt;&#xA;&lt;p&gt;Case Study: Credit Cards in the U.K.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture_11__10_28_04__Presentation_Handout__Pricing_with_Market_Power_II.pdf</title>
+      <link>/resources/lecture_11__10_28_04__presentation_handout__pricing_with_market_power_ii/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_11__10_28_04__presentation_handout__pricing_with_market_power_ii/data.json</guid>
+      <description>&lt;p&gt;Two part Tariffs, Volume Pricing and Bundling.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lecture_14__11_09_04__Presentation_Handout__Collusion_and_Competition_in_Oligopolistic_Markets.pd</title>
+      <link>/resources/lecture_14__11_09_04__presentation_handout__collusion_and_competition_in_oligopolistic_markets/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/lecture_14__11_09_04__presentation_handout__collusion_and_competition_in_oligopolistic_markets/data.json</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>limiting_mkt_pwr.pdf</title>
+      <link>/resources/limiting_mkt_pwr/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/limiting_mkt_pwr/data.json</guid>
+      <description>&lt;p&gt;Introduction to Anti-trust, Price Fixing, Monopolization, Other Practices and Common Property Resources.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>market_defintion.pdf</title>
+      <link>/resources/market_defintion/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/market_defintion/data.json</guid>
+      <description>&lt;p&gt;Overview: Credit Card Case.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>market_power.pdf</title>
+      <link>/resources/market_power/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/market_power/data.json</guid>
+      <description>&lt;p&gt;Competitive Equilibrium, Profit Maximization, Monopoly, Coordination of Multiple Plants and Pricing with Learning Effects and Network Externalities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>other_eco_course.pdf</title>
+      <link>/resources/other_eco_course/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/other_eco_course/data.json</guid>
+      <description>&lt;p&gt;Subjects in Economics.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>outsourcing_sale.pdf</title>
+      <link>/resources/outsourcing_sale/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/outsourcing_sale/data.json</guid>
+      <description>&lt;p&gt;Handout on &amp;ldquo;Outsourcing Sales.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>prcing_mkt_pwr_i.pdf</title>
+      <link>/resources/prcing_mkt_pwr_i/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prcing_mkt_pwr_i/data.json</guid>
+      <description>&lt;p&gt;Price Discrimination and Types.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>prod_and_cost_i.pdf</title>
+      <link>/resources/prod_and_cost_i/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prod_and_cost_i/data.json</guid>
+      <description>&lt;p&gt;Production Processes, Economic versus Accounting Profits, Cost Concepts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>prod_and_cost_ii.pdf</title>
+      <link>/resources/prod_and_cost_ii/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/prod_and_cost_ii/data.json</guid>
+      <description>&lt;p&gt;Opportunity Costs in Practice, Economies of Scale and Scope.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>profit_cons_gps.pdf</title>
+      <link>/resources/profit_cons_gps/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/profit_cons_gps/data.json</guid>
+      <description>&lt;p&gt;Profit Graph.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sugar_subsidies.pdf</title>
+      <link>/resources/sugar_subsidies/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/sugar_subsidies/data.json</guid>
+      <description>&lt;p&gt;Article on &amp;ldquo;How an Addiction To Sugar Subsidies Hurts Development.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>sugar_surplus.pdf</title>
+      <link>/resources/sugar_surplus/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/sugar_surplus/data.json</guid>
+      <description>&lt;p&gt;Consumer Surplus and the Sweetener Quota Analysis.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>time_uncertainty.pdf</title>
+      <link>/resources/time_uncertainty/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/time_uncertainty/data.json</guid>
+      <description>&lt;p&gt;Intertemporal Prices and Present Value, Uncertainty, Irreversible Investments and Option Value.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>trans_vert_int.pdf</title>
+      <link>/resources/trans_vert_int/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/trans_vert_int/data.json</guid>
+      <description>&lt;p&gt;Framework and Economic Principles, Cases Considered, Vertical Integration.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>transfer_pricing.pdf</title>
+      <link>/resources/transfer_pricing/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/transfer_pricing/data.json</guid>
+      <description>&lt;p&gt;Lecture Notes File.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>uk_crdt_card_sys.pdf</title>
+      <link>/resources/uk_crdt_card_sys/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/uk_crdt_card_sys/data.json</guid>
+      <description>&lt;p&gt;Diagram of credit card system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>uk_crdt_crd_case.pdf</title>
+      <link>/resources/uk_crdt_crd_case/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/uk_crdt_crd_case/data.json</guid>
+      <description>&lt;p&gt;Questions for Case Discussion.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>web_game_the_tic.pdf</title>
+      <link>/resources/web_game_the_tic/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/web_game_the_tic/data.json</guid>
+      <description>&lt;p&gt;Article on &amp;ldquo;For the Asking, a $480 seat.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>wlmrt_cstco_war.pdf</title>
+      <link>/resources/wlmrt_cstco_war/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/wlmrt_cstco_war/data.json</guid>
+      <description>&lt;p&gt;Lecture Notes File.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

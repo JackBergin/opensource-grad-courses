@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This resource contains the information regarding Linear Optimization.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains the information regarding Linear Optimization.",
+  "draft": false,
+  "file": "/courses/15-060-data-models-and-decisions-fall-2014/12c10ecc482968654258a0306a074104_MIT15_060F14_HW5-F14.pdf",
+  "file_size": 103043,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "f41b5b04-9595-61f9-fa4b-04cc5ceb0484",
+  "resourcetype": "Document",
+  "title": "Homework 5:  Linear Optimization - 15.060 Data, Models, and Decisions - Fall 2014",
+  "uid": "12c10ecc-4829-6865-4258-a0306a074104",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "15-060-data-models-and-decisions-fall-2014"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "15-060-data-models-and-decisions-fall-2014"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

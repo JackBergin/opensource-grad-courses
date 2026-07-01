@@ -1,0 +1,8211 @@
+1
+00:00:00,090 --> 00:00:02,430
+The following content is
+provided under a Creative
+
+2
+00:00:02,430 --> 00:00:03,820
+Commons license.
+
+3
+00:00:03,820 --> 00:00:06,030
+Your support will help
+MIT OpenCourseWare
+
+4
+00:00:06,030 --> 00:00:10,120
+continue to offer high quality
+educational resources for free.
+
+5
+00:00:10,120 --> 00:00:12,690
+To make a donation, or to
+view additional materials
+
+6
+00:00:12,690 --> 00:00:16,620
+from hundreds of MIT courses,
+visit MIT OpenCourseWare
+
+7
+00:00:16,620 --> 00:00:17,830
+at ocw.mit.edu.
+
+8
+00:00:27,109 --> 00:00:28,650
+ANDREW LO: In today's
+lecture, I want
+
+9
+00:00:28,650 --> 00:00:33,300
+to continue where we
+were last time in talking
+
+10
+00:00:33,300 --> 00:00:38,310
+about applications of the
+net present value rule
+
+11
+00:00:38,310 --> 00:00:42,210
+to capital budgeting
+and project financing.
+
+12
+00:00:42,210 --> 00:00:44,370
+As promised, today
+what I'm going to do
+
+13
+00:00:44,370 --> 00:00:48,750
+is to talk specifically
+about other alternatives
+
+14
+00:00:48,750 --> 00:00:53,550
+to net present value
+that are not recommended,
+
+15
+00:00:53,550 --> 00:00:55,740
+but which you need
+to know about simply
+
+16
+00:00:55,740 --> 00:00:59,790
+because they actually are used
+in practice to some degree.
+
+17
+00:00:59,790 --> 00:01:02,880
+And you have to be an
+intelligent consumer
+
+18
+00:01:02,880 --> 00:01:04,709
+of all of these
+different ideas so
+
+19
+00:01:04,709 --> 00:01:06,120
+that you can pick and choose.
+
+20
+00:01:06,120 --> 00:01:07,740
+And actually, there
+are some instances
+
+21
+00:01:07,740 --> 00:01:09,780
+where these other
+alternatives can
+
+22
+00:01:09,780 --> 00:01:13,050
+shed some light on
+the particular problem
+
+23
+00:01:13,050 --> 00:01:15,030
+and challenges at hand.
+
+24
+00:01:15,030 --> 00:01:18,120
+I'll try to describe
+those as we go over them.
+
+25
+00:01:18,120 --> 00:01:21,000
+Before I do, a student
+came up and asked me
+
+26
+00:01:21,000 --> 00:01:25,200
+about a concept called
+adjusted present value.
+
+27
+00:01:25,200 --> 00:01:26,700
+I wanted just to
+make a note of that
+
+28
+00:01:26,700 --> 00:01:29,670
+because, so far, we've
+been talking about NPV.
+
+29
+00:01:29,670 --> 00:01:35,400
+But in fact, both the textbook,
+as well as the best practices,
+
+30
+00:01:35,400 --> 00:01:37,380
+would suggest that
+you use something
+
+31
+00:01:37,380 --> 00:01:40,020
+called adjusted present value.
+
+32
+00:01:40,020 --> 00:01:41,910
+Which basically
+makes adjustments
+
+33
+00:01:41,910 --> 00:01:45,480
+for things like taxes,
+project interactions,
+
+34
+00:01:45,480 --> 00:01:50,880
+strategic alternatives,
+optionality, and so on.
+
+35
+00:01:50,880 --> 00:01:53,400
+I want to recommend that you
+first of all, keep in mind
+
+36
+00:01:53,400 --> 00:01:56,490
+this notion of
+adjusted present value.
+
+37
+00:01:56,490 --> 00:02:00,030
+That's what you'll be learning
+about in 402, and in more
+
+38
+00:02:00,030 --> 00:02:02,310
+advanced courses on capital
+budgeting and project
+
+39
+00:02:02,310 --> 00:02:03,340
+financing.
+
+40
+00:02:03,340 --> 00:02:06,670
+So for now, NPV is
+the right answer,
+
+41
+00:02:06,670 --> 00:02:09,270
+but when you learn more about
+how to make those adjustments,
+
+42
+00:02:09,270 --> 00:02:10,750
+you're going to
+want to use them,
+
+43
+00:02:10,750 --> 00:02:15,780
+and then we call the particular
+criterion APV instead of NPF.
+
+44
+00:02:15,780 --> 00:02:19,479
+Just terminology that
+you should be aware of.
+
+45
+00:02:19,479 --> 00:02:21,520
+All right, so what I want
+to do today, as I said,
+
+46
+00:02:21,520 --> 00:02:25,560
+is to talk about three other
+approaches to capital budgeting
+
+47
+00:02:25,560 --> 00:02:29,190
+that various professionals
+have used in the past,
+
+48
+00:02:29,190 --> 00:02:32,740
+and which some are used to
+a great extent even today.
+
+49
+00:02:32,740 --> 00:02:36,570
+And they are payback period and
+the discounted version of that
+
+50
+00:02:36,570 --> 00:02:39,300
+called discounted payback.
+
+51
+00:02:39,300 --> 00:02:44,110
+Second is the IRR,
+Internal Rate of Return,
+
+52
+00:02:44,110 --> 00:02:48,370
+and the third is the
+profitability index.
+
+53
+00:02:48,370 --> 00:02:53,800
+Each of these have its
+own particular uses,
+
+54
+00:02:53,800 --> 00:02:56,590
+and I'm going to try to describe
+them to you very briefly.
+
+55
+00:02:56,590 --> 00:02:59,530
+And then we're going to talk
+about different applications.
+
+56
+00:02:59,530 --> 00:03:02,050
+The bottom line, just
+to be sure that there's
+
+57
+00:03:02,050 --> 00:03:08,240
+no misunderstanding, NPV is
+always the right thing to do.
+
+58
+00:03:08,240 --> 00:03:12,190
+So that's what we're
+recommending for any capital
+
+59
+00:03:12,190 --> 00:03:14,300
+budgeting application.
+
+60
+00:03:14,300 --> 00:03:16,630
+However, you should
+still understand
+
+61
+00:03:16,630 --> 00:03:18,610
+what these three other
+alternatives are so
+
+62
+00:03:18,610 --> 00:03:21,010
+that you can speak about
+them intelligently, talk
+
+63
+00:03:21,010 --> 00:03:25,020
+about their advantages,
+and disadvantages.
+
+64
+00:03:25,020 --> 00:03:27,600
+All right, so let's get started.
+
+65
+00:03:27,600 --> 00:03:28,980
+Payback period-- oh, question.
+
+66
+00:03:28,980 --> 00:03:29,130
+Yeah?
+
+67
+00:03:29,130 --> 00:03:30,558
+AUDIENCE: Is this
+for [INAUDIBLE]?
+
+68
+00:03:30,558 --> 00:03:34,075
+I mean you speak pretty
+firmly about NPV being better.
+
+69
+00:03:34,075 --> 00:03:34,700
+ANDREW LO: Yes.
+
+70
+00:03:34,700 --> 00:03:39,370
+So is it people using those
+other methods are wrong,
+
+71
+00:03:39,370 --> 00:03:46,600
+or less intelligent, or is there
+anyway to kindly describe that?
+
+72
+00:03:46,600 --> 00:03:48,689
+ANDREW LO: So the
+question is, why are they
+
+73
+00:03:48,689 --> 00:03:49,980
+using these other alternatives?
+
+74
+00:03:49,980 --> 00:03:51,930
+Let me get to that later, OK?
+
+75
+00:03:51,930 --> 00:03:54,420
+I mean, one could argue that
+they're less intelligent.
+
+76
+00:03:54,420 --> 00:03:56,490
+Not everybody is
+able to get into MIT
+
+77
+00:03:56,490 --> 00:03:59,490
+and take this wonderful course.
+
+78
+00:03:59,490 --> 00:04:02,910
+So by definition,
+they're less intelligent.
+
+79
+00:04:02,910 --> 00:04:07,350
+But no, I don't want to make
+such a blanket statement.
+
+80
+00:04:07,350 --> 00:04:09,840
+I think that,
+partly, you'll find
+
+81
+00:04:09,840 --> 00:04:11,880
+that these other
+techniques have been
+
+82
+00:04:11,880 --> 00:04:16,709
+used in practice both
+because of cultural inertia.
+
+83
+00:04:16,709 --> 00:04:19,200
+They were the first to
+have come on the scene
+
+84
+00:04:19,200 --> 00:04:21,630
+before NOV was fully worked out.
+
+85
+00:04:21,630 --> 00:04:24,039
+So people are just used
+to doing things the way
+
+86
+00:04:24,039 --> 00:04:25,080
+they're used to doing it.
+
+87
+00:04:25,080 --> 00:04:26,970
+People don't like
+change, necessarily,
+
+88
+00:04:26,970 --> 00:04:29,520
+when it's particularly
+forced upon them.
+
+89
+00:04:29,520 --> 00:04:34,200
+But the second reason is that
+these other methods capture
+
+90
+00:04:34,200 --> 00:04:37,560
+other aspects of risk
+that, in certain cases,
+
+91
+00:04:37,560 --> 00:04:40,950
+may actually be more important
+for the particular individual
+
+92
+00:04:40,950 --> 00:04:41,730
+decision makers.
+
+93
+00:04:41,730 --> 00:04:43,635
+For example, we've
+talked about a lot
+
+94
+00:04:43,635 --> 00:04:44,760
+of different kinds of risk.
+
+95
+00:04:44,760 --> 00:04:49,030
+Market risk, estimation
+risk, credit risk.
+
+96
+00:04:49,030 --> 00:04:51,580
+But what's the most
+important risk to all of you
+
+97
+00:04:51,580 --> 00:04:55,120
+once you start
+working in your jobs?
+
+98
+00:04:55,120 --> 00:04:55,996
+AUDIENCE: [INAUDIBLE]
+
+99
+00:04:55,996 --> 00:04:56,661
+ANDREW LO: What?
+
+100
+00:04:56,661 --> 00:04:57,580
+AUDIENCE: [INAUDIBLE]
+
+101
+00:04:57,580 --> 00:04:58,371
+ANDREW LO: Exactly.
+
+102
+00:04:58,371 --> 00:04:59,410
+Career risk.
+
+103
+00:04:59,410 --> 00:05:03,310
+Career risk is probably
+the most important risk
+
+104
+00:05:03,310 --> 00:05:06,400
+from the typical perspective
+of the decision maker.
+
+105
+00:05:06,400 --> 00:05:08,200
+And frankly, some
+of these measures
+
+106
+00:05:08,200 --> 00:05:12,010
+that I'm about to describe
+focus on career risk
+
+107
+00:05:12,010 --> 00:05:14,590
+more than they do on the
+risk to the investor,
+
+108
+00:05:14,590 --> 00:05:15,940
+or the shareholder.
+
+109
+00:05:15,940 --> 00:05:19,450
+What I'd like you all to
+focus on in doing your jobs
+
+110
+00:05:19,450 --> 00:05:22,540
+is to try to maximize
+the value of the company
+
+111
+00:05:22,540 --> 00:05:24,700
+from the perspective of
+the owners of the company.
+
+112
+00:05:24,700 --> 00:05:27,010
+You are agents of the
+owners, so therefore, you
+
+113
+00:05:27,010 --> 00:05:31,070
+want to maximize the
+value to the shareholders.
+
+114
+00:05:31,070 --> 00:05:33,460
+But in fact, the
+way people behave
+
+115
+00:05:33,460 --> 00:05:35,180
+is often somewhat different.
+
+116
+00:05:35,180 --> 00:05:36,850
+So we'll talk about
+that as we describe
+
+117
+00:05:36,850 --> 00:05:38,230
+each of these measures.
+
+118
+00:05:38,230 --> 00:05:40,720
+In fact, let's talk about
+the first measure as a way
+
+119
+00:05:40,720 --> 00:05:44,460
+to illustrate the point
+about career risk.
+
+120
+00:05:44,460 --> 00:05:47,550
+Payback period is a
+very simple concept.
+
+121
+00:05:47,550 --> 00:05:51,030
+It is simply the
+minimum number of years
+
+122
+00:05:51,030 --> 00:05:54,420
+that it requires for a
+particular investment
+
+123
+00:05:54,420 --> 00:05:56,800
+to pay back.
+
+124
+00:05:56,800 --> 00:06:00,024
+So if you invest a million
+dollars in a project,
+
+125
+00:06:00,024 --> 00:06:02,440
+and it's going to generate
+some revenues, the question is,
+
+126
+00:06:02,440 --> 00:06:07,440
+how long is it going to take
+before the project earns
+
+127
+00:06:07,440 --> 00:06:08,400
+a million dollars?
+
+128
+00:06:08,400 --> 00:06:11,820
+Namely, it pays back
+the original investment.
+
+129
+00:06:11,820 --> 00:06:14,620
+So the definition,
+here, is simple.
+
+130
+00:06:14,620 --> 00:06:17,490
+If you assume that
+cf1 through cfk
+
+131
+00:06:17,490 --> 00:06:19,740
+are the cash flows
+to the project,
+
+132
+00:06:19,740 --> 00:06:21,590
+and you invest a
+certain amount of cash,
+
+133
+00:06:21,590 --> 00:06:28,010
+cf0, initially, then the
+question is, how long a period
+
+134
+00:06:28,010 --> 00:06:32,360
+do you need so that the sum
+of the future cash flows
+
+135
+00:06:32,360 --> 00:06:34,140
+exceeds the initial investment?
+
+136
+00:06:34,140 --> 00:06:38,670
+What's the minimum number of
+periods for that to happen?
+
+137
+00:06:38,670 --> 00:06:43,470
+And that minimum, k, is
+called the payback period.
+
+138
+00:06:43,470 --> 00:06:46,250
+Now, right away you
+see that there's
+
+139
+00:06:46,250 --> 00:06:48,200
+a problem because
+we're adding cash
+
+140
+00:06:48,200 --> 00:06:50,700
+flows in different periods.
+
+141
+00:06:50,700 --> 00:06:54,050
+So I hope by now, when you look
+at an expression like that,
+
+142
+00:06:54,050 --> 00:06:58,970
+it causes you great
+cognitive dissonance and pain
+
+143
+00:06:58,970 --> 00:07:00,020
+to look at that.
+
+144
+00:07:00,020 --> 00:07:01,730
+It's like adding pounds to yen.
+
+145
+00:07:01,730 --> 00:07:03,950
+Remember we did that the
+first day of class, right?
+
+146
+00:07:03,950 --> 00:07:07,190
+Three pounds plus
+25 yen is what?
+
+147
+00:07:07,190 --> 00:07:08,150
+I don't know.
+
+148
+00:07:08,150 --> 00:07:10,100
+So when you're adding
+these cash flows,
+
+149
+00:07:10,100 --> 00:07:13,670
+it doesn't make sense because
+you're adding different units.
+
+150
+00:07:13,670 --> 00:07:15,170
+But let's forget
+about that for now.
+
+151
+00:07:15,170 --> 00:07:16,795
+Let's just look at
+the equation and try
+
+152
+00:07:16,795 --> 00:07:19,460
+to divine what we mean from it.
+
+153
+00:07:19,460 --> 00:07:22,160
+For independent
+projects, a criterion
+
+154
+00:07:22,160 --> 00:07:24,280
+that you might
+construct using payback
+
+155
+00:07:24,280 --> 00:07:27,800
+is to accept the project
+if k is less than
+
+156
+00:07:27,800 --> 00:07:31,160
+or equal to some pre-specified
+threshold, t star.
+
+157
+00:07:31,160 --> 00:07:33,480
+And for mutually
+exclusive projects,
+
+158
+00:07:33,480 --> 00:07:35,690
+where you can only take
+one, pick the project
+
+159
+00:07:35,690 --> 00:07:38,900
+that has the smallest
+payback period
+
+160
+00:07:38,900 --> 00:07:40,830
+subject to that
+threshold t star.
+
+161
+00:07:43,580 --> 00:07:46,370
+That's the typical
+approach to using payback.
+
+162
+00:07:46,370 --> 00:07:50,420
+Clearly, this is a relatively
+shortsighted approach.
+
+163
+00:07:50,420 --> 00:07:53,500
+It doesn't take into account
+scale, how much money you're
+
+164
+00:07:53,500 --> 00:07:54,650
+going to make from this.
+
+165
+00:07:54,650 --> 00:07:57,140
+It doesn't take
+into account risk,
+
+166
+00:07:57,140 --> 00:08:00,000
+other than the risk of
+not getting paid back.
+
+167
+00:08:00,000 --> 00:08:03,740
+So it's a very,
+very narrow focus
+
+168
+00:08:03,740 --> 00:08:07,520
+in terms of what it's
+trying to accomplish.
+
+169
+00:08:07,520 --> 00:08:09,500
+Now, we can try to fix this.
+
+170
+00:08:09,500 --> 00:08:13,260
+And we can fix this by
+using discounted payback.
+
+171
+00:08:13,260 --> 00:08:17,270
+So now at least, the cash
+flows are in the same units.
+
+172
+00:08:17,270 --> 00:08:20,180
+So you can use
+discounted payback,
+
+173
+00:08:20,180 --> 00:08:25,140
+but it still ignores the cash
+flows after the payback period.
+
+174
+00:08:25,140 --> 00:08:27,740
+So in particular, you
+can have a project
+
+175
+00:08:27,740 --> 00:08:32,450
+that requires cash inflow
+today, that then generates
+
+176
+00:08:32,450 --> 00:08:35,150
+a bunch of positive
+cash flows thereafter,
+
+177
+00:08:35,150 --> 00:08:38,179
+but then after the payback
+period, in some future date,
+
+178
+00:08:38,179 --> 00:08:40,730
+it generates tremendously
+negative cash flows.
+
+179
+00:08:40,730 --> 00:08:43,970
+Either because of some kind
+of liabilities that it incurs,
+
+180
+00:08:43,970 --> 00:08:45,890
+or some other additional
+investments that it
+
+181
+00:08:45,890 --> 00:08:47,570
+requires to keep it going.
+
+182
+00:08:47,570 --> 00:08:51,300
+All of that stuff is
+ignored by payback.
+
+183
+00:08:51,300 --> 00:08:54,770
+So in particular, this
+can have a negative NPV,
+
+184
+00:08:54,770 --> 00:08:56,810
+but you might still
+want to take it
+
+185
+00:08:56,810 --> 00:09:00,320
+because it pays
+back in a relatively
+
+186
+00:09:00,320 --> 00:09:01,940
+short period of time.
+
+187
+00:09:01,940 --> 00:09:03,500
+That's a mistake.
+
+188
+00:09:03,500 --> 00:09:05,390
+But you can understand
+how something
+
+189
+00:09:05,390 --> 00:09:09,290
+like this ended up getting
+put into practice, right?
+
+190
+00:09:09,290 --> 00:09:11,030
+Career risk.
+
+191
+00:09:11,030 --> 00:09:13,130
+If you're a manager
+of a division,
+
+192
+00:09:13,130 --> 00:09:17,180
+and your job when you were hired
+is to turn it around and make
+
+193
+00:09:17,180 --> 00:09:20,420
+it profitable, then
+it's very important
+
+194
+00:09:20,420 --> 00:09:24,260
+that you take on projects
+with short payback periods.
+
+195
+00:09:24,260 --> 00:09:26,300
+But that's not necessarily
+in the best interests
+
+196
+00:09:26,300 --> 00:09:31,010
+of the company, or of the
+investors, or even of yourself
+
+197
+00:09:31,010 --> 00:09:34,370
+if the incentives have
+been properly calibrated.
+
+198
+00:09:34,370 --> 00:09:37,430
+In other words, if, as part
+of your compensation contract,
+
+199
+00:09:37,430 --> 00:09:40,340
+they say, here, you get a
+bunch of stock in the company.
+
+200
+00:09:40,340 --> 00:09:42,980
+We want you to maximize the
+value of the shareholders.
+
+201
+00:09:42,980 --> 00:09:45,920
+Then what you ought to be
+doing is maximizing NPV.
+
+202
+00:09:45,920 --> 00:09:48,980
+You're not supposed to be
+focusing on other aspects.
+
+203
+00:09:48,980 --> 00:09:52,220
+But as a practical matter,
+people look at this.
+
+204
+00:09:52,220 --> 00:09:54,920
+People want to know how
+long is it going to be
+
+205
+00:09:54,920 --> 00:09:56,810
+before this thing pays back.
+
+206
+00:09:56,810 --> 00:10:00,470
+Now, I don't want to argue that
+it's completely irrational.
+
+207
+00:10:00,470 --> 00:10:04,280
+Can anybody give me a rationale
+for why payback is actually
+
+208
+00:10:04,280 --> 00:10:05,770
+a sensible thing to consider?
+
+209
+00:10:05,770 --> 00:10:06,410
+Yeah, David?
+
+210
+00:10:06,410 --> 00:10:08,334
+AUDIENCE: The main
+thing that fueled
+
+211
+00:10:08,334 --> 00:10:10,739
+this, in an NPV
+calculation, you're
+
+212
+00:10:10,739 --> 00:10:12,670
+assuming that you know
+what cash flow's going
+
+213
+00:10:12,670 --> 00:10:13,840
+to be way out in the future.
+
+214
+00:10:13,840 --> 00:10:14,350
+ANDREW LO: Yeah, exactly.
+
+215
+00:10:14,350 --> 00:10:15,379
+AUDIENCE: And if
+you have a big cash
+
+216
+00:10:15,379 --> 00:10:17,003
+flow way out in the
+future end, there's
+
+217
+00:10:17,003 --> 00:10:19,440
+so little certainty your
+career's attached to that--
+
+218
+00:10:19,440 --> 00:10:20,440
+ANDREW LO: That's right.
+
+219
+00:10:20,440 --> 00:10:23,821
+AUDIENCE: --you'd want to weight
+effort more towards a calculus
+
+220
+00:10:23,821 --> 00:10:24,790
+and--
+
+221
+00:10:24,790 --> 00:10:25,790
+ANDREW LO: That's right.
+
+222
+00:10:25,790 --> 00:10:28,000
+So apart from the career
+risk, which you mentioned,
+
+223
+00:10:28,000 --> 00:10:30,220
+but I want to downplay
+that because I
+
+224
+00:10:30,220 --> 00:10:33,610
+want to argue that it
+is possible for payback
+
+225
+00:10:33,610 --> 00:10:35,620
+to add value to shareholders.
+
+226
+00:10:35,620 --> 00:10:39,700
+Simply because there is an
+implicit recognition for those
+
+227
+00:10:39,700 --> 00:10:42,970
+who use payback that it's
+really hard to estimate
+
+228
+00:10:42,970 --> 00:10:45,160
+what's going to happen
+in the distant future.
+
+229
+00:10:45,160 --> 00:10:48,790
+So if you've got a project
+that pays back sooner rather
+
+230
+00:10:48,790 --> 00:10:52,120
+than later, that's
+probably better
+
+231
+00:10:52,120 --> 00:10:54,760
+because there's less
+certainty about what's
+
+232
+00:10:54,760 --> 00:10:56,960
+going to happen in the future.
+
+233
+00:10:56,960 --> 00:11:01,150
+Now there's a lot of if's
+in that statement, right?
+
+234
+00:11:01,150 --> 00:11:03,280
+If really what you're
+concerned about
+
+235
+00:11:03,280 --> 00:11:06,640
+is the growing uncertainty
+of the project,
+
+236
+00:11:06,640 --> 00:11:10,520
+that ought to be reflected
+in the discount rates.
+
+237
+00:11:10,520 --> 00:11:13,630
+So I'm not saying that
+you should ignore it.
+
+238
+00:11:13,630 --> 00:11:16,390
+What I'm saying is that payback
+is not necessarily the best
+
+239
+00:11:16,390 --> 00:11:18,190
+way of capturing it.
+
+240
+00:11:18,190 --> 00:11:20,380
+Although I think we could
+acknowledge that it does
+
+241
+00:11:20,380 --> 00:11:22,120
+serve a useful
+purpose in the sense
+
+242
+00:11:22,120 --> 00:11:25,990
+that it is focusing your
+attention on the relatively
+
+243
+00:11:25,990 --> 00:11:29,410
+recent periods of cash flows.
+
+244
+00:11:29,410 --> 00:11:31,210
+But there may be better
+ways of taking care
+
+245
+00:11:31,210 --> 00:11:33,412
+of that, if that's the issue.
+
+246
+00:11:33,412 --> 00:11:34,920
+A question or comment?
+
+247
+00:11:34,920 --> 00:11:35,596
+Yeah?
+
+248
+00:11:35,596 --> 00:11:36,550
+AUDIENCE: Liquidity?
+
+249
+00:11:36,550 --> 00:11:37,216
+ANDREW LO: Yeah?
+
+250
+00:11:37,216 --> 00:11:40,605
+AUDIENCE: If you have a project
+that takes cash outflow up
+
+251
+00:11:40,605 --> 00:11:43,331
+front, and then
+years and years out,
+
+252
+00:11:43,331 --> 00:11:47,273
+it gives you a big cash inflow.
+
+253
+00:11:47,273 --> 00:11:51,060
+From that time until the cash
+outflow, you get nothing?
+
+254
+00:11:51,060 --> 00:11:51,730
+ANDREW LO: Yeah.
+
+255
+00:11:51,730 --> 00:11:53,235
+AUDIENCE: That could even
+present some problems
+
+256
+00:11:53,235 --> 00:11:53,880
+in finance.
+
+257
+00:11:53,880 --> 00:11:54,880
+ANDREW LO: That's right.
+
+258
+00:11:54,880 --> 00:11:57,930
+So another aspect of payback
+is this liquidity issue.
+
+259
+00:11:57,930 --> 00:11:59,550
+In other words,
+projects that pay back
+
+260
+00:11:59,550 --> 00:12:02,970
+in a shorter period of
+time require less liquidity
+
+261
+00:12:02,970 --> 00:12:04,830
+over longer horizons.
+
+262
+00:12:04,830 --> 00:12:08,782
+However, once again I'm going to
+say, if liquidity is the issue,
+
+263
+00:12:08,782 --> 00:12:10,740
+you ought to take that
+into account explicitly,
+
+264
+00:12:10,740 --> 00:12:13,710
+and understand what the term
+structure of your borrowing
+
+265
+00:12:13,710 --> 00:12:15,240
+costs are over
+different periods.
+
+266
+00:12:15,240 --> 00:12:18,821
+If you factor that in, then
+it should already be in there.
+
+267
+00:12:18,821 --> 00:12:19,320
+If.
+
+268
+00:12:19,320 --> 00:12:21,270
+AUDIENCE: Is that closer to a
+discount rate or something--
+
+269
+00:12:21,270 --> 00:12:22,603
+ANDREW LO: That's right, it can.
+
+270
+00:12:22,603 --> 00:12:24,900
+It should certainly,
+because we know
+
+271
+00:12:24,900 --> 00:12:26,290
+that there is a yield curve.
+
+272
+00:12:26,290 --> 00:12:28,890
+The typical yield curve
+is upward sloping.
+
+273
+00:12:28,890 --> 00:12:30,600
+Typical I say, not always.
+
+274
+00:12:30,600 --> 00:12:32,575
+But the typical yield
+curve is upward sloping.
+
+275
+00:12:32,575 --> 00:12:34,200
+What that's telling
+you is that there's
+
+276
+00:12:34,200 --> 00:12:37,470
+a premium for borrowing longer.
+
+277
+00:12:37,470 --> 00:12:40,140
+So that basically gets
+at your liquidity issue.
+
+278
+00:12:40,140 --> 00:12:42,870
+But if you have additional
+concerns above and beyond that,
+
+279
+00:12:42,870 --> 00:12:44,910
+that should be reflected
+in your calculations.
+
+280
+00:12:44,910 --> 00:12:47,950
+Payback is an inefficient
+way of capturing that.
+
+281
+00:12:47,950 --> 00:12:51,060
+It's a very zero-one kind
+of an approach to dealing
+
+282
+00:12:51,060 --> 00:12:52,590
+with that kind of an issue.
+
+283
+00:12:52,590 --> 00:12:53,237
+Yeah?
+
+284
+00:12:53,237 --> 00:12:55,487
+AUDIENCE: Think that people
+they lose the payback when
+
+285
+00:12:55,487 --> 00:12:58,204
+they believe that
+the cash flow is
+
+286
+00:12:58,204 --> 00:13:00,180
+the same all over the period.
+
+287
+00:13:00,180 --> 00:13:01,662
+Which really makes sense.
+
+288
+00:13:01,662 --> 00:13:03,649
+Like in multiple.
+
+289
+00:13:03,649 --> 00:13:05,940
+ANDREW LO: So you're saying
+that it doesn't make sense.
+
+290
+00:13:05,940 --> 00:13:07,564
+AUDIENCE: It makes
+sense, when the cash
+
+291
+00:13:07,564 --> 00:13:08,560
+flow will be the same--
+
+292
+00:13:08,560 --> 00:13:10,020
+ANDREW LO: If the cash,
+yes, that's right.
+
+293
+00:13:10,020 --> 00:13:12,500
+If the cash flow is going to
+be level, then it makes sense.
+
+294
+00:13:12,500 --> 00:13:12,780
+You're right.
+
+295
+00:13:12,780 --> 00:13:13,686
+AUDIENCE: Like multiple.
+
+296
+00:13:13,686 --> 00:13:15,519
+You have a multiple for
+industry, you use it
+
+297
+00:13:15,519 --> 00:13:16,410
+and you have it.
+
+298
+00:13:16,410 --> 00:13:18,030
+ANDREW LO: That's
+right, that's right.
+
+299
+00:13:18,030 --> 00:13:20,520
+There are conditions
+under which payback
+
+300
+00:13:20,520 --> 00:13:22,200
+can give you sensible results.
+
+301
+00:13:22,200 --> 00:13:25,390
+But think about how restrictive
+those conditions are.
+
+302
+00:13:25,390 --> 00:13:27,270
+You need to have
+level cash flows,
+
+303
+00:13:27,270 --> 00:13:31,530
+and moreover, you have to be
+comparing projects, all of whom
+
+304
+00:13:31,530 --> 00:13:34,620
+have level cash flows and
+have comparable risks.
+
+305
+00:13:34,620 --> 00:13:37,527
+If they have different risks, or
+different levels of cash flows,
+
+306
+00:13:37,527 --> 00:13:39,360
+or different liquidity,
+all of those things,
+
+307
+00:13:39,360 --> 00:13:40,770
+cannot be captured by payback.
+
+308
+00:13:43,450 --> 00:13:45,800
+So I don't want to
+beat up too much on it.
+
+309
+00:13:45,800 --> 00:13:47,650
+This is a relatively
+easy target.
+
+310
+00:13:47,650 --> 00:13:51,230
+The point is that it
+provides some information,
+
+311
+00:13:51,230 --> 00:13:52,825
+and you should know what it is.
+
+312
+00:13:52,825 --> 00:13:54,700
+Regardless of whether
+you're going to use it.
+
+313
+00:13:54,700 --> 00:13:57,260
+You ought to be able to
+have that at your fingertips
+
+314
+00:13:57,260 --> 00:13:59,770
+so when somebody says,
+and undoubtedly somebody
+
+315
+00:13:59,770 --> 00:14:02,830
+will say to you, when
+you're pushing a project,
+
+316
+00:14:02,830 --> 00:14:05,684
+they're going to say,
+what's the payback period.
+
+317
+00:14:05,684 --> 00:14:06,850
+You need to know the answer.
+
+318
+00:14:06,850 --> 00:14:08,380
+It's not good enough
+for you to say,
+
+319
+00:14:08,380 --> 00:14:10,780
+my 401 professor told me
+it doesn't make sense.
+
+320
+00:14:10,780 --> 00:14:12,820
+You've got to basically
+have an answer,
+
+321
+00:14:12,820 --> 00:14:16,240
+and then argue that
+while payback doesn't
+
+322
+00:14:16,240 --> 00:14:18,535
+summarize all of
+the characteristics
+
+323
+00:14:18,535 --> 00:14:19,660
+that we're concerned about.
+
+324
+00:14:22,870 --> 00:14:25,810
+Second method, the
+profitability index.
+
+325
+00:14:25,810 --> 00:14:31,390
+Now this one is another
+easy criterion to criticize,
+
+326
+00:14:31,390 --> 00:14:36,010
+but it's so close to NPV that
+the only thing that really is
+
+327
+00:14:36,010 --> 00:14:38,510
+an issue is the scale factor.
+
+328
+00:14:38,510 --> 00:14:39,940
+So let me explain.
+
+329
+00:14:39,940 --> 00:14:46,652
+Profitability index is simply
+the gross present value, as
+
+330
+00:14:46,652 --> 00:14:47,860
+opposed to net present value.
+
+331
+00:14:47,860 --> 00:14:50,380
+It's the gross
+present value, divided
+
+332
+00:14:50,380 --> 00:14:52,120
+by the initial investment.
+
+333
+00:14:55,010 --> 00:14:58,030
+So the present value is
+simply the present value
+
+334
+00:14:58,030 --> 00:15:02,450
+of all the cash flows, divided
+by the initial investment.
+
+335
+00:15:02,450 --> 00:15:05,840
+So you could think of it
+as a gross rate of return.
+
+336
+00:15:05,840 --> 00:15:08,390
+In other words, 1
+plus the net rate
+
+337
+00:15:08,390 --> 00:15:12,680
+of return of your
+investment in this project.
+
+338
+00:15:12,680 --> 00:15:15,260
+If the profitability
+index is greater than 1,
+
+339
+00:15:15,260 --> 00:15:16,830
+take the project.
+
+340
+00:15:16,830 --> 00:15:19,550
+If it's less than 1,
+don't take the project.
+
+341
+00:15:19,550 --> 00:15:23,150
+And if you've got a bunch of
+mutually exclusive projects,
+
+342
+00:15:23,150 --> 00:15:26,270
+pick the one that has the
+highest profitability index.
+
+343
+00:15:29,170 --> 00:15:31,980
+That's the approach.
+
+344
+00:15:31,980 --> 00:15:33,886
+Now what's wrong with this?
+
+345
+00:15:33,886 --> 00:15:36,280
+It's not that far off from NPV.
+
+346
+00:15:36,280 --> 00:15:39,550
+In fact, you could show
+that with a profitability
+
+347
+00:15:39,550 --> 00:15:43,420
+index is greater than 1, you've
+got a positive NPV project.
+
+348
+00:15:43,420 --> 00:15:45,880
+When the profitability
+index is less than 1,
+
+349
+00:15:45,880 --> 00:15:47,450
+you've got a
+negative NPV project.
+
+350
+00:15:47,450 --> 00:15:51,640
+So in terms of taking
+or not taking a project,
+
+351
+00:15:51,640 --> 00:15:53,479
+it's actually the same as NPV.
+
+352
+00:15:53,479 --> 00:15:54,417
+[INAUDIBLE]?
+
+353
+00:15:54,417 --> 00:15:56,996
+AUDIENCE: The thing it doesn't
+tell you is how much they
+
+354
+00:15:56,996 --> 00:15:59,290
+usually must have [INAUDIBLE].
+
+355
+00:15:59,290 --> 00:16:01,486
+It can be $1 or $1 billion.
+
+356
+00:16:01,486 --> 00:16:02,860
+ANDREW LO: That's
+right, exactly.
+
+357
+00:16:02,860 --> 00:16:04,651
+There's nothing that
+tells you about scale.
+
+358
+00:16:04,651 --> 00:16:09,990
+So, if you guys give me
+$1 and I give you back $2,
+
+359
+00:16:09,990 --> 00:16:13,300
+that's going to have a
+profitability index of 2.
+
+360
+00:16:13,300 --> 00:16:15,870
+Which is going to look
+really good relative
+
+361
+00:16:15,870 --> 00:16:18,690
+to an investment in
+Berkshire Hathaway
+
+362
+00:16:18,690 --> 00:16:22,220
+20 years ago, because that
+may not have given you
+
+363
+00:16:22,220 --> 00:16:24,170
+the same profitability index.
+
+364
+00:16:24,170 --> 00:16:26,090
+But Warren Buffett has
+made a lot more money
+
+365
+00:16:26,090 --> 00:16:27,710
+than just a dollar.
+
+366
+00:16:27,710 --> 00:16:29,930
+So, this ignores
+scale and that's
+
+367
+00:16:29,930 --> 00:16:32,210
+obviously something
+that you can't
+
+368
+00:16:32,210 --> 00:16:36,350
+afford to do when you've got
+mutually exclusive projects
+
+369
+00:16:36,350 --> 00:16:37,589
+where you're ranking them.
+
+370
+00:16:37,589 --> 00:16:40,130
+You don't want to pick the one
+with the highest profitability
+
+371
+00:16:40,130 --> 00:16:40,629
+index.
+
+372
+00:16:40,629 --> 00:16:42,680
+What you want to do is
+to pick the one that
+
+373
+00:16:42,680 --> 00:16:45,470
+is generating the
+most value for you,
+
+374
+00:16:45,470 --> 00:16:47,480
+in terms of dollars and cents.
+
+375
+00:16:47,480 --> 00:16:49,190
+In other words, NPV.
+
+376
+00:16:49,190 --> 00:16:53,825
+So once again, NPV, although
+is very close to this,
+
+377
+00:16:53,825 --> 00:16:55,700
+is actually preferred
+because you're actually
+
+378
+00:16:55,700 --> 00:17:01,700
+getting a hard amount of dollars
+and cents as the bottom line.
+
+379
+00:17:01,700 --> 00:17:06,420
+Any questions about
+profitability index?
+
+380
+00:17:06,420 --> 00:17:07,688
+Yes?
+
+381
+00:17:07,688 --> 00:17:10,108
+AUDIENCE: A lot of time,
+the money that you have
+
+382
+00:17:10,108 --> 00:17:13,788
+in hand investment is limited.
+
+383
+00:17:13,788 --> 00:17:18,280
+[INAUDIBLE] play into a role
+like when you have projects.
+
+384
+00:17:18,280 --> 00:17:22,130
+ANDREW LO: Well, it
+does play a role.
+
+385
+00:17:22,130 --> 00:17:25,119
+So the question is, if you
+have a limited amount of money
+
+386
+00:17:25,119 --> 00:17:27,700
+to invest, does
+that play a role?
+
+387
+00:17:27,700 --> 00:17:29,650
+It absolutely does
+play a role, but it
+
+388
+00:17:29,650 --> 00:17:34,420
+plays a role that is contrary
+to what the profitability
+
+389
+00:17:34,420 --> 00:17:36,310
+index wants to do for you.
+
+390
+00:17:36,310 --> 00:17:37,960
+The profitability
+index is simply
+
+391
+00:17:37,960 --> 00:17:41,410
+telling you whether something
+is a positive or negative NPV.
+
+392
+00:17:41,410 --> 00:17:43,219
+It's not telling
+you how much NPV
+
+393
+00:17:43,219 --> 00:17:45,010
+you're going to get
+for the amount of money
+
+394
+00:17:45,010 --> 00:17:46,750
+you're going to invest.
+
+395
+00:17:46,750 --> 00:17:50,260
+So what you need to do is
+to focus on the latter.
+
+396
+00:17:50,260 --> 00:17:52,390
+In other words, how
+much cash are you
+
+397
+00:17:52,390 --> 00:17:55,450
+going to be able to generate
+from a particular project?
+
+398
+00:17:55,450 --> 00:17:57,970
+$50, or $50 million?
+
+399
+00:17:57,970 --> 00:17:59,810
+That really makes
+a big difference.
+
+400
+00:17:59,810 --> 00:18:02,740
+Particularly, if what you have
+is a limited amount of cash,
+
+401
+00:18:02,740 --> 00:18:06,760
+scale is actually an
+important concept to you.
+
+402
+00:18:06,760 --> 00:18:09,310
+The reason that economists
+and financial economists,
+
+403
+00:18:09,310 --> 00:18:13,030
+by extension, focus
+on rates of return?
+
+404
+00:18:13,030 --> 00:18:16,900
+Did that ever strike
+you as being rather odd?
+
+405
+00:18:16,900 --> 00:18:19,120
+In other words, when you
+talk to business people,
+
+406
+00:18:19,120 --> 00:18:22,000
+very often they'll speak
+in terms of dollar amounts.
+
+407
+00:18:22,000 --> 00:18:24,730
+Like, a startup
+costs $15 million,
+
+408
+00:18:24,730 --> 00:18:29,320
+or the profits for last quarter
+was a million and a half
+
+409
+00:18:29,320 --> 00:18:30,850
+dollars.
+
+410
+00:18:30,850 --> 00:18:33,190
+They won't talk always
+in rates of return.
+
+411
+00:18:33,190 --> 00:18:36,070
+Whereas economists, particularly
+financial economists,
+
+412
+00:18:36,070 --> 00:18:38,114
+they express everything
+in rates of return.
+
+413
+00:18:38,114 --> 00:18:40,030
+I mean, that's what we've
+done in this course.
+
+414
+00:18:40,030 --> 00:18:44,920
+We've spent most of our time
+focusing on r, not on v. v
+
+415
+00:18:44,920 --> 00:18:46,880
+for value, r for return.
+
+416
+00:18:46,880 --> 00:18:48,610
+Anybody know why that is?
+
+417
+00:18:48,610 --> 00:18:49,273
+Yeah?
+
+418
+00:18:49,273 --> 00:18:51,245
+AUDIENCE: We always
+look about opportunity
+
+419
+00:18:51,245 --> 00:18:54,696
+that we miss so maybe we
+can change the direction
+
+420
+00:18:54,696 --> 00:18:57,670
+of our money [INAUDIBLE].
+
+421
+00:18:57,670 --> 00:18:59,110
+ANDREW LO: Well, that's true.
+
+422
+00:18:59,110 --> 00:19:01,734
+But why focus on return
+as opposed to dollars?
+
+423
+00:19:01,734 --> 00:19:03,400
+I mean, if we're
+thinking about changing
+
+424
+00:19:03,400 --> 00:19:05,230
+the direction of
+our portfolio, you
+
+425
+00:19:05,230 --> 00:19:06,940
+might think about
+investing, instead
+
+426
+00:19:06,940 --> 00:19:09,670
+of a hundred thousand
+dollars in high tech stocks,
+
+427
+00:19:09,670 --> 00:19:12,370
+take that money and invest
+a hundred thousand dollars
+
+428
+00:19:12,370 --> 00:19:13,660
+in manufacturing.
+
+429
+00:19:13,660 --> 00:19:15,730
+It's still about dollars
+and cents, isn't it?
+
+430
+00:19:15,730 --> 00:19:18,169
+When you think about your
+portfolio, at some point,
+
+431
+00:19:18,169 --> 00:19:20,210
+you've got to look at how
+much money do you have,
+
+432
+00:19:20,210 --> 00:19:22,501
+how much money did you have,
+and is the current greater
+
+433
+00:19:22,501 --> 00:19:23,230
+than the latter.
+
+434
+00:19:23,230 --> 00:19:25,840
+You want to know whether
+or not you've made money.
+
+435
+00:19:25,840 --> 00:19:29,811
+Why the focus on
+r in this course?
+
+436
+00:19:29,811 --> 00:19:30,310
+Yeah, Zeke?
+
+437
+00:19:30,310 --> 00:19:32,260
+AUDIENCE: Could be to
+get rid of the units.
+
+438
+00:19:32,260 --> 00:19:33,760
+ANDREW LO: I know, it
+is to get rid of units.
+
+439
+00:19:33,760 --> 00:19:35,551
+But why do we want to
+get rid of the units?
+
+440
+00:19:35,551 --> 00:19:37,262
+AUDIENCE: Compared
+to their numbers?
+
+441
+00:19:37,262 --> 00:19:38,470
+ANDREW LO: But wait a minute.
+
+442
+00:19:38,470 --> 00:19:41,085
+Why can't you compare
+dollars to dollars?
+
+443
+00:19:41,085 --> 00:19:42,460
+I mean, you're
+right that you can
+
+444
+00:19:42,460 --> 00:19:45,100
+compare a 3% increase
+in General Motors
+
+445
+00:19:45,100 --> 00:19:47,320
+to a 2% decline in Microsoft.
+
+446
+00:19:47,320 --> 00:19:49,400
+But you could also
+compare a hundred thousand
+
+447
+00:19:49,400 --> 00:19:51,910
+dollar increase in your
+portfolio in General Motors,
+
+448
+00:19:51,910 --> 00:19:56,840
+versus a $50,000
+loss in Microsoft.
+
+449
+00:19:56,840 --> 00:19:57,520
+Yeah, Courtney?
+
+450
+00:19:57,520 --> 00:20:00,894
+AUDIENCE: It goes back
+to scale because it's
+
+451
+00:20:00,894 --> 00:20:04,200
+a $50,000 [INAUDIBLE]
+for that company,
+
+452
+00:20:04,200 --> 00:20:08,225
+but it could be your
+entire company's profit.
+
+453
+00:20:08,225 --> 00:20:12,230
+So it shows a return on
+an individualized basis.
+
+454
+00:20:12,230 --> 00:20:14,850
+ANDREW LO: It shows the return
+on an individualized basis,
+
+455
+00:20:14,850 --> 00:20:16,070
+and it gets rid of the scale.
+
+456
+00:20:16,070 --> 00:20:16,580
+That's true.
+
+457
+00:20:16,580 --> 00:20:21,030
+So you're able to compare the
+scale for different companies,
+
+458
+00:20:21,030 --> 00:20:24,200
+but what's wrong with
+using dollars to do that?
+
+459
+00:20:24,200 --> 00:20:25,490
+I mean, if you're an investor.
+
+460
+00:20:25,490 --> 00:20:27,470
+So from the investor's
+perspective,
+
+461
+00:20:27,470 --> 00:20:29,810
+if you're looking at an
+investment in General Electric
+
+462
+00:20:29,810 --> 00:20:33,230
+versus Microsoft, wouldn't
+dollars make more sense?
+
+463
+00:20:33,230 --> 00:20:35,750
+Rather than returns?
+
+464
+00:20:35,750 --> 00:20:37,540
+Because you can still
+compare them, right?
+
+465
+00:20:37,540 --> 00:20:38,040
+Yeah?
+
+466
+00:20:38,040 --> 00:20:39,964
+AUDIENCE: If you're
+going to invest
+
+467
+00:20:39,964 --> 00:20:43,331
+x amount in both companies, it
+might create a greater impact
+
+468
+00:20:43,331 --> 00:20:44,293
+on one.
+
+469
+00:20:44,293 --> 00:20:47,660
+And you want to see where
+your money is going to be or--
+
+470
+00:20:47,660 --> 00:20:50,130
+ANDREW LO: OK, you're
+on the right idea.
+
+471
+00:20:50,130 --> 00:20:53,570
+You have the right elements,
+but you haven't put it together.
+
+472
+00:20:53,570 --> 00:20:55,780
+It's true that
+scale is the issue,
+
+473
+00:20:55,780 --> 00:20:58,220
+so you've got your finger
+on the right concept.
+
+474
+00:20:58,220 --> 00:21:00,230
+But what about scale
+is the issue here?
+
+475
+00:21:00,230 --> 00:21:00,800
+[INAUDIBLE]?
+
+476
+00:21:00,800 --> 00:21:03,205
+AUDIENCE: I think you want
+to develop a theory that says
+
+477
+00:21:03,205 --> 00:21:06,172
+[INAUDIBLE], that
+basically you can tell them
+
+478
+00:21:06,172 --> 00:21:08,932
+what's your return in
+terms of percentages
+
+479
+00:21:08,932 --> 00:21:10,890
+and then they can decide
+I want to invest $100,
+
+480
+00:21:10,890 --> 00:21:12,770
+I want to invest
+a million dollars.
+
+481
+00:21:12,770 --> 00:21:13,436
+ANDREW LO: Good.
+
+482
+00:21:13,436 --> 00:21:15,140
+So that's following
+in Courtney's point
+
+483
+00:21:15,140 --> 00:21:17,820
+that we want to develop a
+theory that suits all investors,
+
+484
+00:21:17,820 --> 00:21:20,700
+so it's not focused on scale.
+
+485
+00:21:20,700 --> 00:21:22,970
+But implicit in not
+focusing on scale,
+
+486
+00:21:22,970 --> 00:21:26,176
+we're making another assumption.
+
+487
+00:21:26,176 --> 00:21:27,050
+What are we assuming?
+
+488
+00:21:27,050 --> 00:21:27,550
+Mike?
+
+489
+00:21:27,550 --> 00:21:29,889
+AUDIENCE: In terms of focusing
+on the marginal dollar,
+
+490
+00:21:29,889 --> 00:21:33,826
+you should actually
+take the highest return.
+
+491
+00:21:33,826 --> 00:21:36,246
+If someone's going to
+triple that $3 investment,
+
+492
+00:21:36,246 --> 00:21:38,302
+you should at least put
+your first $3 in that.
+
+493
+00:21:38,302 --> 00:21:39,625
+Give them bang for your buck.
+
+494
+00:21:39,625 --> 00:21:42,040
+And then go down
+until you're getting
+
+495
+00:21:42,040 --> 00:21:44,570
+to a lower marginal return
+on larger investments.
+
+496
+00:21:44,570 --> 00:21:46,460
+ANDREW LO: And why
+should you do that?
+
+497
+00:21:46,460 --> 00:21:50,624
+Why should you go down
+the line in that manner?
+
+498
+00:21:50,624 --> 00:21:53,972
+AUDIENCE: Because that will
+maximize your overall return.
+
+499
+00:21:53,972 --> 00:21:55,180
+ANDREW LO: But wait a minute.
+
+500
+00:21:55,180 --> 00:21:57,480
+I thought that if we
+put our money across all
+
+501
+00:21:57,480 --> 00:21:59,670
+of these various different
+projects in proportion
+
+502
+00:21:59,670 --> 00:22:03,900
+to the standard portfolio
+theory, the tangency portfolio,
+
+503
+00:22:03,900 --> 00:22:07,920
+we get the biggest
+bang per unit risk.
+
+504
+00:22:07,920 --> 00:22:11,730
+So, are you saying we
+ought to deviate from that?
+
+505
+00:22:11,730 --> 00:22:14,340
+What about the theory
+that we developed
+
+506
+00:22:14,340 --> 00:22:18,900
+requires us to focus on
+returns, rather than on dollars
+
+507
+00:22:18,900 --> 00:22:20,370
+invested.
+
+508
+00:22:20,370 --> 00:22:23,100
+You've all been very patient
+in not bringing up this issue.
+
+509
+00:22:23,100 --> 00:22:26,160
+You've just taken it as given
+that I'm telling you the truth
+
+510
+00:22:26,160 --> 00:22:27,690
+about focusing on returns.
+
+511
+00:22:27,690 --> 00:22:31,950
+Why not focus on the actual
+dollars that you invest?
+
+512
+00:22:31,950 --> 00:22:32,469
+Remy.
+
+513
+00:22:32,469 --> 00:22:34,427
+AUDIENCE: Focusing on
+return is the easiest way
+
+514
+00:22:34,427 --> 00:22:37,990
+to weigh it versus the risk.
+
+515
+00:22:37,990 --> 00:22:39,730
+ANDREW LO: That's
+true, it does make
+
+516
+00:22:39,730 --> 00:22:41,590
+it easy to weigh it
+against the risk.
+
+517
+00:22:41,590 --> 00:22:44,440
+But in the end, don't you care
+about what your dollars at risk
+
+518
+00:22:44,440 --> 00:22:45,135
+are?
+
+519
+00:22:45,135 --> 00:22:46,676
+AUDIENCE: You can't
+check out what it
+
+520
+00:22:46,676 --> 00:22:50,670
+is on the tangency portfolio.
+
+521
+00:22:50,670 --> 00:22:54,180
+ANDREW LO: Well, I could rewrite
+the tangency portfolio in terms
+
+522
+00:22:54,180 --> 00:22:56,100
+of dollars, instead of return.
+
+523
+00:22:56,100 --> 00:22:57,600
+AUDIENCE: You don't
+want to do that.
+
+524
+00:22:57,600 --> 00:22:59,641
+ANDREW LO: I don't want
+to do that, you're right.
+
+525
+00:22:59,641 --> 00:23:00,810
+Why don't I want to do that?
+
+526
+00:23:00,810 --> 00:23:02,580
+Aside from the fact
+that the fonts are not
+
+527
+00:23:02,580 --> 00:23:05,190
+going to fit on that axis.
+
+528
+00:23:05,190 --> 00:23:06,820
+Well you're on the right track.
+
+529
+00:23:06,820 --> 00:23:07,320
+All of you.
+
+530
+00:23:07,320 --> 00:23:09,207
+I think you sense
+what I'm getting at,
+
+531
+00:23:09,207 --> 00:23:10,790
+but you haven't put
+your finger on it.
+
+532
+00:23:10,790 --> 00:23:12,450
+Let me tie it all
+together, and tell you
+
+533
+00:23:12,450 --> 00:23:14,449
+where you're getting,
+because I think that we're
+
+534
+00:23:14,449 --> 00:23:16,315
+going to get there eventually.
+
+535
+00:23:16,315 --> 00:23:18,690
+The idea is that we want to
+come up with a framework that
+
+536
+00:23:18,690 --> 00:23:19,830
+applies to all investors.
+
+537
+00:23:19,830 --> 00:23:21,070
+That's true.
+
+538
+00:23:21,070 --> 00:23:23,160
+And so, it would be
+really convenient for us
+
+539
+00:23:23,160 --> 00:23:26,110
+to be able to use
+returns and units of risk
+
+540
+00:23:26,110 --> 00:23:28,350
+so that whatever
+dollars you have,
+
+541
+00:23:28,350 --> 00:23:30,330
+you can simply apply
+the theory and find out
+
+542
+00:23:30,330 --> 00:23:31,957
+where you are on that frontier.
+
+543
+00:23:31,957 --> 00:23:34,290
+And just simply multiply by
+the initial amount of wealth
+
+544
+00:23:34,290 --> 00:23:38,190
+to figure out all your
+dollar investments.
+
+545
+00:23:38,190 --> 00:23:43,700
+Underlying that
+approach is a belief.
+
+546
+00:23:43,700 --> 00:23:44,720
+And here's the belief.
+
+547
+00:23:44,720 --> 00:23:51,450
+The belief is that we can invest
+however much money we want,
+
+548
+00:23:51,450 --> 00:23:54,070
+and get these kind of returns.
+
+549
+00:23:54,070 --> 00:23:56,770
+That's the key that all
+of you are groping at.
+
+550
+00:23:56,770 --> 00:23:59,180
+Implicitly, I think
+you understood this,
+
+551
+00:23:59,180 --> 00:24:01,870
+but you haven't articulated it.
+
+552
+00:24:01,870 --> 00:24:04,330
+What we're assuming,
+when we put down
+
+553
+00:24:04,330 --> 00:24:06,640
+all these equations
+in returns, is
+
+554
+00:24:06,640 --> 00:24:11,440
+that scale doesn't matter
+in the sense that no matter
+
+555
+00:24:11,440 --> 00:24:13,550
+whether we're investing
+a hundred dollars,
+
+556
+00:24:13,550 --> 00:24:17,650
+or a hundred million dollars,
+or a hundred billion dollars.
+
+557
+00:24:17,650 --> 00:24:20,290
+We're going to get
+the same returns.
+
+558
+00:24:20,290 --> 00:24:23,110
+And the fact of the matter
+is that's just not true.
+
+559
+00:24:23,110 --> 00:24:27,500
+Scale absolutely does matter.
+
+560
+00:24:27,500 --> 00:24:29,590
+It matters because
+the more money
+
+561
+00:24:29,590 --> 00:24:32,260
+you put into certain
+kinds of investments,
+
+562
+00:24:32,260 --> 00:24:35,560
+the harder it will be
+for those investments
+
+563
+00:24:35,560 --> 00:24:38,870
+to maintain the same
+level of return.
+
+564
+00:24:38,870 --> 00:24:41,140
+Now, that has a very
+different impact
+
+565
+00:24:41,140 --> 00:24:44,860
+among different industries and
+among different investments.
+
+566
+00:24:44,860 --> 00:24:48,760
+For example, right
+now, nanotechnology
+
+567
+00:24:48,760 --> 00:24:51,140
+is just beginning to take off.
+
+568
+00:24:51,140 --> 00:24:56,815
+And so, if you end up putting a
+couple of extra billion dollars
+
+569
+00:24:56,815 --> 00:24:59,620
+in nanotechnology,
+it's unlikely you're
+
+570
+00:24:59,620 --> 00:25:02,650
+going to really affect the
+returns because the technology
+
+571
+00:25:02,650 --> 00:25:04,180
+is still emerging.
+
+572
+00:25:04,180 --> 00:25:08,410
+But if you take a very highly
+capacity constrained strategy
+
+573
+00:25:08,410 --> 00:25:11,540
+and try to implement
+that same idea,
+
+574
+00:25:11,540 --> 00:25:14,800
+you're going to have a
+very hard time doing it.
+
+575
+00:25:14,800 --> 00:25:19,480
+If you decide that you want to
+focus on middle level software
+
+576
+00:25:19,480 --> 00:25:22,220
+for dealing with file
+server control mechanisms,
+
+577
+00:25:22,220 --> 00:25:25,090
+it's a relatively narrow sector
+in the technology sector.
+
+578
+00:25:25,090 --> 00:25:28,420
+And you want to put $2 billion
+of extra money in that sector
+
+579
+00:25:28,420 --> 00:25:30,160
+this month.
+
+580
+00:25:30,160 --> 00:25:31,390
+Good luck.
+
+581
+00:25:31,390 --> 00:25:33,247
+You'll have a very
+hard time doing it.
+
+582
+00:25:33,247 --> 00:25:35,080
+Not to say that people
+won't take the money.
+
+583
+00:25:35,080 --> 00:25:37,540
+I'm sure you can find people,
+yeah, sure give me the money.
+
+584
+00:25:37,540 --> 00:25:40,206
+But they're not going to be able
+to produce the returns that you
+
+585
+00:25:40,206 --> 00:25:44,020
+would expect from that very
+narrow slice of the economy.
+
+586
+00:25:44,020 --> 00:25:47,700
+So all of what we've
+done in this course
+
+587
+00:25:47,700 --> 00:25:51,360
+ignores scale from the
+perspective of risk and reward,
+
+588
+00:25:51,360 --> 00:25:56,454
+but the one area where scale
+absolutely matters is NPV.
+
+589
+00:25:56,454 --> 00:25:58,620
+In other words, when you're
+a project manager trying
+
+590
+00:25:58,620 --> 00:26:02,250
+to figure out should I take
+Project A, or take Project B,
+
+591
+00:26:02,250 --> 00:26:03,840
+scale matters.
+
+592
+00:26:03,840 --> 00:26:06,100
+As Dee pointed out,
+in certain cases,
+
+593
+00:26:06,100 --> 00:26:09,270
+you don't have more money to
+put into a particular project.
+
+594
+00:26:09,270 --> 00:26:11,250
+In other cases, you
+have too much money
+
+595
+00:26:11,250 --> 00:26:14,070
+that is not suitable
+for a certain project.
+
+596
+00:26:14,070 --> 00:26:17,850
+But the bottom line
+in both cases is NPV.
+
+597
+00:26:17,850 --> 00:26:18,570
+Dollars.
+
+598
+00:26:18,570 --> 00:26:20,524
+Actual dollars and cents.
+
+599
+00:26:20,524 --> 00:26:23,190
+That's what you want to focus on
+from the perspective of capital
+
+600
+00:26:23,190 --> 00:26:24,450
+budgeting or corporate finance.
+
+601
+00:26:24,450 --> 00:26:24,950
+Mike?
+
+602
+00:26:24,950 --> 00:26:27,432
+AUDIENCE: If the NPV
+is really, really good,
+
+603
+00:26:27,432 --> 00:26:30,420
+and the return is good, you
+should go get more capital--
+
+604
+00:26:30,420 --> 00:26:32,130
+ANDREW LO: That's
+right, that's right.
+
+605
+00:26:32,130 --> 00:26:34,950
+If the NPV is really,
+really good, first of all,
+
+606
+00:26:34,950 --> 00:26:36,600
+you're going to
+take the project.
+
+607
+00:26:36,600 --> 00:26:38,280
+But secondly, what
+you're going to do
+
+608
+00:26:38,280 --> 00:26:40,050
+is you're going to try to
+figure how to scale the heck out
+
+609
+00:26:40,050 --> 00:26:41,870
+of the project and take
+as much of it as you want.
+
+610
+00:26:41,870 --> 00:26:42,510
+Why?
+
+611
+00:26:42,510 --> 00:26:45,330
+Because more money is
+preferred to less money.
+
+612
+00:26:45,330 --> 00:26:46,620
+Simple as that.
+
+613
+00:26:46,620 --> 00:26:49,620
+And again, anybody that violates
+that, see me after class.
+
+614
+00:26:49,620 --> 00:26:50,940
+Be happy to help you.
+
+615
+00:26:50,940 --> 00:26:51,568
+Yeah?
+
+616
+00:26:51,568 --> 00:26:53,760
+AUDIENCE: If you did that
+it would go back to your--
+
+617
+00:26:53,760 --> 00:26:55,190
+ANDREW LO: Exactly, it would.
+
+618
+00:26:55,190 --> 00:26:56,531
+AUDIENCE: Or, it would change r.
+
+619
+00:26:56,531 --> 00:26:58,540
+ANDREW LO: It would change
+r, that's the point.
+
+620
+00:26:58,540 --> 00:27:01,320
+That's why you shouldn't focus
+on r from the perspective
+
+621
+00:27:01,320 --> 00:27:02,430
+of capital budgeting.
+
+622
+00:27:02,430 --> 00:27:04,650
+From an investor's
+point of view,
+
+623
+00:27:04,650 --> 00:27:08,200
+from a point of view of you and
+me, investing in the market,
+
+624
+00:27:08,200 --> 00:27:09,390
+we're not going to affect r.
+
+625
+00:27:09,390 --> 00:27:12,160
+I mean, I hate to depress
+all of you, but most of you,
+
+626
+00:27:12,160 --> 00:27:14,760
+if you put your entire
+wealth into the market,
+
+627
+00:27:14,760 --> 00:27:18,480
+you probably won't move
+the market by a whole lot.
+
+628
+00:27:18,480 --> 00:27:20,340
+That's not true of
+everybody, and it's not
+
+629
+00:27:20,340 --> 00:27:21,579
+true of all assets.
+
+630
+00:27:21,579 --> 00:27:23,620
+But it's certainly true
+of the market as a whole.
+
+631
+00:27:23,620 --> 00:27:26,340
+In other words, if we put
+all of our collective wealth
+
+632
+00:27:26,340 --> 00:27:29,370
+into the S&P 500, we're not
+going to move it by a lot.
+
+633
+00:27:31,890 --> 00:27:34,050
+But if you're a
+corporation, and you
+
+634
+00:27:34,050 --> 00:27:37,950
+put all of your corporate wealth
+in one particular division
+
+635
+00:27:37,950 --> 00:27:40,050
+of the particular
+company you're in,
+
+636
+00:27:40,050 --> 00:27:42,376
+that could have dramatic
+consequences for the rate
+
+637
+00:27:42,376 --> 00:27:43,500
+of return for that project.
+
+638
+00:27:43,500 --> 00:27:47,100
+So scale matters for
+capital budgeting.
+
+639
+00:27:47,100 --> 00:27:50,070
+It doesn't matter if you're
+thinking about each of us
+
+640
+00:27:50,070 --> 00:27:51,180
+as a small investor.
+
+641
+00:27:51,180 --> 00:27:54,660
+And so what I derived for you in
+the capital asset pricing model
+
+642
+00:27:54,660 --> 00:27:58,950
+is a derivation that
+assumes each of us is small.
+
+643
+00:27:58,950 --> 00:28:02,250
+We're not going to affect
+prices, or therefore, returns.
+
+644
+00:28:02,250 --> 00:28:05,906
+And so, we can take
+returns as given.
+
+645
+00:28:05,906 --> 00:28:07,530
+In other words,
+whether we're investing
+
+646
+00:28:07,530 --> 00:28:11,940
+$100,000, or $200,000, or
+$15,000, or even a million,
+
+647
+00:28:11,940 --> 00:28:15,300
+the analytics that derived
+are pretty reasonable
+
+648
+00:28:15,300 --> 00:28:16,950
+approximations.
+
+649
+00:28:16,950 --> 00:28:19,470
+That's very different
+from evaluating
+
+650
+00:28:19,470 --> 00:28:22,290
+a particular investment
+opportunity for a division
+
+651
+00:28:22,290 --> 00:28:23,910
+of a corporation.
+
+652
+00:28:23,910 --> 00:28:26,040
+That's not the stock market.
+
+653
+00:28:26,040 --> 00:28:28,050
+We use the stock market
+as a guide for computing
+
+654
+00:28:28,050 --> 00:28:29,380
+the discount rate.
+
+655
+00:28:29,380 --> 00:28:33,240
+But the bottom line analysis
+is how much of the investment
+
+656
+00:28:33,240 --> 00:28:36,490
+can be supported by what
+you want to put into it.
+
+657
+00:28:36,490 --> 00:28:39,720
+And as long as the
+NPV is looking good,
+
+658
+00:28:39,720 --> 00:28:41,040
+you want to keep doing it.
+
+659
+00:28:41,040 --> 00:28:46,300
+And to Remy's point, the
+more you do it, most likely,
+
+660
+00:28:46,300 --> 00:28:49,612
+the less NPV will
+come out, eventually.
+
+661
+00:28:49,612 --> 00:28:51,070
+And you're going
+to drive the thing
+
+662
+00:28:51,070 --> 00:28:52,736
+into the ground in
+the sense that you're
+
+663
+00:28:52,736 --> 00:28:55,900
+going to keep doing it until
+it stops being profitable.
+
+664
+00:28:55,900 --> 00:28:58,090
+That's only human,
+it's only natural,
+
+665
+00:28:58,090 --> 00:29:00,504
+it's only good business to
+drive it into the ground.
+
+666
+00:29:00,504 --> 00:29:02,920
+Which is, by the way, what we
+did in the subprime mortgage
+
+667
+00:29:02,920 --> 00:29:04,310
+market, right?
+
+668
+00:29:04,310 --> 00:29:06,310
+That's why we're in the
+current crisis we're in.
+
+669
+00:29:06,310 --> 00:29:10,120
+We basically drove that business
+into the ground and then some.
+
+670
+00:29:10,120 --> 00:29:13,000
+But it's a natural phenomenon
+of business practice
+
+671
+00:29:13,000 --> 00:29:15,610
+to constantly be coming
+up with new ideas.
+
+672
+00:29:15,610 --> 00:29:17,110
+The ones that work
+well, we're going
+
+673
+00:29:17,110 --> 00:29:18,318
+to keep on implementing them.
+
+674
+00:29:18,318 --> 00:29:20,350
+We give them more
+capital until they
+
+675
+00:29:20,350 --> 00:29:22,210
+start declining in
+their rates of return,
+
+676
+00:29:22,210 --> 00:29:23,680
+then we take capital away.
+
+677
+00:29:23,680 --> 00:29:26,470
+For the next year or so, we're
+going to be taking capital away
+
+678
+00:29:26,470 --> 00:29:27,678
+from the real estate markets.
+
+679
+00:29:30,420 --> 00:29:32,677
+Any questions about scale?
+
+680
+00:29:32,677 --> 00:29:35,260
+That was a bit of a digression,
+but a useful one, in the sense
+
+681
+00:29:35,260 --> 00:29:38,170
+that NPV is the right
+thing to do because it
+
+682
+00:29:38,170 --> 00:29:40,030
+doesn't ignore scale.
+
+683
+00:29:40,030 --> 00:29:44,500
+Whereas, for the small
+investor, ignoring scale
+
+684
+00:29:44,500 --> 00:29:45,850
+makes perfect sense.
+
+685
+00:29:45,850 --> 00:29:48,340
+Because then we are able
+to derive a theory that
+
+686
+00:29:48,340 --> 00:29:49,870
+applies to most everybody.
+
+687
+00:29:49,870 --> 00:29:54,160
+By the way, that theory
+doesn't apply to some
+
+688
+00:29:54,160 --> 00:29:56,470
+of the largest investors today.
+
+689
+00:29:56,470 --> 00:29:59,530
+For example, certain
+sovereign wealth funds,
+
+690
+00:29:59,530 --> 00:30:01,510
+certain public
+pension funds, they
+
+691
+00:30:01,510 --> 00:30:05,410
+can't invest according to the
+basics of portfolio theory.
+
+692
+00:30:05,410 --> 00:30:07,077
+Because when they
+put money to work,
+
+693
+00:30:07,077 --> 00:30:09,160
+they're looking to put a
+couple of billion dollars
+
+694
+00:30:09,160 --> 00:30:11,410
+to work in a single investment.
+
+695
+00:30:11,410 --> 00:30:13,810
+It's not worth their
+time to try to figure out
+
+696
+00:30:13,810 --> 00:30:16,790
+how to allocate $5 million here,
+$10 million here, $20 million
+
+697
+00:30:16,790 --> 00:30:17,290
+there.
+
+698
+00:30:17,290 --> 00:30:19,030
+There's not enough
+hours in the day
+
+699
+00:30:19,030 --> 00:30:21,400
+when they're managing
+a $250 billion
+
+700
+00:30:21,400 --> 00:30:23,870
+portfolio to be able to do that.
+
+701
+00:30:23,870 --> 00:30:27,100
+And so, when you're a
+large, large investor,
+
+702
+00:30:27,100 --> 00:30:29,930
+the theory that we developed
+here in this class,
+
+703
+00:30:29,930 --> 00:30:31,000
+it doesn't apply.
+
+704
+00:30:31,000 --> 00:30:33,790
+You need to take 15
+433 to understand
+
+705
+00:30:33,790 --> 00:30:37,390
+how to deal with the issue of
+price impact and large scale
+
+706
+00:30:37,390 --> 00:30:37,990
+investments.
+
+707
+00:30:37,990 --> 00:30:40,270
+Fortunately, or
+unfortunately, that
+
+708
+00:30:40,270 --> 00:30:42,520
+won't be a problem
+for most of us,
+
+709
+00:30:42,520 --> 00:30:44,620
+so you have to
+keep that in mind.
+
+710
+00:30:44,620 --> 00:30:47,800
+For most of us, the
+theory of investments
+
+711
+00:30:47,800 --> 00:30:52,120
+that we developed in this
+class is perfectly appropriate.
+
+712
+00:30:52,120 --> 00:30:53,830
+Except when we're
+talking about NPV.
+
+713
+00:30:53,830 --> 00:30:54,329
+Yeah?
+
+714
+00:30:56,804 --> 00:30:59,149
+AUDIENCE: Because
+of this lecture,
+
+715
+00:30:59,149 --> 00:31:02,198
+will there be any
+indices or variables
+
+716
+00:31:02,198 --> 00:31:07,470
+that we can use to determine
+the part of the initial returns
+
+717
+00:31:07,470 --> 00:31:10,010
+for those sort of cash flows?
+
+718
+00:31:10,010 --> 00:31:12,260
+ANDREW LO: In this
+particular context, no.
+
+719
+00:31:12,260 --> 00:31:16,012
+You're going to learn about
+that in 402, as well as in 434,
+
+720
+00:31:16,012 --> 00:31:18,470
+and some of the more advanced
+courses on capital budgeting.
+
+721
+00:31:18,470 --> 00:31:20,630
+On how to scale an investment.
+
+722
+00:31:20,630 --> 00:31:22,910
+But the basic
+principle, you, I think,
+
+723
+00:31:22,910 --> 00:31:25,370
+already know because you've
+taken microeconomics.
+
+724
+00:31:25,370 --> 00:31:28,160
+The basic principle
+of how much to invest
+
+725
+00:31:28,160 --> 00:31:30,560
+is not to invest until
+you start losing money.
+
+726
+00:31:30,560 --> 00:31:33,470
+That's actually typically
+how it's done in practice.
+
+727
+00:31:33,470 --> 00:31:36,800
+That's not necessarily the
+best way of approaching it.
+
+728
+00:31:36,800 --> 00:31:39,140
+According to an economist,
+the best way to invest
+
+729
+00:31:39,140 --> 00:31:43,970
+is until the point at which the
+marginal benefits is actually
+
+730
+00:31:43,970 --> 00:31:46,350
+equal to the marginal
+cost of the investment.
+
+731
+00:31:46,350 --> 00:31:48,540
+So when you're trying
+to maximize profits,
+
+732
+00:31:48,540 --> 00:31:51,470
+you're asking how much
+money should I invest
+
+733
+00:31:51,470 --> 00:31:53,330
+in a particular division.
+
+734
+00:31:53,330 --> 00:31:55,340
+You ought to keep
+investing until the point
+
+735
+00:31:55,340 --> 00:31:58,950
+where the marginal benefit is
+equated to the marginal cost.
+
+736
+00:31:58,950 --> 00:32:03,100
+In other words, where the
+profit maximizing point is,
+
+737
+00:32:03,100 --> 00:32:09,440
+is where the marginal revenue
+is equated to the marginal cost
+
+738
+00:32:09,440 --> 00:32:10,400
+of investment.
+
+739
+00:32:10,400 --> 00:32:14,260
+That's true for any
+kind of an investment.
+
+740
+00:32:14,260 --> 00:32:16,960
+The point is to be able to
+measure those things accurately
+
+741
+00:32:16,960 --> 00:32:19,150
+enough to find that point.
+
+742
+00:32:19,150 --> 00:32:21,760
+We don't do that in this
+course because, again, we're
+
+743
+00:32:21,760 --> 00:32:24,250
+assuming that you're
+relatively small relative
+
+744
+00:32:24,250 --> 00:32:27,230
+to the grand scheme of
+the investment universe.
+
+745
+00:32:27,230 --> 00:32:30,010
+But as you get bigger, you need
+to develop other techniques
+
+746
+00:32:30,010 --> 00:32:31,280
+to be able to deal with that.
+
+747
+00:32:31,280 --> 00:32:34,150
+And one is this marginal
+benefit, marginal cost
+
+748
+00:32:34,150 --> 00:32:36,480
+approximation.
+
+749
+00:32:36,480 --> 00:32:39,250
+Other questions?
+
+750
+00:32:39,250 --> 00:32:42,370
+So that's the
+profitability index.
+
+751
+00:32:42,370 --> 00:32:43,920
+I just give you a
+couple of examples,
+
+752
+00:32:43,920 --> 00:32:46,420
+so you can take a look
+at them at your leisure.
+
+753
+00:32:46,420 --> 00:32:48,260
+It's pretty straightforward.
+
+754
+00:32:48,260 --> 00:32:48,760
+All right.
+
+755
+00:32:48,760 --> 00:32:53,050
+Now, let me talk about the last,
+and probably most important,
+
+756
+00:32:53,050 --> 00:32:55,575
+alternative to NPV.
+
+757
+00:32:55,575 --> 00:32:56,950
+This is something
+that's actually
+
+758
+00:32:56,950 --> 00:32:58,876
+used in practice
+pretty commonly,
+
+759
+00:32:58,876 --> 00:33:00,250
+and there are
+certain areas where
+
+760
+00:33:00,250 --> 00:33:02,450
+it's used almost exclusively.
+
+761
+00:33:02,450 --> 00:33:04,180
+So it's a very
+important idea that I
+
+762
+00:33:04,180 --> 00:33:07,360
+want to go over in detail.
+
+763
+00:33:07,360 --> 00:33:10,660
+The idea behind the
+IRR looks simple enough
+
+764
+00:33:10,660 --> 00:33:11,710
+on the surface of it.
+
+765
+00:33:11,710 --> 00:33:14,260
+And those of you who
+remember back to the lectures
+
+766
+00:33:14,260 --> 00:33:17,590
+that we did on bond
+mathematics, you'll
+
+767
+00:33:17,590 --> 00:33:21,580
+recognize the IRR as
+nothing more than the yield
+
+768
+00:33:21,580 --> 00:33:23,840
+to maturity of a bond.
+
+769
+00:33:23,840 --> 00:33:28,480
+So if you pretend that this
+is like a bond, where i sub 0
+
+770
+00:33:28,480 --> 00:33:33,352
+is the market price of the
+bond, and the cf1 to cft
+
+771
+00:33:33,352 --> 00:33:36,760
+are the coupons and principle
+payment of the bond,
+
+772
+00:33:36,760 --> 00:33:41,620
+then the internal rate of return
+is nothing more than the yield
+
+773
+00:33:41,620 --> 00:33:44,180
+to maturity of that bond.
+
+774
+00:33:44,180 --> 00:33:46,810
+That's mathematically,
+formally what it is.
+
+775
+00:33:46,810 --> 00:33:48,940
+But it's got a different
+interpretation here.
+
+776
+00:33:48,940 --> 00:33:53,170
+The interpretation is that i
+sub 0 is the amount of money
+
+777
+00:33:53,170 --> 00:33:56,800
+you're paying for this project.
+
+778
+00:33:56,800 --> 00:34:02,050
+And cf1 through cft are
+the cash flows you're
+
+779
+00:34:02,050 --> 00:34:05,520
+getting from the project.
+
+780
+00:34:05,520 --> 00:34:13,380
+And the IRR is that yield,
+or that rate of return,
+
+781
+00:34:13,380 --> 00:34:17,810
+such that it makes the
+project break-even.
+
+782
+00:34:17,810 --> 00:34:21,980
+In other words, the present
+value of the future cash flows
+
+783
+00:34:21,980 --> 00:34:24,409
+is actually equal to
+the amount of investment
+
+784
+00:34:24,409 --> 00:34:27,860
+that you put into it at
+that IRR rate of return.
+
+785
+00:34:30,730 --> 00:34:33,489
+Any questions about
+that definition?
+
+786
+00:34:33,489 --> 00:34:35,440
+Now implicit in
+that definition are
+
+787
+00:34:35,440 --> 00:34:39,790
+a couple of hidden assumptions
+that makes this work.
+
+788
+00:34:39,790 --> 00:34:42,820
+One assumption is that
+the only investment
+
+789
+00:34:42,820 --> 00:34:45,340
+that you're going to make
+in the project is upfront.
+
+790
+00:34:45,340 --> 00:34:47,817
+You're going to pay i
+sub 0, and you're not
+
+791
+00:34:47,817 --> 00:34:49,650
+going to pay anything
+more for that project.
+
+792
+00:34:49,650 --> 00:34:55,940
+It requires no more cash
+inflows from you, the investor.
+
+793
+00:34:55,940 --> 00:34:57,710
+The second assumption,
+which I guess
+
+794
+00:34:57,710 --> 00:34:59,480
+is sort of the
+same as the first,
+
+795
+00:34:59,480 --> 00:35:03,660
+is that all the cash
+flows are non-negative.
+
+796
+00:35:03,660 --> 00:35:05,520
+They're either 0 or positive.
+
+797
+00:35:05,520 --> 00:35:08,650
+You don't have any future
+negative cash flows.
+
+798
+00:35:08,650 --> 00:35:10,800
+So once you invest in
+your certain amount
+
+799
+00:35:10,800 --> 00:35:14,040
+today, then
+thereafter, you simply
+
+800
+00:35:14,040 --> 00:35:17,855
+collect money from the project
+that comes in over t periods.
+
+801
+00:35:20,690 --> 00:35:23,570
+If those two assumptions
+are satisfied,
+
+802
+00:35:23,570 --> 00:35:28,150
+then this may be a
+reasonable approach.
+
+803
+00:35:28,150 --> 00:35:31,570
+So just to be explicit,
+the way that IRR is used
+
+804
+00:35:31,570 --> 00:35:34,510
+is for independent projects.
+
+805
+00:35:34,510 --> 00:35:39,510
+Accept a project if the IRR's
+greater than some hurdle rate,
+
+806
+00:35:39,510 --> 00:35:41,010
+some IRR star.
+
+807
+00:35:41,010 --> 00:35:44,100
+You can think of that
+as your internal,
+
+808
+00:35:44,100 --> 00:35:46,900
+or your required rate of return.
+
+809
+00:35:46,900 --> 00:35:53,730
+So as long as the break-even
+IRR is equal to, or greater
+
+810
+00:35:53,730 --> 00:35:57,860
+than that threshold,
+then you're OK.
+
+811
+00:35:57,860 --> 00:36:02,760
+Second, if you've got
+mutually exclusive projects,
+
+812
+00:36:02,760 --> 00:36:06,495
+then you pick the one
+that has the highest IRR.
+
+813
+00:36:10,268 --> 00:36:11,750
+Yeah, [INAUDIBLE]?
+
+814
+00:36:11,750 --> 00:36:19,407
+AUDIENCE: [INAUDIBLE]
+You could have
+
+815
+00:36:19,407 --> 00:36:22,651
+an outflow in the first
+year, and you could
+
+816
+00:36:22,651 --> 00:36:26,050
+have an increase [INAUDIBLE]
+
+817
+00:36:26,050 --> 00:36:27,550
+ANDREW LO: I'll
+show you in a minute
+
+818
+00:36:27,550 --> 00:36:29,980
+why you need that assumption,
+those two assumptions.
+
+819
+00:36:29,980 --> 00:36:31,504
+In fact, when
+people use IRR, they
+
+820
+00:36:31,504 --> 00:36:32,920
+don't bother with
+any assumptions.
+
+821
+00:36:32,920 --> 00:36:35,230
+They just compute it.
+
+822
+00:36:35,230 --> 00:36:39,110
+So the assumption is to give
+them the benefit of the doubt.
+
+823
+00:36:39,110 --> 00:36:41,590
+I want to come up with
+conditions under which it might
+
+824
+00:36:41,590 --> 00:36:44,660
+actually make sense to use this,
+and those are the conditions.
+
+825
+00:36:44,660 --> 00:36:48,460
+But for now, let's forget
+about all conditions.
+
+826
+00:36:48,460 --> 00:36:53,040
+And let me tell you what
+the problems are with IRR.
+
+827
+00:36:53,040 --> 00:36:58,180
+There are certain
+situations where using IRR
+
+828
+00:36:58,180 --> 00:37:04,970
+will lead to the same decisions
+as NPV, and there they are.
+
+829
+00:37:04,970 --> 00:37:08,480
+There's only one cash outflow,
+which occurs at time 0.
+
+830
+00:37:08,480 --> 00:37:10,500
+There's only one project
+under consideration,
+
+831
+00:37:10,500 --> 00:37:13,630
+so you have multiple projects
+that you're comparing.
+
+832
+00:37:13,630 --> 00:37:15,450
+Third, the opportunity
+cost of capital
+
+833
+00:37:15,450 --> 00:37:18,720
+is the same for all periods.
+
+834
+00:37:18,720 --> 00:37:21,300
+And the threshold
+rate that you use
+
+835
+00:37:21,300 --> 00:37:27,570
+is set equal to the
+opportunity cost of capital.
+
+836
+00:37:27,570 --> 00:37:31,560
+Now, the reason that
+you need all of these.
+
+837
+00:37:31,560 --> 00:37:34,130
+I'm going to show you by
+way of counterexamples.
+
+838
+00:37:34,130 --> 00:37:36,230
+But let me just tell
+you right now, up front,
+
+839
+00:37:36,230 --> 00:37:38,150
+what the shortcomings
+are of IRR.
+
+840
+00:37:38,150 --> 00:37:41,930
+Why you might want to think
+twice before using it.
+
+841
+00:37:41,930 --> 00:37:49,280
+One is that in certain
+cases, the IRR may not exist.
+
+842
+00:37:49,280 --> 00:37:53,390
+And in other cases, you
+may have multiple IRRs.
+
+843
+00:37:53,390 --> 00:37:55,820
+I'm going to show
+you in a minute.
+
+844
+00:37:55,820 --> 00:38:01,550
+Second, you're going to get
+incorrect rankings for IRRs
+
+845
+00:38:01,550 --> 00:38:05,540
+where you're looking at
+loans, loans meaning you've
+
+846
+00:38:05,540 --> 00:38:08,330
+got a negative cash
+flow starting today,
+
+847
+00:38:08,330 --> 00:38:11,240
+and then positive
+cash flows tomorrow--
+
+848
+00:38:11,240 --> 00:38:11,900
+Excuse me.
+
+849
+00:38:11,900 --> 00:38:14,160
+You have a positive
+cash inflow today,
+
+850
+00:38:14,160 --> 00:38:18,060
+and negative cash going out
+tomorrow and the day after.
+
+851
+00:38:18,060 --> 00:38:18,890
+Like a mortgage.
+
+852
+00:38:18,890 --> 00:38:20,750
+A mortgage, you
+get money up front,
+
+853
+00:38:20,750 --> 00:38:22,880
+and you're paying
+money out later on.
+
+854
+00:38:22,880 --> 00:38:24,530
+If you do that,
+then you've actually
+
+855
+00:38:24,530 --> 00:38:28,190
+got to flip around the ranking
+and take projects or loans
+
+856
+00:38:28,190 --> 00:38:31,760
+with smaller IRRs,
+not higher IRRs.
+
+857
+00:38:31,760 --> 00:38:34,080
+And finally, it
+also ignores scale
+
+858
+00:38:34,080 --> 00:38:35,330
+because it's a rate of return.
+
+859
+00:38:35,330 --> 00:38:39,130
+It doesn't look at
+dollars and cents.
+
+860
+00:38:39,130 --> 00:38:40,940
+Zeke?
+
+861
+00:38:40,940 --> 00:38:43,370
+AUDIENCE: I have no
+professional experience
+
+862
+00:38:43,370 --> 00:38:47,355
+but there's something
+that simply bothers me.
+
+863
+00:38:47,355 --> 00:38:49,480
+You told that for, example,
+that this model doesn't
+
+864
+00:38:49,480 --> 00:38:50,980
+work if you have
+negative cash flows
+
+865
+00:38:50,980 --> 00:38:54,415
+and that people can make
+mistakes and use negative cash
+
+866
+00:38:54,415 --> 00:38:55,876
+flows in real life.
+
+867
+00:38:55,876 --> 00:38:57,824
+How does this happen?
+
+868
+00:38:57,824 --> 00:38:59,772
+Don't people have--
+in this Excel sheet,
+
+869
+00:38:59,772 --> 00:39:01,233
+it's a simple calculation.
+
+870
+00:39:01,233 --> 00:39:03,356
+How is this allowed
+in professional--
+
+871
+00:39:03,356 --> 00:39:05,480
+ANDREW LO: Hold on for one
+second, let me show you.
+
+872
+00:39:05,480 --> 00:39:07,400
+I'm going to show
+you by example.
+
+873
+00:39:07,400 --> 00:39:11,540
+It's not as easy as you think.
+
+874
+00:39:11,540 --> 00:39:13,940
+Let me give you some examples
+for incorrect rankings.
+
+875
+00:39:13,940 --> 00:39:16,820
+This is one example where,
+as I said, with a loan
+
+876
+00:39:16,820 --> 00:39:19,520
+you want to pick the project
+that's got a lower IRR, not
+
+877
+00:39:19,520 --> 00:39:20,960
+a higher IRR.
+
+878
+00:39:20,960 --> 00:39:22,580
+So that's one issue.
+
+879
+00:39:22,580 --> 00:39:26,950
+But let me give you an idea
+of the nonexistence of an IRR.
+
+880
+00:39:26,950 --> 00:39:31,260
+Project one has two
+negative cash flows.
+
+881
+00:39:31,260 --> 00:39:34,633
+One in the first period, and
+another one in period two.
+
+882
+00:39:37,190 --> 00:39:39,800
+Project two has only
+one negative cash flow,
+
+883
+00:39:39,800 --> 00:39:43,370
+but it happens in period
+one, not in period zero
+
+884
+00:39:43,370 --> 00:39:45,530
+or in period two.
+
+885
+00:39:45,530 --> 00:39:49,280
+Both of these projects are
+not particularly weird.
+
+886
+00:39:49,280 --> 00:39:52,100
+I know it's true that they don't
+have negative cash flows on day
+
+887
+00:39:52,100 --> 00:39:54,260
+one and positive thereafter.
+
+888
+00:39:54,260 --> 00:39:56,540
+But I don't think you
+would look at these
+
+889
+00:39:56,540 --> 00:39:59,390
+and say that, gee this
+is really pathological,
+
+890
+00:39:59,390 --> 00:40:01,500
+or perverse, in any way.
+
+891
+00:40:01,500 --> 00:40:03,320
+It's just a different
+way of structuring
+
+892
+00:40:03,320 --> 00:40:07,160
+your particular financing,
+or your cash flows.
+
+893
+00:40:07,160 --> 00:40:09,020
+It turns out that in
+both of these cases,
+
+894
+00:40:09,020 --> 00:40:13,270
+the IRR doesn't actually exist.
+
+895
+00:40:13,270 --> 00:40:15,640
+Now by exist, what do I mean?
+
+896
+00:40:15,640 --> 00:40:19,480
+Let's go back and look at
+exactly how to compute IRR.
+
+897
+00:40:19,480 --> 00:40:22,480
+To compute an IRR, you
+have to find a number that
+
+898
+00:40:22,480 --> 00:40:23,840
+satisfies this equation.
+
+899
+00:40:26,540 --> 00:40:32,250
+And so with k period
+IRR calculation,
+
+900
+00:40:32,250 --> 00:40:37,330
+we've got k cash
+flows over k years.
+
+901
+00:40:37,330 --> 00:40:39,140
+What, in the end, are
+you trying to solve?
+
+902
+00:40:39,140 --> 00:40:40,181
+What kind of an equation?
+
+903
+00:40:44,000 --> 00:40:45,441
+Nobody on high
+school math teams?
+
+904
+00:40:45,441 --> 00:40:45,940
+Andy?
+
+905
+00:40:45,940 --> 00:40:47,480
+AUDIENCE: kth order polynomial.
+
+906
+00:40:47,480 --> 00:40:51,214
+ANDREW LO: Yeah, a
+kth order polynomial.
+
+907
+00:40:51,214 --> 00:40:52,630
+You all know what
+that is, I hope.
+
+908
+00:40:52,630 --> 00:40:54,260
+Right?
+
+909
+00:40:54,260 --> 00:40:56,870
+Second order
+polynomial's a quadratic.
+
+910
+00:40:56,870 --> 00:40:59,930
+ax squared plus bx
+plus c equals 0.
+
+911
+00:40:59,930 --> 00:41:02,690
+A third order polynomial
+has a cubed term, and so on.
+
+912
+00:41:02,690 --> 00:41:07,460
+A kth order polynomial
+has powers of IRR
+
+913
+00:41:07,460 --> 00:41:08,870
+that are up to order k.
+
+914
+00:41:12,390 --> 00:41:15,060
+Anybody tell me how
+many solutions there
+
+915
+00:41:15,060 --> 00:41:18,040
+are of a kth order polynomial?
+
+916
+00:41:18,040 --> 00:41:19,680
+AUDIENCE: k [INAUDIBLE]
+
+917
+00:41:19,680 --> 00:41:23,340
+ANDREW LO: Up to k solutions.
+
+918
+00:41:23,340 --> 00:41:25,110
+Do you always have solutions?
+
+919
+00:41:25,110 --> 00:41:26,962
+AUDIENCE: No.
+
+920
+00:41:26,962 --> 00:41:30,612
+k is obvious.
+
+921
+00:41:30,612 --> 00:41:32,820
+ANDREW LO: We're getting
+some different theories now.
+
+922
+00:41:32,820 --> 00:41:36,352
+So some says yes, some says
+no, some says where k is odd.
+
+923
+00:41:36,352 --> 00:41:38,070
+By odd I presume
+you mean not even,
+
+924
+00:41:38,070 --> 00:41:41,370
+as opposed to weird, right?
+
+925
+00:41:41,370 --> 00:41:43,320
+it actually turns
+out that you can
+
+926
+00:41:43,320 --> 00:41:47,126
+construct a solution for every
+single kth order polynomial.
+
+927
+00:41:47,126 --> 00:41:48,750
+But that's if you
+change the definition
+
+928
+00:41:48,750 --> 00:41:51,120
+of what you mean by a solution.
+
+929
+00:41:51,120 --> 00:41:52,680
+Right, exactly.
+
+930
+00:41:52,680 --> 00:41:54,840
+If you introduce a
+new set of numbers
+
+931
+00:41:54,840 --> 00:41:58,470
+called complex number,
+by that I mean numbers
+
+932
+00:41:58,470 --> 00:42:01,470
+where the square root of
+negative 1 makes sense.
+
+933
+00:42:01,470 --> 00:42:03,390
+If you will extend
+the number system
+
+934
+00:42:03,390 --> 00:42:06,790
+to include these weird things
+called complex numbers,
+
+935
+00:42:06,790 --> 00:42:09,960
+then it turns out
+that all polynomials,
+
+936
+00:42:09,960 --> 00:42:13,350
+all kth order polynomials
+have exactly k solutions.
+
+937
+00:42:13,350 --> 00:42:15,010
+How nice.
+
+938
+00:42:15,010 --> 00:42:16,740
+The problem is that
+these solutions
+
+939
+00:42:16,740 --> 00:42:19,380
+can involve complex numbers.
+
+940
+00:42:19,380 --> 00:42:21,192
+And as far as we
+know, complex numbers
+
+941
+00:42:21,192 --> 00:42:22,650
+don't have any
+ready interpretation
+
+942
+00:42:22,650 --> 00:42:24,610
+in terms of interest and money.
+
+943
+00:42:24,610 --> 00:42:27,000
+So in other words, the only
+solutions that matter for you
+
+944
+00:42:27,000 --> 00:42:29,130
+and me, for practical
+purposes, is
+
+945
+00:42:29,130 --> 00:42:31,740
+what are called real solutions.
+
+946
+00:42:31,740 --> 00:42:34,570
+And in particular, not only
+do they have to be real,
+
+947
+00:42:34,570 --> 00:42:37,380
+but it would sort of be nice
+if they were positive numbers.
+
+948
+00:42:37,380 --> 00:42:40,380
+Because interest rates, again,
+although they can be negative,
+
+949
+00:42:40,380 --> 00:42:42,480
+it's kind of hard to
+imagine what that implies
+
+950
+00:42:42,480 --> 00:42:45,280
+over long periods of time.
+
+951
+00:42:45,280 --> 00:42:48,990
+So when I say that
+a solution doesn't
+
+952
+00:42:48,990 --> 00:42:50,700
+exist for these two
+cases, I don't mean
+
+953
+00:42:50,700 --> 00:42:52,770
+that they don't exist, exist.
+
+954
+00:42:52,770 --> 00:42:55,050
+Of course they exist,
+they have to exist.
+
+955
+00:42:55,050 --> 00:42:56,820
+The problem is that
+the solutions-- these
+
+956
+00:42:56,820 --> 00:42:59,510
+are two period cash flows.
+
+957
+00:42:59,510 --> 00:43:01,650
+So we're talking
+about quadratics.
+
+958
+00:43:01,650 --> 00:43:05,760
+We all know the solution to
+the quadratic equation of ax
+
+959
+00:43:05,760 --> 00:43:07,110
+squared plus bx plus c equals 0.
+
+960
+00:43:07,110 --> 00:43:07,830
+What's the solution?
+
+961
+00:43:07,830 --> 00:43:08,788
+Anyway tell me quickly?
+
+962
+00:43:11,740 --> 00:43:13,770
+Negative b plus or minus
+the square root of b
+
+963
+00:43:13,770 --> 00:43:15,120
+squared minus 4ac over 2a.
+
+964
+00:43:15,120 --> 00:43:17,070
+Remember that?
+
+965
+00:43:17,070 --> 00:43:22,020
+It turns out that you don't get
+real solutions all the time.
+
+966
+00:43:22,020 --> 00:43:24,990
+Meaning that, in certain
+cases, that formula
+
+967
+00:43:24,990 --> 00:43:27,825
+will produce solutions that have
+the square root of negative 1
+
+968
+00:43:27,825 --> 00:43:29,250
+in there.
+
+969
+00:43:29,250 --> 00:43:32,820
+And that makes no sense from
+an economic perspective.
+
+970
+00:43:32,820 --> 00:43:34,840
+It just so happens that
+in these two cases,
+
+971
+00:43:34,840 --> 00:43:38,610
+you should go home and try it,
+and you'll see for yourself.
+
+972
+00:43:38,610 --> 00:43:41,460
+When you come up with
+the two solutions that
+
+973
+00:43:41,460 --> 00:43:47,299
+exist for both of these cases,
+they're complex numbers.
+
+974
+00:43:47,299 --> 00:43:49,590
+So I challenge you to tell
+me what the right investment
+
+975
+00:43:49,590 --> 00:43:53,400
+decision is by looking
+at those complex numbers.
+
+976
+00:43:53,400 --> 00:43:55,440
+It can't be done.
+
+977
+00:43:55,440 --> 00:43:59,250
+Which means that IRR
+doesn't always work.
+
+978
+00:43:59,250 --> 00:44:02,730
+And here are two relatively
+reasonable examples
+
+979
+00:44:02,730 --> 00:44:06,020
+that nobody should be
+expected to look at and say,
+
+980
+00:44:06,020 --> 00:44:06,930
+ha, of course.
+
+981
+00:44:06,930 --> 00:44:08,820
+You can't use IRR here.
+
+982
+00:44:08,820 --> 00:44:10,890
+These are real life examples.
+
+983
+00:44:10,890 --> 00:44:12,600
+And by the way, this
+is just two periods.
+
+984
+00:44:12,600 --> 00:44:16,770
+If I had five periods, and I had
+some positives, some negatives,
+
+985
+00:44:16,770 --> 00:44:19,440
+it gets even more complicated.
+
+986
+00:44:19,440 --> 00:44:21,630
+So even within a
+spreadsheet, where
+
+987
+00:44:21,630 --> 00:44:23,880
+you can see the positives
+and the negatives,
+
+988
+00:44:23,880 --> 00:44:25,020
+and you can compute IRR--
+
+989
+00:44:25,020 --> 00:44:26,850
+you can do this in Excel.
+
+990
+00:44:26,850 --> 00:44:27,850
+And you should do that.
+
+991
+00:44:27,850 --> 00:44:30,400
+You'll get these weird
+symbols that come up,
+
+992
+00:44:30,400 --> 00:44:32,010
+that will start
+spitting up blood
+
+993
+00:44:32,010 --> 00:44:35,530
+and say that it
+can't handle this.
+
+994
+00:44:35,530 --> 00:44:37,150
+Unfortunately, if
+you did it MATLAB,
+
+995
+00:44:37,150 --> 00:44:39,100
+which I know a number
+of you are likely to do,
+
+996
+00:44:39,100 --> 00:44:40,330
+you will get an answer.
+
+997
+00:44:40,330 --> 00:44:43,910
+MATLAB has no problem
+with complex numbers.
+
+998
+00:44:43,910 --> 00:44:45,490
+So that's one problem.
+
+999
+00:44:45,490 --> 00:44:48,820
+Let me illustrate to you
+though, where the problem comes
+
+1000
+00:44:48,820 --> 00:44:51,080
+with multiplicity of solutions.
+
+1001
+00:44:51,080 --> 00:44:54,580
+So this is a graph
+of the polynomial.
+
+1002
+00:44:54,580 --> 00:44:57,850
+In this case, the
+third order polynomial.
+
+1003
+00:44:57,850 --> 00:45:00,910
+And so what I'm doing
+is I'm calculating
+
+1004
+00:45:00,910 --> 00:45:06,280
+the NPV of project
+1 and of project 2
+
+1005
+00:45:06,280 --> 00:45:10,300
+as a function of the
+underlying interest rate.
+
+1006
+00:45:10,300 --> 00:45:12,820
+And an IRR corresponds
+to a situation
+
+1007
+00:45:12,820 --> 00:45:16,390
+where the NPV is equal to
+0, the break-even point.
+
+1008
+00:45:16,390 --> 00:45:19,210
+What you'll notice
+is that the 0's
+
+1009
+00:45:19,210 --> 00:45:23,547
+are where this curve intersects
+the y-axis, or the x-axis,
+
+1010
+00:45:23,547 --> 00:45:24,680
+sorry.
+
+1011
+00:45:24,680 --> 00:45:27,910
+And so with the first
+project, you actually
+
+1012
+00:45:27,910 --> 00:45:29,320
+get a unique solution.
+
+1013
+00:45:29,320 --> 00:45:32,680
+It only crosses the x-axis once.
+
+1014
+00:45:32,680 --> 00:45:35,630
+So you get a unique,
+real solution.
+
+1015
+00:45:35,630 --> 00:45:38,230
+But if you take a
+look at project 2,
+
+1016
+00:45:38,230 --> 00:45:44,410
+project 2 crosses the x-axis
+once, twice, three times.
+
+1017
+00:45:44,410 --> 00:45:45,880
+You get three solutions.
+
+1018
+00:45:45,880 --> 00:45:47,830
+They're all real, by the way.
+
+1019
+00:45:47,830 --> 00:45:50,500
+You get three, real solutions.
+
+1020
+00:45:50,500 --> 00:45:52,350
+Which one would you like?
+
+1021
+00:45:52,350 --> 00:45:53,990
+Take your pick.
+
+1022
+00:45:53,990 --> 00:45:55,610
+You pick the biggest one?
+
+1023
+00:45:55,610 --> 00:45:56,480
+Or the smallest one?
+
+1024
+00:45:56,480 --> 00:45:58,280
+Or maybe average
+them, or do something?
+
+1025
+00:45:58,280 --> 00:45:59,870
+I don't know.
+
+1026
+00:45:59,870 --> 00:46:05,570
+The problem is that with IRR,
+If the pattern of cash flows
+
+1027
+00:46:05,570 --> 00:46:08,630
+is anything but
+strictly positive,
+
+1028
+00:46:08,630 --> 00:46:11,250
+you get weird results.
+
+1029
+00:46:11,250 --> 00:46:16,320
+Now, I told you before that
+IRR is used almost exclusively
+
+1030
+00:46:16,320 --> 00:46:19,167
+in one particular sector,
+one particular segment,
+
+1031
+00:46:19,167 --> 00:46:20,250
+of the financial industry.
+
+1032
+00:46:20,250 --> 00:46:22,614
+Anybody know what that is?
+
+1033
+00:46:22,614 --> 00:46:23,674
+AUDIENCE: Bonds?
+
+1034
+00:46:23,674 --> 00:46:24,340
+ANDREW LO: Bond?
+
+1035
+00:46:24,340 --> 00:46:27,580
+Well, that would be a
+good answer, you're right.
+
+1036
+00:46:27,580 --> 00:46:31,547
+Yield to maturity is
+what IRR is in bonds.
+
+1037
+00:46:31,547 --> 00:46:33,130
+That wasn't what I
+was thinking about,
+
+1038
+00:46:33,130 --> 00:46:34,450
+but you're absolutely right.
+
+1039
+00:46:34,450 --> 00:46:38,200
+IRR, in fact, is used
+all the time in bonds
+
+1040
+00:46:38,200 --> 00:46:39,700
+because you quote
+yield to maturity.
+
+1041
+00:46:39,700 --> 00:46:42,700
+And it's not surprising
+because with bonds, you only
+
+1042
+00:46:42,700 --> 00:46:45,700
+have positive cash
+flows, and you only
+
+1043
+00:46:45,700 --> 00:46:48,620
+have an initial payment upfront,
+which is the price of the bond.
+
+1044
+00:46:48,620 --> 00:46:52,300
+So all of the criteria
+that I required in order
+
+1045
+00:46:52,300 --> 00:46:58,390
+to make IRR equivalent
+to NPV holds for bonds.
+
+1046
+00:46:58,390 --> 00:47:01,000
+But I'm thinking
+about something else.
+
+1047
+00:47:01,000 --> 00:47:04,150
+What other part of
+the financial industry
+
+1048
+00:47:04,150 --> 00:47:06,790
+uses IRR as a way of
+making investments?
+
+1049
+00:47:06,790 --> 00:47:11,080
+And not only that, but
+of quoting performance.
+
+1050
+00:47:11,080 --> 00:47:11,650
+What's that?
+
+1051
+00:47:11,650 --> 00:47:12,340
+AUDIENCE: Private equity?
+
+1052
+00:47:12,340 --> 00:47:13,630
+ANDREW LO: Private
+equity, exactly.
+
+1053
+00:47:13,630 --> 00:47:14,260
+Private equity.
+
+1054
+00:47:14,260 --> 00:47:18,550
+In private equity, almost
+every venture capitalist
+
+1055
+00:47:18,550 --> 00:47:23,470
+will tell you what their
+IRR is of their portfolio.
+
+1056
+00:47:23,470 --> 00:47:26,470
+And there are a couple of
+reasons for this practice.
+
+1057
+00:47:26,470 --> 00:47:31,060
+One of course, is that for
+most private equity ventures,
+
+1058
+00:47:31,060 --> 00:47:34,690
+it is all about cash up
+front, and then positive cash
+
+1059
+00:47:34,690 --> 00:47:37,590
+flows thereafter.
+
+1060
+00:47:37,590 --> 00:47:42,910
+Unless of course, you
+require additional financing
+
+1061
+00:47:42,910 --> 00:47:44,440
+like mezzanine financing.
+
+1062
+00:47:44,440 --> 00:47:47,110
+In which case, now
+you have a hard time
+
+1063
+00:47:47,110 --> 00:47:49,030
+using IRR for the whole thing.
+
+1064
+00:47:49,030 --> 00:47:52,510
+You could use IRR for
+the separate tranches
+
+1065
+00:47:52,510 --> 00:47:55,480
+of investments,
+and again, that's
+
+1066
+00:47:55,480 --> 00:47:57,370
+kind of an accommodation.
+
+1067
+00:47:57,370 --> 00:48:02,050
+It's a fix for trying to deal
+with the weaknesses of IRR.
+
+1068
+00:48:02,050 --> 00:48:04,120
+If you focus just on
+the particular tranche
+
+1069
+00:48:04,120 --> 00:48:08,200
+of an investment, you've got a
+tranche of investment going in,
+
+1070
+00:48:08,200 --> 00:48:14,920
+cash flows going out, and it
+all satisfies the NPV criterion.
+
+1071
+00:48:14,920 --> 00:48:17,170
+But the other reason
+for focusing on IRR
+
+1072
+00:48:17,170 --> 00:48:20,560
+is because, again, this
+is an issue of scale.
+
+1073
+00:48:20,560 --> 00:48:22,510
+You want to compare
+two investments,
+
+1074
+00:48:22,510 --> 00:48:25,612
+and they may require
+different dollar amounts,
+
+1075
+00:48:25,612 --> 00:48:27,070
+so you'd like to
+be able to compare
+
+1076
+00:48:27,070 --> 00:48:32,867
+their performance in some way
+that doesn't include the scale.
+
+1077
+00:48:32,867 --> 00:48:34,450
+Because you want to
+be able to compare
+
+1078
+00:48:34,450 --> 00:48:36,250
+across a bunch of
+different investments
+
+1079
+00:48:36,250 --> 00:48:42,680
+and see how each manager is
+doing per unit dollar invested.
+
+1080
+00:48:42,680 --> 00:48:45,560
+However, the bottom line
+of a venture capitalist
+
+1081
+00:48:45,560 --> 00:48:47,579
+is, I've got a billion
+dollars to invest.
+
+1082
+00:48:47,579 --> 00:48:49,370
+I have to figure out
+where to put my money.
+
+1083
+00:48:49,370 --> 00:48:52,349
+I can't afford to put my money
+in smaller investments that
+
+1084
+00:48:52,349 --> 00:48:54,140
+are not going to give
+me the kind of return
+
+1085
+00:48:54,140 --> 00:48:55,460
+that I need to have.
+
+1086
+00:48:55,460 --> 00:48:57,260
+So in the end, a
+venture capitalist
+
+1087
+00:48:57,260 --> 00:48:59,960
+is going to have to
+look at scale anyway.
+
+1088
+00:48:59,960 --> 00:49:03,080
+But for historical
+and cultural reasons,
+
+1089
+00:49:03,080 --> 00:49:07,340
+you actually have the venture
+capital community the only one
+
+1090
+00:49:07,340 --> 00:49:11,030
+that really focuses almost
+exclusively on using IRR.
+
+1091
+00:49:11,030 --> 00:49:14,750
+And for their applications,
+like the bond pricing example,
+
+1092
+00:49:14,750 --> 00:49:18,980
+it's generally OK,
+but it may not be.
+
+1093
+00:49:18,980 --> 00:49:21,110
+And so you should
+understand those conditions
+
+1094
+00:49:21,110 --> 00:49:22,910
+under which it may not be.
+
+1095
+00:49:22,910 --> 00:49:26,630
+So I want you to refer to
+these, and if you have a moment
+
+1096
+00:49:26,630 --> 00:49:28,730
+during your holiday
+break and you're bored,
+
+1097
+00:49:28,730 --> 00:49:30,680
+you might want to run a
+few of these in Excel.
+
+1098
+00:49:30,680 --> 00:49:34,910
+Just literally try to compute
+the appropriate IRR in Excel.
+
+1099
+00:49:34,910 --> 00:49:37,010
+And just prove to
+yourself that you
+
+1100
+00:49:37,010 --> 00:49:39,680
+can't, that you get some
+weird results out of that.
+
+1101
+00:49:43,630 --> 00:49:48,130
+Any questions about IRR?
+
+1102
+00:49:48,130 --> 00:49:50,350
+By the way, again,
+there are no formulas
+
+1103
+00:49:50,350 --> 00:49:52,690
+other than the quadratic
+for how to compute it.
+
+1104
+00:49:52,690 --> 00:49:55,030
+So in most cases when
+you want to compute IRR,
+
+1105
+00:49:55,030 --> 00:49:56,530
+you have to use
+numerical methods.
+
+1106
+00:49:56,530 --> 00:50:00,280
+You have to basically solve a
+non-linear equation for a 0.
+
+1107
+00:50:00,280 --> 00:50:02,710
+So effectively, you
+have to do this.
+
+1108
+00:50:02,710 --> 00:50:06,840
+You have to find the
+0's of these equations.
+
+1109
+00:50:06,840 --> 00:50:09,610
+That could be a little bit
+of an exercise to do that.
+
+1110
+00:50:12,620 --> 00:50:15,200
+There are other
+examples here where
+
+1111
+00:50:15,200 --> 00:50:17,090
+I try to come up
+with ways to fix IRR,
+
+1112
+00:50:17,090 --> 00:50:19,730
+maybe by looking at
+incremental cash flows,
+
+1113
+00:50:19,730 --> 00:50:22,880
+or looking at different
+ranking methods.
+
+1114
+00:50:22,880 --> 00:50:26,420
+But the bottom line is use NPV.
+
+1115
+00:50:26,420 --> 00:50:29,150
+Be aware of how
+to compute an IRR,
+
+1116
+00:50:29,150 --> 00:50:31,670
+but you should
+understand that IRR,
+
+1117
+00:50:31,670 --> 00:50:36,740
+in the cases where it matters,
+either it agrees with NPV or it
+
+1118
+00:50:36,740 --> 00:50:37,262
+doesn't.
+
+1119
+00:50:37,262 --> 00:50:38,720
+And if it doesn't,
+you can't use it
+
+1120
+00:50:38,720 --> 00:50:41,690
+because it's going to create
+all sorts of contradictions
+
+1121
+00:50:41,690 --> 00:50:42,515
+and weird results.
+
+1122
+00:50:46,690 --> 00:50:49,810
+I want to conclude this
+lecture on capital budgeting
+
+1123
+00:50:49,810 --> 00:50:53,860
+by talking about what people
+actually do in practice,
+
+1124
+00:50:53,860 --> 00:50:56,410
+and give you a little bit of
+a preview about what you're
+
+1125
+00:50:56,410 --> 00:51:01,060
+going to learn in 402 as well
+as in 434 and other courses
+
+1126
+00:51:01,060 --> 00:51:04,300
+on corporate financing
+and capital budgeting.
+
+1127
+00:51:04,300 --> 00:51:07,840
+Right now, as of
+maybe five years ago
+
+1128
+00:51:07,840 --> 00:51:11,080
+when this survey was
+done, for large US firms,
+
+1129
+00:51:11,080 --> 00:51:13,870
+believe it or not,
+payback period
+
+1130
+00:51:13,870 --> 00:51:17,030
+was probably the most popular.
+
+1131
+00:51:17,030 --> 00:51:19,010
+It's the one that people
+focused on the most.
+
+1132
+00:51:19,010 --> 00:51:21,177
+Again, not necessarily
+exclusively.
+
+1133
+00:51:21,177 --> 00:51:23,260
+So it could well be that
+people use payback period
+
+1134
+00:51:23,260 --> 00:51:26,720
+as one criterion, but they
+use many others as well.
+
+1135
+00:51:26,720 --> 00:51:31,530
+But over 80% of the companies
+surveyed use payback period.
+
+1136
+00:51:31,530 --> 00:51:34,900
+65% use IRR, which
+is quite a lot.
+
+1137
+00:51:34,900 --> 00:51:37,600
+But again, a significant
+fraction of that
+
+1138
+00:51:37,600 --> 00:51:40,730
+is private equity.
+
+1139
+00:51:40,730 --> 00:51:43,100
+And by the way, for
+non-financial corporations that
+
+1140
+00:51:43,100 --> 00:51:46,910
+have private equity operations
+within it, for example,
+
+1141
+00:51:46,910 --> 00:51:50,420
+General Motors has a part of
+their pension fund devoted
+
+1142
+00:51:50,420 --> 00:51:51,950
+to private equity investments.
+
+1143
+00:51:51,950 --> 00:51:54,560
+They will use IRR as well,
+because other venture
+
+1144
+00:51:54,560 --> 00:51:56,960
+capitalists use that.
+
+1145
+00:51:56,960 --> 00:52:00,410
+NPV is actually gaining ground.
+
+1146
+00:52:00,410 --> 00:52:02,720
+So it's now more
+popular than IRR.
+
+1147
+00:52:02,720 --> 00:52:06,380
+If you surveyed multinationals
+and US corporations
+
+1148
+00:52:06,380 --> 00:52:09,110
+20 years ago, it would
+have been flipped around.
+
+1149
+00:52:09,110 --> 00:52:12,500
+IRR would have been way
+more popular than NPV,
+
+1150
+00:52:12,500 --> 00:52:16,200
+but that's changed a lot
+just in the last 20 years.
+
+1151
+00:52:16,200 --> 00:52:18,500
+However, when you look
+at multinationals,
+
+1152
+00:52:18,500 --> 00:52:22,460
+you see that actually,
+IRR is still more popular.
+
+1153
+00:52:22,460 --> 00:52:25,250
+So that's something
+to keep in mind.
+
+1154
+00:52:25,250 --> 00:52:27,140
+When you're dealing
+with foreign companies,
+
+1155
+00:52:27,140 --> 00:52:30,170
+they may be looking
+at investments
+
+1156
+00:52:30,170 --> 00:52:34,520
+from a VC perspective, as
+opposed to from a pure net cash
+
+1157
+00:52:34,520 --> 00:52:36,500
+flow NPV perspective.
+
+1158
+00:52:36,500 --> 00:52:39,530
+So that's something that
+you'll want to be wary of.
+
+1159
+00:52:39,530 --> 00:52:41,750
+And by the way, that's
+probably one area
+
+1160
+00:52:41,750 --> 00:52:46,305
+where you can make real
+progress in terms of an impact
+
+1161
+00:52:46,305 --> 00:52:47,180
+through your careers.
+
+1162
+00:52:50,090 --> 00:52:51,860
+Historical comparison,
+this gives you
+
+1163
+00:52:51,860 --> 00:52:54,950
+a little bit of a
+time series of how
+
+1164
+00:52:54,950 --> 00:52:56,730
+things have changed over time.
+
+1165
+00:52:56,730 --> 00:53:01,250
+So back in 1959,
+payback period, IRR,
+
+1166
+00:53:01,250 --> 00:53:03,020
+was quite a bit more popular.
+
+1167
+00:53:03,020 --> 00:53:06,860
+Over time, that's declined,
+and over time, IRR
+
+1168
+00:53:06,860 --> 00:53:08,540
+has gained more ground.
+
+1169
+00:53:08,540 --> 00:53:13,280
+But NPV, as of 1981,
+was lagging far behind.
+
+1170
+00:53:13,280 --> 00:53:17,060
+And within the last 20 years,
+we see this chart where
+
+1171
+00:53:17,060 --> 00:53:19,460
+NPV has caught up a great deal.
+
+1172
+00:53:19,460 --> 00:53:21,020
+A large part of
+that, if you want
+
+1173
+00:53:21,020 --> 00:53:23,103
+to know where that came
+from, a large part of that
+
+1174
+00:53:23,103 --> 00:53:25,910
+was thanks to Brealey and Myers.
+
+1175
+00:53:25,910 --> 00:53:27,680
+The textbook that
+you're using now
+
+1176
+00:53:27,680 --> 00:53:31,010
+was probably the first major
+corporate finance textbook ever
+
+1177
+00:53:31,010 --> 00:53:33,980
+written, way back in the 1980s.
+
+1178
+00:53:33,980 --> 00:53:38,330
+And Stu Myers and Dick
+Brealey wrote the book really
+
+1179
+00:53:38,330 --> 00:53:39,980
+because there was
+nothing else that
+
+1180
+00:53:39,980 --> 00:53:43,310
+was out there that corresponded
+to these kind of modern finance
+
+1181
+00:53:43,310 --> 00:53:44,390
+principles.
+
+1182
+00:53:44,390 --> 00:53:47,420
+And so Stu and Dick
+have a lot to do
+
+1183
+00:53:47,420 --> 00:53:49,940
+with these numbers as of today.
+
+1184
+00:53:54,830 --> 00:53:57,570
+Other issues that we were not
+able to take on in this course,
+
+1185
+00:53:57,570 --> 00:54:00,950
+but which you will
+see in 402 and 434,
+
+1186
+00:54:00,950 --> 00:54:06,050
+is how to deal with other
+aspects of the capital
+
+1187
+00:54:06,050 --> 00:54:07,100
+budgeting process.
+
+1188
+00:54:07,100 --> 00:54:09,740
+For example,
+competitive response.
+
+1189
+00:54:09,740 --> 00:54:11,960
+When we think about making
+investments in projects,
+
+1190
+00:54:11,960 --> 00:54:16,532
+we are assuming
+everything else as given.
+
+1191
+00:54:16,532 --> 00:54:18,740
+This is sort of like putting
+money in a stock market.
+
+1192
+00:54:18,740 --> 00:54:20,573
+When you put your money
+in the stock market,
+
+1193
+00:54:20,573 --> 00:54:24,470
+you're assuming that the means
+and the variances are given.
+
+1194
+00:54:24,470 --> 00:54:26,780
+That your investment
+has no impact
+
+1195
+00:54:26,780 --> 00:54:28,940
+on the market as a whole.
+
+1196
+00:54:28,940 --> 00:54:32,900
+For specific kinds of projects,
+that's not true at all.
+
+1197
+00:54:32,900 --> 00:54:34,820
+The perfect market's
+assumption that we
+
+1198
+00:54:34,820 --> 00:54:38,660
+make from the perspective of
+a small investor investing
+
+1199
+00:54:38,660 --> 00:54:40,880
+in the entire market,
+those set of assumptions
+
+1200
+00:54:40,880 --> 00:54:44,060
+don't work for you
+making a decision
+
+1201
+00:54:44,060 --> 00:54:46,430
+about whether to invest
+in a new technology
+
+1202
+00:54:46,430 --> 00:54:47,960
+in your particular industry.
+
+1203
+00:54:47,960 --> 00:54:50,510
+Because most likely,
+that new technology
+
+1204
+00:54:50,510 --> 00:54:54,470
+will have a very significant
+impact on that industry
+
+1205
+00:54:54,470 --> 00:54:55,610
+if it's any good.
+
+1206
+00:54:55,610 --> 00:54:57,026
+So therefore,
+you're going to have
+
+1207
+00:54:57,026 --> 00:54:59,990
+to deal with competitors and
+the competitive response.
+
+1208
+00:54:59,990 --> 00:55:02,270
+Things are going to
+change because of the way
+
+1209
+00:55:02,270 --> 00:55:03,800
+you make your investments.
+
+1210
+00:55:03,800 --> 00:55:06,230
+So that's something you'll
+have to take into account.
+
+1211
+00:55:06,230 --> 00:55:08,600
+Capital rationing,
+which means you
+
+1212
+00:55:08,600 --> 00:55:10,249
+don't have all the
+money in the world.
+
+1213
+00:55:10,249 --> 00:55:12,290
+There's a limit to how
+much money you can invest,
+
+1214
+00:55:12,290 --> 00:55:15,500
+so now, given that there are
+limits to how much money you
+
+1215
+00:55:15,500 --> 00:55:19,670
+have, you've got to pick your
+opportunities more carefully.
+
+1216
+00:55:19,670 --> 00:55:24,290
+And some of these capital
+rationing requirements
+
+1217
+00:55:24,290 --> 00:55:26,610
+are implemented over
+multi-year periods.
+
+1218
+00:55:26,610 --> 00:55:28,730
+So for example, you
+might have a three year
+
+1219
+00:55:28,730 --> 00:55:32,750
+budget of $100 million to make
+investments in new technology.
+
+1220
+00:55:32,750 --> 00:55:35,679
+Over three years, you can
+use up to $100 million.
+
+1221
+00:55:35,679 --> 00:55:37,220
+So now, not only do
+you have to think
+
+1222
+00:55:37,220 --> 00:55:41,840
+about how to spread your money
+over opportunities this year,
+
+1223
+00:55:41,840 --> 00:55:43,670
+you've got to think
+about a spread it out
+
+1224
+00:55:43,670 --> 00:55:44,817
+over a three year period.
+
+1225
+00:55:44,817 --> 00:55:47,150
+And you have to think about
+spreading it out to projects
+
+1226
+00:55:47,150 --> 00:55:49,430
+that you don't even
+know exist right now.
+
+1227
+00:55:49,430 --> 00:55:52,500
+So the problems, the
+challenges, become much,
+
+1228
+00:55:52,500 --> 00:55:55,100
+much more complex
+as you start making
+
+1229
+00:55:55,100 --> 00:55:57,600
+the assumptions more realistic.
+
+1230
+00:55:57,600 --> 00:55:59,600
+You've got now, the very
+basics to understand
+
+1231
+00:55:59,600 --> 00:56:02,810
+how to do this for the
+very, very simple cases.
+
+1232
+00:56:02,810 --> 00:56:05,570
+But the more advanced
+courses will, one by one,
+
+1233
+00:56:05,570 --> 00:56:07,760
+relax these assumptions
+and give you
+
+1234
+00:56:07,760 --> 00:56:11,840
+more tools to be able to
+handle more complex situations.
+
+1235
+00:56:11,840 --> 00:56:13,610
+The examples that I
+give in this slide
+
+1236
+00:56:13,610 --> 00:56:18,170
+are looking at short
+run versus the long run,
+
+1237
+00:56:18,170 --> 00:56:20,990
+as well as dealing
+with general noise.
+
+1238
+00:56:20,990 --> 00:56:23,699
+In other words, you may
+be taking in lots of data,
+
+1239
+00:56:23,699 --> 00:56:25,490
+not all of that data
+is equally meaningful.
+
+1240
+00:56:25,490 --> 00:56:29,397
+So you need to know what to
+ignore, and what to focus on.
+
+1241
+00:56:29,397 --> 00:56:30,980
+That will be part
+of those challenges.
+
+1242
+00:56:30,980 --> 00:56:37,210
+You'll get that in
+402, and more in 434.
+
+1243
+00:56:37,210 --> 00:56:43,720
+So to summarize, we are now
+done with pretty much all
+
+1244
+00:56:43,720 --> 00:56:46,510
+of the finance
+theory that we need
+
+1245
+00:56:46,510 --> 00:56:51,310
+to value and to make decisions
+on virtually any kind
+
+1246
+00:56:51,310 --> 00:56:54,680
+of investment that's out there.
+
+1247
+00:56:54,680 --> 00:56:56,530
+The key points for
+capital budgeting
+
+1248
+00:56:56,530 --> 00:57:00,220
+is use NPV, or in the case
+of more advanced kinds
+
+1249
+00:57:00,220 --> 00:57:03,580
+of concepts, APV.
+
+1250
+00:57:03,580 --> 00:57:06,790
+Take all projects that are
+positive NPV, and if they're
+
+1251
+00:57:06,790 --> 00:57:10,090
+mutually exclusive, take the
+one with the biggest NPV.
+
+1252
+00:57:10,090 --> 00:57:12,250
+Consider project
+interactions separately.
+
+1253
+00:57:12,250 --> 00:57:14,530
+So consider the project
+on a standalone basis,
+
+1254
+00:57:14,530 --> 00:57:17,260
+then consider any
+interaction effects
+
+1255
+00:57:17,260 --> 00:57:18,850
+that may or may not exist.
+
+1256
+00:57:18,850 --> 00:57:21,130
+You can evaluate them
+separately, and add them
+
+1257
+00:57:21,130 --> 00:57:23,230
+together at the end.
+
+1258
+00:57:23,230 --> 00:57:26,020
+Use after tax cash flows
+for the NPV calculations,
+
+1259
+00:57:26,020 --> 00:57:27,670
+not accounting earnings.
+
+1260
+00:57:27,670 --> 00:57:31,881
+And when you need discount rate,
+use the capital asset pricing
+
+1261
+00:57:31,881 --> 00:57:32,380
+model.
+
+1262
+00:57:32,380 --> 00:57:35,440
+The capital asset pricing
+model provides you
+
+1263
+00:57:35,440 --> 00:57:41,320
+with a risk adjustment for
+the required rate of return.
+
+1264
+00:57:41,320 --> 00:57:44,710
+And be wary about risks
+that change over time.
+
+1265
+00:57:44,710 --> 00:57:48,460
+So every single year you
+use your cost of capital,
+
+1266
+00:57:48,460 --> 00:57:52,060
+make sure you can justify the
+particular risk associated
+
+1267
+00:57:52,060 --> 00:57:52,840
+with that year.
+
+1268
+00:57:52,840 --> 00:57:55,630
+Remember the example
+of drilling for oil
+
+1269
+00:57:55,630 --> 00:57:57,940
+and how the risks
+change dramatically
+
+1270
+00:57:57,940 --> 00:58:01,900
+as you go from oil
+exploration to oil production.
+
+1271
+00:58:01,900 --> 00:58:04,660
+Those are two
+different activities.
+
+1272
+00:58:04,660 --> 00:58:09,160
+Finally, think about all the
+other alternatives to NPV.
+
+1273
+00:58:09,160 --> 00:58:11,740
+And you don't have to
+be a snob about it.
+
+1274
+00:58:11,740 --> 00:58:14,170
+Don't tell people, NPV's
+the only way to go.
+
+1275
+00:58:14,170 --> 00:58:16,150
+It's either my way
+or the highway.
+
+1276
+00:58:16,150 --> 00:58:19,900
+You recognize that there
+are other elements of risk
+
+1277
+00:58:19,900 --> 00:58:22,990
+and reward that may be
+captured by payback,
+
+1278
+00:58:22,990 --> 00:58:26,590
+by internal rate of return,
+by the profitability index.
+
+1279
+00:58:26,590 --> 00:58:28,240
+But in the end,
+what you're going
+
+1280
+00:58:28,240 --> 00:58:31,360
+to want to base your
+decision on is primarily
+
+1281
+00:58:31,360 --> 00:58:34,570
+NPV considerations,
+with these other factors
+
+1282
+00:58:34,570 --> 00:58:37,580
+thrown in as well.
+
+1283
+00:58:37,580 --> 00:58:40,910
+I'll conclude with one
+last comment about capital
+
+1284
+00:58:40,910 --> 00:58:44,462
+budgeting, which is
+something that is completely
+
+1285
+00:58:44,462 --> 00:58:45,920
+outside the purview
+of this course,
+
+1286
+00:58:45,920 --> 00:58:48,947
+but it's not outside
+the purview of your MBA.
+
+1287
+00:58:48,947 --> 00:58:50,530
+And that is that why
+I've been talking
+
+1288
+00:58:50,530 --> 00:58:53,800
+about for the exclusion of
+everything else in this course
+
+1289
+00:58:53,800 --> 00:58:58,300
+is the economic and
+financial considerations.
+
+1290
+00:58:58,300 --> 00:59:00,910
+Obviously, when you're
+engaged in trying
+
+1291
+00:59:00,910 --> 00:59:06,262
+to get a project approved, or
+making a decision on a project,
+
+1292
+00:59:06,262 --> 00:59:07,720
+there are many
+other considerations
+
+1293
+00:59:07,720 --> 00:59:09,280
+that you should
+not forget about.
+
+1294
+00:59:09,280 --> 00:59:13,210
+Considerations like
+political, social, cultural,
+
+1295
+00:59:13,210 --> 00:59:17,440
+implementation, all sorts
+of practical aspects
+
+1296
+00:59:17,440 --> 00:59:19,640
+that you need to put together.
+
+1297
+00:59:19,640 --> 00:59:21,970
+And so all of the other
+courses that you've been taking
+
+1298
+00:59:21,970 --> 00:59:24,580
+are designed to try to get
+you to think about that.
+
+1299
+00:59:24,580 --> 00:59:28,180
+But unfortunately,
+or maybe inevitably,
+
+1300
+00:59:28,180 --> 00:59:32,470
+in a curriculum like
+the MBA, we pick apart
+
+1301
+00:59:32,470 --> 00:59:34,780
+all of the various
+aspects of a decision
+
+1302
+00:59:34,780 --> 00:59:36,850
+and then study it
+to death, and try
+
+1303
+00:59:36,850 --> 00:59:40,000
+to come up with the very best
+possible approaches for each
+
+1304
+00:59:40,000 --> 00:59:42,820
+of those particular silos.
+
+1305
+00:59:42,820 --> 00:59:46,276
+It's your job, ultimately,
+to put all of that together.
+
+1306
+00:59:46,276 --> 00:59:47,650
+And you will do
+that, you will be
+
+1307
+00:59:47,650 --> 00:59:49,540
+asked to do that, whether
+you know it or not,
+
+1308
+00:59:49,540 --> 00:59:50,920
+when you start working.
+
+1309
+00:59:50,920 --> 00:59:53,830
+So what I've been
+focused on exclusively
+
+1310
+00:59:53,830 --> 00:59:56,080
+is the financial and
+economic considerations.
+
+1311
+00:59:56,080 --> 00:59:58,240
+And I believe you
+now have the tools
+
+1312
+00:59:58,240 --> 01:00:00,100
+to be able to
+analyze any project,
+
+1313
+01:00:00,100 --> 01:00:03,640
+at least to get a starting
+point for an intellectually
+
+1314
+01:00:03,640 --> 01:00:05,352
+consistent way of looking at it.
+
+1315
+01:00:05,352 --> 01:00:07,810
+But don't for a moment think
+that those are the only things
+
+1316
+01:00:07,810 --> 01:00:09,270
+that are important.
+
+1317
+01:00:09,270 --> 01:00:13,090
+The political, social,
+cultural ramifications
+
+1318
+01:00:13,090 --> 01:00:15,460
+are going to be
+extraordinarily critical,
+
+1319
+01:00:15,460 --> 01:00:17,380
+and only you will be
+able to figure out
+
+1320
+01:00:17,380 --> 01:00:19,120
+how to put that all together.
+
+1321
+01:00:19,120 --> 01:00:21,670
+So hopefully in this
+particular course,
+
+1322
+01:00:21,670 --> 01:00:24,130
+you've learned something
+valuable from that one aspect.
+
+1323
+01:00:24,130 --> 01:00:26,140
+But just keep in mind,
+it is only one aspect,
+
+1324
+01:00:26,140 --> 01:00:27,281
+one perspective.
+
+1325
+01:00:27,281 --> 01:00:29,530
+And there are others that
+you will have to incorporate
+
+1326
+01:00:29,530 --> 01:00:30,910
+into your way of thinking.
+
+1327
+01:00:33,850 --> 01:00:36,650
+That's it for capital budgeting.
+
+1328
+01:00:36,650 --> 01:00:38,560
+Any final questions
+before we move
+
+1329
+01:00:38,560 --> 01:00:42,021
+on to the final
+lecture of this course?
+
+1330
+01:00:42,021 --> 01:00:42,520
+Yes?
+
+1331
+01:00:42,520 --> 01:00:46,454
+AUDIENCE: I just have one
+small question on IRR again.
+
+1332
+01:00:46,454 --> 01:00:50,927
+In the examples you showed,
+the cash flows in the out years
+
+1333
+01:00:50,927 --> 01:00:56,269
+and years [INAUDIBLE]
+were more, they
+
+1334
+01:00:56,269 --> 01:01:00,060
+were the opposite direction
+from the initial year cash flow,
+
+1335
+01:01:00,060 --> 01:01:02,290
+but greater than the
+[INAUDIBLE] cash flow.
+
+1336
+01:01:02,290 --> 01:01:04,900
+Does it matter that that's
+not the case that can happen?
+
+1337
+01:01:04,900 --> 01:01:08,110
+ANDREW LO: Well, I guess
+the answer is, it depends.
+
+1338
+01:01:08,110 --> 01:01:10,420
+In other words,
+what you detected
+
+1339
+01:01:10,420 --> 01:01:14,110
+was not a universal pattern
+that can be systematized
+
+1340
+01:01:14,110 --> 01:01:16,390
+and then incorporated into IRR.
+
+1341
+01:01:16,390 --> 01:01:19,300
+In other words, if I had
+a longer period of time
+
+1342
+01:01:19,300 --> 01:01:21,520
+to be able to play
+with changes of sine
+
+1343
+01:01:21,520 --> 01:01:24,807
+and changes of magnitude, I
+can get any kind of pattern
+
+1344
+01:01:24,807 --> 01:01:25,390
+that you want.
+
+1345
+01:01:25,390 --> 01:01:28,870
+For example, in the
+dotted line curve,
+
+1346
+01:01:28,870 --> 01:01:31,870
+I can have this curve
+flip around the other way
+
+1347
+01:01:31,870 --> 01:01:33,790
+so that it starts
+negative, goes positive,
+
+1348
+01:01:33,790 --> 01:01:34,870
+and it goes up like that.
+
+1349
+01:01:34,870 --> 01:01:38,020
+Just by changing the sign
+patterns to something else.
+
+1350
+01:01:38,020 --> 01:01:39,970
+If I had a quartic
+term in there,
+
+1351
+01:01:39,970 --> 01:01:41,960
+I can make it even
+more complicated.
+
+1352
+01:01:41,960 --> 01:01:44,770
+So the longer the number
+of periods, the more number
+
+1353
+01:01:44,770 --> 01:01:46,870
+of periods that I have
+to play with, the more
+
+1354
+01:01:46,870 --> 01:01:49,300
+patterns that you can create
+so that it would be really
+
+1355
+01:01:49,300 --> 01:01:53,380
+impossible to reduce
+it to a systematic
+
+1356
+01:01:53,380 --> 01:01:58,440
+set other than this
+proscription here.
+
+1357
+01:01:58,440 --> 01:02:01,010
+If these four conditions
+are satisfied,
+
+1358
+01:02:01,010 --> 01:02:04,810
+then you're OK with using
+this as opposed to NPV.
+
+1359
+01:02:04,810 --> 01:02:07,570
+But that's the only
+simple case where you
+
+1360
+01:02:07,570 --> 01:02:10,090
+can say something meaningful.
+
+1361
+01:02:10,090 --> 01:02:14,350
+By the way, the number of
+0's and the nature of the 0's
+
+1362
+01:02:14,350 --> 01:02:19,790
+of polynomials, that turns out
+to be related to a very, very,
+
+1363
+01:02:19,790 --> 01:02:23,920
+very famous and hard unsolved
+problem in mathematics known
+
+1364
+01:02:23,920 --> 01:02:25,479
+as the Riemann zeta hypothesis.
+
+1365
+01:02:25,479 --> 01:02:27,520
+We're not going to talk
+about that in this class,
+
+1366
+01:02:27,520 --> 01:02:28,103
+unfortunately.
+
+1367
+01:02:28,103 --> 01:02:30,430
+It is beyond the
+scope of the school.
+
+1368
+01:02:33,790 --> 01:02:36,430
+But I just want to let you
+know that there is something
+
+1369
+01:02:36,430 --> 01:02:40,180
+inherently
+extraordinarily deep about
+
+1370
+01:02:40,180 --> 01:02:43,644
+the underlying contradictions
+that get generated by IRR.
+
+1371
+01:02:43,644 --> 01:02:45,310
+You don't have to
+solve the Riemann zeta
+
+1372
+01:02:45,310 --> 01:02:49,510
+hypothesis to understand it, but
+you can get very, very complex,
+
+1373
+01:02:49,510 --> 01:02:55,000
+very quickly by looking at
+these kinds of patterns.
+
+1374
+01:02:55,000 --> 01:02:57,940
+In fact, it would
+be bad news for us
+
+1375
+01:02:57,940 --> 01:03:01,000
+if these patterns actually
+mattered for investing.
+
+1376
+01:03:01,000 --> 01:03:02,170
+The fact is they don't.
+
+1377
+01:03:02,170 --> 01:03:04,330
+The bottom line is NPV.
+
+1378
+01:03:04,330 --> 01:03:06,280
+How much money
+are you generating
+
+1379
+01:03:06,280 --> 01:03:08,270
+from this investment, period.
+
+1380
+01:03:08,270 --> 01:03:10,180
+And if you focus
+on that, you're not
+
+1381
+01:03:10,180 --> 01:03:12,130
+likely to make a
+lot of mistakes.
+
+1382
+01:03:12,130 --> 01:03:15,650
+But you should at least be aware
+about these other techniques.
+
+1383
+01:03:15,650 --> 01:03:17,200
+So that's why I went over them.
+
+1384
+01:03:17,200 --> 01:03:18,054
+Yeah, David?
+
+1385
+01:03:18,054 --> 01:03:19,720
+AUDIENCE: Can you
+talk a little bit more
+
+1386
+01:03:19,720 --> 01:03:24,780
+about social, political,
+and cultural risks.
+
+1387
+01:03:24,780 --> 01:03:29,346
+From the perspective of the
+CFO of a company for example,
+
+1388
+01:03:29,346 --> 01:03:32,490
+who has to make a decision on
+whether and where to invest.
+
+1389
+01:03:32,490 --> 01:03:37,170
+It makes sense that there will
+be some political implications
+
+1390
+01:03:37,170 --> 01:03:39,900
+that cannot be captured
+by every model.
+
+1391
+01:03:39,900 --> 01:03:42,570
+But if I'm a private
+investor and I
+
+1392
+01:03:42,570 --> 01:03:45,660
+invest in a company that is
+listed in a stock exchange,
+
+1393
+01:03:45,660 --> 01:03:49,320
+I would expect all these
+considerations to be captured
+
+1394
+01:03:49,320 --> 01:03:52,800
+already in the stock price.
+
+1395
+01:03:52,800 --> 01:03:55,410
+ANDREW LO: Well, yes and no.
+
+1396
+01:03:55,410 --> 01:03:57,802
+Let me give you
+an example that is
+
+1397
+01:03:57,802 --> 01:03:59,010
+a somewhat controversial one.
+
+1398
+01:03:59,010 --> 01:04:00,660
+I don't really know
+the answer to it,
+
+1399
+01:04:00,660 --> 01:04:02,034
+but at least we
+can talk about it
+
+1400
+01:04:02,034 --> 01:04:03,660
+in the context of
+current events.
+
+1401
+01:04:06,022 --> 01:04:07,480
+If you take a look
+at what happened
+
+1402
+01:04:07,480 --> 01:04:12,340
+with Bear Stearns versus what
+happened with Lehman Brothers.
+
+1403
+01:04:12,340 --> 01:04:17,560
+It's kind of hard to understand
+why what happened, happened.
+
+1404
+01:04:17,560 --> 01:04:20,350
+Bear Stearns was
+deemed too big to fail.
+
+1405
+01:04:20,350 --> 01:04:25,600
+And so it was navigated to a
+soft landing with JP Morgan.
+
+1406
+01:04:25,600 --> 01:04:28,450
+Lehman on the other hand,
+which in certain respects
+
+1407
+01:04:28,450 --> 01:04:30,940
+was even bigger and
+even more broadly
+
+1408
+01:04:30,940 --> 01:04:37,100
+intertwined in our financial
+system, was allowed to fail.
+
+1409
+01:04:37,100 --> 01:04:40,140
+I don't understand that from
+an economic perspective.
+
+1410
+01:04:40,140 --> 01:04:43,790
+In fact, I'm not sure there is
+an economic perspective to why
+
+1411
+01:04:43,790 --> 01:04:46,100
+it failed.
+
+1412
+01:04:46,100 --> 01:04:48,530
+But there may be a
+political dimension.
+
+1413
+01:04:48,530 --> 01:04:51,950
+For example, and again
+this is pure speculation,
+
+1414
+01:04:51,950 --> 01:04:55,910
+so asking me for my views
+on political elements,
+
+1415
+01:04:55,910 --> 01:04:56,990
+I'm happy to provide.
+
+1416
+01:04:56,990 --> 01:05:00,560
+But it's like asking
+Roger Federer what
+
+1417
+01:05:00,560 --> 01:05:02,460
+he thinks about the S&P 500.
+
+1418
+01:05:02,460 --> 01:05:06,410
+Not that I'm Roger
+Federer, but it's
+
+1419
+01:05:06,410 --> 01:05:08,690
+asking somebody who's a
+professional in one area what
+
+1420
+01:05:08,690 --> 01:05:10,023
+they think about something else.
+
+1421
+01:05:10,023 --> 01:05:12,290
+I'm not sure it's a good idea.
+
+1422
+01:05:12,290 --> 01:05:14,690
+But the point is
+that my conjecture
+
+1423
+01:05:14,690 --> 01:05:18,230
+is that the reason Lehman
+Brothers was left to fail
+
+1424
+01:05:18,230 --> 01:05:21,620
+was because there was so
+much criticism and backlash
+
+1425
+01:05:21,620 --> 01:05:26,720
+from the Bear Stearns event that
+both Treasury and the Federal
+
+1426
+01:05:26,720 --> 01:05:31,100
+Reserve thought that it was
+politically untenable for them
+
+1427
+01:05:31,100 --> 01:05:32,420
+to do it again.
+
+1428
+01:05:32,420 --> 01:05:34,670
+Because if they did
+it again, then they
+
+1429
+01:05:34,670 --> 01:05:36,290
+would be expected
+to do it again,
+
+1430
+01:05:36,290 --> 01:05:37,650
+and again, and again, and again.
+
+1431
+01:05:37,650 --> 01:05:40,520
+In which case, all the
+firms would be in line
+
+1432
+01:05:40,520 --> 01:05:42,520
+to try to get a bailout.
+
+1433
+01:05:42,520 --> 01:05:45,380
+And they are.
+
+1434
+01:05:45,380 --> 01:05:48,600
+However, to highlight
+the complexity,
+
+1435
+01:05:48,600 --> 01:05:51,860
+to highlight the complexity
+of the political dimension,
+
+1436
+01:05:51,860 --> 01:05:55,940
+now that Lehman did
+fail and it caused
+
+1437
+01:05:55,940 --> 01:06:00,980
+such disastrous consequences,
+now maybe it's truly impossible
+
+1438
+01:06:00,980 --> 01:06:02,637
+to let any company fail.
+
+1439
+01:06:02,637 --> 01:06:04,970
+Because people will say, oh
+you remember Lehman Brothers
+
+1440
+01:06:04,970 --> 01:06:05,970
+and what happened there?
+
+1441
+01:06:05,970 --> 01:06:07,670
+You better not do that again.
+
+1442
+01:06:07,670 --> 01:06:11,060
+So I don't know the answer
+to the question about what
+
+1443
+01:06:11,060 --> 01:06:14,750
+the political landscape is going
+to look like a year from now,
+
+1444
+01:06:14,750 --> 01:06:17,010
+or even six months from now.
+
+1445
+01:06:17,010 --> 01:06:19,010
+So I don't know
+whether or not it's
+
+1446
+01:06:19,010 --> 01:06:21,620
+significant in terms
+of what will happen,
+
+1447
+01:06:21,620 --> 01:06:25,220
+but surely in the past, politics
+has played a very big role,
+
+1448
+01:06:25,220 --> 01:06:26,714
+even for private investors.
+
+1449
+01:06:26,714 --> 01:06:29,130
+But that actually wasn't the
+politics I was talking about.
+
+1450
+01:06:29,130 --> 01:06:31,217
+That certainly matters
+a great deal now,
+
+1451
+01:06:31,217 --> 01:06:33,050
+but the kind of politics
+I was talking about
+
+1452
+01:06:33,050 --> 01:06:35,070
+was more within a company.
+
+1453
+01:06:35,070 --> 01:06:37,340
+So I'll give you an example.
+
+1454
+01:06:37,340 --> 01:06:38,930
+You're a new
+division manager that
+
+1455
+01:06:38,930 --> 01:06:43,970
+was specifically hired by the
+CEO to turn around a division.
+
+1456
+01:06:43,970 --> 01:06:47,270
+And in your first
+quarter on the job,
+
+1457
+01:06:47,270 --> 01:06:50,720
+you propose a very
+specific restructuring
+
+1458
+01:06:50,720 --> 01:06:53,210
+for that division.
+
+1459
+01:06:53,210 --> 01:06:56,950
+Chances are the CEO is
+going to agree with you.
+
+1460
+01:06:56,950 --> 01:06:58,700
+Knowing nothing about
+whether the proposal
+
+1461
+01:06:58,700 --> 01:07:01,992
+is smart, or stupid,
+or good, or bad,
+
+1462
+01:07:01,992 --> 01:07:03,950
+most likely, the CEO's
+going to agree with you.
+
+1463
+01:07:03,950 --> 01:07:04,730
+Why is that?
+
+1464
+01:07:04,730 --> 01:07:05,630
+You know why, right?
+
+1465
+01:07:05,630 --> 01:07:07,340
+You guys agree with me.
+
+1466
+01:07:07,340 --> 01:07:10,004
+If you agree with me, that means
+that you understand something
+
+1467
+01:07:10,004 --> 01:07:11,420
+about the political
+situation that
+
+1468
+01:07:11,420 --> 01:07:14,720
+has nothing to do with P&L,
+nothing to do with NPV, nothing
+
+1469
+01:07:14,720 --> 01:07:17,060
+to do with cost of capital
+or risk adjustment.
+
+1470
+01:07:17,060 --> 01:07:19,160
+Somebody just hired
+you to do a job
+
+1471
+01:07:19,160 --> 01:07:21,419
+and they're going
+to have to give you
+
+1472
+01:07:21,419 --> 01:07:23,210
+the benefit of the
+doubt for a little while
+
+1473
+01:07:23,210 --> 01:07:25,550
+before they can
+pull in the reins.
+
+1474
+01:07:25,550 --> 01:07:27,830
+That's what I mean by
+political considerations.
+
+1475
+01:07:27,830 --> 01:07:30,080
+So when you're thinking
+about capital budgeting,
+
+1476
+01:07:30,080 --> 01:07:33,157
+you've got to factor in all
+of these considerations.
+
+1477
+01:07:33,157 --> 01:07:33,740
+Which is hard.
+
+1478
+01:07:33,740 --> 01:07:37,280
+It's what makes business
+both an art and a science.
+
+1479
+01:07:37,280 --> 01:07:40,220
+You need to have both of
+those elements represented.
+
+1480
+01:07:40,220 --> 01:07:41,810
+And I just wanted
+to bring that up
+
+1481
+01:07:41,810 --> 01:07:45,770
+to remind you not to forget
+about those elements.
+
+1482
+01:07:45,770 --> 01:07:48,740
+Economists have a very bad
+habit, myself included.
+
+1483
+01:07:48,740 --> 01:07:51,950
+We think that
+everything is economic.
+
+1484
+01:07:51,950 --> 01:07:54,840
+Someone said that to a
+person that owns a hammer,
+
+1485
+01:07:54,840 --> 01:07:57,140
+everything looks like a nail.
+
+1486
+01:07:57,140 --> 01:07:57,942
+And I agree.
+
+1487
+01:07:57,942 --> 01:07:59,400
+As an economist,
+I have these tools
+
+1488
+01:07:59,400 --> 01:08:01,230
+that I think apply
+to everything.
+
+1489
+01:08:01,230 --> 01:08:03,860
+And there's a danger
+that as an economist,
+
+1490
+01:08:03,860 --> 01:08:06,640
+I see everything from
+the economic perspective.
+
+1491
+01:08:06,640 --> 01:08:08,660
+And it's only after
+you've been hit
+
+1492
+01:08:08,660 --> 01:08:11,591
+over the head with a bunch
+of failures of your theories
+
+1493
+01:08:11,591 --> 01:08:13,340
+that you'll begin to
+realize maybe there's
+
+1494
+01:08:13,340 --> 01:08:15,950
+something else out there
+that's explaining behavior.
+
+1495
+01:08:15,950 --> 01:08:18,149
+Which I'm going to
+talk about next.
+
+1496
+01:08:18,149 --> 01:08:21,229
+But the traditional
+approach of economists
+
+1497
+01:08:21,229 --> 01:08:23,490
+is to assume that
+everybody is rational,
+
+1498
+01:08:23,490 --> 01:08:26,510
+everybody's maximizing NPV,
+the markets work efficiently.
+
+1499
+01:08:26,510 --> 01:08:28,350
+And by the way, if
+that's the case,
+
+1500
+01:08:28,350 --> 01:08:30,540
+then your job is really easy.
+
+1501
+01:08:30,540 --> 01:08:34,100
+What makes it hard, and I would
+argue fun and challenging,
+
+1502
+01:08:34,100 --> 01:08:35,810
+is all the other
+stuff that makes
+
+1503
+01:08:35,810 --> 01:08:38,930
+this stuff not work the way
+it's supposed to all the time.
+
+1504
+01:08:38,930 --> 01:08:42,319
+You have to know when
+to use these methods
+
+1505
+01:08:42,319 --> 01:08:44,149
+and when to use other
+methods in order
+
+1506
+01:08:44,149 --> 01:08:47,420
+to be able to advance your
+particular objectives.
+
+1507
+01:08:47,420 --> 01:08:49,640
+And ultimately, you have
+to understand exactly
+
+1508
+01:08:49,640 --> 01:08:52,200
+what kind of objectives
+you want to achieve.
+
+1509
+01:08:52,200 --> 01:08:54,200
+So that's going to
+actually be the topic
+
+1510
+01:08:54,200 --> 01:08:57,680
+of the latter part of the
+next lecture, is objectives.
+
+1511
+01:08:57,680 --> 01:09:00,350
+I've told you up until now
+that the objective for most
+
+1512
+01:09:00,350 --> 01:09:05,000
+shareholders and most corporate
+managers is to maximize NPV.
+
+1513
+01:09:05,000 --> 01:09:08,970
+That is an approximation to
+a much more complex reality.
+
+1514
+01:09:08,970 --> 01:09:12,500
+So I'm about to change
+your view of that reality
+
+1515
+01:09:12,500 --> 01:09:16,590
+over the next
+lecture and a half.
+
+1516
+01:09:16,590 --> 01:09:18,380
+Any other questions?
+
+1517
+01:09:22,069 --> 01:09:25,490
+This concludes our lecture
+on capital budgeting,
+
+1518
+01:09:25,490 --> 01:09:28,760
+and what I want to turn
+to now is the last lecture
+
+1519
+01:09:28,760 --> 01:09:34,080
+of the course, which is
+efficient markets, lecture 21.
+
+1520
+01:09:34,080 --> 01:09:37,529
+I'm going to get started
+on this just very briefly
+
+1521
+01:09:37,529 --> 01:09:40,569
+today, because we're
+almost out of time.
+
+1522
+01:09:40,569 --> 01:09:43,710
+We've got about another
+10 minutes or so.
+
+1523
+01:09:43,710 --> 01:09:46,890
+I want to give you an
+overview of where we're going
+
+1524
+01:09:46,890 --> 01:09:49,680
+and why we're going
+to do this lecture.
+
+1525
+01:09:49,680 --> 01:09:52,680
+Typically, efficient
+markets is a lecture
+
+1526
+01:09:52,680 --> 01:09:56,370
+that is given in most corporate
+finance and Introductory
+
+1527
+01:09:56,370 --> 01:09:59,732
+finance courses at the
+beginning of the course.
+
+1528
+01:09:59,732 --> 01:10:01,440
+And the reason it's
+done at the beginning
+
+1529
+01:10:01,440 --> 01:10:05,550
+is because actually, we
+need this efficient markets
+
+1530
+01:10:05,550 --> 01:10:09,450
+hypothesis to justify
+most of what I taught you
+
+1531
+01:10:09,450 --> 01:10:12,960
+over the last 13 weeks.
+
+1532
+01:10:12,960 --> 01:10:16,130
+Let me explain why that is.
+
+1533
+01:10:16,130 --> 01:10:18,460
+For the longest time
+now in this course,
+
+1534
+01:10:18,460 --> 01:10:21,860
+I've kept repeating that when
+we need a discount rate, when
+
+1535
+01:10:21,860 --> 01:10:25,790
+we need a price, when we
+need a value, where do we go?
+
+1536
+01:10:25,790 --> 01:10:26,510
+To the market.
+
+1537
+01:10:26,510 --> 01:10:27,500
+All of you, right?
+
+1538
+01:10:27,500 --> 01:10:28,190
+And we did that.
+
+1539
+01:10:28,190 --> 01:10:31,310
+The first day of class, I
+auctioned off certain items
+
+1540
+01:10:31,310 --> 01:10:34,770
+and we engaged in
+price discovery.
+
+1541
+01:10:34,770 --> 01:10:38,190
+That's an enormous benefit,
+this wisdom of crowds
+
+1542
+01:10:38,190 --> 01:10:39,750
+that we relied on.
+
+1543
+01:10:39,750 --> 01:10:41,670
+And that's why at the
+very beginning of most
+
+1544
+01:10:41,670 --> 01:10:44,970
+of these finance courses, we
+typically teach our students
+
+1545
+01:10:44,970 --> 01:10:46,860
+to trust in the market.
+
+1546
+01:10:46,860 --> 01:10:48,480
+Now I didn't do
+that in this course
+
+1547
+01:10:48,480 --> 01:10:50,760
+because I don't want
+you to trust the market.
+
+1548
+01:10:50,760 --> 01:10:53,550
+I want you to learn from
+experience when to trust
+
+1549
+01:10:53,550 --> 01:10:55,710
+the market, and when not to.
+
+1550
+01:10:55,710 --> 01:10:59,610
+But the fact of the matter is
+the theories that we rely on,
+
+1551
+01:10:59,610 --> 01:11:03,370
+this notion of risk adjustment,
+this cost of capital,
+
+1552
+01:11:03,370 --> 01:11:04,770
+this CAPM.
+
+1553
+01:11:04,770 --> 01:11:07,920
+All of that relies on
+people being rational.
+
+1554
+01:11:07,920 --> 01:11:10,800
+It relies on all of you
+in this room wanting
+
+1555
+01:11:10,800 --> 01:11:13,320
+to hold the tangency portfolio.
+
+1556
+01:11:13,320 --> 01:11:16,620
+It relies on supply
+equaling demand.
+
+1557
+01:11:16,620 --> 01:11:22,320
+And unless we have that kind of
+behavior, a lot of our results
+
+1558
+01:11:22,320 --> 01:11:24,340
+go out the window.
+
+1559
+01:11:24,340 --> 01:11:27,700
+So I want to talk
+about the justification
+
+1560
+01:11:27,700 --> 01:11:30,760
+for that assumption in
+this particular lecture.
+
+1561
+01:11:30,760 --> 01:11:32,920
+I told you that I'm
+going to tie together
+
+1562
+01:11:32,920 --> 01:11:34,570
+all the various
+different loose strands
+
+1563
+01:11:34,570 --> 01:11:36,970
+of the course in
+this one lecture,
+
+1564
+01:11:36,970 --> 01:11:38,800
+and I do mean to do that.
+
+1565
+01:11:38,800 --> 01:11:40,874
+What I'm going to
+do is first of all,
+
+1566
+01:11:40,874 --> 01:11:42,540
+make an argument for
+why it is you ought
+
+1567
+01:11:42,540 --> 01:11:43,780
+to trust in market prices.
+
+1568
+01:11:43,780 --> 01:11:49,320
+Why the wisdom of crowds is
+very wise, most of the time.
+
+1569
+01:11:49,320 --> 01:11:52,290
+But then I want to spend the
+bulk of this lecture telling
+
+1570
+01:11:52,290 --> 01:11:54,079
+you why it can break down.
+
+1571
+01:11:54,079 --> 01:11:55,620
+Now, I don't think
+I need to tell you
+
+1572
+01:11:55,620 --> 01:11:57,090
+that after the last 13 weeks.
+
+1573
+01:11:57,090 --> 01:11:59,910
+You've sort of seen
+that in real time.
+
+1574
+01:11:59,910 --> 01:12:04,140
+But I want to give you an
+understanding of what happened.
+
+1575
+01:12:04,140 --> 01:12:07,170
+And actually, I'm going
+to be able to provide you
+
+1576
+01:12:07,170 --> 01:12:10,530
+with a complete and
+satisfactory theory that
+
+1577
+01:12:10,530 --> 01:12:13,560
+makes sense of everything that
+has happened over the last 13
+
+1578
+01:12:13,560 --> 01:12:14,340
+weeks.
+
+1579
+01:12:14,340 --> 01:12:17,940
+You may be skeptical about
+that, but I promise you,
+
+1580
+01:12:17,940 --> 01:12:20,040
+it will be true.
+
+1581
+01:12:20,040 --> 01:12:23,310
+I have a theory, which is
+not generally accepted.
+
+1582
+01:12:23,310 --> 01:12:25,329
+So I've got to start
+with that disclaimer.
+
+1583
+01:12:25,329 --> 01:12:27,120
+This is a theory that
+I'm going to tell you
+
+1584
+01:12:27,120 --> 01:12:31,020
+that is my own pet theory,
+it's not in any textbook
+
+1585
+01:12:31,020 --> 01:12:33,514
+because it's relatively new.
+
+1586
+01:12:33,514 --> 01:12:35,430
+And if you do a search
+for it on the internet,
+
+1587
+01:12:35,430 --> 01:12:38,070
+my name was the only name
+that's going to come up.
+
+1588
+01:12:38,070 --> 01:12:39,830
+So that's both good and bad.
+
+1589
+01:12:39,830 --> 01:12:41,661
+You're hearing it from
+the horse's mouth,
+
+1590
+01:12:41,661 --> 01:12:43,410
+but it is a horse
+that's telling you this.
+
+1591
+01:12:46,577 --> 01:12:48,660
+I'm going to start by first
+explaining to you what
+
+1592
+01:12:48,660 --> 01:12:50,430
+efficient markets is.
+
+1593
+01:12:50,430 --> 01:12:51,930
+I think you already know, right?
+
+1594
+01:12:51,930 --> 01:12:53,460
+You can trust the market prices.
+
+1595
+01:12:53,460 --> 01:12:57,030
+The market price tells
+you what you need to know.
+
+1596
+01:12:57,030 --> 01:12:59,730
+And after I make
+that argument, I'm
+
+1597
+01:12:59,730 --> 01:13:01,260
+going to then turn
+around and take
+
+1598
+01:13:01,260 --> 01:13:03,090
+the other side of the
+debate, and give you
+
+1599
+01:13:03,090 --> 01:13:07,380
+all the reasons why people are
+irrational, silly, mistaken,
+
+1600
+01:13:07,380 --> 01:13:11,160
+stupid, all of the reasons that
+psychologists tell us markets
+
+1601
+01:13:11,160 --> 01:13:14,379
+are crazy, and you should
+never trust in market prices.
+
+1602
+01:13:14,379 --> 01:13:16,170
+And then I'm going to
+try to bring together
+
+1603
+01:13:16,170 --> 01:13:18,240
+the two sides of
+the debate using
+
+1604
+01:13:18,240 --> 01:13:21,510
+some recent research from
+the cognitive neurosciences.
+
+1605
+01:13:21,510 --> 01:13:24,240
+So I'm going to actually talk
+a bit about the neurophysiology
+
+1606
+01:13:24,240 --> 01:13:26,312
+of the brain, and it turns
+out that that research
+
+1607
+01:13:26,312 --> 01:13:28,770
+is going to be directly relevant
+to how we interpret what's
+
+1608
+01:13:28,770 --> 01:13:33,570
+been going on over the last 13
+weeks, over the last 130 years.
+
+1609
+01:13:33,570 --> 01:13:38,010
+Let me start with that argument
+about efficient markets.
+
+1610
+01:13:38,010 --> 01:13:42,300
+Market efficiency says
+that there's no free lunch,
+
+1611
+01:13:42,300 --> 01:13:44,730
+there's no arbitrage, you don't
+get something for nothing,
+
+1612
+01:13:44,730 --> 01:13:47,370
+prices fully reflect all
+available information,
+
+1613
+01:13:47,370 --> 01:13:50,940
+and there's no way to make
+money in the marketplace.
+
+1614
+01:13:50,940 --> 01:13:55,080
+Active management does
+not add any value.
+
+1615
+01:13:55,080 --> 01:13:59,130
+Now, if you really believe
+this, why are you here?
+
+1616
+01:13:59,130 --> 01:14:00,800
+Why are you taking finance?
+
+1617
+01:14:00,800 --> 01:14:03,410
+Well, it turns out that there
+is a reason for taking finance
+
+1618
+01:14:03,410 --> 01:14:05,700
+even if this is true,
+which is that finance
+
+1619
+01:14:05,700 --> 01:14:09,620
+is the language by which you
+conduct discussion and analysis
+
+1620
+01:14:09,620 --> 01:14:11,570
+in business negotiations.
+
+1621
+01:14:11,570 --> 01:14:15,860
+But even apart from this, I
+would argue that most of you
+
+1622
+01:14:15,860 --> 01:14:18,230
+are probably
+thinking you can beat
+
+1623
+01:14:18,230 --> 01:14:20,060
+the market if you
+work hard enough
+
+1624
+01:14:20,060 --> 01:14:21,620
+and if you're smart enough.
+
+1625
+01:14:21,620 --> 01:14:24,170
+That's not the perspective
+of modern finance theory.
+
+1626
+01:14:24,170 --> 01:14:26,420
+So remember I was telling
+you the difference to Warren
+
+1627
+01:14:26,420 --> 01:14:28,130
+Buffett and modern finance.
+
+1628
+01:14:28,130 --> 01:14:29,480
+They do part company.
+
+1629
+01:14:29,480 --> 01:14:31,340
+Warren Buffett
+literally believes
+
+1630
+01:14:31,340 --> 01:14:34,780
+that he can pick stocks
+better than you and I can.
+
+1631
+01:14:34,780 --> 01:14:37,150
+And what academics
+would have you believe
+
+1632
+01:14:37,150 --> 01:14:40,060
+is that nobody can pick
+stocks, that it's all luck,
+
+1633
+01:14:40,060 --> 01:14:41,710
+and what you ought
+to do is simply buy
+
+1634
+01:14:41,710 --> 01:14:43,300
+the tangency portfolio.
+
+1635
+01:14:43,300 --> 01:14:45,550
+It's going to turn out that
+both of these perspectives
+
+1636
+01:14:45,550 --> 01:14:48,610
+are wrong, and they're
+right in very specific ways,
+
+1637
+01:14:48,610 --> 01:14:51,730
+and I'm going to show you
+how to put it together.
+
+1638
+01:14:51,730 --> 01:14:53,230
+But let me first
+start by motivating
+
+1639
+01:14:53,230 --> 01:14:54,970
+this idea of efficient markets.
+
+1640
+01:14:54,970 --> 01:14:59,320
+Why you cannot make money, why
+all information is incorporated
+
+1641
+01:14:59,320 --> 01:15:00,310
+into market prices.
+
+1642
+01:15:00,310 --> 01:15:02,920
+And to do that, I'm going
+to tell you about a research
+
+1643
+01:15:02,920 --> 01:15:06,550
+paper that was published in
+2003 by two economists, Michael
+
+1644
+01:15:06,550 --> 01:15:10,294
+Maloney and Herold Mulhearn,
+titled the complexity
+
+1645
+01:15:10,294 --> 01:15:12,460
+of price discovery in an
+efficient market, the stock
+
+1646
+01:15:12,460 --> 01:15:16,891
+market reaction to
+the Challenger crash.
+
+1647
+01:15:16,891 --> 01:15:19,190
+Now this is a rather
+somber subject.
+
+1648
+01:15:19,190 --> 01:15:23,570
+It has to do with an event that
+occurred on January 28, 1986,
+
+1649
+01:15:23,570 --> 01:15:26,270
+at 11:39 AM.
+
+1650
+01:15:26,270 --> 01:15:29,540
+At that time, the
+Challenger space shuttle
+
+1651
+01:15:29,540 --> 01:15:32,810
+exploded before our very eyes.
+
+1652
+01:15:32,810 --> 01:15:35,570
+Apparently, one of
+the booster rockets
+
+1653
+01:15:35,570 --> 01:15:39,590
+ignited and destroyed
+the space shuttle.
+
+1654
+01:15:39,590 --> 01:15:43,340
+11: 47, the space shuttle was
+reported to have exploded.
+
+1655
+01:15:43,340 --> 01:15:49,400
+It came across the news
+wire 12:17, Lockheed,
+
+1656
+01:15:49,400 --> 01:15:51,920
+which is one of the contractors
+that built the shuttle,
+
+1657
+01:15:51,920 --> 01:15:53,390
+had no comment.
+
+1658
+01:15:53,390 --> 01:15:57,080
+12:52, Rockwell International,
+another one of the vendors
+
+1659
+01:15:57,080 --> 01:16:00,050
+that built parts for the space
+shuttle, they had no comment.
+
+1660
+01:16:00,050 --> 01:16:02,820
+This is all through
+the news wire.
+
+1661
+01:16:02,820 --> 01:16:06,750
+And over the course of
+the next several months,
+
+1662
+01:16:06,750 --> 01:16:10,620
+a presidential
+commission was impaneled
+
+1663
+01:16:10,620 --> 01:16:15,270
+to study what happened with
+the space shuttle explosion.
+
+1664
+01:16:15,270 --> 01:16:17,220
+And many of you
+know, the physicist
+
+1665
+01:16:17,220 --> 01:16:19,410
+Richard Feynman
+was on that panel
+
+1666
+01:16:19,410 --> 01:16:22,980
+and wrote a dissenting
+opinion about what happened.
+
+1667
+01:16:22,980 --> 01:16:25,560
+But the bottom line, after
+all the dust settled,
+
+1668
+01:16:25,560 --> 01:16:30,120
+was that in June of that year,
+so about six months later,
+
+1669
+01:16:30,120 --> 01:16:32,280
+there was a report
+that was produced
+
+1670
+01:16:32,280 --> 01:16:36,570
+that showed that it was an
+O-ring, a piece of rubber,
+
+1671
+01:16:36,570 --> 01:16:40,920
+around a booster rocket that
+ended up becoming brittle.
+
+1672
+01:16:40,920 --> 01:16:43,520
+And because it became
+brittle in the cold weather,
+
+1673
+01:16:43,520 --> 01:16:46,230
+there were gases that leaked
+from that booster rocket,
+
+1674
+01:16:46,230 --> 01:16:49,150
+and those gases
+ignited after take off.
+
+1675
+01:16:49,150 --> 01:16:51,450
+And so in the end, after
+all of this analysis,
+
+1676
+01:16:51,450 --> 01:16:55,320
+it was determined that
+the O-ring was at fault.
+
+1677
+01:16:55,320 --> 01:16:58,020
+And who produced this
+O-ring and the rocket?
+
+1678
+01:16:58,020 --> 01:16:59,020
+It was Morton Thiokol.
+
+1679
+01:17:01,620 --> 01:17:04,920
+They were the culprit, or
+the weak link in all of this,
+
+1680
+01:17:04,920 --> 01:17:06,210
+according to this study.
+
+1681
+01:17:08,790 --> 01:17:14,560
+Now, this was on June 9, 1986.
+
+1682
+01:17:14,560 --> 01:17:19,510
+Let me show you what happened
+to the stock prices of all
+
+1683
+01:17:19,510 --> 01:17:23,930
+of the different vendors
+for space shuttle parts,
+
+1684
+01:17:23,930 --> 01:17:27,380
+right after the explosion
+on January the 28th,
+
+1685
+01:17:27,380 --> 01:17:30,580
+six months earlier.
+
+1686
+01:17:30,580 --> 01:17:32,350
+Let me show you a graph.
+
+1687
+01:17:32,350 --> 01:17:34,960
+There are four vendors.
+
+1688
+01:17:34,960 --> 01:17:40,220
+Lockheed, Martin Marietta,
+Rockwell, and Martin Thiokol.
+
+1689
+01:17:40,220 --> 01:17:46,010
+And these are the tick-by-tick
+price changes, all normalized
+
+1690
+01:17:46,010 --> 01:17:51,530
+to start at $1 at the very
+beginning of the sample, which
+
+1691
+01:17:51,530 --> 01:17:57,380
+was at 11 o'clock, or 11:39,
+when the shuttle exploded.
+
+1692
+01:17:57,380 --> 01:17:58,880
+So this is where
+we start, we all
+
+1693
+01:17:58,880 --> 01:18:02,420
+start with them at a dollar.
+
+1694
+01:18:02,420 --> 01:18:06,890
+Within minutes of the explosion,
+I'm talking minutes now,
+
+1695
+01:18:06,890 --> 01:18:08,450
+not nine months or six months.
+
+1696
+01:18:08,450 --> 01:18:13,670
+Within minutes, we see that
+the stock price that gets
+
+1697
+01:18:13,670 --> 01:18:18,770
+hit the hardest
+is Morton Thiokol.
+
+1698
+01:18:18,770 --> 01:18:20,390
+All of them get hit.
+
+1699
+01:18:20,390 --> 01:18:23,630
+But by 1 o'clock,
+Morton Thiokol's price
+
+1700
+01:18:23,630 --> 01:18:25,012
+is down below all the others.
+
+1701
+01:18:25,012 --> 01:18:27,470
+And this is all normalized so
+that they all start off at 1.
+
+1702
+01:18:27,470 --> 01:18:30,560
+So it's not difference of
+scale, I've rescaled them.
+
+1703
+01:18:30,560 --> 01:18:33,440
+And moreover, at
+the close of trading
+
+1704
+01:18:33,440 --> 01:18:39,140
+on that day, the only stock
+that was down significantly,
+
+1705
+01:18:39,140 --> 01:18:42,370
+the only one, was
+Morton Thiokol.
+
+1706
+01:18:42,370 --> 01:18:44,020
+They had to stop
+trading in that stock
+
+1707
+01:18:44,020 --> 01:18:45,145
+because it was down so far.
+
+1708
+01:18:47,560 --> 01:18:52,250
+This happened in
+less than six hours.
+
+1709
+01:18:52,250 --> 01:18:55,190
+It took the
+commission six months
+
+1710
+01:18:55,190 --> 01:18:57,750
+to come up with the
+O-ring and Morton Thiokol.
+
+1711
+01:18:57,750 --> 01:19:01,910
+Now, if you look at this,
+you don't see an O-ring.
+
+1712
+01:19:01,910 --> 01:19:03,920
+But you see Morton Thiokol.
+
+1713
+01:19:03,920 --> 01:19:06,909
+Plain and simple,
+like a sore thumb.
+
+1714
+01:19:06,909 --> 01:19:08,200
+This is what I'm talking about.
+
+1715
+01:19:08,200 --> 01:19:11,037
+This is the wisdom of crowds.
+
+1716
+01:19:11,037 --> 01:19:12,870
+This is why, when you
+look at market prices,
+
+1717
+01:19:12,870 --> 01:19:15,036
+you should look at them
+with a certain degree of awe
+
+1718
+01:19:15,036 --> 01:19:16,230
+and respect.
+
+1719
+01:19:16,230 --> 01:19:18,750
+It's because it
+aggregates information
+
+1720
+01:19:18,750 --> 01:19:20,340
+like you wouldn't believe.
+
+1721
+01:19:20,340 --> 01:19:21,840
+It's phenomenal.
+
+1722
+01:19:21,840 --> 01:19:24,240
+So this is what economists
+like to trot out
+
+1723
+01:19:24,240 --> 01:19:26,370
+and say, see I told you so.
+
+1724
+01:19:26,370 --> 01:19:28,211
+This is what we're good at.
+
+1725
+01:19:28,211 --> 01:19:30,210
+What I'm going to talk
+to you about on Wednesday
+
+1726
+01:19:30,210 --> 01:19:33,750
+is all of the other examples
+of where this fails.
+
+1727
+01:19:33,750 --> 01:19:35,012
+So this is the good news.
+
+1728
+01:19:35,012 --> 01:19:37,220
+On Wednesday, we're going
+to talk about the bad news.
+
+1729
+01:19:37,220 --> 01:19:39,360
+OK, see you then.

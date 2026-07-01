@@ -1,0 +1,892 @@
+{
+  "course_slug": "15-280-fall-2016",
+  "course_title": "Communication for Managers",
+  "assessments": [
+    {
+      "title": "Communication for Managers - Assignments Applied Homework",
+      "description": "Applied Homework covering written communication, presentation skills, and persuasion techniques for managers.",
+      "kind": "homework",
+      "difficulty": "hard",
+      "generated_from": "assignments",
+      "time_limit_minutes": 45,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "When writing a business memo, where should the most important information (the recommendation or key finding) appear?",
+          "options": [
+            {
+              "id": "a",
+              "text": "At the very end, to build suspense and lead the reader through your reasoning"
+            },
+            {
+              "id": "b",
+              "text": "At the beginning, so busy executives can immediately grasp the main point"
+            },
+            {
+              "id": "c",
+              "text": "Buried in the middle, surrounded by supporting evidence"
+            },
+            {
+              "id": "d",
+              "text": "In a footnote, to keep the body of the memo concise"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "Effective business memos follow a 'bottom-line up front' (BLUF) structure. As emphasized in 'The Best Memo You'll Ever Write,' executives are time-constrained and need to see the recommendation or key finding immediately. Supporting evidence and reasoning follow the main point.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In persuasive business communication, emotional appeals alone are sufficient to convince a senior executive audience to adopt a new strategy.",
+          "correct_answer": "false",
+          "explanation": "Effective persuasive communication for managers requires a combination of logical reasoning (logos), credibility (ethos), and appropriate emotional appeal (pathos). Relying solely on emotional appeals without data, evidence, and logical structure will undermine credibility with an executive audience. The course emphasizes that persuasion in business contexts must be grounded in evidence and structured argumentation.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A manager needs to present quarterly results that include both strong revenue growth and a significant increase in customer churn. According to strategic communication principles, what is the best approach?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Present only the revenue growth to maintain team morale"
+            },
+            {
+              "id": "b",
+              "text": "Lead with the churn problem and omit revenue data to create urgency"
+            },
+            {
+              "id": "c",
+              "text": "Acknowledge both results transparently, framing the churn issue within a proposed action plan"
+            },
+            {
+              "id": "d",
+              "text": "Delegate the presentation to a subordinate to avoid being associated with bad news"
+            }
+          ],
+          "correct_answer": "c",
+          "explanation": "Strategic communication requires transparency and credibility. Hiding bad news erodes trust, while presenting it without context creates unnecessary panic. The course teaches that effective managers frame challenges within actionable solutions, demonstrating both honesty and leadership capability.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are key principles of effective presentation delivery covered in the course? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "Making eye contact with different sections of the audience"
+            },
+            {
+              "id": "b",
+              "text": "Reading directly from your slides to ensure accuracy"
+            },
+            {
+              "id": "c",
+              "text": "Using purposeful pauses for emphasis and to let key points land"
+            },
+            {
+              "id": "d",
+              "text": "Varying vocal tone and pace to maintain audience engagement"
+            },
+            {
+              "id": "e",
+              "text": "Standing completely still to appear authoritative"
+            }
+          ],
+          "correct_answer": ["a", "c", "d"],
+          "explanation": "The course emphasizes that effective presenters engage the audience through eye contact, strategic pausing, and vocal variety. Reading from slides signals poor preparation and disengages the audience. While purposeful movement and gestures are encouraged, standing rigidly still does not convey authority — it conveys discomfort.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "You are writing a recommendation email to your VP proposing a $500K investment in a new software system. Which structure best follows the principles of executive writing taught in the course?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Subject: Software Update → Paragraph 1: History of current system → Paragraph 2: Technical specifications → Paragraph 3: Cost → Paragraph 4: Recommendation"
+            },
+            {
+              "id": "b",
+              "text": "Subject: Recommendation: Invest $500K in New CRM System → Paragraph 1: Recommendation and expected ROI → Paragraph 2: Key supporting evidence → Paragraph 3: Implementation timeline and risks → Paragraph 4: Requested next step"
+            },
+            {
+              "id": "c",
+              "text": "Subject: Quick Question → Paragraph 1: Casual introduction → Paragraph 2: Mention of software → Paragraph 3: Ask VP to research options"
+            },
+            {
+              "id": "d",
+              "text": "Subject: URGENT: System Replacement Needed ASAP → Paragraph 1: List of all current system failures → Paragraph 2: Demand for immediate action"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "Option B follows executive writing best practices: a specific, informative subject line; the recommendation and bottom line up front; supporting evidence organized by importance; risk acknowledgment; and a clear call to action. This structure respects the reader's time and makes it easy to act on the communication.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: When adapting a message for different audiences, the core recommendation should change depending on who you are addressing.",
+          "correct_answer": "false",
+          "explanation": "Audience adaptation means adjusting the framing, level of detail, language, and emphasis — not changing the underlying recommendation. The course teaches that the same recommendation might be presented with financial metrics for a CFO and with operational impacts for a COO, but the core message remains consistent. Changing the recommendation itself based on audience would be dishonest and strategically incoherent.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to the course's framework for argument structure, what is the relationship between a claim, evidence, and a warrant?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The claim is the evidence, the evidence is the warrant, and the warrant is the conclusion"
+            },
+            {
+              "id": "b",
+              "text": "The claim is your main assertion, the evidence is the supporting data, and the warrant is the logical connection explaining why the evidence supports the claim"
+            },
+            {
+              "id": "c",
+              "text": "The warrant is the main assertion, the claim is the supporting data, and the evidence is optional"
+            },
+            {
+              "id": "d",
+              "text": "All three terms are interchangeable and refer to the same concept"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "The claim-evidence-warrant framework is central to persuasive writing in the course. The claim states what you believe to be true, the evidence provides factual support, and the warrant is the often-unstated reasoning that connects the two. Strong business arguments make all three explicit rather than assuming the audience will fill in the warrant themselves.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "A team leader needs to deliver critical feedback to a direct report about missed deadlines. According to course principles on feedback delivery, which of the following should the leader do? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "Focus on specific observable behaviors rather than character judgments"
+            },
+            {
+              "id": "b",
+              "text": "Deliver the feedback publicly in a team meeting to set an example"
+            },
+            {
+              "id": "c",
+              "text": "Describe the impact of the behavior on the team and project outcomes"
+            },
+            {
+              "id": "d",
+              "text": "Collaborate on an action plan with concrete next steps"
+            },
+            {
+              "id": "e",
+              "text": "Sandwich the criticism between unrelated compliments to soften the blow"
+            }
+          ],
+          "correct_answer": ["a", "c", "d"],
+          "explanation": "Effective feedback is specific, behavior-focused, impact-oriented, and forward-looking. Public criticism is humiliating and counterproductive. The 'feedback sandwich' technique (option E) is discussed in the course as often counterproductive because it dilutes the message and can feel manipulative. Instead, direct and respectful private conversation with a clear action plan is more effective.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In cross-cultural communication, the distinction between 'high-context' and 'low-context' cultures primarily affects which aspect of managerial communication?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The font size used in presentations"
+            },
+            {
+              "id": "b",
+              "text": "How much meaning is conveyed explicitly in words versus implicitly through context, relationships, and nonverbal cues"
+            },
+            {
+              "id": "c",
+              "text": "Whether managers should use email or phone calls"
+            },
+            {
+              "id": "d",
+              "text": "The length of business meetings"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "High-context cultures (e.g., Japan, many Middle Eastern countries) rely heavily on implicit communication, shared understanding, and nonverbal cues, while low-context cultures (e.g., the US, Germany) favor explicit, direct verbal communication. Understanding this distinction helps managers adapt their communication style when working across cultures, avoiding misunderstandings that arise from differing expectations about directness.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the course reading 'How to Become an Authentic Speaker,' authenticity in public speaking means being completely spontaneous and avoiding any preparation or rehearsal.",
+          "correct_answer": "false",
+          "explanation": "Authentic speaking does not mean being unprepared. The reading emphasizes that authenticity comes from genuinely connecting with your material and audience, not from winging it. Effective speakers prepare thoroughly but deliver in a way that feels natural and conversational rather than robotic or over-rehearsed. Preparation actually enables authenticity by freeing the speaker to be present and responsive.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A manager is preparing a presentation for the board of directors. She has 20 minutes and 45 slides of detailed analysis. What should she do?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Present all 45 slides quickly, speaking faster to fit everything in"
+            },
+            {
+              "id": "b",
+              "text": "Distill the presentation to 8-10 key slides focused on decisions the board needs to make, with backup slides in an appendix"
+            },
+            {
+              "id": "c",
+              "text": "Skip the presentation and distribute a written report instead"
+            },
+            {
+              "id": "d",
+              "text": "Ask for a 90-minute time slot so she can cover everything"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "The course teaches that effective presentations are audience-centered and time-appropriate. Board members need high-level insights and decision-relevant information, not exhaustive detail. Distilling to key slides shows strategic thinking, respects the audience's time, and ensures the most important messages land. Detailed analysis belongs in backup slides or a leave-behind document.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the course reading 'In Praise of the Incomplete Leader,' which of the following capabilities are identified as essential for effective leadership communication? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "Sensemaking — interpreting complex situations and communicating a coherent narrative"
+            },
+            {
+              "id": "b",
+              "text": "Relating — building trusting relationships through genuine interpersonal communication"
+            },
+            {
+              "id": "c",
+              "text": "Omniscience — having and communicating expertise in all domains"
+            },
+            {
+              "id": "d",
+              "text": "Visioning — creating and communicating a compelling picture of the future"
+            }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "'In Praise of the Incomplete Leader' argues that no leader excels at everything, and that effective leadership involves four capabilities: sensemaking, relating, visioning, and inventing. The article explicitly rejects the myth of the omniscient 'complete leader' and instead advocates for leaders who know their strengths, develop complementary skills, and build teams that fill gaps.",
+          "difficulty": "hard"
+        }
+      ]
+    },
+    {
+      "title": "Communication for Managers - Assignments Practice Quiz",
+      "description": "Practice Quiz covering written communication fundamentals, presentation skills, and persuasive techniques.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "assignments",
+      "time_limit_minutes": 25,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: In a business memo, the most important information should appear at the end to build toward a conclusion.",
+          "correct_answer": "false",
+          "explanation": "Business memos should lead with the bottom line. The 'BLUF' (Bottom Line Up Front) principle, emphasized in 'The Best Memo You'll Ever Write,' ensures that busy readers immediately understand the key takeaway. Supporting details and reasoning follow the main point.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which of the following best describes the concept of 'audience adaptation' in strategic communication?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Telling each audience what they want to hear, even if it means contradicting yourself"
+            },
+            {
+              "id": "b",
+              "text": "Using the same message for all audiences to ensure consistency"
+            },
+            {
+              "id": "c",
+              "text": "Adjusting the framing, detail level, and emphasis of your message based on what the audience needs to know and what motivates them"
+            },
+            {
+              "id": "d",
+              "text": "Simplifying all messages to a fifth-grade reading level"
+            }
+          ],
+          "correct_answer": "c",
+          "explanation": "Audience adaptation is about tailoring how you present information — the framing, emphasis, level of technical detail, and connection to the audience's priorities — without changing the underlying facts or recommendation. It requires understanding what your audience already knows, what they care about, and what action you want them to take.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to Amy Cuddy's research on body language discussed in the course, 'power poses' are theorized to:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Make others perceive you as physically threatening"
+            },
+            {
+              "id": "b",
+              "text": "Increase feelings of confidence and reduce stress hormones before high-stakes interactions"
+            },
+            {
+              "id": "c",
+              "text": "Replace the need for verbal communication entirely"
+            },
+            {
+              "id": "d",
+              "text": "Signal submission to establish trust with superiors"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "Amy Cuddy's research, featured in the course reading 'Your Body Language Shapes Who You Are,' proposes that adopting expansive, open postures ('power poses') before stressful situations can increase testosterone and decrease cortisol, leading to greater feelings of confidence. The research suggests our bodies can influence our mental state, not just reflect it.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Which of the following are characteristics of effective executive writing? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "Uses short, active sentences"
+            },
+            {
+              "id": "b",
+              "text": "Includes lengthy background sections before stating the point"
+            },
+            {
+              "id": "c",
+              "text": "Employs clear headings and bullet points for scannability"
+            },
+            {
+              "id": "d",
+              "text": "States the requested action or decision explicitly"
+            }
+          ],
+          "correct_answer": ["a", "c", "d"],
+          "explanation": "Executive writing is designed for busy decision-makers. It favors short, active sentences for clarity; uses formatting like headings and bullets to aid scanning; and always makes clear what action or decision is being requested. Lengthy background sections before the main point waste the reader's time and bury the lead.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The course teaches that social media communication for professionals should use the same informal tone as personal social media.",
+          "correct_answer": "false",
+          "explanation": "While professional social media communication should be more conversational than a formal business report, the course emphasizes that professionals must maintain credibility, be mindful of their organization's brand, and consider the permanence of digital communication. Professional social media requires a strategic approach that balances approachability with authority.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What is the primary purpose of a 'situation-complication-resolution' (SCR) structure in business communication?",
+          "options": [
+            {
+              "id": "a",
+              "text": "To make documents longer and more detailed"
+            },
+            {
+              "id": "b",
+              "text": "To create a narrative arc that helps the audience understand why a recommendation matters by establishing context, identifying the problem, and proposing a solution"
+            },
+            {
+              "id": "c",
+              "text": "To hide bad news within a longer document"
+            },
+            {
+              "id": "d",
+              "text": "To replace data and evidence with storytelling"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "The SCR framework (also called the Minto Pyramid Principle) is a powerful structure for business communication. The Situation establishes shared context, the Complication identifies what has changed or what problem has emerged, and the Resolution presents your recommendation. This structure helps audiences understand not just what you recommend but why it matters.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The concept of 'executive presence' as discussed in the course primarily encompasses:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Physical attractiveness and expensive clothing"
+            },
+            {
+              "id": "b",
+              "text": "A combination of gravitas (how you act), communication (how you speak), and appearance (how you look)"
+            },
+            {
+              "id": "c",
+              "text": "The ability to dominate conversations and talk more than others"
+            },
+            {
+              "id": "d",
+              "text": "Having a corner office and a prestigious title"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "As discussed in 'Executive Presence for Leadership Teams,' executive presence is a multidimensional concept involving gravitas (confidence, decisiveness, composure under pressure), communication (speaking skills, ability to command a room, active listening), and appearance (professional polish and grooming). It is about projecting competence and authority, not about superficial status markers.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: Active listening, as taught in the interpersonal communication module, involves not only hearing the words but also observing nonverbal cues, asking clarifying questions, and paraphrasing to confirm understanding.",
+          "correct_answer": "true",
+          "explanation": "Active listening is a foundational interpersonal communication skill covered in the course. It goes well beyond passive hearing to include attending to body language and tone, asking probing or clarifying questions, and reflecting back what you have heard to ensure accurate understanding. These techniques build trust and reduce miscommunication in managerial relationships.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "When preparing a persuasive presentation, the course recommends anticipating counterarguments. Which of the following are benefits of addressing potential objections proactively? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "It demonstrates thorough analysis and builds credibility"
+            },
+            {
+              "id": "b",
+              "text": "It prevents the audience from asking any questions"
+            },
+            {
+              "id": "c",
+              "text": "It shows respect for the audience's perspective and concerns"
+            },
+            {
+              "id": "d",
+              "text": "It strengthens your argument by showing you have considered alternative viewpoints"
+            }
+          ],
+          "correct_answer": ["a", "c", "d"],
+          "explanation": "Proactively addressing counterarguments serves multiple purposes: it signals intellectual rigor and credibility (you have done your homework), it shows empathy for the audience's concerns, and it actually strengthens your position by demonstrating that your recommendation holds up even when challenged. It does not, however, eliminate audience questions — nor should it, as questions indicate engagement.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "A manager sends a detailed email with three separate requests buried across five paragraphs. Two of the three requests are missed by the recipient. What communication principle was violated?",
+          "options": [
+            {
+              "id": "a",
+              "text": "The email was too short"
+            },
+            {
+              "id": "b",
+              "text": "The email lacked clear structure — action items should be visually distinct and easy to identify"
+            },
+            {
+              "id": "c",
+              "text": "The manager should have used a phone call instead"
+            },
+            {
+              "id": "d",
+              "text": "Emails should never contain more than one sentence"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "The course emphasizes that effective email communication requires clear structure, especially when multiple action items are involved. Requests should be numbered or bulleted, placed prominently (often at the beginning or end), and each should specify who needs to do what by when. Burying action items in dense paragraphs virtually guarantees they will be missed.",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "title": "Communication for Managers - Readings Applied Homework",
+      "description": "Applied Homework covering communication theory, leadership communication, and feedback frameworks from course readings.",
+      "kind": "homework",
+      "difficulty": "medium",
+      "generated_from": "readings",
+      "time_limit_minutes": 45,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to 'The Best Memo You'll Ever Write,' what is the single most important structural choice in a business memo?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Using formal, academic language throughout"
+            },
+            {
+              "id": "b",
+              "text": "Placing the main conclusion or recommendation in the first paragraph"
+            },
+            {
+              "id": "c",
+              "text": "Including at least five pages of supporting analysis"
+            },
+            {
+              "id": "d",
+              "text": "Ending with a dramatic rhetorical question"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "The reading emphasizes that the most critical structural decision is leading with your conclusion. Senior leaders often read only the first paragraph, so burying the recommendation at the end means it may never be read. This 'inverted pyramid' or BLUF approach is the cornerstone of effective memo writing taught in the course.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Based on the course reading 'In Praise of the Incomplete Leader,' which of the following statements accurately reflect the article's argument? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "Great leaders excel at all four leadership capabilities equally"
+            },
+            {
+              "id": "b",
+              "text": "Leaders should identify their strengths and actively seek out others who complement their weaknesses"
+            },
+            {
+              "id": "c",
+              "text": "The myth of the 'complete leader' who can do everything is both unrealistic and counterproductive"
+            },
+            {
+              "id": "d",
+              "text": "Effective leadership is distributed across networks of people, not concentrated in one individual"
+            }
+          ],
+          "correct_answer": ["b", "c", "d"],
+          "explanation": "The article argues against the myth of the complete, all-capable leader. Instead, it proposes that leadership is a set of four capabilities (sensemaking, relating, visioning, inventing) that no single person masters entirely. Effective leaders know their strengths and limitations, and they build complementary teams and networks to cover the full range of leadership needs.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to 'Your Body Language Shapes Who You Are,' nonverbal communication only affects how others perceive us, not how we perceive ourselves.",
+          "correct_answer": "false",
+          "explanation": "A central argument of Amy Cuddy's work is that body language is bidirectional: it shapes not only how others see us but also how we see ourselves. The research suggests that adopting confident postures can actually change our internal hormonal state and psychological experience, meaning our bodies can 'fake it until we become it.'",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The course reading 'How to Become an Authentic Speaker' argues that the most engaging speakers succeed primarily because they:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Memorize their speeches word-for-word to avoid mistakes"
+            },
+            {
+              "id": "b",
+              "text": "Connect genuinely with their message and audience rather than performing a rehearsed act"
+            },
+            {
+              "id": "c",
+              "text": "Use as many multimedia slides as possible"
+            },
+            {
+              "id": "d",
+              "text": "Speak as fast as possible to convey maximum information"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "The reading argues that authenticity — genuinely connecting with your material and your audience — is what distinguishes great speakers from merely competent ones. This does not mean being unprepared; rather, it means preparing so thoroughly that you can be genuinely present and responsive during delivery, rather than rigidly performing a script.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to 'Executive Presence for Leadership Teams,' which dimensions make up executive presence? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "Gravitas — projecting confidence, composure under pressure, and decisiveness"
+            },
+            {
+              "id": "b",
+              "text": "Intimidation — using positional power to silence dissent"
+            },
+            {
+              "id": "c",
+              "text": "Communication — speaking clearly, commanding a room, and listening effectively"
+            },
+            {
+              "id": "d",
+              "text": "Appearance — presenting a polished, professional image"
+            }
+          ],
+          "correct_answer": ["a", "c", "d"],
+          "explanation": "Executive presence comprises three pillars: gravitas (how you act — confidence, poise, decisiveness), communication (how you speak and listen — clarity, authority, engagement), and appearance (how you present yourself physically). Intimidation is explicitly not a component; executive presence is about earning respect through competence and composure, not coercion.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The course readings suggest that the most effective leaders communicate with absolute certainty at all times, never expressing doubt or acknowledging limitations.",
+          "correct_answer": "false",
+          "explanation": "'In Praise of the Incomplete Leader' directly contradicts this idea. The reading argues that acknowledging limitations and seeking input from others are signs of strength, not weakness. Leaders who pretend to have all the answers create cultures of dependence and miss critical information. Authentic communication includes appropriate expressions of uncertainty and openness to other perspectives.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the context of the course's readings on persuasion, the concept of 'framing' refers to:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Putting a physical frame around a printed document"
+            },
+            {
+              "id": "b",
+              "text": "The way an issue is presented and contextualized, which influences how the audience interprets and responds to it"
+            },
+            {
+              "id": "c",
+              "text": "Blaming someone else for a problem"
+            },
+            {
+              "id": "d",
+              "text": "Creating a rigid outline that cannot be modified"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "Framing is a fundamental concept in persuasive communication. The same set of facts can lead to different interpretations depending on how they are presented. For example, describing a glass as 'half full' versus 'half empty' frames the same reality differently. Effective managers consciously choose frames that help audiences see situations in productive ways without distorting the underlying facts.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Based on the course readings, what is the primary risk of the 'feedback sandwich' approach (positive-negative-positive)?",
+          "options": [
+            {
+              "id": "a",
+              "text": "It takes too long to deliver"
+            },
+            {
+              "id": "b",
+              "text": "The critical feedback gets lost or diluted between the positive comments, and recipients learn to distrust praise as a signal that criticism is coming"
+            },
+            {
+              "id": "c",
+              "text": "It does not include enough positive feedback"
+            },
+            {
+              "id": "d",
+              "text": "It is too direct and harsh"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "The course readings discuss how the feedback sandwich can backfire. When used habitually, employees learn to brace for criticism whenever they receive praise, undermining the value of genuine positive feedback. Additionally, sandwiching softens the critical message to the point where the recipient may not recognize the urgency of the issue. Direct, specific, behavior-focused feedback delivered with respect is more effective.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the course readings on cross-cultural communication, which of the following should a manager consider when communicating with team members from different cultural backgrounds? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "Attitudes toward hierarchy and authority may affect how directly people communicate disagreement"
+            },
+            {
+              "id": "b",
+              "text": "Concepts of time (monochronic vs. polychronic) affect expectations around deadlines and meeting schedules"
+            },
+            {
+              "id": "c",
+              "text": "Everyone should simply adopt the manager's cultural communication style"
+            },
+            {
+              "id": "d",
+              "text": "Silence in a meeting may indicate thoughtful consideration rather than disengagement, depending on cultural norms"
+            }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Cross-cultural communication requires understanding that communication norms vary significantly across cultures. Attitudes toward hierarchy, concepts of time, and the meaning of silence are all culturally influenced. Expecting everyone to adopt one communication style ignores these differences and leads to misunderstandings, exclusion, and lost input from team members whose cultural norms differ from the manager's.",
+          "difficulty": "hard"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to course readings, nonverbal cues such as posture, gestures, and facial expressions typically carry more weight than words alone when the two are in conflict.",
+          "correct_answer": "true",
+          "explanation": "Research discussed in the course readings, including Cuddy's work on body language, indicates that when verbal and nonverbal messages conflict, people tend to believe the nonverbal signal. For example, a manager who says 'I'm open to your ideas' while crossing their arms and avoiding eye contact will be perceived as closed off. This is why the course emphasizes aligning verbal and nonverbal communication.",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "title": "Communication for Managers - Readings Practice Quiz",
+      "description": "Practice Quiz covering communication theory, leadership communication, and key concepts from assigned readings.",
+      "kind": "practice_quiz",
+      "difficulty": "medium",
+      "generated_from": "readings",
+      "time_limit_minutes": 25,
+      "is_published": true,
+      "questions": [
+        {
+          "question_type": "multiple_choice",
+          "question_text": "Which of the following best describes the 'inverted pyramid' structure recommended in 'The Best Memo You'll Ever Write'?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Start with minor details and build up to the main point at the end"
+            },
+            {
+              "id": "b",
+              "text": "Start with the most important information and add supporting details in decreasing order of importance"
+            },
+            {
+              "id": "c",
+              "text": "Alternate between important and unimportant points throughout the document"
+            },
+            {
+              "id": "d",
+              "text": "Place the most important information in the middle of the document"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "The inverted pyramid, borrowed from journalism, puts the most critical information first — the recommendation or key finding — followed by supporting details arranged from most to least important. This structure ensures that even if the reader stops partway through, they have already absorbed the essential message.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to Amy Cuddy's TED talk and the associated course reading, holding an expansive, open body posture for two minutes before a high-stakes situation can affect one's hormonal levels.",
+          "correct_answer": "true",
+          "explanation": "Cuddy's original research suggested that holding 'power poses' for two minutes could increase testosterone (associated with confidence) and decrease cortisol (associated with stress). While the replication of the hormonal findings has been debated in the academic literature, the course presents this as a framework for understanding how body language can influence both self-perception and others' perceptions.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "According to the assigned readings, which of the following is a key characteristic of an 'authentic speaker'?",
+          "options": [
+            {
+              "id": "a",
+              "text": "They always improvise and never prepare"
+            },
+            {
+              "id": "b",
+              "text": "They share a genuine personal connection to the material while maintaining professional structure"
+            },
+            {
+              "id": "c",
+              "text": "They avoid showing any emotion to maintain professionalism"
+            },
+            {
+              "id": "d",
+              "text": "They use complex vocabulary to demonstrate expertise"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "Authentic speakers, as described in 'How to Become an Authentic Speaker,' find a genuine personal connection to their topic and share it with the audience. This does not mean being unprepared or overly emotional — it means preparing well enough to speak naturally and showing genuine engagement with the material. Emotional connection, when appropriate, actually enhances credibility rather than undermining it.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "Based on the readings on feedback, which of the following make feedback more likely to be received constructively? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "Focusing on specific, observable behaviors rather than personality traits"
+            },
+            {
+              "id": "b",
+              "text": "Delivering it as soon as possible after the observed behavior"
+            },
+            {
+              "id": "c",
+              "text": "Using 'you always' or 'you never' statements to emphasize patterns"
+            },
+            {
+              "id": "d",
+              "text": "Explaining the impact of the behavior on outcomes"
+            }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "Constructive feedback is specific (focused on behaviors, not character), timely (delivered soon after the event while details are fresh), and impact-oriented (explaining why the behavior matters). 'You always' and 'you never' statements are absolutes that trigger defensiveness and are almost always inaccurate, making feedback less productive.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "In the course readings on persuasion, the Greek rhetorical concept of 'ethos' refers to:",
+          "options": [
+            {
+              "id": "a",
+              "text": "The logical structure of an argument"
+            },
+            {
+              "id": "b",
+              "text": "The emotional appeal of a message"
+            },
+            {
+              "id": "c",
+              "text": "The credibility and trustworthiness of the speaker"
+            },
+            {
+              "id": "d",
+              "text": "The length and complexity of a document"
+            }
+          ],
+          "correct_answer": "c",
+          "explanation": "Ethos is one of Aristotle's three modes of persuasion (alongside logos and pathos). It refers to the character and credibility of the speaker or writer. In business communication, ethos is built through demonstrated expertise, integrity, track record, and the ability to show that you have the audience's interests in mind. Without ethos, even the strongest logical arguments may fail to persuade.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: The course readings suggest that in high-context cultures, saying 'no' directly is considered appropriate and expected in business negotiations.",
+          "correct_answer": "false",
+          "explanation": "In high-context cultures (e.g., Japan, Korea, many Southeast Asian countries), direct refusal is often considered impolite or confrontational. Instead, disagreement may be expressed through indirect language, silence, changing the subject, or qualified agreement. Understanding this is critical for managers working across cultures to avoid misinterpreting polite deflection as agreement.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "What does the reading 'Executive Presence for Leadership Teams' identify as the most important component of executive presence?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Physical appearance and wardrobe"
+            },
+            {
+              "id": "b",
+              "text": "Gravitas — the ability to project confidence, remain composed under pressure, and demonstrate decisiveness"
+            },
+            {
+              "id": "c",
+              "text": "Having an MBA from a prestigious university"
+            },
+            {
+              "id": "d",
+              "text": "Speaking louder than everyone else in the room"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "While executive presence encompasses gravitas, communication, and appearance, the reading identifies gravitas as the most critical and most difficult dimension to develop. Gravitas involves projecting confidence even under uncertainty, maintaining composure during crises, and demonstrating sound judgment — qualities that cannot be achieved through appearance or credentials alone.",
+          "difficulty": "medium"
+        },
+        {
+          "question_type": "multi_select",
+          "question_text": "According to the course readings, what are the risks of over-relying on email for important managerial communication? (Select all that apply)",
+          "options": [
+            {
+              "id": "a",
+              "text": "Tone is easily misinterpreted without vocal cues and body language"
+            },
+            {
+              "id": "b",
+              "text": "Complex or sensitive topics may require the back-and-forth of real-time conversation"
+            },
+            {
+              "id": "c",
+              "text": "Email is always the wrong medium for any business communication"
+            },
+            {
+              "id": "d",
+              "text": "Written messages create a permanent record that can be forwarded out of context"
+            }
+          ],
+          "correct_answer": ["a", "b", "d"],
+          "explanation": "The course readings discuss medium selection as a strategic communication choice. Email has limitations: lack of nonverbal cues makes tone ambiguous (especially for negative or sensitive messages), complex discussions benefit from real-time dialogue, and emails can be forwarded or quoted out of context. However, email is perfectly appropriate for many business communications — the key is matching medium to message.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "true_false",
+          "question_text": "True or false: According to the readings, the best way to handle a Q&A session after a presentation is to try to answer every question at length, even if it means going significantly over time.",
+          "correct_answer": "false",
+          "explanation": "The course readings on presentation skills advise managing Q&A strategically: answer questions concisely, offer to follow up offline on complex topics, and respect the time boundary. Going significantly over time disrespects the audience and can undermine an otherwise strong presentation. It is better to be direct, acknowledge when you do not know something, and promise to follow up.",
+          "difficulty": "easy"
+        },
+        {
+          "question_type": "multiple_choice",
+          "question_text": "The course readings emphasize that when receiving feedback, the most productive initial response is to:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Immediately defend your actions and explain why the feedback is wrong"
+            },
+            {
+              "id": "b",
+              "text": "Listen fully, ask clarifying questions, and thank the person before deciding whether and how to act on it"
+            },
+            {
+              "id": "c",
+              "text": "Ignore the feedback entirely if you disagree with it"
+            },
+            {
+              "id": "d",
+              "text": "Agree with everything to end the conversation quickly"
+            }
+          ],
+          "correct_answer": "b",
+          "explanation": "The course teaches that receiving feedback well is just as important as giving it effectively. The recommended approach is to listen without interrupting, ask questions to understand the specific behavior and its impact, express gratitude for the input, and then take time to reflect before deciding how to respond. Defensive reactions shut down future feedback, while passive agreement prevents genuine learning.",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}

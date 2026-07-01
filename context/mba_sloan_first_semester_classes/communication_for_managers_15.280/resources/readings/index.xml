@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Readings on MIT OpenCourseWare</title>
+    <link>/resources/readings/</link>
+    <description>Recent content in Readings on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/readings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Readings</title>
+      <link>/pages/readings/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/pages/readings/data.json</guid>
+      <description>&lt;p&gt;[GUIDE] = Munter, Mary, and Lynn Hamilton. &lt;em&gt;Guide to Managerial Communication: Effective Business Writing and Speaking&lt;/em&gt;. Pearson, 2013. ISBN: 9780132971331.&lt;/p&gt;&#xA;&lt;p&gt;&lt;table&gt;&#xA;&#xA;&lt;thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;SES #&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;TOPICS&#xA;&lt;/th&gt;&#xA;&#xA;&lt;th&gt;&#xA;&#xA;READINGS&#xA;&lt;/th&gt;&#xA;&lt;/p&gt;&#xA;&lt;/tr&gt;&#xA;&#xA;&lt;p&gt;&lt;/thead&gt;&#xA;&#xA;&lt;tr&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;S1&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&#xA;Course Introduction Communication Strategy&#xA;&lt;/td&gt;&#xA;&#xA;&lt;td&gt;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;[GUIDE] Chapter I, pp. 3–33.&lt;/p&gt;&#xA;&lt;p&gt;Greyser, Stephen A., and William Ellet. &amp;ldquo;&lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;https://hbr.org/product/DRW-Technologies/an/916535-PDF-ENG&#34;  aria-label=&#34;DRW Technologies (opens in a new tab)&#34;  &gt;DRW Technologies&lt;/a&gt;.&amp;rdquo; Harvard Business School Case. Harvard Business School Publishing. October 2015.&lt;/p&gt;&#xA;&lt;p&gt;Ancona, Deborah, Thomas W. Malone, et al. &amp;ldquo;&lt;a   class=&#34;external-link &#34;   target=&#34;_blank&#34;   href=&#34;https://hbr.org/2007/02/in-praise-of-the-incomplete-leader&#34;  aria-label=&#34;In Praise of the Incomplete Leader (opens in a new tab)&#34;  &gt;In Praise of the Incomplete Leader&lt;/a&gt;.&amp;rdquo; &lt;em&gt;Harvard Business Review&lt;/em&gt;, February 2007.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

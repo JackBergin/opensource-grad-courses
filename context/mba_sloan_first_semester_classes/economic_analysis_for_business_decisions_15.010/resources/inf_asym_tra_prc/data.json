@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>Asymmetric Information, Numeric Example on Comparative Advantage, Transfer Pricing, Numeric Example on Transfer Pricing.</p>\n",
+  "content_type": "resource",
+  "description": "Asymmetric Information, Numeric Example on Comparative Advantage, Transfer Pricing, Numeric Example on Transfer Pricing.",
+  "draft": false,
+  "file": "/courses/15-010-economic-analysis-for-business-decisions-fall-2004/0716d283a050ce4bdc9d4d6837f1a1d3_inf_asym_tra_prc.pdf",
+  "file_size": 242119,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem-solving Notes"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Recitations",
+  "parent_type": "CourseSection",
+  "parent_uid": "729197a3-8007-916f-29ae-b92113505210",
+  "resourcetype": "Document",
+  "title": "inf_asym_tra_prc.pdf",
+  "uid": "0716d283-a050-ce4b-dc9d-4d6837f1a1d3",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "15-010-economic-analysis-for-business-decisions-fall-2004"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "15-010-economic-analysis-for-business-decisions-fall-2004"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

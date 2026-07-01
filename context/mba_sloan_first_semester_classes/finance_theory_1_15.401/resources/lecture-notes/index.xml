@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Capital Budgeting Slides 1–36</title>
+      <link>/resources/mit15_401f08_lec18/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_401f08_lec18/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information about the practice of capital budgeting.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Course Summary Slides 1–16</title>
+      <link>/resources/mit15_401f08_summary/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_401f08_summary/data.json</guid>
+      <description>&lt;p&gt;This resource contains the slides for the course summary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Efficient Market Slides 1–26</title>
+      <link>/resources/mit15_401f08_lec21/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_401f08_lec21/data.json</guid>
+      <description>&lt;p&gt;This resource lists about the powers of observation, and efficient markets.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Equities Slides 1–23</title>
+      <link>/resources/mit15_401f08_lec07/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_401f08_lec07/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information about equities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fixed-Income Securities Slides 1–65</title>
+      <link>/resources/mit15_401f08_lec04/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_401f08_lec04/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related fixed-income securities.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Forward and Futures Contracts Slides 1–32</title>
+      <link>/resources/mit15_401f08_lec08/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_401f08_lec08/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to the dividend discount model, DDM with multiple stage growth, growth opportunities and growth stocks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Introduction and Course Overview Slides 1–20</title>
+      <link>/resources/mit15_401f08_lec01/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_401f08_lec01/data.json</guid>
+      <description>&lt;p&gt;This resource contains information related to motivation, fundamental challenges of finance, the framework of financial analysis, and six fundamental principles of finance.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Options Slides 1–30</title>
+      <link>/resources/mit15_401f08_lec10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_401f08_lec10/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information about the motivation, payoff diagrams, payoff tables and option strategies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Portfolio Theory Slides 1–46</title>
+      <link>/resources/mit15_401f08_lec13/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_401f08_lec13/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information about the Risk analytics and portfolio theory.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Risk and Return Slides 1–35</title>
+      <link>/resources/mit15_401f08_lec12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_401f08_lec12/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information about the introduction to risk and return.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The CAPM and APT Slides 1–28</title>
+      <link>/resources/mit15_401f08_lec15/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/resources/mit15_401f08_lec15/data.json</guid>
+      <description>&lt;p&gt;This resource contains the information about the review of portfolio theory, the capital asset pricing model, the arbitrage pricing theory and implementing the CAPM.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

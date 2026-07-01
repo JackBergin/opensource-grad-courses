@@ -1,0 +1,38 @@
+{
+  "content": "<p>This resource contains information related to the dividend discount model, DDM with multiple stage growth, growth opportunities and growth stocks.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains information related to the dividend discount model, DDM with multiple stage growth, growth opportunities and growth stocks.",
+  "draft": false,
+  "file": "/courses/15-401-finance-theory-i-fall-2008/a66f697aaeb23b8cfd2bda020172feb5_MIT15_401F08_lec08.pdf",
+  "file_size": 183937,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Video Lectures and Slides",
+  "parent_type": "CourseSection",
+  "parent_uid": "cc3f05d9-f4e4-4ed3-db60-b79712de51f4",
+  "resourcetype": "Document",
+  "title": "Forward and Futures Contracts Slides 1–32",
+  "uid": "a66f697a-aeb2-3b8c-fd2b-da020172feb5",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": ""
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

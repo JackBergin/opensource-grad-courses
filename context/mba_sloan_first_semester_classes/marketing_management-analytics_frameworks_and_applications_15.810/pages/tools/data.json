@@ -1,0 +1,15 @@
+
+{
+  "content": "\n    <h3 id=\"diffusion-model-simulator\">Diffusion Model Simulator</h3>\n\n<p><a href=\"../../resources/mit15_810f15_diffusion-1/index.html\">This Spreadsheet Simulates the Bass Diffusion Model (XLS)</a> <a href=\"../../resources/mit15_810f15_diffusion/index.html\">(PDF)</a></p>\n\n    <h3 id=\"conjoint-analysis\">Conjoint Analysis</h3>\n\n<p><a href=\"../../resources/mit15_810f15_conjoint-2/index.html\">Simplified Conjoint Analysis (XLS)</a> <a href=\"../../resources/mit15_810f15_conjoint-1/index.html\">(PDF)</a></p>\n\n    <h3 id=\"discover-software-for-conjoint-analysis\">Discover Software for Conjoint Analysis</h3>\n\n<p>For this content see the file <a href=\"../../resources/mit15_810f15_discover/index.html\">Discover Software for Conjoint Analysis (PDF)</a></p>\n",
+  "content_type": "page",
+  "description": "This section provides information on a diffusion model simulator and conjoint analysis.",
+  "draft": false,
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Tools"
+  ],
+  "ocw_type": "CourseSection",
+  "title": "Tools",
+  "uid": "90dfb98e-f415-249c-162e-c2b02f74c43e"
+}
+

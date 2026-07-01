@@ -1,0 +1,38 @@
+{
+  "content": "<p>This resource contains the information about the introduction to risk and return.</p>\n",
+  "content_type": "resource",
+  "description": "This resource contains the information about the introduction to risk and return.",
+  "draft": false,
+  "file": "/courses/15-401-finance-theory-i-fall-2008/637f2121ff813c0385c42c8f7d376761_MIT15_401F08_lec12.pdf",
+  "file_size": 440087,
+  "file_type": "application/pdf",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Lecture Notes"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Video Lectures and Slides",
+  "parent_type": "CourseSection",
+  "parent_uid": "cc3f05d9-f4e4-4ed3-db60-b79712de51f4",
+  "resourcetype": "Document",
+  "title": "Risk and Return Slides 1–35",
+  "uid": "637f2121-ff81-3c03-85c4-2c8f7d376761",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_thumbnail_file": "",
+    "video_transcript_file": ""
+  },
+  "video_metadata": {
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

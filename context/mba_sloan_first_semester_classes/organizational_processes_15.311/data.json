@@ -1,0 +1,95 @@
+{
+  "course_description": "Organizational Processes enhances students' ability to take effective action in complex organizational settings by providing the analytic tools needed to analyze, manage, and lead the organizations of the future. Emphasis is placed on the importance of the organizational context in influencing which individual styles and skills are effective. The subject centers on three complementary perspectives, or \"lenses\", on an organization: political, cultural, and strategic design. Students enrolled in this class are also jointly enrolled in [15.328](/courses/15-328-team-project-fall-2003/), Team Project, in order to complete a field study of an organizational change initiative. Organizational Processes also operates in conjunction with 15.280, Communication for Managers, by sharing certain assignments and holding some joint classes.",
+  "course_description_html": "Organizational Processes enhances students&rsquo; ability to take effective action in complex organizational settings by providing the analytic tools needed to analyze, manage, and lead the organizations of the future. Emphasis is placed on the importance of the organizational context in influencing which individual styles and skills are effective. The subject centers on three complementary perspectives, or &ldquo;lenses&rdquo;, on an organization: political, cultural, and strategic design. Students enrolled in this class are also jointly enrolled in <a href=\"https://ocw.mit.edu/courses/15-328-team-project-fall-2003/\" target=\"_blank\" rel=\"noopener\">15.328</a>, Team Project, in order to complete a field study of an organizational change initiative. Organizational Processes also operates in conjunction with 15.280, Communication for Managers, by sharing certain assignments and holding some joint classes.",
+  "course_image": {
+    "content": "ec142bf9-92f6-60fb-5202-7abeefb86161",
+    "website": "15-311-organizational-processes-fall-2003"
+  },
+  "course_image_metadata": {
+    "content_type": "resource",
+    "description": "A portion of a company's organizational chart, showing different people and departments. (Images courtesy of Matthew Palmer, U.S. Department of Energy, U.S. Department of Commerce, and U.S. Census Bureau.)",
+    "draft": false,
+    "file": "/courses/15-311-organizational-processes-fall-2003/ec142bf992f660fb52027abeefb86161_15-311f03.jpg",
+    "file_size": 122439,
+    "file_type": "image/jpeg",
+    "image_metadata": {
+      "caption": "A portion of a company's organizational chart, showing different people and departments. (Images courtesy of Matthew Palmer, {{% resource_link \"70470a75-aece-4503-aa37-736c715de11f\" \"U.S. Department of Energy\" %}}, {{% resource_link \"e646f872-4f62-418c-bd1f-8b7931a5ad1a\" \"U.S. Department of Commerce\" %}}, and {{% resource_link \"0e59ba6c-ac99-4fcf-91a3-0de676d1e047\" \"U.S. Census Bureau\" %}}.)",
+      "credit": "",
+      "image-alt": "Organizational chart."
+    },
+    "iscjklanguage": false,
+    "learning_resource_types": [],
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "ocw_type": "OCWImage",
+    "resourcetype": "Image",
+    "title": "Organizational Chart",
+    "uid": "ec142bf9-92f6-60fb-5202-7abeefb86161"
+  },
+  "course_image_thumbnail": {
+    "content": "86d744d4-5da3-9a9d-9477-6fa02f103872",
+    "website": "15-311-organizational-processes-fall-2003"
+  },
+  "course_title": "Organizational Processes",
+  "department_numbers": [
+    "15"
+  ],
+  "extra_course_numbers": "",
+  "image_src": "./static_resources/ec142bf992f660fb52027abeefb86161_15-311f03.jpg",
+  "instructors": [
+    {
+      "first_name": "John",
+      "last_name": "Van Maanen",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. John Van Maanen",
+      "uid": "e47152a6-23c9-35f4-67fc-9e93f2ea98f3",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+John+Van+Maanen"
+    },
+    {
+      "first_name": "Paul",
+      "last_name": "Carlile",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Paul Carlile",
+      "uid": "8c5245de-3de6-7aa2-f45c-b42be0fddbfa",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Paul+Carlile"
+    },
+    {
+      "first_name": "Roberto",
+      "last_name": "Fernandez",
+      "middle_initial": "",
+      "salutation": "Prof.",
+      "title": "Prof. Roberto Fernandez",
+      "uid": "376682a2-3689-22a7-812d-262bc38ff2de",
+      "url": "https://ocw.mit.edu/search/?q=Prof.+Roberto+Fernandez"
+    }
+  ],
+  "learning_resource_types": [
+    "Written Assignments"
+  ],
+  "legacy_uid": "943aab5a-6fbc-7c9d-dd85-9ad7946a8635",
+  "level": [
+    "Graduate"
+  ],
+  "primary_course_number": "15.311",
+  "site_short_id": "15.311-fall-2003",
+  "site_uid": "fd106335-0c53-4010-b501-f20854f17f4e",
+  "site_url_path": "courses/15-311-organizational-processes-fall-2003",
+  "term": "Fall",
+  "title": "Course Metadata",
+  "topics": [
+    [
+      "Business",
+      "Organizational Behavior"
+    ],
+    [
+      "Business",
+      "Management"
+    ],
+    [
+      "Business",
+      "Leadership"
+    ]
+  ],
+  "year": "2003"
+}

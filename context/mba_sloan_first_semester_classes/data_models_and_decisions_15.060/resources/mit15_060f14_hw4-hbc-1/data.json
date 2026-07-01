@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This is the special file regarding HBC.</p>\n",
+  "content_type": "resource",
+  "description": "This is the special file regarding HBC.",
+  "draft": false,
+  "file": "/courses/15-060-data-models-and-decisions-fall-2014/84657f6066c19bbaecddb68f464e3179_MIT15_060F14_HW4-HBC.xls",
+  "file_size": 26112,
+  "file_type": "application/vnd.ms-excel",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "f41b5b04-9595-61f9-fa4b-04cc5ceb0484",
+  "resourcetype": "Other",
+  "title": "MIT15_060F14_HW4-HBC.xls",
+  "uid": "84657f60-66c1-9bba-ecdd-b68f464e3179",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "15-060-data-models-and-decisions-fall-2014"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "15-060-data-models-and-decisions-fall-2014"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

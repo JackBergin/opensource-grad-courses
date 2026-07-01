@@ -1,0 +1,49 @@
+{
+  "audience": [],
+  "content": "<p>This is the special file regarding Dream.</p>\n",
+  "content_type": "resource",
+  "description": "This is the special file regarding Dream.",
+  "draft": false,
+  "file": "/courses/15-060-data-models-and-decisions-fall-2014/85d83619f93967d9aa90e1c7fc3c8c8b_MIT15_060F14_HW7-Dream.xls",
+  "file_size": 25600,
+  "file_type": "application/vnd.ms-excel",
+  "image_metadata": {
+    "caption": "",
+    "credit": "",
+    "image-alt": ""
+  },
+  "iscjklanguage": false,
+  "learning_resource_types": [
+    "Problem Sets"
+  ],
+  "level": [],
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "ocw_type": "OCWFile",
+  "parent_title": "Assignments",
+  "parent_type": "CourseSection",
+  "parent_uid": "f41b5b04-9595-61f9-fa4b-04cc5ceb0484",
+  "resourcetype": "Other",
+  "title": "MIT15_060F14_HW7-Dream.xls",
+  "uid": "85d83619-f939-67d9-aa90-e1c7fc3c8c8b",
+  "video_files": {
+    "archive_url": "",
+    "video_captions_file": "",
+    "video_captions_resource": {
+      "content": "",
+      "website": "15-060-data-models-and-decisions-fall-2014"
+    },
+    "video_thumbnail_file": "",
+    "video_transcript_file": "",
+    "video_transcript_resource": {
+      "content": "",
+      "website": "15-060-data-models-and-decisions-fall-2014"
+    }
+  },
+  "video_metadata": {
+    "source": "",
+    "video_speakers": "",
+    "video_tags": "",
+    "youtube_description": "",
+    "youtube_id": ""
+  }
+}

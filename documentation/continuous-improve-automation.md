@@ -12,11 +12,14 @@ Each run must:
 
 1. Read `AUTONOMOUS_STATUS.md`, `README.md`, `documentation/setup.md`, `documentation/architecture.md`, `documentation/seeding.md`, and `context/assessments/README.md`.
 2. Read any relevant nested `AGENTS.md` files for the area you touch.
-3. Choose the single best bounded improvement you can complete safely in this run.
-4. Implement the change end to end instead of only proposing it.
-5. Run the narrowest meaningful validation for the touched area.
-6. Update `AUTONOMOUS_STATUS.md` with what you changed, what you validated, whether seeding stayed source-only or ran against Supabase, any blockers, and the next 1-3 recommended tasks.
-7. If requirements are unclear, local services are unavailable, or a risky change would require guessing, stop and leave a precise handoff instead of forcing progress.
+3. Check git state and decide whether to continue the current WIP feature branch or create a new brief descriptive branch from `develop`.
+4. Choose the single best bounded improvement you can complete safely in this run.
+5. Implement the change end to end instead of only proposing it.
+6. Run the narrowest meaningful validation for the touched area.
+7. If the slice is complete, open a PR when possible and prepare the branch for merge back into `develop`.
+8. If the slice is not complete, write precise next-session notes saying whether the next run should continue this branch or start a new one.
+9. Update `AUTONOMOUS_STATUS.md` with what you changed, what you validated, whether seeding stayed source-only or ran against Supabase, branch/PR status, any blockers, and the next 1-3 recommended tasks.
+10. If requirements are unclear, local services are unavailable, or a risky change would require guessing, stop and leave a precise handoff instead of forcing progress.
 
 Priorities:
 
@@ -46,4 +49,5 @@ Output expectations:
 
 - leave the repo in a reviewable state
 - keep diffs focused
+- prefer named feature branches over detached work or ad hoc worktrees for routine runs
 - always finish by updating `AUTONOMOUS_STATUS.md`
