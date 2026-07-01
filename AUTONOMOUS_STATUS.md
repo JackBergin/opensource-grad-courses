@@ -137,3 +137,16 @@ When a run ends, append a new entry in this format:
   1. Open and review the PR for `codex/merge-mba-worktrees`.
   2. Decide whether to do the `middleware.ts` to `proxy.ts` cleanup as a follow-up slice.
   3. Merge the branch into `develop` once the combined worktree changes are approved.
+
+### 2026-07-01 09:20 EDT
+
+- Summary: Moved quiz grading and answer-key access to the server layer by adding a Next.js server action for authoritative scoring and attempt persistence, stripping `correct_answer` from the client-side question payload until after submission, and updating the quiz runner to consume server-returned review data.
+- Files changed: `AUTONOMOUS_STATUS.md`, `frontend/src/app/actions/submit-quiz-attempt.ts`, `frontend/src/app/courses/[slug]/quiz/[quizId]/page.tsx`, `frontend/src/components/QuizRunner.tsx`, `frontend/src/lib/quiz-review.ts`, `frontend/src/lib/quiz-review.test.ts`
+- Validation: `cd frontend && npm test` ✅, `cd frontend && npm run lint` ✅
+- Seeding status: source-only
+- Branch status: created `codex/server-side-quiz-grading`; continue this branch next run unless the slice is reviewed and merged first
+- Blockers: no immediate blocker; this hardens grading, but published quiz questions and post-submit answer reveal are still accessible to anyone who can submit the quiz
+- Next up:
+  1. Decide whether quiz submissions should require authentication instead of allowing anonymous grading without persistence.
+  2. Consider moving quiz attempt writes into a database function or transaction boundary so attempt and response inserts become fully atomic.
+  3. Review whether any additional quiz metadata should be hidden from the client before submission.
