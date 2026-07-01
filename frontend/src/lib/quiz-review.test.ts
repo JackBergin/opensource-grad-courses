@@ -3,10 +3,13 @@ import assert from "node:assert/strict";
 import type { QuizQuestion } from "@/types/database";
 import {
   buildQuizReviewState,
+  gradeQuizSubmission,
   getQuestionElementId,
   getQuestionHash,
   isAnswered,
   isCorrect,
+  prepareAnswers,
+  toPublicQuizQuestion,
 } from "./quiz-review.ts";
 
 const questions: QuizQuestion[] = [
@@ -22,9 +25,8 @@ const questions: QuizQuestion[] = [
     correct_answer: "b",
     explanation: null,
     difficulty: "medium",
-    points: 1,
     sort_order: 1,
-    created_at: null,
+    created_at: "2026-01-01T00:00:00Z",
   },
   {
     id: "q2",
@@ -39,9 +41,8 @@ const questions: QuizQuestion[] = [
     correct_answer: ["a", "c"],
     explanation: null,
     difficulty: "medium",
-    points: 1,
     sort_order: 2,
-    created_at: null,
+    created_at: "2026-01-01T00:00:00Z",
   },
   {
     id: "q3",
@@ -52,9 +53,8 @@ const questions: QuizQuestion[] = [
     correct_answer: "A thoughtful response",
     explanation: null,
     difficulty: "medium",
-    points: 1,
     sort_order: 3,
-    created_at: null,
+    created_at: "2026-01-01T00:00:00Z",
   },
 ];
 
@@ -74,39 +74,75 @@ test("isCorrect handles multi-select answers independent of order", () => {
   assert.equal(isCorrect(questions[1], ["a"]), false);
 });
 
-test("buildQuizReviewState computes progress and review lists", () => {
+test("prepareAnswers filters invalid option ids and trims strings", () => {
+  const prepared = prepareAnswers(questions, {
+    q1: "b",
+    q2: ["a", "nope", "c", "a"],
+    q3: "  My reflection  ",
+  });
+
+  assert.deepEqual(prepared, {
+    q1: "b",
+    q2: ["a", "c"],
+    q3: "My reflection",
+  });
+});
+
+test("gradeQuizSubmission computes score and review ids", () => {
+  const result = gradeQuizSubmission(questions, {
+    q1: "b",
+    q2: ["a"],
+    q3: "My reflection",
+  });
+
+  assert.equal(result.answeredCount, 3);
+  assert.equal(result.gradableCount, 2);
+  assert.equal(result.reflectionCount, 1);
+  assert.equal(result.correctCount, 1);
+  assert.equal(result.score, 50);
+  assert.deepEqual(result.unansweredGradableQuestionIds, []);
+  assert.deepEqual(result.incorrectGradableQuestionIds, ["q2"]);
+  assert.deepEqual(result.reflectionQuestionIds, ["q3"]);
+});
+
+test("buildQuizReviewState uses submission results without exposing answers pre-submit", () => {
+  const publicQuestions = questions.map(toPublicQuizQuestion);
+  const submission = gradeQuizSubmission(questions, {
+    q1: "b",
+    q2: ["a"],
+    q3: "My reflection",
+  });
+
   const state = buildQuizReviewState(
-    questions,
+    publicQuestions,
     {
       q1: "b",
       q2: ["a"],
       q3: "My reflection",
     },
-    true,
+    submission,
   );
 
-  assert.equal(state.answeredCount, 3);
-  assert.equal(state.gradableCount, 2);
-  assert.equal(state.reflectionCount, 1);
-  assert.equal(state.correctCount, 1);
   assert.equal(state.score, 50);
-  assert.deepEqual(state.unansweredGradableQuestions.map((q) => q.id), []);
-  assert.deepEqual(state.incorrectGradableQuestions.map((q) => q.id), ["q2"]);
-  assert.deepEqual(state.reflectionQuestions.map((q) => q.id), ["q3"]);
+  assert.equal(state.correctCount, 1);
+  assert.deepEqual(state.unansweredGradableQuestions.map((question) => question.id), []);
+  assert.deepEqual(state.incorrectGradableQuestions.map((question) => question.id), ["q2"]);
+  assert.deepEqual(state.reflectionQuestions.map((question) => question.id), ["q3"]);
 });
 
 test("buildQuizReviewState does not expose incorrect lists before submit", () => {
+  const publicQuestions = questions.map(toPublicQuizQuestion);
   const state = buildQuizReviewState(
-    questions,
+    publicQuestions,
     {
       q1: "b",
     },
-    false,
+    null,
   );
 
   assert.equal(state.score, null);
   assert.equal(state.correctCount, 0);
-  assert.deepEqual(state.unansweredGradableQuestions.map((q) => q.id), ["q2"]);
+  assert.deepEqual(state.unansweredGradableQuestions.map((question) => question.id), ["q2"]);
   assert.deepEqual(state.incorrectGradableQuestions, []);
   assert.deepEqual(state.reflectionQuestions, []);
 });

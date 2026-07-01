@@ -1,44 +1,50 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useTransition } from "react";
 import Link from "next/link";
-import { createClient } from "@/lib/supabase/client";
-import type { Quiz, QuizQuestion, QuizOption } from "@/types/database";
+import type { QuizOption } from "@/types/database";
 import {
   buildQuizReviewState,
   getQuestionElementId,
   getQuestionHash,
   isAnswered,
-  isCorrect,
   type Answer,
+  type PublicQuizQuestion,
+  type QuizQuestionResult,
+  type QuizSubmissionResponse,
 } from "@/lib/quiz-review";
 
 interface Props {
-  quiz: Quiz;
-  questions: QuizQuestion[];
-  userId: string | null;
+  questions: PublicQuizQuestion[];
+  isAuthenticated: boolean;
   courseSlug: string;
+  submitQuizAttemptAction: (input: {
+    startedAt: number;
+    answers: Record<string, Answer>;
+  }) => Promise<QuizSubmissionResponse>;
   previousAttemptCount?: number;
   bestScore?: number | null;
   latestScore?: number | null;
 }
 
 export default function QuizRunner({
-  quiz,
   questions,
-  userId,
+  isAuthenticated,
   courseSlug,
+  submitQuizAttemptAction,
   previousAttemptCount = 0,
   bestScore = null,
   latestScore = null,
 }: Props) {
   const [answers, setAnswers] = useState<Record<string, Answer>>({});
-  const [submitted, setSubmitted] = useState(false);
+  const [submission, setSubmission] = useState<Extract<QuizSubmissionResponse, { ok: true }>["result"] | null>(null);
   const [submitAttempted, setSubmitAttempted] = useState(false);
   const [activeQuestionId, setActiveQuestionId] = useState<string | null>(null);
-  const [loading, setLoading] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
+  const [saveStatusMessage, setSaveStatusMessage] = useState<string | null>(null);
   const [startedAt, setStartedAt] = useState(() => Date.now());
+  const [isPending, startTransition] = useTransition();
+  const submitted = submission !== null;
 
   const handleAnswer = (questionId: string, value: string, type: string) => {
     if (submitted) return;
@@ -91,11 +97,12 @@ export default function QuizRunner({
   }, []);
 
   const handleSubmit = async () => {
-    if (loading) return;
+    if (isPending) return;
     setSubmitAttempted(true);
 
     const unansweredGradableQuestions = questions.filter(
-      (q) => q.question_type !== "short_answer" && !isAnswered(answers[q.id])
+      (question) =>
+        question.question_type !== "short_answer" && !isAnswered(answers[question.id]),
     );
 
     if (unansweredGradableQuestions.length > 0) {
@@ -104,72 +111,33 @@ export default function QuizRunner({
       return;
     }
 
-    setLoading(true);
     setSubmitError(null);
+    setSaveStatusMessage(null);
 
-    const correctCount = questions.filter((q) =>
-      q.question_type !== "short_answer" && isCorrect(q, answers[q.id] ?? "")
-    ).length;
-    const gradableCount = questions.filter((q) => q.question_type !== "short_answer").length;
-    const score = gradableCount > 0 ? (correctCount / gradableCount) * 100 : null;
-    const timeTakenSeconds = Math.max(1, Math.round((Date.now() - startedAt) / 1000));
+    startTransition(async () => {
+      const response = await submitQuizAttemptAction({
+        startedAt,
+        answers,
+      });
 
-    try {
-      if (userId) {
-        const supabase = createClient();
-        if (!supabase) {
-          throw new Error("Supabase is not configured");
+      if (!response.ok) {
+        setSubmitError(response.message);
+        if (response.unansweredQuestionIds?.[0]) {
+          scrollToQuestion(response.unansweredQuestionIds[0]);
         }
-
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        const { data: attempt, error: attemptError } = await (supabase.from("quiz_attempts") as any)
-          .insert({
-            user_id: userId,
-            quiz_id: quiz.id,
-            score,
-            total_q: gradableCount,
-            correct_q: correctCount,
-            started_at: new Date(startedAt).toISOString(),
-            completed_at: new Date().toISOString(),
-            time_taken_s: timeTakenSeconds,
-          })
-          .select("id")
-          .single();
-
-        if (attemptError) {
-          throw attemptError;
-        }
-
-        if (attempt) {
-          const att = attempt as { id: string };
-
-          const responses = questions.map((q) => ({
-            attempt_id: att.id,
-            question_id: q.id,
-            user_answer: answers[q.id] ?? null,
-            is_correct: q.question_type !== "short_answer"
-              ? isCorrect(q, answers[q.id] ?? "")
-              : null,
-          }));
-
-          // eslint-disable-next-line @typescript-eslint/no-explicit-any
-          const { error: responseError } = await (supabase.from("quiz_responses") as any).insert(responses);
-          if (responseError) {
-            throw responseError;
-          }
-        }
+        return;
       }
-    } catch {
-      setSubmitError(
-        "We couldn't save this attempt right now. Your score is shown below, but it wasn't added to your dashboard."
+
+      setSubmission(response.result);
+      setSaveStatusMessage(
+        isAuthenticated
+          ? response.saveError ?? "This attempt was saved to your dashboard."
+          : "Sign in to save attempts and track progress over time.",
       );
-    } finally {
-      setSubmitted(true);
-      setLoading(false);
-    }
+    });
   };
 
-  const reviewState = buildQuizReviewState(questions, answers, submitted);
+  const reviewState = buildQuizReviewState(questions, answers, submission);
   const {
     answeredCount,
     gradableCount,
@@ -224,6 +192,13 @@ export default function QuizRunner({
         </div>
       )}
 
+      {!submitted && submitError && (
+        <div className="border border-[var(--color-accent)] bg-[#FBF2F0] p-5 mb-10">
+          <p className="eyebrow mb-2 text-[var(--color-accent)]">Submission blocked</p>
+          <p className="text-sm text-[var(--color-muted)] leading-relaxed">{submitError}</p>
+        </div>
+      )}
+
       {/* Score banner (after submission) */}
       {submitted && score !== null && (
         <div className="border border-[var(--color-ink)] p-6 mb-10">
@@ -236,9 +211,7 @@ export default function QuizRunner({
             {correctCount} of {gradableCount} correct
           </p>
           <p className="text-[var(--color-muted)] text-sm mt-2">
-            {userId
-              ? submitError ?? "This attempt was saved to your dashboard."
-              : "Sign in to save attempts and track progress over time."}
+            {saveStatusMessage}
           </p>
 
           {(incorrectGradableQuestions.length > 0 || reflectionQuestions.length > 0) && (
@@ -312,6 +285,7 @@ export default function QuizRunner({
             submitted={submitted}
             submitAttempted={submitAttempted}
             isActiveReviewTarget={activeQuestionId === q.id}
+            questionResult={submission?.questionResults[q.id]}
           />
         ))}
       </div>
@@ -321,19 +295,20 @@ export default function QuizRunner({
         {!submitted ? (
           <button
             onClick={handleSubmit}
-            disabled={loading}
+            disabled={isPending}
             className="btn"
           >
-            {loading ? "Submitting…" : "Submit answers"}
+            {isPending ? "Submitting…" : "Submit answers"}
           </button>
         ) : (
           <>
             <button
               onClick={() => {
                 setAnswers({});
-                setSubmitted(false);
+                setSubmission(null);
                 setSubmitAttempted(false);
                 setSubmitError(null);
+                setSaveStatusMessage(null);
                 setStartedAt(Date.now());
               }}
               className="btn"
@@ -345,7 +320,7 @@ export default function QuizRunner({
             </Link>
           </>
         )}
-        {!userId && (
+        {!isAuthenticated && (
           <p className="text-sm text-[var(--color-muted)]">
             <Link href="/auth/sign-in" className="link">
               Sign in
@@ -366,18 +341,20 @@ function QuestionBlock({
   submitted,
   submitAttempted,
   isActiveReviewTarget,
+  questionResult,
 }: {
-  question: QuizQuestion;
+  question: PublicQuizQuestion;
   index: number;
   answer: Answer | undefined;
   onAnswer: (id: string, value: string, type: string) => void;
   submitted: boolean;
   submitAttempted: boolean;
   isActiveReviewTarget: boolean;
+  questionResult?: QuizQuestionResult;
 }) {
   const hasAnswer = isAnswered(answer);
   const correct = submitted && question.question_type !== "short_answer"
-    ? isCorrect(question, answer ?? "")
+    ? questionResult?.isCorrect ?? false
     : null;
   const showMissingState =
     submitAttempted && !submitted && question.question_type !== "short_answer" && !hasAnswer;
@@ -423,7 +400,9 @@ function QuestionBlock({
           ).map((opt) => {
             const selected = answer === opt.id;
             const isThisCorrect =
-              submitted && String(question.correct_answer) === opt.id;
+              submitted &&
+              !Array.isArray(questionResult?.correctAnswer) &&
+              String(questionResult?.correctAnswer) === opt.id;
             const isThisWrong = submitted && selected && !isThisCorrect;
 
             return (
@@ -461,8 +440,8 @@ function QuestionBlock({
             const selected = Array.isArray(answer) && answer.includes(opt.id);
             const isThisCorrect =
               submitted &&
-              Array.isArray(question.correct_answer) &&
-              question.correct_answer.includes(opt.id);
+              Array.isArray(questionResult?.correctAnswer) &&
+              questionResult.correctAnswer.includes(opt.id);
             const isThisWrong = submitted && selected && !isThisCorrect;
 
             return (
@@ -505,7 +484,7 @@ function QuestionBlock({
             <div className="mt-3 border-l-2 border-[var(--color-rule)] pl-4">
               <p className="eyebrow mb-1">Expected answer</p>
               <p className="text-sm text-[var(--color-muted)]">
-                {String(question.correct_answer)}
+                {String(questionResult?.correctAnswer ?? "")}
               </p>
             </div>
           )}

@@ -1,6 +1,8 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { submitQuizAttempt } from "@/app/actions/submit-quiz-attempt";
 import { createClient } from "@/lib/supabase/server";
+import { toPublicQuizQuestion } from "@/lib/quiz-review";
 import type { Quiz, QuizQuestion } from "@/types/database";
 import QuizRunner from "@/components/QuizRunner";
 
@@ -44,6 +46,7 @@ export default async function QuizPage({
 
   if (!questionsData || questionsData.length === 0) notFound();
   const questions = questionsData as unknown as QuizQuestion[];
+  const publicQuestions = questions.map(toPublicQuizQuestion);
 
   const { data: { user } } = await supabase.auth.getUser();
   let previousAttemptCount = 0;
@@ -106,10 +109,10 @@ export default async function QuizPage({
       <hr className="rule mb-10" />
 
       <QuizRunner
-        quiz={quiz}
-        questions={questions}
-        userId={user?.id ?? null}
+        questions={publicQuestions}
+        isAuthenticated={Boolean(user)}
         courseSlug={slug}
+        submitQuizAttemptAction={submitQuizAttempt.bind(null, quiz.id)}
         previousAttemptCount={previousAttemptCount}
         bestScore={bestScore}
         latestScore={latestScore}
